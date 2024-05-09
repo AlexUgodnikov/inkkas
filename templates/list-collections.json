@@ -1,0 +1,151 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "collection_adAqXr": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-sneakers"
+          }
+        },
+        "collection_3fEg3G": {
+          "type": "collection",
+          "settings": {
+            "collection": "slip-on"
+          }
+        },
+        "collection_7REBVj": {
+          "type": "collection",
+          "settings": {
+            "collection": "camping-boot"
+          }
+        },
+        "collection_DAd8fz": {
+          "type": "collection",
+          "settings": {
+            "collection": "high-tops-and-low-tops"
+          }
+        },
+        "collection_Nr4EDJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "booties"
+          }
+        },
+        "collection_DBBQAx": {
+          "type": "collection",
+          "settings": {
+            "collection": "mothers-day-collection"
+          }
+        },
+        "collection_mN93bU": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "the-radiance-collection-1"
+          }
+        },
+        "collection_gtXAVR": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "the-kindred-spirits-collection"
+          }
+        },
+        "collection_E9zUQF": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "the-brava-collection"
+          }
+        },
+        "collection_XBLLWi": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "the-contours-collection"
+          }
+        },
+        "collection_eAyFD3": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "the-equanimity-collection"
+          }
+        },
+        "collection_phDbBw": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection_PUe7mb": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "the-ethos-collection"
+          }
+        },
+        "collection_LzF6NK": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "the-revival-collection"
+          }
+        },
+        "collection_JTmnW8": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "the-serenity-collection"
+          }
+        },
+        "collection_NBYBfc": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "badass-collection"
+          }
+        }
+      },
+      "block_order": [
+        "collection_adAqXr",
+        "collection_3fEg3G",
+        "collection_7REBVj",
+        "collection_DAd8fz",
+        "collection_Nr4EDJ",
+        "collection_DBBQAx",
+        "collection_mN93bU",
+        "collection_gtXAVR",
+        "collection_E9zUQF",
+        "collection_XBLLWi",
+        "collection_eAyFD3",
+        "collection_phDbBw",
+        "collection_PUe7mb",
+        "collection_LzF6NK",
+        "collection_JTmnW8",
+        "collection_NBYBfc"
+      ],
+      "settings": {
+        "heading": "SHOP BY COLLECTION",
+        "heading_left": false,
+        "description": "<p>Explore all of our global collections. <\/p>",
+        "full_width": true,
+        "sort": "date_reversed",
+        "image_ratio": "square",
+        "style": "style2",
+        "columns_desktop": 3,
+        "collection_list_pagination_num": 12,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

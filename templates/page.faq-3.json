@@ -1,0 +1,287 @@
+{
+  "sections": {
+    "16618629918566dc27": {
+      "type": "rich-text",
+      "blocks": {
+        "1661862991ee6f499c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "F.A.Q.",
+            "size": "h2"
+          }
+        },
+        "1661862991ee6f499c-2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "1661862991ee6f499c-1",
+        "1661862991ee6f499c-2"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166186303682d7c655": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 15,
+        "spacer_desktop": 35,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why the name “Inkkas”?",
+            "open": true,
+            "content": "<p>We set out to build a brand that connects our planet and people through artful footwear. When Inkkas was founded in 2012, we partnered with skilled artisan shoemakers in Peru to create our first classic sneakers using authentic Peruvian textiles. Our name honors our roots in Latin America, and reflects our identity as an inclusive and global brand that celebrates nature and art around the world.<\/p>",
+            "page": ""
+          }
+        },
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How does my purchase help reforestation?",
+            "open": false,
+            "content": "<p>It is thanks to our partnership with<em>Trees for The Future  <\/em>(<a href=\"https:\/\/trees.org\/\">https:\/\/trees.org<\/a>), an award-winning global tree planting organization, that we can guarantee you that your purchase will directly allow for a new tree to be planted on the planet.  With your support, Inkkas has been responsible for planting more than 380K trees as of 2024.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Bp9Tpx": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Where does Inkkas ship?",
+            "open": false,
+            "content": "<p>Inkkas is able to ship worldwide via UPS or USPS for domestic orders, DHL Express Worldwide for non-Canada international orders, and via USPS Priority International for Canada orders. <\/p><ul><li>DHL Express Worldwide rates vary depending upon what country the items are being shipped to.<\/li><li>International (DHL) orders are not eligible for free shipping discounts. <\/li><li>Please allow an extra business day for customs paperwork processing when ordering to ship international. <\/li><li>Please also note Inkkas is not liable for any customs taxes or duties on outbound shipments to international customers. Customs taxes and duties are the sole responsibility of the recipient.<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "I just ordered my shoes. When will they arrive?",
+            "open": false,
+            "content": "<p>If you selected Regular US Ground Shipping, your order will arrive within 5-7 business days from the time your order ships from our warehouse. Please note that this does not account for the 1-2 business day processing time once your order is placed. Specific transit times vary according to shipping destination. <\/p><p>Pre-ordered items will ship according to the date stated on the product page at the time of purchase.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_mLFbJi": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Oh no! I made a mistake in my order. what should I do?",
+            "open": false,
+            "content": "<p>Don't worry! If you made a mistake in your order such as putting in the wrong shipping address or choosing the wrong size, please contact <a href=\"mailto:support@inkkas.com\">support@inkkas.com<\/a> as soon as possible and we will do everything we can to correct your order if it has not already been shipped.<\/p>",
+            "page": ""
+          }
+        },
+        "fa2985e2-4983-462b-80c8-596d4ae47540": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How Can I Track My Order?",
+            "open": false,
+            "content": "<p>Once your product ships, you will receive an email with tracking information. <\/p>",
+            "page": ""
+          }
+        },
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "I just ordered a pre-order item. when will it arrive?",
+            "open": false,
+            "content": "<p>Your pre-ordered shoes will be shipped according to the date stated on the product page. If you do not recall the estimated shipping date, feel free to request an ETA for your order from our customer service team at <a href=\"mailto:support@inkkas.com\">support@inkkas.com<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_hdBAQQ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "I have a sizing question. Who can help?",
+            "open": false,
+            "content": "<p>We created detailed size guides on each product page for your quick reference. Please refer to those for size and fit information for a particular shoe. If you still have questions or need guidance, feel free to email <a href=\"mailto:support@inkkas.com\">support@inkkas.com<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ehX8KC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Does Inkkas carry sizes for people with wide feet?",
+            "open": false,
+            "content": "<p>At this time, Inkkas only makes shoes in “regular” standard widths. We do not currently offer wide sizes. However, the construction of our <a href=\"https:\/\/inkkas.com\/collections\/jogger-1\">Joggers<\/a> and <a href=\"https:\/\/inkkas.com\/collections\/slip-on\">Slip Ons<\/a> collections tend to accommodate wider feet. We recommend giving these a try!<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_tMWDWN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The shoes I want are listed as \"Out of Stock\" or “Sold Out” — when will you be getting it again?",
+            "open": false,
+            "content": "<p>If your shoes are currently not in stock, please join the waitlist on the product page to be alerted for a restock, or check back in a few days. Our collections are often made in small batches, but we receive shipments regularly.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_AyhLja": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Are Inkkas shoes designed for performance, like hiking or running?",
+            "open": false,
+            "content": "<p>All of our shoes, including our Joggers, Runners, Camping Boots and Trekks, are designed as comfortable lifestyle footwear. They are made to be comfortable and durable – and many have found them to be great for long walks or casual jogs and hikes, depending on specific needs.  However, they are not designed as technical performance footwear.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_iYGgP9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "I got my Inkkas shoes dirty. How should I clean them?",
+            "open": false,
+            "content": "<p>We do not recommend putting Inkkas shoes in the washing machine. To keep your Inkkas clean and looking good, we recommend spot cleaning them with a rag and a little soap and water. (For leather areas, spot clean with water only or use a specialized leather cleaner.) Please refer to the Care Instructions on the product page for more information. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_dUeCxn": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Are Inkkas waterproof? ",
+            "open": false,
+            "content": "<p>While Inkkas shoes are not waterproof, they are water-resistant. This means they will resist the intrusion of light water (yes, you can stroll around on rainy days). However, if you plan to take them into inclement weather, we recommend using this <a href=\"https:\/\/inkkas.com\/products\/nikwax-fabric-leather-proof-spray?_pos=1&_sid=fd960d240&_ss=r\">spray-on protectant<\/a> to further protect or waterproof your shoes.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_kDttFC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do Inkkas shoes have arch support?",
+            "open": false,
+            "content": "<p>Yes, Inkkas provide arch support that is sufficient for the curvature of the average foot.<\/p><p>However, if you typically wear orthopedic insoles in your shoes, you may want to use orthopedic insoles in your Inkkas as well. Inkkas' insoles are removable to make room for orthopedic inserts for the following collections: Slip Ons, High Tops, Low Tops, Camping Boots, and Trekk Boots.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_6LJF3h": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Where are Inkkas shoes made?",
+            "open": false,
+            "content": "<p>All of our shoes are handmade in Mexico. Our signature woven textiles are supplied from local artisans and professionals in Peru. When you buy our shoes, you are buying an authentic, quality Latin American product.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_QLbyzc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What does “handcrafted” mean?",
+            "open": false,
+            "content": "<p>Our footwear designs rely on age-old, small batch craft techniques that are better for people and the planet. We use the finest textiles, leathers and vegan leathers to develop comfortable and vibrant shoes, all crafted by hand.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_YW6Xi6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How are shoemakers who work with Inkkas paid?",
+            "open": false,
+            "content": "<p>Our partners throughout the supply chain are paid fair living wages and work in environments that prioritize health, safety, and respect.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_U7CwPr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "I would like to buy an Inkkas gift certificate to offer as a gift. How do I do that?",
+            "open": false,
+            "content": "<p>Gifts certificates are available <a href=\"https:\/\/inkkas.com\/products\/gift-card?gclid=Cj0KCQjwntCVBhDdARIsAMEwACm0EybxtLFbbFuZXB6TJAkrnLCxpq0_-M9M9_XQbuRr4MSTOoEfCwwaAsEcEALw_wcB\">here<\/a>. You can also find them under the shop tab on the website. They are a great gift option for holidays and birthdays! <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_wAkQAF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What can I do with old Inkkas I no longer wear? ",
+            "open": false,
+            "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. There are quality programs across the country and donation centers that will take used shoes. Our partner organization that does a great job taking used shoes and repurposing them is Soles4Souls (<a href=\"https:\/\/soles4souls.org\/\">https:\/\/soles4souls.org<\/a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. <\/p>",
+            "page": ""
+          }
+        },
+        "5f34dba8-15e0-4aac-91f7-5a103657361d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Which Payment Methods Do You Accept?",
+            "open": false,
+            "content": "<p>Habitat accepts the following payment methods for online purchases:<br\/><br\/>• All major credit cards, as shown at checkout<\/p><p>• PayPal: if you do not have an account yet, you can create one while shopping with us<\/p><p>• Apple Pay, Google Pay, Samsung Pay<\/p><p><\/p><p><\/p><p>Habitat has created a universal sizing system that aims to provide a unique reference for all countries. You can easily spot the best size for you by referring to our Size Guide that provides a conversion table to all major country size systems. <\/p><p>The Size Guide is conveniently available on the page of each product.<\/p><p>Please note that your billing address must match the address on your credit card statement.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_NjzrQR": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "I have contacted Inkkas customer service, when will I hear back?",
+            "open": false,
+            "content": "<p>Inkkas support agents are available between 9:00 AM to 5:00 PM EST, Monday to Friday. We are committed to responding to inquiries within 24 to 48 hours during business hours. You can reach us at <a href=\"mailto:support@inkkas.com\">support@inkkas.com<\/a>.  Please note that we do not respond to inquiries during weekends and\/or holidays. For urgent matters, you can also email ops@inkkas.com.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_fzpcjJ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Who owns Inkkas?",
+            "open": false,
+            "content": "<p>Inkkas is owned & operated by a diverse collective of individuals – artists, designers, builders, and dreamers – who have rallied together to craft our collections and build this unique brand mission. Our team brings perspectives from around the world through rich histories, experiences, traditions and cultures. We are united by our shared belief in the transformative power of globally inclusive representation in art and stories, which come together in our artful footwear designs!<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
+        "collapsible_tab_Bp9Tpx",
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
+        "collapsible_tab_mLFbJi",
+        "fa2985e2-4983-462b-80c8-596d4ae47540",
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f",
+        "collapsible_tab_hdBAQQ",
+        "collapsible_tab_ehX8KC",
+        "collapsible_tab_tMWDWN",
+        "collapsible_tab_AyhLja",
+        "collapsible_tab_iYGgP9",
+        "collapsible_tab_dUeCxn",
+        "collapsible_tab_kDttFC",
+        "collapsible_tab_6LJF3h",
+        "collapsible_tab_QLbyzc",
+        "collapsible_tab_YW6Xi6",
+        "collapsible_tab_U7CwPr",
+        "collapsible_tab_wAkQAF",
+        "5f34dba8-15e0-4aac-91f7-5a103657361d",
+        "collapsible_tab_NjzrQR",
+        "collapsible_tab_fzpcjJ"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "uppercase_heading": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "16618629918566dc27",
+    "166186303682d7c655",
+    "faq"
+  ]
+}

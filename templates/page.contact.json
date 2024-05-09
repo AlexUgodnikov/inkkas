@@ -1,0 +1,109 @@
+{
+  "sections": {
+    "1661619382b4020fa2": {
+      "type": "rich-text",
+      "blocks": {
+        "166161938159ca8988-1": {
+          "type": "heading",
+          "settings": {
+            "text": "CONTACT US",
+            "size": "h1"
+          }
+        },
+        "166161938159ca8988-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We'd love to hear from you! Drop us a note below and we'll get back to you shortly. Also, the answer to your question may be in our FAQs page here.<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "166161938159ca8988-1",
+        "166161938159ca8988-2"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "contact_form_CkMRwr": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "show_phone_number": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "text_with_icons_WDTnYe": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_YCC9wC": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "CUSTOMER SUPPORT",
+            "text": "<p>Mon - Sat, 9am - 5pm<\/p>"
+          }
+        },
+        "icon_x6kFrf": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "SIZE GUIDES",
+            "text": "<p>available on every product page<\/p>"
+          }
+        },
+        "icon_gAgznN": {
+          "type": "icon",
+          "settings": {
+            "icon": "box",
+            "heading": "FREE SHIPPING",
+            "text": "<p>for orders of $175+ plus expedited shipping available to most regions.<\/p>"
+          }
+        },
+        "icon_Rfnaxj": {
+          "type": "icon",
+          "settings": {
+            "icon": "return",
+            "heading": "FREE & EASY RETURNS",
+            "text": "<p>for 7 days from delivery. No questions asked.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_YCC9wC",
+        "icon_x6kFrf",
+        "icon_gAgznN",
+        "icon_Rfnaxj"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "large",
+        "heading_size": "medium",
+        "mobile_swipe": true,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#151515",
+        "color_text": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "1661619382b4020fa2",
+    "contact_form_CkMRwr",
+    "text_with_icons_WDTnYe"
+  ]
+}

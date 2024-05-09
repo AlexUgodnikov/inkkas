@@ -1,0 +1,77 @@
+{
+  "type": "header",
+  "name": "Footer group",
+  "sections": {
+    "email_signup_PUxWJB": {
+      "type": "email-signup",
+      "settings": {
+        "heading": "Want more?",
+        "description": "<p>Enjoy 15% off your first purchase when you subscribe to our e-mails.<\/p>",
+        "color_bg": "#4e584a",
+        "color_text": "#ffffff",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "menu_8fj8kU": {
+          "type": "menu",
+          "settings": {
+            "column_size": "small",
+            "title": "SHOP",
+            "menu": "footer"
+          }
+        },
+        "401e3886-6cb7-4742-8fda-45a0d97a26a3": {
+          "type": "menu",
+          "settings": {
+            "column_size": "medium",
+            "title": "ABOUT",
+            "menu": "about"
+          }
+        },
+        "00a364e5-af4e-4073-871b-4d533bd4da06": {
+          "type": "menu",
+          "settings": {
+            "column_size": "medium",
+            "title": "SUPPORT",
+            "menu": "help"
+          }
+        },
+        "text_FE9xiV": {
+          "type": "text",
+          "settings": {
+            "column_size": "medium",
+            "title": "FOLLOW US",
+            "image": "shopify:\/\/shop_images\/inkkasblack_9292de40-7bd9-493f-8c9e-6d4eece2cd1c.png",
+            "text": "",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "https:\/\/phuyupata.myshopify.com\/pages\/brand-ambassador",
+            "show_social_links": true
+          }
+        }
+      },
+      "block_order": [
+        "menu_8fj8kU",
+        "401e3886-6cb7-4742-8fda-45a0d97a26a3",
+        "00a364e5-af4e-4073-871b-4d533bd4da06",
+        "text_FE9xiV"
+      ],
+      "settings": {
+        "full_width": true,
+        "copyright_text": "All rights reserved.",
+        "show_language_switcher": false,
+        "show_currency_switcher": false,
+        "show_payment_icons": true,
+        "enable_follow_on_shop": false
+      }
+    }
+  },
+  "order": [
+    "email_signup_PUxWJB",
+    "footer"
+  ]
+}

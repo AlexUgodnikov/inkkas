@@ -1,0 +1,623 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {}
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "uppercase": true,
+            "show_products_rating": true
+          }
+        },
+        "inventory_level_fzPXF6": {
+          "type": "inventory_level",
+          "disabled": true,
+          "settings": {
+            "show_inventory_notice": "always",
+            "show_inventory_count": "always",
+            "inventory_notice_pulse": true,
+            "inventory_notice_bar": true,
+            "inventory_notice_threshold": 10,
+            "inventory_notice_base": 20
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_picker_size": "regular",
+            "color_picker_use_variants": true,
+            "variant_is_disabled": true,
+            "sizing_guide_variant": "Size",
+            "sizing_guide_text": "Size guide",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": "high-top-size-chart"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "405a9ed0-786a-4f4d-ad46-566990341d8a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "open": true,
+            "content": "",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "description_XeDfnm": {
+          "type": "description",
+          "settings": {}
+        },
+        "390def07-18af-4bb9-8bf4-c6bf80c6211d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size & Fit",
+            "open": false,
+            "content": "<p>These shoes fit true to size. Questions about fit? View our <a href=\"\/pages\/high-top-size-chart\" title=\"Size Guide - High Tops\">size guide here<\/a> or email support@inkkas.com. <\/p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "b16fcef7-3316-44a4-9f80-205682253cb5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "open": false,
+            "content": "<p><strong>Free Shipping: <\/strong>Free USPS ground shipping on orders of $175 or more is automatically applied at checkout.<br\/><br\/><strong>Shipping Options<\/strong>: We offer USPS ground shipping and UPS 2-Day Air options. Orders are processed the  business day after placement. <\/p><p><strong>Returns<\/strong>: We offer FREE RETURNS and exchanges within 7 days of delivery. View our full return policy here.<\/p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_a6C6rR": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Guide",
+            "open": false,
+            "content": "",
+            "page": "care-instructions-ht",
+            "custom_liquid": ""
+          }
+        },
+        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
+          "type": "side_panel",
+          "disabled": true,
+          "settings": {
+            "side_panel_1_label": "Materials",
+            "side_panel_1_icon": "leather",
+            "side_panel_1_content": "",
+            "side_panel_1_page": "",
+            "side_panel_2_label": "Shipping & Returns",
+            "side_panel_2_icon": "box",
+            "side_panel_2_content": "",
+            "side_panel_2_page": "",
+            "side_panel_3_label": "Care Guide",
+            "side_panel_3_icon": "washing",
+            "side_panel_3_content": "",
+            "side_panel_3_page": "high-top-size-chart"
+          }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "inventory_level_fzPXF6",
+        "variant_picker",
+        "buy_buttons",
+        "405a9ed0-786a-4f4d-ad46-566990341d8a",
+        "description_XeDfnm",
+        "390def07-18af-4bb9-8bf4-c6bf80c6211d",
+        "b16fcef7-3316-44a4-9f80-205682253cb5",
+        "collapsible_tab_a6C6rR",
+        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
+      ],
+      "settings": {
+        "full_width": true,
+        "enable_sticky_info": true,
+        "enable_sticky_add_to_cart": true,
+        "show_taxes_included": true,
+        "media_layout": "grid",
+        "display_slider_pagination": true,
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false
+      }
+    },
+    "16623877721f33fb14": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 90,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "YOU MAY ALSO LIKE",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "recently_viewed_products_U93AeH": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "heading": "RECENTLY VIEWED",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "text_with_icons_KR3Upc": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_G6nEfT": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "heading": "GET REWARDED",
+            "text": "<p>Earn points & exclusive rewards every time you shop. <a href=\"\/pages\/rewards\" target=\"_blank\" title=\"REWARDS\">Sign in<\/a> or sign up.<\/p>"
+          }
+        },
+        "icon_djMLpV": {
+          "type": "icon",
+          "settings": {
+            "icon": "shoe",
+            "heading": "GO SMALL",
+            "text": "<p>To minimize our carbon footprint & reduce waste, we limit productions to small batches & offer pre-order for upcoming productions. <\/p>"
+          }
+        },
+        "icon_A6cCAN": {
+          "type": "icon",
+          "settings": {
+            "icon": "plant",
+            "heading": "YOUR SHOE PLANTS A TREE",
+            "text": "<p>With Trees.org, we plant 1 tree for every purchase.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_G6nEfT",
+        "icon_djMLpV",
+        "icon_A6cCAN"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "large",
+        "heading_size": "medium",
+        "mobile_swipe": false,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#151515",
+        "color_text": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1713381517b7d5641a": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_widget_mwynnk": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_widget_mwynnk"
+      ],
+      "settings": {}
+    },
+    "dde9ae02-7832-4b5d-82cb-dce4d766f427": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18432547127579__dde9ae02-7832-4b5d-82cb-dce4d766f427-1681377090c56acdec-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "SHOES AS UNIQUE AS YOU"
+          }
+        },
+        "template--18432547127579__dde9ae02-7832-4b5d-82cb-dce4d766f427-1681377090c56acdec-1": {
+          "type": "heading",
+          "settings": {
+            "text": "EXPRESS YOURSELF",
+            "size": "h2"
+          }
+        },
+        "template--18432547127579__dde9ae02-7832-4b5d-82cb-dce4d766f427-1681377090c56acdec-2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "custom_liquid": "",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "template--18432547127579__dde9ae02-7832-4b5d-82cb-dce4d766f427-1681377090c56acdec-0",
+        "template--18432547127579__dde9ae02-7832-4b5d-82cb-dce4d766f427-1681377090c56acdec-1",
+        "template--18432547127579__dde9ae02-7832-4b5d-82cb-dce4d766f427-1681377090c56acdec-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#384135",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_overlay_YCDzPj": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_bjq4Qh": {
+          "type": "subheading",
+          "settings": {
+            "text": "FUN SHOES THAT"
+          }
+        },
+        "heading_BRfAcx": {
+          "type": "heading",
+          "settings": {
+            "text": "CONNECT THE WORLD",
+            "heading_size": "h1"
+          }
+        },
+        "text_PhYEqh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inkkas creates colorful, unique & joyful designs celebrating beauty around the globe.<\/p>",
+            "description_size": "large"
+          }
+        },
+        "button_CcJkp3": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop ALL Bestsellers",
+            "button_link": "shopify:\/\/collections\/best-sellers",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_bjq4Qh",
+        "heading_BRfAcx",
+        "text_PhYEqh",
+        "button_CcJkp3"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "content_width": "large",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "overlay_opacity": 45,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_overlay_FRVpWV": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_QdhEyU": {
+          "type": "subheading",
+          "settings": {
+            "text": "FUN SHOES THAT"
+          }
+        },
+        "heading_cgeXfk": {
+          "type": "heading",
+          "settings": {
+            "text": "CONNECT THE WORLD",
+            "heading_size": "h1"
+          }
+        },
+        "text_MTMhVa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inkkas creates colorful, unique & joyful designs celebrating beauty around the globe.<\/p>",
+            "description_size": "large"
+          }
+        },
+        "button_J3UFLp": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop ALL Bestsellers",
+            "button_link": "shopify:\/\/collections\/best-sellers",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QdhEyU",
+        "heading_cgeXfk",
+        "text_MTMhVa",
+        "button_J3UFLp"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "content_width": "large",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "overlay_opacity": 45,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "bcb48e2d-c55f-4787-abf4-17b850e5bb8a": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18432547127579__bcb48e2d-c55f-4787-abf4-17b850e5bb8a-16813710817e2ce3bd-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "FUN SHOES THAT CONNECT THE WORLD",
+            "heading_size": "h1"
+          }
+        },
+        "template--18432547127579__bcb48e2d-c55f-4787-abf4-17b850e5bb8a-16813710817e2ce3bd-2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "description_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "template--18432547127579__bcb48e2d-c55f-4787-abf4-17b850e5bb8a-16813710817e2ce3bd-1",
+        "template--18432547127579__bcb48e2d-c55f-4787-abf4-17b850e5bb8a-16813710817e2ce3bd-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "content_width": "small",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 4,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_DEbhei": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_J8ikr6": {
+          "type": "subheading",
+          "settings": {
+            "text": "PLANTING JOY"
+          }
+        },
+        "heading_BKFPpM": {
+          "type": "heading",
+          "settings": {
+            "text": "ONE SHOE ONE TREE PROJECT",
+            "heading_size": "h3"
+          }
+        },
+        "text_kBiTqX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We plant 1 tree for every Inkkas purchase. Over the years, that has amounted to more than 380,000 trees. All thanks to you.<\/p>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_J8ikr6",
+        "heading_BKFPpM",
+        "text_kBiTqX"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tree-Square-02_0942744d-f211-46fa-9b7e-4ed5c53324c5.jpg",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "small",
+        "desktop_image_width": "small",
+        "section_width": "grid",
+        "layout": "text_first",
+        "content_position": "text-center",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "4f2b51bb-7fb5-4ae6-98cc-b313c81bf63c": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 15,
+        "spacer_desktop": 30,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "b0d87fdd-e30c-4c3f-b29f-c71a7bf242f5": {
+      "type": "gallery",
+      "blocks": {
+        "template--18432547127579__b0d87fdd-e30c-4c3f-b29f-c71a7bf242f5-1681373018c042b41e-0": {
+          "type": "image",
+          "settings": {
+            "subheading": "",
+            "title": "Feel The Glamour",
+            "text": "Dipped in 14K gold and featuring three star-studded, this bracelet is an everyday piece that still stands out.",
+            "link_label": "LEARN MORE",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "template--18432547127579__b0d87fdd-e30c-4c3f-b29f-c71a7bf242f5-1681373018c042b41e-1": {
+          "type": "image",
+          "settings": {
+            "subheading": "",
+            "title": "Unmatched Selection",
+            "text": "They can be simple studs or elaborate chandelier earrings, and can be made from a range of materials.",
+            "link_label": "LEARN MORE",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "",
+            "product_list": []
+          }
+        }
+      },
+      "block_order": [
+        "template--18432547127579__b0d87fdd-e30c-4c3f-b29f-c71a7bf242f5-1681373018c042b41e-0",
+        "template--18432547127579__b0d87fdd-e30c-4c3f-b29f-c71a7bf242f5-1681373018c042b41e-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "columns_desktop": 2,
+        "section_width": "full-width-row",
+        "mobile_swipe": true,
+        "image_ratio": "adapt",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "column_spacing": "large",
+        "heading_size": "h2",
+        "overlay_color": "#4b4b4b",
+        "overlay_opacity": 10,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "16625458859c68803a": {
+      "type": "apps",
+      "settings": {}
+    },
+    "1662552569cce2536d": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 5,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "logo_list_ghwTUL": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_ypajG4": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_d3AjCM": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_rADYxt": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_8iVKeR": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_r8TQhW": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_ypajG4",
+        "logo_d3AjCM",
+        "logo_rADYxt",
+        "logo_8iVKeR",
+        "logo_r8TQhW"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Clients",
+        "description": "<p>Add a short description for this section<\/p>",
+        "columns": 5,
+        "mobile_swipe": true,
+        "center_align": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "16623877721f33fb14",
+    "product-recommendations",
+    "recently_viewed_products_U93AeH",
+    "text_with_icons_KR3Upc",
+    "1713381517b7d5641a",
+    "dde9ae02-7832-4b5d-82cb-dce4d766f427",
+    "image_with_text_overlay_YCDzPj",
+    "image_with_text_overlay_FRVpWV",
+    "bcb48e2d-c55f-4787-abf4-17b850e5bb8a",
+    "image_with_text_DEbhei",
+    "4f2b51bb-7fb5-4ae6-98cc-b313c81bf63c",
+    "b0d87fdd-e30c-4c3f-b29f-c71a7bf242f5",
+    "16625458859c68803a",
+    "1662552569cce2536d",
+    "logo_list_ghwTUL"
+  ]
+}

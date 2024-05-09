@@ -1,0 +1,225 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": false,
+        "show_subcollections": false,
+        "make_heading_uppercase": true,
+        "image": "shopify:\/\/shop_images\/ScreenShot2024-04-05at4.18.21PM.png",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "promotion_iE6HkP": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "the-radiance-collection",
+            "promotion_position": 5,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.00.34PM.png",
+            "title": "COLORFUL RADIANT DESIGNS",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 16
+          }
+        },
+        "promotion_LAFKer": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "the-radiance-collection",
+            "promotion_position": 11,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-WESTERN-BOOT-SS241111-MODEL-SS241111-EPI_2754.jpg",
+            "title": "SUNNY PLAYFUL PATTERNS",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 22
+          }
+        },
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "the-radiance-collection",
+            "promotion_position": 17,
+            "promotion_width": "1",
+            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.26.51PM.png",
+            "title": "UNIQUE GLOBAL BEAUTY",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        },
+        "promotion_crfKdz": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "best-sellers",
+            "promotion_position": 6,
+            "promotion_width": "2",
+            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.34.14PM.png",
+            "title": "UNISEX SILHOUETTES",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "promotion_UiR8zH": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "best-sellers",
+            "promotion_position": 15,
+            "promotion_width": "2",
+            "image": "shopify:\/\/shop_images\/SOBEK-CAMPINGBOOT-SS230514-MODEL--EPI_3304.jpg",
+            "title": "INSPIRED DESIGNS",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 21
+          }
+        },
+        "promotion_rqwfRL": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "best-sellers",
+            "promotion_position": 24,
+            "promotion_width": "2",
+            "image": "shopify:\/\/shop_images\/HENDRIX-SLIP-ON-SS210308-MODEL-2.jpg",
+            "title": "AUTHENTIC GLOBAL TEXTILES",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
+          }
+        }
+      },
+      "block_order": [
+        "promotion_iE6HkP",
+        "promotion_LAFKer",
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9",
+        "promotion_crfKdz",
+        "promotion_UiR8zH",
+        "promotion_rqwfRL"
+      ],
+      "settings": {
+        "full_width": true,
+        "products_per_page": 48,
+        "columns_desktop": 4,
+        "pagination_type": "loadmore",
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": true,
+        "filter_color_swatches": true,
+        "facets_desktop": "drawer"
+      }
+    },
+    "166366972953e881f5": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "clothing",
+          "denim",
+          "dresses",
+          "knitwear",
+          "long",
+          "pants"
+        ],
+        "image_ratio": "square",
+        "layout": "grid",
+        "style": "style1",
+        "columns_desktop": 6,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16636704759cbf64c5": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 125,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "166367228131c52c01": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "text_with_icons_MkhgQi": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_hYBx9X": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "heading": "GET REWARDED",
+            "text": "<p><a href=\"\/pages\/rewards\" target=\"_blank\" title=\"REWARDS\">Earn Points & Redeem Rewards<\/a> on your purchases.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_hYBx9X"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "xlarge",
+        "heading_size": "large",
+        "mobile_swipe": false,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#151515",
+        "color_text": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "product-grid",
+    "166366972953e881f5",
+    "16636704759cbf64c5",
+    "166367228131c52c01",
+    "text_with_icons_MkhgQi"
+  ]
+}
