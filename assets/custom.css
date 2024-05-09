@@ -40,7 +40,7 @@
 }
 .product__custom-colors .product__custom-color.active:after,
 .product__custom-colors .product__custom-color:hover:after {
-    border: 1px solid rgb(var(--color-foreground));
+    border: 1px solid rgb(0, 0, 0);
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
