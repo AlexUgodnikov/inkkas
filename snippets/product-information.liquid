@@ -42,6 +42,24 @@
     {%- when 'inventory_level' -%}
       {% render 'product-inventory-notice', product: product, section: section, block: block %}
     {%- when 'variant_picker' -%}
+      {% assign additionalProducts = product.metafields.custom.product_colors %}
+      {% assign additionalProductsCount = additionalProducts | split: ',' %}
+
+      {% if additionalProductsCount.size > 0 %}
+        <div class="tab_variants row_flex align-items-center">
+          <div class="col-auto titles">Color: {% if product.metafields.custom.color_custom_title != blank %}
+              {{ product.metafields.custom.color_custom_title }}{% else %}{{ product.title }}{% endif %}</div>
+        </div>
+        <div class="product__custom-colors">
+          <div class="product__custom-color active" style="background-image: url('{{ product.media[0].preview_image | img_url: 'master' }} center/100%;')"></div>
+          {% for item in additionalProducts.value %}
+            {% comment %}{{ item.metafields.custom.color_custom_image }}{% endcomment %}
+            {% comment %}{{ item.metafields.custom.color_custom_title }}{% endcomment %}
+            <a class="product__custom-color" href="{{ item.url }}" style="background-image: url('{% if item.metafields.custom.color_custom_image != blank %}{{ item.metafields.custom.color_custom_image | img_url: 'master' }}{% else %}{{ item.media[0].preview_image | img_url: 'master' }}{% endif %} center/100%;')"></a>
+          {% endfor %}
+        </div>
+      {% endif %}
+
       {%- unless product.has_only_default_variant -%}
       {%- liquid
         assign is_disabled = block.settings.variant_is_disabled
