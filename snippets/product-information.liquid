@@ -46,7 +46,7 @@
       {% assign additionalProductsCount = additionalProducts | split: ',' %}
 
       {% if additionalProductsCount.size > 0 %}
-        <div class="tab_variants row_flex align-items-center">
+        <div class="form__label">
           <div class="col-auto titles">Color: {% if product.metafields.custom.color_custom_title != blank %}
               {{ product.metafields.custom.color_custom_title }}{% else %}{{ product.title }}{% endif %}</div>
         </div>
