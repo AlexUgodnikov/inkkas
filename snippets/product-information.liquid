@@ -36,6 +36,101 @@
             <span>{{ 'products.product.reviews' | t: count: product.metafields.reviews.rating_count }}</span>
           </a>
         {%- endif -%}
+
+        {% assign product_tags = product.tags | join: ' ' %}
+        <div class="product_size-chart">
+
+          {% if product_tags contains 'bootie-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'bootie-size-chart' %}
+                <small>Booties run true to size. Half-size? See <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% include 'bootie-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+          {% elsif product_tags contains 'boots-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'boots-size-chart' %}
+                <small> Camping Boots run true to size. Half-size? See <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% render 'boots-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+          {% elsif product_tags contains 'high-top-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'high-top-size-chart' %}
+                <small>High Tops run true to size. Half-size? See <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% render 'hightop-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+          {% elsif product_tags contains 'jogger-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'jogger-size-chart' %}
+                <small>Joggers run true to size. Half-size? See  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% render 'jogger-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+
+          {% elsif product_tags contains 'low-top-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'low-top-size-chart' %}
+                <small>Low Tops run true to size. Half-size? See  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% render 'lowtop-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+          {% elsif product_tags contains 'kids-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'kids-size-chart' %}
+                <small> <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% render 'popup-kids-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+
+          {% elsif product_tags contains 'runner-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'runner-size-chart' %}
+                <small>Runners run true to size. Half-size? See <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% render 'runner-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+          {% elsif product_tags contains 'slide-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'slide-size-chart' %}
+                <small>Slides run true to size. Half size? See  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% render 'slide-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+          {% elsif product_tags contains 'slip-on-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'slip-on-size-chart' %}
+                <small>Slip Ons run true to size. If we don’t carry your half size, see   <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% render 'slipon-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+
+          {% elsif product_tags contains 'size-guide-trekks' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'size-guide-trekks' %}
+                <small>Trekk Boots run true to size. Half-size? See <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% render 'trekks-size-guide', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+          {% elsif product_tags contains 'western-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'western-size-chart' %}
+                <small>Western Boots run true to size. Half-size? See <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% render 'western-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </div>
       </div>
     {%- when 'description' -%}
       <div class="product-short-description rte" {{ block.shopify_attributes }}>{{ product.description }}</div>
@@ -179,6 +274,58 @@
         {% render 'product-add-to-cart', product: product, form: form, product_form_id: product_form_id, block: block, pickup: pickup %}
     {%- when 'share' -%}
         {% render 'social-share', share_label: false, share_title: product.title, share_permalink: product.url, share_image: product.featured_image %}
+    {%- when 'collapsible_tab_2' -%}
+      {% assign collapsible_tab_show = true %}
+
+      {% if block.settings.show_only_with_tag and block.settings.product_tag != blank %}
+        {% for tag in product.tags %}
+          {% assign collapsible_tab_show = false %}
+          {% if tag contains block.settings.product_tag %}
+            {% assign collapsible_tab_show = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if collapsible_tab_show %}
+        <collapsible-row class="collapsible-tab-2 product__accordion accordion" {{ block.shopify_attributes }}>
+          <details class="custom-field-product custom-field__inspiration custom-field__type--text" id="Details-{{ block.id }}-{{ section.id }}" {% if block.settings.open %}open{% endif %}>
+            <summary class="custom-field--title">
+              {{ block.settings.heading | default: block.settings.page.title }}
+              {% render 'icon-plus' %}
+              {% render 'icon-minus' %}
+            </summary>
+            <div id="custom-field--value{{ block.id }}" class="custom-field--value collapsible__content accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+              {%- if block.settings.show_description -%}
+                {% if block.settings.description_type == 'show_before_ul' or block.settings.description_type == 'show_ul' %}
+                  <script>
+                    (function() {
+                      const htmlCode = `{{ product.description }}`;
+                      const ulStartIndex = htmlCode.indexOf('<ul');
+                      let textBeforeUl;
+                      let textAfterUl;
+
+                      if (ulStartIndex !== -1) {
+                        textBeforeUl = htmlCode.substring(0, ulStartIndex);
+                        textAfterUl = htmlCode.substring(ulStartIndex);
+                      }
+                      {%- if block.settings.description_type == 'show_before_ul' -%}
+                      document.querySelector('#custom-field--value{{ block.id }}').innerHTML = `${textBeforeUl}`;
+                      {%- else -%}
+                      document.querySelector('#custom-field--value{{ block.id }}').innerHTML = `${textAfterUl}`;
+                      {% endif %}
+                    })();
+                  </script>
+                {%- else -%}
+                  {{ product.description }}
+                {%- endif -%}
+              {%- else -%}
+                {{ block.settings.content }}
+                {{ block.settings.page.content }}
+              {%- endif -%}
+            </div>
+          </details>
+        </collapsible-row>
+      {% endif %}
     {%- when 'collapsible_tab' -%}
       {%- if block.settings.heading != blank -%}
       <collapsible-row class="product__accordion accordion" {{ block.shopify_attributes }}>

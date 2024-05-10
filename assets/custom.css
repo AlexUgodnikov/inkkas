@@ -45,3 +45,140 @@
     -o-transition: all .3s;
     transition: all .3s;
 }
+
+.collapsible-tab-2 {
+    margin: 0 !important;
+    border-top: .1rem solid rgba(0,0,0 ,.08);
+    border-bottom: .1rem solid rgba(0,0,0 ,.08);
+    padding: 10px 0;
+}
+.collapsible-tab-2 .custom-field--title {
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: all .3s ease;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    line-height: 1.8;
+}
+.collapsible-tab-2 .custom-field--title:hover {
+    color: #000;
+}
+.collapsible-tab-2 .custom-field--title:hover svg {
+    opacity: .5;
+}
+.collapsible-tab-2 .custom-field--title svg {
+    transition: all .3s ease;
+    width: 15px;
+    color: rgb(255, 183, 21);
+}
+.collapsible-tab-2 .custom-field-product:not([open]) .icon-minus,
+.collapsible-tab-2 .custom-field-product[open] .icon-plus {
+    display: none;
+}
+.collapsible-tab-2 .custom-field-product[open] .custom-field--title {
+    font-weight: 700;
+}
+.product__accordion .custom-field--value > ul {
+    margin-left: 0;
+}
+.product__accordion .custom-field--value > ul > li {
+    list-style: none;
+    position: relative;
+    padding-left: 25px;
+}
+.product__accordion .custom-field--value > ul > li::before {
+    content: "";
+    background: url("/cdn/shop/files/test.png?v=1693578624") no-repeat center;
+    background-size: auto;
+    background-size: 60%;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    color: #000;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+.product__accordion .custom-field--value {
+    font-size: 16px!important;
+    padding: 15px 0 15px!important;
+    color: #000!important;
+}
+.product__accordion .custom-field--value > * {
+    line-height: 1.8!important;
+}
+.size-chart-wrap > h5 {
+    line-height: 120%;
+    font-size: 18px;
+    font-family: Open Sans;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgba(0,0,0,.75);
+    text-align: center;
+    margin-top: 30px;
+}
+body.compensate-for-scrollbar {
+    overflow: hidden;
+}
+.product {
+    margin: 0;
+}
+.size-chart-wrap p {
+    margin: 16px 0;
+}
+.size-chart-wrap > p {
+    margin-top: 10px;
+}
+.size-chart-wrap table {
+    margin-top: 30px;
+}
+.size-chart-wrap * {
+    font-family: Open Sans;
+}
+.shoesImg img {
+    object-fit: contain;
+}
+.product_size-chart {
+    margin: 15px 0;
+}
+.product_size-chart small {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+.product_size-chart small a {
+    color: #FF3115;
+    text-decoration: None;
+}
+.product_size-chart small a:hover {
+    color: #000000;
+}
+@media (max-width: 450px) {
+    .shoesImg img {
+        height: 90px;
+    }
+}
+@media (max-width: 585px) {
+    .shoesImg img {
+        height: 110px;
+    }
+}
+@media (max-width: 575px) {
+    .size-chart-wrap p {
+        font-size: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .shoesImg img {
+        height: 130px;
+    }
+}

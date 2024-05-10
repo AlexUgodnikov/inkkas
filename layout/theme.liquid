@@ -38,6 +38,9 @@
 	{{ 'app.css' | asset_url | stylesheet_tag }}
 	{{ 'custom.css' | asset_url | stylesheet_tag }}
 
+		{{ 'fancy.css' | asset_url | stylesheet_tag }}
+
+
 	{% render 'head-variables' %}
 
 	<script>
@@ -126,6 +129,10 @@
 	{%- if settings.cart_recommendations -%}
 	<script src="{{ 'product-recommendations.js' | asset_url }}" defer="defer"></script>
 	{%- endif -%}
+
+		<script src="{{ 'jquery.js' | asset_url }}"></script>
+		<script src="{{ 'fancy.js' | asset_url }}"></script>
+
 	{% render 'back-to-top' %}
   </body>
 </html>

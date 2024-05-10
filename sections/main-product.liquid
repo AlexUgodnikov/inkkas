@@ -1535,6 +1535,68 @@
         }
       ]
     },
+    {
+      "type": "collapsible_tab_2",
+      "name": "Collapsible tab style 2",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_only_with_tag",
+          "default": false,
+          "label": "Show tab only on product with tag"
+        },
+        {
+          "type": "text",
+          "id": "product_tag",
+          "label": "Product tag",
+          "info": "if \"Show tab only on product with tag\" is activated"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Collapsible tab",
+          "info": "Include a heading that explains the content.",
+          "label": "Heading"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_description",
+          "default": false,
+          "info": "The entered text in \"Tab content\" will not be displayed",
+          "label": "Show product description"
+        },
+        {
+          "type": "select",
+          "id": "description_type",
+          "label": "Description output type",
+          "options": [
+            {
+              "value": "show_before_ul",
+              "label": "Show all description content before ul"
+            },
+            {
+              "value": "show_ul",
+              "label": "Show ul from description"
+            },
+            {
+              "value": "full_description",
+              "label": "Full description"
+            }
+          ],
+          "default": "full_description"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Tab content"
+        },
+        {
+          "type": "page",
+          "id": "page",
+          "label": "Tab content from page"
+        }
+      ]
+    },
 		{
       "type": "collapsible_tab",
       "name": "Collapsible row",
