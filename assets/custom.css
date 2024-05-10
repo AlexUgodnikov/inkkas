@@ -124,3 +124,9 @@
     font-weight: 600;
     color: rgba(0,0,0,.75);
 }
+body.compensate-for-scrollbar {
+    overflow: hidden;
+}
+.product {
+    margin: 0;
+}
