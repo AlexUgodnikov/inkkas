@@ -247,7 +247,7 @@ body.compensate-for-scrollbar {
 .product-popup-modal__toggle .icon {
     height: auto;
     margin: 0;
-    width: 2.2rem;
+    width: 16px;
 }
 .view-all-image:nth-child(odd) {
     padding-right: 5px;
