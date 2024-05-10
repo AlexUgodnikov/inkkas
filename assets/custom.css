@@ -45,3 +45,10 @@
     -o-transition: all .3s;
     transition: all .3s;
 }
+
+.collapsible-tab-2 {
+    margin: 0 !important;
+    border-top: .1rem solid rgba(var(--color-foreground),.08);
+    border-bottom: .1rem solid rgba(var(--color-foreground),.08);
+    padding: 1rem 0;
+}
