@@ -135,5 +135,7 @@ body.compensate-for-scrollbar {
 }
 .size-chart-wrap table {
     margin-top: 30px;
+}
+.size-chart-wrap * {
     font-family: Open Sans;
 }
