@@ -1,0 +1,19 @@
+<div class="js-sizechart-lightbox" id="size-chart{{ product.id }}" style="display: none">
+  <div class="size-chart-wrap">
+    {% assign product_tags = product.tags | join: ' ' %}
+    {% if product_tags contains 'size-guide-trekks' %}
+      {% for tag in product.tags %}
+        {% if tag contains 'size-guide-trekks' %}
+          {% assign size_guide_trekks = tag | handle | remove: 'meta-size-chart-' %}
+          <h5 class="center">{{ pages[size_guide_trekks].title }}</h5>
+          <div class="feature_divider"></div>
+          {{ pages[size_guide_trekks].content }}
+        {% endif %}
+      {% endfor %}
+    {% elsif settings.size_guide_trekks != blank %}
+      <h5 class="center">{{ pages[settings.size_guide_trekks].title }}</h5>
+      <div class="feature_divider"></div>
+      {{ pages[settings.size_guide_trekks].content }}
+    {% endif %}
+  </div>
+</div>

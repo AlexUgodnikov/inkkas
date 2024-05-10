@@ -1,0 +1,19 @@
+<div class="js-sizechart-lightbox" id="size-chart{{ product.id }}" style="display: none">
+  <div class="size-chart-wrap hi">
+    {% assign product_tags = product.tags | join: ' ' %}
+    {% if product_tags contains 'jogger-size-chart' %}
+      {% for tag in product.tags %}
+        {% if tag contains 'jogger-size-chart' %}
+          {% assign jogger-size-chart = tag | handle | remove: 'meta-size-chart-' %}
+          <h5 class="center hi">{{ pages[jogger-size-chart].title }}</h5>
+          <div class="feature_divider"></div>
+          {{ pages[jogger-size-chart].content }}
+        {% endif %}
+      {% endfor %}
+    {% elsif settings.jogger-size-chart != blank %}
+      <h5 class="center">{{ pages[settings.jogger-size-chart].title }}</h5>
+      <div class="feature_divider"></div>
+      {{ pages[settings.jogger-size-chart].content }}
+    {% endif %}
+  </div>
+</div>
