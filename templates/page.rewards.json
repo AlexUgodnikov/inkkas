@@ -38,7 +38,7 @@
           "settings": {
             "link_label": "sign up",
             "link": "https:\/\/inkkas.com\/account\/register",
-            "button_outline": false
+            "button_outline": true
           }
         },
         "button_kzaya7": {
