@@ -124,6 +124,7 @@
 	<script type="module" src="{{ 'scroll-shadow.js' | asset_url }}" defer="defer"></script>
 	<script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
 	{%- if request.design_mode -%}
+		<script src="{{ 'jquery.js' | asset_url }}"></script>
 		{{ 'theme-editor.js' | asset_url | script_tag }}
 	{%- endif -%}
 	{%- if settings.cart_recommendations -%}
