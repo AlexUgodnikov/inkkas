@@ -179,6 +179,7 @@
         {% render 'product-add-to-cart', product: product, form: form, product_form_id: product_form_id, block: block, pickup: pickup %}
     {%- when 'share' -%}
         {% render 'social-share', share_label: false, share_title: product.title, share_permalink: product.url, share_image: product.featured_image %}
+    {%- when 'collapsible_tab_2' -%}
     {%- when 'collapsible_tab' -%}
       {%- if block.settings.heading != blank -%}
       <collapsible-row class="product__accordion accordion" {{ block.shopify_attributes }}>
