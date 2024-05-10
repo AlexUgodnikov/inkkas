@@ -1319,7 +1319,7 @@ if (!customElements.get('collapsible-row')) {
         // Set the keyframes from the startHeight to endHeight
         height: [startHeight, endHeight]
       }, {
-        duration: 250,
+        duration: 1250,
         easing: 'ease'
       });
 
