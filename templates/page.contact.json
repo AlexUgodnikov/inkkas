@@ -13,7 +13,7 @@
         "166161938159ca8988-2": {
           "type": "text",
           "settings": {
-            "text": "<p>We'd love to hear from you! Drop us a note below and we'll get back to you shortly. Also, the answer to your question may be in our FAQs page here.<\/p>",
+            "text": "<p>We'd love to hear from you! Drop us a note below and we'll get back to you shortly. Also, the answer to your question may be in our <a href=\"\/pages\/faq-3\" title=\"faq-3\">FAQs page<\/a> here.<\/p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }

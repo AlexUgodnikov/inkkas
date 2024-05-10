@@ -183,7 +183,9 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
@@ -339,7 +341,9 @@
           }
         }
       },
-      "content_for_index": []
+      "content_for_index": [
+
+      ]
     },
     "Reinvent": {
       "heading_font": "hope_sans_n6",
@@ -512,7 +516,9 @@
           }
         }
       },
-      "content_for_index": []
+      "content_for_index": [
+
+      ]
     },
     "Sunshine": {
       "heading_font": "neue_swift_n6",
@@ -666,7 +672,9 @@
           }
         }
       },
-      "content_for_index": []
+      "content_for_index": [
+
+      ]
     },
     "Mono": {
       "heading_font": "basic_commercial_n7",
@@ -875,7 +883,9 @@
           }
         }
       },
-      "content_for_index": []
+      "content_for_index": [
+
+      ]
     },
     "Glamour": {
       "heading_font": "chong_modern_n4",
@@ -1050,7 +1060,9 @@
           }
         }
       },
-      "content_for_index": []
+      "content_for_index": [
+
+      ]
     }
   }
 }
