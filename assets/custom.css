@@ -144,6 +144,9 @@ body.compensate-for-scrollbar {
 .size-chart-wrap * {
     font-family: Open Sans;
 }
+.shoesImg img {
+    object-fit: contain;
+}
 @media (max-width: 450px) {
     .shoesImg img {
         height: 90px;
