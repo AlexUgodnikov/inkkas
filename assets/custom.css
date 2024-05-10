@@ -253,11 +253,6 @@ body.compensate-for-scrollbar {
 #ModalClose-ViewAllImagesModal:hover {
     opacity: .75;
 }
-@media screen and (min-width: 750px) {
-    .view-all-images__wrapper {
-        display: none;
-    }
-}
 @media screen and (max-width: 400px) {
     #productViewAllImages {
         padding: 6px 5px 4px 5px;
