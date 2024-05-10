@@ -241,7 +241,7 @@ body.compensate-for-scrollbar {
     cursor: pointer;
     padding: 1.2rem;
     z-index: 2;
-    width: 4rem;
+    width: auto;
     margin: 0 0 0 auto;
 }
 .view-all-image:nth-child(odd) {
