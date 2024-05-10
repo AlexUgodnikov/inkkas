@@ -131,5 +131,5 @@ body.compensate-for-scrollbar {
     margin: 0;
 }
 .size-chart-wrap > p {
-    
+    margin: 0!important;
 }
