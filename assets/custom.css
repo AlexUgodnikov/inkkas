@@ -155,7 +155,7 @@ body.compensate-for-scrollbar {
     }
 }
 @media (max-width: 575px) {
-    .shoesImg p {
+    .size-chart-wrap p {
         font-size: 15px;
     }
 }
