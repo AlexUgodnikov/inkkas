@@ -147,6 +147,9 @@ body.compensate-for-scrollbar {
 .shoesImg img {
     object-fit: contain;
 }
+.product_size-chart {
+    margin: 15px 0;
+}
 @media (max-width: 450px) {
     .shoesImg img {
         height: 90px;
