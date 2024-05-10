@@ -150,6 +150,15 @@ body.compensate-for-scrollbar {
 .product_size-chart {
     margin: 15px 0;
 }
+.product_size-chart small {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+.product_size-chart small a {
+    color: #FF3115;
+    text-decoration: None;
+}
 @media (max-width: 450px) {
     .shoesImg img {
         height: 90px;
