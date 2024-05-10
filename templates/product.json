@@ -34,8 +34,8 @@
             "color_picker_size": "regular",
             "color_picker_use_variants": false,
             "variant_is_disabled": true,
-            "sizing_guide_variant": "Size",
-            "sizing_guide_text": "Size guide",
+            "sizing_guide_variant": "",
+            "sizing_guide_text": "",
             "sizing_guide_icon": "ruler",
             "sizing_guide_page": ""
           }
