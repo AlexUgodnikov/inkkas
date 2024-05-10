@@ -1319,7 +1319,7 @@ if (!customElements.get('collapsible-row')) {
         // Set the keyframes from the startHeight to endHeight
         height: [startHeight, endHeight]
       }, {
-        duration: 1250,
+        duration: 1000,
         easing: 'ease'
       });
 
@@ -1357,8 +1357,8 @@ if (!customElements.get('collapsible-row')) {
         // Set the keyframes from the startHeight to endHeight
         height: [startHeight, endHeight]
       }, {
-        duration: 400,
-        easing: 'ease-out'
+        duration: 1000,
+        easing: 'ease'
       });
       // When the animation is complete, call onAnimationFinish()
       this.animation.onfinish = () => this.onAnimationFinish(true);
