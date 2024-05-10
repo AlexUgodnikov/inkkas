@@ -84,3 +84,19 @@
 .collapsible-tab-2 .custom-field-product[open] .custom-field--title {
     font-weight: 700;
 }
+.product__accordion .custom-field--value > ul > li::before {
+    content: "";
+    background: url("/cdn/shop/files/test.png?v=1693578624") no-repeat center;
+    background-size: auto;
+    background-size: 60%;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    color: #000;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
