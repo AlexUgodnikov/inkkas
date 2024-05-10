@@ -112,5 +112,7 @@
     font-size: 16px!important;
     padding: 15px 0 15px!important;
     color: #000!important;
+}
+.product__accordion .custom-field--value > * {
     line-height: 1.8!important;
 }
