@@ -273,7 +273,7 @@ body.compensate-for-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 @media screen and (max-width: 400px) {
     #productViewAllImages {
