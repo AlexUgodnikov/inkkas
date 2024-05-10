@@ -231,17 +231,15 @@ body.compensate-for-scrollbar {
     right: 8px;
     top: 2px;
     border-radius: 0;
-    background-color: rgb(var(--color-background));
+    background-color: rgb(255, 255, 255);
     border: .1rem solid rgba(var(--color-foreground),.1);
     color: rgba(var(--color-foreground),.55);
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    position: sticky;
     padding: 1.2rem;
     z-index: 2;
-    top: 1.5rem;
     width: 4rem;
     margin: 0 0 0 auto;
 }
