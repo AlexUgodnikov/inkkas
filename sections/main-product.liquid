@@ -216,6 +216,9 @@
 							</div>
 							{%- endunless -%}
 						{%- endif -%}
+						<modal-opener class="view-all-images__wrapper product-popup-modal__opener no-js-hidden" data-modal="#ViewAllImagesModal" {{ block.shopify_attributes }}>
+              <button id="productViewAllImages" class="view-all-images__button product-popup-modal__button link" type="button" aria-haspopup="dialog">View All Images {% render 'icon-view-all-images' %}</button>
+            </modal-opener>
 					</div>
 		    </div>
 		    <div class="product-information">
@@ -272,6 +275,16 @@
 			</div>
 		</div>
 	</div>
+	<modal-dialog id="ViewAllImagesModal" class="view-all-images1 product-popup-modal">
+    <button id="ModalClose-ViewAllImagesModal" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-modal-close-custom' %}</button>
+    <div role="dialog" aria-label="view-all-images" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
+      {%- for media in product.media -%}
+        <div class="view-all-image">
+          {% render 'product-thumbnail', media: media, position: 'featured', loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true %}
+        </div>
+      {%- endfor -%}
+    </div>
+  </modal-dialog>
 </div>
 {%- endif -%}
 {%- if section.settings.lightbox != blank -%}
