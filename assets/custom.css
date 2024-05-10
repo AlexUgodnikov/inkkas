@@ -132,6 +132,9 @@ body.compensate-for-scrollbar {
     margin: 0;
 }
 .size-chart-wrap > p {
+    margin: 16px 0;
+}
+.size-chart-wrap > p {
     margin: 0!important;
 }
 .size-chart-wrap table {
