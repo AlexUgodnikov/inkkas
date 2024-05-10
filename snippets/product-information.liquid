@@ -36,6 +36,101 @@
             <span>{{ 'products.product.reviews' | t: count: product.metafields.reviews.rating_count }}</span>
           </a>
         {%- endif -%}
+
+        {% assign product_tags = product.tags | join: ' ' %}
+        <div class="product_size-chart">
+
+          {% if product_tags contains 'bootie-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'bootie-size-chart' %}
+                <small>Booties run true to size. Half-size? See <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% include 'bootie-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+          {% elsif product_tags contains 'boots-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'boots-size-chart' %}
+                <small> Camping Boots run true to size. Half-size? See <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% include 'boots-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+          {% elsif product_tags contains 'high-top-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'high-top-size-chart' %}
+                <small>High Tops run true to size. Half-size? See <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% include 'hightop-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+          {% elsif product_tags contains 'jogger-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'jogger-size-chart' %}
+                <small>Joggers run true to size. Half-size? See  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% include 'jogger-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+
+          {% elsif product_tags contains 'low-top-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'low-top-size-chart' %}
+                <small>Low Tops run true to size. Half-size? See  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% include 'lowtop-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+          {% elsif product_tags contains 'kids-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'kids-size-chart' %}
+                <small> <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% include 'popup-kids-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+
+          {% elsif product_tags contains 'runner-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'runner-size-chart' %}
+                <small>Runners run true to size. Half-size? See <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% include 'runner-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+          {% elsif product_tags contains 'slide-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'slide-size-chart' %}
+                <small>Slides run true to size. Half size? See  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% include 'slide-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+          {% elsif product_tags contains 'slip-on-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'slip-on-size-chart' %}
+                <small>Slip Ons run true to size. If we don’t carry your half size, see   <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% include 'slipon-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+
+
+          {% elsif product_tags contains 'size-guide-trekks' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'size-guide-trekks' %}
+                <small>Trekk Boots run true to size. Half-size? See <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% include 'trekks-size-guide', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+          {% elsif product_tags contains 'western-size-chart' %}
+            {% for tag in product.tags %}
+              {% if tag contains 'western-size-chart' %}
+                <small>Western Boots run true to size. Half-size? See <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                {% include 'western-popup-size-chart', product_id: product.id %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </div>
       </div>
     {%- when 'description' -%}
       <div class="product-short-description rte" {{ block.shopify_attributes }}>{{ product.description }}</div>
