@@ -159,6 +159,9 @@ body.compensate-for-scrollbar {
     color: #FF3115;
     text-decoration: None;
 }
+.product_size-chart small a:hover {
+    color: #000000;
+}
 @media (max-width: 450px) {
     .shoesImg img {
         height: 90px;
