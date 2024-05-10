@@ -69,6 +69,9 @@
 .collapsible-tab-2 .custom-field--title:hover {
     color: #000;
 }
+.collapsible-tab-2 .custom-field--title:hover svg {
+    opacity: .5;
+}
 .collapsible-tab-2 .custom-field--title svg {
     transition: all .3s ease;
     width: 15px;
