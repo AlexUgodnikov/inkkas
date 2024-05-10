@@ -68,5 +68,5 @@
 .collapsible-tab-2 .custom-field--title svg {
     transition: all .3s ease;
     width: 15px;
-    color: rgba(var(--color-button));
+    color: rgb(255, 183, 21);
 }
