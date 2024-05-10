@@ -52,3 +52,12 @@
     border-bottom: .1rem solid rgba(0,0,0 ,.08);
     padding: 1rem 0;
 }
+.collapsible-tab-2 .custom-field--title {
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: all .3s ease;
+    font-weight: 700 !important;
+}
