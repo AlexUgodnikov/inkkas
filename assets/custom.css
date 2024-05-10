@@ -154,6 +154,11 @@ body.compensate-for-scrollbar {
         height: 110px;
     }
 }
+@media (max-width: 575px) {
+    .shoesImg img {
+        height: 110px;
+    }
+}
 @media (max-width: 768px) {
     .shoesImg img {
         height: 130px;
