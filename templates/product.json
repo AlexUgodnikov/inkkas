@@ -21,7 +21,7 @@
             "show_inventory_notice": "low",
             "show_inventory_count": "low",
             "inventory_notice_pulse": true,
-            "inventory_notice_bar": true,
+            "inventory_notice_bar": false,
             "inventory_notice_threshold": 10,
             "inventory_notice_base": 20
           }
