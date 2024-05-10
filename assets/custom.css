@@ -64,3 +64,9 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.collapsible-tab-2 .custom-field--title svg {
+    transition: all .3s ease;
+    width: 15px;
+    color: rgba(var(--color-button));
+}
