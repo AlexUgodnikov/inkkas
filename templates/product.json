@@ -91,6 +91,186 @@
           "type": "share",
           "settings": {
           }
+        },
+        "collapsible_tab_2_hxiDMm": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": false,
+            "product_tag": "",
+            "heading": "Description",
+            "show_description": true,
+            "description_type": "show_before_ul",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_2_UkAjaq": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": false,
+            "product_tag": "",
+            "heading": "Features",
+            "show_description": true,
+            "description_type": "show_ul",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_2_6kFqVT": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": true,
+            "product_tag": "size-guide-trekks",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "instructions"
+          }
+        },
+        "collapsible_tab_2_ALh97A": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": true,
+            "product_tag": "boots-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "instructions"
+          }
+        },
+        "collapsible_tab_2_mG4tgE": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": true,
+            "product_tag": "bootie-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "instructions"
+          }
+        },
+        "collapsible_tab_2_mDnryw": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": true,
+            "product_tag": "western-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "instructions"
+          }
+        },
+        "collapsible_tab_2_CwBR3G": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": true,
+            "product_tag": "high-top-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-2"
+          }
+        },
+        "collapsible_tab_2_PFyByf": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": true,
+            "product_tag": "low-top-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-2"
+          }
+        },
+        "collapsible_tab_2_efAGwX": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": true,
+            "product_tag": "bags",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-1"
+          }
+        },
+        "collapsible_tab_2_NGVjqH": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": true,
+            "product_tag": "runner-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-runners"
+          }
+        },
+        "collapsible_tab_2_3iXC6k": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": true,
+            "product_tag": "kids-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-ht"
+          }
+        },
+        "collapsible_tab_2_cLYJEf": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": true,
+            "product_tag": "slip-on-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-slipons-slides"
+          }
+        },
+        "collapsible_tab_2_8enptb": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": true,
+            "product_tag": "slide-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions"
+          }
+        },
+        "collapsible_tab_2_9zwncR": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": true,
+            "product_tag": "jogger-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-joggers"
+          }
+        },
+        "collapsible_tab_2_nA4Rag": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": true,
+            "product_tag": "size-guide-buckle-sandals",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "copy-of-care-instructions"
+          }
         }
       },
       "block_order": [
@@ -101,7 +281,22 @@
         "collapsible_tab_PqJnhK",
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
         "collapsible_tab_iM6t78",
-        "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
+        "collapsible_tab_2_hxiDMm",
+        "collapsible_tab_2_UkAjaq",
+        "collapsible_tab_2_6kFqVT",
+        "collapsible_tab_2_ALh97A",
+        "collapsible_tab_2_mG4tgE",
+        "collapsible_tab_2_mDnryw",
+        "collapsible_tab_2_CwBR3G",
+        "collapsible_tab_2_PFyByf",
+        "collapsible_tab_2_efAGwX",
+        "collapsible_tab_2_NGVjqH",
+        "collapsible_tab_2_3iXC6k",
+        "collapsible_tab_2_cLYJEf",
+        "collapsible_tab_2_8enptb",
+        "collapsible_tab_2_9zwncR",
+        "collapsible_tab_2_nA4Rag"
       ],
       "settings": {
         "full_width": true,
