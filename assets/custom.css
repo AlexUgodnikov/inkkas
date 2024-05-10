@@ -230,8 +230,21 @@ body.compensate-for-scrollbar {
     position: absolute;
     right: 8px;
     top: 2px;
-    border: none;
     border-radius: 0;
+    background-color: rgb(var(--color-background));
+    border: .1rem solid rgba(var(--color-foreground),.1);
+    border-radius: 50%;
+    color: rgba(var(--color-foreground),.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: sticky;
+    padding: 1.2rem;
+    z-index: 2;
+    top: 1.5rem;
+    width: 4rem;
+    margin: 0 0 0 auto;
 }
 .view-all-image:nth-child(odd) {
     padding-right: 5px;
