@@ -70,6 +70,7 @@
     width: 15px;
     color: rgb(255, 183, 21);
 }
+.collapsible-tab-2 .custom-field-product[open] .icon-minus,
 .collapsible-tab-2 .custom-field-product:not([open]) .icon-plus {
     display: none;
 }
