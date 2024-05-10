@@ -232,7 +232,27 @@
     <div role="dialog" aria-label="view-all-images" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
       {%- for media in product.media -%}
         <div class="view-all-image">
-          {% render 'product-thumbnail', media: media, position: 'featured', loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true %}
+        {%- liquid
+										if media.media_type == 'image'
+											assign image_index = image_index | default: 0 | plus: 1
+										endif
+										assign priority = false
+                    if image_index == 0
+                      assign first_image = media.preview_image
+                      assign priority = 'high'
+                    endif
+
+                    assign image_set = false
+                    assign image_set_group = ''
+                    if media.alt contains '#'
+                      assign image_set_full = media.alt | split: '#' | last
+                      if image_set_full contains '_'
+                        assign image_set = true
+                        assign image_set_group = image_set_full | split: '_' | first
+                      endif
+                    endif
+									-%}
+        {%- render 'responsive-image', image: media.preview_image, sizes: sizes, priority: priority -%}
         </div>
       {%- endfor -%}
     </div>
