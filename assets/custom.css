@@ -116,3 +116,11 @@
 .product__accordion .custom-field--value > * {
     line-height: 1.8!important;
 }
+.size-chart-wrap > h5{
+    line-height: 120%;
+    font-size: 18px;
+    font-family: Open Sans;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgba(0,0,0,.75);
+}
