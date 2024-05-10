@@ -75,3 +75,6 @@
 .collapsible-tab-2 .custom-field-product[open] .icon-plus {
     display: none;
 }
+.collapsible-tab-2 .custom-field-product[open] .custom-field--title {
+    font-weight: 700;
+}
