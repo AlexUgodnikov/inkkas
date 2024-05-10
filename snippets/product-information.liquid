@@ -180,6 +180,57 @@
     {%- when 'share' -%}
         {% render 'social-share', share_label: false, share_title: product.title, share_permalink: product.url, share_image: product.featured_image %}
     {%- when 'collapsible_tab_2' -%}
+      {% assign collapsible_tab_show = true %}
+
+      {% if block.settings.show_only_with_tag and block.settings.product_tag != blank %}
+        {% for tag in product.tags %}
+          {% assign collapsible_tab_show = false %}
+          {% if tag contains block.settings.product_tag %}
+            {% assign collapsible_tab_show = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if collapsible_tab_show %}
+        <collapsible-row class="collapsible-tab-2 product__accordion accordion" {{ block.shopify_attributes }}>
+          <details class="custom-field-product custom-field__inspiration custom-field__type--text" id="Details-{{ block.id }}-{{ section.id }}" {% if block.settings.open %}open{% endif %}>
+            <summary class="custom-field--title">
+              {{ block.settings.heading | default: block.settings.page.title }}
+              {% render 'icon-plus' %}
+              {% render 'icon-minus' %}
+            </summary>
+            <div id="custom-field--value{{ block.id }}" class="custom-field--value collapsible__content accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+              {%- if block.settings.show_description -%}
+                {% if block.settings.description_type == 'show_before_ul' or block.settings.description_type == 'show_ul' %}
+                  <script>
+                    (function() {
+                      const htmlCode = `{{ product.description }}`;
+                      const ulStartIndex = htmlCode.indexOf('<ul');
+                      let textBeforeUl;
+                      let textAfterUl;
+
+                      if (ulStartIndex !== -1) {
+                        textBeforeUl = htmlCode.substring(0, ulStartIndex);
+                        textAfterUl = htmlCode.substring(ulStartIndex);
+                      }
+                      {%- if block.settings.description_type == 'show_before_ul' -%}
+                      document.querySelector('#custom-field--value{{ block.id }}').innerHTML = `${textBeforeUl}`;
+                      {%- else -%}
+                      document.querySelector('#custom-field--value{{ block.id }}').innerHTML = `${textAfterUl}`;
+                      {% endif %}
+                    })();
+                  </script>
+                {%- else -%}
+                  {{ product.description }}
+                {%- endif -%}
+              {%- else -%}
+                {{ block.settings.content }}
+                {{ block.settings.page.content }}
+              {%- endif -%}
+            </div>
+          </details>
+        </collapsible-row>
+      {% endif %}
     {%- when 'collapsible_tab' -%}
       {%- if block.settings.heading != blank -%}
       <collapsible-row class="product__accordion accordion" {{ block.shopify_attributes }}>
