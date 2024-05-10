@@ -244,6 +244,11 @@ body.compensate-for-scrollbar {
     width: auto;
     margin: 0 0 0 auto;
 }
+.product-popup-modal__toggle .icon {
+    height: auto;
+    margin: 0;
+    width: 2.2rem;
+}
 .view-all-image:nth-child(odd) {
     padding-right: 5px;
 }
