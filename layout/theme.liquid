@@ -37,6 +37,9 @@
 
 	{{ 'app.css' | asset_url | stylesheet_tag }}
 	{{ 'custom.css' | asset_url | stylesheet_tag }}
+	{% if request.page_type == 'product' %}
+		{{ 'fancy.css' | asset_url | stylesheet_tag }}
+	{% endif %}
 
 	{% render 'head-variables' %}
 
@@ -126,6 +129,9 @@
 	{%- if settings.cart_recommendations -%}
 	<script src="{{ 'product-recommendations.js' | asset_url }}" defer="defer"></script>
 	{%- endif -%}
+	{% if request.page_type == 'product' %}
+		<script src="{{ 'fancy.js' | asset_url }}"></script>
+	{% endif %}
 	{% render 'back-to-top' %}
   </body>
 </html>
