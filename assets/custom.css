@@ -269,6 +269,12 @@ body.compensate-for-scrollbar {
 #ModalClose-ViewAllImagesModal:hover {
     opacity: .75;
 }
+.product-gallery-navigations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
 @media screen and (max-width: 400px) {
     #productViewAllImages {
         padding: 6px 5px 4px 5px;
