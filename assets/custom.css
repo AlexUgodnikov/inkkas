@@ -60,4 +60,7 @@
     font-size: 18px;
     transition: all .3s ease;
     font-weight: 700 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
