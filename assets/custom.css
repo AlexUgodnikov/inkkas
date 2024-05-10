@@ -144,3 +144,18 @@ body.compensate-for-scrollbar {
 .size-chart-wrap * {
     font-family: Open Sans;
 }
+@media (max-width: 450px) {
+    .shoesImg img {
+        height: 90px;
+    }
+}
+@media (max-width: 585px) {
+    .shoesImg img {
+        height: 110px;
+    }
+}
+@media (max-width: 768px) {
+    .shoesImg img {
+        height: 130px;
+    }
+}
