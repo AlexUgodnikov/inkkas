@@ -48,7 +48,7 @@
 
 .collapsible-tab-2 {
     margin: 0 !important;
-    border-top: .1rem solid rgba(var(--color-foreground),.08);
-    border-bottom: .1rem solid rgba(var(--color-foreground),.08);
+    border-top: .1rem solid rgba(0,0,0 ,.08);
+    border-bottom: .1rem solid rgba(0,0,0 ,.08);
     padding: 1rem 0;
 }
