@@ -84,6 +84,9 @@
 .collapsible-tab-2 .custom-field-product[open] .custom-field--title {
     font-weight: 700;
 }
+.product__accordion .custom-field--value > ul {
+    margin-left: 0;
+}
 .product__accordion .custom-field--value > ul > li {
     list-style: none;
     position: relative;
