@@ -2,7 +2,8 @@
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
-      "settings": {}
+      "settings": {
+      }
     },
     "main-product": {
       "type": "main-product",
@@ -47,26 +48,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "collapsible_tab_kQpjT8": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Description",
-            "open": true,
-            "content": "",
-            "page": "",
-            "custom_liquid": "{{product.description}}"
-          }
-        },
-        "collapsible_tab_pfqtJr": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Features",
-            "open": false,
-            "content": "",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
         "collapsible_tab_PqJnhK": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -74,16 +55,6 @@
             "heading": "Size & Fit",
             "open": false,
             "content": "<p>These shoes fit true to size. Questions about fit? View our <a href=\"\/pages\/western-size-chart\" target=\"_blank\" title=\"Size Guide - Western\">size guide here<\/a> or email support@inkkas.com. <\/p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_niJNiE": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "open": false,
-            "content": "<p><strong>Free Shipping: <\/strong>Free USPS ground shipping on orders of $175 or more is automatically applied at checkout.<\/p><p><strong>Shipping Options<\/strong>: We offer USPS ground and expedited UPS 2-Day Air options. All orders are processed the  business day after placement. <\/p><p><strong>Free Returns<\/strong>: We provide a FREE prepaid shipping label for items returned within 7 days of delivery. You may still return items for up to 30 days, less the cost of return shipping. View our full return policy <a href=\"\/pages\/return_policy\" title=\"Returns and Exchanges\">here<\/a>.<\/p><p><strong>Pre-Orders<\/strong>: Because we make our collections in small batches, we also make certain products available for pre-order. We do our best to project accurate shipping dates for pre-orders on the product page; however, please note that these dates could change.<\/p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -118,7 +89,8 @@
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -126,10 +98,7 @@
         "inventory_level_BhJagd",
         "variant_picker",
         "buy_buttons",
-        "collapsible_tab_kQpjT8",
-        "collapsible_tab_pfqtJr",
         "collapsible_tab_PqJnhK",
-        "collapsible_tab_niJNiE",
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
         "collapsible_tab_iM6t78",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
