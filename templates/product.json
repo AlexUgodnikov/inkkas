@@ -190,7 +190,7 @@
           "settings": {
             "icon": "plant",
             "heading": "ONE SHOE ONE TREE",
-            "text": "<p>We plant 1 tree for every purchase with Trees.org.<\/p>"
+            "text": "<p><a href=\"\/pages\/about\" title=\"About\">We plant 1 tree<\/a> for every purchase with Trees.org.<\/p>"
           }
         },
         "icon_8gn4BM": {
@@ -198,7 +198,7 @@
           "settings": {
             "icon": "shoe",
             "heading": "STAY SMALL",
-            "text": "<p>To minimize our carbon footprint and reduce waste, we make our collections in small batches & offer pre-order for upcoming productions.  <\/p>"
+            "text": "<p>To minimize our carbon footprint & reduce waste, we make our collections in small batches.  <\/p>"
           }
         }
       },
