@@ -116,7 +116,7 @@
 .product__accordion .custom-field--value > * {
     line-height: 1.8!important;
 }
-.size-chart-wrap > h5{
+.size-chart-wrap > h5 {
     line-height: 120%;
     font-size: 18px;
     font-family: Open Sans;
@@ -124,6 +124,7 @@
     font-weight: 600;
     color: rgba(0,0,0,.75);
     text-align: center;
+    margin-top: 30px;
 }
 body.compensate-for-scrollbar {
     overflow: hidden;
