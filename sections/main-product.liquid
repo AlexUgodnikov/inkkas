@@ -232,7 +232,7 @@
     <div role="dialog" aria-label="view-all-images" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
       <product-slider>
         {%- for media in product.media -%}
-          <div class="view-all-image">
+          <div class="view-all-image product-single__media">
             {%- liquid
               if media.media_type == 'image'
                 assign image_index = image_index | default: 0 | plus: 1
