@@ -6,7 +6,7 @@
         "1661862991ee6f499c-1": {
           "type": "heading",
           "settings": {
-            "text": "F.A.Q.",
+            "text": "Returns & Exchanges",
             "size": "h2"
           }
         },
@@ -50,27 +50,27 @@
         "a82c71ab-5eef-4ac6-8278-42c4bf4565d6": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Why the name “Inkkas”?",
+            "heading": "EASY RETURNS & EXCHANGES",
             "open": true,
-            "content": "<p>We set out to build a brand that connects our planet and people through artful footwear. When Inkkas was founded in 2012, we partnered with skilled artisan shoemakers in Peru to create our first classic sneakers using authentic Peruvian textiles. Our name honors our roots in Latin America, and reflects our identity as an inclusive and global brand that celebrates nature and art around the world.<\/p>",
+            "content": "<ol><li>Submit your <a href=\"https:\/\/inkkas.com\/a\/return\"><span style=\"text-decoration:underline\"><strong>return request here<\/strong><\/span><\/a> by entering your order number (provided in the email confirmation of your order) and the email address you used to make your original purchase.<\/li><li>Follow the prompts for a refund or exchange. Once we receive your item(s) at our warehouse, we will issue your refund. <\/li><li>Note that <strong>return shipping is FREE for 7 days<\/strong> after your order has been delivered.<\/li><\/ol>",
             "page": ""
           }
         },
         "aa70895f-8889-4293-8c7d-ff7bc2b81c57": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How does my purchase help reforestation?",
+            "heading": "Year-End Return Policy",
             "open": false,
-            "content": "<p>It is thanks to our partnership with<em>Trees for The Future  <\/em>(<a href=\"https:\/\/trees.org\/\">https:\/\/trees.org<\/a>), an award-winning global tree planting organization, that we can guarantee you that your purchase will directly allow for a new tree to be planted on the planet.  With your support, Inkkas has been responsible for planting more than 380K trees as of 2024.<\/p>",
+            "content": "<ol><li>Orders placed between Dec 3rd - 23rd will have free returns through Jan 6th.<\/li><li>Orders placed after Dec 23rd will have the normal return policy (7 days for free returns, more details above).<\/li><\/ol>",
             "page": ""
           }
         },
         "collapsible_tab_Bp9Tpx": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Where does Inkkas ship?",
+            "heading": "CLEARANCE RETURNS & EXCHANGES",
             "open": false,
-            "content": "<p>Inkkas is able to ship worldwide via UPS or USPS for domestic orders, DHL Express Worldwide for non-Canada international orders, and via USPS Priority International for Canada orders. <\/p><ul><li>DHL Express Worldwide rates vary depending upon what country the items are being shipped to.<\/li><li>International (DHL) orders are not eligible for free shipping discounts. <\/li><li>Please allow an extra business day for customs paperwork processing when ordering to ship international. <\/li><li>Please also note Inkkas is not liable for any customs taxes or duties on outbound shipments to international customers. Customs taxes and duties are the sole responsibility of the recipient.<\/li><\/ul>",
+            "content": "<ol><li>For items purchased from our clearance section, you will be required to pay for return shipping. <\/li><li>If you choose to exchange a clearance item, we will cover the cost of shipping the new exchanged pair to you.<\/li><\/ol>",
             "page": ""
           }
         },
