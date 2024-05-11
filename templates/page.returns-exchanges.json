@@ -52,7 +52,7 @@
           "settings": {
             "heading": "Return policy (USA)",
             "open": false,
-            "content": "<ol><li>If you are not 100% satisfied with your purchase, you may return your Inkkas item(s) for an exchange or refund. There is no return shipping cost to you if returned within 7 days after delivery.  <\/li><li>For any return made between 8 - 30 days from the date of delivery, you the return shipping cost will be deducted from your refund. If you elect store credit, any return shipping cost will be waived. <\/li><li>Returns must be unworn, in the original state you received them, and in the original packaging. <\/li><li>Exchanges can only be made for items currently in stock. <\/li><li>You will be notified via email once your return has been processed.<\/li><\/ol>",
+            "content": "<ol><li>If you are not 100% satisfied with your purchase, you may return your Inkkas item(s) for an exchange or refund. There is no return shipping cost to you <strong>if returned within 7 days of delivery<\/strong>.  <\/li><li>For any return made between 8 - 30 days from the date of delivery, the return shipping cost will be deducted from your refund. If you elect store credit, any return shipping cost will be waived. <\/li><li>Returns must be unworn, in the original state you received them, and in the original packaging to be eligible for a refund.<\/li><li>Exchanges can only be made for items currently in stock. <\/li><li>You will be notified via email once your return has been processed.<\/li><\/ol>",
             "page": ""
           }
         },
@@ -62,6 +62,15 @@
             "heading": "request a RETURn or EXCHANGE",
             "open": true,
             "content": "<ol><li><strong>Return shipping is FREE for 7 days<\/strong> after your order has been delivered to you.<\/li><li>To be eligible for a refund\/exchange, items returned should be in new, unworn condition in the original packaging.<\/li><li>Submit your <a href=\"https:\/\/inkkas.com\/a\/return\"><span style=\"text-decoration:underline\"><strong>return\/exchange request here<\/strong><\/span><\/a> by entering your order number (provided in the email confirmation of your order) and the email address you used to make your original purchase.<\/li><li>Follow the prompts for a refund or exchange. <\/li><li>Once we receive your eligible item(s) at our warehouse, we will issue your refund, which you should see reflected back to your original payment method within 14 business days. If you selected exchange, your exchanged pair will be shipped to you.<\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Refund Timeline",
+            "open": false,
+            "content": "<ol><li>Eligible refunds are processed once the returned item(s) is\/are received by our warehouse. <\/li><li>To be eligible for a refund, the return must be unworn, in the original state you received them, and in the original packaging. <\/li><li>Please allow 14 business days from the day your return is shipped for your refund to be processed. <\/li><li>It may take up to 10 business days for your refund to be processed after your return is received at our warehouse. <\/li><li>The refund will be processed to the same method of payment used to make your original purchase. <\/li><li>If the method of payment used at the time of purchase has changed, please note that you will be refunded in the form of store credit only.<\/li><\/ol>",
             "page": ""
           }
         },
@@ -83,33 +92,6 @@
             "page": ""
           }
         },
-        "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Refund Timeline",
-            "open": false,
-            "content": "<ol><li>Eligible refunds are processed once the returned item(s) is\/are received by our warehouse. <\/li><li>To be eligible for a refund, the return must be unworn, in the original state you received them, and in the original packaging. <\/li><li>Please allow 14 business days from the day your return is shipped for your refund to be processed. <\/li><li>It may take up to 10 business days for your refund to be processed after your return is received at our warehouse. <\/li><li>The refund will be processed to the same method of payment used to make your original purchase. <\/li><li>If the method of payment used at the time of purchase has changed, please note that you will be refunded in the form of store credit only.<\/li><\/ol>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_cLY4gg": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Refund Terms & Conditions (CANADA)",
-            "open": false,
-            "content": "<ol><li>All returns\/exchanges will be sent to our CA Returns Center located in Ottawa, ON. <\/li><li>Our return policy is the same as US orders (Free returns within 7 days of receipt).<\/li><li>The return shipping costs for orders returned after the 7-day free shipping window will vary depending on the country region. <\/li><\/ol>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_N9WLgd": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Refund Terms & Conditions (INTERNATIONAL)",
-            "open": false,
-            "content": "<ol><li>For return\/exchange requests on orders outside of the US and Canada, please contact us directly at ops@inkkas.com. <\/li><\/ol>",
-            "page": ""
-          }
-        },
         "collapsible_tab_NjzrQR": {
           "type": "collapsible_tab",
           "settings": {
@@ -125,15 +107,6 @@
             "heading": "What can I do with old Inkkas I no longer wear? ",
             "open": false,
             "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. There are quality programs across the country and donation centers that will take used shoes. Our partner organization that does a great job taking used shoes and repurposing them is Soles4Souls (<a href=\"https:\/\/soles4souls.org\/\">https:\/\/soles4souls.org<\/a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. <\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_tUTyfQ": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "HOW DO I RETURN MY ORDER?",
-            "open": false,
-            "content": "",
             "page": ""
           }
         },
@@ -154,21 +127,38 @@
             "content": "<p>Oh no! We apologize for this inconvenience. If the order was purchased on our website within 30 days, please contact us at support@inkkas.com with your order number and details about the damage or defect. <\/p>",
             "page": ""
           }
+        },
+        "collapsible_tab_cLY4gg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "RETURN POLICY (CANADA)",
+            "open": false,
+            "content": "<ol><li>All returns\/exchanges will be sent to our CA Returns Center located in Ottawa, ON. <\/li><li>Our return policy is the same as US orders (Free returns within 7 days of receipt).<\/li><li>The return shipping costs for orders returned after the 7-day free shipping window will vary depending on the country region. <\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_N9WLgd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Return Policy (INTERNATIONAL)",
+            "open": false,
+            "content": "<ol><li>For return\/exchange requests on orders outside of the US and Canada, please contact us directly at ops@inkkas.com. <\/li><\/ol>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_tab_mLFbJi",
         "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
         "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
         "collapsible_tab_Bp9Tpx",
-        "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
-        "collapsible_tab_cLY4gg",
-        "collapsible_tab_N9WLgd",
         "collapsible_tab_NjzrQR",
         "collapsible_tab_wAkQAF",
-        "collapsible_tab_tUTyfQ",
         "collapsible_tab_RTgTUh",
-        "collapsible_tab_qhNRN6"
+        "collapsible_tab_qhNRN6",
+        "collapsible_tab_cLY4gg",
+        "collapsible_tab_N9WLgd"
       ],
       "settings": {
         "heading": "",
