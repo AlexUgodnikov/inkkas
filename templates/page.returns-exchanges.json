@@ -86,9 +86,27 @@
         "collapsible_tab_mLFbJi": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Refund Terms & Conditions",
+            "heading": "Refund Terms & Conditions (USA)",
             "open": false,
             "content": "<ol><li>If you are not 100% satisfied with your purchase, you may return your Inkkas item(s) for an exchange or refund for the cost of the item + return shipping costs free of charge within 7 days after delivery.  <\/li><li>For any return made between 8 - 30 days from the date of delivery, you will be required to pay for return shipping costs.<\/li><li>Returns must be unworn, in the original state you received them, and in the original packaging. <\/li><li>Exchanges can only be made for items currently in stock. <\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_cLY4gg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Refund Terms & Conditions (CANADA)",
+            "open": false,
+            "content": "<ol><li>All returns\/exchanges will be sent to our CA Returns Center located in Ottawa, ON. <\/li><li>Our return policy is the same as US orders (Free returns within 7 days of receipt).<\/li><li>The return shipping costs for orders returned after the 7-day free shipping window will vary depending on the country region. <\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_N9WLgd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Refund Terms & Conditions (INTERNATIONAL)",
+            "open": false,
+            "content": "<ol><li>For return\/exchange requests on orders outside of the US and Canada, please contact us directly at ops@inkkas.com. <\/li><\/ol>",
             "page": ""
           }
         },
@@ -252,6 +270,8 @@
         "collapsible_tab_Bp9Tpx",
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
         "collapsible_tab_mLFbJi",
+        "collapsible_tab_cLY4gg",
+        "collapsible_tab_N9WLgd",
         "fa2985e2-4983-462b-80c8-596d4ae47540",
         "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f",
         "collapsible_tab_hdBAQQ",
