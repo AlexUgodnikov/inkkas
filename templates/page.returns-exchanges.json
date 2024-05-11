@@ -79,7 +79,7 @@
           "settings": {
             "heading": "Year-End Return Policy",
             "open": false,
-            "content": "<ol><li>Orders placed between Dec 3rd - 23rd will have free returns through Jan 6th.<\/li><li>Orders placed after Dec 23rd will have the normal return policy (7 days for free returns, more details above).<\/li><\/ol>",
+            "content": "<ul><li>Orders placed between Dec 3rd - 23rd will have free returns through Jan 6th.<\/li><li>Orders placed after Dec 23rd will have the normal return policy (7 days for free returns, more details above).<\/li><\/ul>",
             "page": ""
           }
         },
@@ -88,7 +88,7 @@
           "settings": {
             "heading": "CLEARANCE RETURNS & EXCHANGES",
             "open": false,
-            "content": "<ol><li>For items purchased from our clearance section, you will be required to pay for return shipping. <\/li><li>If you choose to exchange a clearance item, we will cover the cost of shipping the new exchanged pair to you.<\/li><\/ol>",
+            "content": "<ul><li>For items purchased from our clearance section, you will be required to pay for return shipping. <\/li><li>If you choose to exchange a clearance item, we will cover the cost of shipping the new exchanged pair to you.<\/li><\/ul>",
             "page": ""
           }
         },
