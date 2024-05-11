@@ -27,7 +27,7 @@
         "section_width": "grid",
         "text_width": "medium",
         "text_position": "center",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
@@ -47,10 +47,19 @@
     "faq": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_tab_mLFbJi": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Return policy (USA)",
+            "open": false,
+            "content": "<ol><li>If you are not 100% satisfied with your purchase, you may return your Inkkas item(s) for an exchange or refund. There is no return shipping cost to you if returned within 7 days after delivery.  <\/li><li>For any return made between 8 - 30 days from the date of delivery, you the return shipping cost will be deducted from your refund. If you elect store credit, any return shipping cost will be waived. <\/li><li>Returns must be unworn, in the original state you received them, and in the original packaging. <\/li><li>Exchanges can only be made for items currently in stock. <\/li><li>You will be notified via email once your return has been processed.<\/li><\/ol>",
+            "page": ""
+          }
+        },
         "a82c71ab-5eef-4ac6-8278-42c4bf4565d6": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "EASY RETURNS & EXCHANGES",
+            "heading": "request a RETURn or EXCHANGE",
             "open": true,
             "content": "<ol><li><strong>Return shipping is FREE for 7 days<\/strong> after your order has been delivered to you.<\/li><li>To be eligible for a refund\/exchange, items returned should be in new, unworn condition in the original packaging.<\/li><li>Submit your <a href=\"https:\/\/inkkas.com\/a\/return\"><span style=\"text-decoration:underline\"><strong>return\/exchange request here<\/strong><\/span><\/a> by entering your order number (provided in the email confirmation of your order) and the email address you used to make your original purchase.<\/li><li>Follow the prompts for a refund or exchange. <\/li><li>Once we receive your eligible item(s) at our warehouse, we will issue your refund, which you should see reflected back to your original payment method within 14 business days. If you selected exchange, your exchanged pair will be shipped to you.<\/li><\/ol>",
             "page": ""
@@ -80,15 +89,6 @@
             "heading": "Refund Timeline",
             "open": false,
             "content": "<ol><li>Eligible refunds are processed once the returned item(s) is\/are received by our warehouse. <\/li><li>To be eligible for a refund, the return must be unworn, in the original state you received them, and in the original packaging. <\/li><li>Please allow 14 business days from the day your return is shipped for your refund to be processed. <\/li><li>It may take up to 10 business days for your refund to be processed after your return is received at our warehouse. <\/li><li>The refund will be processed to the same method of payment used to make your original purchase. <\/li><li>If the method of payment used at the time of purchase has changed, please note that you will be refunded in the form of store credit only.<\/li><\/ol>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_mLFbJi": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Refund Terms & Conditions (USA)",
-            "open": false,
-            "content": "<ol><li>If you are not 100% satisfied with your purchase, you may return your Inkkas item(s) for an exchange or refund for the cost of the item + return shipping costs free of charge within 7 days after delivery.  <\/li><li>For any return made between 8 - 30 days from the date of delivery, you will be required to pay for return shipping costs.<\/li><li>Returns must be unworn, in the original state you received them, and in the original packaging. <\/li><li>Exchanges can only be made for items currently in stock. <\/li><\/ol>",
             "page": ""
           }
         },
@@ -157,11 +157,11 @@
         }
       },
       "block_order": [
+        "collapsible_tab_mLFbJi",
         "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
         "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
         "collapsible_tab_Bp9Tpx",
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
-        "collapsible_tab_mLFbJi",
         "collapsible_tab_cLY4gg",
         "collapsible_tab_N9WLgd",
         "collapsible_tab_NjzrQR",
