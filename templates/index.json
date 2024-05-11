@@ -1013,7 +1013,7 @@
         "color_text": "#151515",
         "color_border": "#e2e2e2",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "rich_text_8crLJD": {
