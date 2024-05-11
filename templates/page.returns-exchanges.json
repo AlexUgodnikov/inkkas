@@ -110,30 +110,12 @@
             "page": ""
           }
         },
-        "collapsible_tab_tMWDWN": {
+        "collapsible_tab_NjzrQR": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "The shoes I want are listed as \"Out of Stock\" or “Sold Out” — when will you be getting it again?",
+            "heading": "I have contacted Inkkas customer service, when will I hear back?",
             "open": false,
-            "content": "<p>If your shoes are currently not in stock, please join the waitlist on the product page to be alerted for a restock, or check back in a few days. Our collections are often made in small batches, but we receive shipments regularly.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_iYGgP9": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "I got my Inkkas shoes dirty. How should I clean them?",
-            "open": false,
-            "content": "<p>We do not recommend putting Inkkas shoes in the washing machine. To keep your Inkkas clean and looking good, we recommend spot cleaning them with a rag and a little soap and water. (For leather areas, spot clean with water only or use a specialized leather cleaner.) Please refer to the Care Instructions on the product page for more information. <\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_kDttFC": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Do Inkkas shoes have arch support?",
-            "open": false,
-            "content": "<p>Yes, Inkkas provide arch support that is sufficient for the curvature of the average foot.<\/p><p>However, if you typically wear orthopedic insoles in your shoes, you may want to use orthopedic insoles in your Inkkas as well. Inkkas' insoles are removable to make room for orthopedic inserts for the following collections: Slip Ons, High Tops, Low Tops, Camping Boots, and Trekk Boots.<\/p>",
+            "content": "<p>Inkkas support agents are available between 9:00 AM to 5:00 PM EST, Monday to Friday. We are committed to responding to inquiries within 24 to 48 hours during business hours. You can reach us at <a href=\"mailto:support@inkkas.com\">support@inkkas.com<\/a>.  Please note that we do not respond to inquiries during weekends and\/or holidays. <\/p><p>For urgent matters or if you haven't received a response from our customer service team in 48- 72 hours (sometimes replies go to spam), please email us at ops@inkkas.com.<\/p>",
             "page": ""
           }
         },
@@ -143,15 +125,6 @@
             "heading": "What can I do with old Inkkas I no longer wear? ",
             "open": false,
             "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. There are quality programs across the country and donation centers that will take used shoes. Our partner organization that does a great job taking used shoes and repurposing them is Soles4Souls (<a href=\"https:\/\/soles4souls.org\/\">https:\/\/soles4souls.org<\/a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. <\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_NjzrQR": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "I have contacted Inkkas customer service, when will I hear back?",
-            "open": false,
-            "content": "<p>Inkkas support agents are available between 9:00 AM to 5:00 PM EST, Monday to Friday. We are committed to responding to inquiries within 24 to 48 hours during business hours. You can reach us at <a href=\"mailto:support@inkkas.com\">support@inkkas.com<\/a>.  Please note that we do not respond to inquiries during weekends and\/or holidays. <\/p><p>For urgent matters or if you haven't received a response from our customer service team in 48- 72 hours (sometimes replies go to spam), please email us at ops@inkkas.com.<\/p>",
             "page": ""
           }
         }
@@ -164,11 +137,8 @@
         "collapsible_tab_mLFbJi",
         "collapsible_tab_cLY4gg",
         "collapsible_tab_N9WLgd",
-        "collapsible_tab_tMWDWN",
-        "collapsible_tab_iYGgP9",
-        "collapsible_tab_kDttFC",
-        "collapsible_tab_wAkQAF",
-        "collapsible_tab_NjzrQR"
+        "collapsible_tab_NjzrQR",
+        "collapsible_tab_wAkQAF"
       ],
       "settings": {
         "heading": "",
