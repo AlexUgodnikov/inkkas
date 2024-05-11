@@ -328,7 +328,8 @@
         },
         "product_link_gpLtpg": {
           "type": "product_link",
-          "settings": {}
+          "settings": {
+          }
         },
         "buy_buttons_GKUHRJ": {
           "type": "buy_buttons",
@@ -401,7 +402,9 @@
             "link": "shopify:\/\/collections\/jogger-1",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/jogger-1",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_Am6KPK": {
@@ -415,7 +418,9 @@
             "link": "shopify:\/\/collections\/slip-on",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/slip-on",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_Ga6xhn": {
@@ -429,7 +434,9 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_6jbQHn": {
@@ -443,7 +450,9 @@
             "link": "shopify:\/\/collections\/camping-boot-1",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/camping-boot-1",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_wTaUXr": {
@@ -457,7 +466,9 @@
             "link": "shopify:\/\/collections\/trekk-boots",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/trekk-boots",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_kykCKB": {
@@ -471,7 +482,9 @@
             "link": "shopify:\/\/collections\/flexaire",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/flexaire",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_Wz7h8L": {
@@ -485,7 +498,9 @@
             "link": "shopify:\/\/collections\/low-top",
             "use_text_button": false,
             "block_link": "",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_HF4fHH": {
@@ -499,7 +514,9 @@
             "link": "shopify:\/\/collections\/ace-high-top",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/ace-high-top",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_UkENLQ": {
@@ -513,7 +530,9 @@
             "link": "shopify:\/\/collections\/booties",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/booties",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "6a1c724d-715f-4918-acea-e9f4464d74de": {
@@ -528,7 +547,9 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_iyHeBM": {
@@ -543,7 +564,9 @@
             "link": "shopify:\/\/collections\/the-radiance-collection",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/the-radiance-collection",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_pLXKmK": {
@@ -558,7 +581,9 @@
             "link": "shopify:\/\/collections\/back-in-stock",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/back-in-stock",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "bbdd3a28-ed72-4073-b920-e0710a00f80b": {
@@ -573,7 +598,9 @@
             "link": "shopify:\/\/collections\/best-sellers",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/best-sellers",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_qCET3F": {
@@ -588,7 +615,9 @@
             "link": "shopify:\/\/collections\/ss24-vacay-ready",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/ss24-vacay-ready",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_crEtNe": {
@@ -603,7 +632,9 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         }
       },
@@ -997,7 +1028,7 @@
         "heading_JaRifV": {
           "type": "heading",
           "settings": {
-            "text": "@INKKASWORLDWEAR",
+            "text": "@InkkasWorldwear",
             "size": "h2"
           }
         }
@@ -1034,7 +1065,8 @@
       "block_order": [
         "instafeed_app_block_TFUALm"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "16624658277b7c3abc": {
       "type": "countdown-banner",
@@ -1094,7 +1126,8 @@
     },
     "17132068911ec81803": {
       "type": "apps",
-      "settings": {}
+      "settings": {
+      }
     }
   },
   "order": [
