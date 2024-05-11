@@ -52,7 +52,7 @@
           "settings": {
             "heading": "EASY RETURNS & EXCHANGES",
             "open": true,
-            "content": "<ol><li>Submit your <a href=\"https:\/\/inkkas.com\/a\/return\"><span style=\"text-decoration:underline\"><strong>return request here<\/strong><\/span><\/a> by entering your order number (provided in the email confirmation of your order) and the email address you used to make your original purchase.<\/li><li>Follow the prompts for a refund or exchange. Once we receive your item(s) at our warehouse, we will issue your refund. <\/li><li>Note that <strong>return shipping is FREE for 7 days<\/strong> after your order has been delivered.<\/li><\/ol>",
+            "content": "<ol><li><strong>Return shipping is FREE for 7 days<\/strong> after your order has been delivered to you.<\/li><li>To be eligible for a refund\/exchange, items returned should be in new, unworn condition in the original packaging.<\/li><li>Submit your <a href=\"https:\/\/inkkas.com\/a\/return\"><span style=\"text-decoration:underline\"><strong>return\/exchange request here<\/strong><\/span><\/a> by entering your order number (provided in the email confirmation of your order) and the email address you used to make your original purchase.<\/li><li>Follow the prompts for a refund or exchange. <\/li><li>Once we receive your eligible item(s) at our warehouse, we will issue your refund, which you should see reflected back to your original payment method within 14 business days. If you selected exchange, your exchanged pair will be shipped to you.<\/li><\/ol>",
             "page": ""
           }
         },
@@ -127,6 +127,33 @@
             "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. There are quality programs across the country and donation centers that will take used shoes. Our partner organization that does a great job taking used shoes and repurposing them is Soles4Souls (<a href=\"https:\/\/soles4souls.org\/\">https:\/\/soles4souls.org<\/a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. <\/p>",
             "page": ""
           }
+        },
+        "collapsible_tab_tUTyfQ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "HOW DO I RETURN MY ORDER?",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_RTgTUh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long do I have to return my order?",
+            "open": false,
+            "content": "<p>Our warehouse needs to receive and process your return within<strong> 30 days <\/strong>from the original purchase date to issue a refund back to your original form of payment.  Note that return shipping is FREE if you send your return within 7 days of delivery. For returns between 8-30 days, the cost of return shipping will be deducted from your refund. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_qhNRN6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "My item arrived damaged or defective. How can I return it?",
+            "open": false,
+            "content": "<p>Oh no! We apologize for this inconvenience. If the order was purchased on our website within 30 days, please contact us at support@inkkas.com with your order number and details about the damage or defect. <\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -138,7 +165,10 @@
         "collapsible_tab_cLY4gg",
         "collapsible_tab_N9WLgd",
         "collapsible_tab_NjzrQR",
-        "collapsible_tab_wAkQAF"
+        "collapsible_tab_wAkQAF",
+        "collapsible_tab_tUTyfQ",
+        "collapsible_tab_RTgTUh",
+        "collapsible_tab_qhNRN6"
       ],
       "settings": {
         "heading": "",
