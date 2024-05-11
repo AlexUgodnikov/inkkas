@@ -77,18 +77,18 @@
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "I just ordered my shoes. When will they arrive?",
+            "heading": "Refund Timeline",
             "open": false,
-            "content": "<p>If you selected Regular US Ground Shipping, your order will arrive within 5-7 business days from the time your order ships from our warehouse. Please note that this does not account for the 1-2 business day processing time once your order is placed. Specific transit times vary according to shipping destination. <\/p><p>Pre-ordered items will ship according to the date stated on the product page at the time of purchase.<\/p>",
+            "content": "<ol><li>Eligible refunds are processed once the returned item(s) is\/are received by our warehouse. <\/li><li>To be eligible for a refund, the return must be unworn, in the original state you received them, and in the original packaging. <\/li><li>Please allow 14 business days from the day your return is shipped for your refund to be processed. <\/li><li>It may take up to 10 business days for your refund to be processed after your return is received at our warehouse. <\/li><li>The refund will be processed to the same method of payment used to make your original purchase. <\/li><li>If the method of payment used at the time of purchase has changed, please note that you will be refunded in the form of store credit only.<\/li><\/ol>",
             "page": ""
           }
         },
         "collapsible_tab_mLFbJi": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Oh no! I made a mistake in my order. what should I do?",
+            "heading": "Refund Terms & Conditions",
             "open": false,
-            "content": "<p>Don't worry! If you made a mistake in your order such as putting in the wrong shipping address or choosing the wrong size, please contact <a href=\"mailto:support@inkkas.com\">support@inkkas.com<\/a> as soon as possible and we will do everything we can to correct your order if it has not already been shipped.<\/p>",
+            "content": "<ol><li>If you are not 100% satisfied with your purchase, you may return your Inkkas item(s) for an exchange or refund for the cost of the item + return shipping costs free of charge within 7 days after delivery.  <\/li><li>For any return made between 8 - 30 days from the date of delivery, you will be required to pay for return shipping costs.<\/li><li>Returns must be unworn, in the original state you received them, and in the original packaging. <\/li><li>Exchanges can only be made for items currently in stock. <\/li><\/ol>",
             "page": ""
           }
         },
