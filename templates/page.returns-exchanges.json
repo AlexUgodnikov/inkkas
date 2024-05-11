@@ -27,7 +27,7 @@
         "section_width": "grid",
         "text_width": "medium",
         "text_position": "center",
-        "text_alignment": "left",
+        "text_alignment": "center",
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
@@ -52,7 +52,7 @@
           "settings": {
             "heading": "Return policy (USA)",
             "open": true,
-            "content": "<ol><li>If you are not 100% satisfied with your purchase, you may return your Inkkas item(s) for an exchange or refund. There is no return shipping cost to you <strong>if returned within 7 days of delivery<\/strong>.  Submit your <a href=\"https:\/\/inkkas.com\/a\/return\"><span style=\"text-decoration:underline\"><strong>return\/exchange request here<\/strong><\/span><\/a>.<\/li><li>For any return made between 8 - 30 days from the date of delivery, the return shipping cost will be deducted from your refund. If you elect store credit, any return shipping cost will be waived. <\/li><li>Returns must be unworn, in the original state you received them, and in the original packaging to be eligible for a refund.<\/li><li>Exchanges can only be made for items currently in stock. <\/li><li>You will be notified via email once your return has been processed.<\/li><\/ol>",
+            "content": "<ol><li>If you are not 100% satisfied with your purchase, you may return your Inkkas item(s) for a <a href=\"https:\/\/inkkas.com\/a\/return\"><span style=\"text-decoration:underline\"><strong>refund or exchange here<\/strong><\/span><\/a>. There is no return shipping cost to you <strong>if returned within 7 days of delivery<\/strong>. <\/li><li>For any returns between 8 - 30 days from the date of delivery, the return shipping cost will be deducted from your refund. If you elect store credit, any return shipping cost will be waived. <\/li><li>Returns must be unworn, in the original state you received them, and in the original packaging.<\/li><li>Exchanges can only be made for items currently in stock. <\/li><li>You will be notified via email once your return has been processed.<\/li><\/ol>",
             "page": ""
           }
         },
