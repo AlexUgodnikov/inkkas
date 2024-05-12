@@ -92,6 +92,15 @@
             "page": ""
           }
         },
+        "collapsible_tab_RTgTUh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long do I have to return my order?",
+            "open": false,
+            "content": "<p>Our warehouse needs to receive and process your return within<strong> 30 days <\/strong>from the original purchase date to issue a refund back to your original form of payment.  Note that return shipping is FREE if you send your return within 7 days of delivery. For returns between 8-30 days, the cost of return shipping will be deducted from your refund. <\/p>",
+            "page": ""
+          }
+        },
         "collapsible_tab_NjzrQR": {
           "type": "collapsible_tab",
           "settings": {
@@ -107,15 +116,6 @@
             "heading": "What can I do with old Inkkas I no longer wear? ",
             "open": false,
             "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. There are quality programs across the country and donation centers that will take used shoes. Our partner organization that does a great job taking used shoes and repurposing them is Soles4Souls (<a href=\"https:\/\/soles4souls.org\/\">https:\/\/soles4souls.org<\/a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. <\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_RTgTUh": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How long do I have to return my order?",
-            "open": false,
-            "content": "<p>Our warehouse needs to receive and process your return within<strong> 30 days <\/strong>from the original purchase date to issue a refund back to your original form of payment.  Note that return shipping is FREE if you send your return within 7 days of delivery. For returns between 8-30 days, the cost of return shipping will be deducted from your refund. <\/p>",
             "page": ""
           }
         },
@@ -153,9 +153,9 @@
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
         "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
         "collapsible_tab_Bp9Tpx",
+        "collapsible_tab_RTgTUh",
         "collapsible_tab_NjzrQR",
         "collapsible_tab_wAkQAF",
-        "collapsible_tab_RTgTUh",
         "collapsible_tab_qhNRN6",
         "collapsible_tab_cLY4gg",
         "collapsible_tab_N9WLgd"
