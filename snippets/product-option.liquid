@@ -113,7 +113,58 @@
 			{% endif %}
 			{% if men > 0 %}
 				<div class="show_variants {%  if active_tab == 'men' %} active {% endif %}" id="men_type">
+					{%- for value in option.values -%}
+						{% assign value_search = value | downcase  %}
+						{% if value_search contains 'us men' %}
+							{% assign new_title_arr = value | split: "/" %}
+							{% assign new_title = value %}
+							{% for val in new_title_arr %}
+								{% assign newval = val | downcase %}
+								{% if newval contains 'us men' %}
+									{% assign new_title = val %}
+								{% endif %}
+							{% endfor %}
 
+
+						{% endif %}
+					{%- endfor -%}
+				</div>
+			{% endif %}
+			{% if kids > 0 %}
+				<div class="show_variants {%  if active_tab == 'kids' %} active {% endif %}" id="kids_type">
+					{%- for value in option.values -%}
+						{% assign value_search = variant.title | downcase  %}
+						{% if value_search contains 'us kids' %}
+							{% assign new_title_arr = variant.title | split: " / " %}
+							{% assign new_title = variant.title %}
+							{% for val in new_title_arr %}
+								{% assign newval = val | downcase %}
+								{% if newval contains 'us kids' %}
+									{% assign new_title = val %}
+								{% endif %}
+							{% endfor %}
+
+
+						{% endif %}
+					{%- endfor -%}
+				</div>
+			{% endif %}
+			{% if eur > 0 %}
+				<div class="show_variants  {%  if active_tab == 'eur' %} active {% endif %}" id="eur_type">
+					{%- for value in option.values -%}
+						{% assign value_search = variant.title | downcase  %}
+						{% if value_search contains 'eur' %}
+							{% assign new_title_arr = variant.title | split: " / " %}
+							{% assign new_title = variant.title %}
+							{% for val in new_title_arr %}
+								{% assign newval = val | downcase %}
+								{% if newval contains 'eur' %}
+									{% assign new_title = val %}
+								{% endif %}
+							{% endfor %}
+
+						{% endif %}
+					{%- endfor -%}
 				</div>
 			{% endif %}
 		{% else %}
