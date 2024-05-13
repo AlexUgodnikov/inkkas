@@ -147,6 +147,21 @@ body.compensate-for-scrollbar {
 .shoesImg img {
     object-fit: contain;
 }
+/*.product_size-chart {*/
+/*    margin: 15px 0;*/
+/*}*/
+/*.product_size-chart small {*/
+/*    font-size: 14px;*/
+/*    line-height: 19px;*/
+/*    color: #000000;*/
+/*}*/
+/*.product_size-chart small a {*/
+/*    color: #FF3115;*/
+/*    text-decoration: None;*/
+/*}*/
+/*.product_size-chart small a:hover {*/
+/*    color: #000000;*/
+/*}*/
 .product_size-chart .size_chart {
     color: var(--color-accent);
     display: flex;
@@ -159,7 +174,12 @@ body.compensate-for-scrollbar {
     margin-right: 9px;
     fill: var(--color-accent);
 }
-
+.product_size-chart .size_chart span {
+    font-size: .8125rem;
+    letter-spacing: .02em;
+    font-weight: 300;
+    text-transform: capitalize;
+}
 @media (max-width: 450px) {
     .shoesImg img {
         height: 90px;
