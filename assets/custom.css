@@ -317,4 +317,37 @@ body.compensate-for-scrollbar {
         padding: 0 15px;
     }
 }
+.tab_variants {
+    margin: 0 -5px;
+}
+.tab_variants .col-auto {
+    padding: 0 5px;
+}
+
+.tab_variants .titles {
+    padding-left:0;
+
+}
+
+.tab_variants .danns {
+    text-transform:uppercase;
+}
+.tab_variants .danns:hover {
+    cursor:pointer;
+    text-decoration:underline;
+}
+.tab_variants .danns.active {
+    font-weight: 700;
+    text-decoration:underline;
+}
+
+.show_variants,.product-form__input {
+    display: none;
+}
+.show_variants.active {
+    display: block;
+}
+.product-form__input_dann input[type=radio]+label.available_false {
+    border-color: rgba(0,0,0,0);
+}
 /*end product gallery*/
