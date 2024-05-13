@@ -39,7 +39,7 @@
 							 form="{{ product_form_id }}"
 							 {% if option.selected_value == value %}checked{% endif %}
 				>
-				<label class="main_prod_{{ variant.title | downcase | handleize }}" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}" data-titleshort="{{ variant.title | downcase | handleize }}">
+				<label class="main_prod_{{ variant.title | downcase | handleize }}" for="{{ section.id }}-{{ variant.position }}-{{ forloop.index0 }}{{ appended }}" data-titleshort="{{ variant.title | downcase | handleize }}">
 					<span>{{ variant.title }}</span>
 				</label>
 			{% endfor %}
