@@ -432,3 +432,43 @@ body.compensate-for-scrollbar {
 .product-form__input_dann input[type=radio]+label.available_false {
     border-color: rgba(0,0,0,0);
 }
+.product-form__input_dann input[type="radio"] + label {
+    cursor: pointer;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    display: inline-flex;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.product-form__input_dann input[type="radio"]:not(:checked) + label {
+    background: transparent;
+    color: rgb(var(--color-foreground));
+}
+.product-form__input_dann input[type="radio"] + label.available_false {
+    position: relative;
+}
+.product-form__input_dann input[type="radio"]:not(:checked) + label.available_false {
+    border-color: #c8c8c8;
+    background: #ebebeb;
+    color: #c8c8c8;
+}
+.product-form__input_dann input[type="radio"] + label.available_false::before {
+    content: '';
+    background-image: linear-gradient(to bottom left,transparent 50%,#c8c8c8 50%,#c8c8c8 calc(50% + 1px),transparent 50%),linear-gradient(to bottom right,transparent 50%,transparent  50%,transparent  calc(50% + 1px),transparent 50%);
+    top: -2px;
+    left: 0;
+    right: -2px;
+    bottom: 0;
+    position: absolute;
+    border-radius: 5px;
+}
