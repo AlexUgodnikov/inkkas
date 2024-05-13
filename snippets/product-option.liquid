@@ -64,29 +64,29 @@
 	</fieldset>
 {%- when 'button' -%}
 	<fieldset class="product-form__input product-form__input--block" data-index="option{{ forloop.index }}" data-handle="{{ handle }}">
-		<div class="form__label">
-			{% if count_tab > 0 %}
-				<div class="tab_variants row_flex align-items-center">
-					<div class="col-auto titles"><span class="form__label__value">{{ option.name }}:</span></div>
-					{% if women > 0 %}
-					<div class="col-auto danns {%  if active_tab == 'women' %} active {% endif %}" data-type="women" id="tab_type_women">US Women</div>
-					{% endif %}
-					{% if men > 0 %}
-					<div class="col-auto danns {%  if active_tab == 'men' %} active {% endif %}" data-type="men" id="tab_type_men">US Men</div>
-					{% endif %}
-					{% if kids > 0 %}
-					<div class="col-auto danns {%  if active_tab == 'kids' %} active {% endif %}" data-type="kids" id="tab_type_kids">US Kids</div>
-					{% endif %}
-					{% if eur > 0 %}
-					<div class="col-auto danns {%  if active_tab == 'eur' %} active {% endif %}" data-type="eur" id="tab_type_eur">Eur</div>
-					{% endif %}
-				</div>
-				{{ sizing_link }}
-			{% else %}
-				{{ option.name }}: <span class="form__label__value">{{ option.selected_value }}</span>{{ sizing_link }}
-			{% endif %}
-		</div>
 		{% if count_tab > 0 %}
+			<div class="form__label">
+				{% if count_tab > 0 %}
+					<div class="tab_variants row_flex align-items-center">
+						<div class="col-auto titles"><span class="form__label__value">{{ option.name }}:</span></div>
+						{% if women > 0 %}
+							<div class="col-auto danns {%  if active_tab == 'women' %} active {% endif %}" data-type="women" id="tab_type_women">US Women</div>
+						{% endif %}
+						{% if men > 0 %}
+							<div class="col-auto danns {%  if active_tab == 'men' %} active {% endif %}" data-type="men" id="tab_type_men">US Men</div>
+						{% endif %}
+						{% if kids > 0 %}
+							<div class="col-auto danns {%  if active_tab == 'kids' %} active {% endif %}" data-type="kids" id="tab_type_kids">US Kids</div>
+						{% endif %}
+						{% if eur > 0 %}
+							<div class="col-auto danns {%  if active_tab == 'eur' %} active {% endif %}" data-type="eur" id="tab_type_eur">Eur</div>
+						{% endif %}
+					</div>
+					{{ sizing_link }}
+				{% else %}
+					{{ option.name }}: <span class="form__label__value">{{ option.selected_value }}</span>{{ sizing_link }}
+				{% endif %}
+			</div>
 			{% assign currentVariant = product.selected_or_first_available_variant %}
 
 			{% if women > 0 %}
@@ -121,6 +121,9 @@
 				</div>
 			{% endif %}
 		{% else %}
+			<div class="form__label">
+				{{ option.name }}: <span class="form__label__value">{{ option.selected_value }}</span>{{ sizing_link }}
+			</div>
 			{%- for value in option.values -%}
 				<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
 							 name="{{ option.name | append: appended }}"
