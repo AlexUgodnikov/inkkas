@@ -264,6 +264,8 @@ body.compensate-for-scrollbar {
     }
 }
 @media only screen and (max-width: 1067px) {
-    
+    #ViewAllImagesModal .product-images {
+        padding: 0;
+    }
 }
 /*end product gallery*/
