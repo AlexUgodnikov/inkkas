@@ -124,8 +124,15 @@
 									{% assign new_title = val %}
 								{% endif %}
 							{% endfor %}
-
-
+							<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+										 name="{{ option.name | append: appended }}"
+										 value="{{ value | escape }}"
+										 form="{{ product_form_id }}"
+										 {% if option.selected_value == value %}checked{% endif %}
+							>
+							<label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}">
+								<span>{{ new_title | split: ' ' | last }}</span>
+							</label>
 						{% endif %}
 					{%- endfor -%}
 				</div>
@@ -143,8 +150,15 @@
 									{% assign new_title = val %}
 								{% endif %}
 							{% endfor %}
-
-
+							<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+										 name="{{ option.name | append: appended }}"
+										 value="{{ value | escape }}"
+										 form="{{ product_form_id }}"
+										 {% if option.selected_value == value %}checked{% endif %}
+							>
+							<label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}">
+								<span>{{ new_title }}</span>
+							</label>
 						{% endif %}
 					{%- endfor -%}
 				</div>
@@ -162,7 +176,15 @@
 									{% assign new_title = val %}
 								{% endif %}
 							{% endfor %}
-
+							<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+										 name="{{ option.name | append: appended }}"
+										 value="{{ value | escape }}"
+										 form="{{ product_form_id }}"
+										 {% if option.selected_value == value %}checked{% endif %}
+							>
+							<label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}">
+								<span>{{ new_title | split: ' ' | last }}</span>
+							</label>
 						{% endif %}
 					{%- endfor -%}
 				</div>
