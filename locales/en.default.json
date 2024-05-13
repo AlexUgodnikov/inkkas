@@ -125,7 +125,7 @@
         "decrease": "Decrease quantity for {{ product }}"
       },
       "inventory": {
-        "only_x_left": "{{ quantity }} in stock",
+        "only_x_left": "Hurry! Only {{ quantity }} left in stock.",
         "x_units_available": "{{ quantity }} in stock, ready to ship",
         "low_stock": "Low stock",
         "in_stock": "In stock"
