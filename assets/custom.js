@@ -23,7 +23,7 @@ jQuery(function($) {
       }
     }
   }
-  
+
   jQuery(".product-form__input_dann label").on("click", function (event) {
 
     var var_id=$(this).data('variantid');
