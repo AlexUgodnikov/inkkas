@@ -32,6 +32,17 @@
 			<div class="form__label">
 				{{ option.name }}: <span class="form__label__value">{{ option.selected_value }}</span>{{ sizing_link }}
 			</div>
+			{% for variant in product.variants %}
+				<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+							 name="{{ option.name | append: appended }}"
+							 value="{{ value | escape }}"
+							 form="{{ product_form_id }}"
+							 {% if option.selected_value == value %}checked{% endif %}
+				>
+				<label class="main_prod_{{ variant.title | downcase | handleize }}" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}" data-titleshort="{{ variant.title | downcase | handleize }}">
+					<span>{{ variant.title }}</span>
+				</label>
+			{% endfor %}
 			{%- for value in option.values -%}
 				<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
 							 name="{{ option.name | append: appended }}"
