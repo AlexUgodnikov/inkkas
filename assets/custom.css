@@ -355,8 +355,8 @@ body.compensate-for-scrollbar {
 .product-form__input_dann {
     flex: 0 0 100%;
     padding: 0;
-    margin: 0 0 1.2rem 0;
-    max-width: 37rem;
+    margin: 0 0 12px 0;
+    max-width: 37px;
     min-width: fit-content;
     border: none;
 }
@@ -370,14 +370,14 @@ body.compensate-for-scrollbar {
 }
 
 .product-form__input_dann input[type=radio]+label {
-    border: .1rem solid rgba(var(--color-foreground),.55);
-    border-radius: 4rem;
+    border: 1px solid rgba(0,0,0,.55);
+    border-radius: 40px;
     color: rgb(var(--color-foreground));
     display: inline-block;
-    margin: .7rem .5rem .2rem 0;
-    padding: 1rem 2rem;
-    font-size: 1.4rem;
-    letter-spacing: .1rem;
+    margin: 7px 5px 2px 0;
+    padding: 10px 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
     line-height: 1;
     text-align: center;
     transition: border var(--duration-short) ease;
@@ -390,12 +390,12 @@ body.compensate-for-scrollbar {
 }
 
 .product-form__input_dann input[type=radio]+label:hover {
-    border: 1px solid rgb(var(--color-foreground));
+    border: 1px solid #000;
 }
 
 .product-form__input_dann input[type=radio]:checked+label {
-    background-color: rgb(var(--color-foreground));
-    color: rgb(var(--color-background));
+    background-color: #000;
+    color: #fff;
 }
 .tab_variants {
     margin: 0 -5px;
