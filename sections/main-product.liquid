@@ -497,7 +497,8 @@ customElements.define('modal-opener', ModalOpener);
 {%- endif -%}
 
 <script>
-	jQuery(function($) {
+document.addEventListener('DOMContentLoaded', function() {
+   jQuery(function($) {
 		$(".tab_variants .danns").on("click", function (event) {
 			$('.tab_variants .danns').removeClass('active');
 			$(this).addClass('active');
@@ -550,6 +551,7 @@ customElements.define('modal-opener', ModalOpener);
 
 		})
 	})
+});
 </script>
 
 {%- liquid
