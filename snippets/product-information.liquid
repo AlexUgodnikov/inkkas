@@ -379,6 +379,7 @@
       {% assign collapsible_tab_show = true %}
 
       {% if block.settings.show_only_with_tag and block.settings.product_tag != blank %}
+        {% assign collapsible_tab_show = false %}
         {% for tag in product.tags %}
           {% assign collapsible_tab_show = false %}
           {% if tag contains block.settings.product_tag %}
