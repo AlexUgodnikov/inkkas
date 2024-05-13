@@ -51,6 +51,13 @@
 			<div class="product-grid-container">
 		    <div id="MediaGallery-{{ section.id }}" data-hide-variants="{{ hide_variants }}">
 					<div class="product-image-container">
+						<div class="product-gallery-navigations">
+							<modal-opener class="view-all-images__wrapper product-popup-modal__opener no-js-hidden" data-modal="#ViewAllImagesModal" {{ block.shopify_attributes }}>
+								<button id="productViewAllImages" class="view-all-images__button product-popup-modal__button link button outline" type="button" aria-haspopup="dialog">
+										<span class="single-add-to-cart-button--text">View All Images {% render 'icon-view-all-images' %}</span>
+								</button>
+							</modal-opener>
+						</div>
 		        <product-slider id="Product-Slider" class="product-images product-images--{{ media_layout }}" data-captions="{{ display_captions }}">
 							{%- if featured_media != null -%}
 	              {%- liquid
@@ -216,13 +223,6 @@
 							</div>
 							{%- endunless -%}
 						{%- endif -%}
-						<div class="product-gallery-navigations">
-              <modal-opener class="view-all-images__wrapper product-popup-modal__opener no-js-hidden" data-modal="#ViewAllImagesModal" {{ block.shopify_attributes }}>
-                <button id="productViewAllImages" class="view-all-images__button product-popup-modal__button link button outline" type="button" aria-haspopup="dialog">
-                    <span class="single-add-to-cart-button--text">View All Images {% render 'icon-view-all-images' %}</span>
-                </button>
-              </modal-opener>
-            </div>
 					</div>
 		    </div>
 		    <div class="product-information">
