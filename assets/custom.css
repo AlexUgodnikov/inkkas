@@ -153,6 +153,12 @@ body.compensate-for-scrollbar {
     align-items: center;
     cursor: pointer;
 }
+.product_size-chart .size_chart svg {
+    height: 12px;
+    width: auto;
+    margin-right: 9px;
+    fill: var(--color-accent);
+}
 
 @media (max-width: 450px) {
     .shoesImg img {
