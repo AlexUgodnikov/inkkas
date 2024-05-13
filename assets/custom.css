@@ -272,6 +272,11 @@ body.compensate-for-scrollbar {
         width: 100%;
     }
     .product-gallery-navigations {
+        padding: 0 50px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .product-gallery-navigations {
         padding: 0 15px;
     }
 }
