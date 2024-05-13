@@ -383,6 +383,9 @@ body.compensate-for-scrollbar {
     transition: border var(--duration-short) ease;
     cursor: pointer;
 }
+.product-form__input_dann input[type=radio]+label:last-child {
+    margin-right: 0;
+}
 
 .product-form__input_dann .available_false {
     background: rgba(0,0,0,.15);
