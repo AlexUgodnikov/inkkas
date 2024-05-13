@@ -257,6 +257,9 @@ body.compensate-for-scrollbar {
     align-items: center;
     margin-top: 20px;
 }
+#ViewAllImagesModal .product-single__media-zoom {
+
+}
 @media screen and (max-width: 400px) {
     #productViewAllImages {
         padding: 6px 5px 4px 5px;
