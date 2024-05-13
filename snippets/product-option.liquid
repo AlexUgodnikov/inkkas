@@ -86,45 +86,74 @@
 				{{ option.name }}: <span class="form__label__value">{{ option.selected_value }}</span>{{ sizing_link }}
 			{% endif %}
 		</div>
-		{% assign currentVariant = product.selected_or_first_available_variant %}
+		{% if count_tab > 0 %}
+			{% assign currentVariant = product.selected_or_first_available_variant %}
 
-		{% if women > 0 %}
-			<div class="show_variants {%  if active_tab == 'women' %} active {% endif %}" id="women_type">
-				{%- for value in option.values -%}
-					{% assign value_search = variant.title | downcase  %}
-					 {% if value_search contains 'us women' %}
-					 {% assign new_title_arr = variant.title | split: "/" %}
-					 {% assign new_title = variant.title %}
-					 {% for val in new_title_arr %}
-						 {% assign newval = val | downcase %}
-							 {% if newval contains 'us women' %}
-								 {% assign new_title = val %}
-							 {% endif %}
-					 {% endfor %}
-					<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
-								 name="{{ option.name | append: appended }}"
-								 value="{{ value | escape }}"
-								 form="{{ product_form_id }}"
-								 {% if option.selected_value == value %}checked{% endif %}
-					>
-					<label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}">
-						<span>{{ new_title | split: ' ' | last }}</span>
-					</label>
-				 {% endif %}
-				{%- endfor -%}
-			</div>
+			{% if women > 0 %}
+				<div class="show_variants {%  if active_tab == 'women' %} active {% endif %}" id="women_type">
+					{%- for value in option.values -%}
+						{% assign value_search = variant.title | downcase  %}
+						 {% if value_search contains 'us women' %}
+						 {% assign new_title_arr = variant.title | split: "/" %}
+						 {% assign new_title = variant.title %}
+						 {% for val in new_title_arr %}
+							 {% assign newval = val | downcase %}
+								 {% if newval contains 'us women' %}
+									 {% assign new_title = val %}
+								 {% endif %}
+						 {% endfor %}
+						<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+									 name="{{ option.name | append: appended }}"
+									 value="{{ value | escape }}"
+									 form="{{ product_form_id }}"
+									 {% if option.selected_value == value %}checked{% endif %}
+						>
+						<label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}">
+							<span>{{ new_title | split: ' ' | last }}</span>
+						</label>
+					 {% endif %}
+					{%- endfor -%}
+				</div>
+			{% endif %}
+			{% if men > 0 %}
+				<div class="show_variants {%  if active_tab == 'men' %} active {% endif %}" id="men_type">
+					{% for variant in product.variants %}
+						{% assign value_search = variant.title | downcase  %}
+						{% if value_search contains 'us men' %}
+							{% assign new_title_arr = variant.title | split: "/" %}
+							{% assign new_title = variant.title %}
+							{% for val in new_title_arr %}
+								{% assign newval = val | downcase %}
+								{% if newval contains 'us men' %}
+									{% assign new_title = val %}
+								{% endif %}
+							{% endfor %}
+								<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+											 name="{{ option.name | append: appended }}"
+											 value="{{ value | escape }}"
+											 form="{{ product_form_id }}"
+											 {% if option.selected_value == value %}checked{% endif %}
+								>
+								<label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}">
+									<span>{{ new_title | split: ' ' | last }}</span>
+								</label>
+						{% endif %}
+					{%- endfor -%}
+				</div>
+			{% endif %}
+		{% else %}
+			{%- for value in option.values -%}
+				<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+							 name="{{ option.name | append: appended }}"
+							 value="{{ value | escape }}"
+							 form="{{ product_form_id }}"
+							 {% if option.selected_value == value %}checked{% endif %}
+				>
+				<label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}">
+					<span>{{ value }}</span>
+				</label>
+			{%- endfor -%}
 		{% endif %}
-		{%- for value in option.values -%}
-			<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
-						 name="{{ option.name | append: appended }}"
-						 value="{{ value | escape }}"
-						 form="{{ product_form_id }}"
-						 {% if option.selected_value == value %}checked{% endif %}
-			>
-			<label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}">
-				<span>{{ value }}</span>
-			</label>
-		{%- endfor -%}
 	</fieldset>
 {%- when 'color' -%}
 	{%- liquid
