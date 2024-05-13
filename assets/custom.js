@@ -29,9 +29,10 @@ jQuery(function($) {
     var var_id=$(this).data('variantid');
     var title=$(this).data('title');
     var titleshort=$(this).data('titleshort');
+    console.log(titleshort+'==titleshort');
     $('.product-form form input[name="id"]').val(var_id);
     history.pushState({}, null, '?variant='+var_id);
-    console.log(titleshort+'==titleshort');
+
     $('.main_prod_'+titleshort+'').click();
     $('.product_'+titleshort+'').click();
     // $('[data-inputshort="'+titleshort+'"]').attr('checked', true);
