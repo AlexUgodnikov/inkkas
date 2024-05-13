@@ -269,6 +269,9 @@ body.compensate-for-scrollbar {
 #ViewAllImagesModal .product-single__media-zoom svg {
     display: none!important;
 }
+.view-all-image:nth-child(2n+1) {
+    padding-right: 5px;
+}
 @media screen and (max-width: 400px) {
     #productViewAllImages {
         padding: 6px 5px 4px 5px;
