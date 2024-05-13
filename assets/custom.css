@@ -266,6 +266,7 @@ body.compensate-for-scrollbar {
 @media only screen and (max-width: 1067px) {
     #ViewAllImagesModal .product-images {
         padding: 0;
+        grid-template-columns: 1fr 1fr;
     }
 }
 /*end product gallery*/
