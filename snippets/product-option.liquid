@@ -66,7 +66,6 @@
 	<fieldset class="product-form__input product-form__input--block" data-index="option{{ forloop.index }}" data-handle="{{ handle }}">
 		{% if count_tab > 0 %}
 			<div class="form__label">
-				{% if count_tab > 0 %}
 					<div class="tab_variants row_flex align-items-center">
 						<div class="col-auto titles"><span class="form__label__value">{{ option.name }}:</span></div>
 						{% if women > 0 %}
@@ -83,9 +82,6 @@
 						{% endif %}
 					</div>
 					{{ sizing_link }}
-				{% else %}
-					{{ option.name }}: <span class="form__label__value">{{ option.selected_value }}</span>{{ sizing_link }}
-				{% endif %}
 			</div>
 			{% assign currentVariant = product.selected_or_first_available_variant %}
 
