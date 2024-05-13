@@ -295,6 +295,14 @@ body.compensate-for-scrollbar {
     }
 }
 @media only screen and (max-width: 1067px) {
+    .product-image-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .product-gallery-navigations {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
     #ViewAllImagesModal .product-images {
         padding: 0;
         grid-template-columns: 1fr 1fr;
