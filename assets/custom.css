@@ -472,3 +472,6 @@ body.compensate-for-scrollbar {
     position: absolute;
     border-radius: 5px;
 }
+.product-form__input {
+    display: none;
+}
