@@ -286,6 +286,13 @@
                             {% endif %}
                           {% endfor %}
 
+                        {% elsif product_tags contains 'size-guide-buckle-sandals' %}
+                          {% for tag in product.tags %}
+                            {% if tag contains 'slip-on-size-chart' %}
+                              <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: block.settings.sizing_guide_icon %}<span>{{ block.settings.sizing_guide_text }}</span></a>
+                              {% render 'slipon-popup-size-chart', product_id: product.id %}
+                            {% endif %}
+                          {% endfor %}
 
                         {% elsif product_tags contains 'size-guide-trekks' %}
                           {% for tag in product.tags %}
