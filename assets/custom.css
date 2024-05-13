@@ -263,4 +263,7 @@ body.compensate-for-scrollbar {
         font-size: 13px;
     }
 }
+@media only screen and (max-width: 1067px) {
+    
+}
 /*end product gallery*/
