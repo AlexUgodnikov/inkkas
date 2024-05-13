@@ -271,5 +271,8 @@ body.compensate-for-scrollbar {
         overflow: auto;
         width: 100%;
     }
+    .product-gallery-navigations {
+        padding: 0 15px;
+    }
 }
 /*end product gallery*/
