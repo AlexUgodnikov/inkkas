@@ -267,6 +267,8 @@ body.compensate-for-scrollbar {
     #ViewAllImagesModal .product-images {
         padding: 0;
         grid-template-columns: 1fr 1fr;
+        grid-auto-flow: initial;
+        overflow: auto;
     }
 }
 /*end product gallery*/
