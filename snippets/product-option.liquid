@@ -92,15 +92,26 @@
 			{% if women > 0 %}
 				<div class="show_variants {%  if active_tab == 'women' %} active {% endif %}" id="women_type">
 					{%- for value in option.values -%}
-						<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
-									 name="{{ option.name | append: appended }}"
-									 value="{{ value | escape }}"
-									 form="{{ product_form_id }}"
-									 {% if option.selected_value == value %}checked{% endif %}
-						>
-						<label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}">
-							<span>{{ value }}</span>
-						</label>
+						{% assign value_search = value | downcase  %}
+						 {% if value_search contains 'us women' %}
+						 {% assign new_title_arr = value | split: "/" %}
+						 {% assign new_title = value %}
+						 {% for val in new_title_arr %}
+							 {% assign newval = val | downcase %}
+								 {% if newval contains 'us women' %}
+									 {% assign new_title = val %}
+								 {% endif %}
+						 {% endfor %}
+							 <input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+											name="{{ option.name | append: appended }}"
+											value="{{ value | escape }}"
+											form="{{ product_form_id }}"
+											{% if option.selected_value == value %}checked{% endif %}
+							 >
+							 <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}">
+								 <span>{{ new_title | split: ' ' | last }}</span>
+							 </label>
+						 {% endif %}
 					{%- endfor -%}
 				</div>
 			{% endif %}
