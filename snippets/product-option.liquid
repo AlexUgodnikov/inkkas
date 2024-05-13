@@ -46,7 +46,7 @@
 				</label>
 			{% endfor %}
 			{%- for value in option.values -%}
-				<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+				<!--<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
 							 name="{{ option.name | append: appended }}"
 							 value="{{ value | escape }}"
 							 form="{{ product_form_id }}"
@@ -54,7 +54,7 @@
 				>
 				<label class="main_prod_{{ value | downcase | handleize }}" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}" data-titleshort="{{ value | downcase | handleize }}">
 					<span>{{ value }}</span>
-				</label>
+				</label>-->
 			{%- endfor -%}
 		</fieldset>
 {%- when 'color' -%}
