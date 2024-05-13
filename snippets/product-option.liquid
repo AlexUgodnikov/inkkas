@@ -41,7 +41,7 @@
 							 {% if currentVariant.id == variant.id %}checked{% endif %}
 							 data-inputshort="{{ variant.title | downcase |handleize }}"
 				>
-				<label class="main_prod_{{ variant.title | downcase | handleize }} available_{{ variant.available }}" for="{{ section.id }}-{{ variant.position }}-{{ forloop.index0 }}{{ appended }}" data-titleshort="{{ variant.title | downcase | handleize }}">
+				<label class="main_prod_{{ variant.title | downcase | handleize }} available_{{ variant.available }} variant-label" for="{{ section.id }}-{{ variant.position }}-{{ forloop.index0 }}{{ appended }}" data-title="{{ variant.title }}" data-variantid="{{ variant.id }}" data-titleshort="{{ variant.title | downcase | handleize }}">
 					<span>{{ variant.title }}</span>
 				</label>
 			{% endfor %}
