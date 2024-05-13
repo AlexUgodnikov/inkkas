@@ -390,7 +390,7 @@ body.compensate-for-scrollbar {
 }
 
 .product-form__input_dann input[type=radio]+label:hover {
-    border: .1rem solid rgb(var(--color-foreground));
+    border: 1px solid rgb(var(--color-foreground));
 }
 
 .product-form__input_dann input[type=radio]:checked+label {
