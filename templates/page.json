@@ -192,8 +192,9 @@
     },
     "page_jtPX6Y": {
       "type": "page",
+      "disabled": true,
       "settings": {
-        "page": "return_policy",
+        "page": "",
         "show_page_title": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
