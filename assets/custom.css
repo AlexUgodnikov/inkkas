@@ -475,3 +475,10 @@ body.compensate-for-scrollbar {
 .product-information variant-selects {
     display: none;
 }
+.custom-product-form__label {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
