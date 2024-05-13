@@ -201,12 +201,6 @@ body.compensate-for-scrollbar {
     }
 }
 /*product gallery*/
-.product-gallery-navigations {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5px;
-}
 #productViewAllImages {
     padding: 6px 11px;
     height: auto;
@@ -276,7 +270,7 @@ body.compensate-for-scrollbar {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 #ViewAllImagesModal .product-single__media-zoom {
     top: 0;
