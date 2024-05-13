@@ -173,10 +173,10 @@
 				<fieldset class="product-form__input product-form__input--block" data-index="option{{ forloop.index }}" data-handle="{{ handle }}">
 					<div class="show_variants  {%  if active_tab == 'eur' %} active {% endif %}" id="eur_type">
 						{%- for value in option.values -%}
-							{% assign value_search = variant.title | downcase  %}
+							{% assign value_search = value | downcase  %}
 							{% if value_search contains 'eur' %}
-								{% assign new_title_arr = variant.title | split: " / " %}
-								{% assign new_title = variant.title %}
+								{% assign new_title_arr = value | split: " / " %}
+								{% assign new_title = value %}
 								{% for val in new_title_arr %}
 									{% assign newval = val | downcase %}
 									{% if newval contains 'eur' %}
