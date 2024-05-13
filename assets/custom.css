@@ -269,6 +269,7 @@ body.compensate-for-scrollbar {
         grid-template-columns: 1fr 1fr;
         grid-auto-flow: initial;
         overflow: auto;
+        width: 100%;
     }
 }
 /*end product gallery*/
