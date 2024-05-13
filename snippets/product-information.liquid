@@ -532,10 +532,7 @@
                   $('.show_variants').removeClass('active');
                   $('#'+type+'_type').addClass('active');
                   $.cookie('inkasstype', type, { expires: 31, path: '/' });
-
                 })
-
-
 
                 if ($('.tab_variants').length > 0) {
                   if ( $.cookie('inkasstype') != undefined ) {
