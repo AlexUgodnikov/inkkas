@@ -399,6 +399,8 @@ body.compensate-for-scrollbar {
 }
 .tab_variants {
     margin: 0 -5px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .tab_variants .col-auto {
     padding: 0 5px;
