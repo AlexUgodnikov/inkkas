@@ -37,8 +37,8 @@
           </a>
         {%- endif -%}
 
-        {% assign product_tags = product.tags | join: ' ' %}
-        <div class="product_size-chart">
+        {% comment %}{% assign product_tags = product.tags | join: ' ' %}{% endcomment %}
+        <!--<div class="product_size-chart">
 
           {% if product_tags contains 'bootie-size-chart' %}
             {% for tag in product.tags %}
@@ -130,7 +130,7 @@
               {% endif %}
             {% endfor %}
           {% endif %}
-        </div>
+        </div>-->
       </div>
     {%- when 'description' -%}
       <div class="product-short-description rte" {{ block.shopify_attributes }}>{{ product.description }}</div>
