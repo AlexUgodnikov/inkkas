@@ -274,8 +274,11 @@ body.compensate-for-scrollbar {
     .product-gallery-navigations {
         padding: 0 50px;
     }
+    #ViewAllImagesModal .product-popup-modal__toggle {
+        
+    }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .product-gallery-navigations {
         padding: 0 15px;
     }
