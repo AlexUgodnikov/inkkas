@@ -485,3 +485,6 @@ body.compensate-for-scrollbar {
     gap: 15px;
     justify-content: space-between;
 }
+#ps__bis_container_root {
+    width: 100%;
+}
