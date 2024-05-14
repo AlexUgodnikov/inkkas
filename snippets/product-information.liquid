@@ -314,7 +314,7 @@
                     </modal-opener>
                   {%- endcapture -%}
                   {%- capture sizing_popup -%}
-                    <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal">
+                    <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal" style="display: none;">
                       <div role="dialog" aria-label="{{ block.settings.sizing_guide_text }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
                         <div class="product-popup-modal__content-header">
                           <h5>{{ block.settings.sizing_guide_page.title }}</h5>
