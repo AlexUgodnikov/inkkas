@@ -64,7 +64,6 @@ if (!customElements.get('modal-opener')) {
 
         const modal = document.querySelector(this.getAttribute('data-modal'));
         if (modal) modal.show(button);
-        console.log(123123123);
       });
     }
   }
