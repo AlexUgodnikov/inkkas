@@ -1217,6 +1217,7 @@ if (!customElements.get('quick-view')) {
 
           if ($('.tab_variants').length > 0) {
             if ( $.cookie('inkasstype') != undefined ) {
+              console.log($.cookie('inkasstype'));
               var type=$.cookie('inkasstype');
               if ($('#tab_type_'+type).length > 0) {
                 $('.tab_variants .danns').removeClass('active');
