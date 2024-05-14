@@ -1166,6 +1166,7 @@ if (!customElements.get('quick-view')) {
         });
     }
     renderQuickview(sectionInnerHTML, href, productHandle) {
+      console.log(111);
       if (sectionInnerHTML) {
 
         this.drawer.querySelector('#Product-Drawer-Content').innerHTML = sectionInnerHTML;
