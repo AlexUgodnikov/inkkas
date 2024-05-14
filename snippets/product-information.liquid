@@ -315,20 +315,20 @@
                     </modal-opener>
                   {%- endcapture -%}
                   {%- capture sizing_popup -%}
-                  <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal">
-                    <div role="dialog" aria-label="{{ block.settings.sizing_guide_text }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
-                      <div class="product-popup-modal__content-header">
-                        <h5>{{ block.settings.sizing_guide_page.title }}</h5>
-                        <button id="ModalClose-{{ block.id }}" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'svg-icons' with 'close' %}</button>
-                      </div>
-                      <scroll-shadow>
-                        <div class="product-popup-modal__content-info">
-                          {{ block.settings.sizing_guide_page.content }}
+                    <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal">
+                      <div role="dialog" aria-label="{{ block.settings.sizing_guide_text }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
+                        <div class="product-popup-modal__content-header">
+                          <h5>{{ block.settings.sizing_guide_page.title }}</h5>
+                          <button id="ModalClose-{{ block.id }}" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'svg-icons' with 'close' %}</button>
                         </div>
-                      </scroll-shadow>
-                    </div>
-                  </modal-dialog>
-                  <script src="{{ 'modal-dialog.js' | asset_url }}" defer="defer"></script>
+                        <scroll-shadow>
+                          <div class="product-popup-modal__content-info">
+                            {{ block.settings.sizing_guide_page.content }}
+                          </div>
+                        </scroll-shadow>
+                      </div>
+                    </modal-dialog>
+                    <script src="{{ 'modal-dialog.js' | asset_url }}" defer="defer"></script>
                   {%- endcapture -%}
               {%- endif -%}
             {%- endif -%}
