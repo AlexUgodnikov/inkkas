@@ -68,3 +68,5 @@ if (!customElements.get('modal-opener')) {
   }
   customElements.define('modal-opener', ModalOpener);
 }
+
+console.log(12312312123123123123);
