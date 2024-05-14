@@ -211,12 +211,11 @@
                     <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
                       {% assign product_tags = product.tags | join: ' ' %}
                       <div class="product_size-chart">
-
                         {% if product_tags contains 'bootie-size-chart' %}
                           {% for tag in product.tags %}
                             {% if tag contains 'bootie-size-chart' %}
                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                              {% include 'bootie-popup-size-chart', product_id: product.id %}
+                              {% include 'bootie-popup-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
 
@@ -224,7 +223,7 @@
                           {% for tag in product.tags %}
                             {% if tag contains 'boots-size-chart' %}
                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                              {% render 'boots-popup-size-chart', product_id: product.id %}
+                              {% render 'boots-popup-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
 
@@ -232,7 +231,7 @@
                           {% for tag in product.tags %}
                             {% if tag contains 'high-top-size-chart' %}
                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                              {% render 'hightop-popup-size-chart', product_id: product.id %}
+                              {% render 'hightop-popup-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
 
@@ -240,7 +239,7 @@
                           {% for tag in product.tags %}
                             {% if tag contains 'jogger-size-chart' %}
                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                              {% render 'jogger-popup-size-chart', product_id: product.id %}
+                              {% render 'jogger-popup-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
 
@@ -249,7 +248,7 @@
                           {% for tag in product.tags %}
                             {% if tag contains 'low-top-size-chart' %}
                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                              {% render 'lowtop-popup-size-chart', product_id: product.id %}
+                              {% render 'lowtop-popup-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
 
@@ -257,7 +256,7 @@
                           {% for tag in product.tags %}
                             {% if tag contains 'kids-size-chart' %}
                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                              {% render 'popup-kids-size-chart', product_id: product.id %}
+                              {% render 'popup-kids-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
 
@@ -266,7 +265,7 @@
                           {% for tag in product.tags %}
                             {% if tag contains 'runner-size-chart' %}
                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                              {% render 'runner-popup-size-chart', product_id: product.id %}
+                              {% render 'runner-popup-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
 
@@ -274,7 +273,7 @@
                           {% for tag in product.tags %}
                             {% if tag contains 'slide-size-chart' %}
                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                              {% render 'slide-popup-size-chart', product_id: product.id %}
+                              {% render 'slide-popup-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
 
@@ -282,7 +281,7 @@
                           {% for tag in product.tags %}
                             {% if tag contains 'slip-on-size-chart' %}
                               <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                              {% render 'slipon-popup-size-chart', product_id: product.id %}
+                              {% render 'slipon-popup-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
 
@@ -290,7 +289,7 @@
                           {% for tag in product.tags %}
                             {% if tag contains 'size-guide-buckle-sandals' %}
                               <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                              {% render 'size-guide-buckle-sandals', product_id: product.id %}
+                              {% render 'size-guide-buckle-sandals', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
 
@@ -298,14 +297,14 @@
                           {% for tag in product.tags %}
                             {% if tag contains 'size-guide-trekks' %}
                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                              {% render 'trekks-size-guide', product_id: product.id %}
+                              {% render 'trekks-size-guide', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
                         {% elsif product_tags contains 'western-size-chart' %}
                           {% for tag in product.tags %}
                             {% if tag contains 'western-size-chart' %}
                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                              {% render 'western-popup-size-chart', product_id: product.id %}
+                              {% render 'western-popup-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
                         {% endif %}
@@ -315,20 +314,20 @@
                     </modal-opener>
                   {%- endcapture -%}
                   {%- capture sizing_popup -%}
-                  <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal">
-                    <div role="dialog" aria-label="{{ block.settings.sizing_guide_text }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
-                      <div class="product-popup-modal__content-header">
-                        <h5>{{ block.settings.sizing_guide_page.title }}</h5>
-                        <button id="ModalClose-{{ block.id }}" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'svg-icons' with 'close' %}</button>
-                      </div>
-                      <scroll-shadow>
-                        <div class="product-popup-modal__content-info">
-                          {{ block.settings.sizing_guide_page.content }}
+                    <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal" style="display: none;">
+                      <div role="dialog" aria-label="{{ block.settings.sizing_guide_text }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
+                        <div class="product-popup-modal__content-header">
+                          <h5>{{ block.settings.sizing_guide_page.title }}</h5>
+                          <button id="ModalClose-{{ block.id }}" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'svg-icons' with 'close' %}</button>
                         </div>
-                      </scroll-shadow>
-                    </div>
-                  </modal-dialog>
-                  <script src="{{ 'modal-dialog.js' | asset_url }}" defer="defer"></script>
+                        <scroll-shadow>
+                          <div class="product-popup-modal__content-info">
+                            {{ block.settings.sizing_guide_page.content }}
+                          </div>
+                        </scroll-shadow>
+                      </div>
+                    </modal-dialog>
+                    <script src="{{ 'modal-dialog.js' | asset_url }}" defer="defer"></script>
                   {%- endcapture -%}
               {%- endif -%}
             {%- endif -%}
@@ -524,7 +523,57 @@
           {% endif %}
           <script>
             document.addEventListener('DOMContentLoaded', function() {
+              jQuery(function($) {
+                $(".tab_variants .danns").on("click", function (event) {
+                  $('.tab_variants .danns').removeClass('active');
+                  $(this).addClass('active');
+                  var type=$(this).data('type');
+                  $('.show_variants').removeClass('active');
+                  $('#'+type+'_type').addClass('active');
+                  $.cookie('inkasstype', type, { expires: 31, path: '/' });
+                })
 
+                if ($('.tab_variants').length > 0) {
+                  if ( $.cookie('inkasstype') != undefined ) {
+                    var type=$.cookie('inkasstype');
+                    if ($('#tab_type_'+type).length > 0) {
+                      $('.tab_variants .danns').removeClass('active');
+                      $('#tab_type_'+type).addClass('active');
+
+                      $('.show_variants').removeClass('active');
+                      $('#'+type+'_type').addClass('active');
+                    }
+                  }
+                }
+              });
+
+              jQuery(function($) {
+                jQuery(".product-form__input_dann label").on("click", function (event) {
+
+                  var var_id=$(this).data('variantid');
+                  var title=$(this).data('title');
+                  var titleshort=$(this).data('titleshort');
+                  $('.product-form form input[name="id"]').val(var_id);
+                  history.pushState({}, null, '?variant='+var_id);
+                  console.log(titleshort+'==titleshort');
+                  $('.main_prod_'+titleshort+'').click();
+                  $('.product_'+titleshort+'').click();
+                  // $('[data-inputshort="'+titleshort+'"]').attr('checked', true);
+
+
+                  $('variant-radios').change();
+
+
+                  if ($(this).hasClass('available_true')) {
+                    $('.product-form__submit').html('Add to cart');
+                    $('.product-form__submit').prop("disabled", false);
+                  }
+                  if ($(this).hasClass('available_false')) {
+                    $('.product-form__submit').html('Sold out');
+                    $('.product-form__submit').prop("disabled", true);
+                  }
+                })
+              })
             });
           </script>
         {% endif %}
