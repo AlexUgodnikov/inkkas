@@ -477,6 +477,7 @@ body.compensate-for-scrollbar {
     position: absolute;
     border-radius: 5px;
 }
+.section-featured-product ,
 #Product-Drawer variant-selects,
 .product-information variant-selects {
     display: none;
