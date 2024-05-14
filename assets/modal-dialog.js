@@ -33,7 +33,6 @@ if (!customElements.get('modal-dialog')) {
     }
 
     show(opener) {
-      console.log(111);
       this.openedBy = opener;
       document.body.classList.add('overflow-hidden');
       this.setAttribute('open', '');
