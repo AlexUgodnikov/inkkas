@@ -88,11 +88,6 @@
             "custom_liquid": ""
           }
         },
-        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
-          "type": "share",
-          "settings": {
-          }
-        },
         "collapsible_tab_2_hxiDMm": {
           "type": "collapsible_tab_2",
           "settings": {
@@ -272,6 +267,11 @@
             "content": "",
             "page": "copy-of-care-instructions"
           }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -282,7 +282,6 @@
         "collapsible_tab_PqJnhK",
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
         "collapsible_tab_iM6t78",
-        "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
         "collapsible_tab_2_hxiDMm",
         "collapsible_tab_2_UkAjaq",
         "collapsible_tab_2_6kFqVT",
@@ -297,7 +296,8 @@
         "collapsible_tab_2_cLYJEf",
         "collapsible_tab_2_8enptb",
         "collapsible_tab_2_9zwncR",
-        "collapsible_tab_2_nA4Rag"
+        "collapsible_tab_2_nA4Rag",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
       ],
       "settings": {
         "full_width": true,
