@@ -211,11 +211,11 @@
 								>
 								{% render 'svg-icons' with 'thb-caret-left' %}
 								</button>
-								<div class="slider-counter caption">
-									<span class="slider-counter--current">1</span>
-									<span aria-hidden="true"> / </span>
-									<span class="slider-counter--total">{{ media_count }}</span>
-								</div>
+								{% comment %}<div class="slider-counter caption">{% endcomment %}
+									{% comment %}<span class="slider-counter--current">1</span>{% endcomment %}
+									{% comment %}<span aria-hidden="true"> / </span>{% endcomment %}
+									{% comment %}<span class="slider-counter--total">{{ media_count }}</span>{% endcomment %}
+								{% comment %}</div>{% endcomment %}
 								<button
 									type="button"
 									class="slider-button slider-button--next"
