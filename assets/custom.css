@@ -507,7 +507,11 @@ body.compensate-for-scrollbar {
     .product-images-buttons {
         display: flex!important;
     }
+    .product-image-container .slider-button--prev,
     .product-image-container .slider-button--prev {
-        
+        transform: translateY(-50%);
+        z-index: 11;
+        position: absolute;
+        top: 50%;
     }
 }
