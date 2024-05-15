@@ -72,7 +72,7 @@
 								-%}
 	              <div
 									id="Slide-{{ section.id }}-{{ featured_media.id }}"
-									class="product-images__slide product-images__slide--image is-active {% if hide_variants and variant_images contains featured_media.src %} product-images__slide-item--variant{% endif %}"
+									class="flickity-viewport product-images__slide product-images__slide--image is-active {% if hide_variants and variant_images contains featured_media.src %} product-images__slide-item--variant{% endif %}"
 									data-media-id="{{ section.id }}-{{ featured_media.id }}"
 	              >
 									<div class="product-single__media product-single__media-image aspect-ratio aspect-ratio--{{ media_aspect_ratio }}" id="Media-Thumbnails-{{ section.id }}-{{ featured_media.id }}" style="--padding-bottom: {{ 1 | divided_by: ratio | times: 100 }}%;">
