@@ -445,6 +445,10 @@ if (!customElements.get('product-slider')) {
           slidesPerView: 1,
           spaceBetween: 0,
           speed: 1000,
+          navigation: {
+            nextEl: item.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild,
+            prevEl: item.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild.nextElementSibling,
+          },
         });
       });
       // this.pagination = this.parentElement.querySelector('.product-images-buttons');
