@@ -508,10 +508,14 @@ body.compensate-for-scrollbar {
         display: flex!important;
     }
     .product-image-container .slider-button--prev,
-    .product-image-container .slider-button--prev {
+    .product-image-container .slider-button--next {
         transform: translateY(-50%);
         z-index: 11;
         position: absolute;
         top: 50%;
+    }
+    .product-image-container .slider-button--prev,
+    .product-image-container .slider-button--next {
+        
     }
 }
