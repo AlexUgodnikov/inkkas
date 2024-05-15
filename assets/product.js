@@ -461,15 +461,6 @@ if (!customElements.get('product-slider')) {
             el: item.querySelector('.swiper-pagination'),
             clickable: true,
             type: "progressbar"
-          },
-          breakpoints: {
-            0: {
-              direction: 'horizontal',
-              mousewheel: false,
-            },
-            769: {
-              direction: item.dataset.direction,
-            },
           }
         });
       })
