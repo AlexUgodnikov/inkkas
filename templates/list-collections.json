@@ -3,6 +3,42 @@
     "main": {
       "type": "main-list-collections",
       "blocks": {
+        "collection_rCWthc": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-radiance-collection"
+          }
+        },
+        "collection_Bd94yi": {
+          "type": "collection",
+          "settings": {
+            "collection": "back-in-stock"
+          }
+        },
+        "collection_UxKkPW": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers"
+          }
+        },
+        "collection_jhEztT": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-shoes"
+          }
+        },
+        "collection_J6c7gz": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids"
+          }
+        },
+        "collection_MyW37p": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-collection-all-shoes"
+          }
+        },
         "collection_MXKPkj": {
           "type": "collection",
           "settings": {
@@ -45,12 +81,6 @@
             "collection": "booties"
           }
         },
-        "collection_dW6Bcm": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
         "collection_GDRNRT": {
           "type": "collection",
           "settings": {
@@ -69,30 +99,10 @@
             "collection": "vegan-products"
           }
         },
-        "collection_J6c7gz": {
-          "type": "collection",
-          "settings": {
-            "collection": "kids"
-          }
-        },
         "collection_UHQj3K": {
           "type": "collection",
           "settings": {
             "collection": "all-accessories"
-          }
-        },
-        "collection_adAqXr": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "all-sneakers"
-          }
-        },
-        "collection_7REBVj": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "camping-boot"
           }
         },
         "collection_DAd8fz": {
@@ -181,6 +191,12 @@
         }
       },
       "block_order": [
+        "collection_rCWthc",
+        "collection_Bd94yi",
+        "collection_UxKkPW",
+        "collection_jhEztT",
+        "collection_J6c7gz",
+        "collection_MyW37p",
         "collection_MXKPkj",
         "collection_rGp9Ac",
         "collection_3fEg3G",
@@ -188,14 +204,10 @@
         "collection_GKQmTV",
         "collection_B7bwhf",
         "collection_Nr4EDJ",
-        "collection_dW6Bcm",
         "collection_GDRNRT",
         "collection_CMYhAW",
         "collection_F7QwgM",
-        "collection_J6c7gz",
         "collection_UHQj3K",
-        "collection_adAqXr",
-        "collection_7REBVj",
         "collection_DAd8fz",
         "collection_DBBQAx",
         "collection_mN93bU",
