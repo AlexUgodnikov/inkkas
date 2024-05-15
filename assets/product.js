@@ -493,7 +493,7 @@ if (!customElements.get('product-slider')) {
         options = {
           maxSpreadZoom: 2,
           loop: false,
-          allowPanToNext: false,
+          allowPanToNext: true,
           closeOnScroll: false,
           showHideOpacity: false,
           arrowKeys: true,
