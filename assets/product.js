@@ -432,6 +432,39 @@ if (!customElements.get('variant-selects')) {
 if (!customElements.get('product-slider')) {
   /**
    *  @class
+   *  @function CustomProductSlider
+   */
+  class CustomProductSlider extends HTMLElement {
+    constructor() {
+      super();
+      this.sectionId = this.getAttribute('data-section-id');
+    }
+
+    connectedCallback() {
+      document.querySelectorAll(`#MainProduct-${this.sectionId} .gallery-top`).forEach((item) => {
+        const sliderThumbs = new Swiper(item.nextElementSibling.firstElementChild, {
+          direction: item.dataset.direction,
+          slidesPerView: 4,
+          spaceBetween: 10,
+          mousewheel: true,
+          freeMode: true,
+          breakpoints: {
+            0: {
+              direction: 'horizontal',
+            },
+            769: {
+              direction: item.dataset.direction,
+
+            }
+          }
+        });
+      })
+    }
+  }
+}
+if (!customElements.get('product-slider')) {
+  /**
+   *  @class
    *  @function ProductSlider
    */
   class ProductSlider extends HTMLElement {
