@@ -195,10 +195,28 @@
             "heading": "GET REWARDED",
             "text": "<p><a href=\"\/pages\/rewards\" target=\"_blank\" title=\"REWARDS\">Earn Points & Redeem Rewards<\/a> on your purchases.<\/p>"
           }
+        },
+        "icon_RUwBjH": {
+          "type": "icon",
+          "settings": {
+            "icon": "return",
+            "heading": "EASY RETURNS",
+            "text": "<p>for 30 days from delivery. Plus <strong>FREE<\/strong> <strong>RETURNS <\/strong>within 7 days of delivery.<\/p>"
+          }
+        },
+        "icon_FcNWP3": {
+          "type": "icon",
+          "settings": {
+            "icon": "box",
+            "heading": "FREE SHIPPING",
+            "text": "<p>for orders of $175+ plus expedited shipping available to most regions.<\/p>"
+          }
         }
       },
       "block_order": [
-        "icon_hYBx9X"
+        "icon_hYBx9X",
+        "icon_RUwBjH",
+        "icon_FcNWP3"
       ],
       "settings": {
         "text_alignment": "center",
