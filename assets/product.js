@@ -447,8 +447,8 @@ if (!customElements.get('product-slider')) {
           spaceBetween: 0,
           speed: 1000,
           navigation: {
-            nextEl: item.querySelector('.slider-button--next'),
-            prevEl: item.querySelector('.slider-button--prev'),
+            nextEl: document.querySelector(`#MainProduct-${this.sectionId} .slider-button--next`),
+            prevEl: document.querySelector(`#MainProduct-${this.sectionId} .slider-button--prev`),
           },
         });
       })
