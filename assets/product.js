@@ -449,6 +449,7 @@ if (!customElements.get('product-slider')) {
           slidesPerView: 1,
           spaceBetween: 0,
           speed: 1000,
+          autoHeight: true,
           thumbs: {
             swiper: sliderThumbs
           },
