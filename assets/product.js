@@ -491,20 +491,7 @@ if (!customElements.get('product-slider')) {
         captionEl = this.dataset.captions,
         pswpElement = document.querySelectorAll('.pswp')[0],
         options = {
-          maxSpreadZoom: 2,
-          loop: false,
-          allowPanToNext: true,
-          closeOnScroll: false,
-          showHideOpacity: false,
-          arrowKeys: true,
-          history: false,
-          captionEl: captionEl,
-          fullscreenEl: false,
-          zoomEl: false,
-          shareEl: false,
-          counterEl: true,
-          arrowEl: true,
-          preloaderEl: true
+          
         };
 
       let openPswp = function (e, link, options, pswpElement, items) {
