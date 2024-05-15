@@ -442,19 +442,14 @@ if (!customElements.get('product-slider')) {
     connectedCallback() {
       document.querySelectorAll(`#MainProduct-${this.sectionId} .gallery-top`).forEach((item) => {
         const sliderImages = new Swiper(item, {
-          direction: item.dataset.direction,
           slidesPerView: 1,
           spaceBetween: 0,
           speed: 1000,
           mousewheel: false,
           grabCursor: false,
           allowTouchMove: false,
-          thumbs: {
-            swiper: sliderThumbs
-          },
           navigation: {
-            nextEl: item.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild,
-            prevEl: item.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild.nextElementSibling,
+
           },
           keyboard: {
             enabled: true,
@@ -464,9 +459,6 @@ if (!customElements.get('product-slider')) {
             el: item.querySelector('.swiper-pagination'),
             clickable: true,
             type: "progressbar"
-          },
-          scrollbar: {
-            el: item.firstElementChild.nextElementSibling
           },
           breakpoints: {
             0: {
