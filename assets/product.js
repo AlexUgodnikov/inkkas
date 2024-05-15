@@ -444,6 +444,17 @@ if (!customElements.get('variant-selects')) {
         const sliderThumbs = new Swiper(item.nextElementSibling.firstElementChild, {
           slidesPerView: 10,
           spaceBetween: 10,
+          breakpoints: {
+            0: {
+              slidesPerView: 5,
+            },
+            576: {
+              slidesPerView: 7,
+            },
+            1068: {
+              slidesPerView: 10,
+            },
+          }
         });
         const sliderImages = new Swiper(item, {
           slidesPerView: 1,
