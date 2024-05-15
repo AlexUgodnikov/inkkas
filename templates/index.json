@@ -161,6 +161,33 @@
             "button_2_link": "",
             "button_2_outline": false
           }
+        },
+        "slide_JNAXcC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-JOGGER-SS240402-HOLD-SS240402-EPI_3478.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/APEX-SLIP-ON-SS240409-MODEL-SS240409-EPI_3050.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "25% OFF SITE-WIDE STARTS NOW",
+            "heading": "MEMORIAL DAY SALE IS HERE",
+            "heading_size": "h1-xlarge",
+            "content": "This weekend only, get 25% off EVERYTHING with code: MDW25",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
         }
       },
       "block_order": [
@@ -169,7 +196,8 @@
         "164794776393e76b8e-0",
         "slide_Ktfza8",
         "slide_xDcpXe",
-        "slide_iQBDH3"
+        "slide_iQBDH3",
+        "slide_JNAXcC"
       ],
       "settings": {
         "desktop_height": "desktop-height-full",
@@ -328,7 +356,8 @@
         },
         "product_link_gpLtpg": {
           "type": "product_link",
-          "settings": {}
+          "settings": {
+          }
         },
         "buy_buttons_GKUHRJ": {
           "type": "buy_buttons",
@@ -401,7 +430,9 @@
             "link": "shopify:\/\/collections\/jogger-1",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/jogger-1",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_Am6KPK": {
@@ -415,7 +446,9 @@
             "link": "shopify:\/\/collections\/slip-on",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/slip-on",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_Ga6xhn": {
@@ -429,7 +462,9 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_6jbQHn": {
@@ -443,7 +478,9 @@
             "link": "shopify:\/\/collections\/camping-boot-1",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/camping-boot-1",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_wTaUXr": {
@@ -457,7 +494,9 @@
             "link": "shopify:\/\/collections\/trekk-boots",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/trekk-boots",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_kykCKB": {
@@ -471,7 +510,9 @@
             "link": "shopify:\/\/collections\/flexaire",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/flexaire",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_Wz7h8L": {
@@ -485,7 +526,9 @@
             "link": "shopify:\/\/collections\/low-top",
             "use_text_button": false,
             "block_link": "",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_HF4fHH": {
@@ -499,7 +542,9 @@
             "link": "shopify:\/\/collections\/ace-high-top",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/ace-high-top",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_UkENLQ": {
@@ -513,7 +558,9 @@
             "link": "shopify:\/\/collections\/booties",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/booties",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "6a1c724d-715f-4918-acea-e9f4464d74de": {
@@ -528,7 +575,9 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_iyHeBM": {
@@ -543,7 +592,9 @@
             "link": "shopify:\/\/collections\/the-radiance-collection",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/the-radiance-collection",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_pLXKmK": {
@@ -558,7 +609,9 @@
             "link": "shopify:\/\/collections\/back-in-stock",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/back-in-stock",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "bbdd3a28-ed72-4073-b920-e0710a00f80b": {
@@ -573,7 +626,9 @@
             "link": "shopify:\/\/collections\/best-sellers",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/best-sellers",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_qCET3F": {
@@ -588,7 +643,9 @@
             "link": "shopify:\/\/collections\/ss24-vacay-ready",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/ss24-vacay-ready",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "image_crEtNe": {
@@ -603,7 +660,9 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         }
       },
@@ -721,8 +780,8 @@
           "type": "icon",
           "settings": {
             "icon": "return",
-            "heading": "FREE & EASY RETURNS",
-            "text": "<p>for 7 days from delivery. No questions asked.<\/p>"
+            "heading": "EASY RETURNS",
+            "text": "<p>for 30 days from delivery. Plus, <strong>FREE RETURNS<\/strong> within 7 days of delivery. <\/p>"
           }
         },
         "icon_iP6bLk": {
@@ -1034,7 +1093,8 @@
       "block_order": [
         "instafeed_app_block_TFUALm"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "16624658277b7c3abc": {
       "type": "countdown-banner",
@@ -1094,7 +1154,8 @@
     },
     "17132068911ec81803": {
       "type": "apps",
-      "settings": {}
+      "settings": {
+      }
     }
   },
   "order": [
