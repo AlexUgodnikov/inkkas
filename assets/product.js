@@ -446,8 +446,9 @@ if (!customElements.get('product-slider')) {
           slidesPerView: 1,
           spaceBetween: 0,
           speed: 1000,
-          mousewheel: false,
-          grabCursor: false,
+          mousewheel: true,
+          grabCursor: true,
+          autoHeight: true,
           allowTouchMove: true,
           navigation: {
 
