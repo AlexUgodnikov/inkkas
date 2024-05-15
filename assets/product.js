@@ -442,7 +442,7 @@ if (!customElements.get('product-slider')) {
     connectedCallback() {
       document.querySelectorAll(`#MainProduct-${this.sectionId} .gallery-top`).forEach((item) => {
         const sliderImages = new Swiper(item, {
-          slidesPerView: 1,
+          slidesPerView: 2,
           spaceBetween: 0,
           speed: 1000,
           navigation: {
