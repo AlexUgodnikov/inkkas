@@ -446,8 +446,8 @@ if (!customElements.get('product-slider')) {
           spaceBetween: 0,
           speed: 1000,
           navigation: {
-            nextEl: item.nextElementSibling.lastElementChild,
-            prevEl: item.nextElementSibling.firstElementChild,
+            nextEl: item.nextElementSibling.nextElementSibling.lastElementChild,
+            prevEl: item.nextElementSibling.nextElementSibling.firstElementChild,
           },
         });
       });
