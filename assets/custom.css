@@ -495,7 +495,6 @@ body.compensate-for-scrollbar {
     .product-images {
         padding: 0 50px;
         grid-auto-flow: column;
-        grid-auto-columns: minmax(calc(100vw - 100px),1fr);
         overflow-y: hidden;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
@@ -506,6 +505,6 @@ body.compensate-for-scrollbar {
         width: 100%;
     }
     .product-images-buttons {
-        
+        display: flex!important;
     }
 }
