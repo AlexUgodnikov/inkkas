@@ -459,7 +459,7 @@ if (!customElements.get('variant-selects')) {
         const sliderImages = new Swiper(item, {
           slidesPerView: 1,
           spaceBetween: 0,
-          speed: 1000,
+          speed: 500,
           autoHeight: true,
           thumbs: {
             swiper: sliderThumbs
