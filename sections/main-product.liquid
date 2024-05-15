@@ -58,9 +58,7 @@
 								</button>
 							</modal-opener>
 						</div>
-		        <product-slider id="Product-Slider" class="flickity-enabled is-draggable product-images product-images--{{ media_layout }}" data-captions="{{ display_captions }}">
-							<div class="flickity-viewport">
-							<div class="flickity-slider">
+		        <product-slider id="Product-Slider" class="product-images product-images--{{ media_layout }}" data-captions="{{ display_captions }}">
 							{%- if featured_media != null -%}
 	              {%- liquid
 									assign image_index = image_index | plus: 1
@@ -125,7 +123,7 @@
 									-%}
 			            <div
 										id="Slide-{{ section.id }}-{{ media.id }}"
-										class="carousel__slide product-images__slide product-images__slide--{{ media.media_type }} {% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if hide_variants and variant_images contains media.src %} product-images__slide-item--variant{% endif %}{% if media.media_type != 'image' %} product-images__slide--full{% endif %}"
+										class="product-images__slide product-images__slide--{{ media.media_type }} {% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if hide_variants and variant_images contains media.src %} product-images__slide-item--variant{% endif %}{% if media.media_type != 'image' %} product-images__slide--full{% endif %}"
 										data-media-id="{{ section.id }}-{{ media.id }}"
                     {% if image_set %}
                       data-set-name="{{ image_set_group }}"
@@ -199,9 +197,6 @@
 			            </div>
 								{%- endunless -%}
 		          {%- endfor -%}
-							</div>
-
-						</div>
 		        </product-slider>
 						{%- if display_slider_pagination -%}
 							{%- unless single_media_visible_mobile -%}
