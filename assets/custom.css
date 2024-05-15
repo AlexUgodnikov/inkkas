@@ -299,6 +299,9 @@ body.compensate-for-scrollbar {
         display: flex;
         flex-direction: column-reverse;
     }
+    .product-image-container product-slider {
+        order: 1;
+    }
     .product-gallery-navigations {
         margin-top: 20px;
         margin-bottom: 0;
