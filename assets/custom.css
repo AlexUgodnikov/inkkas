@@ -514,8 +514,10 @@ body.compensate-for-scrollbar {
         position: absolute;
         top: 50%;
     }
-    .product-image-container .slider-button--prev,
+    .product-image-container .slider-button--prev {
+        left: 0;
+    }
     .product-image-container .slider-button--next {
-        
+        right: 0;
     }
 }
