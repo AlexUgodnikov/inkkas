@@ -514,6 +514,11 @@ body.compensate-for-scrollbar {
         position: absolute;
         top: 50%;
     }
+    .product-image-container .slider-button--prev svg,
+    .product-image-container .slider-button--next svg {
+        width: 30px;
+        height: 30px;
+    }
     .product-image-container .slider-button--prev {
         left: 0;
     }
