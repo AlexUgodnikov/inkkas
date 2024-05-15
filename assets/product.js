@@ -437,6 +437,7 @@ if (!customElements.get('product-slider')) {
   class ProductSlider extends HTMLElement {
     constructor() {
       super();
+      this.sectionId = this.getAttribute('data-section-id');
 
     }
     connectedCallback() {
