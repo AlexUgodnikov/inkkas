@@ -653,7 +653,10 @@ if (!customElements.get('product-slider')) {
       return (element.offsetLeft + element.clientWidth) <= lastVisibleSlide && element.offsetLeft >= this.scrollLeft;
     }
   }
-  customElements.define('product-slider', ProductSlider);
+  window.addEventListener('load', () => {
+    customElements.define('product-slider', ProductSlider);
+  })
+
 }
 
 /**
