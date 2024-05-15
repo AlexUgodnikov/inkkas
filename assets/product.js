@@ -504,7 +504,11 @@ if (!customElements.get('product-slider')) {
           shareEl: false,
           counterEl: true,
           arrowEl: true,
-          preloaderEl: true
+          preloaderEl: true,
+          wrapAround: true,
+          pageDots: false,
+          contain: true,
+          prevNextButtons: false,
         };
 
       let openPswp = function (e, link, options, pswpElement, items) {
