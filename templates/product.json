@@ -516,59 +516,6 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "featured_product_7FwB9m": {
-      "type": "featured-product",
-      "blocks": {
-        "title_XHnrm8": {
-          "type": "title",
-          "settings": {
-            "uppercase": true,
-            "show_products_rating": true
-          }
-        },
-        "variant_picker_yC3aKP": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "color_picker": true,
-            "color_picker_size": "regular",
-            "color_picker_use_variants": false,
-            "variant_is_disabled": true,
-            "sizing_guide_variant": "Size",
-            "sizing_guide_text": "Sizing guide",
-            "sizing_guide_icon": "ruler",
-            "sizing_guide_page": ""
-          }
-        },
-        "buy_buttons_QgQ8mU": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_quantity_selector": true,
-            "show_dynamic_checkout": true
-          }
-        }
-      },
-      "block_order": [
-        "title_XHnrm8",
-        "variant_picker_yC3aKP",
-        "buy_buttons_QgQ8mU"
-      ],
-      "settings": {
-        "heading": "Featured product",
-        "heading_left": false,
-        "description": "<p>Add a short description for this featured product<\/p>",
-        "full_width": false,
-        "product": "apex-vegan-ace-low-top",
-        "show_taxes_included": true,
-        "enable_sticky_info": true,
-        "media_aspect_ratio": "adapt",
-        "display_captions": true,
-        "lightbox": true,
-        "enable_video_looping": false,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
     }
   },
   "order": [
@@ -580,7 +527,6 @@
     "16623877721f33fb14",
     "166366868377cd57e4",
     "1662552569cce2536d",
-    "image_with_text_Vp4qKf",
-    "featured_product_7FwB9m"
+    "image_with_text_Vp4qKf"
   ]
 }
