@@ -453,8 +453,8 @@ if (!customElements.get('product-slider')) {
             swiper: sliderThumbs
           },
           navigation: {
-            nextEl: document.querySelector(`#MainProduct-${this.sectionId} `),
-            prevEl: item.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild.nextElementSibling,
+            nextEl: document.querySelector(`#MainProduct-${this.sectionId} .slider-button--next`),
+            prevEl: document.querySelector(`#MainProduct-${this.sectionId} .slider-button--prev`),
           },
         });
       });
