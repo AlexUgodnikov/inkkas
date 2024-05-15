@@ -531,6 +531,10 @@ body.compensate-for-scrollbar {
 .product-image-container {
     position: relative;
 }
+.product-image-container {
+    margin: 0!important;
+    width: 100%!important;
+}
 @media only screen and (min-width: 1068px) {
     .product-image-container > .product-images {
         grid-auto-flow: column;
