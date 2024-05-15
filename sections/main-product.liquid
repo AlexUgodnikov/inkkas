@@ -58,7 +58,7 @@
 								</button>
 							</modal-opener>
 						</div>
-		        <slide-show id="Product-Slider" class="carousel is-draggable product-images product-images--{{ media_layout }}" data-captions="{{ display_captions }}">
+		        <product-slider id="Product-Slider" class="product-images product-images--{{ media_layout }}" data-captions="{{ display_captions }}">
 							{%- if featured_media != null -%}
 	              {%- liquid
 									assign image_index = image_index | plus: 1
@@ -197,7 +197,7 @@
 			            </div>
 								{%- endunless -%}
 		          {%- endfor -%}
-		        </slide-show>
+		        </product-slider>
 						{%- if display_slider_pagination -%}
 							{%- unless single_media_visible_mobile -%}
 							<div class="product-images-buttons no-js-hidden">
