@@ -452,6 +452,10 @@ if (!customElements.get('product-slider')) {
           thumbs: {
             swiper: sliderThumbs
           },
+          navigation: {
+            nextEl: document.querySelector(`#MainProduct-${this.sectionId} `),
+            prevEl: item.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild.nextElementSibling,
+          },
         });
       });
       // this.pagination = this.parentElement.querySelector('.product-images-buttons');
