@@ -446,13 +446,9 @@ if (!customElements.get('product-slider')) {
           slidesPerView: 1,
           spaceBetween: 0,
           speed: 1000,
-          keyboard: {
-            enabled: true,
-            onlyInViewport: true
-          },
           navigation: {
-            nextEl: item.querySelector(''),
-            prevEl: item.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild.nextElementSibling,
+            nextEl: item.querySelector('.slider-button--next'),
+            prevEl: item.querySelector('.slider-button--prev'),
           },
         });
       })
