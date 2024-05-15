@@ -493,18 +493,18 @@ if (!customElements.get('product-slider')) {
         options = {
           maxSpreadZoom: 2,
           loop: false,
-          allowPanToNext: true,
-          closeOnScroll: true,
-          showHideOpacity: true,
+          allowPanToNext: false,
+          closeOnScroll: false,
+          showHideOpacity: false,
           arrowKeys: true,
-          history: true,
+          history: false,
           captionEl: captionEl,
-          fullscreenEl: true,
-          zoomEl: true,
-          shareEl: true,
+          fullscreenEl: false,
+          zoomEl: false,
+          shareEl: false,
           counterEl: true,
           arrowEl: true,
-          preloaderEl: true,
+          preloaderEl: true
         };
 
       let openPswp = function (e, link, options, pswpElement, items) {
