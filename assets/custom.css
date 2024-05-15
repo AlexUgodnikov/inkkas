@@ -564,7 +564,7 @@ body.compensate-for-scrollbar {
 }
 @media only screen and (min-width: 1068px) {
     product-slider .product-images-buttons {
-        display: none;
+        display: none!important;
     }
     body .product-grid-container {
         grid-template-columns: 1fr clamp(360px,45%,50%);
