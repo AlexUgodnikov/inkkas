@@ -500,6 +500,10 @@ body.compensate-for-scrollbar {
     z-index: 11;
     position: absolute;
     top: 50%;
+    background: white;
+    height: auto;
+    width: auto;
+    padding: 8px 5px 8px 10px;
 }
 .product-image-container .slider-button--prev svg,
 .product-image-container .slider-button--next svg {
