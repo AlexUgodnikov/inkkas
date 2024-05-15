@@ -453,10 +453,20 @@ if (!customElements.get('variant-selects')) {
           thumbs: {
             swiper: sliderThumbs
           },
-          navigation: {
-            nextEl: document.querySelector(`#MainProduct-${this.sectionId} .slider-button--next`),
-            prevEl: document.querySelector(`#MainProduct-${this.sectionId} .slider-button--prev`),
-          },
+          breakpoints: {
+            0: {
+              navigation: {
+                nextEl: document.querySelector(`#MainProduct-${this.sectionId} product-slider .slider-button--next`),
+                prevEl: document.querySelector(`#MainProduct-${this.sectionId} product-slider .slider-button--prev`),
+              },
+            },
+            1068: {
+              navigation: {
+                nextEl: document.querySelector(`#MainProduct-${this.sectionId} .product-image-container > .product-images-buttons .slider-button--next`),
+                prevEl: document.querySelector(`#MainProduct-${this.sectionId} .product-image-container > .product-images-buttons .slider-button--prev`),
+              },
+            },
+          }
         });
       });
       // this.pagination = this.parentElement.querySelector('.product-images-buttons');
