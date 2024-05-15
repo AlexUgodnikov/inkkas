@@ -3,6 +3,59 @@
     "16479477632637c9a7": {
       "type": "slideshow",
       "blocks": {
+        "slide_JNAXcC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-JOGGER-SS240402-HOLD-SS240402-EPI_3478.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/APEX-SLIP-ON-SS240409-MODEL-SS240409-EPI_3050.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "25% OFF SITE-WIDE STARTS NOW!",
+            "heading": "BIGGEST SALE OF THE SEASON IS HERE",
+            "heading_size": "h1-xlarge",
+            "content": "This Memorial Day Weekend only, get 25% off EVERYTHING with code: MDW25",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_UkyBeK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-WESTERN-BOOT-SS241111-MODEL-ZOOM--SS241111-EPI_2774.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "<<<< THIS SUMMER, HEAD WEST <<<<",
+            "heading": "SUMMER BOOTS",
+            "heading_size": "h1-xlarge",
+            "content": "Your search for the perfect summer shoe ends here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/western-boot",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "164794776393e76b8e-2": {
           "type": "slide",
           "settings": {
@@ -138,6 +191,7 @@
         },
         "slide_iQBDH3": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/TOUBKAL-JOGGER-SS230405-MODEL--EPI_3445.jpg",
             "slide_link": "",
@@ -161,43 +215,17 @@
             "button_2_link": "",
             "button_2_outline": false
           }
-        },
-        "slide_JNAXcC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-JOGGER-SS240402-HOLD-SS240402-EPI_3478.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/APEX-SLIP-ON-SS240409-MODEL-SS240409-EPI_3050.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "25% OFF SITE-WIDE STARTS NOW",
-            "heading": "MEMORIAL DAY SALE IS HERE",
-            "heading_size": "h1-xlarge",
-            "content": "This weekend only, get 25% off EVERYTHING with code: MDW25",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
         }
       },
       "block_order": [
+        "slide_JNAXcC",
+        "slide_UkyBeK",
         "164794776393e76b8e-2",
         "164794776393e76b8e-1",
         "164794776393e76b8e-0",
         "slide_Ktfza8",
         "slide_xDcpXe",
-        "slide_iQBDH3",
-        "slide_JNAXcC"
+        "slide_iQBDH3"
       ],
       "settings": {
         "desktop_height": "desktop-height-full",
