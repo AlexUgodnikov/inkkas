@@ -438,26 +438,9 @@ if (!customElements.get('product-slider')) {
     constructor() {
       super();
       this.sectionId = this.getAttribute('data-section-id');
-
     }
     connectedCallback() {
       document.querySelectorAll(`#MainProduct-${this.sectionId} .gallery-top`).forEach((item) => {
-        const sliderThumbs = new Swiper(item.nextElementSibling.firstElementChild, {
-          direction: item.dataset.direction,
-          slidesPerView: 4,
-          spaceBetween: 10,
-          mousewheel: true,
-          freeMode: true,
-          breakpoints: {
-            0: {
-              direction: 'horizontal',
-            },
-            769: {
-              direction: item.dataset.direction,
-
-            }
-          }
-        });
         const sliderImages = new Swiper(item, {
           direction: item.dataset.direction,
           slidesPerView: 1,
@@ -499,7 +482,7 @@ if (!customElements.get('product-slider')) {
         });
       })
 
-      
+
 
       // this.pagination = this.parentElement.querySelector('.product-images-buttons');
       // this.sliderItems = this.querySelectorAll('[id^="Slide-"]');
