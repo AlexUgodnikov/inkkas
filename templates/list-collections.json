@@ -3,10 +3,16 @@
     "main": {
       "type": "main-list-collections",
       "blocks": {
-        "collection_adAqXr": {
+        "collection_MXKPkj": {
           "type": "collection",
           "settings": {
-            "collection": "all-sneakers"
+            "collection": "jogger-1"
+          }
+        },
+        "collection_rGp9Ac": {
+          "type": "collection",
+          "settings": {
+            "collection": "flexaire"
           }
         },
         "collection_3fEg3G": {
@@ -15,22 +21,85 @@
             "collection": "slip-on"
           }
         },
-        "collection_7REBVj": {
+        "collection_jraBnf": {
           "type": "collection",
           "settings": {
-            "collection": "camping-boot"
+            "collection": "western-boot"
           }
         },
-        "collection_DAd8fz": {
+        "collection_GKQmTV": {
           "type": "collection",
           "settings": {
-            "collection": "high-tops-and-low-tops"
+            "collection": "camping-boot-1"
+          }
+        },
+        "collection_B7bwhf": {
+          "type": "collection",
+          "settings": {
+            "collection": "trekk-boots"
           }
         },
         "collection_Nr4EDJ": {
           "type": "collection",
           "settings": {
             "collection": "booties"
+          }
+        },
+        "collection_dW6Bcm": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection_GDRNRT": {
+          "type": "collection",
+          "settings": {
+            "collection": "low-top"
+          }
+        },
+        "collection_CMYhAW": {
+          "type": "collection",
+          "settings": {
+            "collection": "high-top-1"
+          }
+        },
+        "collection_F7QwgM": {
+          "type": "collection",
+          "settings": {
+            "collection": "vegan-products"
+          }
+        },
+        "collection_J6c7gz": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids"
+          }
+        },
+        "collection_UHQj3K": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-accessories"
+          }
+        },
+        "collection_adAqXr": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "all-sneakers"
+          }
+        },
+        "collection_7REBVj": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "camping-boot"
+          }
+        },
+        "collection_DAd8fz": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "high-tops-and-low-tops"
           }
         },
         "collection_DBBQAx": {
@@ -112,11 +181,22 @@
         }
       },
       "block_order": [
-        "collection_adAqXr",
+        "collection_MXKPkj",
+        "collection_rGp9Ac",
         "collection_3fEg3G",
+        "collection_jraBnf",
+        "collection_GKQmTV",
+        "collection_B7bwhf",
+        "collection_Nr4EDJ",
+        "collection_dW6Bcm",
+        "collection_GDRNRT",
+        "collection_CMYhAW",
+        "collection_F7QwgM",
+        "collection_J6c7gz",
+        "collection_UHQj3K",
+        "collection_adAqXr",
         "collection_7REBVj",
         "collection_DAd8fz",
-        "collection_Nr4EDJ",
         "collection_DBBQAx",
         "collection_mN93bU",
         "collection_gtXAVR",
