@@ -6,8 +6,7 @@
         "slide_JNAXcC": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SAMADHI-CAMPING-BOOT-SS240510-HOLD--SS240510-EPI_2569.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/APEX-SLIP-ON-SS240409-MODEL-SS240409-EPI_3050.jpg",
+            "image": "shopify:\/\/shop_images\/POPINJAY-TREKK-BOOT-SS241014-MODEL-SS241014-EPI_2963.jpg",
             "slide_link": "",
             "video_background": false,
             "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -20,7 +19,7 @@
             "text_alignment": "center",
             "content_size": "medium",
             "overlay_color": "#000000",
-            "overlay_opacity": 70,
+            "overlay_opacity": 42,
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
             "button_1_text": "",
             "button_1_link": "",
@@ -30,15 +29,41 @@
             "button_2_outline": false
           }
         },
+        "slide_X4w7DM": {
+          "type": "slide",
+          "settings": {
+            "slide_link": "",
+            "video_background": true,
+            "video": "",
+            "video_hosted": "shopify:\/\/files\/videos\/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
+            "subheading": "unique designs, plush support, globally-inspired",
+            "heading": "TREKK INTO YOUR SUMMER",
+            "heading_size": "h1-xlarge",
+            "content": "Most of our shoes are unisex, but if you must, select a category:",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop MEN",
+            "button_1_link": "shopify:\/\/collections\/mens-shoes",
+            "button_1_outline": true,
+            "button_2_text": "Shop Women",
+            "button_2_link": "shopify:\/\/collections\/womens-collection-all-shoes",
+            "button_2_outline": false
+          }
+        },
         "slide_UkyBeK": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-WESTERN-BOOT-SS241111-MODEL-ZOOM--SS241111-EPI_2774.jpg",
+            "image": "shopify:\/\/shop_images\/SOCORRO-WESTERN-BOOT-SS231121-MODEL-EPI_7982_bbc4f95d-14bf-44b4-b925-3a5bca73a8c7.jpg",
             "slide_link": "",
             "video_background": false,
             "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "subheading": "<<<< THIS SUMMER, HEAD WEST <<<<",
-            "heading": "GOT SUMMER BOOTS?",
+            "heading": "SUMMER  LOVE",
             "heading_size": "h1-xlarge",
             "content": "Your search for the perfect summer shoe ends here.",
             "description_size": "medium",
@@ -48,9 +73,9 @@
             "overlay_color": "#000000",
             "overlay_opacity": 70,
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "Shop Now",
+            "button_1_text": "Shop Western",
             "button_1_link": "shopify:\/\/collections\/western-boot",
-            "button_1_outline": true,
+            "button_1_outline": false,
             "button_2_text": "",
             "button_2_link": "",
             "button_2_outline": false
@@ -66,7 +91,7 @@
             "subheading": "\"Insanely comfortable & Incredibly gorgeous!\"",
             "heading": "Introducing: \nThe Buckle Sandle",
             "heading_size": "h1-large",
-            "content": "Handcrafted, unique & BURSTING with color",
+            "content": "Uniquely Handcrafted & Bursting with Color",
             "description_size": "medium",
             "content_position": "middle-center",
             "text_alignment": "center",
@@ -136,33 +161,6 @@
             "button_2_outline": false
           }
         },
-        "slide_Ktfza8": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "slide_link": "shopify:\/\/collections\/trekk-boots",
-            "video_background": true,
-            "video": "",
-            "video_hosted": "shopify:\/\/files\/videos\/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
-            "subheading": "Trekk into your summer",
-            "heading": "Adventure is always in-season",
-            "heading_size": "h1-xlarge",
-            "content": "All Inkkas Trekks are water-resistant, offer plush ankle support & feature unique, global designs.",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "SHOP TREKKS",
-            "button_1_link": "shopify:\/\/collections\/trekk-boots",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
         "slide_xDcpXe": {
           "type": "slide",
           "disabled": true,
@@ -220,11 +218,11 @@
       },
       "block_order": [
         "slide_JNAXcC",
+        "slide_X4w7DM",
         "slide_UkyBeK",
         "164794776393e76b8e-1",
         "164794776393e76b8e-2",
         "164794776393e76b8e-0",
-        "slide_Ktfza8",
         "slide_xDcpXe",
         "slide_iQBDH3"
       ],
