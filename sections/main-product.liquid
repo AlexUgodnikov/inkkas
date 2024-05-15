@@ -72,7 +72,7 @@
 								-%}
 	              <div
 									id="Slide-{{ section.id }}-{{ featured_media.id }}"
-									class="flickity-viewport product-images__slide product-images__slide--image is-active {% if hide_variants and variant_images contains featured_media.src %} product-images__slide-item--variant{% endif %}"
+									class="product-images__slide product-images__slide--image is-active {% if hide_variants and variant_images contains featured_media.src %} product-images__slide-item--variant{% endif %}"
 									data-media-id="{{ section.id }}-{{ featured_media.id }}"
 	              >
 									<div class="product-single__media product-single__media-image aspect-ratio aspect-ratio--{{ media_aspect_ratio }}" id="Media-Thumbnails-{{ section.id }}-{{ featured_media.id }}" style="--padding-bottom: {{ 1 | divided_by: ratio | times: 100 }}%;">
@@ -123,7 +123,7 @@
 									-%}
 			            <div
 										id="Slide-{{ section.id }}-{{ media.id }}"
-										class="product-images__slide product-images__slide--{{ media.media_type }} {% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if hide_variants and variant_images contains media.src %} product-images__slide-item--variant{% endif %}{% if media.media_type != 'image' %} product-images__slide--full{% endif %}"
+										class="flickity-viewport product-images__slide product-images__slide--{{ media.media_type }} {% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if hide_variants and variant_images contains media.src %} product-images__slide-item--variant{% endif %}{% if media.media_type != 'image' %} product-images__slide--full{% endif %}"
 										data-media-id="{{ section.id }}-{{ media.id }}"
                     {% if image_set %}
                       data-set-name="{{ image_set_group }}"
