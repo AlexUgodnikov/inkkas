@@ -437,33 +437,72 @@ if (!customElements.get('product-slider')) {
   class ProductSlider extends HTMLElement {
     constructor() {
       super();
-
+      this.sectionId = this.getAttribute('data-section-id');
     }
     connectedCallback() {
-      this.pagination = this.parentElement.querySelector('.product-images-buttons');
-      this.sliderItems = this.querySelectorAll('[id^="Slide-"]');
-
-      // Start Gallery
-      let observer = new MutationObserver(() => {
-        this.setupProductGallery();
+      const sliderImages = new Swiper(item, {
+        direction: item.dataset.direction,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        speed: 1000,
+        mousewheel: false,
+        grabCursor: false,
+        allowTouchMove: false,
+        thumbs: {
+          swiper: sliderThumbs
+        },
+        navigation: {
+          nextEl: item.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild,
+          prevEl: item.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild.nextElementSibling,
+        },
+        keyboard: {
+          enabled: true,
+          onlyInViewport: true
+        },
+        pagination: {
+          el: item.querySelector('.swiper-pagination'),
+          clickable: true,
+          type: "progressbar"
+        },
+        scrollbar: {
+          el: item.firstElementChild.nextElementSibling
+        },
+        breakpoints: {
+          0: {
+            direction: 'horizontal',
+            mousewheel: false,
+            allowTouchMove: true,
+          },
+          769: {
+            direction: item.dataset.direction,
+            allowTouchMove: false,
+          },
+        }
       });
-
-      observer.observe(this, {
-        attributes: true,
-        attributeFilter: ['class'],
-        childList: true,
-        characterData: false
-      });
+      // this.pagination = this.parentElement.querySelector('.product-images-buttons');
+      // this.sliderItems = this.querySelectorAll('[id^="Slide-"]');
+      //
+      // // Start Gallery
+      // let observer = new MutationObserver(() => {
+      //   this.setupProductGallery();
+      // });
+      //
+      // observer.observe(this, {
+      //   attributes: true,
+      //   attributeFilter: ['class'],
+      //   childList: true,
+      //   characterData: false
+      // });
 
       this.setupProductGallery();
 
-      // Start Pagination
-      if (this.pagination) {
-        this.setupPagination();
-        this.resizeObserver = new ResizeObserver(entries => this.onPaginationResize());
-        this.resizeObserver.observe(this);
-        this.addEventListener('scroll', this.updatePagination.bind(this));
-      }
+      // // Start Pagination
+      // if (this.pagination) {
+      //   this.setupPagination();
+      //   this.resizeObserver = new ResizeObserver(entries => this.onPaginationResize());
+      //   this.resizeObserver.observe(this);
+      //   this.addEventListener('scroll', this.updatePagination.bind(this));
+      // }
     }
     setupProductGallery() {
       if (!this.querySelectorAll('.product-single__media-zoom').length) {
