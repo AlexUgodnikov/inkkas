@@ -505,10 +505,10 @@ body.compensate-for-scrollbar {
     width: auto;
 }
 .product-image-container .slider-button--prev {
-    padding: 8px 10px 8px 5px;
+    padding: 10px 10px 10px 5px;
 }
 .product-image-container .slider-button--next {
-    padding: 8px 5px 8px 10px;
+    padding: 10px 5px 10px 10px;
 }
 .product-image-container .slider-button--prev svg,
 .product-image-container .slider-button--next svg {
