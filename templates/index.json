@@ -29,8 +29,35 @@
             "button_2_outline": false
           }
         },
+        "164794776393e76b8e-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DESERT-BUCKLESANDAL-SS241218-LUZON-BUCKLESANDAL-SS241219-SAMADHI-BUCKLESANDAL-SS241217-MODELZOOM-GROUP-4Q2A8240.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "",
+            "subheading": "\"Insanely comfortable... Incredibly gorgeous!\"",
+            "heading": "OUR QUICKEST STYLE \nTO SELL OUT",
+            "heading_size": "h1-large",
+            "content": "Is back in limited quantities:",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20,
+            "overlay_gradient": "",
+            "button_1_text": "Shop SandalS",
+            "button_1_link": "shopify:\/\/collections\/ss24-vacay-ready",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "slide_X4w7DM": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "slide_link": "",
             "video_background": true,
@@ -76,32 +103,6 @@
             "button_1_text": "Shop Western",
             "button_1_link": "shopify:\/\/collections\/western-boot",
             "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "164794776393e76b8e-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DESERT-BUCKLESANDAL-SS241218-LUZON-BUCKLESANDAL-SS241219-SAMADHI-BUCKLESANDAL-SS241217-MODELZOOM-GROUP-4Q2A8240.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "",
-            "subheading": "\"Insanely comfortable... Incredibly gorgeous!\"",
-            "heading": "OUR QUICKEST STYLE TO SELL OUT",
-            "heading_size": "h1-large",
-            "content": "Uniquely Handcrafted & Bursting with Color",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 20,
-            "overlay_gradient": "",
-            "button_1_text": "Shop SandalS",
-            "button_1_link": "shopify:\/\/collections\/ss24-vacay-ready",
-            "button_1_outline": false,
             "button_2_text": "",
             "button_2_link": "",
             "button_2_outline": false
@@ -219,9 +220,9 @@
       },
       "block_order": [
         "slide_JNAXcC",
+        "164794776393e76b8e-1",
         "slide_X4w7DM",
         "slide_UkyBeK",
-        "164794776393e76b8e-1",
         "164794776393e76b8e-2",
         "164794776393e76b8e-0",
         "slide_xDcpXe",
