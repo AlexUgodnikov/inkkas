@@ -448,7 +448,7 @@ if (!customElements.get('product-slider')) {
           speed: 1000,
           mousewheel: false,
           grabCursor: false,
-          allowTouchMove: false,
+          allowTouchMove: true,
           navigation: {
 
           },
@@ -465,11 +465,9 @@ if (!customElements.get('product-slider')) {
             0: {
               direction: 'horizontal',
               mousewheel: false,
-              allowTouchMove: true,
             },
             769: {
               direction: item.dataset.direction,
-              allowTouchMove: false,
             },
           }
         });
