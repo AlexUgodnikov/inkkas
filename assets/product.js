@@ -441,7 +441,6 @@ if (!customElements.get('product-slider')) {
     }
     connectedCallback() {
       document.querySelectorAll(`#MainProduct-${this.sectionId} .gallery-top`).forEach((item) => {
-        console.log(1);
         const sliderImages = new Swiper(item, {
           slidesPerView: 1,
           spaceBetween: 0,
