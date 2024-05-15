@@ -469,7 +469,7 @@ if (!customElements.get('product-slider')) {
       if (!this.querySelectorAll('.product-single__media-zoom').length) {
         return;
       }
-
+      console.log(1111);
       this.setEventListeners();
     }
     buildItems(activeImages) {
