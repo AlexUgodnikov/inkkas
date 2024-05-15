@@ -461,6 +461,7 @@ if (!customElements.get('variant-selects')) {
           spaceBetween: 0,
           speed: 500,
           autoHeight: true,
+          grabCursor: true,
           thumbs: {
             swiper: sliderThumbs
           },
