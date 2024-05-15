@@ -442,21 +442,10 @@ if (!customElements.get('product-slider')) {
 
     connectedCallback() {
       document.querySelectorAll(`#MainProduct-${this.sectionId} .gallery-top`).forEach((item) => {
-        const sliderThumbs = new Swiper(item.nextElementSibling.firstElementChild, {
-          direction: item.dataset.direction,
-          slidesPerView: 4,
-          spaceBetween: 10,
-          mousewheel: true,
-          freeMode: true,
-          breakpoints: {
-            0: {
-              direction: 'horizontal',
-            },
-            769: {
-              direction: item.dataset.direction,
-
-            }
-          }
+        const sliderImages = new Swiper(item, {
+          slidesPerView: 1,
+          spaceBetween: 0,
+          speed: 1000,
         });
       })
     }
