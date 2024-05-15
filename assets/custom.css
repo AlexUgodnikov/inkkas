@@ -491,3 +491,18 @@ body.compensate-for-scrollbar {
 #ps__bis_container_root {
     width: 100%;
 }
+@media only screen and (min-width: 1068px) {
+    .product-images {
+        padding: 0 50px;
+        grid-auto-flow: column;
+        grid-auto-columns: minmax(calc(100vw - 100px),1fr);
+        overflow-y: hidden;
+        overflow-x: auto;
+        grid-template-columns: repeat(auto-fill,minmax(calc(100vw - 100px),1fr));
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+    }
+    .thb-product-detail .product-images__slide {
+        width: 100%;
+    }
+}
