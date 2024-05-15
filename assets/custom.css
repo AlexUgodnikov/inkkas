@@ -516,7 +516,7 @@ body.compensate-for-scrollbar {
     border: 1px solid silver;
     transition: all .3s ease;
 }
-.product-thumb-wrapper .swiper-slide.swiper-slide-active {
+.product-thumb-wrapper .swiper-slide.swiper-slide-thumb-active {
     border-color: #1e1e1e;
 }
 @media only screen and (min-width: 1068px) {
