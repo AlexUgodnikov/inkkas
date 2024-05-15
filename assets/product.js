@@ -429,7 +429,7 @@ if (!customElements.get('variant-selects')) {
 
   customElements.define('variant-radios', VariantRadios);
 }
-if (!customElements.get('product-slider')) {
+if (!customElements.get('custom-product-slider')) {
   /**
    *  @class
    *  @function CustomProductSlider
@@ -450,6 +450,7 @@ if (!customElements.get('product-slider')) {
       })
     }
   }
+  customElements.define('custom-product-slider', CustomProductSlider);
 }
 if (!customElements.get('product-slider')) {
   /**
