@@ -429,14 +429,17 @@ if (!customElements.get('variant-selects')) {
 
   customElements.define('variant-radios', VariantRadios);
 }
-if (!customElements.get('custom-product-slider')) {
+if (!customElements.get('product-slider')) {
+  /**
+   *  @class
+   *  @function ProductSlider
+   */
   class ProductSlider extends HTMLElement {
     constructor() {
       super();
       this.sectionId = this.getAttribute('data-section-id');
 
     }
-
     connectedCallback() {
       document.querySelectorAll(`#MainProduct-${this.sectionId} .gallery-top`).forEach((item) => {
         const sliderThumbs = new Swiper(item.nextElementSibling.firstElementChild, {
@@ -495,44 +498,33 @@ if (!customElements.get('custom-product-slider')) {
           }
         });
       })
-    }
-  }
-}
-if (!customElements.get('product-slider')) {
-  /**
-   *  @class
-   *  @function ProductSlider
-   */
-  class ProductSlider extends HTMLElement {
-    constructor() {
-      super();
 
-    }
-    connectedCallback() {
-      this.pagination = this.parentElement.querySelector('.product-images-buttons');
-      this.sliderItems = this.querySelectorAll('[id^="Slide-"]');
+      
 
-      // Start Gallery
-      let observer = new MutationObserver(() => {
-        this.setupProductGallery();
-      });
-
-      observer.observe(this, {
-        attributes: true,
-        attributeFilter: ['class'],
-        childList: true,
-        characterData: false
-      });
-
-      this.setupProductGallery();
-
-      // Start Pagination
-      if (this.pagination) {
-        this.setupPagination();
-        this.resizeObserver = new ResizeObserver(entries => this.onPaginationResize());
-        this.resizeObserver.observe(this);
-        this.addEventListener('scroll', this.updatePagination.bind(this));
-      }
+      // this.pagination = this.parentElement.querySelector('.product-images-buttons');
+      // this.sliderItems = this.querySelectorAll('[id^="Slide-"]');
+      //
+      // // Start Gallery
+      // let observer = new MutationObserver(() => {
+      //   this.setupProductGallery();
+      // });
+      //
+      // observer.observe(this, {
+      //   attributes: true,
+      //   attributeFilter: ['class'],
+      //   childList: true,
+      //   characterData: false
+      // });
+      //
+      // this.setupProductGallery();
+      //
+      // // Start Pagination
+      // if (this.pagination) {
+      //   this.setupPagination();
+      //   this.resizeObserver = new ResizeObserver(entries => this.onPaginationResize());
+      //   this.resizeObserver.observe(this);
+      //   this.addEventListener('scroll', this.updatePagination.bind(this));
+      // }
     }
     setupProductGallery() {
       if (!this.querySelectorAll('.product-single__media-zoom').length) {
