@@ -519,6 +519,9 @@ body.compensate-for-scrollbar {
 .product-thumb-wrapper .swiper-slide.swiper-slide-thumb-active {
     border-color: #1e1e1e;
 }
+.product-image-container {
+    position: relative;
+}
 @media only screen and (min-width: 1068px) {
     .product-image-container > .product-images {
         grid-auto-flow: column;
@@ -537,7 +540,6 @@ body.compensate-for-scrollbar {
         display: flex!important;
     }
     .product-image-container {
-        position: relative;
         padding: 0 50px;
     }
 }
