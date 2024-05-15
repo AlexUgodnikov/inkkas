@@ -444,12 +444,14 @@ if (!customElements.get('product-slider')) {
         const sliderThumbs = new Swiper(item.nextElementSibling.firstElementChild, {
           slidesPerView: 4,
           spaceBetween: 10,
-          mousewheel: true,
         });
         const sliderImages = new Swiper(item, {
           slidesPerView: 1,
           spaceBetween: 0,
           speed: 1000,
+          thumbs: {
+            swiper: sliderThumbs
+          },
           navigation: {
             nextEl: item.nextElementSibling.nextElementSibling.lastElementChild,
             prevEl: item.nextElementSibling.nextElementSibling.firstElementChild,
