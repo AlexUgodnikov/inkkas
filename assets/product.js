@@ -475,6 +475,8 @@ if (!customElements.get('product-slider')) {
         });
       })
 
+      this.setupProductGallery();
+
 
 
       // this.pagination = this.parentElement.querySelector('.product-images-buttons');
