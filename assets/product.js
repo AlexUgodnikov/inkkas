@@ -446,21 +446,12 @@ if (!customElements.get('product-slider')) {
           slidesPerView: 1,
           spaceBetween: 0,
           speed: 1000,
-          mousewheel: true,
-          grabCursor: true,
-          autoHeight: true,
-          allowTouchMove: true,
           navigation: {
 
           },
           keyboard: {
             enabled: true,
             onlyInViewport: true
-          },
-          pagination: {
-            el: item.querySelector('.swiper-pagination'),
-            clickable: true,
-            type: "progressbar"
           }
         });
       })
