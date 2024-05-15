@@ -527,5 +527,6 @@ body.compensate-for-scrollbar {
     }
     .product-image-container {
         position: relative;
+        padding: 0 50px;
     }
 }
