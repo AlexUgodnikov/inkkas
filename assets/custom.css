@@ -492,7 +492,7 @@ body.compensate-for-scrollbar {
     width: 100%;
 }
 @media only screen and (min-width: 1068px) {
-    .product-images {
+    .product-image-container > .product-images {
         grid-auto-flow: column;
         grid-auto-columns: minmax(100%,100%);
         overflow-y: hidden;
