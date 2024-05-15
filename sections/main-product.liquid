@@ -58,7 +58,8 @@
 								</button>
 							</modal-opener>
 						</div>
-		        <product-slider data-section-id="{{ section.id }}" id="Product-Slider" class="swiper-container gallery-top product-images product-images--{{ media_layout }}" data-captions="{{ display_captions }}">
+		        {% comment %}<product-slider data-section-id="{{ section.id }}" id="Product-Slider" class="swiper-container gallery-top product-images product-images--{{ media_layout }}" data-captions="{{ display_captions }}">{% endcomment %}
+		        <product-slider data-section-id="{{ section.id }}" id="Product-Slider" class="swiper-container gallery-top" data-captions="{{ display_captions }}">
 		        	<div class="swiper-wrapper">
 		        		{%- if featured_media != null -%}
 	              {%- liquid
