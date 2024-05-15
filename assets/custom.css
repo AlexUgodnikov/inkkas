@@ -559,3 +559,8 @@ body.compensate-for-scrollbar {
         padding: 0 50px;
     }
 }
+@media only screen and (min-width: 1068px) {
+    body .product-grid-container {
+        grid-template-columns: 1fr clamp(360px,45%,50%);
+    }
+}
