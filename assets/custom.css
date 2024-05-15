@@ -507,4 +507,7 @@ body.compensate-for-scrollbar {
     .product-images-buttons {
         display: flex!important;
     }
+    .product-image-container .slider-button--prev {
+        
+    }
 }
