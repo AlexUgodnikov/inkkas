@@ -501,8 +501,8 @@ body.compensate-for-scrollbar {
     position: absolute;
     top: 50%;
     background: white;
-    height: auto;
-    width: auto;
+    height: auto!important;
+    width: auto!important;
 }
 .product-image-container .slider-button--prev {
     padding: 10px 10px 10px 5px;
