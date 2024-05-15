@@ -535,6 +535,9 @@ body.compensate-for-scrollbar {
     margin: 0!important;
     width: 100%!important;
 }
+.product-thumbnail:not(.swiper-initialized) {
+    display: none;
+}
 @media only screen and (min-width: 1068px) {
     .product-image-container > .product-images {
         grid-auto-flow: column;
