@@ -498,11 +498,14 @@ body.compensate-for-scrollbar {
         grid-auto-columns: minmax(calc(100vw - 100px),1fr);
         overflow-y: hidden;
         overflow-x: auto;
-        grid-template-columns: repeat(auto-fill,minmax(calc(100vw - 100px),1fr));
         scroll-snap-type: x mandatory;
         scrollbar-width: none;
+        grid-template-columns: 1fr!important;
     }
     .thb-product-detail .product-images__slide {
         width: 100%;
+    }
+    .product-images-buttons {
+        
     }
 }
