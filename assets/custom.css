@@ -512,6 +512,9 @@ body.compensate-for-scrollbar {
 .product-image-container .slider-button--next {
     right: 0;
 }
+.product-thumb-wrapper {
+    
+}
 @media only screen and (min-width: 1068px) {
     .product-image-container > .product-images {
         grid-auto-flow: column;
