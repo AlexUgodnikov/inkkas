@@ -429,41 +429,82 @@ if (!customElements.get('variant-selects')) {
 
   customElements.define('variant-radios', VariantRadios);
 }
-if (!customElements.get('product-slider')) {
-  /**
-   *  @class
-   *  @function ProductSlider
-   */
+// if (!customElements.get('product-slider')) {
+//   /**
+//    *  @class
+//    *  @function ProductSlider
+//    */
   class ProductSlider extends HTMLElement {
     constructor() {
       super();
-
+      this.sectionId = this.getAttribute('data-section-id');
     }
     connectedCallback() {
-      this.pagination = this.parentElement.querySelector('.product-images-buttons');
-      this.sliderItems = this.querySelectorAll('[id^="Slide-"]');
-
-      // Start Gallery
-      let observer = new MutationObserver(() => {
-        this.setupProductGallery();
+      document.querySelectorAll(`#MainProduct-${this.sectionId} .gallery-top`).forEach((item) => {
+        const sliderThumbs = new Swiper(item.nextElementSibling.firstElementChild, {
+          slidesPerView: 10,
+          spaceBetween: 10,
+          breakpoints: {
+            0: {
+              slidesPerView: 5,
+            },
+            576: {
+              slidesPerView: 7,
+            },
+            1068: {
+              slidesPerView: 10,
+            },
+          }
+        });
+        const sliderImages = new Swiper(item, {
+          slidesPerView: 1,
+          spaceBetween: 0,
+          speed: 500,
+          autoHeight: true,
+          grabCursor: true,
+          thumbs: {
+            swiper: sliderThumbs
+          },
+          breakpoints: {
+            0: {
+              navigation: {
+                nextEl: document.querySelector(`#MainProduct-${this.sectionId} product-slider .slider-button--next`),
+                prevEl: document.querySelector(`#MainProduct-${this.sectionId} product-slider .slider-button--prev`),
+              },
+            },
+            1068: {
+              navigation: {
+                nextEl: document.querySelector(`#MainProduct-${this.sectionId} .product-image-container > .product-images-buttons .slider-button--next`),
+                prevEl: document.querySelector(`#MainProduct-${this.sectionId} .product-image-container > .product-images-buttons .slider-button--prev`),
+              },
+            },
+          }
+        });
       });
-
-      observer.observe(this, {
-        attributes: true,
-        attributeFilter: ['class'],
-        childList: true,
-        characterData: false
-      });
+      // this.pagination = this.parentElement.querySelector('.product-images-buttons');
+      // this.sliderItems = this.querySelectorAll('[id^="Slide-"]');
+      //
+      // // Start Gallery
+      // let observer = new MutationObserver(() => {
+      //   this.setupProductGallery();
+      // });
+      //
+      // observer.observe(this, {
+      //   attributes: true,
+      //   attributeFilter: ['class'],
+      //   childList: true,
+      //   characterData: false
+      // });
 
       this.setupProductGallery();
 
-      // Start Pagination
-      if (this.pagination) {
-        this.setupPagination();
-        this.resizeObserver = new ResizeObserver(entries => this.onPaginationResize());
-        this.resizeObserver.observe(this);
-        this.addEventListener('scroll', this.updatePagination.bind(this));
-      }
+      // // Start Pagination
+      // if (this.pagination) {
+      //   this.setupPagination();
+      //   this.resizeObserver = new ResizeObserver(entries => this.onPaginationResize());
+      //   this.resizeObserver.observe(this);
+      //   this.addEventListener('scroll', this.updatePagination.bind(this));
+      // }
     }
     setupProductGallery() {
       if (!this.querySelectorAll('.product-single__media-zoom').length) {
@@ -617,8 +658,10 @@ if (!customElements.get('product-slider')) {
       return (element.offsetLeft + element.clientWidth) <= lastVisibleSlide && element.offsetLeft >= this.scrollLeft;
     }
   }
-  customElements.define('product-slider', ProductSlider);
-}
+  window.addEventListener('load', () => {
+    customElements.define('product-slider', ProductSlider);
+  });
+// }
 
 /**
  *  @class
