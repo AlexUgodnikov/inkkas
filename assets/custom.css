@@ -561,8 +561,7 @@ body.compensate-for-scrollbar {
 .collapsible-tab-2 .okeReviews .okeReviews-reviewsWidget-reviewsAggregate {
     margin-bottom: 0!important;
 }
-.collapsible-tab-2 .okeReviews .okeReviews-reviewsWidget-header,
-.collapsible-tab-2 .okeReviews .okeReviews-reviewsWidget-reviews.js-okeReviews-reviewsContainer {
+.collapsible-tab-2 .okeReviews .okeReviews-reviewsWidget-header {
     display: none!important;
 }
 .product-thumb-wrapper .imageslide-item {
