@@ -389,6 +389,9 @@ body.compensate-for-scrollbar {
     background-color: #000;
     color: #fff;
 }
+.tab_variants .col-auto{
+    padding: 0 5px;
+}
 .tab_variants {
     display: flex;
     flex-wrap: wrap;
