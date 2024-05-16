@@ -313,6 +313,11 @@
         "enable_video_looping": false
       }
     },
+    "product_review_bTk7Cp": {
+      "type": "product-review",
+      "settings": {
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -521,6 +526,7 @@
   "order": [
     "breadcrumbs",
     "main-product",
+    "product_review_bTk7Cp",
     "product-recommendations",
     "recently_viewed_products_HPzhR7",
     "text_with_icons_MRQx4U",
