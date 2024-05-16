@@ -620,8 +620,8 @@ collapsible-row + .share-article {
     align-self: end;
     margin-top: -.2rem;
 }
-#productLinkCopy svg path {
-    fill: transparent;
+.product-link-copy svg path {
+    fill: transparent!important;
 }
 @media (max-width: 767px) {
     .product-image-container .slider-button--prev,
