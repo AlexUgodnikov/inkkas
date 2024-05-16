@@ -584,6 +584,7 @@ body.compensate-for-scrollbar {
 }
 .product__custom-colors-title {
     margin-bottom: 10px;
+    font-weight: 600;
 }
 @media (max-width: 767px) {
     .product-image-container .slider-button--prev,
