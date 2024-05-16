@@ -25,7 +25,8 @@ window.addEventListener('load', () => {
     new SocialShare();
   }
 });
-document.getElementById('shareProductLink').addEventListener('click', function() {
+document.getElementById('shareProductLink').addEventListener('click', function(e) {
+  e.preventDefault();
   var currentPageURL = window.location.href;
 
   var tempInput = document.createElement('input');
