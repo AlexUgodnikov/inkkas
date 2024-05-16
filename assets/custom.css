@@ -610,6 +610,9 @@ body.compensate-for-scrollbar {
     .product-gallery-navigations {
         display: none!important;
     }
+    .product-title-container {
+        margin-top: 20px;
+    }
 }
 @media (max-width: 576px) {
     .product-image-container .slider-button--prev,
