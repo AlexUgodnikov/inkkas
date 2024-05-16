@@ -272,8 +272,8 @@ body.compensate-for-scrollbar {
     align-items: center;
     margin-bottom: 20px;
 }
-#ViewAllImagesModal .product-single__media-zoom {
-    
+#ViewAllImagesModal .product-images__slide {
+    position: relative;
 }
 #ViewAllImagesModal .product-single__media-zoom {
     top: 0;
