@@ -569,3 +569,6 @@ body.compensate-for-scrollbar {
         grid-template-columns: 1fr clamp(360px,45%,50%);
     }
 }
+.collapsible-tab-2 {
+    
+}
