@@ -25,3 +25,15 @@ window.addEventListener('load', () => {
     new SocialShare();
   }
 });
+document.getElementById('shareProductLink').addEventListener('click', function() {
+  var currentPageURL = window.location.href;
+
+  var tempInput = document.createElement('input');
+  tempInput.setAttribute('value', currentPageURL);
+  document.body.appendChild(tempInput);
+
+  tempInput.select();
+  document.execCommand('copy');
+
+  document.body.removeChild(tempInput);
+});
