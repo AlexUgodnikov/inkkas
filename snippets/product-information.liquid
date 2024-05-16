@@ -390,7 +390,6 @@
                 <div class="col-auto danns {%  if active_tab == 'eur' %} active {% endif %}" data-type="eur" id="tab_type_eur">Eur</div>
               {% endif %}
             </div>
-            {{ sizing_link }}
           </div>
           {% assign currentVariant = product.selected_or_first_available_variant %}
 
@@ -576,6 +575,7 @@
             });
           </script>
         {% endif %}
+        {{ sizing_link }}
       {%- endunless -%}
       <noscript class="product-form__noscript-wrapper-{{ section.id }}">
         <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
