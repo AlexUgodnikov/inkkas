@@ -530,6 +530,7 @@ body.compensate-for-scrollbar {
 .product-thumb-wrapper .swiper-slide {
     border: 1px solid silver;
     transition: all .3s ease;
+    cursor: pointer;
 }
 .product-thumb-wrapper .swiper-slide:hover,
 .product-thumb-wrapper .swiper-slide.swiper-slide-thumb-active {
