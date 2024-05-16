@@ -602,6 +602,9 @@ body.compensate-for-scrollbar {
     object-fit: cover;
     top: 0;
 }
+.product__custom-colors {
+    padding-left: 5px;
+}
 @media (max-width: 767px) {
     .product-image-container .slider-button--prev,
     .product-image-container .slider-button--next {
