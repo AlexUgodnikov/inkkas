@@ -390,11 +390,12 @@ body.compensate-for-scrollbar {
     color: #fff;
 }
 .tab_variants .col-auto.titles {
-    padding-right: 5px;
+    padding-right: 10px;
     font-weight: 600;
+    font-size: 18px;
 }
 .tab_variants .col-auto:not(.titles) {
-    padding: 0 5px;
+    padding: 0 10px;
 }
 .tab_variants {
     display: flex;
@@ -586,6 +587,7 @@ body.compensate-for-scrollbar {
 .product__custom-colors-title {
     margin-bottom: 10px;
     font-weight: 600;
+    font-size: 18px;
 }
 @media (max-width: 767px) {
     .product-image-container .slider-button--prev,
