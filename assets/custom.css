@@ -594,3 +594,9 @@ body.compensate-for-scrollbar {
     padding-top: 100%;
     width: 100%;
 }
+.product-thumb-wrapper .imageslide-item img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
