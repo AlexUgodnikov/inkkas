@@ -502,11 +502,10 @@ body.compensate-for-scrollbar {
 }
 .product-image-container .slider-button--prev,
 .product-image-container .slider-button--next {
-    transform: translateY(-50%);
     z-index: 11;
     position: absolute;
-    top: 50%;
-    background: white;
+    top: 100px;
+    background: rgba(255,255,255,.75);
     height: auto!important;
     width: auto!important;
 }
