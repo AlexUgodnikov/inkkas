@@ -141,17 +141,16 @@
       {% assign additionalProductsCount = additionalProducts | split: ',' %}
 
       {% if additionalProductsCount.size > 0 %}
-        <div class="product-form__input">
-          <div class="form__label">
-            Color:
-            <span class="form__label__value">
+
+        <div class="col-auto titles">
+          Color:
+          <span class="form__label__value">
             {% if product.metafields.custom.color_custom_title != blank %}
               {{ product.metafields.custom.color_custom_title }}
             {% else %}
               {{ product.title }}
             {% endif %}
           </span>
-          </div>
         </div>
         <div class="product__custom-colors">
           <div class="product__custom-color active" style="background-image: url('{{ product.media[0].preview_image | img_url: 'master' }} center/100%;')"></div>
