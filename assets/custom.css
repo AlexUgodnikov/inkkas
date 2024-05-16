@@ -569,6 +569,9 @@ body.compensate-for-scrollbar {
         grid-template-columns: 1fr clamp(360px,45%,50%);
     }
 }
+.collapsible-tab-2 .okeReviews .okeReviews-reviewsWidget {
+    padding: 0!important;
+}
 .collapsible-tab-2 .okeReviews .okeReviews-reviewsWidget-header,
 .collapsible-tab-2 .okeReviews .okeReviews-reviewsWidget-reviews.js-okeReviews-reviewsContainer {
     display: none!important;
