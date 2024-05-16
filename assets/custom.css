@@ -504,7 +504,8 @@ body.compensate-for-scrollbar {
 .product-image-container .slider-button--next {
     z-index: 11;
     position: absolute;
-    top: 200px;
+    top: 50%;
+    transform: translateY(-50%);
     background: rgba(255,255,255,.75);
     height: auto!important;
     width: auto!important;
@@ -513,6 +514,7 @@ body.compensate-for-scrollbar {
     .product-image-container .slider-button--prev,
     .product-image-container .slider-button--next {
         top: 250px;
+        transform: none;
     }
 }
 @media (max-width: 576px) {
