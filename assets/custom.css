@@ -585,6 +585,12 @@ body.compensate-for-scrollbar {
 .collapsible-tab-2 .okeReviews .okeReviews-reviewsWidget-reviews.js-okeReviews-reviewsContainer {
     display: none!important;
 }
-.product-thumb-wrapper {
-    
+.product-thumb-wrapper .imageslide-item {
+    position: relative;
+}
+.product-thumb-wrapper .imageslide-item:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    width: 100%;
 }
