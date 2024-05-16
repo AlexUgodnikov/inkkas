@@ -391,6 +391,7 @@ body.compensate-for-scrollbar {
 }
 .tab_variants .col-auto.titles {
     padding-right: 5px;
+    font-weight: 600;
 }
 .tab_variants .col-auto:not(.titles) {
     padding: 0 5px;
