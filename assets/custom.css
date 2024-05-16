@@ -389,7 +389,10 @@ body.compensate-for-scrollbar {
     background-color: #000;
     color: #fff;
 }
-.tab_variants .col-auto{
+.tab_variants .col-auto.titles {
+    padding-right: 5px;
+}
+.tab_variants .col-auto:not(.titles) {
     padding: 0 5px;
 }
 .tab_variants {
