@@ -581,6 +581,9 @@ body.compensate-for-scrollbar {
 .product-information .product__custom-colors {
     padding-left: 5px;
 }
+.product__custom-colors-title {
+    
+}
 @media (max-width: 767px) {
     .product-image-container .slider-button--prev,
     .product-image-container .slider-button--next {
