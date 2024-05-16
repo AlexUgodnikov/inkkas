@@ -329,18 +329,6 @@ body.compensate-for-scrollbar {
     }
 }
 
-.tab_variants .danns {
-    text-transform:uppercase;
-}
-.tab_variants .danns:hover {
-    cursor:pointer;
-    text-decoration:underline;
-}
-.tab_variants .danns.active {
-    font-weight: 700;
-    text-decoration:underline;
-}
-
 .show_variants,.product-form__input {
     display: none;
 }
@@ -402,19 +390,12 @@ body.compensate-for-scrollbar {
     color: #fff;
 }
 .tab_variants {
-    margin: 0 -5px;
     display: flex;
     flex-wrap: wrap;
 }
-.tab_variants .col-auto {
-    padding: 0 5px;
-}
-
 .tab_variants .titles {
     padding-left:0;
-
 }
-
 .tab_variants .danns {
     text-transform:uppercase;
 }
