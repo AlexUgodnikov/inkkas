@@ -589,6 +589,9 @@ body.compensate-for-scrollbar {
     font-weight: 600;
     font-size: 19px;
 }
+collapsible-row + .share-article {
+    margin-top: 30px;
+}
 @media (max-width: 767px) {
     .product-image-container .slider-button--prev,
     .product-image-container .slider-button--next {
