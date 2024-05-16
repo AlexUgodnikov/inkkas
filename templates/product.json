@@ -272,6 +272,18 @@
             "content": "",
             "page": "copy-of-care-instructions"
           }
+        },
+        "collapsible_tab_2_EG6eBL": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_only_with_tag": false,
+            "product_tag": "",
+            "heading": "Reviews",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -297,7 +309,8 @@
         "collapsible_tab_2_cLYJEf",
         "collapsible_tab_2_8enptb",
         "collapsible_tab_2_9zwncR",
-        "collapsible_tab_2_nA4Rag"
+        "collapsible_tab_2_nA4Rag",
+        "collapsible_tab_2_EG6eBL"
       ],
       "settings": {
         "full_width": true,

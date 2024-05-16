@@ -657,7 +657,9 @@
                 {%- else -%}
                   {{ product.description }}
                 {%- endif -%}
-              {%- else -%}
+              {%- elsif block.settings.show_okendo_reviews -%}
+                {% render 'okendo-reviews-widget', product: product %}
+              {% else %}
                 {{ block.settings.content }}
                 {{ block.settings.page.content }}
               {%- endif -%}
