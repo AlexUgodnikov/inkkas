@@ -607,6 +607,9 @@ body.compensate-for-scrollbar {
         top: 250px;
         transform: none;
     }
+    .product-gallery-navigations {
+        display: none!important;
+    }
 }
 @media (max-width: 576px) {
     .product-image-container .slider-button--prev,
