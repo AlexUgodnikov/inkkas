@@ -273,6 +273,9 @@ body.compensate-for-scrollbar {
     margin-bottom: 20px;
 }
 #ViewAllImagesModal .product-single__media-zoom {
+    
+}
+#ViewAllImagesModal .product-single__media-zoom {
     top: 0;
     left: 0;
     background: transparent;
@@ -281,6 +284,7 @@ body.compensate-for-scrollbar {
     height: 100%;
     box-shadow: none;
     border-radius: 0;
+    position: absolute;
 }
 #ViewAllImagesModal .product-single__media-zoom svg {
     display: none!important;
