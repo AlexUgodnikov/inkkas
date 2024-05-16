@@ -624,6 +624,9 @@ collapsible-row + .share-article {
     fill: transparent!important;
     stroke: var(--color-body);
 }
+#productLinkTooltip svg path {
+    fill: var(--color-body)!important;
+}
 @media (max-width: 767px) {
     .product-image-container .slider-button--prev,
     .product-image-container .slider-button--next {
