@@ -406,6 +406,7 @@ body.compensate-for-scrollbar {
 }
 .tab_variants .danns {
     text-transform:uppercase;
+    font-size: 19px;
 }
 .tab_variants .danns:hover {
     cursor:pointer;
@@ -414,7 +415,6 @@ body.compensate-for-scrollbar {
 .tab_variants .danns.active {
     font-weight: 700;
     text-decoration:underline;
-    font-size: 19px;
 }
 
 .show_variants,.product-form__input {
