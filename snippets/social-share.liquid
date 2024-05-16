@@ -16,5 +16,39 @@
   {%- if share_pinterest -%}
   <a href="http://pinterest.com/pin/create/link/?url={{ shop.url | append: share_permalink }}&amp;media={{ share_image | image_url: width: 1024, height: 1024 }}&amp;description={{ share_title | url_param_escape }}" class="pinterest social" data-pin-no-hover="true" aria-label="{{ 'social.share' | t }} {{ 'social.links.pinterest' | t }}">{% render 'svg-icons' with 'pinterest' %}</a>
   {%- endif -%}
+  {%- if product_copy -%}
+    <div class="product-link-copy">
+      <a id="productLinkCopy" href="{{ shop.url }}{{ product.url }}" onclick="copyLinkToClipboard(event)">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3.59961 15.2197V18.9256C3.59961 19.4873 3.82086 20.0259 4.21469 20.423C4.60851 20.8202 5.14265 21.0433 5.69961 21.0433H18.2996C18.8566 21.0433 19.3907 20.8202 19.7845 20.423C20.1784 20.0259 20.3996 19.4872 20.3996 18.9256V15.2197M12.043 14.9565L12.043 2.95654M12.043 2.95654L7.24297 7.54169M12.043 2.95654L16.8429 7.54169" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      <div id="productLinkTooltip">
+        <div class="product-link-copy__tooltip-inner">
+          <div class="tool-tip-icon_bubble">Link copied</div>
+          <svg class="tool-tip-icon_arrow" xmlns="http://www.w3.org/2000/svg" width="44" height="10" viewBox="0 0 44 10" fill="none">
+            <path d="M11 0L18.8437 7.09035C19.981 8.11837 20.5496 8.63239 21.1932 8.82724C21.76 8.99887 22.365 8.99887 22.9318 8.82724C23.5754 8.63239 24.144 8.11837 25.2813 7.09035L33.125 0H22.0625H11Z" fill="black"></path>
+          </svg>
+        </div>
+      </div>
+
+    </div>
+    <script>
+      function copyLinkToClipboard(event) {
+        event.preventDefault();
+        const link = event.currentTarget.getAttribute('href');
+        navigator.clipboard.writeText(link).then(() => {
+          const tooltip = document.getElementById('productLinkTooltip');
+          tooltip.style.opacity = '1';
+
+          setTimeout(() => {
+            tooltip.style.opacity = '0';
+          }, 2000);
+        }).catch(err => {
+          console.error('Error: ', err);
+        });
+      }
+    </script>
+  {%- endif -%}
 </aside>
 <script src="{{ 'social-share.js' | asset_url }}" defer="defer"></script>
