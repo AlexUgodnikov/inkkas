@@ -355,6 +355,7 @@ body.compensate-for-scrollbar {
 .show_variants,.product-form__input {
     display: none;
 }
+.product-information .product-form__input,
 .show_variants.active {
     display: block;
 }
