@@ -562,7 +562,7 @@ body.compensate-for-scrollbar {
     margin-bottom: 0!important;
 }
 .collapsible-tab-2 .okeReviews .okeReviews-reviewsWidget-header,
-.collapsible-tab-2 .okeReviews .okeReviews-reviews-main .okeReviews-reviews-review:nth-child(2n),
+.collapsible-tab-2 .okeReviews .okeReviews-reviews-main .okeReviews-reviews-review:nth-child(3n),
 .collapsible-tab-2 .okeReviews .okeReviews-reviews-footer.js-okeReviews-footer.js-okeReviews-reviews-footer {
     display: none!important;
 }
