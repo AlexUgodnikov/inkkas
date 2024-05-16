@@ -96,6 +96,7 @@
         "collapsible_tab_2_hxiDMm": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
             "heading": "Description",
@@ -108,6 +109,7 @@
         "collapsible_tab_2_UkAjaq": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
             "heading": "Features",
@@ -120,6 +122,7 @@
         "collapsible_tab_2_6kFqVT": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "size-guide-trekks",
             "heading": "",
@@ -132,6 +135,7 @@
         "collapsible_tab_2_ALh97A": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "boots-size-chart",
             "heading": "",
@@ -144,6 +148,7 @@
         "collapsible_tab_2_mG4tgE": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "bootie-size-chart",
             "heading": "",
@@ -156,6 +161,7 @@
         "collapsible_tab_2_mDnryw": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "western-size-chart",
             "heading": "",
@@ -168,6 +174,7 @@
         "collapsible_tab_2_CwBR3G": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "high-top-size-chart",
             "heading": "",
@@ -180,6 +187,7 @@
         "collapsible_tab_2_PFyByf": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "low-top-size-chart",
             "heading": "",
@@ -192,6 +200,7 @@
         "collapsible_tab_2_efAGwX": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "bags",
             "heading": "",
@@ -204,6 +213,7 @@
         "collapsible_tab_2_NGVjqH": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "runner-size-chart",
             "heading": "",
@@ -216,6 +226,7 @@
         "collapsible_tab_2_3iXC6k": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "kids-size-chart",
             "heading": "",
@@ -228,6 +239,7 @@
         "collapsible_tab_2_cLYJEf": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "slip-on-size-chart",
             "heading": "",
@@ -240,6 +252,7 @@
         "collapsible_tab_2_8enptb": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "slide-size-chart",
             "heading": "",
@@ -252,6 +265,7 @@
         "collapsible_tab_2_9zwncR": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "jogger-size-chart",
             "heading": "",
@@ -264,6 +278,7 @@
         "collapsible_tab_2_nA4Rag": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "size-guide-buckle-sandals",
             "heading": "",
@@ -276,6 +291,7 @@
         "collapsible_tab_2_EG6eBL": {
           "type": "collapsible_tab_2",
           "settings": {
+            "show_okendo_reviews": true,
             "show_only_with_tag": false,
             "product_tag": "",
             "heading": "Reviews",
