@@ -590,7 +590,8 @@ body.compensate-for-scrollbar {
     font-weight: 600;
     font-size: 18px;
 }
-.product__custom-colors-title {
+.product__custom-colors-title .form__label__value {
+    font-size: 19px;
 }
 collapsible-row + .share-article {
     margin-top: 30px;
@@ -637,6 +638,9 @@ collapsible-row + .share-article {
 }
 .product-information .share-article label {
     margin: 0 15px 0 0;
+}
+.fancybox-container a {
+    pointer-events: none;
 }
 @media (max-width: 767px) {
     .product-image-container .slider-button--prev,
