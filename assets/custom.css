@@ -628,10 +628,11 @@ collapsible-row + .share-article {
 #productLinkTooltip svg path {
     fill: var(--color-body)!important;
 }
-.share-article {
+.product-information .share-article {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    gap: 15px;
 }
 @media (max-width: 767px) {
     .product-image-container .slider-button--prev,
