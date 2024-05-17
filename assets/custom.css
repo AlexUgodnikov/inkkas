@@ -642,6 +642,9 @@ collapsible-row + .share-article {
 .fancybox-container a {
     pointer-events: none;
 }
+.fancybox-custom-link {
+    cursor: pointer;
+}
 @media (max-width: 767px) {
     .product-image-container .slider-button--prev,
     .product-image-container .slider-button--next {
