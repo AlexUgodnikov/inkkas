@@ -13,7 +13,7 @@
     {% elsif settings.size_guide_trekks != blank %}
       <h5 class="center">{{ pages[settings.size_guide_trekks].title }}</h5>
       <div class="feature_divider"></div>
-      {{ pages[settings.size_guide_trekks].content }}
+      {{ pages[settings.size_guide_trekks].content | replace: '<a ', '<a tabindex="-1"' }}
     {% endif %}
   </div>
 </div>
