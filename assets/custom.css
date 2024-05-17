@@ -614,7 +614,7 @@ collapsible-row + .share-article {
 #productLinkTooltip .tool-tip-icon_bubble{
     background-color: var(--color-body);
     border-radius: 4px;
-    padding: 9px 15px;
+    padding: 9px 15px 8px 15px;
     color: #fff;
 }
 #productLinkTooltip .tool-tip-icon_arrow{
