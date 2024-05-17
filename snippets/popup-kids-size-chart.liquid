@@ -7,13 +7,13 @@
           {% assign kids_size_chart = tag | handle | remove: 'meta-size-chart-' %}
           <h5 class="center">{{ pages[kids_size_chart].title }}</h5>
           <div class="feature_divider"></div>
-          {{ pages[kids_size_chart].content }}
+          {{ pages[kids_size_chart].content | replace: "<a", "<span class='fancybox-custom-link'" | replace: "</a", "</span" }}
         {% endif %}
       {% endfor %}
     {% elsif settings.kids_size_chart != blank %}
       <h5 class="center">{{ pages[settings.kids_size_chart].title }}</h5>
       <div class="feature_divider"></div>
-      {{ pages[settings.kids_size_chart].content }}
+      {{ pages[settings.kids_size_chart].content | replace: "<a", "<span class='fancybox-custom-link'" | replace: "</a", "</span" }}
     {% endif %}
   </div>
 </div>

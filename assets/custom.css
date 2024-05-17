@@ -588,6 +588,9 @@ body.compensate-for-scrollbar {
 .product__custom-colors-title {
     margin-bottom: 10px;
     font-weight: 600;
+    font-size: 18px;
+}
+.product__custom-colors-title .form__label__value {
     font-size: 19px;
 }
 collapsible-row + .share-article {
@@ -614,7 +617,7 @@ collapsible-row + .share-article {
 #productLinkTooltip .tool-tip-icon_bubble{
     background-color: var(--color-body);
     border-radius: 4px;
-    padding: 9px 15px;
+    padding: 9px 15px 8px 15px;
     color: #fff;
 }
 #productLinkTooltip .tool-tip-icon_arrow{
@@ -627,6 +630,20 @@ collapsible-row + .share-article {
 }
 #productLinkTooltip svg path {
     fill: var(--color-body)!important;
+}
+.product-information .share-article {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product-information .share-article label {
+    margin: 0 15px 0 0;
+}
+.fancybox-container a {
+    pointer-events: none;
+}
+.fancybox-custom-link {
+    cursor: pointer;
 }
 @media (max-width: 767px) {
     .product-image-container .slider-button--prev,
