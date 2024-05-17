@@ -55,6 +55,32 @@
             "button_2_outline": false
           }
         },
+        "slide_UkyBeK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SOCORRO-WESTERN-BOOT-SS231121-MODEL-EPI_7982_bbc4f95d-14bf-44b4-b925-3a5bca73a8c7.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "<<<< THIS SUMMER, HEAD WEST TO FIND <<<<",
+            "heading": "SUMMER  LOVE",
+            "heading_size": "h1-xlarge",
+            "content": "Your search for summer romance ends here...",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Western",
+            "button_1_link": "shopify:\/\/collections\/western-boot",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "slide_X4w7DM": {
           "type": "slide",
           "disabled": true,
@@ -79,32 +105,6 @@
             "button_1_outline": true,
             "button_2_text": "Shop Women",
             "button_2_link": "shopify:\/\/collections\/womens-collection-all-shoes",
-            "button_2_outline": false
-          }
-        },
-        "slide_UkyBeK": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SOCORRO-WESTERN-BOOT-SS231121-MODEL-EPI_7982_bbc4f95d-14bf-44b4-b925-3a5bca73a8c7.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "<<<< THIS SUMMER, HEAD WEST TO FIND <<<<",
-            "heading": "SUMMER  LOVE",
-            "heading_size": "h1-xlarge",
-            "content": "Your search for summer romance ends here...",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "Shop Western",
-            "button_1_link": "shopify:\/\/collections\/western-boot",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
             "button_2_outline": false
           }
         },
@@ -221,8 +221,8 @@
       "block_order": [
         "slide_JNAXcC",
         "164794776393e76b8e-1",
-        "slide_X4w7DM",
         "slide_UkyBeK",
+        "slide_X4w7DM",
         "164794776393e76b8e-2",
         "164794776393e76b8e-0",
         "slide_xDcpXe",
@@ -415,7 +415,7 @@
         "lightbox": true,
         "enable_video_looping": false,
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     },
     "rich_text_TgYL4f": {
@@ -771,25 +771,6 @@
         "autoplay_length": 5,
         "color_bg": "#ffffff",
         "color_text": "#151515",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "featured_collection_TtbDL6": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "heading": "WESTERN BOOTS",
-        "heading_left": true,
-        "description": "<p><em>From sun up to sun down, these boots are always ready for a boogie or a hoedown<\/em><\/p>",
-        "full_width": true,
-        "collection": "western-boot",
-        "display_type": "carousel",
-        "product_limit": 6,
-        "columns_desktop": 4,
-        "show_view_all": true,
-        "mobile_swipe": true,
-        "show_progress_bar": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
@@ -1199,7 +1180,6 @@
     "rich_text_TgYL4f",
     "166143150135dd97e2",
     "16615358507b6ff1a8",
-    "featured_collection_TtbDL6",
     "16620983071df6eb29",
     "image_with_text_overlay_jzpJKc",
     "rich_text_3FCgYV",
