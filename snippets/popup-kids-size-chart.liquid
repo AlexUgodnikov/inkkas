@@ -7,7 +7,7 @@
           {% assign kids_size_chart = tag | handle | remove: 'meta-size-chart-' %}
           <h5 class="center">{{ pages[kids_size_chart].title }}</h5>
           <div class="feature_divider"></div>
-          {{ pages[kids_size_chart].content }}
+          {{ pages[kids_size_chart].content | replace: '<a ', '<a tabindex="-1"' }}
         {% endif %}
       {% endfor %}
     {% elsif settings.kids_size_chart != blank %}

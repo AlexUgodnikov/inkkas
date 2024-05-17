@@ -7,7 +7,7 @@
           {% assign size_guide_buckle_sandals = tag | handle | remove: 'meta-size-chart-' %}
           <h5 class="center">{{ pages[size_guide_buckle_sandals].title }}</h5>
           <div class="feature_divider"></div>
-          {{ pages[size_guide_buckle_sandals].content }}
+          {{ pages[size_guide_buckle_sandals].content | replace: '<a ', '<a tabindex="-1"' }}
         {% endif %}
       {% endfor %}
     {% elsif settings.size_guide_buckle_sandals != blank %}

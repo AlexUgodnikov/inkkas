@@ -7,7 +7,7 @@
           {% assign jogger-size-chart = tag | handle | remove: 'meta-size-chart-' %}
           <h5 class="center hi">{{ pages[jogger-size-chart].title }}</h5>
           <div class="feature_divider"></div>
-          {{ pages[jogger-size-chart].content }}
+          {{ pages[jogger-size-chart].content | replace: '<a ', '<a tabindex="-1"' }}
         {% endif %}
       {% endfor %}
     {% elsif settings.jogger-size-chart != blank %}

@@ -7,7 +7,7 @@
           {% assign slide_size_chart = tag | handle | remove: 'meta-size-chart-' %}
           <h5 class="center">{{ pages[slide_size_chart].title }}</h5>
           <div class="feature_divider"></div>
-          {{ pages[slide_size_chart].content }}
+          {{ pages[slide_size_chart].content | replace: '<a ', '<a tabindex="-1"' }}
         {% endif %}
       {% endfor %}
     {% elsif settings.slide_size_chart != blank %}
