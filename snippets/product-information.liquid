@@ -628,6 +628,7 @@
         <collapsible-row class="collapsible-tab-2 product__accordion accordion" {{ block.shopify_attributes }}>
           <details class="custom-field-product custom-field__inspiration custom-field__type--text" id="Details-{{ block.id }}-{{ section.id }}" {% if block.settings.open %}open{% endif %}>
             <summary class="custom-field--title">
+              {% assign heading = block.settings.heading | default: block.settings.page.title %}
               {{ block.settings.heading | default: block.settings.page.title | remove: "Care Instructions - " }}
               {% render 'icon-plus' %}
               {% render 'icon-minus' %}
