@@ -634,6 +634,9 @@ collapsible-row + .share-article {
     flex-wrap: wrap;
     gap: 15px;
 }
+.product-information .share-article label {
+    margin: 0;
+}
 @media (max-width: 767px) {
     .product-image-container .slider-button--prev,
     .product-image-container .slider-button--next {
