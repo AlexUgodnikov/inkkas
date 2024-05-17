@@ -5,7 +5,14 @@ const observer = new MutationObserver(function(mutationsList) {
       const quantityBreaksWrapper = addedNodes.find(node => node.classList && node.classList.contains('fancybox-container'));
 
       if (quantityBreaksWrapper && quantityBreaksWrapper.childElementCount !== 0) {
-        console.log(123);
+        document.querySelectorAll('.fancybox-custom-link').forEach(function(link) {
+          link.addEventListener('click', function() {
+            var url = this.getAttribute('href');
+            if (url) {
+              window.location.href = url;
+            }
+          });
+        });
       }
     }
   }
