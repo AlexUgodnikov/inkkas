@@ -629,7 +629,8 @@
           <details class="custom-field-product custom-field__inspiration custom-field__type--text" id="Details-{{ block.id }}-{{ section.id }}" {% if block.settings.open %}open{% endif %}>
             <summary class="custom-field--title">
               {% assign heading_parts = block.settings.heading | split: ' - ' %}
-              {{ block.settings.heading | default: block.settings.page.title | remove: "Care Instructions - " }}
+              {% assign cleaned_heading = heading_parts[0] %}
+              {{ cleaned_heading | default: block.settings.page.title }}
               {% render 'icon-plus' %}
               {% render 'icon-minus' %}
             </summary>
