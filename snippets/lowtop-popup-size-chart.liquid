@@ -13,7 +13,7 @@
     {% elsif settings.low_top_size_chart != blank %}
       <h5 class="center">{{ pages[settings.low_top_size_chart].title }}</h5>
       <div class="feature_divider"></div>
-      {{ pages[settings.low_top_size_chart].content | replace: '<a ', '<a tabindex="-1"' }}
+      {{ pages[settings.low_top_size_chart].content | replace: '<a ', '<a tabindex="-1" onclick="return false"' }}
     {% endif %}
   </div>
 </div>
