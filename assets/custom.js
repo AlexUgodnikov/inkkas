@@ -2,10 +2,10 @@ const observer = new MutationObserver(function(mutationsList) {
   for (let mutation of mutationsList) {
     if (mutation.type === 'childList') {
       const addedNodes = Array.from(mutation.addedNodes);
-      const quantityBreaksWrapper = addedNodes.find(node => node.classList && node.classList.contains('quantity-breaks-now-wrapper'));
-      console.log(addedNodes);
+      const quantityBreaksWrapper = addedNodes.find(node => node.classList && node.classList.contains('fancybox-container'));
+
       if (quantityBreaksWrapper && quantityBreaksWrapper.childElementCount !== 0) {
-        // .quantity-breaks-now-wrapper and not empty
+        console.log(123);
       }
     }
   }
