@@ -110,12 +110,12 @@
             "page": ""
           }
         },
-        "collapsible_tab_wAkQAF": {
+        "collapsible_tab_cLY4gg": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What can I do with old Inkkas I no longer wear? ",
+            "heading": "My package got stolen or lost in the mail. What should I do?",
             "open": false,
-            "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. There are quality programs across the country and donation centers that will take used shoes. Our partner organization that does a great job taking used shoes and repurposing them is Soles4Souls (<a href=\"https:\/\/soles4souls.org\/\">https:\/\/soles4souls.org<\/a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. <\/p>",
+            "content": "<p>Oh no! If your package got lost or stolen in the mail please submit your claim here: <a href=\"https:\/\/inkkas.com\/pages\/navidium-protection-claim\" target=\"_blank\">https:\/\/inkkas.com\/pages\/navidium-protection-claim<\/a><\/p>",
             "page": ""
           }
         },
@@ -128,21 +128,12 @@
             "page": ""
           }
         },
-        "collapsible_tab_cLY4gg": {
+        "collapsible_tab_wAkQAF": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "My package got stolen or lost in the mail. What should I do?",
+            "heading": "What can I do with old Inkkas I no longer wear? ",
             "open": false,
-            "content": "<p>Oh no! If your package got lost or stolen in the mail please submit your claim here: <a href=\"https:\/\/inkkas.com\/pages\/navidium-protection-claim\" target=\"_blank\">https:\/\/inkkas.com\/pages\/navidium-protection-claim<\/a><\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_N9WLgd": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Return Policy (INTERNATIONAL)",
-            "open": false,
-            "content": "<ul><li>For return\/exchange requests on orders outside of the US and Canada, please contact us directly at ops@inkkas.com. <\/li><\/ul>",
+            "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. There are quality programs across the country and donation centers that will take used shoes. Our partner organization that does a great job taking used shoes and repurposing them is Soles4Souls (<a href=\"https:\/\/soles4souls.org\/\">https:\/\/soles4souls.org<\/a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. <\/p>",
             "page": ""
           }
         }
@@ -155,10 +146,9 @@
         "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
         "collapsible_tab_Bp9Tpx",
         "collapsible_tab_NjzrQR",
-        "collapsible_tab_wAkQAF",
-        "collapsible_tab_qhNRN6",
         "collapsible_tab_cLY4gg",
-        "collapsible_tab_N9WLgd"
+        "collapsible_tab_qhNRN6",
+        "collapsible_tab_wAkQAF"
       ],
       "settings": {
         "heading": "",
