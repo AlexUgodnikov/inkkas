@@ -52,7 +52,7 @@
           "settings": {
             "heading": "Does Inkkas offer Free Shipping?",
             "open": true,
-            "content": "<ul><li>Yes, Inkkas is happy to offer <strong>FREE shipping<\/strong> within the Continental U.S.A. on all orders of $175 or more! <\/li><li>FREE shipping is available to Canada for orders of $200 or more. <\/li><li>Free shipping does not apply to Alaska, Hawaii and Puerto Rico. <\/li><li>Free shipping does not apply to international orders other than Canada.<\/li><\/ul>",
+            "content": "<ul><li>Yes, Inkkas is happy to offer <strong>FREE shipping<\/strong> within the Continental U.S.A. on all orders of $175 or more! <\/li><li>FREE shipping is automatically applied at checkout wherever eligible.<\/li><li>FREE shipping is also available to Canada for orders of $200 or more. <\/li><li>Free shipping does not currently apply to Alaska, Hawaii and Puerto Rico. <\/li><li>Free shipping does not currently apply to international orders other than Canada.<\/li><\/ul>",
             "page": ""
           }
         },
@@ -65,12 +65,21 @@
             "page": ""
           }
         },
+        "collapsible_tab_wNwVAb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is expedited shipping available?",
+            "open": false,
+            "content": "<ul><li>Inkkas offer USPS ground and expedited UPS 2-Day Air options.<\/li><li>Wherever eligible, these options will appear at checkout. <\/li><li>All orders are processed the business day after placement. <\/li><\/ul>",
+            "page": ""
+          }
+        },
         "collapsible_tab_RTgTUh": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "How long does it take for an order to arrive?",
             "open": false,
-            "content": "<ul><li>Domestic orders usually take between 4 - 10 business days to arrive to your address from the moment you purchase it on our website unless the item is on pre-order. <\/li><li>Items that are available for pre-order will be indicated as pre-order BEFORE you make a purchase and will indicate an estimated shipping date on the product page.<\/li><li>International orders typically take between 14 - 20 business days to arrive due to the fact that our shipping center is located in the US.<\/li><\/ul>",
+            "content": "<ul><li><strong>Domestic USA<\/strong>: Domestic orders usually take between 4 - 10 business days to arrive to your address from the moment you purchase it on our website unless the item is on pre-order. This can be expedited if you select UPS ground. <\/li><li><strong>Pre-Order: <\/strong>Items that are available for pre-order will be indicated as pre-order BEFORE you make a purchase and will indicate an estimated shipping date on the product page.<\/li><li><strong>International:<\/strong> International orders typically take between 14 - 20 business days to arrive due to the fact that our shipping center is located in the US.<\/li><\/ul>",
             "page": ""
           }
         },
@@ -110,6 +119,15 @@
             "page": ""
           }
         },
+        "collapsible_tab_9cpyRU": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "I'm returning my order. Does Inkkas cover the cost of return shipping?",
+            "open": false,
+            "content": "<p>Yes, Inkkas provides a FREE prepaid shipping label for items returned within 7 days of delivery. You may still return items for up to 30 days, less the cost of return shipping. View our full return policy <a href=\"https:\/\/inkkas.com\/pages\/return_policy\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/p>",
+            "page": ""
+          }
+        },
         "collapsible_tab_NjzrQR": {
           "type": "collapsible_tab",
           "settings": {
@@ -145,30 +163,22 @@
             "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. There are quality programs across the country and donation centers that will take used shoes. Our partner organization that does a great job taking used shoes and repurposing them is Soles4Souls (<a href=\"https:\/\/soles4souls.org\/\">https:\/\/soles4souls.org<\/a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. <\/p>",
             "page": ""
           }
-        },
-        "collapsible_tab_wNwVAb": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "open": false,
-            "content": "<p><strong>Free Shipping: <\/strong>Free USPS ground shipping on orders of $175 or more is automatically applied at checkout.<\/p><p><strong>Shipping Options<\/strong>: We offer USPS ground and expedited UPS 2-Day Air options. All orders are processed the business day after placement. <\/p><p><strong>Free Returns<\/strong>: We provide a FREE prepaid shipping label for items returned within 7 days of delivery. You may still return items for up to 30 days, less the cost of return shipping. View our full return policy <a href=\"https:\/\/inkkas.com\/pages\/return_policy\" title=\"Returns and Exchanges\">here<\/a>.<\/p><p><\/p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "collapsible_tab_mLFbJi",
         "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
+        "collapsible_tab_wNwVAb",
         "collapsible_tab_RTgTUh",
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
         "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
         "collapsible_tab_Bp9Tpx",
         "collapsible_tab_bk84WM",
+        "collapsible_tab_9cpyRU",
         "collapsible_tab_NjzrQR",
         "collapsible_tab_cLY4gg",
         "collapsible_tab_qhNRN6",
-        "collapsible_tab_wAkQAF",
-        "collapsible_tab_wNwVAb"
+        "collapsible_tab_wAkQAF"
       ],
       "settings": {
         "heading": "",
