@@ -65,21 +65,21 @@
             "page": ""
           }
         },
+        "collapsible_tab_RTgTUh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long does it take for an order to arrive?",
+            "open": false,
+            "content": "<p>Depending<strong> <\/strong>on<strong> <\/strong>which shipping method is selected, domestic orders usually arrive between 2-10 business days from the order date.<\/p><p><strong>Continental USA<\/strong>: Inkkas offer USPS ground and expedited UPS 2-Day Air options:<\/p><ul><li><em><strong>Expedited UPS 2-Day Air <\/strong><\/em>usually takes 2-4 business days to arrive to the destination<\/li><li><em><strong>Standard USPS Ground: <\/strong><\/em><em>4-7 business days<\/em><\/li><li><em><strong>No-Rush USPS Ground:<\/strong><\/em><em> 7-10 business days<\/em><\/li><\/ul><p><strong>Pre-Orders: <\/strong>Items that are available for pre-order will be indicated as pre-order BEFORE you make a purchase and will indicate an estimated shipping date on the product page.<\/p><p><strong>International:<\/strong> International orders typically take between 14 - 20 business days to arrive, as our shipping center is located in the US.<\/p>",
+            "page": ""
+          }
+        },
         "collapsible_tab_wNwVAb": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Is expedited shipping available?",
             "open": false,
             "content": "<ul><li>Inkkas offer USPS ground and expedited UPS 2-Day Air options.<\/li><li>Wherever eligible, these options will appear at checkout. <\/li><li>All orders are processed the business day after placement. <\/li><\/ul>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_RTgTUh": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How long does it take for an order to arrive?",
-            "open": false,
-            "content": "<ul><li><strong>Domestic USA<\/strong>: Domestic orders usually take between 4 - 10 business days to arrive to your address from the moment you purchase it on our website unless the item is on pre-order. This can be expedited if you select UPS ground. <\/li><li><strong>Pre-Order: <\/strong>Items that are available for pre-order will be indicated as pre-order BEFORE you make a purchase and will indicate an estimated shipping date on the product page.<\/li><li><strong>International:<\/strong> International orders typically take between 14 - 20 business days to arrive due to the fact that our shipping center is located in the US.<\/li><\/ul>",
             "page": ""
           }
         },
@@ -168,8 +168,8 @@
       "block_order": [
         "collapsible_tab_mLFbJi",
         "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
-        "collapsible_tab_wNwVAb",
         "collapsible_tab_RTgTUh",
+        "collapsible_tab_wNwVAb",
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
         "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
         "collapsible_tab_Bp9Tpx",
