@@ -77,27 +77,27 @@
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Refund Timeline",
+            "heading": "Do I have to add shipping to the price?",
             "open": false,
-            "content": "<ul><li>Eligible refunds are processed once the returned item(s) is\/are received by our warehouse. Please allow 14 business days from the day your return is received at our warehouse for your refund to be processed. <\/li><li>Your refund will be processed to the same method of payment used to make your original purchase. <\/li><li>If the method of payment used at the time of purchase has changed, please note that you will be refunded in the form of store credit only.<\/li><\/ul>",
+            "content": "<ul><li>We automatically add shipping to your total cost during the checkout process, once you select the shipping method you prefer. <\/li><li>FREE shipping on domestic orders of $175+ is also automatically applied wherever eligible. <\/li><\/ul>",
             "page": ""
           }
         },
         "aa70895f-8889-4293-8c7d-ff7bc2b81c57": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Year-END: Extended Returns Policy",
+            "heading": "Will I receive a tracking number once I order a pair of Inkkas?",
             "open": false,
-            "content": "<ul><li>Orders placed between Dec 3rd - 23rd will have free returns through Jan 6th.<\/li><li>Orders placed after Dec 23rd will have the normal return policy (7 days for free returns, more details above).<\/li><\/ul>",
+            "content": "<p>Yes. You will be sent an automatic email with a tracking number once your order ships. The tracking number will enable you to track the shipment from our fulfillment center to its destination.<\/p>",
             "page": ""
           }
         },
         "collapsible_tab_Bp9Tpx": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "CLEARANCE: LIMITED RETURNS policy",
+            "heading": "My shoes are on pre-order. How do I know when they will ship?",
             "open": false,
-            "content": "<ul><li>For items purchased from our clearance section, you will be required to pay for return shipping even if returned within 7 days of delivery. <\/li><li>However, if you choose to exchange a clearance item, we will cover the cost of shipping the new exchanged pair to you.<\/li><\/ul>",
+            "content": "<p>If your item is on pre-order, the product page will show the estimated shipping date at the time of your order. Then, once your order has shipped, you will be notified via e-mail with a tracking number. If you have any questions about the status of your pre-order, please contact customer service at support@Inkkas.com.<\/p>",
             "page": ""
           }
         },
