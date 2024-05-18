@@ -124,7 +124,7 @@
           "settings": {
             "heading": "My item arrived damaged or defective. How can I return it?",
             "open": false,
-            "content": "<p>Oh no! We apologize for this inconvenience. If the order was purchased on our website within 30 days, please contact us at support@inkkas.com with your order number and details about the damage or defect. <\/p>",
+            "content": "<p>Oh no! We apologize for this inconvenience. If your order was purchased within 30 days, please contact us at support@inkkas.com with your order number and details about the damage or defect. <\/p>",
             "page": ""
           }
         },
@@ -133,7 +133,7 @@
           "settings": {
             "heading": "RETURN POLICY (CANADA)",
             "open": false,
-            "content": "<ol><li>All returns\/exchanges will be sent to our CA Returns Center located in Ottawa, ON. <\/li><li>Our return policy is the same as US orders (Free returns within 7 days of receipt).<\/li><li>The return shipping costs for orders returned after the 7-day free shipping window will vary depending on the country region. <\/li><\/ol>",
+            "content": "<ul><li>All returns\/exchanges will be sent to our CA Returns Center located in Ottawa, ON. <\/li><li>Our return policy is the same as US orders (Free returns within 7 days of receipt).<\/li><li>The return shipping costs for orders returned after the 7-day free shipping window will vary depending on the country region. <\/li><\/ul>",
             "page": ""
           }
         },
@@ -142,7 +142,7 @@
           "settings": {
             "heading": "Return Policy (INTERNATIONAL)",
             "open": false,
-            "content": "<ol><li>For return\/exchange requests on orders outside of the US and Canada, please contact us directly at ops@inkkas.com. <\/li><\/ol>",
+            "content": "<ul><li>For return\/exchange requests on orders outside of the US and Canada, please contact us directly at ops@inkkas.com. <\/li><\/ul>",
             "page": ""
           }
         }
