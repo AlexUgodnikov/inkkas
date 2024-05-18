@@ -6,7 +6,7 @@
         "1661862991ee6f499c-1": {
           "type": "heading",
           "settings": {
-            "text": "Returns & Exchanges",
+            "text": "Shipping",
             "size": "h2"
           }
         },
@@ -50,18 +50,18 @@
         "collapsible_tab_mLFbJi": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Return policy (USA)",
+            "heading": "Does Inkkas offer Free Shipping?",
             "open": true,
-            "content": "<ul><li>If you are not 100% satisfied with your purchase, you may return your Inkkas item(s) for a <a href=\"https:\/\/inkkas.com\/a\/return\"><span style=\"text-decoration:underline\"><strong>refund or exchange here<\/strong><\/span><\/a>. <\/li><li><strong>Return shipping is FREE for 7 days<\/strong> after your order has been delivered to you.<\/li><li>For returns shipped 8 - 30 days from the date of delivery, the return shipping cost will be deducted from your refund. If you elect store credit, any return shipping cost will be waived. <\/li><li>To be eligible for return, items must be in new, unworn condition in the original packaging.<\/li><li>Exchanges can only be made for items currently in stock. <\/li><li>You will be notified via email once your return has been processed.<\/li><\/ul>",
+            "content": "<ul><li>Yes, Inkkas is happy to offer <strong>FREE shipping<\/strong> within the Continental U.S. on all orders of $175 or more! <\/li><li>Free shipping to Canada for orders of $200 or more. <\/li><li>Free shipping does not apply to Alaska, Hawaii and Puerto Rico. <\/li><\/ul>",
             "page": ""
           }
         },
         "a82c71ab-5eef-4ac6-8278-42c4bf4565d6": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "request a RETURn or EXCHANGE",
+            "heading": "Where does Inkkas ship?",
             "open": false,
-            "content": "<ul><li>Request your <a href=\"https:\/\/inkkas.com\/a\/return\"><span style=\"text-decoration:underline\"><strong>return\/exchange here<\/strong><\/span><\/a> by entering your order number (provided in the email confirmation of your order) and the email address used to make your original purchase.<\/li><li>Follow the prompts for a refund or exchange. <\/li><li>Once we receive your eligible item(s) at our warehouse, we will issue your refund, which you should see reflected back to your original payment method within 14 business days. If you selected exchange, your exchanged pair will be shipped to you.<\/li><\/ul>",
+            "content": "<ul><li>Inkkas.com ships worldwide via USPS and UPS for domestic orders, via DHL Express Worldwide for non-Canada international orders, and via USPS Priority International for Canada orders. <\/li><li>DHL Express Worldwide rates do vary widely depending upon what country the items are being shipped to. The best way to find a shipping quote for an international order is to use the shipping calculator in the online checkout. <\/li><li>International (DHL) orders are not eligible for free shipping discounts. <\/li><li>Please allow an extra business day for customs paperwork processing when ordering to ship international. <\/li><li>Please also note Inkkas is not liable for any customs duties and taxes on outbound shipment to international customers. Customs duties taxes are the sole responsibility of the recipient.<\/li><\/ul>",
             "page": ""
           }
         },
