@@ -97,7 +97,7 @@
           "settings": {
             "heading": "My shoes are on pre-order. How do I know when they will ship?",
             "open": false,
-            "content": "<p>If your item is on pre-order, the product page will show the estimated shipping date at the time of your order. Then, once your order has shipped, you will be notified via e-mail with a tracking number. If you have any questions about the status of your pre-order, please contact customer service at support@Inkkas.com.<\/p>",
+            "content": "<ul><li>If your item is on pre-order, the product page will show the estimated shipping date at the time of your order. <\/li><li>Once your order has shipped, you will be notified via e-mail with a tracking number. <\/li><li>If you have any questions about the status of your pre-order, please contact customer service at support@Inkkas.com.<\/li><li>Note that we do our best to project accurate shipping dates for pre-orders on the product page; however, these dates could change.<\/li><\/ul>",
             "page": ""
           }
         },
@@ -145,6 +145,15 @@
             "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. There are quality programs across the country and donation centers that will take used shoes. Our partner organization that does a great job taking used shoes and repurposing them is Soles4Souls (<a href=\"https:\/\/soles4souls.org\/\">https:\/\/soles4souls.org<\/a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. <\/p>",
             "page": ""
           }
+        },
+        "collapsible_tab_wNwVAb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "<p><strong>Free Shipping: <\/strong>Free USPS ground shipping on orders of $175 or more is automatically applied at checkout.<\/p><p><strong>Shipping Options<\/strong>: We offer USPS ground and expedited UPS 2-Day Air options. All orders are processed the business day after placement. <\/p><p><strong>Free Returns<\/strong>: We provide a FREE prepaid shipping label for items returned within 7 days of delivery. You may still return items for up to 30 days, less the cost of return shipping. View our full return policy <a href=\"https:\/\/inkkas.com\/pages\/return_policy\" title=\"Returns and Exchanges\">here<\/a>.<\/p><p><\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -158,7 +167,8 @@
         "collapsible_tab_NjzrQR",
         "collapsible_tab_cLY4gg",
         "collapsible_tab_qhNRN6",
-        "collapsible_tab_wAkQAF"
+        "collapsible_tab_wAkQAF",
+        "collapsible_tab_wNwVAb"
       ],
       "settings": {
         "heading": "",
