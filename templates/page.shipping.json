@@ -52,7 +52,7 @@
           "settings": {
             "heading": "Does Inkkas offer Free Shipping?",
             "open": true,
-            "content": "<ul><li>Yes, Inkkas is happy to offer <strong>FREE shipping<\/strong> within the Continental U.S. on all orders of $175 or more! <\/li><li>Free shipping to Canada for orders of $200 or more. <\/li><li>Free shipping does not apply to Alaska, Hawaii and Puerto Rico. <\/li><\/ul>",
+            "content": "<ul><li>Yes, Inkkas is happy to offer <strong>FREE shipping<\/strong> within the Continental U.S.A. on all orders of $175 or more! <\/li><li>FREE shipping is available to Canada for orders of $200 or more. <\/li><li>Free shipping does not apply to Alaska, Hawaii and Puerto Rico. <\/li><li>Free shipping does not apply to international orders other than Canada.<\/li><\/ul>",
             "page": ""
           }
         },
@@ -61,7 +61,7 @@
           "settings": {
             "heading": "Where does Inkkas ship?",
             "open": false,
-            "content": "<p>Inkkas ships worldwide via USPS and UPS for domestic orders, via DHL Express Worldwide for non-Canada international orders, and via USPS Priority International for Canada orders. <\/p><p><strong>International orders<\/strong>: <\/p><ul><li>DHL Express Worldwide rates vary widely depending upon the country where the items are being shipped. The best way to find a shipping quote for an international order is to use the shipping calculator during checkout.<\/li><li>International (DHL) orders are not eligible for free shipping discounts. <\/li><li>Please allow an extra business day for customs paperwork processing when ordering to ship international. <\/li><li>Note Inkkas is not liable for any customs duties and taxes on outbound shipment to international customers. Customs duties taxes are the sole responsibility of the recipient.<\/li><\/ul>",
+            "content": "<p>Inkkas ships worldwide!<\/p><ul><li>via USPS and UPS for domestic orders<\/li><li>via DHL Express Worldwide for non-Canada international orders <\/li><li>via USPS Priority International for Canada orders<\/li><\/ul>",
             "page": ""
           }
         },
@@ -136,6 +136,15 @@
             "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. There are quality programs across the country and donation centers that will take used shoes. Our partner organization that does a great job taking used shoes and repurposing them is Soles4Souls (<a href=\"https:\/\/soles4souls.org\/\">https:\/\/soles4souls.org<\/a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. <\/p>",
             "page": ""
           }
+        },
+        "collapsible_tab_bk84WM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What are shipping rates for International Orders?",
+            "open": false,
+            "content": "<ul><li>DHL Express Worldwide rates vary widely depending upon the country where the items are being shipped. The best way to find a shipping quote for an international order is to use the shipping calculator during checkout.<\/li><li>Note that international orders shipping via DHL are not eligible for free shipping discounts. <\/li><li>Please allow an extra business day for customs paperwork processing when ordering internationally. <\/li><li>Note Inkkas is not liable for any customs duties and taxes on outbound shipment to international customers. Customs duties taxes are the sole responsibility of the recipient.<\/li><\/ul>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -148,7 +157,8 @@
         "collapsible_tab_NjzrQR",
         "collapsible_tab_cLY4gg",
         "collapsible_tab_qhNRN6",
-        "collapsible_tab_wAkQAF"
+        "collapsible_tab_wAkQAF",
+        "collapsible_tab_bk84WM"
       ],
       "settings": {
         "heading": "",
