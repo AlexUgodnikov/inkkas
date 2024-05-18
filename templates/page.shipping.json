@@ -131,9 +131,9 @@
         "collapsible_tab_cLY4gg": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "RETURN POLICY (CANADA)",
+            "heading": "My package got stolen or lost in the mail. What should I do?",
             "open": false,
-            "content": "<ul><li>All returns\/exchanges will be sent to our CA Returns Center located in Ottawa, ON. <\/li><li>Our return policy is the same as US orders (Free returns within 7 days of receipt).<\/li><li>The return shipping costs for orders returned after the 7-day free shipping window will vary depending on the country region. <\/li><\/ul>",
+            "content": "<p>Oh no! If your package got lost or stolen in the mail please submit your claim here: <a href=\"https:\/\/inkkas.com\/pages\/navidium-protection-claim\" target=\"_blank\">https:\/\/inkkas.com\/pages\/navidium-protection-claim<\/a><\/p>",
             "page": ""
           }
         },
