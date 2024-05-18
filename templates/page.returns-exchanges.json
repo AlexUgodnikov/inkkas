@@ -65,12 +65,21 @@
             "page": ""
           }
         },
+        "collapsible_tab_RTgTUh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long do I have to return my order?",
+            "open": false,
+            "content": "<p>Our warehouse needs to receive and process your return within<strong> 30 days <\/strong>from your order delivery date to issue a refund back to your original form of payment.  Note that return shipping is <strong>FREE<\/strong> if you send your return within 7 days of delivery! For returns between 8-30 days, the cost of return shipping will be deducted from your refund. <\/p>",
+            "page": ""
+          }
+        },
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Refund Timeline",
             "open": false,
-            "content": "<p>Eligible refunds are processed once the returned item(s) is\/are received by our warehouse. Please allow 14 business days from the day your return is received at our warehouse for your refund to be processed. <\/p><p>Your refund will be processed to the same method of payment used to make your original purchase. <\/p><p>If the method of payment used at the time of purchase has changed, please note that you will be refunded in the form of store credit only.<\/p>",
+            "content": "<ul><li>Eligible refunds are processed once the returned item(s) is\/are received by our warehouse. Please allow 14 business days from the day your return is received at our warehouse for your refund to be processed. <\/li><li>Your refund will be processed to the same method of payment used to make your original purchase. <\/li><li>If the method of payment used at the time of purchase has changed, please note that you will be refunded in the form of store credit only.<\/li><\/ul>",
             "page": ""
           }
         },
@@ -88,16 +97,7 @@
           "settings": {
             "heading": "CLEARANCE RETURNS policy",
             "open": false,
-            "content": "<ul><li>For items purchased from our clearance section, you will be required to pay for return shipping. <\/li><li>If you choose to exchange a clearance item, we will cover the cost of shipping the new exchanged pair to you.<\/li><\/ul>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_RTgTUh": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How long do I have to return my order?",
-            "open": false,
-            "content": "<p>Our warehouse needs to receive and process your return within<strong> 30 days <\/strong>from the original purchase date to issue a refund back to your original form of payment.  Note that return shipping is FREE if you send your return within 7 days of delivery. For returns between 8-30 days, the cost of return shipping will be deducted from your refund. <\/p>",
+            "content": "<ul><li>For items purchased from our clearance section, you will be required to pay for return shipping even if returned within 7 days of delivery. <\/li><li>However, if you choose to exchange a clearance item, we will cover the cost of shipping the new exchanged pair to you.<\/li><\/ul>",
             "page": ""
           }
         },
@@ -150,10 +150,10 @@
       "block_order": [
         "collapsible_tab_mLFbJi",
         "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
+        "collapsible_tab_RTgTUh",
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
         "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
         "collapsible_tab_Bp9Tpx",
-        "collapsible_tab_RTgTUh",
         "collapsible_tab_NjzrQR",
         "collapsible_tab_wAkQAF",
         "collapsible_tab_qhNRN6",
