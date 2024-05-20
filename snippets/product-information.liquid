@@ -144,13 +144,13 @@
 
         <div class="product__custom-colors-title">
           Color:
-          <span class="form__label__value">
+          {% comment %}<span class="form__label__value">
             {% if product.metafields.custom.color_custom_title != blank %}
               {{ product.metafields.custom.color_custom_title }}
             {% else %}
               {{ product.title }}
             {% endif %}
-          </span>
+          </span>{%endcomment%}
         </div>
         <div class="product__custom-colors">
           <div class="product__custom-color active" style="background-image: url('{{ product.media[0].preview_image | img_url: 'master' }} center/100%;')"></div>
