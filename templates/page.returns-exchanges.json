@@ -52,7 +52,7 @@
           "settings": {
             "heading": "Return policy (USA)",
             "open": true,
-            "content": "<ul><li>If you are not 100% satisfied with your purchase, you may return your Inkkas item(s) for a <a href=\"https:\/\/inkkas.com\/a\/return\"><span style=\"text-decoration:underline\"><strong>refund or exchange here<\/strong><\/span><\/a>. <\/li><li><strong>Return shipping is FREE for 7 days<\/strong> after your order has been delivered to you.<\/li><li>For any returns between 8 - 30 days from the date of delivery, the return shipping cost will be deducted from your refund. If you elect store credit, any return shipping cost will be waived. <\/li><li>To be eligible for return, items must be in new, unworn condition in the original packaging.<\/li><li>Exchanges can only be made for items currently in stock. <\/li><li>You will be notified via email once your return has been processed.<\/li><\/ul>",
+            "content": "<ul><li>If you are not 100% satisfied with your purchase, you may return your Inkkas item(s) for a <a href=\"https:\/\/inkkas.com\/a\/return\"><span style=\"text-decoration:underline\"><strong>refund or exchange here<\/strong><\/span><\/a>. <\/li><li><strong>Return shipping is FREE for 7 days<\/strong> after your order has been delivered to you.<\/li><li>For returns shipped 8 - 30 days from the date of delivery, the return shipping cost will be deducted from your refund. If you elect store credit, any return shipping cost will be waived. <\/li><li>To be eligible for return, items must be in new, unworn condition in the original packaging.<\/li><li>Exchanges can only be made for items currently in stock. <\/li><li>You will be notified via email once your return has been processed.<\/li><\/ul>",
             "page": ""
           }
         },
@@ -65,19 +65,28 @@
             "page": ""
           }
         },
+        "collapsible_tab_RTgTUh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long do I have to return my order?",
+            "open": false,
+            "content": "<p>Our warehouse needs to receive and process your return within<strong> 30 days <\/strong>from your order delivery date to issue a refund back to your original form of payment.  Note that return shipping is <strong>FREE<\/strong> if you send your return within 7 days of delivery! For returns between 8-30 days, the cost of return shipping will be deducted from your refund. <\/p>",
+            "page": ""
+          }
+        },
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Refund Timeline",
             "open": false,
-            "content": "<p>Eligible refunds are processed once the returned item(s) is\/are received by our warehouse. Please allow 14 business days from the day your return is received at our warehouse for your refund to be processed. <\/p><p>Your refund will be processed to the same method of payment used to make your original purchase. <\/p><p>If the method of payment used at the time of purchase has changed, please note that you will be refunded in the form of store credit only.<\/p>",
+            "content": "<ul><li>Eligible refunds are processed once the returned item(s) is\/are received by our warehouse. Please allow 14 business days from the day your return is received at our warehouse for your refund to be processed. <\/li><li>Your refund will be processed to the same method of payment used to make your original purchase. <\/li><li>If the method of payment used at the time of purchase has changed, please note that you will be refunded in the form of store credit only.<\/li><\/ul>",
             "page": ""
           }
         },
         "aa70895f-8889-4293-8c7d-ff7bc2b81c57": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Extended Year-End Return Policy",
+            "heading": "Year-END: Extended Returns Policy",
             "open": false,
             "content": "<ul><li>Orders placed between Dec 3rd - 23rd will have free returns through Jan 6th.<\/li><li>Orders placed after Dec 23rd will have the normal return policy (7 days for free returns, more details above).<\/li><\/ul>",
             "page": ""
@@ -86,18 +95,9 @@
         "collapsible_tab_Bp9Tpx": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "CLEARANCE RETURNS policy",
+            "heading": "CLEARANCE: LIMITED RETURNS policy",
             "open": false,
-            "content": "<ul><li>For items purchased from our clearance section, you will be required to pay for return shipping. <\/li><li>If you choose to exchange a clearance item, we will cover the cost of shipping the new exchanged pair to you.<\/li><\/ul>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_RTgTUh": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How long do I have to return my order?",
-            "open": false,
-            "content": "<p>Our warehouse needs to receive and process your return within<strong> 30 days <\/strong>from the original purchase date to issue a refund back to your original form of payment.  Note that return shipping is FREE if you send your return within 7 days of delivery. For returns between 8-30 days, the cost of return shipping will be deducted from your refund. <\/p>",
+            "content": "<ul><li>For items purchased from our clearance section, you will be required to pay for return shipping even if returned within 7 days of delivery. <\/li><li>However, if you choose to exchange a clearance item, we will cover the cost of shipping the new exchanged pair to you.<\/li><\/ul>",
             "page": ""
           }
         },
@@ -124,7 +124,7 @@
           "settings": {
             "heading": "My item arrived damaged or defective. How can I return it?",
             "open": false,
-            "content": "<p>Oh no! We apologize for this inconvenience. If the order was purchased on our website within 30 days, please contact us at support@inkkas.com with your order number and details about the damage or defect. <\/p>",
+            "content": "<p>Oh no! We apologize for this inconvenience. If your order was purchased within 30 days, please contact us at support@inkkas.com with your order number and details about the damage or defect. <\/p>",
             "page": ""
           }
         },
@@ -133,7 +133,7 @@
           "settings": {
             "heading": "RETURN POLICY (CANADA)",
             "open": false,
-            "content": "<ol><li>All returns\/exchanges will be sent to our CA Returns Center located in Ottawa, ON. <\/li><li>Our return policy is the same as US orders (Free returns within 7 days of receipt).<\/li><li>The return shipping costs for orders returned after the 7-day free shipping window will vary depending on the country region. <\/li><\/ol>",
+            "content": "<ul><li>All returns\/exchanges will be sent to our CA Returns Center located in Ottawa, ON. <\/li><li>Our return policy is the same as US orders (Free returns within 7 days of receipt).<\/li><li>The return shipping costs for orders returned after the 7-day free shipping window will vary depending on the country region. <\/li><\/ul>",
             "page": ""
           }
         },
@@ -142,7 +142,7 @@
           "settings": {
             "heading": "Return Policy (INTERNATIONAL)",
             "open": false,
-            "content": "<ol><li>For return\/exchange requests on orders outside of the US and Canada, please contact us directly at ops@inkkas.com. <\/li><\/ol>",
+            "content": "<ul><li>For return\/exchange requests on orders outside of the US and Canada, please contact us directly at ops@inkkas.com. <\/li><\/ul>",
             "page": ""
           }
         }
@@ -150,10 +150,10 @@
       "block_order": [
         "collapsible_tab_mLFbJi",
         "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
+        "collapsible_tab_RTgTUh",
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
         "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
         "collapsible_tab_Bp9Tpx",
-        "collapsible_tab_RTgTUh",
         "collapsible_tab_NjzrQR",
         "collapsible_tab_wAkQAF",
         "collapsible_tab_qhNRN6",
