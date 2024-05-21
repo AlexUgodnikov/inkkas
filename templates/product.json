@@ -123,7 +123,7 @@
             "heading": "Shipping & Returns",
             "show_description": false,
             "description_type": "full_description",
-            "content": "<p><strong>Free Shipping: <\/strong>Free USPS ground shipping on orders of $175 or more is automatically applied at checkout.<\/p><p><strong>Shipping Options<\/strong>: We offer USPS ground and expedited UPS 2-Day Air options. All orders are processed the  business day after placement. <\/p><p><strong>Free Returns<\/strong>: We provide a FREE prepaid shipping label for items returned within 7 days of delivery. You may still return items for up to 30 days, less the cost of return shipping. View our full return policy <a href=\"\/pages\/return_policy\" title=\"Returns and Exchanges\">here<\/a>.<\/p><p><strong>Pre-Orders<\/strong>: Because we make our collections in small batches, we also make certain products available for pre-order. We do our best to project accurate shipping dates for pre-orders on the product page; however, please note that these dates could change.<\/p>",
+            "content": "<p><strong>Free Shipping: <\/strong>FREE USPS ground shipping on orders of $175 or more is automatically applied at checkout!<\/p><p><strong>Easy Returns<\/strong>: We provide FREE shipping for items returned within 7 days of delivery. You can still easily return items for up to 30 days, less the cost of return shipping. View our full return policy <a href=\"\/pages\/return_policy\" title=\"Returns and Exchanges\">here<\/a>.<\/p><p><strong>Pre-Orders<\/strong>: Because we make collections in small batches, we also make certain products available for pre-order. We do our best to project accurate shipping dates for pre-orders on the product page; however, please note that these dates could change.<\/p>",
             "page": ""
           }
         },
@@ -302,7 +302,7 @@
             "show_okendo_reviews": true,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Reviews",
+            "heading": "Customer Reviews",
             "show_description": false,
             "description_type": "full_description",
             "content": "",
