@@ -609,6 +609,7 @@ collapsible-row + .share-article {
     top: -170%;
     min-width: 120px;
     right: -14%;
+    text-align: center;
 }
 #productLinkTooltip .product-link-copy__tooltip-inner{
     display: flex;
