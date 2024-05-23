@@ -3,32 +3,6 @@
     "16479477632637c9a7": {
       "type": "slideshow",
       "blocks": {
-        "slide_JNAXcC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/POPINJAY-TREKK-BOOT-SS241014-MODEL-SS241014-EPI_2963.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "25% OFF SITE-WIDE STARTS NOW!",
-            "heading": "BIGGEST SALE OF THE SEASON IS HERE!",
-            "heading_size": "h1-xlarge",
-            "content": "Memorial Day Weekend only, get 25% off EVERYTHING with code: MDW25",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#87a0fe",
-            "overlay_opacity": 0,
-            "overlay_gradient": "radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
         "164794776393e76b8e-1": {
           "type": "slide",
           "settings": {
@@ -190,6 +164,33 @@
             "button_2_outline": false
           }
         },
+        "slide_JNAXcC": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/POPINJAY-TREKK-BOOT-SS241014-MODEL-SS241014-EPI_2963.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "25% OFF SITE-WIDE STARTS NOW!",
+            "heading": "BIGGEST SALE OF THE SEASON IS HERE!",
+            "heading_size": "h1-xlarge",
+            "content": "Memorial Day Weekend only, get 25% off EVERYTHING with code: MDW25",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#87a0fe",
+            "overlay_opacity": 0,
+            "overlay_gradient": "radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "slide_iQBDH3": {
           "type": "slide",
           "disabled": true,
@@ -219,13 +220,13 @@
         }
       },
       "block_order": [
-        "slide_JNAXcC",
         "164794776393e76b8e-1",
         "slide_UkyBeK",
         "slide_X4w7DM",
         "164794776393e76b8e-2",
         "164794776393e76b8e-0",
         "slide_xDcpXe",
+        "slide_JNAXcC",
         "slide_iQBDH3"
       ],
       "settings": {
