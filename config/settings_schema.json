@@ -742,7 +742,7 @@
       {
         "type": "text",
         "id": "sold_out_badge",
-        "label": "New arrivals label",
+        "label": "Sold out label",
         "default": "Sold out"
       },
       {
@@ -750,6 +750,12 @@
         "id": "sold_out_badge_color",
         "label": "Sold out background color",
         "default": "#DBDBDB"
+      },
+      {
+        "type": "color",
+        "id": "sold_out_badge_color_text",
+        "label": "Text color",
+        "default": "#221F20"
       },
       {
         "type": "color",
