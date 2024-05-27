@@ -678,12 +678,16 @@ collapsible-row + .share-article {
         top: 150px;
     }
 }
+body .flickity-page-dots {
+    max-width: 100%;
+}
 
 body .flickity-page-dots.dot-style--logos .dot {
     height: 250px;
     width: 250px;
 }
-.flickity-page-dots.dot-style--logos .dot img {
+
+body .flickity-page-dots.dot-style--logos .dot img {
     height: 100%;
     width: 100%;
     object-fit: cover;
