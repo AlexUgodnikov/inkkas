@@ -681,7 +681,10 @@ collapsible-row + .share-article {
 
 body .flickity-page-dots.dot-style--logos .dot {
     height: 250px;
+    width: 250px;
 }
 .flickity-page-dots.dot-style--logos .dot img {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
