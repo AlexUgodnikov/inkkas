@@ -169,7 +169,7 @@ body.compensate-for-scrollbar {
     cursor: pointer;
 }
 .product_size-chart .size_chart svg {
-    height: 12px;
+    height: 16px;
     width: auto;
     margin-right: 9px;
     fill: var(--color-accent);
