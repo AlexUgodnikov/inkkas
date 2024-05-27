@@ -724,6 +724,12 @@ body .flickity-page-dots.dot-style--logos .dot img {
 .myaccount--text a:before {
     background: rgba(var(--color-accent-rgb),.4);
 }
+.myaccount--text a:after {
+    background: var(--color-accent);
+    transform-origin: left center;
+    transform: scaleX(0);
+    transition: all .25s cubic-bezier(.104,.204,.492,1);
+}
 .myaccount--text a:before,
 .myaccount--text a:after {
     content: "";
