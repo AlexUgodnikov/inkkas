@@ -486,7 +486,7 @@ body.compensate-for-scrollbar {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(255,255,255,.75);
+    background: rgba(255,255,255,.6);
     height: auto!important;
     width: auto!important;
 }
@@ -500,12 +500,6 @@ body.compensate-for-scrollbar {
 .product-image-container .slider-button--next svg {
     width: 30px;
     height: 30px;
-}
-@media (max-width: 1067px) {
-    .product-image-container .slider-button--prev,
-    .product-image-container .slider-button--next {
-        background: rgba(255,255,255,.6);
-    }
 }
 @media (max-width: 576px) {
     .product-image-container .slider-button--prev svg,
@@ -683,4 +677,11 @@ collapsible-row + .share-article {
     .product-image-container .slider-button--next {
         top: 150px;
     }
+}
+
+body .flickity-page-dots.dot-style--logos .dot {
+    height: 250px;
+}
+.flickity-page-dots.dot-style--logos .dot img {
+    height: 100%;
 }
