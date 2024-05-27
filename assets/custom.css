@@ -711,8 +711,15 @@ body .flickity-page-dots.dot-style--logos .dot img {
     }
 }
 .myaccount--text a {
-    text-decoration: underline;
-    transition: text-decoration-thickness ease 100ms;
+    display: inline-flex;
+    font-size: .9375rem;
+    height: 1.0625rem;
+    line-height: 1.0625rem;
+    margin-right: 15px;
+    font-weight: 400;
+    letter-spacing: var(--button-letter-spacing, .02em);
+    cursor: pointer;
+    position: relative;
 }
 .myaccount--text a:hover {
     text-decoration-thickness: 0.1rem;
