@@ -713,13 +713,13 @@
         "type": "text",
         "id": "new_arrivals_badge",
         "label": "New arrivals label",
-        "default": "New arrivals"
+        "default": "New"
       },
       {
         "type": "color",
         "id": "new_arrivals_badge_color",
         "label": "New arrivals background color",
-        "default": "#00b047"
+        "default": "#DBDBDB"
       },
       {
         "type": "text",
