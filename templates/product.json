@@ -358,6 +358,7 @@
     },
     "product_review_bTk7Cp": {
       "type": "product-review",
+      "disabled": true,
       "settings": {
       }
     },
