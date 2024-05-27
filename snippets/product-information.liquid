@@ -148,6 +148,7 @@
             {% if product.metafields.custom.color_custom_title != blank %}
               {{ product.metafields.custom.color_custom_title }}
             {% else %}
+              {% assign product_title_first_word = product.title | split: ' ' | first %}
               {{ product.title }}
             {% endif %}
           </span>
