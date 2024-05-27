@@ -149,7 +149,7 @@
               {{ product.metafields.custom.color_custom_title }}
             {% else %}
               {% assign product_title_first_word = product.title | split: ' ' | first %}
-              {{ product.title }}
+              {{ product_title_first_word }}
             {% endif %}
           </span>
         </div>
