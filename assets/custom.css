@@ -501,10 +501,10 @@ body.compensate-for-scrollbar {
     width: 30px;
     height: 30px;
 }
-@media (max-width: 576px) {
+@media (max-width: 1067px) {
     .product-image-container .slider-button--prev,
     .product-image-container .slider-button--next {
-        background: rgba(255,255,255,.75);
+        background: rgba(255,255,255,.5);
     }
 }
 @media (max-width: 576px) {
