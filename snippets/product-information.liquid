@@ -667,6 +667,24 @@
             </div>
           </details>
         </collapsible-row>
+        {% if block.settings.heading == 'Customer Reviews' %}
+          <script>
+            document.querySelector('.star-rating-container').addEventListener('click', function() {
+              const targetElement = document.querySelector('.collapsible-tab-2.customer_reviews_tab');
+
+              if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+
+                setTimeout(function() {
+                  const summaryElement = targetElement.querySelector('summary');
+                  if (summaryElement) {
+                    summaryElement.click();
+                  }
+                }, 500);
+              }
+            });
+          </script>
+        {% endif %}
       {% endif %}
     {%- when 'collapsible_tab' -%}
       {%- if block.settings.heading != blank -%}
