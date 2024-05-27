@@ -2,7 +2,9 @@
   "sections": {
     "main-account": {
       "type": "main-account",
-      "settings": {}
+      "settings": {
+        "text": "To check the status of your INKKPASS rewards account,<br> please click <a href=\"http:\/\/inkkas.com\/#smile-home\">HERE<\/a> to login."
+      }
     }
   },
   "order": [
