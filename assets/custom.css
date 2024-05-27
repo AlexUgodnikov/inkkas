@@ -564,7 +564,7 @@ body.compensate-for-scrollbar {
 .collapsible-tab-2 .okeReviews .okeReviews-reviewsWidget-header,
 .collapsible-tab-2 .okeReviews .okeReviews-reviews-main .okeReviews-reviews-review:nth-child(3n),
 .collapsible-tab-2 .okeReviews .okeReviews-reviews-footer.js-okeReviews-footer.js-okeReviews-reviews-footer {
-    display: none!important;
+    /*display: none!important;*/
 }
 .product-thumb-wrapper .imageslide-item {
     position: relative;
