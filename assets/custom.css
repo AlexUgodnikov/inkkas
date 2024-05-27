@@ -504,7 +504,7 @@ body.compensate-for-scrollbar {
 @media (max-width: 1067px) {
     .product-image-container .slider-button--prev,
     .product-image-container .slider-button--next {
-        background: rgba(255,255,255,.5);
+        background: rgba(255,255,255,.6);
     }
 }
 @media (max-width: 576px) {
