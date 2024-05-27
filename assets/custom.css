@@ -178,6 +178,7 @@ body.compensate-for-scrollbar {
     font-size: 18px;
     font-weight: 600;
     text-transform: capitalize;
+    color: var(--color-body);
 }
 @media (max-width: 450px) {
     .shoesImg img {
