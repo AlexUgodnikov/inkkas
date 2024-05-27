@@ -38,7 +38,7 @@
     "show_products_swatches": true,
     "show_products_rating": true,
     "show_size_options": false,
-    "color_badge_text": "#221f20",
+    "color_badge_text": "#ffffff",
     "sibling_style": "swatch",
     "cart_drawer_notes": false,
     "sections": {
