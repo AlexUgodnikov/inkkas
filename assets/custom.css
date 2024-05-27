@@ -501,6 +501,13 @@ body.compensate-for-scrollbar {
     width: 30px;
     height: 30px;
 }
+@media (max-width: 576px) {
+    .product-image-container .slider-button--prev svg,
+    .product-image-container .slider-button--next svg {
+        width: 20px;
+        height: 20px;
+    }
+}
 .product-image-container .slider-button--prev {
     left: 0;
 }
