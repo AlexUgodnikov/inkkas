@@ -274,7 +274,7 @@
 			</div>
 		</div>
   </div>
-  <modal-dialog id="ViewAllImagesModal" class="view-all-images1 product-popup-modal">
+  {% comment %}<modal-dialog id="ViewAllImagesModal" class="view-all-images1 product-popup-modal">
     <button id="ModalClose-ViewAllImagesModal" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-modal-close-custom' %}</button>
     <div role="dialog" aria-label="view-all-images" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
       <product-slider id="Product-Slider" class="product-images product-images--{{ media_layout }}" data-captions="{{ display_captions }}">
@@ -418,7 +418,7 @@
 		          {%- endfor -%}
 		        </product-slider>
     </div>
-  </modal-dialog>
+  </modal-dialog>{% endcomment %}
 </div>
 
 <div class="side-panel side-availability" id="Pickup-Availability"></div>
