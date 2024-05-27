@@ -40,6 +40,7 @@
     "show_size_options": false,
     "color_badge_text": "#ffffff",
     "new_arrivals_badge_color": "#4e584a",
+    "new_arrivals_badge_color_text": "#ffffff",
     "sibling_style": "swatch",
     "cart_drawer_notes": false,
     "sections": {
