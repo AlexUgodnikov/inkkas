@@ -687,20 +687,74 @@
       },
       {
         "type": "color",
+        "id": "color_badge_text_product_card",
+        "label": "Product card text",
+        "default": "#221F20"
+      },
+      {
+        "type": "text",
+        "id": "best_sellers_badge",
+        "label": "Best sellers label",
+        "default": "Best seller"
+      },
+      {
+        "type": "color",
+        "id": "best_sellers_badge_color",
+        "label": "Best sellers background color",
+        "default": "#DBDBDB"
+      },
+      {
+        "type": "text",
+        "id": "sale_badge",
+        "label": "Sale label",
+        "default": "Sale"
+      },
+      {
+        "type": "color",
+        "id": "sale_badge_color",
+        "label": "Sale background color",
+        "default": "#DBDBDB"
+      },
+      {
+        "type": "text",
+        "id": "new_arrivals_badge",
+        "label": "New arrivals label",
+        "default": "New"
+      },
+      {
+        "type": "color",
+        "id": "new_arrivals_badge_color",
+        "label": "New arrivals background color",
+        "default": "#DBDBDB"
+      },
+      {
+        "type": "text",
+        "id": "sold_out_badge",
+        "label": "New arrivals label",
+        "default": "Sold out"
+      },
+      {
+        "type": "color",
+        "id": "sold_out_badge_color",
+        "label": "Sold out background color",
+        "default": "#DBDBDB"
+      },
+      {
+        "type": "color",
         "id": "color_badge_soldout",
-        "label": "Sold out",
+        "label": "Sold out (not active)",
         "default": "#939393"
       },
       {
         "type": "color",
         "id": "color_badge_sale",
-        "label": "Sale",
+        "label": "Sale (not active)",
         "default": "#151515"
       },
       {
         "type": "color",
         "id": "color_badge_preorder",
-        "label": "Pre-Order",
+        "label": "Pre-Order (not active)",
         "default": "#666666"
       }
     ]

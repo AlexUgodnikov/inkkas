@@ -169,16 +169,16 @@ body.compensate-for-scrollbar {
     cursor: pointer;
 }
 .product_size-chart .size_chart svg {
-    height: 12px;
+    height: 16px;
     width: auto;
     margin-right: 9px;
     fill: var(--color-accent);
 }
 .product_size-chart .size_chart span {
-    font-size: .8125rem;
-    letter-spacing: .02em;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 600;
     text-transform: capitalize;
+    color: var(--color-body);
 }
 @media (max-width: 450px) {
     .shoesImg img {
@@ -486,7 +486,7 @@ body.compensate-for-scrollbar {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(255,255,255,.75);
+    background: rgba(255,255,255,.6);
     height: auto!important;
     width: auto!important;
 }
@@ -500,6 +500,13 @@ body.compensate-for-scrollbar {
 .product-image-container .slider-button--next svg {
     width: 30px;
     height: 30px;
+}
+@media (max-width: 576px) {
+    .product-image-container .slider-button--prev svg,
+    .product-image-container .slider-button--next svg {
+        width: 20px;
+        height: 20px;
+    }
 }
 .product-image-container .slider-button--prev {
     left: 0;
@@ -564,7 +571,7 @@ body.compensate-for-scrollbar {
 .collapsible-tab-2 .okeReviews .okeReviews-reviewsWidget-header,
 .collapsible-tab-2 .okeReviews .okeReviews-reviews-main .okeReviews-reviews-review:nth-child(3n),
 .collapsible-tab-2 .okeReviews .okeReviews-reviews-footer.js-okeReviews-footer.js-okeReviews-reviews-footer {
-    display: none!important;
+    /*display: none!important;*/
 }
 .product-thumb-wrapper .imageslide-item {
     position: relative;
@@ -670,4 +677,62 @@ collapsible-row + .share-article {
     .product-image-container .slider-button--next {
         top: 150px;
     }
+}
+body .flickity-page-dots {
+    max-width: 100%;
+}
+
+body .flickity-page-dots.dot-style--logos .dot {
+    height: 250px;
+    width: 250px;
+}
+
+body .flickity-page-dots.dot-style--logos .dot img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+@media (max-width: 991px) {
+    body .flickity-page-dots.dot-style--logos .dot {
+        height: 200px;
+        width: 200px;
+    }
+}
+@media (max-width: 768px) {
+    body .flickity-page-dots.dot-style--logos .dot {
+        height: 150px;
+        width: 150px;
+    }
+}
+@media (max-width: 576px) {
+    body .flickity-page-dots.dot-style--logos .dot {
+        height: 100px;
+        width: 100px;
+    }
+}
+.myaccount--text a {
+    position: relative;
+}
+.myaccount--text a:before {
+    background: rgba(var(--color-accent-rgb),.4);
+}
+.myaccount--text a:after {
+    background: var(--color-accent);
+    transform-origin: left center;
+    transform: scaleX(0);
+    transition: all .25s cubic-bezier(.104,.204,.492,1);
+}
+.myaccount--text a:hover:after {
+    transform: scale(1);
+}
+.myaccount--text a:before,
+.myaccount--text a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 0;
+    width: 100%;
+    height: 1px;
+    pointer-events: none;
 }
