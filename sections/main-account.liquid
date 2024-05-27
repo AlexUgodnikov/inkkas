@@ -4,15 +4,16 @@
 		<div class="small-12 columns">
 			<div class="myaccount--header">
 				<h1 class="myaccount--title">{{ 'customer.account.title' | t }}</h1>
-				{% if section.settings.text != blank %}
-					{{ section.settings.text }}
-				{% endif %}
 				<p>
 					<a href="{{ routes.account_logout_url }}" title="{{ 'customer.account.log_out' | t | escape }}" class="myaccount--link">
 		      	{% render 'svg-icons' with 'thb-log-out' %}
 		      	<span class="text-button">{{ 'customer.account.log_out' | t }}</span>
 		    	</a>
 				</p>
+				{% if section.settings.text != blank %}
+					<h2></h2>
+					{{ section.settings.text }}
+				{% endif %}
 			</div>
 		</div>
 	</div>
