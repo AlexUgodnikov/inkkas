@@ -48,7 +48,6 @@
 	assign button_border_radius = settings.button_border_radius
 
 	assign color_badge_text = settings.color_badge_text
-	assign color_badge_text_product_card = settings.color_badge_text_product_card
 	assign color_badge_soldout = settings.color_badge_soldout
 	assign color_badge_sale = settings.color_badge_sale
 	assign color_badge_preorder = settings.color_badge_preorder
@@ -196,9 +195,6 @@
 
 		{%- if color_badge_text -%}
 			--color-badge-text: {{ color_badge_text }};
-		{%- endif -%}
-		{%- if color_badge_text_product_card -%}
-			--color-badge-text-product-card: {{ color_badge_text_product_card }};
 		{%- endif -%}
 		{%- if color_badge_soldout -%}
 			--color-badge-sold-out: {{ color_badge_soldout }};
