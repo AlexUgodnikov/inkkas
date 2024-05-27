@@ -175,9 +175,8 @@ body.compensate-for-scrollbar {
     fill: var(--color-accent);
 }
 .product_size-chart .size_chart span {
-    font-size: .8125rem;
-    letter-spacing: .02em;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 600;
     text-transform: capitalize;
 }
 @media (max-width: 450px) {
