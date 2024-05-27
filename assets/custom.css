@@ -692,6 +692,21 @@ body .flickity-page-dots.dot-style--logos .dot img {
     width: 100%;
     object-fit: cover;
 }
+@media (max-width: 991px) {
+    body .flickity-page-dots.dot-style--logos .dot {
+        height: 200px;
+        width: 200px;
+    }
+}
+@media (max-width: 768px) {
+    body .flickity-page-dots.dot-style--logos .dot {
+        height: 150px;
+        width: 150px;
+    }
+}
 @media (max-width: 576px) {
-    
+    body .flickity-page-dots.dot-style--logos .dot {
+        height: 100px;
+        width: 100px;
+    }
 }
