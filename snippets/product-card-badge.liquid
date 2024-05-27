@@ -1,3 +1,4 @@
+{% comment %}
 {%- assign badge_position = settings.badge_position -%}
 {%- unless product_card_product.available -%}
 	<span class="badge out-of-stock {{ badge_position }}">{{ 'products.product.sold_out' | t }}</span>
@@ -21,6 +22,7 @@
 	{{ 'products.product.pre_order' | t }}
 </span>
 {%- endif -%}
+{% endcomment %}
 
 {%- if product_card_product.available == false -%}
 	<span class="badge out-of-stock {{ badge_position }}" style="background-color: {{ settings.sold_out_badge_color }}" aria-hidden="true">{{ settings.sold_out_badge }}</span>
