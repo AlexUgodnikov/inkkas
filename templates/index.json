@@ -329,8 +329,8 @@
       "settings": {
         "heading": "",
         "heading_left": true,
-        "description": "<p><em>Water-resistant materials, plush ankle support & unique global designs make these your perfect summer go-to.<\/em><\/p>",
-        "full_width": false,
+        "description": "<p>The best looking (and feeling) boot you've ever worn.<\/p>",
+        "full_width": true,
         "collection": "trekk-boots",
         "display_type": "carousel",
         "product_limit": 12,
@@ -344,6 +344,7 @@
     },
     "background_video_6gFnMp": {
       "type": "background-video",
+      "disabled": true,
       "settings": {
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-350",
@@ -403,6 +404,7 @@
         "product_link_gpLtpg",
         "buy_buttons_GKUHRJ"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_left": false,
@@ -452,7 +454,7 @@
         "image_xGGVXL": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ANDES-GREY-JOGGER-S223809-STUDIO-1_eb39558e-d423-4895-a859-d7c16a9ce949.jpg",
+            "image": "shopify:\/\/shop_images\/resizedSPIRIT-BEAR-VEGAN-JOGGER-AW230401-FLAT-4Q2A4735.jpg",
             "subheading": "",
             "title": "",
             "text": "Plush, retro & oozing comfort.",
@@ -532,10 +534,10 @@
         "image_kykCKB": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/resized_SPIRIT_BEAR-RUNNER-V.2-AW230616-FLAT--EPI_9396.jpg",
+            "image": "shopify:\/\/shop_images\/APEX-RUNNER-V.2-SS240615-FLAT-SS240615-EPI_0413.jpg",
             "subheading": "",
             "title": "",
-            "text": "Sporty, stylish, essential.",
+            "text": "Sporty, lightweight, essential.",
             "link_label": "V2 RUNNERS",
             "link": "shopify:\/\/collections\/flexaire",
             "use_text_button": false,
@@ -580,7 +582,7 @@
         "image_UkENLQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BROWN-LEATHER-BOOTIE-SS200822-FLAT-_IMG_9910.heic",
+            "image": "shopify:\/\/shop_images\/COROZAL-BOOTIE-SS220818-FLAT-W1A5348.jpg",
             "subheading": "",
             "title": "",
             "text": "For all-day & all-night.",
@@ -907,7 +909,7 @@
         "heading_iNFrzm": {
           "type": "heading",
           "settings": {
-            "text": "SHOP THESE STYLE EDITS",
+            "text": "SHOP THESE DESIGN EDITS",
             "size": "h2"
           }
         },
