@@ -66,7 +66,7 @@
             "subheading": "Sunshine is Calling",
             "heading": "The Radiance Collection",
             "heading_size": "h1-large",
-            "content": "Prepare to be inspired",
+            "content": "Prepare to be inspired.",
             "description_size": "small",
             "content_position": "middle-center",
             "text_alignment": "center",
@@ -138,6 +138,7 @@
         },
         "slide_iQBDH3": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/TOUBKAL-JOGGER-SS230405-MODEL--EPI_3445.jpg",
             "slide_link": "",
