@@ -177,7 +177,7 @@
         data-url="{{ product.url }}"
         data-is-disabled="{{ is_disabled }}"
       >
-        <div class="variations" {{ block.shopify_attributes }}>0
+        <div class="variations" {{ block.shopify_attributes }}>
           {%- for option in product.options_with_values -%}
             {%- liquid
               assign option_name = option.name | downcase | escape
@@ -205,9 +205,9 @@
 
               assign sizing_guide_variant = block.settings.sizing_guide_variant | default: 'Size' | downcase
             -%}
-            {%- if option_slug == sizing_guide_variant -%}1
-              {%- if block.settings.sizing_guide_text != '' -%}2
-                  {%- capture sizing_link -%}3
+            {%- if option_slug == sizing_guide_variant -%}
+              {%- if block.settings.sizing_guide_text != '' -%}
+                  {%- capture sizing_link -%}
                     <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
                       {% assign product_tags = product.tags | join: ' ' %}
                       <div class="product_size-chart">
@@ -575,7 +575,7 @@
               })
             });
           </script>
-        {% endif %}
+        {% endif %}111
         {{ sizing_link }}
       {%- endunless -%}
       <noscript class="product-form__noscript-wrapper-{{ section.id }}">
