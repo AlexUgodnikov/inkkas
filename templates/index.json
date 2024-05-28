@@ -29,8 +29,62 @@
             "button_2_outline": false
           }
         },
+        "slide_yLj9Aj": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-WESTERN-BOOT-SS241111-MODEL-ZOOM--SS241111-EPI_2774.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "<<<< THIS SUMMER, HEAD WEST <<<<",
+            "heading": "SUMMER LOVE",
+            "heading_size": "h1-xlarge",
+            "content": "The search for a great summer romance...ends here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Western",
+            "button_1_link": "shopify:\/\/collections\/western-boot",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_krQrD7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DESERT-BUCKLESANDAL-SS241218-LUZON-BUCKLESANDAL-SS241219-SAMADHI-BUCKLESANDAL-SS241217-MODELZOOM-GROUP-4Q2A8240.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/DESERT-BUCKLESANDAL-SS241218-LUZON-BUCKLESANDAL-SS241219-SAMADHI-BUCKLESANDAL-SS241217-MODELZOOM-GROUP-4Q2A8240.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "\"Insanely comfortable. Incredibly gorgeous!\"",
+            "heading": "OUR QUICKEST STYLE TO SELL OUT",
+            "heading_size": "h1-xlarge",
+            "content": "Is back in limited quantities, while they last.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Sandals",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "164794776393e76b8e-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at3.39.32PM.png",
             "slide_link": "",
@@ -57,6 +111,7 @@
         },
         "164794776393e76b8e-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/DESERT-BUCKLE-SANDAL-SS241218-HOLD-SS241218-EPI_2696.jpg",
             "mobile_image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at2.13.44PM.png",
@@ -166,6 +221,8 @@
       },
       "block_order": [
         "164794776393e76b8e-2",
+        "slide_yLj9Aj",
+        "slide_krQrD7",
         "164794776393e76b8e-1",
         "164794776393e76b8e-0",
         "slide_Ktfza8",
