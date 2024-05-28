@@ -198,16 +198,16 @@
               if swatch_count > 0
                 assign option_type = 'color'
               endif
-            -%}0
+            -%}
             {%- liquid
               assign option_slug = option.name | downcase
               assign sizing_link = ''
 
               assign sizing_guide_variant = block.settings.sizing_guide_variant | default: 'Size' | downcase
-            -%}1
-            {%- if option_slug == sizing_guide_variant -%}2
-              {%- if block.settings.sizing_guide_text != '' -%}3
-                  {%- capture sizing_link -%}4
+            -%}{{ sizing_guide_variant }}
+            {%- if option_slug == sizing_guide_variant -%}
+              {%- if block.settings.sizing_guide_text != '' -%}
+                  {%- capture sizing_link -%}
                     <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
                       {% assign product_tags = product.tags | join: ' ' %}
                       <div class="product_size-chart">
