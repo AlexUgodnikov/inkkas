@@ -163,7 +163,7 @@
         </div>
       {% endif %}
 
-      {%- unless product.has_only_default_variant -%}
+      {%- unless product.has_only_default_variant -%}1
         {%- liquid
         assign is_disabled = block.settings.variant_is_disabled
         assign picker_type = 'dropdown'
@@ -575,7 +575,7 @@
               })
             });
           </script>
-        {% endif %}111
+        {% endif %}
         {{ sizing_link }}
       {%- endunless -%}
       <noscript class="product-form__noscript-wrapper-{{ section.id }}">
