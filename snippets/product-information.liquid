@@ -163,7 +163,7 @@
         </div>
       {% endif %}
 
-      {%- unless product.has_only_default_variant -%}1
+      {%- unless product.has_only_default_variant -%}
         {%- liquid
         assign is_disabled = block.settings.variant_is_disabled
         assign picker_type = 'dropdown'
@@ -177,7 +177,7 @@
         data-url="{{ product.url }}"
         data-is-disabled="{{ is_disabled }}"
       >
-        <div class="variations" {{ block.shopify_attributes }}>
+        <div class="variations" {{ block.shopify_attributes }}>2
           {%- for option in product.options_with_values -%}
             {%- liquid
               assign option_name = option.name | downcase | escape
