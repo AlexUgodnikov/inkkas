@@ -42,6 +42,7 @@
     "color_badge_text": "#ffffff",
     "sale_badge_color": "#c95137",
     "sale_badge_color_text": "#ffffff",
+    "new_arrivals_badge": "New",
     "new_arrivals_badge_color": "#4e584a",
     "new_arrivals_badge_color_text": "#ffffff",
     "sibling_style": "swatch",
