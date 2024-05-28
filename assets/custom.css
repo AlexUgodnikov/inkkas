@@ -737,5 +737,5 @@ body .flickity-page-dots.dot-style--logos .dot img {
     pointer-events: none;
 }
 #Product-Drawer .star-rating-container {
-
+    cursor: default;
 }
