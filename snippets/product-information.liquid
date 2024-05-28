@@ -177,7 +177,7 @@
         data-url="{{ product.url }}"
         data-is-disabled="{{ is_disabled }}"
       >
-        <div class="variations" {{ block.shopify_attributes }}>2
+        <div class="variations" {{ block.shopify_attributes }}>
           {%- for option in product.options_with_values -%}
             {%- liquid
               assign option_name = option.name | downcase | escape
@@ -204,7 +204,7 @@
               assign sizing_link = ''
 
               assign sizing_guide_variant = block.settings.sizing_guide_variant | default: 'Size' | downcase
-            -%}{{ option_slug }}-{{ sizing_guide_variant }}
+            -%}
             {%- if option_slug == sizing_guide_variant -%}
               {%- if block.settings.sizing_guide_text != '' -%}
                   {%- capture sizing_link -%}
