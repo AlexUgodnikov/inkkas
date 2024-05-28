@@ -205,8 +205,8 @@
 
               assign sizing_guide_variant = block.settings.sizing_guide_variant | default: 'Size' | downcase
             -%}1
-            {%- if option_slug == sizing_guide_variant -%}
-              {%- if block.settings.sizing_guide_text != '' -%}
+            {%- if option_slug == sizing_guide_variant -%}2
+              {%- if block.settings.sizing_guide_text != '' -%}3
                   {%- capture sizing_link -%}
                     <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
                       {% assign product_tags = product.tags | join: ' ' %}
