@@ -162,13 +162,13 @@
           {% endfor %}
         </div>
       {% endif %}
-
-      {%- unless product.has_only_default_variant -%}
+1
+      {%- unless product.has_only_default_variant -%}2
         {%- liquid
         assign is_disabled = block.settings.variant_is_disabled
         assign picker_type = 'dropdown'
 	      assign color_picker = true
-      -%}
+      -%}3
       <variant-selects
         id="variant-selects-{{ section.id }}"
         class="no-js-hidden"
