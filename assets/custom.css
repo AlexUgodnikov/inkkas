@@ -743,3 +743,6 @@ body .flickity-page-dots.dot-style--logos .dot img {
 #Product-Drawer .star-rating-container {
     cursor: default;
 }
+.single-add-to-cart-button.button {
+    width: 100%;
+}
