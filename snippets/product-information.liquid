@@ -204,7 +204,7 @@
               assign sizing_link = ''
 
               assign sizing_guide_variant = block.settings.sizing_guide_variant | default: 'Size' | downcase
-            -%}{{ sizing_guide_variant }}
+            -%}
             {%- if option_slug == sizing_guide_variant -%}
               {%- if block.settings.sizing_guide_text != '' -%}
                   {%- capture sizing_link -%}
