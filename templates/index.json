@@ -955,18 +955,18 @@
             "image": "shopify:\/\/shop_images\/DESERT-WESTERN-BOOT-SS231123-MODEL-EPI_8719.jpg"
           }
         },
+        "collection_8NqDrp": {
+          "type": "collection",
+          "settings": {
+            "collection": "back-in-stock",
+            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at2.45.26PM.png"
+          }
+        },
         "collection_Va4tf3": {
           "type": "collection",
           "settings": {
             "collection": "summer-24-collection",
             "image": "shopify:\/\/shop_images\/LUZON-BUCKLE-SANDAL-SS241219-FLAT-EPI_0143.jpg"
-          }
-        },
-        "collection_8NqDrp": {
-          "type": "collection",
-          "settings": {
-            "collection": "back-in-stock",
-            "image": "shopify:\/\/shop_images\/SAMADHI-JOGGER-SS240403-FLAT-EPI_9942.jpg"
           }
         },
         "collection_Wx6zpg": {
@@ -992,8 +992,8 @@
       "block_order": [
         "collection_MLpY6y",
         "collection_Xmq4ht",
-        "collection_Va4tf3",
         "collection_8NqDrp",
+        "collection_Va4tf3",
         "collection_Wx6zpg",
         "collection_h37eJm",
         "collection_YHM9Li"
