@@ -162,7 +162,7 @@
           {% endfor %}
         </div>
       {% endif %}
-      
+
       {%- unless product.has_only_default_variant -%}
         {%- liquid
         assign is_disabled = block.settings.variant_is_disabled
@@ -205,9 +205,9 @@
 
               assign sizing_guide_variant = block.settings.sizing_guide_variant | default: 'Size' | downcase
             -%}
-            {%- if option_slug == sizing_guide_variant -%}
-              {%- if block.settings.sizing_guide_text != '' -%}
-                  {%- capture sizing_link -%}
+            {%- if option_slug == sizing_guide_variant -%}1
+              {%- if block.settings.sizing_guide_text != '' -%}2
+                  {%- capture sizing_link -%}3
                     <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
                       {% assign product_tags = product.tags | join: ' ' %}
                       <div class="product_size-chart">
