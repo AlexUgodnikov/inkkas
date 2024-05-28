@@ -648,6 +648,9 @@ collapsible-row + .share-article {
 .product-information .share-article label {
     margin: 0 15px 0 0;
 }
+.thb-product-detail shopify-payment-terms {
+    border-bottom: none;
+}
 .fancybox-container a {
     pointer-events: none;
 }
