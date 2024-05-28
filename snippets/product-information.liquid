@@ -177,7 +177,7 @@
         data-url="{{ product.url }}"
         data-is-disabled="{{ is_disabled }}"
       >
-        <div class="variations" {{ block.shopify_attributes }}>
+        <div class="variations" {{ block.shopify_attributes }}>0
           {%- for option in product.options_with_values -%}
             {%- liquid
               assign option_name = option.name | downcase | escape
