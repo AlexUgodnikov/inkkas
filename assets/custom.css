@@ -643,6 +643,7 @@ collapsible-row + .share-article {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 25px;
 }
 .product-information .share-article label {
     margin: 0 15px 0 0;
