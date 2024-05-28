@@ -207,7 +207,7 @@
             -%}1
             {%- if option_slug == sizing_guide_variant -%}2
               {%- if block.settings.sizing_guide_text != '' -%}3
-                  {%- capture sizing_link -%}
+                  {%- capture sizing_link -%}4
                     <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
                       {% assign product_tags = product.tags | join: ' ' %}
                       <div class="product_size-chart">
