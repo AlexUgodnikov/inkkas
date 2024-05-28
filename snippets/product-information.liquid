@@ -162,16 +162,16 @@
           {% endfor %}
         </div>
       {% endif %}
-    {%- for option in product.options_with_values -%}1
+    {%- for option in product.options_with_values -%}
       {%- liquid
         assign option_slug = option.name | downcase
         assign sizing_link = ''
 
         assign sizing_guide_variant = block.settings.sizing_guide_variant | default: 'Size' | downcase
-      -%}2
-    {%- if option_slug == sizing_guide_variant -%}3
-    {%- if block.settings.sizing_guide_text != '' -%}4
-    {%- capture sizing_link -%}5
+      -%}{{ sizing_guide_variant }}-{{ option_slug }}
+    {%- if option_slug == sizing_guide_variant -%}
+    {%- if block.settings.sizing_guide_text != '' -%}
+    {%- capture sizing_link -%}
       <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
         {% assign product_tags = product.tags | join: ' ' %}
         <div class="product_size-chart">
