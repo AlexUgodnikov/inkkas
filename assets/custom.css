@@ -643,9 +643,13 @@ collapsible-row + .share-article {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 25px;
 }
 .product-information .share-article label {
     margin: 0 15px 0 0;
+}
+.thb-product-detail .product-information shopify-payment-terms {
+    border-bottom: none;
 }
 .fancybox-container a {
     pointer-events: none;
@@ -735,4 +739,15 @@ body .flickity-page-dots.dot-style--logos .dot img {
     width: 100%;
     height: 1px;
     pointer-events: none;
+}
+#Product-Drawer .star-rating-container {
+    cursor: default;
+}
+.product-form__buttons .single-add-to-cart-button.button {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+product-form > form > .product-form__buttons > p {
+    text-align: center;
 }
