@@ -57,6 +57,7 @@
         "button_7nXArt",
         "button_kzaya7"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "grid",
         "text_width": "medium",
@@ -93,6 +94,7 @@
         "icon_wGfBgc",
         "icon_bUjkjH"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "center",
         "icon_position": "top",
@@ -119,6 +121,7 @@
       "block_order": [
         "subheading_iEVmgN"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "grid",
         "text_width": "medium",
@@ -173,6 +176,7 @@
         "icon_BVEAzd",
         "icon_wjkUep"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "left",
         "icon_position": "left",
@@ -190,7 +194,7 @@
       "type": "page",
       "disabled": true,
       "settings": {
-        "page": "shipping",
+        "page": "",
         "show_page_title": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false

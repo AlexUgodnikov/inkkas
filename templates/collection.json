@@ -169,7 +169,6 @@
     },
     "16636704759cbf64c5": {
       "type": "spacer",
-      "disabled": true,
       "settings": {
         "spacer_mobile": 50,
         "spacer_desktop": 125,
@@ -185,6 +184,52 @@
         "border_separator": false,
         "border_separator_full": false
       }
+    },
+    "text_with_icons_MkhgQi": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_hYBx9X": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "heading": "GET REWARDED",
+            "text": "<p><a href=\"\/pages\/rewards\" target=\"_blank\" title=\"REWARDS\">Earn points & redeem rewards<\/a> on every purchase.<\/p>"
+          }
+        },
+        "icon_RUwBjH": {
+          "type": "icon",
+          "settings": {
+            "icon": "return",
+            "heading": "EASY RETURNS",
+            "text": "<p>for 30 days from delivery. Plus <strong>FREE<\/strong> <strong>RETURNS <\/strong>within 7 days of delivery.<\/p>"
+          }
+        },
+        "icon_FcNWP3": {
+          "type": "icon",
+          "settings": {
+            "icon": "box",
+            "heading": "FREE SHIPPING",
+            "text": "<p>for orders of $175+ plus expedited shipping available to most regions.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_hYBx9X",
+        "icon_RUwBjH",
+        "icon_FcNWP3"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "xlarge",
+        "heading_size": "large",
+        "mobile_swipe": false,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#151515",
+        "color_text": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -192,6 +237,7 @@
     "product-grid",
     "166366972953e881f5",
     "16636704759cbf64c5",
-    "166367228131c52c01"
+    "166367228131c52c01",
+    "text_with_icons_MkhgQi"
   ]
 }

@@ -3,8 +3,88 @@
     "16479477632637c9a7": {
       "type": "slideshow",
       "blocks": {
+        "164794776393e76b8e-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DESERT-BUCKLESANDAL-SS241218-LUZON-BUCKLESANDAL-SS241219-SAMADHI-BUCKLESANDAL-SS241217-MODELZOOM-GROUP-4Q2A8240.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "",
+            "subheading": "\"Insanely comfortable... Incredibly gorgeous!\"",
+            "heading": "OUR QUICKEST STYLE \nTO SELL OUT",
+            "heading_size": "h1-large",
+            "content": "Is back in limited quantities:",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20,
+            "overlay_gradient": "",
+            "button_1_text": "Shop SandalS",
+            "button_1_link": "shopify:\/\/collections\/ss24-vacay-ready",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_UkyBeK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SOCORRO-WESTERN-BOOT-SS231121-MODEL-EPI_7982_bbc4f95d-14bf-44b4-b925-3a5bca73a8c7.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "<<<< THIS SUMMER, HEAD WEST <<<<",
+            "heading": "SUMMER  LOVE",
+            "heading_size": "h1-xlarge",
+            "content": "Your search for summer romance ends here...",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Western",
+            "button_1_link": "shopify:\/\/collections\/western-boot",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_X4w7DM": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "slide_link": "",
+            "video_background": true,
+            "video": "",
+            "video_hosted": "shopify:\/\/files\/videos\/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
+            "subheading": "unique designs, plush support, globally-inspired",
+            "heading": "TREKK INTO YOUR SUMMER",
+            "heading_size": "h1-xlarge",
+            "content": "Most of our shoes are unisex, but feel free to search by category:",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop MEN",
+            "button_1_link": "shopify:\/\/collections\/mens-shoes",
+            "button_1_outline": true,
+            "button_2_text": "Shop Women",
+            "button_2_link": "shopify:\/\/collections\/womens-collection-all-shoes",
+            "button_2_outline": false
+          }
+        },
         "164794776393e76b8e-2": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.02.30PM.png",
             "slide_link": "",
@@ -29,86 +109,6 @@
             "button_2_outline": false
           }
         },
-        "slide_yLj9Aj": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-WESTERN-BOOT-SS241111-MODEL-ZOOM--SS241111-EPI_2774.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "<<<< THIS SUMMER, HEAD WEST <<<<",
-            "heading": "SUMMER LOVE",
-            "heading_size": "h1-xlarge",
-            "content": "The search for a great summer romance ends here.",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "Shop Western",
-            "button_1_link": "shopify:\/\/collections\/western-boot",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_krQrD7": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DESERT-BUCKLESANDAL-SS241218-LUZON-BUCKLESANDAL-SS241219-SAMADHI-BUCKLESANDAL-SS241217-MODELZOOM-GROUP-4Q2A8240.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/DESERT-BUCKLESANDAL-SS241218-LUZON-BUCKLESANDAL-SS241219-SAMADHI-BUCKLESANDAL-SS241217-MODELZOOM-GROUP-4Q2A8240.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "\"Insanely comfortable. Incredibly gorgeous!\"",
-            "heading": "OUR QUICKEST STYLE TO SELL OUT",
-            "heading_size": "h1-xlarge",
-            "content": "Is back in limited quantities, while they last.",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "Shop Sandals",
-            "button_1_link": "",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "164794776393e76b8e-1": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at3.39.32PM.png",
-            "slide_link": "",
-            "video_background": false,
-            "video": "",
-            "subheading": "\"Insanely comfortable & Incredibly gorgeous!\"",
-            "heading": "Introducing: \nThe Buckle Sandle",
-            "heading_size": "h1-large",
-            "content": "Handcrafted, unique & BURSTING with color",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 20,
-            "overlay_gradient": "",
-            "button_1_text": "Shop Now",
-            "button_1_link": "shopify:\/\/products\/samadhi-buckle-sandal",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
         "164794776393e76b8e-0": {
           "type": "slide",
           "disabled": true,
@@ -119,7 +119,7 @@
             "video_background": false,
             "video": "",
             "subheading": "Sunshine is Calling",
-            "heading": "The Radiance Collection",
+            "heading": "ALL NEW FOR SUMMER",
             "heading_size": "h1-large",
             "content": "Prepare to be inspired.",
             "description_size": "small",
@@ -131,33 +131,6 @@
             "overlay_gradient": "",
             "button_1_text": "SHOP NEW",
             "button_1_link": "shopify:\/\/collections\/the-radiance-collection",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_Ktfza8": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "slide_link": "shopify:\/\/collections\/trekk-boots",
-            "video_background": true,
-            "video": "",
-            "video_hosted": "shopify:\/\/files\/videos\/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
-            "subheading": "Trekk into your summer",
-            "heading": "Adventure is always in-season",
-            "heading_size": "h1-xlarge",
-            "content": "All Inkkas Trekks are water-resistant, offer plush ankle support & feature unique, global designs.",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "SHOP TREKKS",
-            "button_1_link": "shopify:\/\/collections\/trekk-boots",
             "button_1_outline": true,
             "button_2_text": "",
             "button_2_link": "",
@@ -191,6 +164,33 @@
             "button_2_outline": false
           }
         },
+        "slide_JNAXcC": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/POPINJAY-TREKK-BOOT-SS241014-MODEL-SS241014-EPI_2963.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "25% OFF SITE-WIDE STARTS NOW!",
+            "heading": "BIGGEST SALE OF THE SEASON IS HERE!",
+            "heading_size": "h1-xlarge",
+            "content": "Memorial Day Weekend only, get 25% off EVERYTHING with code: MDW25",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#87a0fe",
+            "overlay_opacity": 0,
+            "overlay_gradient": "radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "slide_iQBDH3": {
           "type": "slide",
           "disabled": true,
@@ -220,13 +220,13 @@
         }
       },
       "block_order": [
-        "164794776393e76b8e-2",
-        "slide_yLj9Aj",
-        "slide_krQrD7",
         "164794776393e76b8e-1",
+        "slide_UkyBeK",
+        "slide_X4w7DM",
+        "164794776393e76b8e-2",
         "164794776393e76b8e-0",
-        "slide_Ktfza8",
         "slide_xDcpXe",
+        "slide_JNAXcC",
         "slide_iQBDH3"
       ],
       "settings": {
@@ -329,8 +329,8 @@
       "settings": {
         "heading": "",
         "heading_left": true,
-        "description": "<p>The best looking (and feeling) boot you've ever worn.<\/p>",
-        "full_width": true,
+        "description": "<p><em>water-resistant materials, plush ankle support & unique global designs make these your summer go-to<\/em><\/p>",
+        "full_width": false,
         "collection": "trekk-boots",
         "display_type": "carousel",
         "product_limit": 12,
@@ -344,7 +344,6 @@
     },
     "background_video_6gFnMp": {
       "type": "background-video",
-      "disabled": true,
       "settings": {
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-350",
@@ -382,7 +381,7 @@
             "sizing_guide_variant": "Size",
             "sizing_guide_text": "Sizing guide",
             "sizing_guide_icon": "ruler",
-            "sizing_guide_page": ""
+            "sizing_guide_page": "size-guide-buckle-sandals"
           }
         },
         "product_link_gpLtpg": {
@@ -404,7 +403,6 @@
         "product_link_gpLtpg",
         "buy_buttons_GKUHRJ"
       ],
-      "disabled": true,
       "settings": {
         "heading": "",
         "heading_left": false,
@@ -418,7 +416,7 @@
         "lightbox": true,
         "enable_video_looping": false,
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     },
     "rich_text_TgYL4f": {
@@ -454,7 +452,7 @@
         "image_xGGVXL": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/resizedSPIRIT-BEAR-VEGAN-JOGGER-AW230401-FLAT-4Q2A4735.jpg",
+            "image": "shopify:\/\/shop_images\/ANDES-GREY-JOGGER-S223809-STUDIO-1_eb39558e-d423-4895-a859-d7c16a9ce949.jpg",
             "subheading": "",
             "title": "",
             "text": "Plush, retro & oozing comfort.",
@@ -534,10 +532,10 @@
         "image_kykCKB": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/APEX-RUNNER-V.2-SS240615-FLAT-SS240615-EPI_0413.jpg",
+            "image": "shopify:\/\/shop_images\/resized_SPIRIT_BEAR-RUNNER-V.2-AW230616-FLAT--EPI_9396.jpg",
             "subheading": "",
             "title": "",
-            "text": "Sporty, lightweight, essential.",
+            "text": "Sporty, stylish, essential.",
             "link_label": "V2 RUNNERS",
             "link": "shopify:\/\/collections\/flexaire",
             "use_text_button": false,
@@ -582,7 +580,7 @@
         "image_UkENLQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/COROZAL-BOOTIE-SS220818-FLAT-W1A5348.jpg",
+            "image": "shopify:\/\/shop_images\/BROWN-LEATHER-BOOTIE-SS200822-FLAT-_IMG_9910.heic",
             "subheading": "",
             "title": "",
             "text": "For all-day & all-night.",
@@ -745,7 +743,7 @@
         "f0e5414e-308c-4a64-91b5-1f08b8650731": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SOKOKE-SLIP-ON-SS220303-MODEL-ZOOM-EPI_2770.jpg",
+            "image": "shopify:\/\/shop_images\/HIGH-TOP-MANU-AW210103--MODEL-ZOOM---EPI_1667.jpg",
             "stars": "5",
             "text": "\"I love their diverse & colorful designs. Always waiting for the next drop!\"",
             "author": "Carly M."
@@ -754,7 +752,7 @@
         "2bf39bcc-dfc9-43ae-b6a4-9cecdb3197c9": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BRISBANE-TREKK-MODEL-ZOOM-EPI_0721.jpg",
+            "image": "shopify:\/\/shop_images\/BLACK-BARRACUDA-CAMPING-BOOT-190402-UGC-Inkkas-7.jpg",
             "stars": "5",
             "text": "\"A great day starts with putting on my Inkkas!\"",
             "author": "Ellie J."
@@ -778,25 +776,6 @@
         "disable_bottom_spacing": true
       }
     },
-    "featured_collection_TtbDL6": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "heading": "WESTERN BOOTS",
-        "heading_left": true,
-        "description": "<p><em>From sun up to sun down, these boots are always ready for a boogie or a hoedown<\/em><\/p>",
-        "full_width": true,
-        "collection": "western-boot",
-        "display_type": "carousel",
-        "product_limit": 6,
-        "columns_desktop": 4,
-        "show_view_all": true,
-        "mobile_swipe": true,
-        "show_progress_bar": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
     "16620983071df6eb29": {
       "type": "text-with-icons",
       "blocks": {
@@ -812,8 +791,8 @@
           "type": "icon",
           "settings": {
             "icon": "return",
-            "heading": "FREE & EASY RETURNS",
-            "text": "<p>for 7 days from delivery. No questions asked.<\/p>"
+            "heading": "EASY RETURNS",
+            "text": "<p>for 30 days from delivery. Plus, <strong>FREE RETURNS<\/strong> within 7 days of delivery. <\/p>"
           }
         },
         "icon_iP6bLk": {
@@ -909,7 +888,7 @@
         "heading_iNFrzm": {
           "type": "heading",
           "settings": {
-            "text": "SHOP THESE DESIGN EDITS",
+            "text": "SHOP THESE STYLE EDITS",
             "size": "h2"
           }
         },
@@ -947,28 +926,26 @@
           "type": "collection",
           "settings": {
             "collection": "the-radiance-collection",
-            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-JOGGER-SS240402-HOLD-SS240402-EPI_3478.jpg"
+            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.26.51PM.png"
           }
         },
         "collection_Xmq4ht": {
           "type": "collection",
           "settings": {
             "collection": "best-sellers",
-            "image": "shopify:\/\/shop_images\/DESERT-WESTERN-BOOT-SS231123-MODEL-EPI_8719.jpg"
+            "image": "shopify:\/\/shop_images\/CYPRUS-COWBOY-BOOT-SS231124-MODEL-EPI_7542.jpg"
           }
         },
         "collection_8NqDrp": {
           "type": "collection",
           "settings": {
-            "collection": "back-in-stock",
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at2.45.26PM.png"
+            "collection": "back-in-stock"
           }
         },
         "collection_Va4tf3": {
           "type": "collection",
           "settings": {
-            "collection": "summer-24-collection",
-            "image": "shopify:\/\/shop_images\/LUZON-BUCKLE-SANDAL-SS241219-FLAT-EPI_0143.jpg"
+            "collection": "ss24-vacay-ready"
           }
         },
         "collection_Wx6zpg": {
@@ -1016,9 +993,9 @@
     "featured_collection_kpwePb": {
       "type": "featured-collection",
       "settings": {
-        "heading": "SHARE THE JOY WITH HIM!",
+        "heading": "SHARE THE JOY",
         "heading_left": true,
-        "description": "<p><em>Unisex products + colorful expression = a perfect gift. <\/em><\/p>",
+        "description": "<p><em>Global inspiration & colorful expression is always the perfect gfit. <\/em><\/p>",
         "full_width": true,
         "collection": "perfect-gifts-for-everybody",
         "display_type": "carousel",
@@ -1075,7 +1052,7 @@
         "color_text": "#151515",
         "color_border": "#e2e2e2",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     },
     "rich_text_8crLJD": {
@@ -1090,7 +1067,7 @@
         "heading_JaRifV": {
           "type": "heading",
           "settings": {
-            "text": "@InkkasWorldwear",
+            "text": "@INKKASWORLDWEAR",
             "size": "h2"
           }
         }
@@ -1204,7 +1181,6 @@
     "rich_text_TgYL4f",
     "166143150135dd97e2",
     "16615358507b6ff1a8",
-    "featured_collection_TtbDL6",
     "16620983071df6eb29",
     "image_with_text_overlay_jzpJKc",
     "rich_text_3FCgYV",
