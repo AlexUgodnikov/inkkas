@@ -36,6 +36,10 @@
 	{% render 'social-meta-tags' %}
 
 	{{ 'app.css' | asset_url | stylesheet_tag }}
+	{{ 'custom.css' | asset_url | stylesheet_tag }}
+
+		{{ 'fancy.css' | asset_url | stylesheet_tag }}
+	<link rel="stylesheet" href="{{ 'swiper-bundle.min.css' | asset_url }}">
 
 	{% render 'head-variables' %}
 
@@ -74,6 +78,14 @@
 	{{ content_for_header }} <!-- Header hook for plugins -->
 
 	<script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+	
+	<script src="{{ 'jquery.js' | asset_url }}" defer></script>
+	<script src="{{ 'fancy.js' | asset_url }}" defer></script>
+	<script src="{{ 'jquery.cookie.js' | asset_url }}" defer></script>
+	<script src="{{ 'custom.js' | asset_url }}" defer></script>
+	<script src="{{ 'swiper-bundle.min.js' | asset_url }}" async></script>
+	{{ shop.metafields.okendo.ReviewsWidgetStyleTag }}
+	{{ shop.metafields.okendo.StyleCustomizations }}
 </head>
 <body class="animations-{{ settings.animations }} button-uppercase-{{ settings.button_uppercase }} navigation-uppercase-{{ settings.navigation_uppercase }} product-title-uppercase-{{ settings.product_title_uppercase }}{% if customer %} customer-logged-in{% endif %} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', '-' | handle }}">
 	<a class="screen-reader-shortcut" href="#main-content">{{ 'accessibility.skip_to_text' | t }}</a>
@@ -125,6 +137,8 @@
 	{%- if settings.cart_recommendations -%}
 	<script src="{{ 'product-recommendations.js' | asset_url }}" defer="defer"></script>
 	{%- endif -%}
+
 	{% render 'back-to-top' %}
+	{% include 'smile-initializer' %}
   </body>
 </html>

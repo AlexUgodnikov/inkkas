@@ -1,0 +1,82 @@
+<style>
+    #westernPopUpStyles .h1 {
+        text-transform: uppercase;
+        margin: 0;
+        background: #d1d3d4;
+        text-align: center;
+        font-size: 29px;
+        padding: 7px;
+        position: relative;
+        letter-spacing: 2px;
+    }
+    #westernPopUpStyles .h1 p {
+        width: max-content;
+        margin: 0 auto;
+        position: relative;
+        max-width: 100%;
+    }
+    #westernPopUpStyles .h1 p:before {
+        content: '';
+        width: 95%;
+        height: 2px;
+        background: #000;
+        position: absolute;
+        bottom: -1px;
+        left: 2.5%;
+    }
+    #westernPopUpStyles .text {
+        line-height: 120%;
+        font-size: 18px;
+    }
+    #westernPopUpStyles .text span {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    #westernPopUpStyles .h2 {
+        text-transform: uppercase;
+        margin: 0;
+        background: #d1d3d4;
+        text-align: center;
+        font-size: 19px;
+        padding: 5px;
+        position: relative;
+        letter-spacing: 3px;
+        font-weight: 300;
+    }
+    #westernPopUpStyles .text.custom-letter-spacing {
+        letter-spacing: 3px;
+        font-size: 17px;
+    }
+    #westernPopUpStyles .h2 p {
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        margin: 0;
+        padding: 6px 0;
+    }
+    #westernPopUpStyles .text.mb-custom {
+        margin-bottom: 32px;
+    }
+    .table-striped.without-margin p {
+        margin-top: 0;
+    }
+</style>
+
+<div class="js-sizechart-lightbox" id="size-chart{{ product.id }}" style="display: none">
+  <div class="size-chart-wrap">
+    {% assign product_tags = product.tags | join: ' ' %}
+    {% if product_tags contains 'western-size-chart' %}
+      {% for tag in product.tags %}
+        {% if tag contains 'western-size-chart' %}
+          {% assign western_size_chart = tag | handle | remove: 'meta-size-chart-' %}
+          <h5 class="center">{{ pages[western_size_chart].title }}</h5>
+          <div class="feature_divider"></div>
+          {{ pages[western_size_chart].content | replace: "<a", "<span class='fancybox-custom-link'" | replace: "</a", "</span" }}
+        {% endif %}
+      {% endfor %}
+    {% elsif settings.western_size_chart != blank %}
+      <h5 class="center">{{ pages[settings.western_size_chart].title }}</h5>
+      <div class="feature_divider"></div>
+      {{ pages[settings.western_size_chart].content | replace: "<a", "<span class='fancybox-custom-link'" | replace: "</a", "</span" }}
+    {% endif %}
+  </div>
+</div>

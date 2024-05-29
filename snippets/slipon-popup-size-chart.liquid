@@ -1,0 +1,19 @@
+<div class="js-sizechart-lightbox" id="size-chart{{ product.id }}" style="display: none">
+  <div class="size-chart-wrap">
+    {% assign product_tags = product.tags | join: ' ' %}
+    {% if product_tags contains 'slip-on-size-chart' %}
+      {% for tag in product.tags %}
+        {% if tag contains 'slip-on-size-chart' %}
+          {% assign slip_on_size_chart = tag | handle | remove: 'meta-size-chart-' %}
+          <h5 class="center">{{ pages[slip_on_size_chart].title }}</h5>
+          <div class="feature_divider"></div>
+          {{ pages[slip_on_size_chart].content | replace: "<a", "<span class='fancybox-custom-link'" | replace: "</a", "</span" }}
+        {% endif %}
+      {% endfor %}
+    {% elsif settings.slip_on_size_chart != blank %}
+      <h5 class="center">{{ pages[settings.slip_on_size_chart].title }}</h5>
+      <div class="feature_divider"></div>
+      {{ pages[settings.slip_on_size_chart].content | replace: "<a", "<span class='fancybox-custom-link'" | replace: "</a", "</span" }}
+    {% endif %}
+  </div>
+</div>

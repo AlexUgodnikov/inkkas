@@ -34,10 +34,15 @@
             "color_picker_size": "regular",
             "color_picker_use_variants": false,
             "variant_is_disabled": true,
-            "sizing_guide_variant": "Size",
-            "sizing_guide_text": "Size guide",
+            "sizing_guide_variant": "",
+            "sizing_guide_text": "Size Guide",
             "sizing_guide_icon": "ruler",
             "sizing_guide_page": ""
+          }
+        },
+        "preorder_me_product_button_t8zPaL": {
+          "type": "shopify:\/\/apps\/preorder-me\/blocks\/product-button\/d3a9a307-3c62-4d7b-8a5b-7ae9b6e399ce",
+          "settings": {
           }
         },
         "buy_buttons": {
@@ -46,46 +51,6 @@
             "show_quantity_selector": true,
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
-          }
-        },
-        "collapsible_tab_kQpjT8": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Description",
-            "open": true,
-            "content": "",
-            "page": "",
-            "custom_liquid": "{{product.description}}"
-          }
-        },
-        "collapsible_tab_pfqtJr": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Features",
-            "open": false,
-            "content": "",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_niJNiE": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "open": false,
-            "content": "<p><strong>Free Shipping: <\/strong>Free USPS ground shipping on orders of $175 or more is automatically applied at checkout.<\/p><p><strong>Shipping Options<\/strong>: We offer USPS ground and expedited UPS 2-Day Air options. All orders are processed the  business day after placement. <\/p><p><strong>Free Returns<\/strong>: We provide a FREE prepaid shipping label for items returned within 7 days of delivery. You may still return items for up to 30 days, less the cost of return shipping. View our full return policy <a href=\"\/pages\/return_policy\" title=\"Returns and Exchanges\">here<\/a>.<\/p><p><strong>Pre-Orders<\/strong>: Because we make our collections in small batches, we also make certain products available for pre-order. We do our best to project accurate shipping dates for pre-orders on the product page; however, please note that these dates could change.<\/p>",
-            "page": "",
-            "custom_liquid": ""
-          }
-        },
-        "collapsible_tab_iM6t78": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Guide",
-            "open": false,
-            "content": "",
-            "page": "instructions",
-            "custom_liquid": ""
           }
         },
         "collapsible_tab_PqJnhK": {
@@ -117,6 +82,238 @@
             "side_panel_3_page": "instructions"
           }
         },
+        "collapsible_tab_iM6t78": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Care Guide",
+            "open": false,
+            "content": "",
+            "page": "instructions",
+            "custom_liquid": ""
+          }
+        },
+        "collapsible_tab_2_hxiDMm": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": false,
+            "product_tag": "",
+            "heading": "Description",
+            "show_description": true,
+            "description_type": "show_before_ul",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_2_UkAjaq": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": false,
+            "product_tag": "",
+            "heading": "Features",
+            "show_description": true,
+            "description_type": "show_ul",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_2_J3DBXz": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": false,
+            "product_tag": "",
+            "heading": "Shipping & Returns",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "<p><strong>Free Shipping: <\/strong>FREE USPS ground shipping on orders of $175 or more is automatically applied at checkout!<\/p><p><strong>Easy Returns<\/strong>: We provide FREE shipping for items returned within 7 days of delivery. You can still easily return items for up to 30 days, less the cost of return shipping. View our full return policy <a href=\"\/pages\/return_policy\" title=\"Returns and Exchanges\">here<\/a>.<\/p><p><strong>Pre-Orders<\/strong>: Because we make collections in small batches, we also make certain products available for pre-order. We do our best to project accurate shipping dates for pre-orders on the product page; however, please note that these dates could change.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_2_6kFqVT": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "size-guide-trekks",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "instructions"
+          }
+        },
+        "collapsible_tab_2_ALh97A": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "boots-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "instructions"
+          }
+        },
+        "collapsible_tab_2_mG4tgE": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "bootie-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "instructions"
+          }
+        },
+        "collapsible_tab_2_mDnryw": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "western-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "instructions"
+          }
+        },
+        "collapsible_tab_2_CwBR3G": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "high-top-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-2"
+          }
+        },
+        "collapsible_tab_2_PFyByf": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "low-top-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-2"
+          }
+        },
+        "collapsible_tab_2_efAGwX": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "bags",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-1"
+          }
+        },
+        "collapsible_tab_2_NGVjqH": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "runner-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-runners"
+          }
+        },
+        "collapsible_tab_2_3iXC6k": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "kids-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-ht"
+          }
+        },
+        "collapsible_tab_2_cLYJEf": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "slip-on-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-slipons-slides"
+          }
+        },
+        "collapsible_tab_2_8enptb": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "slide-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions"
+          }
+        },
+        "collapsible_tab_2_9zwncR": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "jogger-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-joggers"
+          }
+        },
+        "collapsible_tab_2_nA4Rag": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "size-guide-buckle-sandals",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "copy-of-care-instructions"
+          }
+        },
+        "collapsible_tab_2_EG6eBL": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "show_okendo_reviews": true,
+            "show_only_with_tag": false,
+            "product_tag": "",
+            "heading": "Customer Reviews",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": ""
+          }
+        },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
           "settings": {
@@ -127,13 +324,28 @@
         "title",
         "inventory_level_BhJagd",
         "variant_picker",
+        "preorder_me_product_button_t8zPaL",
         "buy_buttons",
-        "collapsible_tab_kQpjT8",
-        "collapsible_tab_pfqtJr",
-        "collapsible_tab_niJNiE",
-        "collapsible_tab_iM6t78",
         "collapsible_tab_PqJnhK",
         "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
+        "collapsible_tab_iM6t78",
+        "collapsible_tab_2_hxiDMm",
+        "collapsible_tab_2_UkAjaq",
+        "collapsible_tab_2_J3DBXz",
+        "collapsible_tab_2_6kFqVT",
+        "collapsible_tab_2_ALh97A",
+        "collapsible_tab_2_mG4tgE",
+        "collapsible_tab_2_mDnryw",
+        "collapsible_tab_2_CwBR3G",
+        "collapsible_tab_2_PFyByf",
+        "collapsible_tab_2_efAGwX",
+        "collapsible_tab_2_NGVjqH",
+        "collapsible_tab_2_3iXC6k",
+        "collapsible_tab_2_cLYJEf",
+        "collapsible_tab_2_8enptb",
+        "collapsible_tab_2_9zwncR",
+        "collapsible_tab_2_nA4Rag",
+        "collapsible_tab_2_EG6eBL",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
       ],
       "settings": {
@@ -142,12 +354,18 @@
         "enable_sticky_add_to_cart": true,
         "show_taxes_included": true,
         "media_layout": "grid",
-        "display_slider_pagination": false,
+        "display_slider_pagination": true,
         "media_aspect_ratio": "adapt",
         "display_captions": false,
         "hide_variants": false,
         "lightbox": true,
         "enable_video_looping": false
+      }
+    },
+    "product_review_bTk7Cp": {
+      "type": "product-review",
+      "disabled": true,
+      "settings": {
       }
     },
     "product-recommendations": {
@@ -182,7 +400,7 @@
           "settings": {
             "icon": "star",
             "heading": "GET REWARDED",
-            "text": "<p>Ready to experience more? Join <a href=\"\/pages\/rewards\" target=\"_blank\" title=\"REWARDS\">InkkPass Rewards<\/a> to enjoy exclusive perks & redeem rewards every time you shop. <\/p>"
+            "text": "<p><a href=\"\/pages\/rewards\" target=\"_blank\" title=\"REWARDS\">Earn points & exclusive rewards<\/a> every time you shop. <\/p>"
           }
         },
         "icon_8fyykF": {
@@ -198,7 +416,7 @@
           "settings": {
             "icon": "shoe",
             "heading": "STAY SMALL",
-            "text": "<p>To minimize our carbon footprint & reduce waste, we make our collections in small batches.  <\/p>"
+            "text": "<p>To minimize our carbon footprint and reduce waste, we make collections in small batches & offer pre-order for upcoming productions.  <\/p>"
           }
         }
       },
@@ -248,7 +466,7 @@
         "83c3ef40-7ca5-4f79-8e21-16fcbebbc991": {
           "type": "text",
           "settings": {
-            "text": "<p>Inkkas creates colorful, unique & joyful designs celebrating beauty around the globe. We hope you enjoy because these shoes have literally travelled the world to get to you!<\/p>",
+            "text": "<p>Inkkas creates colorful, unique & joyful designs celebrating beauty around the globe. We hope you enjoy because these designs have literally travelled the world to get to you!<\/p>",
             "description_size": "medium"
           }
         },
@@ -317,7 +535,7 @@
         "text_bM787p": {
           "type": "text",
           "settings": {
-            "text": "<p>We plant 1 tree for every Inkkas purchase. Over the years, that has amounted to more than 380,000 trees (and counting). All thanks to you.<\/p>",
+            "text": "<p>We plant 1 tree for every Inkkas purchase. Over the years, that has amounted to more than 380,000 trees. All thanks to you.<\/p>",
             "description_size": "medium"
           }
         },
@@ -358,6 +576,7 @@
   "order": [
     "breadcrumbs",
     "main-product",
+    "product_review_bTk7Cp",
     "product-recommendations",
     "recently_viewed_products_HPzhR7",
     "text_with_icons_MRQx4U",

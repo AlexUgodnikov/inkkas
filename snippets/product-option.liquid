@@ -5,11 +5,12 @@
 
 	assign handle = option.name | replace: ' ', '-' | downcase | escape
 -%}
+
 {%- case option_type -%}
 {%- when 'dropdown' -%}
 	<fieldset class="product-form__input product-form__input--dropdown" data-index="option{{ forloop.index }}" data-handle="{{ handle }}">
 		<div class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}{{ appended }}">
-		  {{ option.name }}{{ sizing_link }}
+		  {{ option.name }}
 		</div>
 		<div class="select">
 		  <select
@@ -25,22 +26,39 @@
 		  </select>
 			<div class="select-arrow">{%- render 'svg-icons' with 'thb-select' -%}</div>
 		</div>
+		{{ sizing_link }}
 	</fieldset>
 {%- when 'button' -%}
-	<fieldset class="product-form__input product-form__input--block" data-index="option{{ forloop.index }}" data-handle="{{ handle }}">
-		<div class="form__label">{{ option.name }}: <span class="form__label__value">{{ option.selected_value }}</span>{{ sizing_link }}</div>
-		{%- for value in option.values -%}
-			<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
-						name="{{ option.name | append: appended }}"
-						value="{{ value | escape }}"
-						form="{{ product_form_id }}"
-						{% if option.selected_value == value %}checked{% endif %}
-			>
-			<label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}">
-				<span>{{ value }}</span>
-			</label>
-		{%- endfor -%}
-	</fieldset>
+	{% assign currentVariant = product.selected_or_first_available_variant %}
+		<fieldset class="product-form__input product-form__input--block" data-index="option{{ forloop.index }}" data-handle="{{ handle }}">
+			<div class="form__label">
+				{{ option.name }}: <span class="form__label__value">{{ option.selected_value }}</span>
+			</div>
+			{% for variant in product.variants %}
+				<input type="radio" id="{{ section.id }}-{{ variant.position }}-{{ forloop.index0 }}{{ appended }}"
+							 name="{{ option.name | append: appended }}"
+							 value="{{ variant.title | escape }}"
+							 form="{{ product_form_id }}"
+							 {% if currentVariant.id == variant.id %}checked{% endif %}
+							 data-inputshort="{{ variant.title | downcase |handleize }}"
+				>
+				<label class="main_prod_{{ variant.title | downcase | handleize }} available_{{ variant.available }} variant-label" for="{{ section.id }}-{{ variant.position }}-{{ forloop.index0 }}{{ appended }}" data-title="{{ variant.title }}" data-variantid="{{ variant.id }}" data-titleshort="{{ variant.title | downcase | handleize }}">
+					<span>{{ variant.title }}</span>
+				</label>
+			{% endfor %}
+			{%- for value in option.values -%}
+				<!--<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+							 name="{{ option.name | append: appended }}"
+							 value="{{ value | escape }}"
+							 form="{{ product_form_id }}"
+							 {% if option.selected_value == value %}checked{% endif %}
+				>
+				<label class="main_prod_{{ value | downcase | handleize }}" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}" data-titleshort="{{ value | downcase | handleize }}">
+					<span>{{ value }}</span>
+				</label>-->
+			{%- endfor -%}
+		</fieldset>
+		{{ sizing_link }}
 {%- when 'color' -%}
 	{%- liquid
 		assign custom_colors = settings.color_swatches | newline_to_br | split: '<br />'

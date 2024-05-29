@@ -14,7 +14,7 @@
 		</div>
 	</div>
 	<div class="row">
-	  <div class="small-12 large-8 columns myaccount-content">
+	  <div class="small-12 {% if section.settings.text != blank %}large-4{% else %}large-8{% endif %} columns myaccount-content">
 			<h4>{{ 'customer.orders.title' | t }}</h4>
 			{% paginate customer.orders by 20 %}
 	      {%- if customer.orders.size > 0 -%}
@@ -80,5 +80,22 @@
 				{{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
 			</a>
 	  </div>
+		{% if section.settings.text != blank %}
+			<div class="myaccount--text small-12 large-4 columns">
+				{{ section.settings.text }}
+			</div>
+		{% endif %}
 	</div>
 </div>
+{% schema %}
+{
+	"name": "Main Account",
+	"settings": [
+		{
+			"type": "html",
+			"id": "text",
+			"label": "Customers text"
+		}
+	]
+}
+{% endschema %}

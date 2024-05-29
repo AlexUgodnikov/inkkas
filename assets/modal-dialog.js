@@ -61,6 +61,7 @@ if (!customElements.get('modal-opener')) {
 
       if (!button) return;
       button.addEventListener('click', () => {
+
         const modal = document.querySelector(this.getAttribute('data-modal'));
         if (modal) modal.show(button);
       });
