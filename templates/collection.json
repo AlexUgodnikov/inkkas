@@ -221,9 +221,9 @@
       "settings": {
         "text_alignment": "center",
         "icon_position": "top",
-        "icon_size": "xlarge",
+        "icon_size": "large",
         "heading_size": "large",
-        "mobile_swipe": false,
+        "mobile_swipe": true,
         "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#151515",
         "color_text": "#151515",
