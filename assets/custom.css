@@ -751,3 +751,13 @@ body .flickity-page-dots.dot-style--logos .dot img {
 product-form > form > .product-form__buttons > p {
     text-align: center;
 }
+form[id^="preorder-me-button"] .single-add-to-cart-button {
+    border-color: #FD9A52!important;
+    color: #FD9A52!important;
+}
+form[id^="preorder-me-button"] .single-add-to-cart-button:hover {
+    color: #fff!important;
+}
+form[id^="preorder-me-button"] .single-add-to-cart-button:before {
+    background: #FD9A52!important;
+}
