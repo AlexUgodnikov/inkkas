@@ -11,9 +11,9 @@
             "video_background": false,
             "video": "",
             "subheading": "\"Insanely comfortable... Incredibly gorgeous!\"",
-            "heading": "OUR QUICKEST STYLE \nTO SELL OUT",
+            "heading": "BACK IN STOCK",
             "heading_size": "h1-large",
-            "content": "Is back in limited quantities:",
+            "content": "Our quickest style to SELL OUT is BACK in limited quantities:",
             "description_size": "medium",
             "content_position": "middle-center",
             "text_alignment": "center",
@@ -21,9 +21,9 @@
             "overlay_color": "#000000",
             "overlay_opacity": 20,
             "overlay_gradient": "",
-            "button_1_text": "Shop SandalS",
+            "button_1_text": "Shop Sandals",
             "button_1_link": "shopify:\/\/collections\/ss24-vacay-ready",
-            "button_1_outline": false,
+            "button_1_outline": true,
             "button_2_text": "",
             "button_2_link": "",
             "button_2_outline": false
@@ -39,7 +39,7 @@
             "subheading": "<<<< THIS SUMMER, HEAD WEST <<<<",
             "heading": "SUMMER  LOVE",
             "heading_size": "h1-xlarge",
-            "content": "Your search for summer romance ends here...",
+            "content": "Your search for a great summer romance begins & ends here.",
             "description_size": "medium",
             "content_position": "middle-center",
             "text_alignment": "center",
@@ -49,7 +49,7 @@
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
             "button_1_text": "Shop Western",
             "button_1_link": "shopify:\/\/collections\/western-boot",
-            "button_1_outline": true,
+            "button_1_outline": false,
             "button_2_text": "",
             "button_2_link": "",
             "button_2_outline": false
@@ -965,7 +965,7 @@
         "collection_YHM9Li": {
           "type": "collection",
           "settings": {
-            "collection": "sale"
+            "collection": "clearance"
           }
         }
       },

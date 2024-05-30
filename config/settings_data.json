@@ -46,6 +46,7 @@
     "new_arrivals_badge_color": "#4e584a",
     "new_arrivals_badge_color_text": "#ffffff",
     "sibling_style": "swatch",
+    "cart_terms_conditions_enable": false,
     "cart_drawer_notes": false,
     "free_shipping": true,
     "free_shipping_minimum": "175.00",
@@ -195,7 +196,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "10641372206048101839": {
+        "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-global-embed\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+        "disabled": true,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
