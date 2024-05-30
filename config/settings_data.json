@@ -49,6 +49,7 @@
     "cart_drawer_notes": false,
     "free_shipping": true,
     "free_shipping_minimum": "175.00",
+    "search_product_collection": "summer-24-collection",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
