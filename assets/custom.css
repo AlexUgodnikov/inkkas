@@ -756,6 +756,8 @@ form[id^="preorder-me-button"] .single-add-to-cart-button {
     color: #FD9A52!important;
 }
 form[id^="preorder-me-button"] .single-add-to-cart-button:hover {
-    background-color: #FD9A52!important;
     color: #fff!important;
+}
+form[id^="preorder-me-button"] .single-add-to-cart-button:before {
+    background: #FD9A52!important;
 }
