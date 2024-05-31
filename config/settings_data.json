@@ -3,7 +3,7 @@
     "heading_font": "archivo_narrow_n6",
     "heading_font_scale": 110,
     "body_font": "news_gothic_no_2_n4",
-    "navigation_uppercase": true,
+    "navigation_uppercase": false,
     "product_title_uppercase": true,
     "button_uppercase": true,
     "color_body": "#4e423e",
