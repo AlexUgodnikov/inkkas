@@ -5,6 +5,14 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "text_zpJzi7": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "NEW SPRING COLLECTION IS HERE!",
+            "link": "shopify:\/\/collections\/the-radiance-collection"
+          }
+        },
         "5b1ab378-833d-4a94-a02e-8325ec1551d0": {
           "type": "text",
           "settings": {
@@ -17,23 +25,24 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "EASY & FREE* RETURNS",
+            "text": "EASY RETURNS FOR 30 DAYS",
             "link": "shopify:\/\/pages\/return_policy"
           }
         },
-        "text_zpJzi7": {
+        "text_8BPLDW": {
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "NEW SPRING COLLECTION IS HERE!",
-            "link": "shopify:\/\/collections\/the-radiance-collection"
+            "text": "FREE RETURNS FOR 7 DAYS",
+            "link": "shopify:\/\/pages\/return_policy"
           }
         }
       },
       "block_order": [
+        "text_zpJzi7",
         "5b1ab378-833d-4a94-a02e-8325ec1551d0",
         "2f7893ee-7b84-4f15-911a-801b94ffa38e",
-        "text_zpJzi7"
+        "text_8BPLDW"
       ],
       "settings": {
         "announcement_bar": true,
