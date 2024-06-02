@@ -40,6 +40,8 @@
     "show_products_rating": true,
     "show_size_options": false,
     "color_badge_text": "#ffffff",
+    "best_sellers_badge": "Bestseller",
+    "best_sellers_badge_color": "#FB9E5B",
     "sale_badge_color": "#c95137",
     "sale_badge_color_text": "#ffffff",
     "new_arrivals_badge": "New",
