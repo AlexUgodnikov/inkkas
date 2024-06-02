@@ -3,6 +3,32 @@
     "16479477632637c9a7": {
       "type": "slideshow",
       "blocks": {
+        "164794776393e76b8e-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.02.30PM.png",
+            "slide_link": "",
+            "video_background": true,
+            "video": "",
+            "subheading": "Time for something new",
+            "heading": "The all-new SS24 Collection is here!",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "large",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "SHOP NEW COLLECTION",
+            "button_1_link": "shopify:\/\/collections\/the-radiance-collection",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "164794776393e76b8e-1": {
           "type": "slide",
           "settings": {
@@ -55,6 +81,32 @@
             "button_2_outline": false
           }
         },
+        "slide_CPyVFd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at3.10.28PM.png",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "NOT JUST CAUSE ITS FATHERS DAY...",
+            "heading": "...Because you love him every day.",
+            "heading_size": "h1-xlarge",
+            "content": "Add descriptive text for your slide here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Men's",
+            "button_1_link": "shopify:\/\/collections\/mens-shoes",
+            "button_1_outline": true,
+            "button_2_text": "Shop Now",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "slide_X4w7DM": {
           "type": "slide",
           "disabled": true,
@@ -79,33 +131,6 @@
             "button_1_outline": true,
             "button_2_text": "Shop Women",
             "button_2_link": "shopify:\/\/collections\/womens-collection-all-shoes",
-            "button_2_outline": false
-          }
-        },
-        "164794776393e76b8e-2": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.02.30PM.png",
-            "slide_link": "",
-            "video_background": true,
-            "video": "",
-            "subheading": "Time for something new",
-            "heading": "The all-new SS24 Collection is here!",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "large",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "SHOP NEW COLLECTION",
-            "button_1_link": "shopify:\/\/collections\/the-radiance-collection",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
             "button_2_outline": false
           }
         },
@@ -220,10 +245,11 @@
         }
       },
       "block_order": [
+        "164794776393e76b8e-2",
         "164794776393e76b8e-1",
         "slide_UkyBeK",
+        "slide_CPyVFd",
         "slide_X4w7DM",
-        "164794776393e76b8e-2",
         "164794776393e76b8e-0",
         "slide_xDcpXe",
         "slide_JNAXcC",
@@ -240,7 +266,7 @@
         "disable_bottom_spacing": true
       }
     },
-    "spacer_Jdkrk9": {
+    "spacer_4FFAit": {
       "type": "spacer",
       "settings": {
         "spacer_mobile": 25,
@@ -305,6 +331,54 @@
         "spacer_desktop": 80,
         "border_separator": false,
         "border_separator_full": false
+      }
+    },
+    "16615358507b6ff1a8": {
+      "type": "testimonials",
+      "blocks": {
+        "quote_jAwD8J": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TRANQUILO-VEGAN-CAMPING-BOOT-SS230513-MODEL-ZOOM---EPI_2857.jpg",
+            "stars": "4.5",
+            "text": "\"Just as comfortable as they are beautiful. You won't regret it.\"",
+            "author": "Yosenia M."
+          }
+        },
+        "f0e5414e-308c-4a64-91b5-1f08b8650731": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo-SOKOKE_JOGGER.jpg",
+            "stars": "5",
+            "text": "\"I love the diverse & colorful designs. Always waiting for the next drop!\"",
+            "author": "Carly M."
+          }
+        },
+        "2bf39bcc-dfc9-43ae-b6a4-9cecdb3197c9": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRISBANE-TREKK-AW211017-MODELZOOM.jpg",
+            "stars": "5",
+            "text": "\"A great day starts with putting on my Inkkas!\"",
+            "author": "Ellie J."
+          }
+        }
+      },
+      "block_order": [
+        "quote_jAwD8J",
+        "f0e5414e-308c-4a64-91b5-1f08b8650731",
+        "2bf39bcc-dfc9-43ae-b6a4-9cecdb3197c9"
+      ],
+      "settings": {
+        "full_width": true,
+        "text_size": "medium",
+        "pagination": "logos",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#e9e3e0",
+        "color_text": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "background_video_7dHf3i": {
@@ -730,54 +804,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "16615358507b6ff1a8": {
-      "type": "testimonials",
-      "blocks": {
-        "quote_jAwD8J": {
-          "type": "quote",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TRANQUILO-VEGAN-CAMPING-BOOT-SS230513-MODEL-ZOOM---EPI_2857.jpg",
-            "stars": "4.5",
-            "text": "\"Just as comfortable as they are beautiful. You won't regret it.\"",
-            "author": "Yosenia M."
-          }
-        },
-        "f0e5414e-308c-4a64-91b5-1f08b8650731": {
-          "type": "quote",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/photo-SOKOKE_JOGGER.jpg",
-            "stars": "5",
-            "text": "\"I love the diverse & colorful designs. Always waiting for the next drop!\"",
-            "author": "Carly M."
-          }
-        },
-        "2bf39bcc-dfc9-43ae-b6a4-9cecdb3197c9": {
-          "type": "quote",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BRISBANE-TREKK-AW211017-MODELZOOM.jpg",
-            "stars": "5",
-            "text": "\"A great day starts with putting on my Inkkas!\"",
-            "author": "Ellie J."
-          }
-        }
-      },
-      "block_order": [
-        "quote_jAwD8J",
-        "f0e5414e-308c-4a64-91b5-1f08b8650731",
-        "2bf39bcc-dfc9-43ae-b6a4-9cecdb3197c9"
-      ],
-      "settings": {
-        "full_width": true,
-        "text_size": "medium",
-        "pagination": "logos",
-        "autoplay": true,
-        "autoplay_length": 5,
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
     "16620983071df6eb29": {
       "type": "text-with-icons",
       "blocks": {
@@ -1174,16 +1200,16 @@
   },
   "order": [
     "16479477632637c9a7",
-    "spacer_Jdkrk9",
+    "spacer_4FFAit",
     "16614195534fb74bc3",
     "spacer_etkG3N",
+    "16615358507b6ff1a8",
     "background_video_7dHf3i",
     "featured_collection_3EMCmt",
     "background_video_6gFnMp",
     "featured_product_9TRBka",
     "rich_text_TgYL4f",
     "166143150135dd97e2",
-    "16615358507b6ff1a8",
     "16620983071df6eb29",
     "image_with_text_overlay_jzpJKc",
     "rich_text_3FCgYV",
