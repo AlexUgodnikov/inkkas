@@ -88,10 +88,10 @@
             "slide_link": "",
             "video_background": false,
             "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "FATHERS DAY EVERY DAY",
-            "heading": "Give the gift of style, comfort & unique expression.",
+            "subheading": "Purchase today for delivery by Father's Day",
+            "heading": "HEY, GOOD LOOKIN'",
             "heading_size": "h1-xlarge",
-            "content": "Purchase today for delivery before Father's Day.",
+            "content": "Give the gift of style, comfort & unique expression.",
             "description_size": "medium",
             "content_position": "middle-center",
             "text_alignment": "center",
@@ -102,7 +102,7 @@
             "button_1_text": "Shop Men's",
             "button_1_link": "shopify:\/\/collections\/mens-shoes",
             "button_1_outline": true,
-            "button_2_text": "Shop Now",
+            "button_2_text": "Shop All Gifts",
             "button_2_link": "",
             "button_2_outline": false
           }
