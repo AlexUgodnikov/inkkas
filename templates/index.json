@@ -344,6 +344,7 @@
     },
     "background_video_6gFnMp": {
       "type": "background-video",
+      "disabled": true,
       "settings": {
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-350",
@@ -403,6 +404,7 @@
         "product_link_gpLtpg",
         "buy_buttons_GKUHRJ"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_left": false,
