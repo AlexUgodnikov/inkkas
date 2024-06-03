@@ -330,7 +330,7 @@
             </fieldset>
           </div>
         {% endif %}
-6
+
         {% if men > 0 %}
           <div class="show_variants {%  if active_tab == 'men' %} active {% endif %}" id="men_type">
             <fieldset class="js product-form__input_dann">
@@ -355,6 +355,37 @@
                   >
                   <label for="{{ section.id }}-Size-Men-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"   data-titleshort="{{ variant.title | downcase |handleize }}">
                     {{ new_title | split: ' ' | last }}
+                  </label>
+                {% endif %}
+              {%- endfor -%}
+            </fieldset>
+          </div>
+        {% endif %}
+7
+        {% if kids > 0 %}
+          <div class="show_variants {%  if active_tab == 'kids' %} active {% endif %}" id="kids_type">
+            <fieldset class="product-form__input_dann">
+              {% for variant in product.variants %}
+                {% assign value_search = variant.title | downcase  %}
+                {% if value_search contains 'us kids' %}
+                  {% assign new_title_arr = variant.title | split: " / " %}
+                  {% assign new_title = variant.title %}
+                  {% for val in new_title_arr %}
+                    {% assign newval = val | downcase %}
+                    {% if newval contains 'us kids' %}
+                      {% assign new_title = val %}
+                    {% endif %}
+                  {% endfor %}
+                  <input type="radio" id="{{ section.id }}-Size-Kids-{{ forloop.index0 }}"
+                         name="SizeKids"
+                         value="{{ variant.title | escape }}"
+                         form="product-form-{{ section.id }}"
+                         {% if currentVariant.id == variant.id %}checked{% endif %}
+                         data-inputshort="{{ variant.title | downcase |handleize }}"
+                         class="product_{{ variant.title | downcase | handleize }}"
+                  >
+                  <label for="{{ section.id }}-Size-Kids-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label" data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"   data-titleshort="{{ variant.title | downcase |handleize }}">
+                    {{ new_title }}
                   </label>
                 {% endif %}
               {%- endfor -%}
