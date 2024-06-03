@@ -1,4 +1,5 @@
 <div id="ProductInfo-{{ section.id }}" class="product-information--inner{% if section.settings.enable_sticky_info %} production-information--sticky{% endif %}">
+
   {%- assign product_form_id = 'product-form-' | append: section.id -%}
   {% for block in section.blocks %}
     {%- case block.type -%}
@@ -185,7 +186,7 @@
               assign picker_type = option_type
               assign color_picker_size = block.settings.color_picker_size | default: 'regular'
               assign color_picker_use_variants = block.settings.color_picker_use_variants
-              assign swatch_count = option.values | map: 'swatch' | compact | size 
+              assign swatch_count = option.values | map: 'swatch' | compact | size
               if block.settings.color_picker
                 if option_name contains 'color' or option_name contains 'colour' or option_name contains 'couleur' or option_name contains 'farbe'
                   assign option_type = 'color'
