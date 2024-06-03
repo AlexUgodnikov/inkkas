@@ -238,6 +238,45 @@
             {{ product.variants | json }}
           </script>
         </variant-selects>
+
+        {% assign men = 0 %}
+        {% assign women = 0 %}
+        {% assign kids = 0 %}
+        {% assign eur = 0 %}
+
+        {%- for option in product.options_with_values -%}
+          {%- for value in option.values -%}
+            {% assign value_search = value | downcase  %}
+            {% if value_search contains 'us men' %}
+              {% assign men = men | plus: 1 %}
+            {% endif %}
+            {% if value_search contains 'us women' %}
+              {% assign women = women | plus: 1 %}
+            {% endif %}
+            {% if value_search contains 'eur' %}
+              {% assign eur = eur | plus: 1 %}
+            {% endif %}
+            {% if value_search contains 'us kids' %}
+              {% assign kids = kids | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+
+        {% assign active_tab = '' %}
+        {% assign count_tab = 0 %}
+        {% if women > 0 %}
+          {% assign active_tab = 'women' %}
+          {% assign count_tab = count_tab | plus: 1 %}
+        {% elsif  men > 0 %}
+          {% assign active_tab = 'men' %}
+          {% assign count_tab = count_tab | plus: 1 %}
+        {% elsif  kids > 0 %}
+          {% assign active_tab = 'kids' %}
+          {% assign count_tab = count_tab | plus: 1 %}
+        {% elsif  eur > 0 %}
+          {% assign active_tab = 'eur' %}
+          {% assign count_tab = count_tab | plus: 1 %}
+        {% endif %}1
       {%- endunless -%}
       <noscript class="product-form__noscript-wrapper-{{ section.id }}">
         <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
