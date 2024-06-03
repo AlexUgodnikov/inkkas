@@ -762,3 +762,6 @@ form[id^="preorder-me-button"] .single-add-to-cart-button:hover {
 form[id^="preorder-me-button"] .single-add-to-cart-button:before {
     background: #f9822c !important;
 }
+#rebuy-cart {
+    display: none!important;
+}
