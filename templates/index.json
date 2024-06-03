@@ -362,7 +362,7 @@
       ],
       "settings": {
         "full_width": true,
-        "text_size": "medium",
+        "text_size": "small",
         "pagination": "logos",
         "autoplay": true,
         "autoplay_length": 5,
