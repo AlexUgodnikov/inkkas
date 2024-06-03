@@ -136,7 +136,7 @@
       <div class="product-short-description rte" {{ block.shopify_attributes }}>{{ product.description }}</div>
     {%- when 'inventory_level' -%}
       {% render 'product-inventory-notice', product: product, section: section, block: block %}
-    {%- when 'variant_picker1' -%}
+    {%- when 'variant_picker' -%}
       {% assign additionalProducts = product.metafields.custom.product_colors %}
       {% assign additionalProductsCount = additionalProducts | split: ',' %}
 
