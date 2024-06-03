@@ -209,8 +209,10 @@
                 {%- if block.settings.sizing_guide_text != '' -%}
                 {%- capture sizing_link -%}
                   <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
-                    <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
-                      {% render 'svg-icons-inline', icon: block.settings.sizing_guide_icon %}<span>{{ block.settings.sizing_guide_text }}</span></button>
+                    {% assign product_tags = product.tags | join: ' ' %}
+                    
+                    {% comment %}<button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
+                      {% render 'svg-icons-inline', icon: block.settings.sizing_guide_icon %}<span>{{ block.settings.sizing_guide_text }}</span></button>{%endcomment%}
                   </modal-opener>
                 {%- endcapture -%}
                 {%- capture sizing_popup -%}
