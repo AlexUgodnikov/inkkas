@@ -327,13 +327,13 @@
     "16615358507b6ff1a8": {
       "type": "testimonials",
       "blocks": {
-        "quote_jAwD8J": {
+        "quote_EUPeVN": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BADASS-SLIP-ON-NP020001-MODEL-1.jpg",
+            "image": "shopify:\/\/shop_images\/ANDES-CAMPING-BOOT-CB169916-GROUP-ROOSTER-CAMPING-BOOT-CB179802-GROUP-PhotoMay17_14154PM.jpg",
             "stars": "5",
-            "text": "\"This is my first pair of Inkkas and I'm in love! Not only are they super cute but so comfortable as well!\"",
-            "author": "Yosenia M."
+            "text": "\"Love has blossomed in our Inkkas! :)\"",
+            "author": "- Andy & Andi L."
           }
         },
         "f0e5414e-308c-4a64-91b5-1f08b8650731": {
@@ -353,12 +353,22 @@
             "text": "\"I have been eyeing these boots for a long time and finally decided to get them... I could NOT be happier I did!\"",
             "author": "Ellie J."
           }
+        },
+        "quote_jAwD8J": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BADASS-SLIP-ON-NP020001-MODEL-1.jpg",
+            "stars": "5",
+            "text": "\"I'm in love! This is my first pair of Inkkas and not only are they super cute but so comfortable as well!\"",
+            "author": "Yosenia M."
+          }
         }
       },
       "block_order": [
-        "quote_jAwD8J",
+        "quote_EUPeVN",
         "f0e5414e-308c-4a64-91b5-1f08b8650731",
-        "2bf39bcc-dfc9-43ae-b6a4-9cecdb3197c9"
+        "2bf39bcc-dfc9-43ae-b6a4-9cecdb3197c9",
+        "quote_jAwD8J"
       ],
       "settings": {
         "full_width": true,
@@ -966,6 +976,7 @@
         },
         "collection_8NqDrp": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "back-in-stock",
             "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.02.58PM.png"
@@ -1026,7 +1037,7 @@
         "heading_left": true,
         "description": "<p><em>Unisex + Unique = The Perfect Gift. 🎁<\/em><\/p>",
         "full_width": true,
-        "collection": "perfect-gifts-for-everybody",
+        "collection": "gift-guide-mens",
         "display_type": "carousel",
         "product_limit": 12,
         "columns_desktop": 4,
