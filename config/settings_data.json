@@ -40,6 +40,7 @@
     "show_products_swatches": true,
     "show_products_rating": false,
     "show_size_options": false,
+    "badge_position": "top right",
     "color_badge_text": "#ffffff",
     "best_sellers_badge": "Bestseller",
     "best_sellers_badge_color": "#ffffff",
