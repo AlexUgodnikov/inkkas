@@ -8,7 +8,7 @@
           <h5 class="center hi">{{ pages[jogger-size-chart].title }}</h5>
           <div class="feature_divider"></div>
           <shadow>
-            {{ pages[jogger-size-chart].content | replace: "<a", "<span class='fancybox-custom-link'" | replace: "</a", "</span" }}
+            {{ pages[jogger-size-chart].content | replace: "<a", "<span class='fancybox-custom-link'" | replace: "</a", "</span" | replace: "</a", "</span" }}
           </shadow>
         {% endif %}
       {% endfor %}
