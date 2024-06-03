@@ -42,6 +42,7 @@
         },
         "preorder_me_product_button_t8zPaL": {
           "type": "shopify:\/\/apps\/preorder-me\/blocks\/product-button\/d3a9a307-3c62-4d7b-8a5b-7ae9b6e399ce",
+          "disabled": true,
           "settings": {
           }
         },
