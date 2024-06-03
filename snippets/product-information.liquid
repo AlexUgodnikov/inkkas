@@ -1,6 +1,6 @@
 <div id="ProductInfo-{{ section.id }}" class="product-information--inner{% if section.settings.enable_sticky_info %} production-information--sticky{% endif %}">
   {%- assign product_form_id = 'product-form-' | append: section.id -%}
-  
+
   {% for block in section.blocks %}
     {%- case block.type -%}
     {%- when '@app' -%}
