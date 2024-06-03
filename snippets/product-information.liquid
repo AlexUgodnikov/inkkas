@@ -207,7 +207,7 @@
             -%}
             {%- if option_slug == sizing_guide_variant -%}
               {%- if block.settings.sizing_guide_text != '' -%}
-                  {%- capture sizing_link1 -%}
+                  {%- capture sizing_link -%}
                     <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
                       {% assign product_tags = product.tags | join: ' ' %}
                       <div class="product_size-chart">
@@ -331,7 +331,7 @@
                   {%- endcapture -%}
               {%- endif -%}
             {%- endif -%}
-            {% render 'product-option', option_type: option_type, color_picker_size: color_picker_size, color_picker_use_variants: color_picker_use_variants, product: product, option: option, forloop: forloop, product_form_id: product_form_id, sizing_link: sizing_link %}
+            
           {%- endfor -%}
         </div>
         <script type="application/json">
