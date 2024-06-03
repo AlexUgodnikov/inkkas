@@ -136,7 +136,7 @@
       <div class="product-short-description rte" {{ block.shopify_attributes }}>{{ product.description }}</div>
     {%- when 'inventory_level' -%}
       {% render 'product-inventory-notice', product: product, section: section, block: block %}
-    {%- when 'variant_picker' -%}
+    {%- when 'variant_picker1' -%}
       {% assign additionalProducts = product.metafields.custom.product_colors %}
       {% assign additionalProductsCount = additionalProducts | split: ',' %}
 
@@ -393,7 +393,7 @@
             </div>
           </div>
           {% assign currentVariant = product.selected_or_first_available_variant %}
-          {% comment %}
+
           {% if women > 0 %}
 
             <div class="show_variants {%  if active_tab == 'women' %} active {% endif %}" id="women_type">
@@ -520,7 +520,6 @@
               </fieldset>
             </div>
           {% endif %}
-      {% endcomment %}
           <script>
             document.addEventListener('DOMContentLoaded', function() {
               jQuery(function($) {
