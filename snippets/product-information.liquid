@@ -393,7 +393,7 @@
             </div>
           </div>
           {% assign currentVariant = product.selected_or_first_available_variant %}
-
+          {% comment %}
           {% if women > 0 %}
 
             <div class="show_variants {%  if active_tab == 'women' %} active {% endif %}" id="women_type">
@@ -520,6 +520,7 @@
               </fieldset>
             </div>
           {% endif %}
+      {% endcomment %}
           <script>
             document.addEventListener('DOMContentLoaded', function() {
               jQuery(function($) {
