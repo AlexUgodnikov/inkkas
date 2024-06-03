@@ -764,4 +764,7 @@ form[id^="preorder-me-button"] .single-add-to-cart-button:before {
 }
 #rebuy-cart {
     display: none!important;
+    opacity: 0!important;
+    visibility: hidden!important;
+    pointer-events: none!important;
 }
