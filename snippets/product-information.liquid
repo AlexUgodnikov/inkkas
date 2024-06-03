@@ -520,7 +520,7 @@
               </fieldset>
             </div>
           {% endif %}
-          <script>
+          {% comment %}<script>
             document.addEventListener('DOMContentLoaded', function() {
               jQuery(function($) {
                 $(".tab_variants .danns").on("click", function (event) {
@@ -574,7 +574,7 @@
                 })
               })
             });
-          </script>
+          </script>{% endcomment %}
         {% endif %}
         <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
           {% assign product_tags = product.tags | join: ' ' %}
