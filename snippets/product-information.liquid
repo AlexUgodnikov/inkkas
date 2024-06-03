@@ -240,7 +240,8 @@
                       {% for tag in product.tags %}
                         {% if tag contains 'jogger-size-chart' %}
                           <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                          {% endif %}
+                          {% render 'jogger-popup-size-chart', product_id: product.id, product: product %}
+                        {% endif %}
                       {% endfor %}
 
 
