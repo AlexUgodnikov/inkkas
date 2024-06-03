@@ -576,9 +576,130 @@
             });
           </script>
         {% endif %}
-       
-      {%- endunless -%}
+        <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
+          {% assign product_tags = product.tags | join: ' ' %}
+          <div class="product_size-chart">
+            {% if product_tags contains 'bootie-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'bootie-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  {% include 'bootie-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
 
+            {% elsif product_tags contains 'boots-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'boots-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  {% render 'boots-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'high-top-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'high-top-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  {% render 'hightop-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'jogger-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'jogger-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  {% render 'jogger-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+
+            {% elsif product_tags contains 'low-top-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'low-top-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  {% render 'lowtop-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'kids-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'kids-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  {% render 'popup-kids-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+
+            {% elsif product_tags contains 'runner-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'runner-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  {% render 'runner-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'slide-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'slide-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  {% render 'slide-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'slip-on-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'slip-on-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  {% render 'slipon-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'size-guide-buckle-sandals' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'size-guide-buckle-sandals' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  {% render 'size-guide-buckle-sandals', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'size-guide-trekks' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'size-guide-trekks' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  {% render 'trekks-size-guide', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+            {% elsif product_tags contains 'western-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'western-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  {% render 'western-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          </div>
+          <!--<button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
+                          {% render 'svg-icons-inline', icon: block.settings.sizing_guide_icon %}<span>{{ block.settings.sizing_guide_text }}</span></button>-->
+        </modal-opener>
+      {%- endunless -%}
+      <noscript class="product-form__noscript-wrapper-{{ section.id }}">
+        <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
+          <label for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
+          <div class="select">
+            <select name="id" id="Variants-{{ section.id }}" class="select__select" form="{{ product_form_id }}">
+              {%- for variant in product.variants -%}
+                <option
+                  {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}
+                  {% if variant.available == false %}disabled{% endif %}
+                  value="{{ variant.id }}">
+                  {{ variant.title }}
+                  {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
+                  - {{ variant.price | money | strip_html -}}
+                </option>
+              {%- endfor -%}
+            </select>
+          </div>
+        </div>
+      </noscript>
     {%- when 'side_panel' -%}
       <side-panel-links class="side-panel-links">
         {%- if block.settings.side_panel_1_label != '' -%}
