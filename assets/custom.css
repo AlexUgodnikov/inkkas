@@ -763,8 +763,8 @@ form[id^="preorder-me-button"] .single-add-to-cart-button:before {
     background: #f9822c !important;
 }
 #rebuy-cart {
-    display: none!important;
-    opacity: 0!important;
-    visibility: hidden!important;
-    pointer-events: none!important;
+    /*display: none!important;*/
+    /*opacity: 0!important;*/
+    /*visibility: hidden!important;*/
+    /*pointer-events: none!important;*/
 }
