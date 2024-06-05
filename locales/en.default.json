@@ -14,7 +14,7 @@
       "save": "Save",
       "free_shipping": {
         "spend_more_for_free_shipping_html": "You are <span>{{ amount }}<\/span> away from FREE shipping.",
-        "free_shipping_applied_at_checkout": "FREE shipping will be applied at checkout"
+        "free_shipping_applied_at_checkout": "Congrats! You've unlocked FREE SHIPPING!"
       }
     },
     "meta": {
