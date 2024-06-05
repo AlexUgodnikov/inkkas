@@ -53,6 +53,7 @@
     "color_badge_preorder": "#FD9A52",
     "sibling_style": "swatch",
     "cart_terms_conditions_enable": false,
+    "cart_drawer_empty_button_url": "shopify:\/\/collections\/best-sellers",
     "cart_drawer_notes": false,
     "free_shipping": true,
     "free_shipping_minimum": "175.00",
