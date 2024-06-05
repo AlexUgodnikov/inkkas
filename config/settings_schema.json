@@ -838,6 +838,11 @@
     "name": "Cart Drawer",
     "settings": [
       {
+        "type": "url",
+        "id": "cart_drawer_empty_button_url",
+        "label": "Empty button url"
+      },
+      {
         "type": "checkbox",
         "id": "cart_drawer",
         "label": "Show cart drawer",
