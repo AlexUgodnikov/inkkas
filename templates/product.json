@@ -371,9 +371,9 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "YOU MAY ALSO LIKE",
+        "heading": "You'd like these too",
         "heading_left": true,
-        "description": "<p>Combine your style with these products<\/p>",
+        "description": "",
         "full_width": true,
         "mobile_swipe": true,
         "disable_top_spacing": false,
@@ -383,7 +383,7 @@
     "recently_viewed_products_HPzhR7": {
       "type": "recently-viewed-products",
       "settings": {
-        "heading": "RECENTLY VIEWED",
+        "heading": "Recently viewed",
         "heading_left": true,
         "description": "",
         "full_width": true,
