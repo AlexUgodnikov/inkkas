@@ -13,8 +13,8 @@
       "add_order_note": "Add order note",
       "save": "Save",
       "free_shipping": {
-        "spend_more_for_free_shipping_html": "You are <span>{{ amount }}<\/span> away from FREE shipping.",
-        "free_shipping_applied_at_checkout": "Congrats! You've unlocked FREE SHIPPING!"
+        "spend_more_for_free_shipping_html": "You are <span>{{ amount }}<\/span> away from FREE shipping!",
+        "free_shipping_applied_at_checkout": "🎉Congrats! You've unlocked FREE shipping!"
       }
     },
     "meta": {
