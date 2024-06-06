@@ -388,7 +388,7 @@
         "description": "",
         "full_width": true,
         "mobile_swipe": true,
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     },
@@ -593,7 +593,7 @@
         "collection_ijtUrC"
       ],
       "settings": {
-        "heading": "More fun things",
+        "heading": "See what else is trending",
         "heading_left": true,
         "description": "<p> <\/p>",
         "full_width": true,
