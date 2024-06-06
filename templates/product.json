@@ -596,7 +596,7 @@
         "heading": "See what else is trending",
         "heading_left": true,
         "description": "<p> <\/p>",
-        "full_width": true,
+        "full_width": false,
         "product_limit": 7,
         "columns_desktop": 4,
         "show_view_all": false,
