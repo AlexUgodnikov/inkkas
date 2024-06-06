@@ -108,7 +108,7 @@
         "collection_Xjatmx": {
           "type": "collection",
           "settings": {
-            "collection": "ss24-vacay-ready"
+            "collection": "summer-24-collection"
           }
         },
         "collection_DAd8fz": {
@@ -229,13 +229,13 @@
         "collection_NBYBfc"
       ],
       "settings": {
-        "heading": "SHOP ALL COLLECTION",
+        "heading": "SHOP ALL COLLECTIONS",
         "heading_left": false,
-        "description": "<p>Explore all of our global collections. <\/p>",
+        "description": "<p>Explore all of our global collections<\/p>",
         "full_width": true,
         "sort": "date_reversed",
         "image_ratio": "square",
-        "style": "style1",
+        "style": "style2",
         "columns_desktop": 3,
         "collection_list_pagination_num": 12,
         "overlay_color": "#000000",
