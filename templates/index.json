@@ -987,6 +987,12 @@
             "collection": "summer-24-collection"
           }
         },
+        "collection_XHBdVm": {
+          "type": "collection",
+          "settings": {
+            "collection": "vegan-products"
+          }
+        },
         "collection_Wx6zpg": {
           "type": "collection",
           "settings": {
@@ -1012,6 +1018,7 @@
         "collection_Xmq4ht",
         "collection_8NqDrp",
         "collection_Va4tf3",
+        "collection_XHBdVm",
         "collection_Wx6zpg",
         "collection_h37eJm",
         "collection_YHM9Li"
