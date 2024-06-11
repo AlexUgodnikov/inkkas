@@ -31,6 +31,7 @@
         },
         "slide_CPyVFd": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at3.10.28PM.png",
             "slide_link": "",
@@ -349,7 +350,7 @@
           "type": "quote",
           "settings": {
             "image": "shopify:\/\/shop_images\/BRISBANE-TREKK-AW211017-MODELZOOM.jpg",
-            "stars": "4.5",
+            "stars": "5",
             "text": "\"I have been eyeing these boots for a long time and finally decided to get them... I could NOT be happier!\"",
             "author": "Ellie J."
           }
