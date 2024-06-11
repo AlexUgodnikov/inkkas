@@ -425,6 +425,25 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
+    },
+    "featured_blog_X8TVad": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Inkkas Journal",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "blog": "blog",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "show_date": false,
+        "show_excerpt": true,
+        "show_view_all": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -439,6 +458,7 @@
     "1662373200967c613c",
     "16623736356fb1e92f",
     "1661619131dc23111f",
-    "1661619177029ffd60"
+    "1661619177029ffd60",
+    "featured_blog_X8TVad"
   ]
 }
