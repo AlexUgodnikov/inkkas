@@ -430,7 +430,7 @@
       "type": "featured-blog",
       "settings": {
         "heading": "Inkkas Journal",
-        "heading_left": true,
+        "heading_left": false,
         "description": "",
         "full_width": true,
         "blog": "blog",
