@@ -769,5 +769,7 @@ form[id^="preorder-me-button"] .single-add-to-cart-button:before {
     /*pointer-events: none!important;*/
 }
 @media (max-width: 1067px) {
-    
+    .mobile-menu li > a, .mobile-menu li summary {
+        
+    }
 }
