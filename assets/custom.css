@@ -768,3 +768,9 @@ form[id^="preorder-me-button"] .single-add-to-cart-button:before {
     /*visibility: hidden!important;*/
     /*pointer-events: none!important;*/
 }
+@media (max-width: 1067px) {
+    body .mobile-menu li > a, body .mobile-menu li summary {
+        min-height: calc(32px + (45 - 32) * ((100vw - 320px) / (1067 - 320)));
+        font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1067 - 320)));
+    }
+}
