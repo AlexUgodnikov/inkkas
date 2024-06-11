@@ -885,11 +885,10 @@
         },
         "button_mGm3fr": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_text": "Shop All Collections",
             "button_link": "shopify:\/\/collections",
-            "button_outline": true
+            "button_outline": false
           }
         }
       },
