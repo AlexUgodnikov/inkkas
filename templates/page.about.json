@@ -293,7 +293,7 @@
         "1662373200dc732b07-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Buying shoes online can feel daunting. But not to worry, we make it easy and completely risk-free. Every product has a unique size guide to provide suggestions on fit & sizing. And if you're not 100% happy with your purchase, you can easily return or exchange your shoes for FREE within 7 days of delivery. No questions asked.<\/p>",
+            "text": "<p>Each of our shoes has a uniquely tailored size guide to provide suggestions on fit & sizing. If you're not 100% happy with your purchase, you can easily return or exchange your shoes for 30 days -- and for FREE within 7 days of delivery. <\/p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -385,7 +385,9 @@
             "link": "shopify:\/\/collections\/the-radiance-collection",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/the-radiance-collection",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         },
         "0d86c2a6-f30c-40b5-9391-99b5bb12959b": {
@@ -399,7 +401,9 @@
             "link": "shopify:\/\/collections\/best-sellers",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/best-sellers",
-            "product_list": []
+            "product_list": [
+
+            ]
           }
         }
       },
