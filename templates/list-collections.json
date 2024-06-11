@@ -235,7 +235,7 @@
         "full_width": true,
         "sort": "date_reversed",
         "image_ratio": "square",
-        "style": "style2",
+        "style": "style1",
         "columns_desktop": 3,
         "collection_list_pagination_num": 12,
         "overlay_color": "#000000",
