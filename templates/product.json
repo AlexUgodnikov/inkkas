@@ -371,7 +371,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You'd like these too",
+        "heading": "You'd like these, too",
         "heading_left": true,
         "description": "",
         "full_width": true,
@@ -593,12 +593,12 @@
         "collection_ijtUrC"
       ],
       "settings": {
-        "heading": "Trending now",
+        "heading": "What's trending now",
         "heading_left": true,
         "description": "<p> <\/p>",
         "full_width": false,
         "product_limit": 7,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "show_view_all": false,
         "show_progress_bar": true,
         "disable_top_spacing": true,

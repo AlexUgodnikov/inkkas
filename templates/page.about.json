@@ -379,7 +379,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/SAMADHI-JOGGER-SS240403-MODEL-SS240403-EPI_3154.jpg",
             "subheading": "",
-            "title": "IT'S TIME FOR NEW KICKS",
+            "title": "Time for new kicks.",
             "text": "Start with our newest collection",
             "link_label": "See what's new",
             "link": "shopify:\/\/collections\/the-radiance-collection",
@@ -395,8 +395,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Inkkas_Shoes.png",
             "subheading": "",
-            "title": "WHAT ARE YOU WAITING FOR?",
-            "text": "There's so much to explore!",
+            "title": "Carpe diem!",
+            "text": "What are you waiting for?",
             "link_label": "Explore Now",
             "link": "shopify:\/\/collections\/best-sellers",
             "use_text_button": false,
@@ -429,7 +429,7 @@
     "featured_blog_X8TVad": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Inkkas Journal",
+        "heading": "The Inkkas Journal",
         "heading_left": false,
         "description": "",
         "full_width": true,
