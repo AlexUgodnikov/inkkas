@@ -17,6 +17,7 @@
       "blocks": {
         "promotion_iE6HkP": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "the-radiance-collection",
             "promotion_position": 5,
@@ -34,6 +35,7 @@
         },
         "promotion_LAFKer": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "the-radiance-collection",
             "promotion_position": 11,
@@ -51,6 +53,7 @@
         },
         "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "the-radiance-collection",
             "promotion_position": 17,
@@ -68,6 +71,7 @@
         },
         "promotion_crfKdz": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "best-sellers",
             "promotion_position": 6,
@@ -85,6 +89,7 @@
         },
         "promotion_UiR8zH": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "best-sellers",
             "promotion_position": 15,
@@ -102,6 +107,7 @@
         },
         "promotion_rqwfRL": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "best-sellers",
             "promotion_position": 24,
