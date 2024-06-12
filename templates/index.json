@@ -1067,14 +1067,14 @@
         "heading_4Mifqn": {
           "type": "heading",
           "settings": {
-            "text": "ONE SHOE ONE TREE PROJECT",
+            "text": "ONE SHOE ONE TREE",
             "heading_size": "h3"
           }
         },
         "text_gXp9Uz": {
           "type": "text",
           "settings": {
-            "text": "<p>With Trees.org, Inkkas plants a tree for every purchase. <a href=\"https:\/\/inkkas.com\/pages\/aboutstory\" title=\"https:\/\/inkkas.com\/pages\/aboutstory\">Read more<\/a> to see how far we've come today.<\/p>",
+            "text": "<p>With Trees.org, Inkkas plants a tree for every purchase. <a href=\"\/pages\/aboutstory\" target=\"_blank\" title=\"About Current\">Read more<\/a> to see how far we've come today.<\/p>",
             "description_size": "medium"
           }
         }

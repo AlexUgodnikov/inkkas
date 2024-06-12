@@ -12,7 +12,7 @@
     "main-blog-header": {
       "type": "main-blog-header",
       "settings": {
-        "heading": "Blog posts",
+        "heading": "Inkkas Journal",
         "description": "<p>Explore our collection lookbooks, design inspirations, travel diaries & more. <\/p>",
         "show_category_list": false
       }
@@ -21,7 +21,7 @@
       "type": "main-blog",
       "settings": {
         "image_ratio": "landscape",
-        "show_date": true,
+        "show_date": false,
         "show_excerpt": true
       }
     }
