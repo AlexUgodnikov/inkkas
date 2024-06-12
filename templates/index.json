@@ -318,7 +318,7 @@
         "description": "",
         "full_width": true,
         "product_limit": 16,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "show_view_all": true,
         "show_progress_bar": true,
         "disable_top_spacing": true,
