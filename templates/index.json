@@ -1047,7 +1047,7 @@
         "collection": "gift-guide-mens",
         "display_type": "carousel",
         "product_limit": 12,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "show_view_all": true,
         "mobile_swipe": true,
         "show_progress_bar": true,
