@@ -429,7 +429,7 @@
         "text_alignment": "left",
         "icon_position": "left",
         "icon_size": "large",
-        "heading_size": "medium",
+        "heading_size": "large",
         "mobile_swipe": false,
         "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#151515",
@@ -593,7 +593,7 @@
         "collection_ijtUrC"
       ],
       "settings": {
-        "heading": "See what else is trending",
+        "heading": "Trending now",
         "heading_left": true,
         "description": "<p> <\/p>",
         "full_width": false,
