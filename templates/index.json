@@ -1191,6 +1191,15 @@
         "disable_bottom_spacing": true
       }
     },
+    "spacer_8MBDar": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
     "1647955648d6a0baee": {
       "type": "featured-blog",
       "settings": {
@@ -1204,10 +1213,10 @@
         "mobile_swipe": true,
         "image_ratio": "square",
         "show_date": false,
-        "show_excerpt": false,
+        "show_excerpt": true,
         "show_view_all": true,
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     }
   },
@@ -1232,6 +1241,7 @@
     "rich_text_8crLJD",
     "17132060531886ffe4",
     "16624658277b7c3abc",
+    "spacer_8MBDar",
     "1647955648d6a0baee"
   ]
 }
