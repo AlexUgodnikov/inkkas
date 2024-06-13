@@ -780,3 +780,6 @@ form[id^="preorder-me-button"] .single-add-to-cart-button:before {
 .mobile-secondary-menu:empty {
     display: none;
 }
+.mobile-menu-drawer .thb-mobile-menu-footer {
+    padding: 15px 15px 30px;
+}
