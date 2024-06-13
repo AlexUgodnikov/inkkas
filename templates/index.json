@@ -946,6 +946,7 @@
         "heading_iNFrzm",
         "text_AwrmCn"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "full-width-row-full",
         "text_width": "medium",
@@ -1025,6 +1026,7 @@
         "collection_h37eJm",
         "collection_YHM9Li"
       ],
+      "disabled": true,
       "settings": {
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-400",
@@ -1226,8 +1228,8 @@
       "settings": {
         "text_alignment": "left",
         "icon_position": "left",
-        "icon_size": "xlarge",
-        "heading_size": "large",
+        "icon_size": "medium",
+        "heading_size": "small",
         "mobile_swipe": false,
         "color_bg": "#ffffff",
         "color_heading": "#151515",
