@@ -546,6 +546,7 @@ class Header {
         if (e.code.toUpperCase() === 'ESCAPE') {
           toggle.removeAttribute('open');
           toggle.classList.remove('active');
+          header_main.classList.remove('mobile-menu-active');
         }
       }
     });
@@ -555,12 +556,14 @@ class Header {
         e.preventDefault();
         document.body.classList.remove('overflow-hidden');
         toggle.classList.remove('active');
+        header_main.classList.remove('mobile-menu-active');
         this.closeAnimation(toggle);
 
       } else {
         document.body.classList.add('overflow-hidden');
         setTimeout(() => {
           toggle.classList.add('active');
+          header_main.classList.add('mobile-menu-active');
         });
       }
       window.dispatchEvent(new Event('resize.resize-select'));
