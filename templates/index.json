@@ -815,57 +815,51 @@
         "disable_bottom_spacing": false
       }
     },
-    "image_with_text_overlay_jzpJKc": {
-      "type": "image-with-text-overlay",
+    "image_with_text_xPWcbg": {
+      "type": "image-with-text",
       "blocks": {
-        "subheading_h8g4jj": {
+        "subheading_Bar8yc": {
           "type": "subheading",
           "settings": {
-            "text": "FUN SHOES THAT"
+            "text": "OVER 380,000 TREES PLANTED"
           }
         },
-        "heading_diY8ph": {
+        "heading_4Mifqn": {
           "type": "heading",
           "settings": {
-            "text": "CONNECT THE WORLD",
-            "heading_size": "h1-large"
+            "text": "ONE SHOE ONE TREE",
+            "heading_size": "h3"
           }
         },
-        "text_GAfFHW": {
+        "text_gXp9Uz": {
           "type": "text",
           "settings": {
-            "text": "<p>Our designs are truly one-of-a-kind. We create fun, colorful, quality shoes & accessories that reflect the beauty of this world. <\/p>",
+            "text": "<p>With Trees.org, Inkkas plants a tree for every purchase. <a href=\"\/pages\/aboutstory\" target=\"_blank\" title=\"About Current\">Read more<\/a> to see how far we've come today.<\/p>",
             "description_size": "medium"
-          }
-        },
-        "button_mGm3fr": {
-          "type": "button",
-          "settings": {
-            "button_text": "Shop All Collections",
-            "button_link": "shopify:\/\/collections",
-            "button_outline": false
           }
         }
       },
       "block_order": [
-        "subheading_h8g4jj",
-        "heading_diY8ph",
-        "text_GAfFHW",
-        "button_mGm3fr"
+        "subheading_Bar8yc",
+        "heading_4Mifqn",
+        "text_gXp9Uz"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Tree-Square-02.jpg",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
         "section_width": "grid",
-        "image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
-        "image_parallax": true,
-        "desktop_height": "desktop-height-450",
-        "mobile_height": "mobile-height-450",
-        "content_width": "medium",
-        "content_position": "middle-center",
-        "text_alignment": "center",
-        "overlay_opacity": 42,
+        "layout": "image_first",
+        "content_position": "text-left",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "rich_text_3FCgYV": {
@@ -991,8 +985,62 @@
         "disable_bottom_spacing": false
       }
     },
+    "image_with_text_overlay_jzpJKc": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_h8g4jj": {
+          "type": "subheading",
+          "settings": {
+            "text": "FUN SHOES THAT"
+          }
+        },
+        "heading_diY8ph": {
+          "type": "heading",
+          "settings": {
+            "text": "CONNECT THE WORLD",
+            "heading_size": "h1-large"
+          }
+        },
+        "text_GAfFHW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our designs are truly one-of-a-kind. We create fun, colorful, quality shoes & accessories that reflect the beauty of this world. <\/p>",
+            "description_size": "medium"
+          }
+        },
+        "button_mGm3fr": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop All Collections",
+            "button_link": "shopify:\/\/collections",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_h8g4jj",
+        "heading_diY8ph",
+        "text_GAfFHW",
+        "button_mGm3fr"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-450",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 42,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "featured_collection_kpwePb": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "heading": "SHARE THE JOY WITH HIM",
         "heading_left": true,
@@ -1005,53 +1053,6 @@
         "show_view_all": true,
         "mobile_swipe": true,
         "show_progress_bar": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "image_with_text_xPWcbg": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_Bar8yc": {
-          "type": "subheading",
-          "settings": {
-            "text": "OVER 380,000 TREES PLANTED"
-          }
-        },
-        "heading_4Mifqn": {
-          "type": "heading",
-          "settings": {
-            "text": "ONE SHOE ONE TREE",
-            "heading_size": "h3"
-          }
-        },
-        "text_gXp9Uz": {
-          "type": "text",
-          "settings": {
-            "text": "<p>With Trees.org, Inkkas plants a tree for every purchase. <a href=\"\/pages\/aboutstory\" target=\"_blank\" title=\"About Current\">Read more<\/a> to see how far we've come today.<\/p>",
-            "description_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_Bar8yc",
-        "heading_4Mifqn",
-        "text_gXp9Uz"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Tree-Square-02.jpg",
-        "use_video": false,
-        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "video_autoplay": true,
-        "video_controls": true,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "section_width": "grid",
-        "layout": "image_first",
-        "content_position": "text-left",
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "color_border": "#e2e2e2",
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
@@ -1224,11 +1225,11 @@
     "featured_product_9TRBka",
     "rich_text_TgYL4f",
     "166143150135dd97e2",
-    "image_with_text_overlay_jzpJKc",
+    "image_with_text_xPWcbg",
     "rich_text_3FCgYV",
     "featured_collection_list_mPJdgA",
+    "image_with_text_overlay_jzpJKc",
     "featured_collection_kpwePb",
-    "image_with_text_xPWcbg",
     "rich_text_8crLJD",
     "17132060531886ffe4",
     "16624658277b7c3abc",
