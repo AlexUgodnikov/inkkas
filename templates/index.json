@@ -802,7 +802,7 @@
       ],
       "settings": {
         "columns_desktop": 3,
-        "section_width": "grid",
+        "section_width": "full-width-row-full",
         "mobile_swipe": true,
         "image_ratio": "portrait",
         "content_position": "bottom-left",
@@ -844,6 +844,7 @@
         "heading_4Mifqn",
         "text_gXp9Uz"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Tree-Square-02.jpg",
         "use_video": false,
@@ -860,6 +861,58 @@
         "color_border": "#e2e2e2",
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_overlay_4nFNHj": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_fVWpdi": {
+          "type": "subheading",
+          "settings": {
+            "text": "OVER 380,000 TREES PLANTED"
+          }
+        },
+        "heading_ym9Hbz": {
+          "type": "heading",
+          "settings": {
+            "text": "ONE SHOE ONE TREE PROJECT",
+            "heading_size": "h1-xlarge"
+          }
+        },
+        "text_PyPjfy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With Trees.org, Inkkas plants a tree for every purchase. Together, we are rebuilding infrastructure and community.<\/p>",
+            "description_size": "medium"
+          }
+        },
+        "button_7Crc6w": {
+          "type": "button",
+          "settings": {
+            "button_text": "Learn More",
+            "button_link": "shopify:\/\/pages\/aboutstory",
+            "button_outline": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_fVWpdi",
+        "heading_ym9Hbz",
+        "text_PyPjfy",
+        "button_7Crc6w"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify:\/\/shop_images\/Tree-Square-02_5d99ea06-3bd8-4fbc-b2a4-a83cbda0705e.jpg",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
       }
     },
     "rich_text_3FCgYV": {
@@ -1226,6 +1279,7 @@
     "rich_text_TgYL4f",
     "166143150135dd97e2",
     "image_with_text_xPWcbg",
+    "image_with_text_overlay_4nFNHj",
     "rich_text_3FCgYV",
     "featured_collection_list_mPJdgA",
     "image_with_text_overlay_jzpJKc",
