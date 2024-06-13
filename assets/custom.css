@@ -774,6 +774,6 @@ form[id^="preorder-me-button"] .single-add-to-cart-button:before {
         font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1067 - 320)));
     }
 }
-#header.mobile-menu-active {
-    
+#header.mobile-menu-active:before {
+    transform: translateY(0);
 }
