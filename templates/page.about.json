@@ -333,7 +333,7 @@
           "settings": {
             "icon": "leather",
             "heading": "RESPONSIBLE MATERIALS",
-            "text": "<p>INCLUDING VEGAN OFFERINGS<\/p>"
+            "text": ""
           }
         },
         "166161913112fa572a-1": {
@@ -341,7 +341,7 @@
           "settings": {
             "icon": "shoe",
             "heading": "QUALITY CRAFTSMANSHIP",
-            "text": "<p>IN SMALL BATCH PRODUCTIONS<\/p>"
+            "text": ""
           }
         },
         "166161913112fa572a-2": {
@@ -349,7 +349,7 @@
           "settings": {
             "icon": "plant",
             "heading": "CARBON OFFSET",
-            "text": "<p>WITH OUR ONE SHOE ONE TREE PROJECT<\/p>"
+            "text": ""
           }
         }
       },
