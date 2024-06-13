@@ -804,7 +804,7 @@
         "columns_desktop": 3,
         "section_width": "full-width-row-full",
         "mobile_swipe": true,
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "content_position": "bottom-left",
         "text_alignment": "left",
         "column_spacing": "medium",
