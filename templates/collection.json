@@ -178,8 +178,8 @@
         "icon_FcNWP3"
       ],
       "settings": {
-        "text_alignment": "center",
-        "icon_position": "top",
+        "text_alignment": "left",
+        "icon_position": "left",
         "icon_size": "medium",
         "heading_size": "medium",
         "mobile_swipe": true,
