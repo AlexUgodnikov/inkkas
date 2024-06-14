@@ -180,7 +180,7 @@
       "settings": {
         "text_alignment": "left",
         "icon_position": "left",
-        "icon_size": "medium",
+        "icon_size": "large",
         "heading_size": "medium",
         "mobile_swipe": true,
         "color_bg": "rgba(0,0,0,0)",
