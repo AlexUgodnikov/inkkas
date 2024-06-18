@@ -517,6 +517,34 @@
         "disable_bottom_spacing": false
       }
     },
+    "16624658277b7c3abc": {
+      "type": "countdown-banner",
+      "disabled": true,
+      "settings": {
+        "section_width": "full-width-row",
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "subheading": "",
+        "heading": "4th of July SALE",
+        "heading_size": "h2",
+        "content": "",
+        "content_size": "medium",
+        "button_text": "Shop Now",
+        "button_link": "",
+        "timer_year": 2023,
+        "timer_month": "03",
+        "timer_day": "01",
+        "timer_hour": "00",
+        "timer_minute": "00",
+        "color_bg": "#ae1b1b",
+        "color_text": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "rich_text_TgYL4f": {
       "type": "rich-text",
       "blocks": {
@@ -995,7 +1023,7 @@
         "mobile_image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
         "image_parallax": true,
         "desktop_height": "desktop-height-450",
-        "mobile_height": "mobile-height-450",
+        "mobile_height": "mobile-height-350",
         "content_width": "medium",
         "content_position": "middle-center",
         "text_alignment": "center",
@@ -1125,7 +1153,7 @@
       "settings": {
         "section_width": "grid",
         "image": "shopify:\/\/shop_images\/Tree-Square-02_5d99ea06-3bd8-4fbc-b2a4-a83cbda0705e.jpg",
-        "image_parallax": false,
+        "image_parallax": true,
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-350",
         "content_width": "small",
@@ -1134,82 +1162,6 @@
         "overlay_opacity": 30,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
-      }
-    },
-    "image_with_text_xPWcbg": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_Bar8yc": {
-          "type": "subheading",
-          "settings": {
-            "text": "OVER 380,000 TREES PLANTED"
-          }
-        },
-        "heading_4Mifqn": {
-          "type": "heading",
-          "settings": {
-            "text": "ONE SHOE ONE TREE",
-            "heading_size": "h3"
-          }
-        },
-        "text_gXp9Uz": {
-          "type": "text",
-          "settings": {
-            "text": "<p>With Trees.org, Inkkas plants a tree for every purchase. <a href=\"\/pages\/aboutstory\" target=\"_blank\" title=\"About Current\">Read more<\/a> to see how far we've come today.<\/p>",
-            "description_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_Bar8yc",
-        "heading_4Mifqn",
-        "text_gXp9Uz"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Tree-Square-02.jpg",
-        "use_video": false,
-        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "video_autoplay": true,
-        "video_controls": true,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "section_width": "grid",
-        "layout": "image_first",
-        "content_position": "text-left",
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "color_border": "#e2e2e2",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "16624658277b7c3abc": {
-      "type": "countdown-banner",
-      "disabled": true,
-      "settings": {
-        "section_width": "full-width-row",
-        "section_layout": "horizontal",
-        "desktop_height": "desktop-height-auto",
-        "mobile_height": "mobile-height-auto",
-        "subheading": "",
-        "heading": "LABOR DAY SALE",
-        "heading_size": "h2",
-        "content": "",
-        "content_size": "medium",
-        "button_text": "Shop Now",
-        "button_link": "",
-        "timer_year": 2023,
-        "timer_month": "03",
-        "timer_day": "01",
-        "timer_hour": "00",
-        "timer_minute": "00",
-        "color_bg": "#ae1b1b",
-        "color_text": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
       }
     },
     "16620983071df6eb29": {
@@ -1365,6 +1317,7 @@
     "featured_collection_3EMCmt",
     "background_video_6gFnMp",
     "featured_product_9TRBka",
+    "16624658277b7c3abc",
     "rich_text_TgYL4f",
     "166143150135dd97e2",
     "rich_text_3FCgYV",
@@ -1375,8 +1328,6 @@
     "17132060531886ffe4",
     "spacer_8MBDar",
     "image_with_text_overlay_4nFNHj",
-    "image_with_text_xPWcbg",
-    "16624658277b7c3abc",
     "16620983071df6eb29",
     "1647955648d6a0baee",
     "scrolling_text_A4mUYz"
