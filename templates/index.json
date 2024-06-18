@@ -1024,7 +1024,7 @@
         "heading_JaRifV": {
           "type": "heading",
           "settings": {
-            "text": "@INKKASWORLDWEAR",
+            "text": "@InkkasWorldwear",
             "size": "h2"
           }
         }
@@ -1035,7 +1035,7 @@
       ],
       "settings": {
         "section_width": "full-width-row-full",
-        "text_width": "grid",
+        "text_width": "xlarge",
         "text_position": "center",
         "text_alignment": "center",
         "color_bg": "rgba(0,0,0,0)",
