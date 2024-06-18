@@ -494,6 +494,7 @@
         "text_bM787p",
         "image_V6kUmt"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Tree-Square-02_0942744d-f211-46fa-9b7e-4ed5c53324c5.jpg",
         "use_video": false,
@@ -510,39 +511,6 @@
         "color_border": "#e2e2e2",
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
-      }
-    },
-    "collection_tabs_p9hG9T": {
-      "type": "collection-tabs",
-      "blocks": {
-        "collection_myetDM": {
-          "type": "collection",
-          "settings": {
-            "collection": "summer-24-collection"
-          }
-        },
-        "collection_bzXtdW": {
-          "type": "collection",
-          "settings": {
-            "collection": "vegan-products"
-          }
-        }
-      },
-      "block_order": [
-        "collection_myetDM",
-        "collection_bzXtdW"
-      ],
-      "settings": {
-        "heading": "What's trending now",
-        "heading_left": true,
-        "description": "<p> <\/p>",
-        "full_width": false,
-        "product_limit": 7,
-        "columns_desktop": 3,
-        "show_view_all": false,
-        "show_progress_bar": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
       }
     },
     "166366868377cd57e4": {
@@ -605,6 +573,92 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "collection_tabs_p9hG9T": {
+      "type": "collection-tabs",
+      "blocks": {
+        "collection_myetDM": {
+          "type": "collection",
+          "settings": {
+            "collection": "summer-24-collection"
+          }
+        },
+        "collection_bzXtdW": {
+          "type": "collection",
+          "settings": {
+            "collection": "vegan-products"
+          }
+        }
+      },
+      "block_order": [
+        "collection_myetDM",
+        "collection_bzXtdW"
+      ],
+      "settings": {
+        "heading": "Trending Now",
+        "heading_left": true,
+        "description": "<p> <\/p>",
+        "full_width": false,
+        "product_limit": 7,
+        "columns_desktop": 3,
+        "show_view_all": false,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_overlay_4NCRxk": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_NhtXty": {
+          "type": "subheading",
+          "settings": {
+            "text": "PLANTING JOY"
+          }
+        },
+        "heading_4NBdKC": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_size": "h1-xlarge"
+          }
+        },
+        "text_yJxrXC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We plant a tree for every purchase. That's 380,000 trees to date (and counting). <\/p>",
+            "description_size": "medium"
+          }
+        },
+        "button_fWWHAh": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop Now",
+            "button_link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_NhtXty",
+        "heading_4NBdKC",
+        "text_yJxrXC",
+        "button_fWWHAh"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify:\/\/shop_images\/tree.png",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "overlay_opacity": 30,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -617,7 +671,8 @@
     "16623877721f33fb14",
     "1662552569cce2536d",
     "image_with_text_Vp4qKf",
+    "166366868377cd57e4",
     "collection_tabs_p9hG9T",
-    "166366868377cd57e4"
+    "image_with_text_overlay_4NCRxk"
   ]
 }
