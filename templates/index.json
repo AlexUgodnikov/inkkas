@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "16479477632637c9a7": {
@@ -6,7 +15,8 @@
         "164794776393e76b8e-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SS24-07.jpg",
+            "image": "shopify:\/\/shop_images\/SS24-08.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/SS24-07.jpg",
             "slide_link": "shopify:\/\/collections\/the-radiance-collection-1",
             "video_background": true,
             "video": "",
@@ -32,7 +42,7 @@
         "164794776393e76b8e-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SS24-07.jpg",
+            "image": "shopify:\/\/shop_images\/SS24-06.jpg",
             "mobile_image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at2.13.44PM.png",
             "slide_link": "",
             "video_background": false,
