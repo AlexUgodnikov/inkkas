@@ -1277,6 +1277,82 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "scrolling_text_A4mUYz": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_jcGGg9": {
+          "type": "text",
+          "settings": {
+            "text": "WOMEN'S",
+            "link": "shopify:\/\/collections\/womens-collection-all-shoes",
+            "outline_text": false
+          }
+        },
+        "text_gpmxbk": {
+          "type": "text",
+          "settings": {
+            "text": "MEN'S",
+            "link": "shopify:\/\/collections\/mens-shoes",
+            "outline_text": true
+          }
+        },
+        "text_qWFMbM": {
+          "type": "text",
+          "settings": {
+            "text": "KIDS",
+            "link": "shopify:\/\/collections\/kids",
+            "outline_text": false
+          }
+        },
+        "text_Lf7n9z": {
+          "type": "text",
+          "settings": {
+            "text": "ACCESSORIES",
+            "link": "shopify:\/\/collections\/all-accessories",
+            "outline_text": true
+          }
+        },
+        "text_933zzp": {
+          "type": "text",
+          "settings": {
+            "text": "VEGAN",
+            "link": "shopify:\/\/collections\/vegan-products",
+            "outline_text": false
+          }
+        },
+        "text_bNeerk": {
+          "type": "text",
+          "settings": {
+            "text": "EVERYTHING",
+            "link": "shopify:\/\/collections\/all-products",
+            "outline_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_jcGGg9",
+        "text_gpmxbk",
+        "text_qWFMbM",
+        "text_Lf7n9z",
+        "text_933zzp",
+        "text_bNeerk"
+      ],
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "text_size": 24,
+        "text_uppercase": false,
+        "image_size": "large",
+        "color_bg": "#f5f3ef",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -1302,6 +1378,7 @@
     "image_with_text_xPWcbg",
     "16624658277b7c3abc",
     "16620983071df6eb29",
-    "1647955648d6a0baee"
+    "1647955648d6a0baee",
+    "scrolling_text_A4mUYz"
   ]
 }
