@@ -92,6 +92,32 @@
             "button_2_outline": false
           }
         },
+        "slide_xDcpXe": {
+          "type": "slide",
+          "settings": {
+            "slide_link": "",
+            "video_background": true,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify:\/\/files\/videos\/Luzon-ART PROCESS- VIDEO-@PEPA.mov",
+            "subheading": "Pre-Order Available Now",
+            "heading": "Venture into the Luzon",
+            "heading_size": "h1-xlarge",
+            "content": "Available in limited quantities",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 48,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "LUZON SANDAL",
+            "button_1_link": "shopify:\/\/products\/luzon-buckle-sandal",
+            "button_1_outline": false,
+            "button_2_text": "LUZON RUNNER",
+            "button_2_link": "shopify:\/\/products\/luzon-runner-v-2",
+            "button_2_outline": false
+          }
+        },
         "slide_CPyVFd": {
           "type": "slide",
           "disabled": true,
@@ -173,33 +199,6 @@
             "button_2_outline": false
           }
         },
-        "slide_xDcpXe": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "slide_link": "",
-            "video_background": true,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "video_hosted": "shopify:\/\/files\/videos\/Luzon-ART PROCESS- VIDEO-@PEPA.mov",
-            "subheading": "Available in Buckle Sandals, Slip On & V2 Runner",
-            "heading": "Venture into the Luzon",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 48,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "LUZON SLIP ON",
-            "button_1_link": "shopify:\/\/products\/luzon-slip-on",
-            "button_1_outline": false,
-            "button_2_text": "LUZON RUNNER",
-            "button_2_link": "shopify:\/\/products\/luzon-runner-v-2",
-            "button_2_outline": false
-          }
-        },
         "slide_JNAXcC": {
           "type": "slide",
           "disabled": true,
@@ -259,10 +258,10 @@
         "164794776393e76b8e-2",
         "164794776393e76b8e-0",
         "slide_UkyBeK",
+        "slide_xDcpXe",
         "slide_CPyVFd",
         "164794776393e76b8e-1",
         "slide_X4w7DM",
-        "slide_xDcpXe",
         "slide_JNAXcC",
         "slide_iQBDH3"
       ],
@@ -442,11 +441,11 @@
       "type": "background-video",
       "disabled": true,
       "settings": {
-        "desktop_height": "desktop-height-450",
+        "desktop_height": "desktop-height-auto",
         "mobile_height": "mobile-height-350",
         "full_width": false,
-        "subheading": "AVAILABLE NOW WHILE QUANTITIES LAST",
-        "heading": "THE LUZON BUCKLE SANDAL",
+        "subheading": "WHILE QUANTITIES LAST",
+        "heading": "PRE-ORDER THE LUZON BUCKLE SANDAL",
         "text": "The perfect lightweight sandal arrived right on time.",
         "lightbox_button": false,
         "video": "",
