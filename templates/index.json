@@ -65,32 +65,6 @@
             "button_2_outline": false
           }
         },
-        "slide_UkyBeK": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-WESTERN-BOOT-SS241111-MODEL-ZOOM--SS241111-EPI_2774.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "<<< THIS SUMMER, HEAD WEST <<<",
-            "heading": "SUMMER  LOVE",
-            "heading_size": "h1-xlarge",
-            "content": "Your summer (shoe) romance begins & ends here.",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "Shop Western",
-            "button_1_link": "shopify:\/\/collections\/western-boot",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
         "slide_xDcpXe": {
           "type": "slide",
           "settings": {
@@ -114,6 +88,32 @@
             "button_1_outline": false,
             "button_2_text": "LUZON RUNNER",
             "button_2_link": "shopify:\/\/products\/luzon-runner-v-2",
+            "button_2_outline": false
+          }
+        },
+        "slide_UkyBeK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-WESTERN-BOOT-SS241111-MODEL-ZOOM--SS241111-EPI_2774.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "<<< THIS SUMMER, HEAD WEST <<<",
+            "heading": "SUMMER  LOVE",
+            "heading_size": "h1-xlarge",
+            "content": "Your summer (shoe) romance begins & ends here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Western",
+            "button_1_link": "shopify:\/\/collections\/western-boot",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
             "button_2_outline": false
           }
         },
@@ -256,8 +256,8 @@
       "block_order": [
         "164794776393e76b8e-2",
         "164794776393e76b8e-0",
-        "slide_UkyBeK",
         "slide_xDcpXe",
+        "slide_UkyBeK",
         "slide_CPyVFd",
         "164794776393e76b8e-1",
         "slide_X4w7DM",
