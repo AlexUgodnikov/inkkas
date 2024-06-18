@@ -403,8 +403,8 @@
     "background_video_7dHf3i": {
       "type": "background-video",
       "settings": {
-        "desktop_height": "desktop-height-550",
-        "mobile_height": "mobile-height-500",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-350",
         "full_width": false,
         "subheading": "trekk boot",
         "heading": "TREKK INTO SUMMER",
@@ -585,9 +585,9 @@
             "title": "",
             "text": "Not a trend...a classic.",
             "link_label": "WESTERN",
-            "link": "",
+            "link": "shopify:\/\/collections\/western-boot",
             "use_text_button": false,
-            "block_link": "",
+            "block_link": "shopify:\/\/collections\/western-boot",
             "product_list": [
 
             ]
@@ -632,7 +632,7 @@
             "subheading": "",
             "title": "",
             "text": "Sporty, stylish, essential.",
-            "link_label": "V2 RUNNERS",
+            "link_label": "RUNNERS",
             "link": "shopify:\/\/collections\/flexaire",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/flexaire",
