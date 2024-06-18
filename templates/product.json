@@ -360,7 +360,7 @@
       "settings": {
         "full_width": true,
         "enable_sticky_info": true,
-        "enable_sticky_add_to_cart": true,
+        "enable_sticky_add_to_cart": false,
         "show_taxes_included": true,
         "media_layout": "grid",
         "display_slider_pagination": true,
@@ -547,7 +547,7 @@
         "heading_left": true,
         "description": "<p> <\/p>",
         "full_width": false,
-        "product_limit": 7,
+        "product_limit": 10,
         "columns_desktop": 3,
         "show_view_all": false,
         "show_progress_bar": true,
