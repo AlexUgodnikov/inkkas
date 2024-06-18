@@ -27,7 +27,7 @@
         "text_mjxcMK": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Filter by your size to find great deals FAST.<\/em><\/p>",
+            "text": "<p><em><strong>Filter by your size to find great deals FAST.<\/strong><\/em><\/p>",
             "custom_liquid": "",
             "size": "text-size-small"
           }
@@ -36,13 +36,14 @@
       "block_order": [
         "text_mjxcMK"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "full-width-row-full",
         "text_width": "medium",
         "text_position": "left",
         "text_alignment": "left",
         "color_bg": "transparent",
-        "color_text": "#151515",
+        "color_text": "#c95137",
         "color_links": "#151515",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -218,7 +219,7 @@
         "icon_position": "left",
         "icon_size": "medium",
         "heading_size": "small",
-        "mobile_swipe": true,
+        "mobile_swipe": false,
         "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#151515",
         "color_text": "#151515",
