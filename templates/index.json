@@ -414,6 +414,7 @@
         "lightbox_button": false,
         "video": "",
         "video_hosted": "shopify:\/\/files\/videos\/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
+        "fallback_image": "shopify:\/\/shop_images\/POPINJAY-TREKK-BOOT-SS241014-HOLD-SS241014-EPI_3009.jpg",
         "overlay_opacity": 25,
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
