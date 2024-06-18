@@ -40,6 +40,7 @@
         },
         "slide_xDcpXe": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "slide_link": "",
             "video_background": true,
@@ -665,9 +666,9 @@
             "title": "",
             "text": "Always bringin' the funk.",
             "link_label": "HIGH TOPS",
-            "link": "shopify:\/\/collections\/ace-high-top",
+            "link": "shopify:\/\/collections\/high-top-1",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/ace-high-top",
+            "block_link": "shopify:\/\/collections\/high-top-1",
             "product_list": [
 
             ]
