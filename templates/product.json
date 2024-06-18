@@ -430,7 +430,7 @@
         "icon_position": "left",
         "icon_size": "large",
         "heading_size": "medium",
-        "mobile_swipe": false,
+        "mobile_swipe": true,
         "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#151515",
         "color_text": "#151515",
