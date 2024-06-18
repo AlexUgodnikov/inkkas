@@ -513,6 +513,92 @@
         "disable_bottom_spacing": true
       }
     },
+    "collection_tabs_p9hG9T": {
+      "type": "collection-tabs",
+      "blocks": {
+        "collection_myetDM": {
+          "type": "collection",
+          "settings": {
+            "collection": "summer-24-collection"
+          }
+        },
+        "collection_bzXtdW": {
+          "type": "collection",
+          "settings": {
+            "collection": "vegan-products"
+          }
+        }
+      },
+      "block_order": [
+        "collection_myetDM",
+        "collection_bzXtdW"
+      ],
+      "settings": {
+        "heading": "Trending Now",
+        "heading_left": true,
+        "description": "<p> <\/p>",
+        "full_width": false,
+        "product_limit": 7,
+        "columns_desktop": 3,
+        "show_view_all": false,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_overlay_4NCRxk": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_NhtXty": {
+          "type": "subheading",
+          "settings": {
+            "text": "ONE SHOE ONE TREE PROJECT"
+          }
+        },
+        "heading_4NBdKC": {
+          "type": "heading",
+          "settings": {
+            "text": "Planting towards carbon-neutral",
+            "heading_size": "h1-xlarge"
+          }
+        },
+        "text_yJxrXC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We plant a tree for every purchase. That's 380,000 trees to date (and counting) with tree.org. Thanks to you!<\/p>",
+            "description_size": "medium"
+          }
+        },
+        "button_fWWHAh": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop Now",
+            "button_link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_NhtXty",
+        "heading_4NBdKC",
+        "text_yJxrXC",
+        "button_fWWHAh"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify:\/\/shop_images\/Tree-Square-02.jpg",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "overlay_opacity": 30,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "166366868377cd57e4": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -573,92 +659,6 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "collection_tabs_p9hG9T": {
-      "type": "collection-tabs",
-      "blocks": {
-        "collection_myetDM": {
-          "type": "collection",
-          "settings": {
-            "collection": "summer-24-collection"
-          }
-        },
-        "collection_bzXtdW": {
-          "type": "collection",
-          "settings": {
-            "collection": "vegan-products"
-          }
-        }
-      },
-      "block_order": [
-        "collection_myetDM",
-        "collection_bzXtdW"
-      ],
-      "settings": {
-        "heading": "Trending Now",
-        "heading_left": true,
-        "description": "<p> <\/p>",
-        "full_width": false,
-        "product_limit": 7,
-        "columns_desktop": 3,
-        "show_view_all": false,
-        "show_progress_bar": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "image_with_text_overlay_4NCRxk": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_NhtXty": {
-          "type": "subheading",
-          "settings": {
-            "text": "PLANTING JOY"
-          }
-        },
-        "heading_4NBdKC": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_size": "h1-xlarge"
-          }
-        },
-        "text_yJxrXC": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We plant a tree for every purchase. That's 380,000 trees to date (and counting). <\/p>",
-            "description_size": "medium"
-          }
-        },
-        "button_fWWHAh": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_text": "Shop Now",
-            "button_link": "",
-            "button_outline": false
-          }
-        }
-      },
-      "block_order": [
-        "subheading_NhtXty",
-        "heading_4NBdKC",
-        "text_yJxrXC",
-        "button_fWWHAh"
-      ],
-      "settings": {
-        "section_width": "grid",
-        "image": "shopify:\/\/shop_images\/tree.png",
-        "image_parallax": false,
-        "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-500",
-        "content_width": "medium",
-        "content_position": "bottom-center",
-        "text_alignment": "center",
-        "overlay_opacity": 30,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
     }
   },
   "order": [
@@ -671,8 +671,8 @@
     "16623877721f33fb14",
     "1662552569cce2536d",
     "image_with_text_Vp4qKf",
-    "166366868377cd57e4",
     "collection_tabs_p9hG9T",
-    "image_with_text_overlay_4NCRxk"
+    "image_with_text_overlay_4NCRxk",
+    "166366868377cd57e4"
   ]
 }
