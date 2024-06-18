@@ -6,7 +6,7 @@
         "164794776393e76b8e-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.02.30PM.png",
+            "image": "shopify:\/\/shop_images\/SS24-07.jpg",
             "slide_link": "",
             "video_background": true,
             "video": "",
@@ -29,37 +29,10 @@
             "button_2_outline": false
           }
         },
-        "slide_CPyVFd": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at3.10.28PM.png",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "Order by 6\/5 for delivery by Father's Day",
-            "heading": "COOL DADDIO",
-            "heading_size": "h1-xlarge",
-            "content": "Give him the gift of unique style & comfort",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "Shop Men's",
-            "button_1_link": "shopify:\/\/collections\/mens-shoes",
-            "button_1_outline": true,
-            "button_2_text": "Shop Gifts",
-            "button_2_link": "shopify:\/\/collections\/gift-guide-mens",
-            "button_2_outline": true
-          }
-        },
         "164794776393e76b8e-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DESERT-BUCKLE-SANDAL-SS241218-HOLD-SS241218-EPI_2696.jpg",
+            "image": "shopify:\/\/shop_images\/SS24-07.jpg",
             "mobile_image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at2.13.44PM.png",
             "slide_link": "",
             "video_background": false,
@@ -107,6 +80,58 @@
             "button_2_text": "",
             "button_2_link": "",
             "button_2_outline": false
+          }
+        },
+        "slide_JX7cyx": {
+          "type": "slide",
+          "settings": {
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
+            "heading_size": "h1-xlarge",
+            "content": "Add descriptive text for your slide here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0,0,0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "Shop Now",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_CPyVFd": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at3.10.28PM.png",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "Order by 6\/5 for delivery by Father's Day",
+            "heading": "COOL DADDIO",
+            "heading_size": "h1-xlarge",
+            "content": "Give him the gift of unique style & comfort",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Men's",
+            "button_1_link": "shopify:\/\/collections\/mens-shoes",
+            "button_1_outline": true,
+            "button_2_text": "Shop Gifts",
+            "button_2_link": "shopify:\/\/collections\/gift-guide-mens",
+            "button_2_outline": true
           }
         },
         "164794776393e76b8e-1": {
@@ -247,9 +272,10 @@
       },
       "block_order": [
         "164794776393e76b8e-2",
-        "slide_CPyVFd",
         "164794776393e76b8e-0",
         "slide_UkyBeK",
+        "slide_JX7cyx",
+        "slide_CPyVFd",
         "164794776393e76b8e-1",
         "slide_X4w7DM",
         "slide_xDcpXe",
