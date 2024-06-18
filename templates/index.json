@@ -286,6 +286,34 @@
         "border_separator_full": false
       }
     },
+    "16624658277b7c3abc": {
+      "type": "countdown-banner",
+      "disabled": true,
+      "settings": {
+        "section_width": "full-width-row-full",
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "subheading": "Happy Birthday, America!",
+        "heading": "GET 20% OFF SITE WIDE!  use code: JD20",
+        "heading_size": "h2",
+        "content": "",
+        "content_size": "medium",
+        "button_text": "SHOP NOW",
+        "button_link": "",
+        "timer_year": 2024,
+        "timer_month": "07",
+        "timer_day": "03",
+        "timer_hour": "00",
+        "timer_minute": "00",
+        "color_bg": "#ae1b1b",
+        "color_text": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
     "16614195534fb74bc3": {
       "type": "collection-tabs",
       "blocks": {
@@ -515,34 +543,6 @@
         "enable_video_looping": false,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
-      }
-    },
-    "16624658277b7c3abc": {
-      "type": "countdown-banner",
-      "disabled": true,
-      "settings": {
-        "section_width": "full-width-row",
-        "section_layout": "horizontal",
-        "desktop_height": "desktop-height-auto",
-        "mobile_height": "mobile-height-auto",
-        "subheading": "",
-        "heading": "4th of July SALE",
-        "heading_size": "h2",
-        "content": "",
-        "content_size": "medium",
-        "button_text": "Shop Now",
-        "button_link": "",
-        "timer_year": 2023,
-        "timer_month": "03",
-        "timer_day": "01",
-        "timer_hour": "00",
-        "timer_minute": "00",
-        "color_bg": "#ae1b1b",
-        "color_text": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
       }
     },
     "rich_text_TgYL4f": {
@@ -1131,7 +1131,7 @@
         "text_PyPjfy": {
           "type": "text",
           "settings": {
-            "text": "<p>With Trees.org, Inkkas plants a tree for every purchase. As of 2024, that has amounted to 380,000 trees (and counting). See how we got here and where we're headed. <\/p>",
+            "text": "<p>Inkkas plants a tree for every purchase with Trees.org. As of 2024, that has amounted to 380,000 trees (and counting). See how we got here and where we're headed. <\/p>",
             "description_size": "medium"
           }
         },
@@ -1310,6 +1310,7 @@
   "order": [
     "16479477632637c9a7",
     "spacer_4FFAit",
+    "16624658277b7c3abc",
     "16614195534fb74bc3",
     "16615358507b6ff1a8",
     "spacer_etkG3N",
@@ -1317,7 +1318,6 @@
     "featured_collection_3EMCmt",
     "background_video_6gFnMp",
     "featured_product_9TRBka",
-    "16624658277b7c3abc",
     "rich_text_TgYL4f",
     "166143150135dd97e2",
     "rich_text_3FCgYV",
