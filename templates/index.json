@@ -1228,19 +1228,19 @@
             "outline_text": false
           }
         },
-        "text_Lf7n9z": {
-          "type": "text",
-          "settings": {
-            "text": "ACCESSORIES",
-            "link": "shopify:\/\/collections\/all-accessories",
-            "outline_text": true
-          }
-        },
         "text_933zzp": {
           "type": "text",
           "settings": {
             "text": "VEGAN",
             "link": "shopify:\/\/collections\/vegan-products",
+            "outline_text": true
+          }
+        },
+        "text_Lf7n9z": {
+          "type": "text",
+          "settings": {
+            "text": "ACCESSORIES",
+            "link": "shopify:\/\/collections\/all-accessories",
             "outline_text": false
           }
         },
@@ -1257,8 +1257,8 @@
         "text_jcGGg9",
         "text_gpmxbk",
         "text_qWFMbM",
-        "text_Lf7n9z",
         "text_933zzp",
+        "text_Lf7n9z",
         "text_bNeerk"
       ],
       "settings": {
