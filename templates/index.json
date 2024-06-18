@@ -93,7 +93,6 @@
         },
         "slide_xDcpXe": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "slide_link": "",
             "video_background": true,
@@ -1124,7 +1123,7 @@
       "settings": {
         "section_width": "grid",
         "image": "shopify:\/\/shop_images\/Tree-Square-02_5d99ea06-3bd8-4fbc-b2a4-a83cbda0705e.jpg",
-        "image_parallax": true,
+        "image_parallax": false,
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-auto",
         "content_width": "small",
