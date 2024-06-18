@@ -195,14 +195,24 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#151515",
         "color_text": "#151515",
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
+      }
+    },
+    "spacer_HDe43e": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
       }
     }
   },
   "order": [
     "main-collection-banner",
     "product-grid",
-    "text_with_icons_MkhgQi"
+    "text_with_icons_MkhgQi",
+    "spacer_HDe43e"
   ]
 }
