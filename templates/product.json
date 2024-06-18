@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "breadcrumbs": {
@@ -428,8 +437,8 @@
       "settings": {
         "text_alignment": "left",
         "icon_position": "left",
-        "icon_size": "large",
-        "heading_size": "medium",
+        "icon_size": "small",
+        "heading_size": "small",
         "mobile_swipe": true,
         "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#151515",
@@ -589,10 +598,10 @@
         "section_width": "grid",
         "image": "shopify:\/\/shop_images\/Tree-Square-02.jpg",
         "image_parallax": false,
-        "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-500",
-        "content_width": "medium",
-        "content_position": "bottom-center",
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "content_width": "small",
+        "content_position": "middle-center",
         "text_alignment": "center",
         "overlay_opacity": 30,
         "disable_top_spacing": false,
