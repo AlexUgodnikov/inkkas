@@ -6,7 +6,7 @@
       "type": "email-signup",
       "settings": {
         "heading": "We make fun emails, too.",
-        "description": "<p>Enjoy 15% off your first purchase when you subscribe.<\/p>",
+        "description": "<p>Sig up and enjoy 15% off your first purchase.<\/p>",
         "color_bg": "#4e584a",
         "color_text": "#ffffff",
         "disable_top_spacing": false,
