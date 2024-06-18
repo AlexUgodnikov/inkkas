@@ -551,7 +551,7 @@
         "columns_desktop": 3,
         "show_view_all": false,
         "show_progress_bar": true,
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
