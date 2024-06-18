@@ -1101,7 +1101,7 @@
         "text_PyPjfy": {
           "type": "text",
           "settings": {
-            "text": "<p>Inkkas plants a tree for every purchase with Trees.org. As of 2024, that has amounted to 380,000 trees (and counting). See how we got here and where we're headed. <\/p>",
+            "text": "<p>Inkkas plants a tree for every purchase with trees.org. As of 2024, that has amounted to 380,000 trees (and counting). See how we got here and where we're headed.<\/p>",
             "description_size": "medium"
           }
         },
