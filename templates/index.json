@@ -15,10 +15,10 @@
         "164794776393e76b8e-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SS24-08.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/SS24-07.jpg",
+            "image": "shopify:\/\/shop_images\/SS24-02.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/SS24-02.jpg",
             "slide_link": "shopify:\/\/collections\/the-radiance-collection-1",
-            "video_background": true,
+            "video_background": false,
             "video": "",
             "subheading": "SO HOT (OUTSIDE) RIGHT NOW",
             "heading": "",
@@ -94,6 +94,7 @@
         },
         "slide_xDcpXe": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "slide_link": "",
             "video_background": true,
@@ -266,7 +267,7 @@
         "slide_iQBDH3"
       ],
       "settings": {
-        "desktop_height": "desktop-height-full",
+        "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-500",
         "full_width": true,
         "autoplay": true,
