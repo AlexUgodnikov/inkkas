@@ -994,7 +994,7 @@
         "mobile_image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
         "image_parallax": true,
         "desktop_height": "desktop-height-450",
-        "mobile_height": "mobile-height-350",
+        "mobile_height": "mobile-height-auto",
         "content_width": "medium",
         "content_position": "middle-center",
         "text_alignment": "center",
@@ -1103,7 +1103,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Inkkas plants a tree for every purchase with Trees.org. As of 2024, that has amounted to 380,000 trees (and counting). See how we got here and where we're headed. <\/p>",
-            "description_size": "large"
+            "description_size": "medium"
           }
         },
         "button_7Crc6w": {
@@ -1126,7 +1126,7 @@
         "image": "shopify:\/\/shop_images\/Tree-Square-02_5d99ea06-3bd8-4fbc-b2a4-a83cbda0705e.jpg",
         "image_parallax": true,
         "desktop_height": "desktop-height-450",
-        "mobile_height": "mobile-height-350",
+        "mobile_height": "mobile-height-auto",
         "content_width": "small",
         "content_position": "bottom-center",
         "text_alignment": "center",
