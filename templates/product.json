@@ -14,6 +14,34 @@
       "settings": {
       }
     },
+    "countdown_banner_z9fJX4": {
+      "type": "countdown-banner",
+      "disabled": true,
+      "settings": {
+        "section_width": "full-width-row-full",
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "subheading": "HAPPY BIRTHDAY, AMERICA!",
+        "heading": "GET 20% OFF SITEWIDE",
+        "heading_size": "h2",
+        "content": "At checkout, use code: USA20",
+        "content_size": "medium",
+        "button_text": "",
+        "button_link": "",
+        "timer_year": 2024,
+        "timer_month": "07",
+        "timer_day": "01",
+        "timer_hour": "00",
+        "timer_minute": "00",
+        "color_bg": "#ae1b1b",
+        "color_text": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "main-product": {
       "type": "main-product",
       "blocks": {
@@ -672,6 +700,7 @@
   },
   "order": [
     "breadcrumbs",
+    "countdown_banner_z9fJX4",
     "main-product",
     "product_review_bTk7Cp",
     "product-recommendations",
