@@ -404,7 +404,7 @@
     "background_video_7dHf3i": {
       "type": "background-video",
       "settings": {
-        "desktop_height": "desktop-height-450",
+        "desktop_height": "desktop-height-550",
         "mobile_height": "mobile-height-350",
         "full_width": false,
         "subheading": "trekk boot",
