@@ -115,7 +115,7 @@
         "style": "style3",
         "header_shadow": "header--shadow-small",
         "menu": "new-menu",
-        "transparent_header": true,
+        "transparent_header": false,
         "show_language_switcher": false,
         "show_currency_switcher": false,
         "mobile_secondary_menu": "",
