@@ -22,7 +22,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Ambassador-Page-Banner_52cd19ce-480c-4d9e-82f1-103faef09ced.jpg",
-        "full_width": false,
+        "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
