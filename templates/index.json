@@ -1078,7 +1078,7 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#4e584a",
         "color_links": "#151515",
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
@@ -1103,7 +1103,6 @@
     },
     "spacer_8MBDar": {
       "type": "spacer",
-      "disabled": true,
       "settings": {
         "spacer_mobile": 50,
         "spacer_desktop": 100,
