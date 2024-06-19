@@ -31,7 +31,6 @@
       "blocks": {
         "snowball_affiliate_marketing_affiliate_sign_up_6hbYQd": {
           "type": "shopify:\/\/apps\/snowball-affiliate-marketing\/blocks\/affiliate-sign-up\/6e5feda3-ec24-4171-ae41-64028b660bc7",
-          "disabled": true,
           "settings": {
             "form_id": "Default"
           }
