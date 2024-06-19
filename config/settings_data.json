@@ -63,6 +63,7 @@
     "sibling_style": "swatch",
     "cart_terms_conditions_enable": false,
     "cart_drawer_empty_button_url": "shopify:\/\/collections\/best-sellers",
+    "cart_drawer": false,
     "cart_drawer_notes": false,
     "free_shipping": true,
     "free_shipping_minimum": "175.00",
