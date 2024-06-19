@@ -176,7 +176,7 @@
         "pagination_type": "loadmore",
         "enable_filtering": true,
         "enable_sorting": true,
-        "show_counts": true,
+        "show_counts": false,
         "filter_color_swatches": true,
         "facets_desktop": "drawer"
       }
