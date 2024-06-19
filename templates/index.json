@@ -334,64 +334,6 @@
         "disable_bottom_spacing": true
       }
     },
-    "16615358507b6ff1a8": {
-      "type": "testimonials",
-      "blocks": {
-        "quote_EUPeVN": {
-          "type": "quote",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ANDES-CAMPING-BOOT-CB169916-GROUP-ROOSTER-CAMPING-BOOT-CB179802-GROUP-PhotoMay17_14154PM.jpg",
-            "stars": "5",
-            "text": "\"Love blossomed in our Inkkas! :)\"",
-            "author": "Andy & Andi L."
-          }
-        },
-        "f0e5414e-308c-4a64-91b5-1f08b8650731": {
-          "type": "quote",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/photo-SOKOKE_JOGGER.jpg",
-            "stars": "5",
-            "text": "\"OBSESSED!\"",
-            "author": "Carly M."
-          }
-        },
-        "2bf39bcc-dfc9-43ae-b6a4-9cecdb3197c9": {
-          "type": "quote",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BRISBANE-TREKK-AW211017-MODELZOOM.jpg",
-            "stars": "5",
-            "text": "\"I have been eyeing these boots for a long time and finally decided to get them... I could NOT be happier!\"",
-            "author": "Ellie J."
-          }
-        },
-        "quote_jAwD8J": {
-          "type": "quote",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BADASS-SLIP-ON-NP020001-MODEL-1.jpg",
-            "stars": "5",
-            "text": "\"I'm in love! This is my first pair of Inkkas and not only are they super cute but so comfortable as well!\"",
-            "author": "Yosenia M."
-          }
-        }
-      },
-      "block_order": [
-        "quote_EUPeVN",
-        "f0e5414e-308c-4a64-91b5-1f08b8650731",
-        "2bf39bcc-dfc9-43ae-b6a4-9cecdb3197c9",
-        "quote_jAwD8J"
-      ],
-      "settings": {
-        "full_width": true,
-        "text_size": "small",
-        "pagination": "logos",
-        "autoplay": true,
-        "autoplay_length": 5,
-        "color_bg": "#e9e3e0",
-        "color_text": "#151515",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
     "spacer_etkG3N": {
       "type": "spacer",
       "settings": {
@@ -812,8 +754,8 @@
       ],
       "settings": {
         "columns_desktop": 3,
-        "section_width": "full-width-row-full",
-        "mobile_swipe": true,
+        "section_width": "grid",
+        "mobile_swipe": false,
         "image_ratio": "square",
         "content_position": "bottom-left",
         "text_alignment": "left",
@@ -823,6 +765,64 @@
         "overlay_opacity": 20,
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
+      }
+    },
+    "16615358507b6ff1a8": {
+      "type": "testimonials",
+      "blocks": {
+        "quote_EUPeVN": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ANDES-CAMPING-BOOT-CB169916-GROUP-ROOSTER-CAMPING-BOOT-CB179802-GROUP-PhotoMay17_14154PM.jpg",
+            "stars": "5",
+            "text": "\"Love blossomed in our Inkkas! :)\"",
+            "author": "Andy & Andi L."
+          }
+        },
+        "f0e5414e-308c-4a64-91b5-1f08b8650731": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo-SOKOKE_JOGGER.jpg",
+            "stars": "5",
+            "text": "\"OBSESSED!\"",
+            "author": "Carly M."
+          }
+        },
+        "2bf39bcc-dfc9-43ae-b6a4-9cecdb3197c9": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRISBANE-TREKK-AW211017-MODELZOOM.jpg",
+            "stars": "5",
+            "text": "\"I have been eyeing these boots for a long time and finally decided to get them... I could NOT be happier!\"",
+            "author": "Ellie J."
+          }
+        },
+        "quote_jAwD8J": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BADASS-SLIP-ON-NP020001-MODEL-1.jpg",
+            "stars": "5",
+            "text": "\"I'm in love! This is my first pair of Inkkas and not only are they super cute but so comfortable as well!\"",
+            "author": "Yosenia M."
+          }
+        }
+      },
+      "block_order": [
+        "quote_EUPeVN",
+        "f0e5414e-308c-4a64-91b5-1f08b8650731",
+        "2bf39bcc-dfc9-43ae-b6a4-9cecdb3197c9",
+        "quote_jAwD8J"
+      ],
+      "settings": {
+        "full_width": true,
+        "text_size": "small",
+        "pagination": "logos",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#e9e3e0",
+        "color_text": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "rich_text_3FCgYV": {
@@ -1300,7 +1300,6 @@
     "16479477632637c9a7",
     "spacer_4FFAit",
     "16614195534fb74bc3",
-    "16615358507b6ff1a8",
     "spacer_etkG3N",
     "background_video_7dHf3i",
     "featured_collection_3EMCmt",
@@ -1308,6 +1307,7 @@
     "featured_product_9TRBka",
     "rich_text_TgYL4f",
     "166143150135dd97e2",
+    "16615358507b6ff1a8",
     "rich_text_3FCgYV",
     "featured_collection_list_mPJdgA",
     "image_with_text_overlay_jzpJKc",
