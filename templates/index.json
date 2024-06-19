@@ -12,6 +12,32 @@
     "16479477632637c9a7": {
       "type": "slideshow",
       "blocks": {
+        "slide_c4n6WN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.02.30PM.png",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "Discover the all-new",
+            "heading": "SUMMER RADIANCE COLLECTION",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Radiance",
+            "button_1_link": "shopify:\/\/collections\/the-radiance-collection",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "164794776393e76b8e-2": {
           "type": "slide",
           "settings": {
@@ -254,6 +280,7 @@
         }
       },
       "block_order": [
+        "slide_c4n6WN",
         "164794776393e76b8e-2",
         "slide_xDcpXe",
         "164794776393e76b8e-0",
