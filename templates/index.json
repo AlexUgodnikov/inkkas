@@ -19,10 +19,10 @@
             "slide_link": "shopify:\/\/collections\/the-radiance-collection-1",
             "video_background": false,
             "video": "",
-            "subheading": "",
+            "subheading": "SO HOT (OUTSIDE) RIGHT NOW",
             "heading": "",
             "heading_size": "h1-xlarge",
-            "content": "SO HOT (OUTSIDE) RIGHT NOW",
+            "content": "",
             "description_size": "large",
             "content_position": "middle-center",
             "text_alignment": "center",
@@ -1076,6 +1076,7 @@
     },
     "spacer_8MBDar": {
       "type": "spacer",
+      "disabled": true,
       "settings": {
         "spacer_mobile": 50,
         "spacer_desktop": 100,
@@ -1291,7 +1292,7 @@
         "color_text": "#151515",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     }
