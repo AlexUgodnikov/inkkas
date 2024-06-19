@@ -32,7 +32,7 @@
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
             "button_1_text": "Shop Radiance",
             "button_1_link": "shopify:\/\/collections\/the-radiance-collection",
-            "button_1_outline": false,
+            "button_1_outline": true,
             "button_2_text": "",
             "button_2_link": "",
             "button_2_outline": false
@@ -64,32 +64,6 @@
             "button_2_outline": false
           }
         },
-        "164794776393e76b8e-2": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SS24-02.jpg",
-            "slide_link": "shopify:\/\/collections\/the-radiance-collection-1",
-            "video_background": false,
-            "video": "",
-            "subheading": "HOT (OUTSIDE) RIGHT NOW",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "large",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "SHOP NEW IN JUNE",
-            "button_1_link": "shopify:\/\/collections\/the-radiance-collection",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
         "164794776393e76b8e-0": {
           "type": "slide",
           "settings": {
@@ -112,6 +86,32 @@
             "button_1_text": "SHOP Summer Must-Haves",
             "button_1_link": "shopify:\/\/collections\/summer-24-collection",
             "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "164794776393e76b8e-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SS24-02.jpg",
+            "slide_link": "shopify:\/\/collections\/the-radiance-collection-1",
+            "video_background": false,
+            "video": "",
+            "subheading": "HOT (OUTSIDE) RIGHT NOW",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "large",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "SHOP NEW IN JUNE",
+            "button_1_link": "shopify:\/\/collections\/the-radiance-collection",
+            "button_1_outline": false,
             "button_2_text": "",
             "button_2_link": "",
             "button_2_outline": false
@@ -283,8 +283,8 @@
       "block_order": [
         "slide_c4n6WN",
         "slide_xDcpXe",
-        "164794776393e76b8e-2",
         "164794776393e76b8e-0",
+        "164794776393e76b8e-2",
         "slide_UkyBeK",
         "slide_CPyVFd",
         "164794776393e76b8e-1",
