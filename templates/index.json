@@ -119,6 +119,7 @@
         },
         "slide_UkyBeK": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-WESTERN-BOOT-SS241111-MODEL-ZOOM--SS241111-EPI_2774.jpg",
             "slide_link": "",
