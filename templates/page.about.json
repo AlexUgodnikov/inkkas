@@ -92,14 +92,14 @@
       "blocks": {
         "image_pAw6HH": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/TREE_LOGOS_X2-about_page.png",
+            "image": "shopify:\/\/shop_images\/TREE_LOGOS_X2-about_page_2b822c55-00b1-4dfb-86f1-9cc7f4d0c4ea.png",
             "retina": true
           }
         },
         "space_AN6Qan": {
           "type": "space",
+          "disabled": true,
           "settings": {
             "height": 50
           }
