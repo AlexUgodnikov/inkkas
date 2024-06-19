@@ -13,7 +13,7 @@
       "type": "main-collection-banner",
       "settings": {
         "show_collection_image": false,
-        "show_collection_description": false,
+        "show_collection_description": true,
         "show_subcollections": true,
         "make_heading_uppercase": true,
         "image": "shopify:\/\/shop_images\/ScreenShot2024-04-05at4.18.21PM.png",
@@ -42,7 +42,7 @@
         "text_width": "medium",
         "text_position": "left",
         "text_alignment": "left",
-        "color_bg": "transparent",
+        "color_bg": "rgba(0,0,0,0)",
         "color_text": "#c95137",
         "color_links": "#151515",
         "disable_top_spacing": true,
