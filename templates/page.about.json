@@ -107,7 +107,6 @@
         },
         "space_pemrb8": {
           "type": "space",
-          "disabled": true,
           "settings": {
             "height": 48
           }
