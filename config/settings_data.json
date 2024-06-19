@@ -43,7 +43,7 @@
     "product_aspect_ratio": "square",
     "products_hover_images_count": 1,
     "products_hover_dots": true,
-    "enable_quick_add": true,
+    "enable_quick_add": false,
     "enable_quick_view": true,
     "show_products_vendor": false,
     "show_products_swatches": true,
