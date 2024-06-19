@@ -92,17 +92,9 @@
       "blocks": {
         "image_pAw6HH": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo.png",
+            "image": "shopify:\/\/shop_images\/TREE_LOGOS_X2-about_page.png",
             "retina": true
-          }
-        },
-        "space_pemrb8": {
-          "type": "space",
-          "disabled": true,
-          "settings": {
-            "height": 48
           }
         },
         "text_aPJiCC": {
@@ -111,12 +103,19 @@
             "text": "<p>The globe as our muse, we are committed to using our work to improve our environment and enrich our communities through environmental awareness and action. As part of the <strong>One Shoe One Tree<\/strong> project<strong>, <\/strong>and in partnership with <a href=\"https:\/\/trees.org\/\" target=\"_blank\" title=\"https:\/\/trees.org\/\">Trees For The Future <\/a>(trees.org), Inkkas plants one tree for every shoe purchase. With your help, Inkkas is helping reforest the world and develop sustainable agricultural infrastructure for communities around the globe.<\/p>",
             "description_size": "medium"
           }
+        },
+        "space_pemrb8": {
+          "type": "space",
+          "disabled": true,
+          "settings": {
+            "height": 48
+          }
         }
       },
       "block_order": [
         "image_pAw6HH",
-        "space_pemrb8",
-        "text_aPJiCC"
+        "text_aPJiCC",
+        "space_pemrb8"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Planting-trees.jpg",
