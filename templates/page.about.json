@@ -92,6 +92,7 @@
       "blocks": {
         "image_pAw6HH": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/TREE_LOGOS_X2-about_page.png",
             "retina": true
@@ -110,12 +111,19 @@
           "settings": {
             "height": 48
           }
+        },
+        "space_AN6Qan": {
+          "type": "space",
+          "settings": {
+            "height": 50
+          }
         }
       },
       "block_order": [
         "image_pAw6HH",
         "text_aPJiCC",
-        "space_pemrb8"
+        "space_pemrb8",
+        "space_AN6Qan"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Planting-trees.jpg",
