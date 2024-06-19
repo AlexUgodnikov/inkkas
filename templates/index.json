@@ -754,7 +754,7 @@
       "settings": {
         "columns_desktop": 3,
         "section_width": "grid",
-        "mobile_swipe": false,
+        "mobile_swipe": true,
         "image_ratio": "square",
         "content_position": "bottom-left",
         "text_alignment": "left",
