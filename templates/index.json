@@ -826,10 +826,11 @@
         },
         "quote_jAwD8J": {
           "type": "quote",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/BADASS-SLIP-ON-NP020001-MODEL-1.jpg",
             "stars": "5",
-            "text": "\"I'm in love! This is my first pair of Inkkas and I will be getting more!\"",
+            "text": "\"This is my first pair and I will be getting more!\"",
             "author": "Yosenia M."
           }
         }
