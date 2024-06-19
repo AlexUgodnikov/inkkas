@@ -30,7 +30,7 @@
             "overlay_color": "#000000",
             "overlay_opacity": 70,
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "SHOP NEW IN JUNE ➡️",
+            "button_1_text": "SHOP NEW IN JUNE",
             "button_1_link": "shopify:\/\/collections\/the-radiance-collection",
             "button_1_outline": false,
             "button_2_text": "",
