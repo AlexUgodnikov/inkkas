@@ -288,16 +288,16 @@
     "16614195534fb74bc3": {
       "type": "collection-tabs",
       "blocks": {
-        "collection_wreaPU": {
-          "type": "collection",
-          "settings": {
-            "collection": "the-radiance-collection"
-          }
-        },
         "9dc5629d-3c1a-4dcc-b25a-0aa3972a2cb7": {
           "type": "collection",
           "settings": {
             "collection": "best-sellers"
+          }
+        },
+        "collection_wreaPU": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-radiance-collection"
           }
         },
         "collection_4h7nFH": {
@@ -316,8 +316,8 @@
         }
       },
       "block_order": [
-        "collection_wreaPU",
         "9dc5629d-3c1a-4dcc-b25a-0aa3972a2cb7",
+        "collection_wreaPU",
         "collection_4h7nFH",
         "collection_hNbxEy"
       ],
