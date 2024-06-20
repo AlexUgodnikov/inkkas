@@ -1027,7 +1027,7 @@
         "content_position": "middle-center",
         "text_alignment": "center",
         "overlay_opacity": 50,
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
