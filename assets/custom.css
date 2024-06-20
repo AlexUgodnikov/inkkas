@@ -484,7 +484,8 @@ body.compensate-for-scrollbar {
 .product-image-container .slider-button--next {
     z-index: 11;
     position: absolute;
-    top: 50%;
+    /*top: 50%;*/
+    top: 463px;
     transform: translateY(-50%);
     background: rgba(255,255,255,.6);
     height: auto!important;
