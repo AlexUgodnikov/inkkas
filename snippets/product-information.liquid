@@ -454,6 +454,13 @@
                             {% assign new_title = val %}
                           {% endif %}
                         {% endfor %}
+
+                        {% for variant in product.variants %}
+                          {% if variant.title contains value %}
+                            {% assign valueVariant = variant %}
+                          {% endif %}
+                        {% endfor %}
+
                         <input type="radio" id="{{ section.id }}-Size-Men-{{ forloop.index0 }}"
                                name="SizeMen"
                                value="{{ value | escape }}"
@@ -462,7 +469,7 @@
                                data-inputshort="{{ value | downcase |handleize }}"
                                class="product_{{ value | downcase | handleize }}"
                         >
-                        <label for="{{ section.id }}-Size-Men-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
+                        <label for="{{ section.id }}-Size-Men-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
                           {{ new_title | split: ' ' | last }}
                         </label>
                       {% endif %}
@@ -485,6 +492,13 @@
                             {% assign new_title = val %}
                           {% endif %}
                         {% endfor %}
+
+                        {% for variant in product.variants %}
+                          {% if variant.title contains value %}
+                            {% assign valueVariant = variant %}
+                          {% endif %}
+                        {% endfor %}
+
                         <input type="radio" id="{{ section.id }}-Size-Kids-{{ forloop.index0 }}"
                                name="SizeKids"
                                value="{{ value | escape }}"
@@ -493,7 +507,7 @@
                                data-inputshort="{{ value | downcase |handleize }}"
                                class="product_{{ value | downcase | handleize }}"
                         >
-                        <label for="{{ section.id }}-Size-Kids-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label" data-variantid="{{ variant.id }}" data-title="{{ value }}" data-titleshort="{{ value | downcase |handleize }}">
+                        <label for="{{ section.id }}-Size-Kids-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label" data-variantid="{{ variant.id }}" data-title="{{ value }}" data-titleshort="{{ value | downcase |handleize }}">
                           {{ new_title }}
                         </label>
                       {% endif %}
@@ -517,6 +531,13 @@
                             {% assign new_title = val %}
                           {% endif %}
                         {% endfor %}
+
+                        {% for variant in product.variants %}
+                          {% if variant.title contains value %}
+                            {% assign valueVariant = variant %}
+                          {% endif %}
+                        {% endfor %}
+
                         <input type="radio" id="{{ section.id }}-Size-Eur-{{ forloop.index0 }}"
                                name="SizeEur"
                                value="{{ value | escape }}"
@@ -525,7 +546,7 @@
                                data-inputshort="{{ value | downcase |handleize }}"
                                class="product_{{ value | downcase | handleize }}"
                         >
-                        <label for="{{ section.id }}-Size-Eur-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"  data-titleshort="{{ value | downcase | handleize }}">
+                        <label for="{{ section.id }}-Size-Eur-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"  data-titleshort="{{ value | downcase | handleize }}">
                           {{ new_title | split: ' ' | last }}
                         </label>
                       {% endif %}
