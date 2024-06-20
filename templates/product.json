@@ -380,7 +380,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "YOU'D ALSO LIKE",
+        "heading": "YOU MAY ALSO LIKE",
         "heading_left": true,
         "description": "",
         "full_width": true,
