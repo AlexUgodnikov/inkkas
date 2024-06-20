@@ -230,6 +230,7 @@
     },
     "spacer_HDe43e": {
       "type": "spacer",
+      "disabled": true,
       "settings": {
         "spacer_mobile": 50,
         "spacer_desktop": 100,

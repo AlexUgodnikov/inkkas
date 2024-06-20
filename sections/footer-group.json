@@ -57,6 +57,15 @@
         "disable_bottom_spacing": false
       }
     },
+    "spacer_KbQWkd": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
     "email_signup_PUxWJB": {
       "type": "email-signup",
       "settings": {
@@ -136,6 +145,7 @@
   },
   "order": [
     "text_with_icons_aNz4j3",
+    "spacer_KbQWkd",
     "email_signup_PUxWJB",
     "footer"
   ]
