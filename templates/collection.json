@@ -197,7 +197,7 @@
           "settings": {
             "icon": "return",
             "heading": "EASY RETURNS",
-            "text": "<p><a href=\"\/pages\/return-policy\" title=\"Returns & Exchanges\">for 30 days from delivery. Plus <strong>FREE<\/strong> <strong>RETURNS <\/strong>within 7 days of delivery.<\/a><\/p>"
+            "text": "<p><a href=\"\/pages\/return-policy\" target=\"_blank\" title=\"Returns & Exchanges\">for 30 days from delivery. Plus <strong>FREE<\/strong> <strong>RETURNS <\/strong>within 7 days of delivery.<\/a><\/p>"
           }
         },
         "icon_FcNWP3": {
