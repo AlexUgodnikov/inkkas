@@ -423,7 +423,7 @@
                                data-inputshort="{{ value | downcase |handleize }}"
                                class="product_{{ value | downcase | handleize }}"
                         >
-                        <label for="{{ section.id }}-Size-Women-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"   data-titleshort="{{ value | downcase |handleize }}">
+                        <label for="{{ section.id }}-Size-Women-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
                           {{ new_title | split: ' ' | last }}
                         </label>
                       {% endif %}
@@ -470,8 +470,8 @@
                     {%- for value in option.values -%}
                       {% assign value_search = value | downcase  %}
                       {% if value_search contains 'us kids' %}
-                        {% assign new_title_arr = variant.title | split: " / " %}
-                        {% assign new_title = variant.title %}
+                        {% assign new_title_arr = value | split: " / " %}
+                        {% assign new_title = value %}
                         {% for val in new_title_arr %}
                           {% assign newval = val | downcase %}
                           {% if newval contains 'us kids' %}
@@ -480,13 +480,13 @@
                         {% endfor %}
                         <input type="radio" id="{{ section.id }}-Size-Kids-{{ forloop.index0 }}"
                                name="SizeKids"
-                               value="{{ variant.title | escape }}"
+                               value="{{ value | escape }}"
                                form="product-form-{{ section.id }}"
                                {% if currentVariant.id == variant.id %}checked{% endif %}
-                               data-inputshort="{{ variant.title | downcase |handleize }}"
-                               class="product_{{ variant.title | downcase | handleize }}"
+                               data-inputshort="{{ value | downcase |handleize }}"
+                               class="product_{{ value | downcase | handleize }}"
                         >
-                        <label for="{{ section.id }}-Size-Kids-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label" data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"   data-titleshort="{{ variant.title | downcase |handleize }}">
+                        <label for="{{ section.id }}-Size-Kids-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label" data-variantid="{{ variant.id }}" data-title="{{ value }}" data-titleshort="{{ value | downcase |handleize }}">
                           {{ new_title }}
                         </label>
                       {% endif %}
@@ -503,7 +503,7 @@
                       {% assign value_search = value | downcase  %}
                       {% if value_search contains 'eur' %}
                         {% assign new_title_arr = value | split: " / " %}
-                        {% assign new_title = variant.title %}
+                        {% assign new_title = value %}
                         {% for val in new_title_arr %}
                           {% assign newval = val | downcase %}
                           {% if newval contains 'eur' %}
@@ -512,13 +512,13 @@
                         {% endfor %}
                         <input type="radio" id="{{ section.id }}-Size-Eur-{{ forloop.index0 }}"
                                name="SizeEur"
-                               value="{{ variant.title | escape }}"
+                               value="{{ value | escape }}"
                                form="product-form-{{ section.id }}"
                                {% if currentVariant.id == variant.id %}checked{% endif %}
-                               data-inputshort="{{ variant.title | downcase |handleize }}"
-                               class="product_{{ variant.title | downcase | handleize }}"
+                               data-inputshort="{{ value | downcase |handleize }}"
+                               class="product_{{ value | downcase | handleize }}"
                         >
-                        <label for="{{ section.id }}-Size-Eur-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"  data-titleshort="{{ variant.title | downcase | handleize }}">
+                        <label for="{{ section.id }}-Size-Eur-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"  data-titleshort="{{ value | downcase | handleize }}">
                           {{ new_title | split: ' ' | last }}
                         </label>
                       {% endif %}
