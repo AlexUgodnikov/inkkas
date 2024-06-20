@@ -1364,6 +1364,7 @@
         "text_k8DCF9",
         "text_tkgyMQ"
       ],
+      "disabled": true,
       "settings": {
         "height": "height-auto",
         "full_width": true,
