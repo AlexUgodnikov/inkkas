@@ -339,14 +339,7 @@
           {{ product.variants | json }}
         </script>
       </variant-selects>
-      <variant-selects
-        id="variant-selects-{{ section.id }}"
-        class="no-js-hidden"
-        data-update-url="{{ update_url }}"
-        data-section="{{ section.id }}"
-        data-url="{{ product.url }}"
-        data-is-disabled="{{ is_disabled }}"
-      >
+
         {% assign men = 0 %}
         {% assign women = 0 %}
         {% assign kids = 0 %}
@@ -586,7 +579,6 @@
             });
           </script>
         {% endif %}
-      </variant-selects>
         
         <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
           {% assign product_tags = product.tags | join: ' ' %}
