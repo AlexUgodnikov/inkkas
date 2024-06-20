@@ -241,7 +241,7 @@
           "settings": {
             "heading": "I have contacted Inkkas customer service, when will I hear back?",
             "open": false,
-            "content": "<p>Inkkas support agents are available between 9:00 AM to 5:00 PM EST, Monday to Friday. We are committed to responding to inquiries within 24 to 48 hours during business hours. You can reach us at <a href=\"mailto:support@inkkas.com\">support@inkkas.com<\/a>.  Please note that we do not respond to inquiries during weekends and\/or holidays. For urgent matters, you can also email ops@inkkas.com.<\/p>",
+            "content": "<p>Inkkas support agents are available between 9:00am to 5:00pm EST, Monday to Saturday. We are committed to responding to inquiries within 24 to 48 hours during business hours. You can reach us at <a href=\"mailto:support@inkkas.com\">support@inkkas.com<\/a>.  Please note that we do not respond to inquiries during weekends and\/or holidays. For urgent matters, you can also email ops@inkkas.com.<\/p>",
             "page": ""
           }
         },
