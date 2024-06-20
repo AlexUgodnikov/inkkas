@@ -500,9 +500,9 @@
                 <div class="show_variants  {%  if active_tab == 'eur' %} active {% endif %}" id="eur_type">
                   <fieldset class="product-form__input_dann">
                     {%- for value in option.values -%}
-                      {% assign value_search = variant.title | downcase  %}
+                      {% assign value_search = value | downcase  %}
                       {% if value_search contains 'eur' %}
-                        {% assign new_title_arr = variant.title | split: " / " %}
+                        {% assign new_title_arr = value | split: " / " %}
                         {% assign new_title = variant.title %}
                         {% for val in new_title_arr %}
                           {% assign newval = val | downcase %}
