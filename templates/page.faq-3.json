@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "16618629918566dc27": {
@@ -178,7 +187,7 @@
           "settings": {
             "heading": "Where are Inkkas shoes made?",
             "open": false,
-            "content": "<p>All of our shoes are handmade in Mexico. Our signature woven textiles are supplied from local artisans and professionals in Peru. When you buy our shoes, you are buying an authentic, quality Latin American product.<\/p>",
+            "content": "<p>All of our shoes are handcrafted in Mexico. Our signature woven textiles are supplied from local artisans and professionals in Peru. When you buy our shoes, you are buying an authentic, quality Latin American product.<\/p>",
             "page": ""
           }
         },
@@ -205,7 +214,7 @@
           "settings": {
             "heading": "I would like to buy an Inkkas gift certificate to offer as a gift. How do I do that?",
             "open": false,
-            "content": "<p>Gifts certificates are available <a href=\"https:\/\/inkkas.com\/products\/gift-card?gclid=Cj0KCQjwntCVBhDdARIsAMEwACm0EybxtLFbbFuZXB6TJAkrnLCxpq0_-M9M9_XQbuRr4MSTOoEfCwwaAsEcEALw_wcB\">here<\/a>. You can also find them under the shop tab on the website. They are a great gift option for holidays and birthdays! <\/p>",
+            "content": "<p>E-gifts cards are available <a href=\"\/products\/gift-card\" title=\"Inkkas Gift Card\">here<\/a>. You can also find them under the shop tab on the website. They are a great gift option for holidays and birthdays! <\/p>",
             "page": ""
           }
         },
