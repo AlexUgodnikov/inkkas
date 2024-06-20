@@ -379,7 +379,7 @@
         "full_width": false,
         "subheading": "trekk boot",
         "heading": "TREKK INTO SUMMER",
-        "text": "ADVENTURE IS ALWAYS IN-SEASON",
+        "text": "Experience the best looking & feeling beet you've ever worn.",
         "lightbox_button": false,
         "video": "",
         "video_hosted": "shopify:\/\/files\/videos\/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
@@ -392,9 +392,9 @@
     "featured_collection_3EMCmt": {
       "type": "featured-collection",
       "settings": {
-        "heading": "",
+        "heading": "TREKKS",
         "heading_left": true,
-        "description": "<p>Experience<em> <\/em>the best looking & <em>feeling<\/em> all-season boot you've ever worn. <\/p>",
+        "description": "",
         "full_width": false,
         "collection": "trekk-boots",
         "display_type": "carousel",
@@ -403,7 +403,7 @@
         "show_view_all": true,
         "mobile_swipe": true,
         "show_progress_bar": true,
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
