@@ -791,7 +791,7 @@
         "overlay_color": "#000000",
         "overlay_opacity": 20,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     },
     "16615358507b6ff1a8": {
