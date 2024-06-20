@@ -795,6 +795,15 @@
         "disable_bottom_spacing": false
       }
     },
+    "spacer_acRX69": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
     "16615358507b6ff1a8": {
       "type": "testimonials",
       "blocks": {
@@ -1394,6 +1403,7 @@
     "featured_product_9TRBka",
     "rich_text_TgYL4f",
     "166143150135dd97e2",
+    "spacer_acRX69",
     "16615358507b6ff1a8",
     "rich_text_3FCgYV",
     "featured_collection_list_mPJdgA",
