@@ -229,6 +229,12 @@
       },
       "10864971697205422121": {
         "type": "shopify:\/\/apps\/gorgias-live-chat-helpdesk\/blocks\/gorgias\/a66db725-7b96-4e3f-916e-6c8e6f87aaaa",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "12657775114333427046": {
+        "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
         "disabled": false,
         "settings": {
         }
