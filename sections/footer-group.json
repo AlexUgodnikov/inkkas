@@ -11,6 +11,52 @@
   "type": "header",
   "name": "Footer group",
   "sections": {
+    "text_with_icons_aNz4j3": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_wbGYKk": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "CUSTOMER SUPPORT",
+            "text": "<p><a href=\"\/pages\/contact\" target=\"_blank\" title=\"Contact Us\">Mon - Sat, 9am - 5pm<\/a><\/p>"
+          }
+        },
+        "icon_YmkNXV": {
+          "type": "icon",
+          "settings": {
+            "icon": "return",
+            "heading": "EASY RETURNS & EXCHANGES",
+            "text": "<p><a href=\"\/pages\/return-policy\" target=\"_blank\" title=\"Returns & Exchanges\">for 30 days from delivery. Plus, <strong>FREE RETURNS <\/strong>within 7 days of delivery. <\/a><\/p>"
+          }
+        },
+        "icon_76wgmG": {
+          "type": "icon",
+          "settings": {
+            "icon": "box",
+            "heading": "FREE SHIPPING",
+            "text": "<p><a href=\"\/pages\/shipping\" target=\"_blank\" title=\"Shipping\">for orders of $175+ plus expedited shipping available to most regions.<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_wbGYKk",
+        "icon_YmkNXV",
+        "icon_76wgmG"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "medium",
+        "heading_size": "small",
+        "mobile_swipe": true,
+        "color_bg": "transparent",
+        "color_heading": "#151515",
+        "color_text": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "email_signup_PUxWJB": {
       "type": "email-signup",
       "settings": {
@@ -80,6 +126,7 @@
     }
   },
   "order": [
+    "text_with_icons_aNz4j3",
     "email_signup_PUxWJB",
     "footer"
   ]
