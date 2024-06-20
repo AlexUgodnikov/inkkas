@@ -1171,7 +1171,7 @@
           "settings": {
             "icon": "chat_bubble",
             "heading": "CUSTOMER SUPPORT",
-            "text": "<p>Mon - Sat, 9am - 5pm<\/p>"
+            "text": "<p><a href=\"\/pages\/contact\" target=\"_blank\" title=\"Contact Us\">Mon - Sat, 9am - 5pm<\/a><\/p>"
           }
         },
         "1662098307788ca717-1": {
@@ -1179,7 +1179,7 @@
           "settings": {
             "icon": "return",
             "heading": "EASY RETURNS",
-            "text": "<p>for 30 days from delivery. Plus, <strong>FREE RETURNS<\/strong> within 7 days of delivery. <\/p>"
+            "text": "<p><a href=\"\/pages\/return-policy\" target=\"_blank\" title=\"Returns & Exchanges\">for 30 days from delivery. Plus, <strong>FREE RETURNS<\/strong> within 7 days of delivery. <\/a><\/p>"
           }
         },
         "icon_iP6bLk": {
@@ -1187,7 +1187,7 @@
           "settings": {
             "icon": "box",
             "heading": "FREE SHIPPING",
-            "text": "<p>for orders of $175+ plus expedited shipping available to most regions.<\/p>"
+            "text": "<p><a href=\"\/pages\/shipping\" target=\"_blank\" title=\"Shipping\">for orders of $175+ plus expedited shipping available to most regions.<\/a><\/p>"
           }
         }
       },
