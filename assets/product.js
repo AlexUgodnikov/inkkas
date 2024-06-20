@@ -259,14 +259,16 @@ if (!customElements.get('variant-selects')) {
       const submitButtons = document.querySelectorAll('.single-add-to-cart-button');
       const price = document.getElementById(`price-${this.dataset.section}`);
       const price_fixed = document.getElementById(`price-${this.dataset.section}--sticky`);
+      const klavioBtn = document.querySelector('.klaviyo-bis-trigger');
+      klavioBtn.classList.remove('hidden');
 
       submitButtons.forEach((submitButton) => {
         const submitButtonText = submitButton.querySelector('.single-add-to-cart-button--text');
-        const klavioBtn = submitButton.querySelector('.klaviyo-bis-trigger');
+
         if (!submitButton) return;
         submitButtonText.textContent = window.theme.variantStrings.unavailable;
         submitButton.classList.add('sold-out');
-        klavioBtn.classList.remove('hidden');
+
       });
       if (price) price.classList.add('visibility-hidden');
       if (price_fixed) price_fixed.classList.add('visibility-hidden');
