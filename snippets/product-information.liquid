@@ -455,7 +455,7 @@
                                data-inputshort="{{ value | downcase |handleize }}"
                                class="product_{{ value | downcase | handleize }}"
                         >
-                        <label for="{{ section.id }}-Size-Men-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"   data-titleshort="{{ variant.title | downcase |handleize }}">
+                        <label for="{{ section.id }}-Size-Men-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
                           {{ new_title | split: ' ' | last }}
                         </label>
                       {% endif %}
@@ -482,7 +482,7 @@
                                name="SizeKids"
                                value="{{ value | escape }}"
                                form="product-form-{{ section.id }}"
-                               {% if currentVariant.id == variant.id %}checked{% endif %}
+                               {% if option.selected_value == value %}checked{% endif %}
                                data-inputshort="{{ value | downcase |handleize }}"
                                class="product_{{ value | downcase | handleize }}"
                         >
@@ -514,7 +514,7 @@
                                name="SizeEur"
                                value="{{ value | escape }}"
                                form="product-form-{{ section.id }}"
-                               {% if currentVariant.id == variant.id %}checked{% endif %}
+                               {% if option.selected_value == value %}checked{% endif %}
                                data-inputshort="{{ value | downcase |handleize }}"
                                class="product_{{ value | downcase | handleize }}"
                         >
