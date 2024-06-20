@@ -941,5 +941,8 @@
 {%- if section.settings.enable_sticky_add_to_cart -%}
 {% render 'product-add-to-cart-sticky', product: product, media: first_image, color_picker: color_picker, picker_type: picker_type, form: form, is_disabled: is_disabled %}
 {%- endif -%}
+{% unless current_variant.available %}
+  <a  class="klaviyo-bis-trigger button" href="#">Notify Me When Available</a>
+{% endunless %}
 
 {{ sizing_popup }}
