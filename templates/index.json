@@ -784,7 +784,7 @@
         "section_width": "grid",
         "mobile_swipe": true,
         "image_ratio": "square",
-        "content_position": "bottom-left",
+        "content_position": "top-center",
         "text_alignment": "left",
         "column_spacing": "medium",
         "heading_size": "h1",
