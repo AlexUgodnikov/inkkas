@@ -93,6 +93,7 @@
         },
         "164794776393e76b8e-2": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/SS24-02.jpg",
             "slide_link": "shopify:\/\/collections\/the-radiance-collection-1",
