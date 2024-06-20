@@ -401,6 +401,9 @@
 
             <div class="show_variants {%  if active_tab == 'women' %} active {% endif %}" id="women_type">
               <fieldset class="js product-form__input_dann">
+                {%- for option in product.options_with_values -%}
+                  {{ option }}
+                {% endfor %}
                 {%- for value in option.values -%}
                   {% assign value_search = value | downcase  %}
                   {% if value_search contains 'us women' %}
