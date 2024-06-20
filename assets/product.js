@@ -212,8 +212,8 @@ if (!customElements.get('variant-selects')) {
             const price = document.getElementById(id);
             const price_fixed = document.getElementById(id + '--sticky');
 
-            if (price) price.classList.remove('visibility-hidden');
-            if (price_fixed) price_fixed.classList.remove('visibility-hidden');
+            // if (price) price.classList.remove('visibility-hidden');
+            // if (price_fixed) price_fixed.classList.remove('visibility-hidden');
 
           });
           this.toggleAddButton(!this.currentVariant.available, window.theme.variantStrings.soldOut);
@@ -264,8 +264,8 @@ if (!customElements.get('variant-selects')) {
         submitButtonText.textContent = window.theme.variantStrings.unavailable;
         submitButton.classList.add('sold-out');
       });
-      if (price) price.classList.add('visibility-hidden');
-      if (price_fixed) price_fixed.classList.add('visibility-hidden');
+      // if (price) price.classList.add('visibility-hidden');
+      // if (price_fixed) price_fixed.classList.add('visibility-hidden');
     }
 
     setDisabled() {
