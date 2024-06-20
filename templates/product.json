@@ -533,6 +533,7 @@
         "collection_myetDM",
         "collection_bzXtdW"
       ],
+      "disabled": true,
       "settings": {
         "heading": "TRENDING NOW",
         "heading_left": true,
