@@ -40,6 +40,7 @@ if (!customElements.get('variant-selects')) {
       this.updateVariantText();
       this.setDisabled();
 
+      console.log(this);
       console.log(this.currentVariant);
       if (!this.currentVariant) {
         this.toggleAddButton(true, '', true);
