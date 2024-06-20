@@ -39,7 +39,7 @@ if (!customElements.get('variant-selects')) {
       this.removeErrorMessage();
       this.updateVariantText();
       this.setDisabled();
-
+      
       if (!this.currentVariant) {
         this.toggleAddButton(true, '', true);
         this.setUnavailable();
