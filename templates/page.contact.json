@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1661619382b4020fa2": {
@@ -61,7 +70,7 @@
           "settings": {
             "icon": "ruler",
             "heading": "SIZE GUIDES",
-            "text": "<p>available on every product page<\/p>"
+            "text": "<p>tailored for each style is available on every product page<\/p>"
           }
         },
         "icon_gAgznN": {
@@ -76,8 +85,8 @@
           "type": "icon",
           "settings": {
             "icon": "return",
-            "heading": "FREE & EASY RETURNS",
-            "text": "<p>for 7 days from delivery. No questions asked.<\/p>"
+            "heading": "EASY RETURNS",
+            "text": "<p>for 30 days from delivery. Plus, <strong>FREE RETURNS <\/strong>within 7 days of delivery. <\/p>"
           }
         }
       },
