@@ -360,7 +360,7 @@
       "settings": {
         "full_width": true,
         "enable_sticky_info": true,
-        "enable_sticky_add_to_cart": false,
+        "enable_sticky_add_to_cart": true,
         "show_taxes_included": true,
         "media_layout": "grid",
         "display_slider_pagination": true,
