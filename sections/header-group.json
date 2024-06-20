@@ -11,34 +11,6 @@
   "type": "header",
   "name": "Header group",
   "sections": {
-    "countdown_banner_w3zrnd": {
-      "type": "countdown-banner",
-      "disabled": true,
-      "settings": {
-        "section_width": "full-width-row-full",
-        "section_layout": "vertical",
-        "desktop_height": "desktop-height-auto",
-        "mobile_height": "mobile-height-350",
-        "subheading": "HAPPY BIRTHDAY, AMERICA!",
-        "heading": "",
-        "heading_size": "h1-large",
-        "content": "GET 20% OFF SITEWIDE WITH CODE: USA20",
-        "content_size": "medium",
-        "button_text": "",
-        "button_link": "",
-        "timer_year": 2024,
-        "timer_month": "07",
-        "timer_day": "01",
-        "timer_hour": "00",
-        "timer_minute": "00",
-        "color_bg": "#ae1b1b",
-        "color_text": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 10,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
     "countdown_banner_CjEhQG": {
       "type": "countdown-banner",
       "disabled": true,
@@ -154,7 +126,6 @@
     }
   },
   "order": [
-    "countdown_banner_w3zrnd",
     "countdown_banner_CjEhQG",
     "announcement-bar",
     "header"
