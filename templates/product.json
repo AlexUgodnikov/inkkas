@@ -380,7 +380,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You'd also like these",
+        "heading": "YOU'D ALSO LIKE",
         "heading_left": true,
         "description": "",
         "full_width": true,
@@ -392,7 +392,7 @@
     "recently_viewed_products_HPzhR7": {
       "type": "recently-viewed-products",
       "settings": {
-        "heading": "Recently viewed",
+        "heading": "RECENTLY VIEWED",
         "heading_left": true,
         "description": "",
         "full_width": true,
@@ -534,7 +534,7 @@
         "collection_bzXtdW"
       ],
       "settings": {
-        "heading": "Trending Now",
+        "heading": "TRENDING NOW",
         "heading_left": true,
         "description": "<p> <\/p>",
         "full_width": false,
