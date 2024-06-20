@@ -11,6 +11,9 @@
 .add_to_cart_holder #ps__bis_container_root {
   display: none!important;
 }
+.klaviyo-bis-trigger {
+  
+}
 .product-form {
   margin-top: 30px;
   display: block; }
