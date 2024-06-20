@@ -424,7 +424,7 @@
                                data-inputshort="{{ value | downcase |handleize }}"
                                class="product_{{ value | downcase | handleize }}"
                         >
-                        <label for="{{ section.id }}-Size-Women-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
+                        <label for="{{ section.id }}-Size-Women-{{ forloop.index0 }}" class="available_{% if variant.available and variant.inventory_quantity > 0 %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
                           {{ new_title | split: ' ' | last }}
                         </label>
                       {% endif %}
