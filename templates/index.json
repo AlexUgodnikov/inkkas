@@ -896,7 +896,7 @@
         "mobile_height": "mobile-height-300",
         "desktop_height": "desktop-height-auto",
         "full_width": true,
-        "layout": "text_first",
+        "layout": "image_first",
         "content_position": "text-left",
         "text_size": "small",
         "autoplay": true,
