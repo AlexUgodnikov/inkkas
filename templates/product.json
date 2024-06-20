@@ -439,7 +439,7 @@
         "icon_position": "left",
         "icon_size": "medium",
         "heading_size": "small",
-        "mobile_swipe": true,
+        "mobile_swipe": false,
         "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#151515",
         "color_text": "#151515",
