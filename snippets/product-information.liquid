@@ -556,7 +556,8 @@
                   var var_id=$(this).data('variantid');
                   var title=$(this).data('title');
                   var titleshort=$(this).data('titleshort');
-                  $(`variant-selects [data-titleshort=${titleshort}`).click();
+                  console.log($(`variant-selects [data-titleshort="${titleshort}"`));
+                  $(`variant-selects [data-titleshort="${titleshort}"`).click();
                   $('.product-form form input[name="id"]').val(var_id);
                   history.pushState({}, null, '?variant='+var_id);
                   $('.main_prod_'+titleshort+'').click();
