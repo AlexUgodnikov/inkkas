@@ -205,7 +205,7 @@
           "settings": {
             "icon": "box",
             "heading": "FREE SHIPPING",
-            "text": "<p><a href=\"\/pages\/shipping\" title=\"Shipping\">for orders of $175+ plus expedited shipping available to most regions.<\/a><\/p>"
+            "text": "<p><a href=\"\/pages\/shipping\" target=\"_blank\" title=\"Shipping\">for orders of $175+ plus expedited shipping available to most regions.<\/a><\/p>"
           }
         }
       },
