@@ -494,7 +494,7 @@ body.compensate-for-scrollbar {
 @media (min-width: 1068px) and (max-width: 1920px) {
     .product-image-container .slider-button--prev,
     .product-image-container .slider-button--next {
-        top: 463px;
+        top: calc(150px + (463 - 150) * ((100vw - 576px) / (1920 - 576)));
     }
 }
 .product-image-container .slider-button--prev {
