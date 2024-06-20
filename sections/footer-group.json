@@ -44,13 +44,14 @@
         "icon_YmkNXV",
         "icon_76wgmG"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "left",
         "icon_position": "left",
         "icon_size": "medium",
         "heading_size": "small",
         "mobile_swipe": true,
-        "color_bg": "transparent",
+        "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#151515",
         "color_text": "#151515",
         "disable_top_spacing": false,
