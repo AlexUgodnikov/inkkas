@@ -436,11 +436,11 @@
               {% if men > 0 %}
                 <div class="show_variants {%  if active_tab == 'men' %} active {% endif %}" id="men_type">
                   <fieldset class="js product-form__input_dann">
-                    {% for variant in product.variants %}
-                      {% assign value_search = variant.title | downcase  %}
+                    {%- for value in option.values -%}
+                      {% assign value_search = value | downcase  %}
                       {% if value_search contains 'us men' %}
-                        {% assign new_title_arr = variant.title | split: "/" %}
-                        {% assign new_title = variant.title %}
+                        {% assign new_title_arr = value | split: "/" %}
+                        {% assign new_title = value %}
                         {% for val in new_title_arr %}
                           {% assign newval = val | downcase %}
                           {% if newval contains 'us men' %}
@@ -449,11 +449,11 @@
                         {% endfor %}
                         <input type="radio" id="{{ section.id }}-Size-Men-{{ forloop.index0 }}"
                                name="SizeMen"
-                               value="{{ variant.title | escape }}"
+                               value="{{ value | escape }}"
                                form="product-form-{{ section.id }}"
-                               {% if currentVariant.id == variant.id %}checked{% endif %}
-                               data-inputshort="{{ variant.title | downcase |handleize }}"
-                               class="product_{{ variant.title | downcase | handleize }}"
+                               {% if option.selected_value == value %}checked{% endif %}
+                               data-inputshort="{{ value | downcase |handleize }}"
+                               class="product_{{ value | downcase | handleize }}"
                         >
                         <label for="{{ section.id }}-Size-Men-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"   data-titleshort="{{ variant.title | downcase |handleize }}">
                           {{ new_title | split: ' ' | last }}
@@ -467,8 +467,8 @@
               {% if kids > 0 %}
                 <div class="show_variants {%  if active_tab == 'kids' %} active {% endif %}" id="kids_type">
                   <fieldset class="product-form__input_dann">
-                    {% for variant in product.variants %}
-                      {% assign value_search = variant.title | downcase  %}
+                    {%- for value in option.values -%}
+                      {% assign value_search = value | downcase  %}
                       {% if value_search contains 'us kids' %}
                         {% assign new_title_arr = variant.title | split: " / " %}
                         {% assign new_title = variant.title %}
@@ -499,7 +499,7 @@
               {% if eur > 0 %}
                 <div class="show_variants  {%  if active_tab == 'eur' %} active {% endif %}" id="eur_type">
                   <fieldset class="product-form__input_dann">
-                    {% for variant in product.variants %}
+                    {%- for value in option.values -%}
                       {% assign value_search = variant.title | downcase  %}
                       {% if value_search contains 'eur' %}
                         {% assign new_title_arr = variant.title | split: " / " %}
