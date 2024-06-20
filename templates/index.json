@@ -521,10 +521,10 @@
             "image": "shopify:\/\/shop_images\/resizedSPIRIT-BEAR-VEGAN-JOGGER-AW230401-FLAT-4Q2A4735.jpg",
             "subheading": "",
             "title": "",
-            "text": "Plush, retro & oozing comfort.",
+            "text": "",
             "link_label": "JOGGERS",
             "link": "shopify:\/\/collections\/jogger-1",
-            "use_text_button": false,
+            "use_text_button": true,
             "block_link": "shopify:\/\/collections\/jogger-1",
             "product_list": [
 
@@ -537,10 +537,10 @@
             "image": "shopify:\/\/shop_images\/APEX-SLIP-ON-SS240409-FLAT--EPI_9993.jpg",
             "subheading": "",
             "title": "",
-            "text": "Easy on, Never off.",
-            "link_label": "SLIP ONS",
+            "text": "",
+            "link_label": "SLIP ONS & SANDALS",
             "link": "shopify:\/\/collections\/slip-on",
-            "use_text_button": false,
+            "use_text_button": true,
             "block_link": "shopify:\/\/collections\/slip-on",
             "product_list": [
 
@@ -553,10 +553,10 @@
             "image": "shopify:\/\/shop_images\/MONTEREY-BLACK-WESTERN-BOOT-SS231122-FLAT-EPI_8340.jpg",
             "subheading": "",
             "title": "",
-            "text": "Not a trend...a classic.",
-            "link_label": "WESTERN",
+            "text": "",
+            "link_label": "WESTERNS",
             "link": "shopify:\/\/collections\/western-boot",
-            "use_text_button": false,
+            "use_text_button": true,
             "block_link": "shopify:\/\/collections\/western-boot",
             "product_list": [
 
@@ -569,10 +569,10 @@
             "image": "shopify:\/\/shop_images\/ROOSTER-CAMPING-BOOT-CB179802-FLAT-EPI_6517.jpg",
             "subheading": "",
             "title": "",
-            "text": "The Original Best-Seller.",
+            "text": "",
             "link_label": "CAMPING BOOTS",
             "link": "shopify:\/\/collections\/camping-boot-1",
-            "use_text_button": false,
+            "use_text_button": true,
             "block_link": "shopify:\/\/collections\/camping-boot-1",
             "product_list": [
 
@@ -585,10 +585,10 @@
             "image": "shopify:\/\/shop_images\/ALPINE-TREKKBOOT-AW221016-FLAT-_EPI_9337.jpg",
             "subheading": "",
             "title": "",
-            "text": "Water-resistant, adventure-ready.",
+            "text": "",
             "link_label": "TREKKS",
             "link": "shopify:\/\/collections\/trekk-boots",
-            "use_text_button": false,
+            "use_text_button": true,
             "block_link": "shopify:\/\/collections\/trekk-boots",
             "product_list": [
 
@@ -601,7 +601,7 @@
             "image": "shopify:\/\/shop_images\/APEX-RUNNER-V.2-SS240615-FLAT-SS240615-EPI_0413.jpg",
             "subheading": "",
             "title": "",
-            "text": "Sporty, stylish, essential.",
+            "text": "",
             "link_label": "RUNNERS",
             "link": "shopify:\/\/collections\/flexaire",
             "use_text_button": false,
@@ -617,7 +617,7 @@
             "image": "shopify:\/\/shop_images\/PRIMROSE-ACE-LOW-TOP-SS240207-FLAT-EPI_9973.jpg",
             "subheading": "",
             "title": "",
-            "text": "Lace up & get on with your day.",
+            "text": "",
             "link_label": "LOW TOPS",
             "link": "shopify:\/\/collections\/low-top",
             "use_text_button": false,
