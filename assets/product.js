@@ -262,9 +262,11 @@ if (!customElements.get('variant-selects')) {
 
       submitButtons.forEach((submitButton) => {
         const submitButtonText = submitButton.querySelector('.single-add-to-cart-button--text');
+        const klavioBtn = submitButton.querySelector('.klaviyo-bis-trigger');
         if (!submitButton) return;
         submitButtonText.textContent = window.theme.variantStrings.unavailable;
         submitButton.classList.add('sold-out');
+        klavioBtn.classList.remove('hidden');
       });
       if (price) price.classList.add('visibility-hidden');
       if (price_fixed) price_fixed.classList.add('visibility-hidden');

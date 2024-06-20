@@ -72,9 +72,7 @@
 							</span>
 						</button>
 				  </div>
-					{% unless product.selected_or_first_available_variant.available %}
-						<a  class="klaviyo-bis-trigger button" href="#">Notify Me When Available</a>
-					{% endunless %}
+					<a  class="klaviyo-bis-trigger button hidden" href="#">Notify Me When Available</a>
 				</div>
 			</product-form>
 		{%- else -%}
