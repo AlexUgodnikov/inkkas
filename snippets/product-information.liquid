@@ -339,6 +339,14 @@
           {{ product.variants | json }}
         </script>
       </variant-selects>
+      <variant-selects
+        id="variant-selects-{{ section.id }}"
+        class="no-js-hidden"
+        data-update-url="{{ update_url }}"
+        data-section="{{ section.id }}"
+        data-url="{{ product.url }}"
+        data-is-disabled="{{ is_disabled }}"
+      >
         {% assign men = 0 %}
         {% assign women = 0 %}
         {% assign kids = 0 %}
@@ -375,6 +383,7 @@
           {% assign active_tab = 'eur' %}
           {% assign count_tab = count_tab | plus: 1 %}
         {% endif %}
+
         {% if count_tab > 0 %}
           <div class="form__label custom-product-form__label">
             <div class="tab_variants row_flex align-items-center">
@@ -577,6 +586,8 @@
             });
           </script>
         {% endif %}
+      </variant-selects>
+        
         <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
           {% assign product_tags = product.tags | join: ' ' %}
           <div class="product_size-chart">
