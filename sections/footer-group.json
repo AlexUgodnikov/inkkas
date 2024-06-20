@@ -119,10 +119,23 @@
         },
         "menu_gYtTF4": {
           "type": "menu",
+          "disabled": true,
           "settings": {
             "column_size": "large",
             "title": "© 2024 Inkkas - Global Footwear. All rights reserved.",
             "menu": "copyright"
+          }
+        },
+        "text_cLrayB": {
+          "type": "text",
+          "settings": {
+            "column_size": "large",
+            "title": "",
+            "text": "<p>© 2024 Inkkas - Global Footwear. All rights reserved.  <\/p><p><a href=\"\/pages\/terms-conditions\" target=\"_blank\" title=\"Terms & Conditions\">Terms & Conditions<\/a>. <a href=\"\/pages\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a>.<\/p>",
+            "text_size": "small",
+            "button_text": "",
+            "button_link": "",
+            "show_social_links": false
           }
         }
       },
@@ -131,7 +144,8 @@
         "401e3886-6cb7-4742-8fda-45a0d97a26a3",
         "00a364e5-af4e-4073-871b-4d533bd4da06",
         "text_Ug8FA3",
-        "menu_gYtTF4"
+        "menu_gYtTF4",
+        "text_cLrayB"
       ],
       "settings": {
         "full_width": true,
