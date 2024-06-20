@@ -259,8 +259,6 @@ if (!customElements.get('variant-selects')) {
       const submitButtons = document.querySelectorAll('.single-add-to-cart-button');
       const price = document.getElementById(`price-${this.dataset.section}`);
       const price_fixed = document.getElementById(`price-${this.dataset.section}--sticky`);
-      const klavioBtn = document.querySelector('.klaviyo-bis-trigger');
-      klavioBtn.classList.remove('hidden');
 
       submitButtons.forEach((submitButton) => {
         const submitButtonText = submitButton.querySelector('.single-add-to-cart-button--text');

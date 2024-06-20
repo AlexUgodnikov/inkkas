@@ -80,7 +80,9 @@
 		      {{ form | payment_button }}
 		    {%- endif -%}
 		  </div>
-			<a  class="klaviyo-bis-trigger button hidden" href="#">Notify Me When Available</a>
+			{% unless product.selected_or_first_available_variant.available %}
+			<a class="klaviyo-bis-trigger button hidden" href="#">Notify Me When Available</a>
+			{% endunless %}
 		</div>
 		{%- endform -%}
 	</product-form>
