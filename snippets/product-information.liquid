@@ -397,134 +397,169 @@
           </div>
           {% assign currentVariant = product.selected_or_first_available_variant %}
 
-          {% if women > 0 %}
+          {%- for option in product.options_with_values -%}
+            {% assign optionName = option.name | downcase | escape %}
+            {% if optionName == 'size' %}
+              {% if women > 0 %}
 
-            <div class="show_variants {%  if active_tab == 'women' %} active {% endif %}" id="women_type">
-              <fieldset class="js product-form__input_dann">
-                {% for variant in product.variants %}
-                  {% assign value_search = variant.title | downcase  %}
-                  {% if value_search contains 'us women' %}
-                    {% assign new_title_arr = variant.title | split: "/" %}
-                    {% assign new_title = variant.title %}
-                    {% for val in new_title_arr %}
-                      {% assign newval = val | downcase %}
-                      {% if newval contains 'us women' %}
-                        {% assign new_title = val %}
+                <div class="show_variants {%  if active_tab == 'women' %} active {% endif %}" id="women_type">
+                  <fieldset class="js product-form__input_dann">
+                    {%- for value in option.values -%}
+                      {% assign value_search = value | downcase  %}
+                      {% if value_search contains 'us women' %}
+                        {% assign new_title_arr = value | split: "/" %}
+                        {% assign new_title = value %}
+                        {% for val in new_title_arr %}
+                          {% assign newval = val | downcase %}
+                          {% if newval contains 'us women' %}
+                            {% assign new_title = val %}
+                          {% endif %}
+                        {% endfor %}
+
+                        {% for variant in product.variants %}
+                          {% if variant.title contains value %}
+                            {% assign valueVariant = variant %}
+                          {% endif %}
+                        {% endfor %}
+
+                        <input type="radio" id="{{ section.id }}-Size-Women-{{ forloop.index0 }}"
+                               name="SizeWomen"
+                               value="{{ value | escape }}"
+                               form="product-form-{{ section.id }}"
+                               {% if option.selected_value == value %}checked{% endif %}
+                               data-inputshort="{{ value | downcase |handleize }}"
+                               class="product_{{ value | downcase | handleize }}"
+                        >
+                        <label for="{{ section.id }}-Size-Women-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
+                          {{ new_title | split: ' ' | last }}
+                        </label>
                       {% endif %}
-                    {% endfor %}
-                    <input type="radio" id="{{ section.id }}-Size-Women-{{ forloop.index0 }}"
-                           name="SizeWomen"
-                           value="{{ variant.title | escape }}"
-                           form="product-form-{{ section.id }}"
-                           {% if currentVariant.id == variant.id %}checked{% endif %}
-                           data-inputshort="{{ variant.title | downcase |handleize }}"
-                           class="product_{{ variant.title | downcase | handleize }}"
-                    >
-                    <label for="{{ section.id }}-Size-Women-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"   data-titleshort="{{ variant.title | downcase |handleize }}">
-                      {{ new_title | split: ' ' | last }}
-                    </label>
-                  {% endif %}
-                {%- endfor -%}
-              </fieldset>
-            </div>
-          {% endif %}
+                    {%- endfor -%}
+                  </fieldset>
+                </div>
+              {% endif %}
 
 
-          {% if men > 0 %}
-            <div class="show_variants {%  if active_tab == 'men' %} active {% endif %}" id="men_type">
-              <fieldset class="js product-form__input_dann">
-                {% for variant in product.variants %}
-                  {% assign value_search = variant.title | downcase  %}
-                  {% if value_search contains 'us men' %}
-                    {% assign new_title_arr = variant.title | split: "/" %}
-                    {% assign new_title = variant.title %}
-                    {% for val in new_title_arr %}
-                      {% assign newval = val | downcase %}
-                      {% if newval contains 'us men' %}
-                        {% assign new_title = val %}
+              {% if men > 0 %}
+                <div class="show_variants {%  if active_tab == 'men' %} active {% endif %}" id="men_type">
+                  <fieldset class="js product-form__input_dann">
+                    {%- for value in option.values -%}
+                      {% assign value_search = value | downcase  %}
+                      {% if value_search contains 'us men' %}
+                        {% assign new_title_arr = value | split: "/" %}
+                        {% assign new_title = value %}
+                        {% for val in new_title_arr %}
+                          {% assign newval = val | downcase %}
+                          {% if newval contains 'us men' %}
+                            {% assign new_title = val %}
+                          {% endif %}
+                        {% endfor %}
+
+                        {% for variant in product.variants %}
+                          {% if variant.title contains value %}
+                            {% assign valueVariant = variant %}
+                          {% endif %}
+                        {% endfor %}
+
+                        <input type="radio" id="{{ section.id }}-Size-Men-{{ forloop.index0 }}"
+                               name="SizeMen"
+                               value="{{ value | escape }}"
+                               form="product-form-{{ section.id }}"
+                               {% if option.selected_value == value %}checked{% endif %}
+                               data-inputshort="{{ value | downcase |handleize }}"
+                               class="product_{{ value | downcase | handleize }}"
+                        >
+                        <label for="{{ section.id }}-Size-Men-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
+                          {{ new_title | split: ' ' | last }}
+                        </label>
                       {% endif %}
-                    {% endfor %}
-                    <input type="radio" id="{{ section.id }}-Size-Men-{{ forloop.index0 }}"
-                           name="SizeMen"
-                           value="{{ variant.title | escape }}"
-                           form="product-form-{{ section.id }}"
-                           {% if currentVariant.id == variant.id %}checked{% endif %}
-                           data-inputshort="{{ variant.title | downcase |handleize }}"
-                           class="product_{{ variant.title | downcase | handleize }}"
-                    >
-                    <label for="{{ section.id }}-Size-Men-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"   data-titleshort="{{ variant.title | downcase |handleize }}">
-                      {{ new_title | split: ' ' | last }}
-                    </label>
-                  {% endif %}
-                {%- endfor -%}
-              </fieldset>
-            </div>
-          {% endif %}
+                    {%- endfor -%}
+                  </fieldset>
+                </div>
+              {% endif %}
 
-          {% if kids > 0 %}
-            <div class="show_variants {%  if active_tab == 'kids' %} active {% endif %}" id="kids_type">
-              <fieldset class="product-form__input_dann">
-                {% for variant in product.variants %}
-                  {% assign value_search = variant.title | downcase  %}
-                  {% if value_search contains 'us kids' %}
-                    {% assign new_title_arr = variant.title | split: " / " %}
-                    {% assign new_title = variant.title %}
-                    {% for val in new_title_arr %}
-                      {% assign newval = val | downcase %}
-                      {% if newval contains 'us kids' %}
-                        {% assign new_title = val %}
+              {% if kids > 0 %}
+                <div class="show_variants {%  if active_tab == 'kids' %} active {% endif %}" id="kids_type">
+                  <fieldset class="product-form__input_dann">
+                    {%- for value in option.values -%}
+                      {% assign value_search = value | downcase  %}
+                      {% if value_search contains 'us kids' %}
+                        {% assign new_title_arr = value | split: " / " %}
+                        {% assign new_title = value %}
+                        {% for val in new_title_arr %}
+                          {% assign newval = val | downcase %}
+                          {% if newval contains 'us kids' %}
+                            {% assign new_title = val %}
+                          {% endif %}
+                        {% endfor %}
+
+                        {% for variant in product.variants %}
+                          {% if variant.title contains value %}
+                            {% assign valueVariant = variant %}
+                          {% endif %}
+                        {% endfor %}
+
+                        <input type="radio" id="{{ section.id }}-Size-Kids-{{ forloop.index0 }}"
+                               name="SizeKids"
+                               value="{{ value | escape }}"
+                               form="product-form-{{ section.id }}"
+                               {% if option.selected_value == value %}checked{% endif %}
+                               data-inputshort="{{ value | downcase |handleize }}"
+                               class="product_{{ value | downcase | handleize }}"
+                        >
+                        <label for="{{ section.id }}-Size-Kids-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label" data-variantid="{{ variant.id }}" data-title="{{ value }}" data-titleshort="{{ value | downcase |handleize }}">
+                          {{ new_title }}
+                        </label>
                       {% endif %}
-                    {% endfor %}
-                    <input type="radio" id="{{ section.id }}-Size-Kids-{{ forloop.index0 }}"
-                           name="SizeKids"
-                           value="{{ variant.title | escape }}"
-                           form="product-form-{{ section.id }}"
-                           {% if currentVariant.id == variant.id %}checked{% endif %}
-                           data-inputshort="{{ variant.title | downcase |handleize }}"
-                           class="product_{{ variant.title | downcase | handleize }}"
-                    >
-                    <label for="{{ section.id }}-Size-Kids-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label" data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"   data-titleshort="{{ variant.title | downcase |handleize }}">
-                      {{ new_title }}
-                    </label>
-                  {% endif %}
-                {%- endfor -%}
-              </fieldset>
-            </div>
-          {% endif %}
+                    {%- endfor -%}
+                  </fieldset>
+                </div>
+              {% endif %}
 
 
-          {% if eur > 0 %}
-            <div class="show_variants  {%  if active_tab == 'eur' %} active {% endif %}" id="eur_type">
-              <fieldset class="product-form__input_dann">
-                {% for variant in product.variants %}
-                  {% assign value_search = variant.title | downcase  %}
-                  {% if value_search contains 'eur' %}
-                    {% assign new_title_arr = variant.title | split: " / " %}
-                    {% assign new_title = variant.title %}
-                    {% for val in new_title_arr %}
-                      {% assign newval = val | downcase %}
-                      {% if newval contains 'eur' %}
-                        {% assign new_title = val %}
+              {% if eur > 0 %}
+                <div class="show_variants  {%  if active_tab == 'eur' %} active {% endif %}" id="eur_type">
+                  <fieldset class="product-form__input_dann">
+                    {%- for value in option.values -%}
+                      {% assign value_search = value | downcase  %}
+                      {% if value_search contains 'eur' %}
+                        {% assign new_title_arr = value | split: " / " %}
+                        {% assign new_title = value %}
+                        {% for val in new_title_arr %}
+                          {% assign newval = val | downcase %}
+                          {% if newval contains 'eur' %}
+                            {% assign new_title = val %}
+                          {% endif %}
+                        {% endfor %}
+
+                        {% for variant in product.variants %}
+                          {% if variant.title contains value %}
+                            {% assign valueVariant = variant %}
+                          {% endif %}
+                        {% endfor %}
+
+                        <input type="radio" id="{{ section.id }}-Size-Eur-{{ forloop.index0 }}"
+                               name="SizeEur"
+                               value="{{ value | escape }}"
+                               form="product-form-{{ section.id }}"
+                               {% if option.selected_value == value %}checked{% endif %}
+                               data-inputshort="{{ value | downcase |handleize }}"
+                               class="product_{{ value | downcase | handleize }}"
+                        >
+                        <label for="{{ section.id }}-Size-Eur-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"  data-titleshort="{{ value | downcase | handleize }}">
+                          {{ new_title | split: ' ' | last }}
+                        </label>
                       {% endif %}
-                    {% endfor %}
-                    <input type="radio" id="{{ section.id }}-Size-Eur-{{ forloop.index0 }}"
-                           name="SizeEur"
-                           value="{{ variant.title | escape }}"
-                           form="product-form-{{ section.id }}"
-                           {% if currentVariant.id == variant.id %}checked{% endif %}
-                           data-inputshort="{{ variant.title | downcase |handleize }}"
-                           class="product_{{ variant.title | downcase | handleize }}"
-                    >
-                    <label for="{{ section.id }}-Size-Eur-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"  data-titleshort="{{ variant.title | downcase | handleize }}">
-                      {{ new_title | split: ' ' | last }}
-                    </label>
-                  {% endif %}
-                {%- endfor -%}
-              </fieldset>
-            </div>
-          {% endif %}
+                    {%- endfor -%}
+                  </fieldset>
+                </div>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+
           <script>
             document.addEventListener('DOMContentLoaded', function() {
+
               jQuery(function($) {
                 $(".tab_variants .danns").on("click", function (event) {
                   $('.tab_variants .danns').removeClass('active');
@@ -557,13 +592,13 @@
                   var titleshort=$(this).data('titleshort');
                   $('.product-form form input[name="id"]').val(var_id);
                   history.pushState({}, null, '?variant='+var_id);
-                  console.log(titleshort+'==titleshort');
+                  console.log('.main_prod_'+titleshort+'');
                   $('.main_prod_'+titleshort+'').click();
                   $('.product_'+titleshort+'').click();
                   // $('[data-inputshort="'+titleshort+'"]').attr('checked', true);
 
 
-                  $('variant-radios').change();
+                  $('variant-selects').change();
 
 
                   if ($(this).hasClass('available_true')) {

@@ -35,7 +35,7 @@
 				{{ option.name }}: <span class="form__label__value">{{ option.selected_value }}</span>
 			</div>
 			{% for variant in product.variants %}
-				<input type="radio" id="{{ section.id }}-{{ variant.position }}-{{ forloop.index0 }}{{ appended }}"
+			<!--<input type="radio" id="{{ section.id }}-{{ variant.position }}-{{ forloop.index0 }}{{ appended }}"
 							 name="{{ option.name | append: appended }}"
 							 value="{{ variant.title | escape }}"
 							 form="{{ product_form_id }}"
@@ -44,10 +44,10 @@
 				>
 				<label class="main_prod_{{ variant.title | downcase | handleize }} available_{{ variant.available }} variant-label" for="{{ section.id }}-{{ variant.position }}-{{ forloop.index0 }}{{ appended }}" data-title="{{ variant.title }}" data-variantid="{{ variant.id }}" data-titleshort="{{ variant.title | downcase | handleize }}">
 					<span>{{ variant.title }}</span>
-				</label>
+				</label>-->
 			{% endfor %}
 			{%- for value in option.values -%}
-				<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+			<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
 							 name="{{ option.name | append: appended }}"
 							 value="{{ value | escape }}"
 							 form="{{ product_form_id }}"
