@@ -18,6 +18,15 @@
         "disable_bottom_spacing": false
       }
     },
+    "page_DG7K8c": {
+      "type": "page",
+      "settings": {
+        "page": "terms-conditions",
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "rich_text_Hgxf8p": {
       "type": "rich-text",
       "blocks": {
@@ -212,6 +221,7 @@
   },
   "order": [
     "main",
+    "page_DG7K8c",
     "rich_text_Hgxf8p",
     "text_with_icons_MxG7Gn",
     "rich_text_rw9fNx",
