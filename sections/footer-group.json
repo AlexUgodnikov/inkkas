@@ -107,13 +107,22 @@
             "button_link": "",
             "show_social_links": true
           }
+        },
+        "menu_gYtTF4": {
+          "type": "menu",
+          "settings": {
+            "column_size": "large",
+            "title": "© 2024 Inkkas - Global Footwear. All rights reserved.",
+            "menu": "copyright"
+          }
         }
       },
       "block_order": [
         "menu_8fj8kU",
         "401e3886-6cb7-4742-8fda-45a0d97a26a3",
         "00a364e5-af4e-4073-871b-4d533bd4da06",
-        "text_Ug8FA3"
+        "text_Ug8FA3",
+        "menu_gYtTF4"
       ],
       "settings": {
         "full_width": true,
