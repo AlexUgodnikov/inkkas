@@ -43,7 +43,7 @@
       "type": "countdown-banner",
       "settings": {
         "section_width": "full-width-row-full",
-        "section_layout": "vertical",
+        "section_layout": "horizontal",
         "desktop_height": "desktop-height-auto",
         "mobile_height": "mobile-height-auto",
         "subheading": "IT'S HOT OUT. HERE'S SOMETHING TO COOL YOU OFF:",
