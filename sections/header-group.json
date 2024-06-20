@@ -58,7 +58,7 @@
         "timer_day": "20",
         "timer_hour": "00",
         "timer_minute": "59",
-        "color_bg": "#FD9A52",
+        "color_bg": "#f9e32a",
         "color_text": "#151515",
         "overlay_color": "#000000",
         "overlay_opacity": 10,
