@@ -854,61 +854,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "customer_reviews_TF3FaM": {
-      "type": "customer-reviews",
-      "blocks": {
-        "review_9GNNmL": {
-          "type": "review",
-          "settings": {
-            "product_handle": "andes-jogger",
-            "stars": "5",
-            "text": "OBSESSED!",
-            "author": "Carly M."
-          }
-        },
-        "review_UNKTN6": {
-          "type": "review",
-          "settings": {
-            "product_handle": "badass-black-slip-on",
-            "image": "shopify:\/\/shop_images\/BADASS-BLACK-SLIP-ON-AW200307-HOLD-BAD-ASS-SLIP-ON-BLACK-1.jpg",
-            "stars": "5",
-            "text": "I keep my Inkkas by the door -- they are my daily dose of joy and total comfort!",
-            "author": "Eve L."
-          }
-        },
-        "review_XVAWyJ": {
-          "type": "review",
-          "settings": {
-            "product_handle": "joey-vegan-ace-low-top",
-            "image": "shopify:\/\/shop_images\/JOEY-VEGAN-ACE-LOW-TOP-AW230206-3.jpg",
-            "stars": "5",
-            "text": "I discovered this brand as a gift from a friend. Best. Gift. Ever.",
-            "author": "Margot M."
-          }
-        }
-      },
-      "block_order": [
-        "review_9GNNmL",
-        "review_UNKTN6",
-        "review_XVAWyJ"
-      ],
-      "settings": {
-        "mobile_height": "mobile-height-300",
-        "desktop_height": "desktop-height-auto",
-        "full_width": true,
-        "layout": "image_first",
-        "content_position": "text-left",
-        "text_size": "small",
-        "autoplay": true,
-        "autoplay_length": 5,
-        "color_bg": "#FB9E5B",
-        "color_text": "#151515",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "rich_text_3FCgYV": {
       "type": "rich-text",
       "blocks": {
@@ -1104,6 +1049,61 @@
         "show_progress_bar": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
+      }
+    },
+    "customer_reviews_TF3FaM": {
+      "type": "customer-reviews",
+      "blocks": {
+        "review_9GNNmL": {
+          "type": "review",
+          "settings": {
+            "product_handle": "andes-jogger",
+            "stars": "5",
+            "text": "OBSESSED!",
+            "author": "Carly M."
+          }
+        },
+        "review_UNKTN6": {
+          "type": "review",
+          "settings": {
+            "product_handle": "badass-black-slip-on",
+            "image": "shopify:\/\/shop_images\/BADASS-BLACK-SLIP-ON-AW200307-HOLD-BAD-ASS-SLIP-ON-BLACK-1.jpg",
+            "stars": "5",
+            "text": "I keep my Inkkas by the door -- they are my daily dose of joy and total comfort!",
+            "author": "Eve L."
+          }
+        },
+        "review_XVAWyJ": {
+          "type": "review",
+          "settings": {
+            "product_handle": "joey-vegan-ace-low-top",
+            "image": "shopify:\/\/shop_images\/JOEY-VEGAN-ACE-LOW-TOP-AW230206-3.jpg",
+            "stars": "5",
+            "text": "I discovered this brand as a gift from a friend. Best. Gift. Ever.",
+            "author": "Margot M."
+          }
+        }
+      },
+      "block_order": [
+        "review_9GNNmL",
+        "review_UNKTN6",
+        "review_XVAWyJ"
+      ],
+      "settings": {
+        "mobile_height": "mobile-height-300",
+        "desktop_height": "desktop-height-auto",
+        "full_width": true,
+        "layout": "image_first",
+        "content_position": "text-left",
+        "text_size": "small",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#FB9E5B",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "rich_text_8crLJD": {
@@ -1393,11 +1393,11 @@
     "rich_text_TgYL4f",
     "166143150135dd97e2",
     "16615358507b6ff1a8",
-    "customer_reviews_TF3FaM",
     "rich_text_3FCgYV",
     "featured_collection_list_mPJdgA",
     "image_with_text_overlay_jzpJKc",
     "featured_collection_kpwePb",
+    "customer_reviews_TF3FaM",
     "rich_text_8crLJD",
     "17132060531886ffe4",
     "spacer_8MBDar",
