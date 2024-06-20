@@ -1027,7 +1027,7 @@
         "content_position": "middle-center",
         "text_alignment": "center",
         "overlay_opacity": 50,
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     },
@@ -1079,7 +1079,7 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#4e584a",
         "color_links": "#151515",
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
