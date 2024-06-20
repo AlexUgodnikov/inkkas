@@ -415,6 +415,7 @@
                             {% assign new_title = val %}
                           {% endif %}
                         {% endfor %}
+                        {%- assign variant = product.variants | where: 'option' | first %}
                         <input type="radio" id="{{ section.id }}-Size-Women-{{ forloop.index0 }}"
                                name="SizeWomen"
                                value="{{ value | escape }}"
