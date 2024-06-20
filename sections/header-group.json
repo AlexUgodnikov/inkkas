@@ -41,6 +41,7 @@
     },
     "countdown_banner_CjEhQG": {
       "type": "countdown-banner",
+      "disabled": true,
       "settings": {
         "section_width": "full-width-row-full",
         "section_layout": "horizontal",
