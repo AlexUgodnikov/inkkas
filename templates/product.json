@@ -456,63 +456,6 @@
         "border_separator_full": true
       }
     },
-    "image_with_text_Vp4qKf": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_mbFQKH": {
-          "type": "subheading",
-          "settings": {
-            "text": "Planting joy"
-          }
-        },
-        "heading_bmy8Bk": {
-          "type": "heading",
-          "settings": {
-            "text": "ONE SHOE ONE TREE PROJECT",
-            "heading_size": "h3"
-          }
-        },
-        "text_bM787p": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We plant 1 tree for every Inkkas purchase. Over the years, that has amounted to more than <a href=\"\/pages\/aboutstory\" target=\"_blank\" title=\"About Current\">380,000 trees<\/a>. All thanks to you.<\/p>",
-            "description_size": "medium"
-          }
-        },
-        "image_V6kUmt": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Planting-trees.jpg",
-            "retina": true
-          }
-        }
-      },
-      "block_order": [
-        "subheading_mbFQKH",
-        "heading_bmy8Bk",
-        "text_bM787p",
-        "image_V6kUmt"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Tree-Square-02_0942744d-f211-46fa-9b7e-4ed5c53324c5.jpg",
-        "use_video": false,
-        "video": "",
-        "video_autoplay": false,
-        "video_controls": false,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "section_width": "grid",
-        "layout": "text_first",
-        "content_position": "text-center",
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "color_border": "#e2e2e2",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
     "collection_tabs_p9hG9T": {
       "type": "collection-tabs",
       "blocks": {
@@ -646,7 +589,6 @@
         "c6ec8484-f95c-4682-a344-ab918c10cab4",
         "16636686835e8f94d4-3"
       ],
-      "disabled": true,
       "settings": {
         "section_width": "full-width-row",
         "image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
@@ -671,7 +613,6 @@
     "recently_viewed_products_HPzhR7",
     "text_with_icons_MRQx4U",
     "1662552569cce2536d",
-    "image_with_text_Vp4qKf",
     "collection_tabs_p9hG9T",
     "image_with_text_overlay_4NCRxk",
     "166366868377cd57e4"
