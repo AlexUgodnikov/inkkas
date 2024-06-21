@@ -11,6 +11,7 @@
   "sections": {
     "countdown_banner_77KGzk": {
       "type": "countdown-banner",
+      "disabled": true,
       "settings": {
         "section_width": "full-width-row-full",
         "section_layout": "horizontal",
@@ -28,7 +29,7 @@
         "timer_day": "21",
         "timer_hour": "00",
         "timer_minute": "00",
-        "color_bg": "#FB9E5B",
+        "color_bg": "#fb9e5b",
         "color_text": "#151515",
         "overlay_color": "#000000",
         "overlay_opacity": 10,
