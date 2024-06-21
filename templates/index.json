@@ -68,6 +68,7 @@
         },
         "slide_xDcpXe": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "slide_link": "",
             "video_background": true,
@@ -121,7 +122,6 @@
         },
         "164794776393e76b8e-2": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/SS24-02.jpg",
             "slide_link": "shopify:\/\/collections\/the-radiance-collection-1",
@@ -390,6 +390,51 @@
         "disable_bottom_spacing": true
       }
     },
+    "spacer_etkG3N": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 25,
+        "spacer_desktop": 80,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "background_video_7dHf3i": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-350",
+        "full_width": false,
+        "subheading": "trekk boot",
+        "heading": "TREKK INTO SUMMER",
+        "text": "Experience the best looking & feeling beet you've ever worn.",
+        "lightbox_button": false,
+        "video": "",
+        "video_hosted": "shopify:\/\/files\/videos\/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
+        "fallback_image": "shopify:\/\/shop_images\/POPINJAY-TREKK-BOOT-SS241014-HOLD-SS241014-EPI_3009.jpg",
+        "overlay_opacity": 25,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_3EMCmt": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "TREKKS",
+        "heading_left": true,
+        "description": "",
+        "full_width": false,
+        "collection": "trekk-boots",
+        "display_type": "carousel",
+        "product_limit": 12,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "customer_reviews_TF3FaM": {
       "type": "customer-reviews",
       "blocks": {
@@ -441,51 +486,6 @@
         "color_text": "#151515",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "spacer_etkG3N": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 25,
-        "spacer_desktop": 80,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "background_video_7dHf3i": {
-      "type": "background-video",
-      "settings": {
-        "desktop_height": "desktop-height-550",
-        "mobile_height": "mobile-height-350",
-        "full_width": false,
-        "subheading": "trekk boot",
-        "heading": "TREKK INTO SUMMER",
-        "text": "Experience the best looking & feeling beet you've ever worn.",
-        "lightbox_button": false,
-        "video": "",
-        "video_hosted": "shopify:\/\/files\/videos\/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
-        "fallback_image": "shopify:\/\/shop_images\/POPINJAY-TREKK-BOOT-SS241014-HOLD-SS241014-EPI_3009.jpg",
-        "overlay_opacity": 25,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "featured_collection_3EMCmt": {
-      "type": "featured-collection",
-      "settings": {
-        "heading": "TREKKS",
-        "heading_left": true,
-        "description": "",
-        "full_width": false,
-        "collection": "trekk-boots",
-        "display_type": "carousel",
-        "product_limit": 12,
-        "columns_desktop": 4,
-        "show_view_all": true,
-        "mobile_swipe": true,
-        "show_progress_bar": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -1414,10 +1414,10 @@
     "16479477632637c9a7",
     "spacer_4FFAit",
     "16614195534fb74bc3",
-    "customer_reviews_TF3FaM",
     "spacer_etkG3N",
     "background_video_7dHf3i",
     "featured_collection_3EMCmt",
+    "customer_reviews_TF3FaM",
     "background_video_6gFnMp",
     "featured_product_9TRBka",
     "rich_text_TgYL4f",
