@@ -233,12 +233,6 @@
         "settings": {
         }
       },
-      "12657775114333427046": {
-        "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "17185901837387986907": {
         "type": "shopify:\/\/apps\/navidium-shipping-protection\/blocks\/widget_app_embed\/f134d7db-6260-495c-9b27-9c4372bc2cf3",
         "disabled": false,
@@ -261,6 +255,12 @@
           "cart_bubble_count": "navidium",
           "checkoutBtns": "[name='checkout'], [name='checkout'] *",
           "customCSS": ""
+        }
+      },
+      "12657775114333427046": {
+        "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+        "disabled": false,
+        "settings": {
         }
       }
     }
