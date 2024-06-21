@@ -68,7 +68,6 @@
         },
         "slide_xDcpXe": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "slide_link": "",
             "video_background": true,
@@ -433,13 +432,13 @@
         "collection_hNbxEy"
       ],
       "settings": {
-        "heading": "REVIEWED BY THOUSANDS. Ready for You.",
+        "heading": "REVIEWED BY THOUSANDS.",
         "heading_left": true,
-        "description": "",
+        "description": "<h5><em><strong>Ready for You.<\/strong><\/em><\/h5>",
         "full_width": true,
         "product_limit": 16,
         "columns_desktop": 4,
-        "show_view_all": true,
+        "show_view_all": false,
         "show_progress_bar": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
