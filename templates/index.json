@@ -378,6 +378,7 @@
         "review_UNKTN6",
         "review_XVAWyJ"
       ],
+      "disabled": true,
       "settings": {
         "mobile_height": "mobile-height-300",
         "desktop_height": "desktop-height-auto",
