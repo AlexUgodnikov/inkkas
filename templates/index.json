@@ -399,42 +399,6 @@
         "border_separator_full": false
       }
     },
-    "background_video_7dHf3i": {
-      "type": "background-video",
-      "settings": {
-        "desktop_height": "desktop-height-550",
-        "mobile_height": "mobile-height-500",
-        "full_width": false,
-        "subheading": "All-season trekk boot",
-        "heading": "TREKK INTO SUMMER",
-        "text": "Experience the best looking & feeling boot you've ever worn.",
-        "lightbox_button": false,
-        "video": "",
-        "video_hosted": "shopify:\/\/files\/videos\/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
-        "fallback_image": "shopify:\/\/shop_images\/POPINJAY-TREKK-BOOT-SS241014-HOLD-SS241014-EPI_3009.jpg",
-        "overlay_opacity": 25,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "featured_collection_3EMCmt": {
-      "type": "featured-collection",
-      "settings": {
-        "heading": "TREKKS",
-        "heading_left": true,
-        "description": "",
-        "full_width": false,
-        "collection": "trekk-boots",
-        "display_type": "carousel",
-        "product_limit": 12,
-        "columns_desktop": 4,
-        "show_view_all": true,
-        "mobile_swipe": true,
-        "show_progress_bar": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "customer_reviews_TF3FaM": {
       "type": "customer-reviews",
       "blocks": {
@@ -486,6 +450,42 @@
         "color_text": "#151515",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "background_video_7dHf3i": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-500",
+        "full_width": false,
+        "subheading": "All-season trekk boot",
+        "heading": "TREKK INTO SUMMER",
+        "text": "Experience the best looking & feeling boot you've ever worn.",
+        "lightbox_button": false,
+        "video": "",
+        "video_hosted": "shopify:\/\/files\/videos\/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
+        "fallback_image": "shopify:\/\/shop_images\/POPINJAY-TREKK-BOOT-SS241014-HOLD-SS241014-EPI_3009.jpg",
+        "overlay_opacity": 25,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_3EMCmt": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "TREKKS",
+        "heading_left": true,
+        "description": "",
+        "full_width": false,
+        "collection": "trekk-boots",
+        "display_type": "carousel",
+        "product_limit": 12,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -1415,9 +1415,9 @@
     "spacer_4FFAit",
     "16614195534fb74bc3",
     "spacer_etkG3N",
+    "customer_reviews_TF3FaM",
     "background_video_7dHf3i",
     "featured_collection_3EMCmt",
-    "customer_reviews_TF3FaM",
     "background_video_6gFnMp",
     "featured_product_9TRBka",
     "rich_text_TgYL4f",
