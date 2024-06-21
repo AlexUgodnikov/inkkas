@@ -333,6 +333,7 @@
     },
     "spacer_4FFAit": {
       "type": "spacer",
+      "disabled": true,
       "settings": {
         "spacer_mobile": 25,
         "spacer_desktop": 80,
