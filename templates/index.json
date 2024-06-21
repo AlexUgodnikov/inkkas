@@ -384,7 +384,7 @@
         "desktop_height": "desktop-height-auto",
         "full_width": false,
         "layout": "image_first",
-        "content_position": "text-left",
+        "content_position": "text-center",
         "text_size": "small",
         "autoplay": true,
         "autoplay_length": 5,
