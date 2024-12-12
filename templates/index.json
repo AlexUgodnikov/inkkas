@@ -57,7 +57,7 @@
             "overlay_opacity": 70,
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
             "button_1_text": "Shop Western",
-            "button_1_link": "shopify://collections/western-boot",
+            "button_1_link": "shopify://collections/western-boots",
             "button_1_outline": true,
             "button_2_text": "",
             "button_2_link": "",
