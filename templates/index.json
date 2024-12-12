@@ -507,9 +507,9 @@
             "title": "",
             "text": "The Original Best-Seller.",
             "link_label": "CAMPING BOOTS",
-            "link": "shopify://collections/camping-boot-1",
+            "link": "shopify://collections/camping-boots",
             "use_text_button": false,
-            "block_link": "shopify://collections/camping-boot-1",
+            "block_link": "shopify://collections/camping-boots",
             "product_list": []
           }
         },
