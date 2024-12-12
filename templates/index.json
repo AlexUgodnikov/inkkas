@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "16479477632637c9a7": {
@@ -6,7 +15,7 @@
         "164794776393e76b8e-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DESERT-BUCKLESANDAL-SS241218-LUZON-BUCKLESANDAL-SS241219-SAMADHI-BUCKLESANDAL-SS241217-MODELZOOM-GROUP-4Q2A8240.jpg",
+            "image": "shopify://shop_images/DESERT-BUCKLESANDAL-SS241218-LUZON-BUCKLESANDAL-SS241219-SAMADHI-BUCKLESANDAL-SS241217-MODELZOOM-GROUP-4Q2A8240.jpg",
             "slide_link": "",
             "video_background": false,
             "video": "",
@@ -22,7 +31,7 @@
             "overlay_opacity": 20,
             "overlay_gradient": "",
             "button_1_text": "Shop SandalS",
-            "button_1_link": "shopify:\/\/collections\/ss24-vacay-ready",
+            "button_1_link": "shopify://collections/ss24-vacay-ready",
             "button_1_outline": false,
             "button_2_text": "",
             "button_2_link": "",
@@ -32,10 +41,10 @@
         "slide_UkyBeK": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SOCORRO-WESTERN-BOOT-SS231121-MODEL-EPI_7982_bbc4f95d-14bf-44b4-b925-3a5bca73a8c7.jpg",
+            "image": "shopify://shop_images/SOCORRO-WESTERN-BOOT-SS231121-MODEL-EPI_7982_bbc4f95d-14bf-44b4-b925-3a5bca73a8c7.jpg",
             "slide_link": "",
             "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "<<<< THIS SUMMER, HEAD WEST <<<<",
             "heading": "SUMMER  LOVE",
             "heading_size": "h1-xlarge",
@@ -48,7 +57,7 @@
             "overlay_opacity": 70,
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
             "button_1_text": "Shop Western",
-            "button_1_link": "shopify:\/\/collections\/western-boot",
+            "button_1_link": "shopify://collections/western-boot",
             "button_1_outline": true,
             "button_2_text": "",
             "button_2_link": "",
@@ -62,7 +71,7 @@
             "slide_link": "",
             "video_background": true,
             "video": "",
-            "video_hosted": "shopify:\/\/files\/videos\/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
+            "video_hosted": "shopify://files/videos/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
             "subheading": "unique designs, plush support, globally-inspired",
             "heading": "TREKK INTO YOUR SUMMER",
             "heading_size": "h1-xlarge",
@@ -75,10 +84,10 @@
             "overlay_opacity": 70,
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
             "button_1_text": "Shop MEN",
-            "button_1_link": "shopify:\/\/collections\/mens-shoes",
+            "button_1_link": "shopify://collections/mens-shoes",
             "button_1_outline": true,
             "button_2_text": "Shop Women",
-            "button_2_link": "shopify:\/\/collections\/womens-collection-all-shoes",
+            "button_2_link": "shopify://collections/womens-collection-all-shoes",
             "button_2_outline": false
           }
         },
@@ -86,7 +95,7 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.02.30PM.png",
+            "image": "shopify://shop_images/ScreenShot2024-04-08at4.02.30PM.png",
             "slide_link": "",
             "video_background": true,
             "video": "",
@@ -102,7 +111,7 @@
             "overlay_opacity": 70,
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
             "button_1_text": "SHOP NEW COLLECTION",
-            "button_1_link": "shopify:\/\/collections\/the-radiance-collection",
+            "button_1_link": "shopify://collections/the-radiance-collection",
             "button_1_outline": true,
             "button_2_text": "",
             "button_2_link": "",
@@ -113,8 +122,8 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/DESERT-BUCKLE-SANDAL-SS241218-HOLD-SS241218-EPI_2696.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at2.13.44PM.png",
+            "image": "shopify://shop_images/DESERT-BUCKLE-SANDAL-SS241218-HOLD-SS241218-EPI_2696.jpg",
+            "mobile_image": "shopify://shop_images/ScreenShot2024-04-08at2.13.44PM.png",
             "slide_link": "",
             "video_background": false,
             "video": "",
@@ -130,7 +139,7 @@
             "overlay_opacity": 43,
             "overlay_gradient": "",
             "button_1_text": "SHOP NEW",
-            "button_1_link": "shopify:\/\/collections\/the-radiance-collection",
+            "button_1_link": "shopify://collections/the-radiance-collection",
             "button_1_outline": true,
             "button_2_text": "",
             "button_2_link": "",
@@ -143,8 +152,8 @@
           "settings": {
             "slide_link": "",
             "video_background": true,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "video_hosted": "shopify:\/\/files\/videos\/Luzon-ART PROCESS- VIDEO-@PEPA.mov",
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify://files/videos/Luzon-ART PROCESS- VIDEO-@PEPA.mov",
             "subheading": "Available in Buckle Sandals, Slip On & V2 Runner",
             "heading": "Venture into the Luzon",
             "heading_size": "h1-xlarge",
@@ -157,10 +166,10 @@
             "overlay_opacity": 48,
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
             "button_1_text": "LUZON SLIP ON",
-            "button_1_link": "shopify:\/\/products\/luzon-slip-on",
+            "button_1_link": "shopify://products/luzon-slip-on",
             "button_1_outline": false,
             "button_2_text": "LUZON RUNNER",
-            "button_2_link": "shopify:\/\/products\/luzon-runner-v-2",
+            "button_2_link": "shopify://products/luzon-runner-v-2",
             "button_2_outline": false
           }
         },
@@ -168,10 +177,10 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/POPINJAY-TREKK-BOOT-SS241014-MODEL-SS241014-EPI_2963.jpg",
+            "image": "shopify://shop_images/POPINJAY-TREKK-BOOT-SS241014-MODEL-SS241014-EPI_2963.jpg",
             "slide_link": "",
             "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "25% OFF SITE-WIDE STARTS NOW!",
             "heading": "BIGGEST SALE OF THE SEASON IS HERE!",
             "heading_size": "h1-xlarge",
@@ -195,10 +204,10 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/TOUBKAL-JOGGER-SS230405-MODEL--EPI_3445.jpg",
+            "image": "shopify://shop_images/TOUBKAL-JOGGER-SS230405-MODEL--EPI_3445.jpg",
             "slide_link": "",
             "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "20% OFF (ALMOST) EVERYTHING",
             "heading": "SHOP OUR MOTHER'S DAY SALE",
             "heading_size": "h1-large",
@@ -318,7 +327,7 @@
         "text": "ADVENTURE IS ALWAYS IN-SEASON",
         "lightbox_button": false,
         "video": "",
-        "video_hosted": "shopify:\/\/files\/videos\/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
+        "video_hosted": "shopify://files/videos/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
         "overlay_opacity": 25,
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
@@ -329,7 +338,7 @@
       "settings": {
         "heading": "",
         "heading_left": true,
-        "description": "<p><em>water-resistant materials, plush ankle support & unique global designs make these your summer go-to<\/em><\/p>",
+        "description": "<p><em>water-resistant materials, plush ankle support & unique global designs make these your summer go-to</em></p>",
         "full_width": false,
         "collection": "trekk-boots",
         "display_type": "carousel",
@@ -353,8 +362,8 @@
         "text": "The perfect lightweight sandal arrived right on time.",
         "lightbox_button": false,
         "video": "",
-        "video_hosted": "shopify:\/\/files\/videos\/Luzon-ART PROCESS- VIDEO-@PEPA_f1843d47-5563-4a4c-866e-83d1cbf05057.mov",
-        "fallback_image": "shopify:\/\/shop_images\/LUZON-BUCKLE-SANDAL-SS241219-FLAT-EPI_0143.jpg",
+        "video_hosted": "shopify://files/videos/Luzon-ART PROCESS- VIDEO-@PEPA_f1843d47-5563-4a4c-866e-83d1cbf05057.mov",
+        "fallback_image": "shopify://shop_images/LUZON-BUCKLE-SANDAL-SS241219-FLAT-EPI_0143.jpg",
         "overlay_opacity": 25,
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
@@ -386,8 +395,7 @@
         },
         "product_link_gpLtpg": {
           "type": "product_link",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_GKUHRJ": {
           "type": "buy_buttons",
@@ -425,7 +433,7 @@
         "text_NGKXrw": {
           "type": "text",
           "settings": {
-            "text": "<h3>Shop by Style:<\/h3>",
+            "text": "<h3>Shop by Style:</h3>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -452,39 +460,35 @@
         "image_xGGVXL": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ANDES-GREY-JOGGER-S223809-STUDIO-1_eb39558e-d423-4895-a859-d7c16a9ce949.jpg",
+            "image": "shopify://shop_images/ANDES-GREY-JOGGER-S223809-STUDIO-1_eb39558e-d423-4895-a859-d7c16a9ce949.jpg",
             "subheading": "",
             "title": "",
             "text": "Plush, retro & oozing comfort.",
             "link_label": "JOGGERS",
-            "link": "shopify:\/\/collections\/jogger-1",
+            "link": "shopify://collections/jogger-1",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/jogger-1",
-            "product_list": [
-
-            ]
+            "block_link": "shopify://collections/jogger-1",
+            "product_list": []
           }
         },
         "image_Am6KPK": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/APEX-SLIP-ON-SS240409-FLAT--EPI_9993.jpg",
+            "image": "shopify://shop_images/APEX-SLIP-ON-SS240409-FLAT--EPI_9993.jpg",
             "subheading": "",
             "title": "",
             "text": "Easy on, Never off.",
             "link_label": "SLIP ONS",
-            "link": "shopify:\/\/collections\/slip-on",
+            "link": "shopify://collections/slip-on",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/slip-on",
-            "product_list": [
-
-            ]
+            "block_link": "shopify://collections/slip-on",
+            "product_list": []
           }
         },
         "image_Ga6xhn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MONTEREY-BLACK-WESTERN-BOOT-SS231122-FLAT-EPI_8340.jpg",
+            "image": "shopify://shop_images/MONTEREY-BLACK-WESTERN-BOOT-SS231122-FLAT-EPI_8340.jpg",
             "subheading": "",
             "title": "",
             "text": "Not a trend...a classic.",
@@ -492,112 +496,98 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "product_list": [
-
-            ]
+            "product_list": []
           }
         },
         "image_6jbQHn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ROOSTER-CAMPING-BOOT-CB179802-FLAT-EPI_6517.jpg",
+            "image": "shopify://shop_images/ROOSTER-CAMPING-BOOT-CB179802-FLAT-EPI_6517.jpg",
             "subheading": "",
             "title": "",
             "text": "The Original Best-Seller.",
             "link_label": "CAMPING BOOTS",
-            "link": "shopify:\/\/collections\/camping-boot-1",
+            "link": "shopify://collections/camping-boot-1",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/camping-boot-1",
-            "product_list": [
-
-            ]
+            "block_link": "shopify://collections/camping-boot-1",
+            "product_list": []
           }
         },
         "image_wTaUXr": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ALPINE-TREKKBOOT-AW221016-FLAT-_EPI_9337.jpg",
+            "image": "shopify://shop_images/ALPINE-TREKKBOOT-AW221016-FLAT-_EPI_9337.jpg",
             "subheading": "",
             "title": "",
             "text": "Water-resistant, adventure-ready.",
             "link_label": "TREKKS",
-            "link": "shopify:\/\/collections\/trekk-boots",
+            "link": "shopify://collections/trekk-boots",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/trekk-boots",
-            "product_list": [
-
-            ]
+            "block_link": "shopify://collections/trekk-boots",
+            "product_list": []
           }
         },
         "image_kykCKB": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/resized_SPIRIT_BEAR-RUNNER-V.2-AW230616-FLAT--EPI_9396.jpg",
+            "image": "shopify://shop_images/resized_SPIRIT_BEAR-RUNNER-V.2-AW230616-FLAT--EPI_9396.jpg",
             "subheading": "",
             "title": "",
             "text": "Sporty, stylish, essential.",
             "link_label": "V2 RUNNERS",
-            "link": "shopify:\/\/collections\/flexaire",
+            "link": "shopify://collections/runners",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/flexaire",
-            "product_list": [
-
-            ]
+            "block_link": "shopify://collections/runners",
+            "product_list": []
           }
         },
         "image_Wz7h8L": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PRIMROSE-ACE-LOW-TOP-SS240207-FLAT-EPI_9973.jpg",
+            "image": "shopify://shop_images/PRIMROSE-ACE-LOW-TOP-SS240207-FLAT-EPI_9973.jpg",
             "subheading": "",
             "title": "",
             "text": "Lace up & get on with your day.",
             "link_label": "LOW TOPS",
-            "link": "shopify:\/\/collections\/low-top",
+            "link": "shopify://collections/low-top",
             "use_text_button": false,
             "block_link": "",
-            "product_list": [
-
-            ]
+            "product_list": []
           }
         },
         "image_HF4fHH": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CYPRUS-HIGH-TOP-SS200108-FLAT-_5W1A3855.jpg",
+            "image": "shopify://shop_images/CYPRUS-HIGH-TOP-SS200108-FLAT-_5W1A3855.jpg",
             "subheading": "",
             "title": "",
             "text": "Always bringin' the funk.",
             "link_label": "HIGH TOPS",
-            "link": "shopify:\/\/collections\/ace-high-top",
+            "link": "shopify://collections/ace-high-top",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/ace-high-top",
-            "product_list": [
-
-            ]
+            "block_link": "shopify://collections/ace-high-top",
+            "product_list": []
           }
         },
         "image_UkENLQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BROWN-LEATHER-BOOTIE-SS200822-FLAT-_IMG_9910.heic",
+            "image": "shopify://shop_images/BROWN-LEATHER-BOOTIE-SS200822-FLAT-_IMG_9910.heic",
             "subheading": "",
             "title": "",
             "text": "For all-day & all-night.",
             "link_label": "BOOTIES",
-            "link": "shopify:\/\/collections\/booties",
+            "link": "shopify://collections/booties",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/booties",
-            "product_list": [
-
-            ]
+            "block_link": "shopify://collections/booties",
+            "product_list": []
           }
         },
         "6a1c724d-715f-4918-acea-e9f4464d74de": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/BOOTS-collage-1_304dc85a-b648-444e-97ad-e568553e84ca.gif",
+            "image": "shopify://shop_images/BOOTS-collage-1_304dc85a-b648-444e-97ad-e568553e84ca.gif",
             "subheading": "Stylish, Unique, Essential",
             "title": "ALL BOOTS",
             "text": "All-Season Camping Boots, Trekk Boots, Western Boots, Booties",
@@ -605,84 +595,74 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "product_list": [
-
-            ]
+            "product_list": []
           }
         },
         "image_iyHeBM": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.26.51PM.png",
+            "image": "shopify://shop_images/ScreenShot2024-04-08at4.26.51PM.png",
             "subheading": "glow from the ground up",
             "title": "NEW IN:",
             "text": "The Radiance Collection🌞",
             "link_label": "",
-            "link": "shopify:\/\/collections\/the-radiance-collection",
+            "link": "shopify://collections/the-radiance-collection",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/the-radiance-collection",
-            "product_list": [
-
-            ]
+            "block_link": "shopify://collections/the-radiance-collection",
+            "product_list": []
           }
         },
         "image_pLXKmK": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-01-03at4.05.09PM.png",
+            "image": "shopify://shop_images/ScreenShot2024-01-03at4.05.09PM.png",
             "subheading": "(While they last)",
             "title": "BACK IN STOCK!",
             "text": "Our collections are made in small batches. Act quick before they sell out (again).",
             "link_label": "",
-            "link": "shopify:\/\/collections\/back-in-stock",
+            "link": "shopify://collections/back-in-stock",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/back-in-stock",
-            "product_list": [
-
-            ]
+            "block_link": "shopify://collections/back-in-stock",
+            "product_list": []
           }
         },
         "bbdd3a28-ed72-4073-b920-e0710a00f80b": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/CYPRUS-CAMPING-BOOT-SS200501-MODELZOOM-2.jpg",
+            "image": "shopify://shop_images/CYPRUS-CAMPING-BOOT-SS200501-MODELZOOM-2.jpg",
             "subheading": "ALL-SEASON SHOES FOR EVERYBODY",
             "title": "ALL-SEASON FAVORITES",
             "text": "From our best-selling Camping Boots to our ultra-comfy Joggers",
             "link_label": "",
-            "link": "shopify:\/\/collections\/best-sellers",
+            "link": "shopify://collections/best-sellers",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/best-sellers",
-            "product_list": [
-
-            ]
+            "block_link": "shopify://collections/best-sellers",
+            "product_list": []
           }
         },
         "image_qCET3F": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/BEE-YOU-SLIP-ON-SS220304-model-EPI_8008.jpg",
+            "image": "shopify://shop_images/BEE-YOU-SLIP-ON-SS220304-model-EPI_8008.jpg",
             "subheading": "Get Vacation-Ready",
             "title": "ALL SPRING SUMMER '24",
             "text": "Sandals, Slip Ons & Slides (Oh My!)",
             "link_label": "",
-            "link": "shopify:\/\/collections\/ss24-vacay-ready",
+            "link": "shopify://collections/ss24-vacay-ready",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/ss24-vacay-ready",
-            "product_list": [
-
-            ]
+            "block_link": "shopify://collections/ss24-vacay-ready",
+            "product_list": []
           }
         },
         "image_crEtNe": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/SLIP-ON-GEODE-KIDS-MODEL-ZOOM-25.jpg",
+            "image": "shopify://shop_images/SLIP-ON-GEODE-KIDS-MODEL-ZOOM-25.jpg",
             "subheading": "Same design, cuter size",
             "title": "ALL KIDS",
             "text": "Colorful shoes for your little explorer",
@@ -690,9 +670,7 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "product_list": [
-
-            ]
+            "product_list": []
           }
         }
       },
@@ -734,7 +712,7 @@
         "quote_jAwD8J": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TRANQUILO-VEGAN-CAMPING-BOOT-SS230513-MODEL-ZOOM---EPI_2857.jpg",
+            "image": "shopify://shop_images/TRANQUILO-VEGAN-CAMPING-BOOT-SS230513-MODEL-ZOOM---EPI_2857.jpg",
             "stars": "4.5",
             "text": "\"Just as comfortable as they are beautiful. You won't regret it.\"",
             "author": "Yosenia M."
@@ -743,7 +721,7 @@
         "f0e5414e-308c-4a64-91b5-1f08b8650731": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HIGH-TOP-MANU-AW210103--MODEL-ZOOM---EPI_1667.jpg",
+            "image": "shopify://shop_images/HIGH-TOP-MANU-AW210103--MODEL-ZOOM---EPI_1667.jpg",
             "stars": "5",
             "text": "\"I love their diverse & colorful designs. Always waiting for the next drop!\"",
             "author": "Carly M."
@@ -752,7 +730,7 @@
         "2bf39bcc-dfc9-43ae-b6a4-9cecdb3197c9": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BLACK-BARRACUDA-CAMPING-BOOT-190402-UGC-Inkkas-7.jpg",
+            "image": "shopify://shop_images/BLACK-BARRACUDA-CAMPING-BOOT-190402-UGC-Inkkas-7.jpg",
             "stars": "5",
             "text": "\"A great day starts with putting on my Inkkas!\"",
             "author": "Ellie J."
@@ -784,7 +762,7 @@
           "settings": {
             "icon": "chat_bubble",
             "heading": "CUSTOMER SUPPORT",
-            "text": "<p>Mon - Sat, 9am - 5pm<\/p>"
+            "text": "<p>Mon - Sat, 9am - 5pm</p>"
           }
         },
         "1662098307788ca717-1": {
@@ -792,7 +770,7 @@
           "settings": {
             "icon": "return",
             "heading": "EASY RETURNS",
-            "text": "<p>for 30 days from delivery. Plus, <strong>FREE RETURNS<\/strong> within 7 days of delivery. <\/p>"
+            "text": "<p>for 30 days from delivery. Plus, <strong>FREE RETURNS</strong> within 7 days of delivery. </p>"
           }
         },
         "icon_iP6bLk": {
@@ -800,7 +778,7 @@
           "settings": {
             "icon": "box",
             "heading": "FREE SHIPPING",
-            "text": "<p>for orders of $175+ plus expedited shipping available to most regions.<\/p>"
+            "text": "<p>for orders of $175+ plus expedited shipping available to most regions.</p>"
           }
         }
       },
@@ -841,7 +819,7 @@
         "text_GAfFHW": {
           "type": "text",
           "settings": {
-            "text": "<p>Our designs are truly one-of-a-kind. We create fun, colorful, quality shoes & accessories that reflect the beauty of this world. <\/p>",
+            "text": "<p>Our designs are truly one-of-a-kind. We create fun, colorful, quality shoes & accessories that reflect the beauty of this world. </p>",
             "description_size": "medium"
           }
         },
@@ -850,7 +828,7 @@
           "disabled": true,
           "settings": {
             "button_text": "Shop All Collections",
-            "button_link": "shopify:\/\/collections",
+            "button_link": "shopify://collections",
             "button_outline": true
           }
         }
@@ -863,8 +841,8 @@
       ],
       "settings": {
         "section_width": "grid",
-        "image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
+        "image": "shopify://shop_images/worldwide-inkkas.jpg",
+        "mobile_image": "shopify://shop_images/worldwide-inkkas.jpg",
         "image_parallax": true,
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-450",
@@ -896,7 +874,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -926,14 +904,14 @@
           "type": "collection",
           "settings": {
             "collection": "the-radiance-collection",
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.26.51PM.png"
+            "image": "shopify://shop_images/ScreenShot2024-04-08at4.26.51PM.png"
           }
         },
         "collection_Xmq4ht": {
           "type": "collection",
           "settings": {
             "collection": "best-sellers",
-            "image": "shopify:\/\/shop_images\/CYPRUS-COWBOY-BOOT-SS231124-MODEL-EPI_7542.jpg"
+            "image": "shopify://shop_images/CYPRUS-COWBOY-BOOT-SS231124-MODEL-EPI_7542.jpg"
           }
         },
         "collection_8NqDrp": {
@@ -958,7 +936,7 @@
           "type": "collection",
           "settings": {
             "collection": "kids",
-            "image": "shopify:\/\/shop_images\/Smaller_GEODE-SLIP-ON-SS21K016-GROUP-UNITED-HIGH-TOP-SS21K015-GROUP-IBIS-SLIP-ON-SS21K019-GROUP-MALI-SLIP-ON-SS21K017-GROUP-TREK-SLIP-ON-SS21K018-GROUP-CYPRUS-HIGH-TOP-SS21K014-GROUP.jpg"
+            "image": "shopify://shop_images/Smaller_GEODE-SLIP-ON-SS21K016-GROUP-UNITED-HIGH-TOP-SS21K015-GROUP-IBIS-SLIP-ON-SS21K019-GROUP-MALI-SLIP-ON-SS21K017-GROUP-TREK-SLIP-ON-SS21K018-GROUP-CYPRUS-HIGH-TOP-SS21K014-GROUP.jpg"
           }
         },
         "collection_YHM9Li": {
@@ -995,7 +973,7 @@
       "settings": {
         "heading": "SHARE THE JOY",
         "heading_left": true,
-        "description": "<p><em>Global inspiration & colorful expression is always the perfect gfit. <\/em><\/p>",
+        "description": "<p><em>Global inspiration & colorful expression is always the perfect gfit. </em></p>",
         "full_width": true,
         "collection": "perfect-gifts-for-everybody",
         "display_type": "carousel",
@@ -1027,7 +1005,7 @@
         "text_gXp9Uz": {
           "type": "text",
           "settings": {
-            "text": "<p>With Trees.org, Inkkas plants a tree for every purchase. <a href=\"https:\/\/inkkas.com\/pages\/aboutstory\" title=\"https:\/\/inkkas.com\/pages\/aboutstory\">Read more<\/a> to see how far we've come today.<\/p>",
+            "text": "<p>With Trees.org, Inkkas plants a tree for every purchase. <a href=\"https://inkkas.com/pages/aboutstory\" title=\"https://inkkas.com/pages/aboutstory\">Read more</a> to see how far we've come today.</p>",
             "description_size": "medium"
           }
         }
@@ -1038,9 +1016,9 @@
         "text_gXp9Uz"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Tree-Square-02.jpg",
+        "image": "shopify://shop_images/Tree-Square-02.jpg",
         "use_video": false,
-        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
         "video_controls": true,
         "height": "adapt",
@@ -1092,7 +1070,7 @@
       "type": "apps",
       "blocks": {
         "instafeed_app_block_TFUALm": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
@@ -1104,8 +1082,7 @@
       "block_order": [
         "instafeed_app_block_TFUALm"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "16624658277b7c3abc": {
       "type": "countdown-banner",
@@ -1165,8 +1142,7 @@
     },
     "17132068911ec81803": {
       "type": "apps",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
