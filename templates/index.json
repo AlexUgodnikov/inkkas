@@ -479,9 +479,9 @@
             "title": "",
             "text": "Easy on, Never off.",
             "link_label": "SLIP ONS",
-            "link": "shopify://collections/slip-on",
+            "link": "shopify://collections/slip-ons",
             "use_text_button": false,
-            "block_link": "shopify://collections/slip-on",
+            "block_link": "shopify://collections/slip-ons",
             "product_list": []
           }
         },
