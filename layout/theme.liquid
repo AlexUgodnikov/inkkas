@@ -151,7 +151,9 @@ a.appendChild(r);
 		endif
 	-%}	
 	{% if add_product_js %}
-		<script src="{{ 'product.js' | asset_url }}" defer="defer"></script>
+		{% if template.name contains 'product' %}{% else %}
+			<script src="{{ 'product.js' | asset_url }}" defer="defer"></script>  
+		{% endif %}
 	{% endif %}
 	<script type="module" src="{{ 'scroll-shadow.js' | asset_url }}" defer="defer"></script>
 	<script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>

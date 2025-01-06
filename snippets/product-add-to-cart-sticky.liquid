@@ -1,92 +1,446 @@
-{%- assign product_form_id = 'product-form-' | append: section.id -%}
-<product-add-to-cart-sticky class="product-add-to-cart-sticky no-js-hidden" data-section="{{ section.id }}">
-	<button class="product-add-to-cart-sticky--inner">
-		<div class="product-add-to-cart-sticky--image" id="product-image-{{ section.id }}--sticky">
-			{%- if media -%}
-				{%- render 'responsive-image', image: media, sizes: '96x96', priority: 'low' -%}
-			{%- endif -%}
-		</div>
-		<div class="product-add-to-cart-sticky--info">
-			<div class="product-add-to-cart-sticky--title">{{ product.title }}</div>
-			<div id="price-{{ section.id }}--sticky">
-				{% render 'product-price', product: product, use_variant: true, show_badges: false %}
+{% style %}
+	{% if section.settings.color_bg_button != blank or section.settings.color_text_button != blank %}
+	.product-add-to-cart-sticky .product-add-to-cart-sticky--inner,
+	  .product-add-to-cart-sticky .product-add-to-cart-sticky--inner:hover,
+	  .product-add-to-cart-sticky .product-add-to-cart-sticky--inner:focus{
+		 {% if section.settings.color_bg_button != blank %} background: {{ section.settings.color_bg_button }};{% endif %}
+		{% if section.settings.color_text_button != blank %}color: {{ section.settings.color_text_button }};{% endif %}
+		 border: none;
+	}
+	  .product-add-to-cart-sticky .product-add-to-cart-sticky--inner:before{
+		display:none;
+	  }
+	{% endif %}
+			  
+	{% endstyle %}
+  
+  {%- assign product_form_id = 'product-form-' | append: section.id -%}
+  <product-add-to-cart-sticky class="product-add-to-cart-sticky no-js-hidden" data-section="{{ section.id }}">
+	  <div class="product-add-to-cart-sticky-wrp">
+	  <button class="product-add-to-cart-sticky--inner button outline">
+		  <!--div class="product-add-to-cart-sticky--image" id="product-image-{{ section.id }}--sticky">
+			  {%- if media -%}
+				  {%- render 'responsive-image', image: media, sizes: '96x96', priority: 'low' -%}
+			  {%- endif -%}
+		  </div>
+		  <div class="product-add-to-cart-sticky--info">
+			  <div class="product-add-to-cart-sticky--title">{{ product.title }}</div>
+			  <div id="price-{{ section.id }}--sticky">
+				  {% render 'product-price', product: product, use_variant: true, show_badges: false %}
+			  </div>
+		  </div>
+		  <span class="plus"></span-->
+		  <span class="single-add-to-cart-button--text">Add to cart</span>
+	  </button>
+	  <div class="product-add-to-cart-sticky--content">
+		  {%- unless product.has_only_default_variant -%}
+		  <variant-selects id="variant-selects-{{ section.id }}--sticky" class="no-js-hidden variant-selects--sticky" data-section="{{ section.id }}" data-url="{{ product.url }}" data-sticky="1" data-is-disabled="{{ is_disabled }}">
+			  <div class="variations">
+				  {%- for option in product.options_with_values -%}
+					  {%- liquid
+						  assign option_name = option.name | downcase | escape
+						  assign option_type = picker_type
+						  if color_picker
+							  if option_name contains 'color' or option_name contains 'colour' or option_name contains 'couleur' or option_name contains 'farbe'
+								  assign option_type = 'color'
+							  endif
+						  endif
+					  -%}
+					  {% render 'product-option', option_type: option_type, product: product, option: option, forloop: forloop, product_form_id: product_form_id, sticky: true %}
+				  {%- endfor -%}
+			  </div>
+			  <script type="application/json">
+				  {{ product.variants | json }}
+			  </script>
+		  </variant-selects>
+		  {%- endunless -%}
+		  {%- if product != blank -%}
+			  {%- liquid
+				  assign product_template = product.template_suffix | escape 
+  
+				  if product.metafields.theme.preorder and product.available
+					  assign product_template = 'pre-order'
+				  endif
+			  -%}
+			<product-form class="product-form" data-sticky="1" data-section="{{ section.id }}" template="{{ product_template | escape }}">
+				  <div class="product-form__error-message-wrapper form-notification error" role="alert" hidden>
+				{% render 'svg-icons' with 'thb-error' %}
+				<span class="product-form__error-message"></span>
+			  </div>
+  
+			  <div class="sticky-select-label">Select size:</div>
+				<!----------->
+  
+	 {% assign sticky_men = 0 %}
+		  {% assign sticky_women = 0 %}
+		  {% assign sticky_kids = 0 %}
+		  {% assign sticky_eur = 0 %}
+		  {%- for option in product.options_with_values -%}
+			{%- for value in option.values -%}
+			  {% assign value_search = value | downcase  %}
+			  {% if value_search contains 'us men' %}
+				{% assign sticky_men = sticky_men | plus: 1 %}
+			  {% endif %}
+			  {% if value_search contains 'us women' %}
+				{% assign sticky_women = sticky_women | plus: 1 %}
+			  {% endif %}
+			  {% if value_search contains 'eur' %}
+				{% assign sticky_eur = sticky_eur | plus: 1 %}
+			  {% endif %}
+			  {% if value_search contains 'us kids' %}
+				{% assign sticky_kids = sticky_kids | plus: 1 %}
+			  {% endif %}
+			{% endfor %}
+		  {% endfor %}
+		  {% assign sticky_active_tab = '' %}
+		  {% assign sticky_count_tab = 0 %}
+		  {% if women > 0 %}
+			{% assign sticky_active_tab = 'women' %}
+			{% assign sticky_count_tab = sticky_count_tab | plus: 1 %}
+		  {% elsif  sticky_men > 0 %}
+			{% assign sticky_active_tab = 'men' %}
+			{% assign sticky_count_tab = sticky_count_tab | plus: 1 %}
+		  {% elsif  sticky_kids > 0 %}
+			{% assign sticky_active_tab = 'kids' %}
+			{% assign sticky_count_tab = sticky_count_tab | plus: 1 %}
+		  {% elsif  sticky_eur > 0 %}
+			{% assign sticky_active_tab = 'eur' %}
+			{% assign sticky_count_tab = sticky_count_tab | plus: 1 %}
+		  {% endif %}
+  
+		  {% if sticky_count_tab > 0 %}
+			<div class="form__label custom-product-form__label">
+			  <div class="tab_variants row_flex align-items-center">
+				<!--div class="col-auto titles">Size:</div-->
+				{% if sticky_women > 0 %}
+				  <div class="col-auto danns js-sticky-tab active {%  if sticky_active_tab == 'women' %} active {% endif %}" data-type="sticky_women" id="sticky_tab_type_women">US Women</div>
+				{% endif %}
+				{% if sticky_men > 0 %}
+				  <div class="col-auto danns js-sticky-tab " data-type="sticky_men" id="sticky_tab_type_men">US Men</div>
+				{% endif %}
+				{% if sticky_kids > 0 %}
+				  <div class="col-auto danns js-sticky-tab" data-type="sticky_kids" id="sticky_tab_type_kids">US Kids</div>
+				{% endif %}
+				{% if sticky_eur > 0 %}
+				  <div class="col-auto danns js-sticky-tab " data-type="sticky_eur" id="sticky_tab_type_eur">Eur</div>
+				{% endif %}
+			  </div>
 			</div>
-		</div>
-		<span class="plus"></span>
-	</button>
-	<div class="product-add-to-cart-sticky--content">
-		{%- unless product.has_only_default_variant -%}
-		<variant-selects id="variant-selects-{{ section.id }}--sticky" class="no-js-hidden variant-selects--sticky" data-section="{{ section.id }}" data-url="{{ product.url }}" data-sticky="1" data-is-disabled="{{ is_disabled }}">
-			<div class="variations">
-				{%- for option in product.options_with_values -%}
-					{%- liquid
-						assign option_name = option.name | downcase | escape
-						assign option_type = picker_type
-						if color_picker
-							if option_name contains 'color' or option_name contains 'colour' or option_name contains 'couleur' or option_name contains 'farbe'
-								assign option_type = 'color'
-							endif
-						endif
-					-%}
-					{% render 'product-option', option_type: option_type, product: product, option: option, forloop: forloop, product_form_id: product_form_id, sticky: true %}
-				{%- endfor -%}
-			</div>
-			<script type="application/json">
-				{{ product.variants | json }}
-			</script>
-		</variant-selects>
-		{%- endunless -%}
-		{%- if product != blank -%}
-			{%- liquid
-				assign product_template = product.template_suffix | escape 
-
-				if product.metafields.theme.preorder and product.available
-					assign product_template = 'pre-order'
-				endif
-			-%}
-		  <product-form class="product-form" data-sticky="1" data-section="{{ section.id }}" template="{{ product_template | escape }}">
-				<div class="product-form__error-message-wrapper form-notification error" role="alert" hidden>
-		      {% render 'svg-icons' with 'thb-error' %}
-		      <span class="product-form__error-message"></span>
-		    </div>
-				<div class="product-add-to-cart-container">
-					<div class="form-notification error" style="display:none;"></div>
-				  <div class="add_to_cart_holder">
-				    <button type="submit" name="add" id="AddToCartSticky" class="single-add-to-cart-button button outline {% unless product.selected_or_first_available_variant.available %}sold-out{% endunless %}" {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %} form="{{ product_form_id }}">
-							<span class="single-add-to-cart-button--text">
-								{%- liquid
-									if product.selected_or_first_available_variant.available == false
-										assign button_content = 'products.product.sold_out' | t
-									else
-										if product.template_suffix contains 'pre-order'
-											assign button_content = 'products.product.pre_order' | t
-										else
-											assign button_content = 'products.product.add_to_cart' | t
-										endif
-									endif
-								-%}
-								{{- button_content -}}
-							</span>
-							<span class="loading-overlay">
-								{% render 'svg-icons' with 'thb-loading' %}
-							</span>
-						</button>
+			{% assign currentVariant = product.selected_or_first_available_variant %}
+  
+			{%- for option in product.options_with_values -%}
+			  {% assign sticky_optionName = option.name | downcase | escape %}
+			  {% if sticky_optionName == 'size' %}
+				{% if sticky_women > 0 %}
+  
+				  <div class="show_variants active " id="sticky_women_type">
+					<fieldset class="js product-form__input_dann">
+					  {%- for value in option.values -%}
+						{% assign value_search = value | downcase  %}
+						{% if value_search contains 'us women' %}
+						  {% assign new_title_arr = value | split: "/" %}
+						  {% assign new_title = value %}
+						  {% for val in new_title_arr %}
+							{% assign newval = val | downcase %}
+							{% if newval contains 'us women' %}
+							  {% assign new_title = val %}
+							{% endif %}
+						  {% endfor %}
+  
+						  {% for variant in product.variants %}
+							{% if variant.title contains value %}
+							  {% assign valueVariant = variant %}
+							{% endif %}
+						  {% endfor %}
+  
+						  <input type="radio" id="sticky-Size-Women-{{ forloop.index0 }}"
+								 name="SizeWomen"
+								 value="{{ value | escape }}"
+								 form="product-form-{{ section.id }}"
+								 {% if option.selected_value == value %}checked{% endif %}
+								 data-inputshort="{{ value | downcase |handleize }}"
+								 class="product_{{ value | downcase | handleize }}"
+						  >
+						  <label for="sticky-Size-Women-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
+							{{ new_title | split: ' ' | last }}
+						  </label>
+						{% endif %}
+					  {%- endfor -%}
+					</fieldset>
 				  </div>
-				</div>
-			</product-form>
-		{%- else -%}
-	    <div class="product-form">
-	      <div class="product-form__buttons form">
-	        <button
-	          type="submit"
-	          name="add"
-	          class="single_add_to_cart_button button sold-out"
-	          disabled
-	        >
-	          <span class="single-add-to-cart-button--text">{{ 'products.product.sold_out' | t }}</span>
-	        </button>
-	      </div>
-	    </div>
-	  {%- endif -%}
+				{% endif %}
+  
+  
+				{% if sticky_men > 0 %}
+				  <div class="show_variants " id="sticky_men_type">
+					<fieldset class="js product-form__input_dann">
+					  {%- for value in option.values -%}
+						{% assign value_search = value | downcase  %}
+						{% if value_search contains 'us men' %}
+						  {% assign new_title_arr = value | split: "/" %}
+						  {% assign new_title = value %}
+						  {% for val in new_title_arr %}
+							{% assign newval = val | downcase %}
+							{% if newval contains 'us men' %}
+							  {% assign new_title = val %}
+							{% endif %}
+						  {% endfor %}
+  
+						  {% for variant in product.variants %}
+							{% if variant.title contains value %}
+							  {% assign valueVariant = variant %}
+							{% endif %}
+						  {% endfor %}
+  
+						  <input type="radio" id="sticky-Size-Men-{{ forloop.index0 }}"
+								 name="SizeMen"
+								 value="{{ value | escape }}"
+								 form="product-form-{{ section.id }}"
+								 {% if option.selected_value == value %}checked{% endif %}
+								 data-inputshort="{{ value | downcase |handleize }}"
+								 class="product_{{ value | downcase | handleize }}"
+						  >
+						  <label for="sticky-Size-Men-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
+							{{ new_title | split: ' ' | last }}
+						  </label>
+						{% endif %}
+					  {%- endfor -%}
+					</fieldset>
+				  </div>
+				{% endif %}
+  
+				{% if sticky_kids > 0 %}
+				  <div class="show_variants " id="sticky_kids_type">
+					<fieldset class="product-form__input_dann">
+					  {%- for value in option.values -%}
+						{% assign value_search = value | downcase  %}
+						{% if value_search contains 'us kids' %}
+						  {% assign new_title_arr = value | split: " / " %}
+						  {% assign new_title = value %}
+						  {% for val in new_title_arr %}
+							{% assign newval = val | downcase %}
+							{% if newval contains 'us kids' %}
+							  {% assign new_title = val %}
+							{% endif %}
+						  {% endfor %}
+  
+						  {% for variant in product.variants %}
+							{% if variant.title contains value %}
+							  {% assign valueVariant = variant %}
+							{% endif %}
+						  {% endfor %}
+  
+						  <input type="radio" id="sticky-Size-Kids-{{ forloop.index0 }}"
+								 name="SizeKids"
+								 value="{{ value | escape }}"
+								 form="product-form-{{ section.id }}"
+								 {% if option.selected_value == value %}checked{% endif %}
+								 data-inputshort="{{ value | downcase |handleize }}"
+								 class="product_{{ value | downcase | handleize }}"
+						  >
+						  <label for="sticky-Size-Kids-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label" data-variantid="{{ variant.id }}" data-title="{{ value }}" data-titleshort="{{ value | downcase |handleize }}">
+							{{ new_title }}
+						  </label>
+						{% endif %}
+					  {%- endfor -%}
+					</fieldset>
+				  </div>
+				{% endif %}
+  
+  
+				{% if sticky_eur > 0 %}
+				  <div class="show_variants  " id="sticky_eur_type">
+					<fieldset class="product-form__input_dann">
+					  {%- for value in option.values -%}
+						{% assign value_search = value | downcase  %}
+						{% if value_search contains 'eur' %}
+						  {% assign new_title_arr = value | split: " / " %}
+						  {% assign new_title = value %}
+						  {% for val in new_title_arr %}
+							{% assign newval = val | downcase %}
+							{% if newval contains 'eur' %}
+							  {% assign new_title = val %}
+							{% endif %}
+						  {% endfor %}
+  
+						  {% for variant in product.variants %}
+							{% if variant.title contains value %}
+							  {% assign valueVariant = variant %}
+							{% endif %}
+						  {% endfor %}
+  
+						  <input type="radio" id="sticky-Size-Eur-{{ forloop.index0 }}"
+								 name="SizeEur"
+								 value="{{ value | escape }}"
+								 form="product-form-{{ section.id }}"
+								 {% if option.selected_value == value %}checked{% endif %}
+								 data-inputshort="{{ value | downcase |handleize }}"
+								 class="product_{{ value | downcase | handleize }}"
+						  >
+						  <label for="sticky-Size-Eur-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"  data-titleshort="{{ value | downcase | handleize }}">
+							{{ new_title | split: ' ' | last }}
+						  </label>
+						{% endif %}
+					  {%- endfor -%}
+					</fieldset>
+				  </div>
+				{% endif %}
+			  {% endif %}
+			{% endfor %}
+		  {% else %}
+			{% assign currentVariant = product.selected_or_first_available_variant %}
+			{%- for option in product.options_with_values -%}
+			  <fieldset class="js product-form__input_dann">
+				 
+				 {% for value in option.values %}  
+  
+				   {% for variant in product.variants %}
+					{% if variant.title contains value %}
+					  {% assign valueVariant = variant %}
+					{% endif %}
+				  {% endfor %}
+				  <input type="radio" id="sticky-Dann-{{ forloop.index0 }}"
+						name="dann"
+						value="{{ value | escape }}"
+						form="product-form-{{ section.id }}"
+						{% if option.selected_value == value %}checked{% endif %}
+				   data-inputshort="{{ value | downcase |handleize }}"
+				   class="product_{{ value | downcase | handleize }}"
+				  >
+				  <label for="sticky-Dann-{{ forloop.index0 }}"  class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"  data-titleshort="{{ value | downcase | handleize }}">
+					{{ value | split: ' ' | last }}
+				  </label>
+				{%- endfor -%}
+			  </fieldset>
+			{%- endfor -%}
+		  {% endif %}
+		  
+  
+			  
+				<!----------->
+  
+  
+  
+  
+				  <div class="product-add-to-cart-container">
+					  <div class="form-notification error" style="display:none;"></div>
+					<div class="add_to_cart_holder">
+					  <button type="submit" name="add" id="AddToCartSticky" class="single-add-to-cart-button button outline {% unless product.selected_or_first_available_variant.available %}sold-out{% endunless %}" {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %} form="{{ product_form_id }}">
+							  <span class="single-add-to-cart-button--text">
+								  {%- liquid
+									  if product.selected_or_first_available_variant.available == false
+										  assign button_content = 'products.product.sold_out' | t
+									  else
+										  if product.template_suffix contains 'pre-order'
+											  assign button_content = 'products.product.pre_order' | t
+										  else
+											  assign button_content = 'products.product.add_to_cart' | t
+										  endif
+									  endif
+								  -%}
+								  {{- button_content -}}
+							  </span>
+							  <span class="loading-overlay">
+								  {% render 'svg-icons' with 'thb-loading' %}
+							  </span>
+						  </button>
+					</div>
+				  </div>
+			  </product-form>
+		  {%- else -%}
+		  <div class="product-form">
+			<div class="product-form__buttons form">
+			  <button
+				type="submit"
+				name="add"
+				class="single_add_to_cart_button button sold-out"
+				disabled
+			  >
+				<span class="single-add-to-cart-button--text">{{ 'products.product.sold_out' | t }}</span>
+			  </button>
+			</div>
+		  </div>
+		{%- endif -%}
+	  </div>
 	</div>
-</product-add-to-cart-sticky>
+  </product-add-to-cart-sticky>
+  
+  <script>
+  
+   document.addEventListener('DOMContentLoaded', function() {
+  
+			  jQuery(function($) {
+				$("product-add-to-cart-sticky .tab_variants .js-sticky-tab").on("click", function (event) {
+  
+				  $('product-add-to-cart-sticky .tab_variants .js-sticky-tab').removeClass('active');
+				  $(this).addClass('active');
+				  var type=$(this).data('type');
+				  $('product-add-to-cart-sticky .show_variants').removeClass('active');
+				  $('#'+type+'_type').addClass('active');
+				  $.cookie('inkasstype', type, { expires: 31, path: '/' });
+				})
+  
+				if ($('product-add-to-cart-sticky .tab_variants').length > 0) {
+				  if ( $.cookie('inkasstype') != undefined ) {
+					var type=$.cookie('inkasstype');
+					if ($('#tab_type_'+type).length > 0) {
+					  //$('.tab_variants .js-sticky-tab').removeClass('active');
+					  //$('#tab_type_'+type).addClass('active');
+  
+					  //$('product-add-to-cart-sticky .show_variants').removeClass('active');
+					  $('#'+type+'_type').addClass('active');
+					}
+				  }
+				}
+  
+  
+			  });
+  
+			const observerPreorder = new MutationObserver(function (mutations) {
+				let isInitialized = false;
+			
+				mutations.forEach(function (mutation) {
+					if (mutation.addedNodes.length && !isInitialized) {
+					   
+						const domElement = document.querySelectorAll('preorder-me-button');
+			
+						if (domElement.length > 0) {
+							const inputElement = document.querySelector('input[name="properties[Pre-Order]"]');
+			
+						   
+							const updateButtonState = () => {
+								if (inputElement && inputElement.disabled === false) {
+									document.querySelector('#AddToCartSticky').classList.add('preorpder');
+									//document.querySelector('#AddToCartSticky .single-add-to-cart-button--text').textContent = 'Pre-Order'
+								} else {
+									document.querySelector('#AddToCartSticky').classList.remove('preorpder');
+									//document.querySelector('#AddToCartSticky .single-add-to-cart-button--text').textContent = 'Add to cart'
+								}
+							};
+			
+							
+							updateButtonState();
+			
+						   
+							const elementObserver = new MutationObserver(updateButtonState);
+			
+							if (inputElement) {
+								elementObserver.observe(inputElement, {
+									attributes: true, 
+									attributeFilter: ['disabled'], 
+								});
+							}
+			
+							isInitialized = true;
+			
+						  
+							observerPreorder.disconnect();
+						}
+					}
+				});
+			});
+			
+			observerPreorder.observe(document.body, { childList: true, subtree: true });
+  
+	 });
+  </script>
