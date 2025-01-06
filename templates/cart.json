@@ -9,9 +9,9 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
-        "heading_left": false,
-        "description": "<p>Describe your featured collection here<\/p>",
+        "heading": "We're fun too",
+        "heading_left": true,
+        "description": "",
         "full_width": true,
         "mobile_swipe": true,
         "disable_top_spacing": true,
@@ -21,9 +21,9 @@
     "recently-viewed-products": {
       "type": "recently-viewed-products",
       "settings": {
-        "heading": "Recently viewed products",
-        "heading_left": false,
-        "description": "<p>Describe your recently viewed products here<\/p>",
+        "heading": "Recently viewed",
+        "heading_left": true,
+        "description": "",
         "full_width": true,
         "mobile_swipe": true,
         "disable_top_spacing": false,

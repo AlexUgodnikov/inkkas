@@ -34,7 +34,10 @@
 <div class="row {{ section_width }}">
 	<div class="small-12 columns">
 		<image-with-text-overlay class="image-with-text-overlay text-{{ text_alignment }} {{ mobile_height }} {{ desktop_height }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}" style="--overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}">
-			<div class="image-with-text-overlay--bg parallax--{{ image_parallax }}">
+			<div class="image-with-text-overlay--bg parallax--{{ image_parallax }}" style="
+              --aspect-ratio: 1;
+              --image-align:center;
+            ">
 				{% if image %}
 					{%- liquid
 						assign small_width = image.src.height | times: '375' | divided_by: image.src.width
@@ -100,6 +103,7 @@
     "name": "Image with text overlay",
 		"class": "section-image-with-text-overlay",
     "settings": [
+           
 			{
 				"type": "select",
 				"id": "section_width",

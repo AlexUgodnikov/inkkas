@@ -1,0 +1,66 @@
+{
+  "sections": {
+    "layered_images_with_text_X4A8qK": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "subheading_Xw9GDW": {
+          "type": "subheading",
+          "settings": {
+            "text": "Inkkas ❤️ Bags"
+          }
+        },
+        "heading_86WUeC": {
+          "type": "heading",
+          "settings": {
+            "text": "GIVEAWAY",
+            "heading_size": "h1"
+          }
+        },
+        "text_GcJjXJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've teamed up with <a href=\"https:\/\/www.instagram.com\/sewbonita\/\" title=\"https:\/\/www.instagram.com\/sewbonita\/\">@Sewbonita<\/a>,  a boutique gifts store with quality, beautiful Mexican-American goods in Corpus Christi, Texas to bring you this awesome giveaway!<\/p>"
+          }
+        },
+        "text_ik7QkX": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong> . . . .<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Xw9GDW",
+        "heading_86WUeC",
+        "text_GcJjXJ",
+        "text_ik7QkX"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2024-11-13_at_10.42.28_AM.png",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/bag_details_028014a3-a34f-4594-8827-d2acae2cd69b.png",
+        "image_ratio_2": "square",
+        "image_3": "shopify:\/\/shop_images\/logos_b7e72674-bf72-4fad-a2d1-7b8cf5cdaffd.png",
+        "image_ratio_3": "square",
+        "full_width": true,
+        "layout": "text_first",
+        "content_alignment": "text-center",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "layered_images_with_text_X4A8qK",
+    "main"
+  ]
+}

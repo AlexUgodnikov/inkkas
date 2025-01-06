@@ -6,7 +6,7 @@
   display: flex;
   overflow: hidden;
   width: 100%;
-  background: var(--color-accent);
+  /*background: var(--color-accent);*/
   color: #fff;
   padding: 40px 0; }
   @media only screen and (min-width: 768px) {
@@ -114,3 +114,43 @@
     .image-with-text-overlay--content.content-bottom-right {
       justify-content: flex-end;
       align-items: flex-end; }
+/********image_contain******/
+
+image-with-text-overlay.image_contain{
+  padding:0!important;
+}
+.image_contain .image-with-text-overlay--bg{
+    /*  position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;*/
+}
+.image_contain .image-with-text-overlay--bg:after{
+    display: block;
+    content: "";
+    padding-bottom: calc(100% /(var(--aspect-ratio)));
+}
+.image_contain .image-with-text-overlay--bg img{
+      width: 100%;
+    height: 100%;
+    object-fit: cover;
+  left:0;
+  top:0;
+    position: absolute;
+    object-position: center;
+}
+.image_contain .image-with-text-overlay--content{
+    display: flex;
+    padding: 0 15px;
+    color: #fff;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    bottom: 5%;
+    margin: 0 auto;
+    text-align: center;
+      max-width: 100%;
+}

@@ -1,4 +1,6 @@
 <div id="ProductInfo-{{ section.id }}" class="product-information--inner{% if section.settings.enable_sticky_info %} production-information--sticky{% endif %}">
+
+
   {%- assign product_form_id = 'product-form-' | append: section.id -%}
   {% for block in section.blocks %}
     {%- case block.type -%}
@@ -36,6 +38,8 @@
             <span>{{ 'products.product.reviews' | t: count: product.metafields.reviews.rating_count }}</span>
           </a>
         {%- endif -%}
+        
+
 
         {% comment %}{% assign product_tags = product.tags | join: ' ' %}{% endcomment %}
         {% comment %}<div class="product_size-chart">
@@ -185,7 +189,7 @@
               assign picker_type = option_type
               assign color_picker_size = block.settings.color_picker_size | default: 'regular'
               assign color_picker_use_variants = block.settings.color_picker_use_variants
-              assign swatch_count = option.values | map: 'swatch' | compact | size 
+              assign swatch_count = option.values | map: 'swatch' | compact | size
               if block.settings.color_picker
                 if option_name contains 'color' or option_name contains 'colour' or option_name contains 'couleur' or option_name contains 'farbe'
                   assign option_type = 'color'
@@ -338,6 +342,7 @@
           {{ product.variants | json }}
         </script>
       </variant-selects>
+
         {% assign men = 0 %}
         {% assign women = 0 %}
         {% assign kids = 0 %}
@@ -374,6 +379,7 @@
           {% assign active_tab = 'eur' %}
           {% assign count_tab = count_tab | plus: 1 %}
         {% endif %}
+
         {% if count_tab > 0 %}
           <div class="form__label custom-product-form__label">
             <div class="tab_variants row_flex align-items-center">
@@ -394,188 +400,249 @@
           </div>
           {% assign currentVariant = product.selected_or_first_available_variant %}
 
-          {% if women > 0 %}
+          {%- for option in product.options_with_values -%}
+            {% assign optionName = option.name | downcase | escape %}
+            {% if optionName == 'size' %}
+              {% if women > 0 %}
 
-            <div class="show_variants {%  if active_tab == 'women' %} active {% endif %}" id="women_type">
-              <fieldset class="js product-form__input_dann">
-                {% for variant in product.variants %}
-                  {% assign value_search = variant.title | downcase  %}
-                  {% if value_search contains 'us women' %}
-                    {% assign new_title_arr = variant.title | split: "/" %}
-                    {% assign new_title = variant.title %}
-                    {% for val in new_title_arr %}
-                      {% assign newval = val | downcase %}
-                      {% if newval contains 'us women' %}
-                        {% assign new_title = val %}
+                <div class="show_variants {%  if active_tab == 'women' %} active {% endif %}" id="women_type">
+                  <fieldset class="js product-form__input_dann">
+                    {%- for value in option.values -%}
+                      {% assign value_search = value | downcase  %}
+                      {% if value_search contains 'us women' %}
+                        {% assign new_title_arr = value | split: "/" %}
+                        {% assign new_title = value %}
+                        {% for val in new_title_arr %}
+                          {% assign newval = val | downcase %}
+                          {% if newval contains 'us women' %}
+                            {% assign new_title = val %}
+                          {% endif %}
+                        {% endfor %}
+
+                        {% for variant in product.variants %}
+                          {% if variant.title contains value %}
+                            {% assign valueVariant = variant %}
+                          {% endif %}
+                        {% endfor %}
+
+                        <input type="radio" id="{{ section.id }}-Size-Women-{{ forloop.index0 }}"
+                               name="SizeWomen"
+                               value="{{ value | escape }}"
+                               form="product-form-{{ section.id }}"
+                               {% if option.selected_value == value %}checked{% endif %}
+                               data-inputshort="{{ value | downcase |handleize }}"
+                               class="product_{{ value | downcase | handleize }}"
+                        >
+                        <label for="{{ section.id }}-Size-Women-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
+                          {{ new_title | split: ' ' | last }}
+                        </label>
                       {% endif %}
-                    {% endfor %}
-                    <input type="radio" id="{{ section.id }}-Size-Women-{{ forloop.index0 }}"
-                           name="SizeWomen"
-                           value="{{ variant.title | escape }}"
-                           form="product-form-{{ section.id }}"
-                           {% if currentVariant.id == variant.id %}checked{% endif %}
-                           data-inputshort="{{ variant.title | downcase |handleize }}"
-                           class="product_{{ variant.title | downcase | handleize }}"
-                    >
-                    <label for="{{ section.id }}-Size-Women-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"   data-titleshort="{{ variant.title | downcase |handleize }}">
-                      {{ new_title | split: ' ' | last }}
-                    </label>
-                  {% endif %}
-                {%- endfor -%}
-              </fieldset>
-            </div>
-          {% endif %}
+                    {%- endfor -%}
+                  </fieldset>
+                </div>
+              {% endif %}
 
 
-          {% if men > 0 %}
-            <div class="show_variants {%  if active_tab == 'men' %} active {% endif %}" id="men_type">
-              <fieldset class="js product-form__input_dann">
-                {% for variant in product.variants %}
-                  {% assign value_search = variant.title | downcase  %}
-                  {% if value_search contains 'us men' %}
-                    {% assign new_title_arr = variant.title | split: "/" %}
-                    {% assign new_title = variant.title %}
-                    {% for val in new_title_arr %}
-                      {% assign newval = val | downcase %}
-                      {% if newval contains 'us men' %}
-                        {% assign new_title = val %}
+              {% if men > 0 %}
+                <div class="show_variants {%  if active_tab == 'men' %} active {% endif %}" id="men_type">
+                  <fieldset class="js product-form__input_dann">
+                    {%- for value in option.values -%}
+                      {% assign value_search = value | downcase  %}
+                      {% if value_search contains 'us men' %}
+                        {% assign new_title_arr = value | split: "/" %}
+                        {% assign new_title = value %}
+                        {% for val in new_title_arr %}
+                          {% assign newval = val | downcase %}
+                          {% if newval contains 'us men' %}
+                            {% assign new_title = val %}
+                          {% endif %}
+                        {% endfor %}
+
+                        {% for variant in product.variants %}
+                          {% if variant.title contains value %}
+                            {% assign valueVariant = variant %}
+                          {% endif %}
+                        {% endfor %}
+
+                        <input type="radio" id="{{ section.id }}-Size-Men-{{ forloop.index0 }}"
+                               name="SizeMen"
+                               value="{{ value | escape }}"
+                               form="product-form-{{ section.id }}"
+                               {% if option.selected_value == value %}checked{% endif %}
+                               data-inputshort="{{ value | downcase |handleize }}"
+                               class="product_{{ value | downcase | handleize }}"
+                        >
+                        <label for="{{ section.id }}-Size-Men-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
+                          {{ new_title | split: ' ' | last }}
+                        </label>
                       {% endif %}
-                    {% endfor %}
-                    <input type="radio" id="{{ section.id }}-Size-Men-{{ forloop.index0 }}"
-                           name="SizeMen"
-                           value="{{ variant.title | escape }}"
-                           form="product-form-{{ section.id }}"
-                           {% if currentVariant.id == variant.id %}checked{% endif %}
-                           data-inputshort="{{ variant.title | downcase |handleize }}"
-                           class="product_{{ variant.title | downcase | handleize }}"
-                    >
-                    <label for="{{ section.id }}-Size-Men-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"   data-titleshort="{{ variant.title | downcase |handleize }}">
-                      {{ new_title | split: ' ' | last }}
-                    </label>
-                  {% endif %}
-                {%- endfor -%}
-              </fieldset>
-            </div>
-          {% endif %}
+                    {%- endfor -%}
+                  </fieldset>
+                </div>
+              {% endif %}
 
-          {% if kids > 0 %}
-            <div class="show_variants {%  if active_tab == 'kids' %} active {% endif %}" id="kids_type">
-              <fieldset class="product-form__input_dann">
-                {% for variant in product.variants %}
-                  {% assign value_search = variant.title | downcase  %}
-                  {% if value_search contains 'us kids' %}
-                    {% assign new_title_arr = variant.title | split: " / " %}
-                    {% assign new_title = variant.title %}
-                    {% for val in new_title_arr %}
-                      {% assign newval = val | downcase %}
-                      {% if newval contains 'us kids' %}
-                        {% assign new_title = val %}
+              {% if kids > 0 %}
+                <div class="show_variants {%  if active_tab == 'kids' %} active {% endif %}" id="kids_type">
+                  <fieldset class="product-form__input_dann">
+                    {%- for value in option.values -%}
+                      {% assign value_search = value | downcase  %}
+                      {% if value_search contains 'us kids' %}
+                        {% assign new_title_arr = value | split: " / " %}
+                        {% assign new_title = value %}
+                        {% for val in new_title_arr %}
+                          {% assign newval = val | downcase %}
+                          {% if newval contains 'us kids' %}
+                            {% assign new_title = val %}
+                          {% endif %}
+                        {% endfor %}
+
+                        {% for variant in product.variants %}
+                          {% if variant.title contains value %}
+                            {% assign valueVariant = variant %}
+                          {% endif %}
+                        {% endfor %}
+
+                        <input type="radio" id="{{ section.id }}-Size-Kids-{{ forloop.index0 }}"
+                               name="SizeKids"
+                               value="{{ value | escape }}"
+                               form="product-form-{{ section.id }}"
+                               {% if option.selected_value == value %}checked{% endif %}
+                               data-inputshort="{{ value | downcase |handleize }}"
+                               class="product_{{ value | downcase | handleize }}"
+                        >
+                        <label for="{{ section.id }}-Size-Kids-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label" data-variantid="{{ variant.id }}" data-title="{{ value }}" data-titleshort="{{ value | downcase |handleize }}">
+                          {{ new_title }}
+                        </label>
                       {% endif %}
-                    {% endfor %}
-                    <input type="radio" id="{{ section.id }}-Size-Kids-{{ forloop.index0 }}"
-                           name="SizeKids"
-                           value="{{ variant.title | escape }}"
-                           form="product-form-{{ section.id }}"
-                           {% if currentVariant.id == variant.id %}checked{% endif %}
-                           data-inputshort="{{ variant.title | downcase |handleize }}"
-                           class="product_{{ variant.title | downcase | handleize }}"
-                    >
-                    <label for="{{ section.id }}-Size-Kids-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label" data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"   data-titleshort="{{ variant.title | downcase |handleize }}">
-                      {{ new_title }}
-                    </label>
-                  {% endif %}
-                {%- endfor -%}
-              </fieldset>
-            </div>
-          {% endif %}
+                    {%- endfor -%}
+                  </fieldset>
+                </div>
+              {% endif %}
 
 
-          {% if eur > 0 %}
-            <div class="show_variants  {%  if active_tab == 'eur' %} active {% endif %}" id="eur_type">
-              <fieldset class="product-form__input_dann">
-                {% for variant in product.variants %}
-                  {% assign value_search = variant.title | downcase  %}
-                  {% if value_search contains 'eur' %}
-                    {% assign new_title_arr = variant.title | split: " / " %}
-                    {% assign new_title = variant.title %}
-                    {% for val in new_title_arr %}
-                      {% assign newval = val | downcase %}
-                      {% if newval contains 'eur' %}
-                        {% assign new_title = val %}
+              {% if eur > 0 %}
+                <div class="show_variants  {%  if active_tab == 'eur' %} active {% endif %}" id="eur_type">
+                  <fieldset class="product-form__input_dann">
+                    {%- for value in option.values -%}
+                      {% assign value_search = value | downcase  %}
+                      {% if value_search contains 'eur' %}
+                        {% assign new_title_arr = value | split: " / " %}
+                        {% assign new_title = value %}
+                        {% for val in new_title_arr %}
+                          {% assign newval = val | downcase %}
+                          {% if newval contains 'eur' %}
+                            {% assign new_title = val %}
+                          {% endif %}
+                        {% endfor %}
+
+                        {% for variant in product.variants %}
+                          {% if variant.title contains value %}
+                            {% assign valueVariant = variant %}
+                          {% endif %}
+                        {% endfor %}
+
+                        <input type="radio" id="{{ section.id }}-Size-Eur-{{ forloop.index0 }}"
+                               name="SizeEur"
+                               value="{{ value | escape }}"
+                               form="product-form-{{ section.id }}"
+                               {% if option.selected_value == value %}checked{% endif %}
+                               data-inputshort="{{ value | downcase |handleize }}"
+                               class="product_{{ value | downcase | handleize }}"
+                        >
+                        <label for="{{ section.id }}-Size-Eur-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"  data-titleshort="{{ value | downcase | handleize }}">
+                          {{ new_title | split: ' ' | last }}
+                        </label>
                       {% endif %}
-                    {% endfor %}
-                    <input type="radio" id="{{ section.id }}-Size-Eur-{{ forloop.index0 }}"
-                           name="SizeEur"
-                           value="{{ variant.title | escape }}"
-                           form="product-form-{{ section.id }}"
-                           {% if currentVariant.id == variant.id %}checked{% endif %}
-                           data-inputshort="{{ variant.title | downcase |handleize }}"
-                           class="product_{{ variant.title | downcase | handleize }}"
-                    >
-                    <label for="{{ section.id }}-Size-Eur-{{ forloop.index0 }}" class="available_{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ variant.title }}"  data-titleshort="{{ variant.title | downcase | handleize }}">
-                      {{ new_title | split: ' ' | last }}
-                    </label>
+                    {%- endfor -%}
+                  </fieldset>
+                </div>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% assign currentVariant = product.selected_or_first_available_variant %}
+          {%- for option in product.options_with_values -%}
+            <fieldset class="js product-form__input_dann">
+               
+               {% for value in option.values %}  
+
+                 {% for variant in product.variants %}
+                  {% if variant.title contains value %}
+                    {% assign valueVariant = variant %}
                   {% endif %}
-                {%- endfor -%}
-              </fieldset>
-            </div>
-          {% endif %}
-          <script>
-            document.addEventListener('DOMContentLoaded', function() {
-              jQuery(function($) {
-                $(".tab_variants .danns").on("click", function (event) {
-                  $('.tab_variants .danns').removeClass('active');
-                  $(this).addClass('active');
-                  var type=$(this).data('type');
-                  $('.show_variants').removeClass('active');
-                  $('#'+type+'_type').addClass('active');
-                  $.cookie('inkasstype', type, { expires: 31, path: '/' });
-                })
+                {% endfor %}
+                <input type="radio" id="{{ section.id }}-Dann-{{ forloop.index0 }}"
+                      name="dann"
+                      value="{{ value | escape }}"
+                      form="product-form-{{ section.id }}"
+                      {% if option.selected_value == value %}checked{% endif %}
+                 data-inputshort="{{ value | downcase |handleize }}"
+                 class="product_{{ value | downcase | handleize }}"
+                >
+                <label for="{{ section.id }}-Dann-{{ forloop.index0 }}"  class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"  data-titleshort="{{ value | downcase | handleize }}">
+                  {{ value | split: ' ' | last }}
+                </label>
+              {%- endfor -%}
+            </fieldset>
+          {%- endfor -%}
+        {% endif %}
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
 
-                if ($('.tab_variants').length > 0) {
-                  if ( $.cookie('inkasstype') != undefined ) {
-                    var type=$.cookie('inkasstype');
-                    if ($('#tab_type_'+type).length > 0) {
-                      $('.tab_variants .danns').removeClass('active');
-                      $('#tab_type_'+type).addClass('active');
+            jQuery(function($) {
+              $(".tab_variants .danns").on("click", function (event) {
+                $('.tab_variants .danns').removeClass('active');
+                $(this).addClass('active');
+                var type=$(this).data('type');
+                $('.show_variants').removeClass('active');
+                $('#'+type+'_type').addClass('active');
+                $.cookie('inkasstype', type, { expires: 31, path: '/' });
+              })
 
-                      $('.show_variants').removeClass('active');
-                      $('#'+type+'_type').addClass('active');
-                    }
+              if ($('.tab_variants').length > 0) {
+                if ( $.cookie('inkasstype') != undefined ) {
+                  var type=$.cookie('inkasstype');
+                  if ($('#tab_type_'+type).length > 0) {
+                    $('.tab_variants .danns').removeClass('active');
+                    $('#tab_type_'+type).addClass('active');
+
+                    $('.show_variants').removeClass('active');
+                    $('#'+type+'_type').addClass('active');
                   }
                 }
-              });
-
-              jQuery(function($) {
-                jQuery(".product-form__input_dann label").on("click", function (event) {
-
-                  var var_id=$(this).data('variantid');
-                  var title=$(this).data('title');
-                  var titleshort=$(this).data('titleshort');
-                  $('.product-form form input[name="id"]').val(var_id);
-                  history.pushState({}, null, '?variant='+var_id);
-                  console.log(titleshort+'==titleshort');
-                  $('.main_prod_'+titleshort+'').click();
-                  $('.product_'+titleshort+'').click();
-                  // $('[data-inputshort="'+titleshort+'"]').attr('checked', true);
-
-
-                  $('variant-radios').change();
-
-
-                  if ($(this).hasClass('available_true')) {
-                    $('.product-form__submit').html('Add to cart');
-                    $('.product-form__submit').prop("disabled", false);
-                  }
-                  if ($(this).hasClass('available_false')) {
-                    $('.product-form__submit').html('Sold out');
-                    $('.product-form__submit').prop("disabled", true);
-                  }
-                })
-              })
+              }
             });
-          </script>
-        {% endif %}
+
+            jQuery(function($) {
+              jQuery(".product-form__input_dann label").on("click", function (event) {
+
+                var var_id=$(this).data('variantid');
+                var title=$(this).data('title');
+                var titleshort=$(this).data('titleshort');
+                $('.product-form form input[name="id"]').val(var_id);
+                history.pushState({}, null, '?variant='+var_id);
+                console.log('.main_prod_'+titleshort+'');
+                $('.main_prod_'+titleshort+'').click();
+                $('.product_'+titleshort+'').click();
+                // $('[data-inputshort="'+titleshort+'"]').attr('checked', true);
+
+
+                $('variant-selects').change();
+
+
+                if ($(this).hasClass('available_true')) {
+                  $('.product-form__submit').html('Add to cart');
+                  $('.product-form__submit').prop("disabled", false);
+                }
+                if ($(this).hasClass('available_false')) {
+                  $('.product-form__submit').html('Sold out');
+                  $('.product-form__submit').prop("disabled", true);
+                }
+              })
+            })
+          });
+        </script>
+        
         <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
           {% assign product_tags = product.tags | join: ' ' %}
           <div class="product_size-chart">
@@ -583,7 +650,8 @@
               {% for tag in product.tags %}
                 {% if tag contains 'bootie-size-chart' %}
                   <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  {% include 'bootie-popup-size-chart', product_id: product.id, product: product %}
+                  <small class="size-chart-subtitle">Booties run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'bootie-popup-size-chart', product_id: product.id, product: product %}
                 {% endif %}
               {% endfor %}
 
@@ -591,6 +659,7 @@
               {% for tag in product.tags %}
                 {% if tag contains 'boots-size-chart' %}
                   <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle"> Camping Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
                   {% render 'boots-popup-size-chart', product_id: product.id, product: product %}
                 {% endif %}
               {% endfor %}
@@ -599,6 +668,7 @@
               {% for tag in product.tags %}
                 {% if tag contains 'high-top-size-chart' %}
                   <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">High Tops run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
                   {% render 'hightop-popup-size-chart', product_id: product.id, product: product %}
                 {% endif %}
               {% endfor %}
@@ -607,6 +677,7 @@
               {% for tag in product.tags %}
                 {% if tag contains 'jogger-size-chart' %}
                   <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Joggers run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
                   {% render 'jogger-popup-size-chart', product_id: product.id, product: product %}
                 {% endif %}
               {% endfor %}
@@ -616,6 +687,7 @@
               {% for tag in product.tags %}
                 {% if tag contains 'low-top-size-chart' %}
                   <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Low Tops run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
                   {% render 'lowtop-popup-size-chart', product_id: product.id, product: product %}
                 {% endif %}
               {% endfor %}
@@ -624,6 +696,7 @@
               {% for tag in product.tags %}
                 {% if tag contains 'kids-size-chart' %}
                   <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Kids true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
                   {% render 'popup-kids-size-chart', product_id: product.id, product: product %}
                 {% endif %}
               {% endfor %}
@@ -633,6 +706,7 @@
               {% for tag in product.tags %}
                 {% if tag contains 'runner-size-chart' %}
                   <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Runners run slightly narrow. For half sizes, size up. For more details on fit, <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>see the Size Guide</a></small>
                   {% render 'runner-popup-size-chart', product_id: product.id, product: product %}
                 {% endif %}
               {% endfor %}
@@ -641,6 +715,7 @@
               {% for tag in product.tags %}
                 {% if tag contains 'slide-size-chart' %}
                   <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Slides run true to size. Half size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
                   {% render 'slide-popup-size-chart', product_id: product.id, product: product %}
                 {% endif %}
               {% endfor %}
@@ -649,6 +724,7 @@
               {% for tag in product.tags %}
                 {% if tag contains 'slip-on-size-chart' %}
                   <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Slip Ons run true to size. If we don’t carry your half size, see the<a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
                   {% render 'slipon-popup-size-chart', product_id: product.id, product: product %}
                 {% endif %}
               {% endfor %}
@@ -657,6 +733,7 @@
               {% for tag in product.tags %}
                 {% if tag contains 'size-guide-buckle-sandals' %}
                   <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Buckle sandals run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
                   {% render 'size-guide-buckle-sandals', product_id: product.id, product: product %}
                 {% endif %}
               {% endfor %}
@@ -665,6 +742,7 @@
               {% for tag in product.tags %}
                 {% if tag contains 'size-guide-trekks' %}
                   <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Trekk Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
                   {% render 'trekks-size-guide', product_id: product.id, product: product %}
                 {% endif %}
               {% endfor %}
@@ -672,6 +750,7 @@
               {% for tag in product.tags %}
                 {% if tag contains 'western-size-chart' %}
                   <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Western Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
                   {% render 'western-popup-size-chart', product_id: product.id, product: product %}
                 {% endif %}
               {% endfor %}
@@ -729,7 +808,8 @@
         {% endfor %}
       {% endif %}
       {% if collapsible_tab_show %}
-        <collapsible-row class="collapsible-tab-2 product__accordion accordion{% if block.settings.heading == 'Customer Reviews' %} customer_reviews_tab{% endif %}" {{ block.shopify_attributes }}>
+        {% assign className = block.settings.heading | downcase | replace: " ", "_" %}
+        <collapsible-row class="collapsible-tab-2 {{ className | replace: "&", "" }} product__accordion accordion{% if block.settings.open %} 11111{% endif %}{% if block.settings.heading == 'Customer Reviews' %} customer_reviews_tab{% endif %}" {{ block.shopify_attributes }}>
           <details class="custom-field-product custom-field__inspiration custom-field__type--text" id="Details-{{ block.id }}-{{ section.id }}" {% if block.settings.open %}open{% endif %}>
             <summary class="custom-field--title">
               {% assign heading = block.settings.heading | default: block.settings.page.title | split: ' - ' %}

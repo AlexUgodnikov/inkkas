@@ -17,18 +17,52 @@
         "full_width": true,
         "products_per_page": 12,
         "columns_desktop": 4,
-        "pagination_type": "paginated",
+        "pagination_type": "loadmore",
         "enable_filtering": true,
         "enable_sorting": true,
+        "show_counts": false,
+        "filter_color_swatches": true,
         "facets_desktop": "drawer",
         "image_ratio": "square",
-        "show_date": true,
+        "show_date": false,
         "show_excerpt": false
+      }
+    },
+    "recently_viewed_products_4rUgtM": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "heading": "Recently viewed",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "featured_collection_Yfgrkt": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "More fun things for you",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "best-sellers",
+        "display_type": "grid",
+        "product_limit": 8,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     }
   },
   "order": [
     "main-collection-banner",
-    "main-search"
+    "main-search",
+    "recently_viewed_products_4rUgtM",
+    "featured_collection_Yfgrkt"
   ]
 }

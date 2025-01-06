@@ -2,7 +2,9 @@
   "sections": {
     "main-login": {
       "type": "main-login",
-      "settings": {}
+      "settings": {
+        "section_image": "shopify:\/\/shop_images\/SS24-02.jpg"
+      }
     }
   },
   "order": [

@@ -1515,7 +1515,7 @@ table {
   top: 0;
   right: 0;
   bottom: 0;
-  z-index: 90;
+  z-index: 999;
   width: calc(100vw - 30px);
   background: var(--bg-body, #fff);
   max-width: 480px;
@@ -2372,6 +2372,7 @@ h6,
     color: var(--color-header-links, --color-accent);
     position: relative;
     font-size: calc(var(--font-navigation-scale, 1) * 15px); }
+
     .navigation-uppercase-true .thb-full-menu a {
       text-transform: uppercase; }
     .thb-full-menu a:after {
@@ -3925,3 +3926,5 @@ input[type="radio"], .field label, .custom-checkbox[type="checkbox"], .custom-ch
   .section-header h2 {
     font-weight: var(--font-body-bold-weight, 600);
     margin-bottom: 0px; }
+
+

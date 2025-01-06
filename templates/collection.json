@@ -1,15 +1,70 @@
 {
   "sections": {
+    "countdown_banner_CCTbHh": {
+      "type": "countdown-banner",
+      "disabled": true,
+      "settings": {
+        "section_width": "full-width-row-full",
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "subheading": "Sale final hours",
+        "heading": "25% OFF SITEWIDE",
+        "heading_size": "h2",
+        "content": "Use code: JULY4",
+        "content_size": "medium",
+        "button_text": "",
+        "button_link": "",
+        "timer_year": 2024,
+        "timer_month": "07",
+        "timer_day": "07",
+        "timer_hour": "22",
+        "timer_minute": "59",
+        "color_bg": "#e9e3e0",
+        "color_text": "#3758c9",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "main-collection-banner": {
       "type": "main-collection-banner",
       "settings": {
         "show_collection_image": false,
-        "show_collection_description": false,
-        "show_subcollections": false,
+        "show_collection_description": true,
+        "show_subcollections": true,
         "make_heading_uppercase": true,
-        "image": "shopify:\/\/shop_images\/ScreenShot2024-04-05at4.18.21PM.png",
         "overlay_color": "#000000",
-        "overlay_opacity": 40
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_YRMwRR": {
+      "type": "rich-text",
+      "blocks": {
+        "text_mjxcMK": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Filter by your size to find great deals FAST.<\/strong><\/em><\/p>",
+            "custom_liquid": "",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "text_mjxcMK"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#c95137",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "product-grid": {
@@ -17,6 +72,7 @@
       "blocks": {
         "promotion_iE6HkP": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "the-radiance-collection",
             "promotion_position": 5,
@@ -34,6 +90,7 @@
         },
         "promotion_LAFKer": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "the-radiance-collection",
             "promotion_position": 11,
@@ -51,6 +108,7 @@
         },
         "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "the-radiance-collection",
             "promotion_position": 17,
@@ -68,6 +126,7 @@
         },
         "promotion_crfKdz": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "best-sellers",
             "promotion_position": 6,
@@ -85,6 +144,7 @@
         },
         "promotion_UiR8zH": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "best-sellers",
             "promotion_position": 15,
@@ -102,6 +162,7 @@
         },
         "promotion_rqwfRL": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "best-sellers",
             "promotion_position": 24,
@@ -130,59 +191,12 @@
         "full_width": true,
         "products_per_page": 48,
         "columns_desktop": 4,
-        "pagination_type": "loadmore",
+        "pagination_type": "infinite",
         "enable_filtering": true,
         "enable_sorting": true,
-        "show_counts": true,
+        "show_counts": false,
         "filter_color_swatches": true,
         "facets_desktop": "drawer"
-      }
-    },
-    "166366972953e881f5": {
-      "type": "collection-list",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_left": false,
-        "description": "",
-        "full_width": true,
-        "collection_list": [
-          "clothing",
-          "denim",
-          "dresses",
-          "knitwear",
-          "long",
-          "pants"
-        ],
-        "image_ratio": "square",
-        "layout": "grid",
-        "style": "style1",
-        "columns_desktop": 6,
-        "columns_mobile": "1",
-        "show_progress_bar": true,
-        "mobile_swipe": true,
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "16636704759cbf64c5": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 50,
-        "spacer_desktop": 125,
-        "border_separator": true,
-        "border_separator_full": true
-      }
-    },
-    "166367228131c52c01": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 35,
-        "spacer_desktop": 40,
-        "border_separator": false,
-        "border_separator_full": false
       }
     },
     "text_with_icons_MkhgQi": {
@@ -193,7 +207,7 @@
           "settings": {
             "icon": "star",
             "heading": "GET REWARDED",
-            "text": "<p><a href=\"\/pages\/rewards\" target=\"_blank\" title=\"REWARDS\">Earn points & redeem rewards<\/a> on every purchase.<\/p>"
+            "text": "<p><a href=\"\/pages\/rewards\" target=\"_blank\" title=\"REWARDS\">Earn points & redeem rewards on every purchase.<\/a><\/p>"
           }
         },
         "icon_RUwBjH": {
@@ -201,7 +215,7 @@
           "settings": {
             "icon": "return",
             "heading": "EASY RETURNS",
-            "text": "<p>for 30 days from delivery. Plus <strong>FREE<\/strong> <strong>RETURNS <\/strong>within 7 days of delivery.<\/p>"
+            "text": "<p><a href=\"\/pages\/return-policy\" target=\"_blank\" title=\"Returns & Exchanges\">for 30 days from delivery. Plus <strong>FREE<\/strong> <strong>RETURNS <\/strong>within 7 days of delivery.<\/a><\/p>"
           }
         },
         "icon_FcNWP3": {
@@ -209,7 +223,7 @@
           "settings": {
             "icon": "box",
             "heading": "FREE SHIPPING",
-            "text": "<p>for orders of $175+ plus expedited shipping available to most regions.<\/p>"
+            "text": "<p><a href=\"\/pages\/shipping\" target=\"_blank\" title=\"Shipping\">for orders of $175+ plus expedited shipping available to most regions.<\/a><\/p>"
           }
         }
       },
@@ -218,11 +232,12 @@
         "icon_RUwBjH",
         "icon_FcNWP3"
       ],
+      "disabled": true,
       "settings": {
-        "text_alignment": "center",
-        "icon_position": "top",
-        "icon_size": "xlarge",
-        "heading_size": "large",
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "medium",
+        "heading_size": "small",
         "mobile_swipe": false,
         "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#151515",
@@ -230,14 +245,42 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "spacer_HDe43e": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "featured_collection_6RbLfp": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "Trending Now",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "holiday-gift-guide",
+        "display_type": "carousel",
+        "product_limit": 8,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
+    "countdown_banner_CCTbHh",
     "main-collection-banner",
+    "rich_text_YRMwRR",
     "product-grid",
-    "166366972953e881f5",
-    "16636704759cbf64c5",
-    "166367228131c52c01",
-    "text_with_icons_MkhgQi"
+    "text_with_icons_MkhgQi",
+    "spacer_HDe43e",
+    "featured_collection_6RbLfp"
   ]
 }

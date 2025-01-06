@@ -35,4 +35,7 @@
 	{%- if product_card_product.metafields.custom.new_arrivals_label -%}
 		<span class="badge {{ badge_position }}" style="color: {{ settings.new_arrivals_badge_color_text }};background-color: {{ settings.new_arrivals_badge_color }}" aria-hidden="true">{{ settings.new_arrivals_badge }}</span>
 	{% endif %}
+	{%- if product_card_product.metafields.custom.final_sale_badge -%}
+		<span class="badge {{ badge_position }}" style="color: {{ settings.final_sale_badge_color_text }};background-color: {{ settings.final_sale_badge_color }}" aria-hidden="true">{{ settings.final_sale_badge }}</span>
+	{% endif %}  
 {%- endif -%}

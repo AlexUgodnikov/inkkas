@@ -741,6 +741,24 @@
       },
       {
         "type": "text",
+        "id": "final_sale_badge",
+        "label": "Final Sale label",
+        "default": "Final Sale"
+      },
+      {
+        "type": "color",
+        "id": "final_sale_badge_color",
+        "label": "Final Sale background color",
+        "default": "#DBDBDB"
+      },
+      {
+        "type": "color",
+        "id": "final_sale_badge_color_text",
+        "label": "Text color",
+        "default": "#221F20"
+      },
+      {
+        "type": "text",
         "id": "sold_out_badge",
         "label": "Sold out label",
         "default": "Sold out"
@@ -837,6 +855,11 @@
   {
     "name": "Cart Drawer",
     "settings": [
+      {
+        "type": "url",
+        "id": "cart_drawer_empty_button_url",
+        "label": "Empty button url"
+      },
       {
         "type": "checkbox",
         "id": "cart_drawer",
@@ -978,6 +1001,35 @@
         "id": "back_to_top",
         "label": "Enable back to top",
         "default": true
+      }
+    ]
+  },
+  {
+    "name": "Quick view",
+    "settings": [
+      {
+        "type": "color",
+        "id": "button_bg_color",
+        "label": "Button background color",
+        "default": "#151515"
+      },
+      {
+        "type": "color",
+        "id": "button_text_color",
+        "label": "Button text color",
+        "default": "#fff"
+      },
+      {
+        "type": "color",
+        "id": "button_hover_bg_color",
+        "label": "Button hover background color",
+        "default": "#151515"
+      },
+      {
+        "type": "color",
+        "id": "button_hover_text_color",
+        "label": "Button hover text color",
+        "default": "#fff"
       }
     ]
   },

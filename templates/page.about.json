@@ -23,36 +23,43 @@
         "166161901437c6bc67-2"
       ],
       "settings": {
-        "section_width": "grid",
-        "image": "shopify:\/\/shop_images\/world.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/world.jpg",
-        "image_parallax": true,
-        "desktop_height": "desktop-height-550",
-        "mobile_height": "mobile-height-350",
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/BLACK-HIGH-TOP-AW200108-GROUP-FLAT-BADASS-SLIDE-COZY-EDITION-AW200717-GROUP-BADASS-BLACK-SLIP-ON-AW200307-GROUP-5W1A5733.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/LONDON-SKY-SLIDE-SANDAL-SS210902-GROUP-_ZOCALO-JOGGER-SS210411-GROUP-_ALGARVE-BOOTIE-SS210807-GROUP-5W1A9510.jpg",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-full",
+        "mobile_height": "mobile-height-450",
         "content_width": "medium",
         "content_position": "bottom-center",
         "text_alignment": "center",
-        "overlay_opacity": 20,
-        "disable_top_spacing": false,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     },
     "16616191162185f622": {
       "type": "rich-text",
       "blocks": {
+        "subheading_7pmD8M": {
+          "type": "subheading",
+          "settings": {
+            "text": "artful shoes ♥️ happy feet"
+          }
+        },
         "1661619116558a03c6-1": {
           "type": "heading",
           "settings": {
-            "text": "It is our passion to create fun, colorful, handcrafted footwear that reflects the beauty of this world. The result is that each pair of Inkkas is unique and inspiring -- celebrating stories of life and nature from around the world. We hope you enjoy because these shoes have literally traveled the globe get to you!",
+            "text": "For more than 10 years, Inkkas has created bold, inspired, ultra-comfy shoes designed to make your feet and your heart happy. Our designs are colorful, hand-drawn, one-of-a-kind celebrations of beauty around the world, reflecting diverse stories of art, nature, and life within and around us all. Bottom line: You won't find shoes like this anywhere else. Plus, the earth as our muse, we strive to minimize waste and reduce impact throughout the crafting process, which is why we plant a tree for every pair sold, produce collections in small handcrafted batches, and make our products available for pre-order. Step into happiness with us!",
             "size": "h4"
           }
         }
       },
       "block_order": [
+        "subheading_7pmD8M",
         "1661619116558a03c6-1"
       ],
       "settings": {
-        "section_width": "grid",
+        "section_width": "full-width-row",
         "text_width": "xlarge",
         "text_position": "center",
         "text_alignment": "center",
@@ -84,28 +91,20 @@
         "image_pAw6HH": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo.png",
+            "image": "shopify:\/\/shop_images\/TREE_LOGOS_X2-about_page_2b822c55-00b1-4dfb-86f1-9cc7f4d0c4ea.png",
             "retina": true
-          }
-        },
-        "space_pemrb8": {
-          "type": "space",
-          "disabled": true,
-          "settings": {
-            "height": 48
           }
         },
         "text_aPJiCC": {
           "type": "text",
           "settings": {
-            "text": "<p>The globe as our muse, we are committed to using our work to improve our environment and enrich our communities through environmental awareness and action. As part of the <strong>One Shoe One Tree<\/strong> project<strong>, <\/strong>and in partnership with <a href=\"https:\/\/trees.org\/\" target=\"_blank\" title=\"https:\/\/trees.org\/\">Trees For The Future <\/a>(trees.org), Inkkas plants one tree for every shoe purchase. With your help, Inkkas is helping reforest the world and develop sustainable agricultural infrastructure for communities around the globe.<\/p>",
-            "description_size": "medium"
+            "text": "<p>Inkkas plants one tree for every shoe purchase as part of the <em><strong>One Shoe One Tree Project<\/strong><\/em><em> <\/em>with <a href=\"https:\/\/trees.org\/\" target=\"_blank\" title=\"https:\/\/trees.org\/\">Trees For The Future (trees.org).<\/a> Over the years, this has amounted to more than <strong>445,000 trees<\/strong>! The globe as our muse, we are committed to improving our environment and enriching our communities through environmental awareness and action. Together with your help, we are working to reforest the world and develop more sustainable agricultural infrastructure for communities around the globe. Thank you!<\/p>",
+            "description_size": "small"
           }
         }
       },
       "block_order": [
         "image_pAw6HH",
-        "space_pemrb8",
         "text_aPJiCC"
       ],
       "settings": {
@@ -122,72 +121,43 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_border": "#e2e2e2",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "16618593470c5f63bd": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "166185934718a0a8c1-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "SHOES (ALMOST) AS UNIQUE AS YOU"
-          }
-        },
-        "166185934718a0a8c1-1": {
-          "type": "heading",
-          "settings": {
-            "text": "EXPRESS YOURSELF",
-            "heading_size": "h1"
-          }
-        },
-        "166185934718a0a8c1-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Inkkas creates colorful, unique & joyful designs celebrating beauty around the globe. <\/p>",
-            "description_size": "medium"
-          }
-        },
-        "baa48f62-cde3-466c-9436-e106114464af": {
-          "type": "space",
-          "settings": {
-            "height": 16
-          }
-        },
         "166185934718a0a8c1-3": {
           "type": "button",
           "settings": {
-            "button_text": "SHOP COLLECTIONS",
+            "button_text": "SHOP ALL COLLECTIONS",
             "button_link": "shopify:\/\/collections",
             "button_outline": false
           }
         }
       },
       "block_order": [
-        "166185934718a0a8c1-0",
-        "166185934718a0a8c1-1",
-        "166185934718a0a8c1-2",
-        "baa48f62-cde3-466c-9436-e106114464af",
         "166185934718a0a8c1-3"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "full-width-row-full",
-        "image": "shopify:\/\/shop_images\/yellow-map-shoes.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/yellow-map-shoes.jpg",
+        "image": "shopify:\/\/shop_images\/footwear-connects-the-world.png",
         "image_parallax": false,
-        "desktop_height": "desktop-height-450",
-        "mobile_height": "mobile-height-400",
-        "content_width": "medium",
-        "content_position": "middle-center",
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-350",
+        "content_width": "large",
+        "content_position": "bottom-center",
         "text_alignment": "center",
-        "overlay_opacity": 40,
+        "overlay_opacity": 15,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
     "16623735222f31e80e": {
       "type": "spacer",
+      "disabled": true,
       "settings": {
         "spacer_mobile": 5,
         "spacer_desktop": 10,
@@ -198,27 +168,11 @@
     "166161906436c7d4d0": {
       "type": "scrolling-text",
       "blocks": {
-        "16616190648ddabc05-0": {
-          "type": "text",
-          "settings": {
-            "text": "SPRING-SUMMER EDIT",
-            "link": "shopify:\/\/collections\/the-radiance-collection",
-            "outline_text": false
-          }
-        },
-        "16616190648ddabc05-1": {
-          "type": "text",
-          "settings": {
-            "text": "KIDS",
-            "link": "shopify:\/\/collections\/kids",
-            "outline_text": true
-          }
-        },
         "234a9f9c-a2b0-4da8-9f1e-e9d2d172071b": {
           "type": "text",
           "settings": {
             "text": "WOMEN'S",
-            "link": "shopify:\/\/collections\/women",
+            "link": "shopify:\/\/collections\/womens-collection-all-shoes",
             "outline_text": false
           }
         },
@@ -226,8 +180,16 @@
           "type": "text",
           "settings": {
             "text": "MEN'S",
-            "link": "shopify:\/\/collections\/men",
+            "link": "shopify:\/\/collections\/mens-shoes",
             "outline_text": true
+          }
+        },
+        "16616190648ddabc05-1": {
+          "type": "text",
+          "settings": {
+            "text": "KIDS",
+            "link": "shopify:\/\/collections\/kids",
+            "outline_text": false
           }
         },
         "text_ELVriG": {
@@ -235,6 +197,14 @@
           "settings": {
             "text": "ACCESSORIES",
             "link": "shopify:\/\/collections\/all-accessories",
+            "outline_text": true
+          }
+        },
+        "text_ymbBHK": {
+          "type": "text",
+          "settings": {
+            "text": "VEGAN",
+            "link": "shopify:\/\/collections\/vegan-products",
             "outline_text": false
           }
         },
@@ -248,70 +218,27 @@
         }
       },
       "block_order": [
-        "16616190648ddabc05-0",
-        "16616190648ddabc05-1",
         "234a9f9c-a2b0-4da8-9f1e-e9d2d172071b",
         "text_RCaD7Q",
+        "16616190648ddabc05-1",
         "text_ELVriG",
+        "text_ymbBHK",
         "text_BxdLm9"
       ],
+      "disabled": true,
       "settings": {
         "height": "height-auto",
         "full_width": true,
         "direction": "left",
         "speed": "20s",
-        "text_size": 60,
+        "text_size": 20,
         "text_uppercase": false,
-        "image_size": "large",
+        "image_size": "small",
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "overlay_color": "#ffffff",
         "overlay_opacity": 0,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "1662373455c24650d9": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 10,
-        "spacer_desktop": 20,
-        "border_separator": true,
-        "border_separator_full": true
-      }
-    },
-    "1662373200967c613c": {
-      "type": "rich-text",
-      "blocks": {
-        "1662373200dc732b07-1": {
-          "type": "heading",
-          "settings": {
-            "text": "HANDCRAFTED FOOTWEAR",
-            "size": "h2"
-          }
-        },
-        "1662373200dc732b07-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Buying shoes online can feel daunting. But not to worry, we make it easy and completely risk-free. Every product has a unique size guide to provide suggestions on fit & sizing. And if you're not 100% happy with your purchase, you can easily return or exchange your shoes for FREE within 7 days of delivery. No questions asked.<\/p>",
-            "custom_liquid": "",
-            "size": "text-size-regular"
-          }
-        }
-      },
-      "block_order": [
-        "1662373200dc732b07-1",
-        "1662373200dc732b07-2"
-      ],
-      "settings": {
-        "section_width": "grid",
-        "text_width": "large",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
@@ -328,20 +255,12 @@
     "1661619131dc23111f": {
       "type": "text-with-icons",
       "blocks": {
-        "166161913112fa572a-0": {
-          "type": "icon",
-          "settings": {
-            "icon": "leather",
-            "heading": "RESPONSIBLE MATERIALS",
-            "text": "<p>INCLUDING VEGAN OFFERINGS<\/p>"
-          }
-        },
         "166161913112fa572a-1": {
           "type": "icon",
           "settings": {
             "icon": "shoe",
             "heading": "QUALITY CRAFTSMANSHIP",
-            "text": "<p>& SMALL BATCH PRODUCTIONS<\/p>"
+            "text": ""
           }
         },
         "166161913112fa572a-2": {
@@ -349,20 +268,29 @@
           "settings": {
             "icon": "plant",
             "heading": "CARBON OFFSET",
-            "text": "<p>WITH OUR ONE SHOE ONE TREE PROJECT<\/p>"
+            "text": ""
+          }
+        },
+        "166161913112fa572a-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "leather",
+            "heading": "RESPONSIBLE MATERIALS",
+            "text": ""
           }
         }
       },
       "block_order": [
-        "166161913112fa572a-0",
         "166161913112fa572a-1",
-        "166161913112fa572a-2"
+        "166161913112fa572a-2",
+        "166161913112fa572a-0"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "center",
         "icon_position": "top",
-        "icon_size": "medium",
-        "heading_size": "medium",
+        "icon_size": "small",
+        "heading_size": "small",
         "mobile_swipe": false,
         "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#151515",
@@ -377,14 +305,14 @@
         "0e695f58-8205-43ec-8762-4137844e2d33": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SAMADHI-JOGGER-SS240403-MODEL-SS240403-EPI_3154.jpg",
+            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-05at5.06.36PM.png",
             "subheading": "",
-            "title": "IT'S TIME FOR NEW KICKS",
-            "text": "Start with our newest collection",
+            "title": "STEP IN",
+            "text": "",
             "link_label": "See what's new",
-            "link": "shopify:\/\/collections\/the-radiance-collection",
+            "link": "shopify:\/\/collections\/the-harmony-collection",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/the-radiance-collection",
+            "block_link": "shopify:\/\/collections\/the-harmony-collection",
             "product_list": []
           }
         },
@@ -393,33 +321,69 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Inkkas_Shoes.png",
             "subheading": "",
-            "title": "WHAT ARE YOU WAITING FOR?",
-            "text": "There's so much to explore!",
-            "link_label": "Explore Now",
+            "title": "AND SHARE",
+            "text": "",
+            "link_label": "See Bestsellers",
             "link": "shopify:\/\/collections\/best-sellers",
             "use_text_button": false,
             "block_link": "shopify:\/\/collections\/best-sellers",
+            "product_list": []
+          }
+        },
+        "image_QLzdny": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TESSE-LACE-UP-SS220205-GROUP-BAILA-SLIP-ON-SS220301-W1A1128.jpg",
+            "subheading": "",
+            "title": "THE HAPPINESS!",
+            "text": "",
+            "link_label": "See All",
+            "link": "shopify:\/\/collections\/all-products",
+            "use_text_button": false,
+            "block_link": "shopify:\/\/collections\/all-products",
             "product_list": []
           }
         }
       },
       "block_order": [
         "0e695f58-8205-43ec-8762-4137844e2d33",
-        "0d86c2a6-f30c-40b5-9391-99b5bb12959b"
+        "0d86c2a6-f30c-40b5-9391-99b5bb12959b",
+        "image_QLzdny"
       ],
       "settings": {
-        "columns_desktop": 2,
+        "slider": false,
+        "columns_desktop": 3,
         "section_width": "full-width-row-full",
         "mobile_swipe": false,
-        "image_ratio": "landscape",
-        "content_position": "middle-center",
+        "image_ratio": "square",
+        "content_position": "bottom-center",
         "text_alignment": "center",
         "column_spacing": "none",
         "heading_size": "h1",
         "overlay_color": "#000000",
-        "overlay_opacity": 40,
-        "disable_top_spacing": false,
+        "overlay_opacity": 10,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": true
+      }
+    },
+    "featured_blog_X8TVad": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "The Inkkas Journal",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "blog": "blog",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "show_date": false,
+        "show_excerpt": true,
+        "show_view_all": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     }
   },
@@ -431,10 +395,9 @@
     "16618593470c5f63bd",
     "16623735222f31e80e",
     "166161906436c7d4d0",
-    "1662373455c24650d9",
-    "1662373200967c613c",
     "16623736356fb1e92f",
     "1661619131dc23111f",
-    "1661619177029ffd60"
+    "1661619177029ffd60",
+    "featured_blog_X8TVad"
   ]
 }

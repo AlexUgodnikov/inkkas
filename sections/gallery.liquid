@@ -15,10 +15,10 @@
 -%}
 <div class="row {{ section_width }}">
 	<div class="small-12 columns">
-		<div class="gallery gallery-spacing--{{ column_spacing }} text-{{ text_alignment }}{% if mobile_swipe %} swipe-on-mobile{% endif %} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}" style="--gallery-columns: {{ columns_desktop }};--overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}">
-			<div class="gallery__inner">
+		<div id="gallery-{{ section.id }}" class="{% if section.settings.slider %}swiper {% endif %}gallery gallery-spacing--{{ column_spacing }} text-{{ text_alignment }}{% if mobile_swipe and section.settings.slider != true %} swipe-on-mobile{% endif %} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}" style="--gallery-columns: {{ columns_desktop }};--overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}">
+			<div class="swiper-wrapper gallery__inner" {% if section.settings.slider %}style="display: flex;" {% endif %}>
 				{%- for block in section.blocks -%}
-					<div class="gallery__item" {{ block.shopify_attributes }}>
+					<div class="gallery__item swiper-slide" {{ block.shopify_attributes }}{% if section.settings.slider %} style="cursor: pointer;" {% endif %}>
 						{%- liquid
 							assign ratio = 1
 							if image_ratio == 'adapt' and block.settings.image
@@ -61,7 +61,7 @@
 										<a class="{{ button_class }}"{% if block.settings.link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.link }}"{% endif %} aria-label="{{ block.settings.link_label }}"><span>{{ block.settings.link_label }}</span></a>
 									{% endif %}
 									{% if block.settings.block_link != blank %}
-										<a href="{{ block.settings.block_link }}" class="gallery__item-content-link" target="_blank"></a>
+										<a href="{{ block.settings.block_link }}" class="gallery__item-content-link" ></a>
 									{% endif %}
 								</div>
 							</div>
@@ -96,11 +96,58 @@
 		<script src="{{ 'view-products.js' | asset_url }}" defer="defer"></script>
 	{%- endif -%}
 {%- endfor -%}
+{% if section.settings.slider %}
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			if (window.innerWidth > 769) {
+				const sliderGallery = new Swiper('#gallery-{{ section.id }}', {
+					spaceBetween: 0,
+					slidesPerView: 4.3,
+					breakpoints: {
+						0: {
+							slidesPerView: 1.2,
+							centeredSlides: true,
+						},
+						450: {
+							slidesPerView: 2,
+						},
+						576: {
+							slidesPerView: 3,
+						},
+						991: {
+							slidesPerView: 4.3,
+						},
+					}
+				});
+			} else {
+				const gallery = document.getElementById('gallery-{{ section.id }}');
+
+				if (gallery) {
+					const inner = gallery.querySelector('.gallery__inner');
+					if (inner) {
+						inner.style.display = 'grid';
+					}
+					gallery.classList.remove('swiper');
+					{% if mobile_swipe %}
+					gallery.classList.add('swipe-on-mobile')
+					{% endif %}
+				}
+
+			}
+		});
+	</script>
+{% endif %}
 {% schema %}
   {
     "name": "Gallery",
 		"class": "section-gallery",
     "settings": [
+			{
+				"type": "checkbox",
+				"id": "slider",
+				"default": false,
+				"label": "Slider enable"
+			},
 			{
 				"type": "range",
 				"id": "columns_desktop",

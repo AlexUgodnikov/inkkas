@@ -1,5 +1,78 @@
 {{- 'facets.css' | asset_url | stylesheet_tag -}}
 {{- 'product-grid.css' | asset_url | stylesheet_tag -}}
+
+{% assign current_filter = '' %}
+{%- for filter in collection.filters -%}
+  {%- assign total_active_values = total_active_values | plus: filter.active_values.size -%}
+  {% case filter.type %}
+    {% when 'list' %}
+      {% if filter.label == 'Size' %}
+        {% assign new_filter_title = '' %}
+        {% assign new_filter_title_10 = '' %}
+        {% assign first_label = '' %}
+        {%- for value in filter.values -%}
+          {% assign new_title_arr = value.label | downcase | split: "/" %}
+          {% assign new_title = new_title_arr | first %} 
+
+          {% if new_title contains 'us men' %}
+            {% assign first_label = 'us men' %}
+          {% endif %}
+          {% if new_title contains 'us women' %}
+            {% assign first_label = 'us women' %}
+          {% endif %}
+          {% if new_title contains 'eur' %}
+            {% assign first_label = 'eur' %}
+          {% endif %}
+          {% if new_title contains 'us kids' %}
+            {% assign first_label = 'us kids' %}
+          {% endif %}
+          
+          {% assign new_title = new_title | replace: "men", "" %}
+          {% assign new_title = new_title | replace: "women", "" %}
+          {% assign new_title = new_title | replace: "eur ", "" %}
+          {% assign new_title = new_title | replace: "kids", "" %}
+          {% assign new_title = new_title | replace: "us", "" %}
+          {% assign new_title = new_title | plus: 0 %}
+
+          {% if new_title < 10 %} 
+            {% assign new_filter_title = new_filter_title  | append: ',' | append: new_title %}
+          {% else %}
+            {% assign new_filter_title_10 = new_filter_title_10  | append: ',' | append: new_title %}
+          {% endif %}
+        {%- endfor -%}
+        
+        {% assign new_filter_title = new_filter_title | remove_first: ',' | split: ',' | uniq %}
+        {% assign new_filter_title_10 = new_filter_title_10 | remove_first: ',' | split: ',' | uniq %}
+    
+        {% assign new_filter_title = new_filter_title | sort | join: "," %}
+        {% assign new_filter_title_10 = new_filter_title_10 | sort | join: "," %}
+        {% assign new_filter_title = new_filter_title | append: ',' | append: new_filter_title_10 %}
+      
+         
+        {% assign new_filter_title_arr = new_filter_title | split: ','  %}
+        {% assign find_label = '' %}
+        {%- for val in new_filter_title_arr  -%}
+          {% assign find_title = first_label | append: ' ' | append: val | handleize %}
+          {%- for value in filter.values -%}
+            {% assign new_title_arr = value.label | downcase | split: "/" %}
+            {% assign new_title = new_title_arr | first | handleize %}
+            {% if find_title == new_title %}
+              {% assign find_label_item = value.label | append: ',' %}
+              {% if find_label contains find_label_item %}
+              {% else %}
+                {% if value.active %}
+                 {% assign title =  value.label | handleize %}
+                 {% assign current_filter =  current_filter | append: title | append: ','  %}
+                {% endif %}
+              {% endif %}
+            {% endif %}
+          {%- endfor -%}
+        {%- endfor -%}
+      {% endif %}
+  {% endcase %}
+{%- endfor -%}
+
+
 {%- liquid
 	assign full_width = section.settings.full_width
 	assign enable_filtering = section.settings.enable_filtering
@@ -41,32 +114,63 @@
 							{%- else -%}
 								<ul id="product-grid" data-id="{{ section.id }}" class="products collection row small-up-2 medium-up-{{ columns_desktop }} pagination--{{ pagination_type }}">
 									{%- for product in collection.products -%}
-										{%- assign product_loop = forloop -%}
-										{%- for block in section.blocks -%}
-											{%- liquid
-												assign display_promotion = false
-												if product_loop.index == block.settings.promotion_position
-													assign display_promotion = true
-												endif
+                                      <!-- custom hide product -->
+                                      {% assign show = 0 %}
+                                      {% assign count = 0 %}
+                                       
+                                      {% assign new_current_filter = current_filter | replace: ",", "" %} 
+                                      {% for variant in product.variants %} 
+                                       
+                                        {% assign title = variant.option1 | handleize  %} 
+                                        {% if new_current_filter contains  title %}
+                                          {% if  variant.available == false %}
+                                            {% assign show = 1 %} 
+                                          {% else %}
+                                            {% assign count = count | plus: 1 %} 
+                                          {% endif %}
+                                        {% endif %} 
+                                      {% endfor %} 
+                                      {% if count > 0 %}
+                                        {% assign show = 0 %} 
+                                      {% endif %}
+                                      
+                                      {%- assign product_loop = forloop -%}
+                                      {%- for block in section.blocks -%}
+                                          {%- liquid
+                                              assign display_promotion = false
+                                              if product_loop.index == block.settings.promotion_position
+                                                  assign display_promotion = true
+                                              endif
 
-												if block.settings.promotion_collection != blank
-													if collection.handle == block.settings.promotion_collection.handle and product_loop.index == block.settings.promotion_position
-														assign display_promotion = true
-													else
-														assign display_promotion = false
-													endif
-												endif
-											-%}
-											{%- if display_promotion -%}
-												{{- 'gallery.css' | asset_url | stylesheet_tag -}}
-												<li class="promotion-column column promotion-column-width--{{ block.settings.promotion_width }} product-columns-{{ columns_desktop }}">
-													{%- render 'product-promotion', block: block -%}
-												</li>
-											{%- endif -%}
-										{%- endfor -%}
-										<li class="column">
-											{%- render 'product-card', product_card_product: product -%}
-										</li>
+                                              if block.settings.promotion_collection != blank
+                                                  if collection.handle == block.settings.promotion_collection.handle and product_loop.index == block.settings.promotion_position
+                                                      assign display_promotion = true
+                                                  else
+                                                      assign display_promotion = false
+                                                  endif
+                                              endif
+                                          -%}
+                                          {%- if display_promotion -%}
+                                              {{- 'gallery.css' | asset_url | stylesheet_tag -}}
+                                              <li class="promotion-column column promotion-column-width--{{ block.settings.promotion_width }} product-columns-{{ columns_desktop }}">
+                                                  {%- render 'product-promotion', block: block -%}
+                                              </li>
+                                          {%- endif -%}
+                                      {%- endfor -%}
+										
+                                      {% if show == 0 %}
+                                        {% unless product.handle contains 'navidium' %}
+                                          <li class="column">
+                                            {%- render 'product-card', product_card_product: product -%}
+                                          </li>
+                                        {% endunless %}
+                                      {% endif %}
+                                  
+                                      {% comment %}<li class="column">
+                                        {%- render 'product-card', product_card_product: product -%}
+                                      </li>{% endcomment %}
+                                      
+										
 									{%- endfor -%}
 								</ul>
 								{% render 'pagination', paginate: paginate, pagination_type: pagination_type, id: section.id %}

@@ -31,13 +31,25 @@
 	endif
 -%}
 {{- 'featured-product.css' | asset_url | stylesheet_tag -}}
+{% style %}
+  .section-{{ section.id }} #AddToCart {
+    background: {{ section.settings.bg_btn_color }}!important;
+    color: {{ section.settings.text_btn_color }}!important;
+  }
+  .section-{{ section.id }} #AddToCart:hover::before {
+    background: {{ section.settings.bg_btn_color_hover }}!important;
+  }
+  .section-{{ section.id }} #AddToCart:hover {
+    color: {{ section.settings.text_btn_color_hover }}!important;
+  }
+{% endstyle %}
 
 {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
 {%- if first_3d_model -%}
   <link id="ModelViewerStyle" rel="stylesheet" href="https://cdn.shopify.com/shopifycloud/model-viewer-ui/assets/v1.0/model-viewer-ui.css" media="print" onload="this.media='all'">
   <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'product-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
-<div class="thb-product-detail featured-product product section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+<div class="section-{{ section.id }} thb-product-detail featured-product product section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
   <div class="row {% if full_width %}full-width-row{% endif %}">
 		<div class="small-12 columns">
 			{% render 'section-header', section_heading: section_heading, section_description: section_description, section_heading_left: section_heading_left %}
@@ -190,13 +202,37 @@
   </script>
   <script src="{{ 'product-model.js' | asset_url }}" defer></script>
 {%- endif -%}
-
+{% include "preorder-me-widget" %}
 {% schema %}
 {
   "name": "Featured product",
   "tag": "section",
   "class": "section-featured-product",
 	"settings": [
+      {
+					"type": "color",
+					"id": "bg_btn_color",
+					"label": "Background color add to cart",
+                    "default":"#000"
+				},
+               {
+					"type": "color",
+					"id": "text_btn_color",
+					"label": "Text color add to cart",
+                 "default":"#fff"
+				},
+          {
+					"type": "color",
+					"id": "bg_btn_color_hover",
+					"label": "Background color hover add to cart ",
+                    "default":"#000"
+				},
+               {
+					"type": "color",
+					"id": "text_btn_color_hover",
+					"label": "Text color hover add to cart ",
+                 "default":"#fff"
+				}, 
 		{
 			"type": "text",
 			"id": "heading",

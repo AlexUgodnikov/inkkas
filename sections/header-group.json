@@ -5,19 +5,11 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "text_zpJzi7": {
+        "text_b9m48L": {
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "NEW SPRING COLLECTION IS HERE!",
-            "link": "shopify:\/\/collections\/the-radiance-collection"
-          }
-        },
-        "5b1ab378-833d-4a94-a02e-8325ec1551d0": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "ENJOY FREE SHIPPING ON ORDERS $175+",
+            "text": "FREE GROUND SHIPPING ON ORDERS $175+",
             "link": "shopify:\/\/pages\/shipping"
           }
         },
@@ -25,24 +17,23 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "EASY RETURNS FOR 30 DAYS",
-            "link": "shopify:\/\/pages\/return_policy"
+            "text": "FREE EXCHANGES & EASY RETURNS FOR 30 DAYS",
+            "link": "shopify:\/\/pages\/return-policy"
           }
         },
-        "text_8BPLDW": {
+        "text_YePgmz": {
           "type": "text",
           "settings": {
-            "icon": "none",
-            "text": "FREE RETURNS FOR 7 DAYS",
-            "link": "shopify:\/\/pages\/return_policy"
+            "icon": "plant",
+            "text": "EVERY PURCHASE PLANTS A TREE",
+            "link": "shopify:\/\/pages\/about"
           }
         }
       },
       "block_order": [
-        "text_zpJzi7",
-        "5b1ab378-833d-4a94-a02e-8325ec1551d0",
+        "text_b9m48L",
         "2f7893ee-7b84-4f15-911a-801b94ffa38e",
-        "text_8BPLDW"
+        "text_YePgmz"
       ],
       "settings": {
         "announcement_bar": true,
@@ -56,6 +47,31 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "megamenu_38fdpe": {
+          "type": "megamenu",
+          "disabled": true,
+          "settings": {
+            "position": "1",
+            "promo_1_image": "shopify:\/\/shop_images\/09-25-2024-AW24-Harmony-Collectio-MOBILE-comingsoon.jpg",
+            "promo_1_heading": "",
+            "promo_1_link_label": "Reserve yours now",
+            "promo_1_link": "shopify:\/\/collections\/the-harmony-collection",
+            "promo_2_heading": "",
+            "promo_2_link_label": "",
+            "promo_2_link": "",
+            "promo_3_heading": "",
+            "promo_3_link_label": "",
+            "promo_3_link": "",
+            "promo_4_heading": "",
+            "promo_4_link_label": "",
+            "promo_4_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "megamenu_38fdpe"
+      ],
       "settings": {
         "sticky_header": true,
         "logo": "shopify:\/\/shop_images\/inkkasblack_9292de40-7bd9-493f-8c9e-6d4eece2cd1c.png",
@@ -64,13 +80,13 @@
         "style": "style1",
         "header_shadow": "header--shadow-small",
         "menu": "new-menu",
-        "transparent_header": true,
+        "transparent_header": false,
         "show_language_switcher": false,
         "show_currency_switcher": false,
-        "mobile_secondary_menu": "",
-        "mobile_promo_heading": "Promotion heading",
-        "mobile_promo_link_label": "Shop",
-        "mobile_promo_link": ""
+        "mobile_secondary_menu": "secondary-menu",
+        "mobile_promo_heading": "",
+        "mobile_promo_link_label": "",
+        "mobile_promo_link": "shopify:\/\/collections\/the-harmony-collection"
       }
     }
   },

@@ -1,0 +1,105 @@
+{% style %}
+.image-bvanner-contain{
+  position:relative;
+}
+  .image-bvanner-contain:after{
+  display: block;
+    content: "";
+    padding-bottom: calc(100% /(var(--aspect-ratio)));
+}
+   .image-bvanner-contain img{
+     position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    object-fit: cover;
+   }
+  .image-bvanner-contain .banner-image-mob{
+    display:none;
+  }
+  .banner-btn-wrp{
+        position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 5%;
+    left: 0;
+  }
+  @media(max-width:768px){
+    {% if section.settings.mobile_image != blank %}
+    .image-bvanner-contain .banner-image-desc{
+      display:none;
+    }
+    .image-bvanner-contain .banner-image-mob{
+      position:static;
+    display:block;
+  }
+    .image-bvanner-contain:after{
+      display:none;
+    }
+    {% endif %}
+  }
+  {% endstyle %}
+
+
+  <div class="image-bvanner-contain" style="
+              --aspect-ratio: 2.5;
+              --image-align:center;
+            ">
+     {% if section.settings.image != blank %}
+				<img src="{{ section.settings.image | img_url : 'master' }}" alt="" class="banner-image-desc">
+     {% endif %}
+    {% if section.settings.mobile_image != blank %}
+    <img src="{{ section.settings.mobile_image | img_url : 'master' }}" alt=""  class="banner-image-mob">
+    {% endif %}
+ {% if section.settings.button_text != blank %}
+    <div class="banner-btn-wrp">
+     
+          <a class="button white" href="{{ section.settings.button_link }}" role="button" title="{{ section.settings.button_text | escape }}"><span>{{ section.settings.button_text }}</span></a>
+    
+    </div>  {% endif %}
+  </div>
+{% schema %}
+  {
+    "name": "Image banner contain",
+		"class": "section-banner-contain",
+    "settings": [
+            {
+				"type": "checkbox",
+				"id": "image_contain",
+				"label": "Image contain",
+              "default":false
+			},
+			{
+              "type": "text",
+				"id": "button_text",
+				"label": "button text"
+            },
+      {
+              "type": "url",
+				"id": "button_link",
+				"label": "button link"
+            },
+			{
+				"type": "image_picker",
+				"id": "image",
+				"label": "Image",
+				"info": "2800 x 650 .jpg recommended."
+			},
+			{
+				"type": "image_picker",
+				"id": "mobile_image",
+				"label": "Mobile image (optional)",
+				"info": "375 x 650 .jpg recommended."
+			},
+    ],
+    "presets": [
+      {
+        "name": "Image banner contain",
+				
+      }
+    ]
+  }
+{% endschema %}

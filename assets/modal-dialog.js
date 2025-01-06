@@ -30,6 +30,51 @@ if (!customElements.get('modal-dialog')) {
       if (this.moved) return;
       this.moved = true;
       document.body.appendChild(this);
+
+
+
+
+
+const observer = new MutationObserver(function(mutations) {
+
+        let isInitialized = false;
+
+        mutations.forEach(function(mutation) {
+            if (mutation.addedNodes.length && !isInitialized) { 
+
+                //your element what you want found
+                const domElement = document.querySelectorAll('preorder-me-button');
+
+            
+                if (domElement.length > 0) {
+                      const targetContainer = document.querySelector('.product-add-to-cart-container .add_to_cart_holder');
+                                      
+                      //your custom scripts
+                      
+                      targetContainer.appendChild(domElement[0]);
+                     if(domElement[0].querySelector('.preorder-me-button').style.display === 'none'){
+                        domElement[0].style.display = 'none';
+                      }
+                      //domElement[0].style.flex = 1
+                  //domElement[0].style.width = '83%';
+
+                    //END your custom scripts
+
+
+
+                    isInitialized = true; 
+                    
+                    observer.disconnect();
+                }
+            }
+        });
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+
+
+
+
     }
 
     show(opener) {
@@ -69,3 +114,8 @@ if (!customElements.get('modal-opener')) {
   }
   customElements.define('modal-opener', ModalOpener);
 }
+
+
+
+
+

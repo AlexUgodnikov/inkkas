@@ -50,27 +50,18 @@
         "collapsible_tab_mLFbJi": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Does Inkkas offer Free Shipping?",
+            "heading": "Do you offer Free Shipping?",
             "open": true,
-            "content": "<ul><li>Yes, Inkkas is happy to offer <strong>FREE shipping<\/strong> within the Continental U.S.A. on all orders of $175 or more! <\/li><li>FREE shipping is automatically applied at checkout wherever eligible.<\/li><li>FREE shipping is also available to Canada for orders of $200 or more. <\/li><li>Free shipping does not currently apply to Alaska, Hawaii and Puerto Rico. <\/li><li>Free shipping does not currently apply to international orders other than Canada.<\/li><\/ul>",
-            "page": ""
-          }
-        },
-        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Where does Inkkas ship?",
-            "open": false,
-            "content": "<p>Inkkas ships worldwide!<\/p><ul><li>via USPS and UPS for domestic orders<\/li><li>via DHL Express Worldwide for non-Canada international orders <\/li><li>via USPS Priority International for Canada orders<\/li><\/ul>",
+            "content": "<ul><li>Yes, Inkkas is happy to offer <strong>FREE shipping<\/strong> within the Continental U.S. on all orders of $175 or more! <\/li><li>Free shipping is automatically applied at checkout wherever eligible.<\/li><li>Free shipping is also available to Canada for orders of $200 or more. <\/li><li>Free shipping does not currently apply to Alaska, Hawaii and Puerto Rico. <\/li><li>Free shipping does not currently apply to international orders other than Canada.<\/li><\/ul>",
             "page": ""
           }
         },
         "collapsible_tab_RTgTUh": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How long does it take for an order to arrive?",
+            "heading": "How fast is your shipping?",
             "open": false,
-            "content": "<p>Depending<strong> <\/strong>on<strong> <\/strong>which shipping method is selected, domestic orders usually arrive between 2-10 business days from the order date. Note that all orders are processed for shipping the business day after placement. <\/p><p><strong>Continental USA<\/strong> shipping options:<\/p><ul><li><em><strong>Expedited UPS 2-Day Air <\/strong><\/em>usually takes 2-4 business days to arrive to the destination<\/li><li><em><strong>Standard USPS Ground: <\/strong><\/em><em>4-7 business days<\/em><\/li><li><em><strong>No-Rush USPS Ground:<\/strong><\/em><em> 7-10 business days<\/em><\/li><\/ul><p><strong>Pre-Orders: <\/strong>Items that are available for pre-order will be indicated as pre-order BEFORE you make a purchase and will indicate an estimated shipping date on the product page.<\/p><p><strong>International:<\/strong> International orders typically take between 14 - 20 business days to arrive, as our shipping center is located in the US.<\/p>",
+            "content": "<p>Most orders are shipped and will arrive to you between 2-10 business days from your order date, pending  availability and payment verification.<strong> <\/strong>All orders are processed for shipping the business day after placement. <\/p><p><strong>Continental U.S.<\/strong> shipping options:<\/p><ul><li><em><strong>Expedited UPS 2-Day Air <\/strong><\/em>usually takes 2-4 business days to arrive to the destination<\/li><li><em><strong>Standard USPS Ground: <\/strong><\/em>3-7 business days<\/li><li><em><strong>No-Rush USPS Ground:<\/strong><\/em><em> <\/em>6-10 business days<\/li><\/ul><p><strong>Pre-Orders: <\/strong>Items that are available for pre-order will be indicated as pre-order before you make a purchase and will indicate an estimated shipping date on the product page.<\/p><p><strong>International:<\/strong> International orders typically take between 14 - 20 business days to arrive, as our shipping center is located in the Continental U.S.<\/p>",
             "page": ""
           }
         },
@@ -79,7 +70,16 @@
           "settings": {
             "heading": "Is expedited shipping available?",
             "open": false,
-            "content": "<p>Yes, Inkkas offer expedited UPS 2-Day Air options in addition to USPS ground options (no-rush and standard)!<\/p><ul><li>Wherever eligible, these options will appear at checkout. <\/li><li>Note that all orders are processed the business day after placement. <\/li><\/ul>",
+            "content": "<p>Yes, we offer expedited UPS 2-Day Air options in addition to USPS ground options (no-rush and standard).<\/p><ul><li>Wherever eligible, these options will appear at checkout. <\/li><li>Note that all orders are processed the business day after placement. <\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Where do you ship?",
+            "open": false,
+            "content": "<p>We ship worldwide!<\/p><ul><li>via USPS and UPS for domestic orders<\/li><li>via DHL Express Worldwide for non-Canada international orders <\/li><li>via USPS Priority International for Canada orders<\/li><\/ul>",
             "page": ""
           }
         },
@@ -88,7 +88,7 @@
           "settings": {
             "heading": "Do I have to add shipping to the price?",
             "open": false,
-            "content": "<ul><li>We automatically add shipping to your total cost during the checkout process, once you select the shipping method you prefer. <\/li><li>FREE shipping on domestic orders of $175+ is also automatically applied wherever eligible. <\/li><\/ul>",
+            "content": "<ul><li>We automatically add shipping to your total cost during the checkout process, once you select the shipping method you prefer. <\/li><\/ul>",
             "page": ""
           }
         },
@@ -104,7 +104,7 @@
         "aa70895f-8889-4293-8c7d-ff7bc2b81c57": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Will I receive a tracking number once I order a pair of Inkkas?",
+            "heading": "Will I receive a tracking number once I order?",
             "open": false,
             "content": "<p>Yes, you will be sent an automatic email with a tracking number once your order ships. The tracking number will enable you to track the shipment from our fulfillment center to its destination.<\/p>",
             "page": ""
@@ -113,7 +113,7 @@
         "collapsible_tab_Bp9Tpx": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "My shoes are on pre-order. How do I know when they will ship?",
+            "heading": "My shoes are on pre-order. When  will they ship?",
             "open": false,
             "content": "<ul><li>If your item is on pre-order, the product page will show the estimated shipping date at the time of your order. <\/li><li>Once your order has shipped, you will be notified via e-mail with a tracking number. <\/li><li>If you have any questions about the status of your pre-order, please contact customer service at support@inkkas.com.<\/li><li>Note that we do our best to project accurate shipping dates for pre-orders on the product page; however, these dates could change.<\/li><\/ul>",
             "page": ""
@@ -124,7 +124,7 @@
           "settings": {
             "heading": "I'm returning my order. Does Inkkas cover the cost of return shipping?",
             "open": false,
-            "content": "<p>Yes, Inkkas provides a FREE prepaid shipping label for items returned within 7 days of delivery. You may still return items for up to 30 days, less the cost of return shipping. View our full return policy <a href=\"https:\/\/inkkas.com\/pages\/return_policy\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/p>",
+            "content": "<ul><li>A purchase of Inkkas' optional <strong>Returns & Exchanges + Shipping Protection<\/strong> at checkout qualifies you for FREE return shipping.<\/li><li>For orders that did not select this option, the return shipping cost will be deducted from any refund. For additional details, view our full return policy <a href=\"\/pages\/return-policy\" title=\"Returns & Exchanges\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/li><\/ul>",
             "page": ""
           }
         },
@@ -133,25 +133,16 @@
           "settings": {
             "heading": "I have contacted Inkkas customer service, when will I hear back?",
             "open": false,
-            "content": "<p>Inkkas support agents are available between 9:00 AM to 5:00 PM EST, Monday to Friday. We are committed to responding to inquiries within 24 to 48 hours during business hours. You can reach us at <a href=\"mailto:support@inkkas.com\">support@inkkas.com<\/a>.  Please note that we do not respond to inquiries during weekends and\/or holidays. <\/p><p>For urgent matters or if you haven't received a response from our customer service team in 48- 72 hours (sometimes replies go to spam), please email us at ops@inkkas.com.<\/p>",
+            "content": "<p>Our support team is available between 9:00 AM to 5:00 PM EST, Monday to Saturday. We are committed to responding to inquiries within 24-48 hours during business hours. You can contact us <a href=\"\/pages\/contact\"><span style=\"text-decoration:underline\">here<\/span><\/a> or at <a href=\"mailto:support@inkkas.com\"><span style=\"text-decoration:underline\">support@inkkas.com<\/span><\/a>.  Please note that we do not respond to inquiries during weekends and\/or holidays. <\/p><p>For urgent matters or if you haven't received a response from our customer service team in 48-72 hours (sometimes replies go to spam), please email us at ops@inkkas.com.<\/p>",
             "page": ""
           }
         },
         "collapsible_tab_cLY4gg": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "My package got stolen or lost in the mail. What should I do?",
+            "heading": "My package was damaged, stolen or lost in the mail. What should I do?",
             "open": false,
-            "content": "<p>Oh no! If your package got lost or stolen in the mail please submit your claim here: <a href=\"https:\/\/inkkas.com\/pages\/navidium-protection-claim\" target=\"_blank\">https:\/\/inkkas.com\/pages\/navidium-protection-claim<\/a><\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_qhNRN6": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "My item arrived damaged or defective. How can I return it?",
-            "open": false,
-            "content": "<p>Oh no! We apologize for this inconvenience. If your order was purchased within 30 days, please contact us at support@inkkas.com with your order number and details about the damage or defect. <\/p>",
+            "content": "<p>Oh no! If your package got lost or stolen in the mail please submit <a href=\"https:\/\/inkkas.com\/pages\/navidium-protection-claim\" title=\"https:\/\/inkkas.com\/pages\/navidium-protection-claim\">your claim here.<\/a><\/p>",
             "page": ""
           }
         },
@@ -167,9 +158,9 @@
       },
       "block_order": [
         "collapsible_tab_mLFbJi",
-        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
         "collapsible_tab_RTgTUh",
         "collapsible_tab_wNwVAb",
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
         "collapsible_tab_bk84WM",
         "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
@@ -177,7 +168,6 @@
         "collapsible_tab_9cpyRU",
         "collapsible_tab_NjzrQR",
         "collapsible_tab_cLY4gg",
-        "collapsible_tab_qhNRN6",
         "collapsible_tab_wAkQAF"
       ],
       "settings": {

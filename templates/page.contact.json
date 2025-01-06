@@ -1,5 +1,34 @@
 {
   "sections": {
+    "image_with_text_overlay_YWaCad": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_dbKR3k": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Oh, hello!",
+            "heading_size": "h1-xlarge"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dbKR3k"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/ScreenShot2024-02-21at2.49.41PM.png",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "content_width": "large",
+        "content_position": "bottom-center",
+        "text_alignment": "left",
+        "overlay_opacity": 11,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "1661619382b4020fa2": {
       "type": "rich-text",
       "blocks": {
@@ -13,7 +42,7 @@
         "166161938159ca8988-2": {
           "type": "text",
           "settings": {
-            "text": "<p>We'd love to hear from you! Drop us a note below and we'll get back to you shortly. Also, the answer to your question may be in our <a href=\"\/pages\/faq-3\" title=\"faq-3\">FAQs page<\/a> here.<\/p>",
+            "text": "<p>We'd love to hear from you! Drop us a note below and we'll get back to you shortly. Also, the answer to your question may be in our <a href=\"\/pages\/faq-3\" title=\"faq-3\">FAQ  here<\/a>.<\/p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -45,6 +74,15 @@
         "disable_bottom_spacing": true
       }
     },
+    "spacer_k3jNMB": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
     "text_with_icons_WDTnYe": {
       "type": "text-with-icons",
       "blocks": {
@@ -61,7 +99,7 @@
           "settings": {
             "icon": "ruler",
             "heading": "SIZE GUIDES",
-            "text": "<p>available on every product page<\/p>"
+            "text": "<p>tailored for each style is available on every product page<\/p>"
           }
         },
         "icon_gAgznN": {
@@ -76,8 +114,8 @@
           "type": "icon",
           "settings": {
             "icon": "return",
-            "heading": "FREE & EASY RETURNS",
-            "text": "<p>for 7 days from delivery. No questions asked.<\/p>"
+            "heading": "EASY RETURNS & EXCHANGES",
+            "text": "<p>for 30 days from delivery. Plus, <strong>FREE <\/strong>within 7 days of delivery. <\/p>"
           }
         }
       },
@@ -87,6 +125,7 @@
         "icon_gAgznN",
         "icon_Rfnaxj"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "left",
         "icon_position": "left",
@@ -102,8 +141,10 @@
     }
   },
   "order": [
+    "image_with_text_overlay_YWaCad",
     "1661619382b4020fa2",
     "contact_form_CkMRwr",
+    "spacer_k3jNMB",
     "text_with_icons_WDTnYe"
   ]
 }

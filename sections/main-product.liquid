@@ -1,4 +1,46 @@
 {{- 'product.css' | asset_url | stylesheet_tag -}}
+{% style %}
+  /* .product-price-container .sezzle-shopify-info-button {
+    display: none;
+  } */
+.product-add-to-cart-container .single-add-to-cart-button{
+  background:{{section.settings.bg_btn_color}};
+  color:{{section.settings.text_btn_color}};
+}  
+  .product-add-to-cart-container .single-add-to-cart-button:hover:before{
+  background:{{section.settings.bg_btn_color_hover}};
+
+}  
+    .product-add-to-cart-container .single-add-to-cart-button:hover{
+
+  color:{{section.settings.text_btn_color_hover}}!important;
+} 
+
+
+
+{% assign excludedFromSales = collections['excluded-from-sales'] %}
+{% if excludedFromSales != blank %}
+  {% assign product_in_bundles = false %}
+
+  {% for bundle_product in excludedFromSales.products %}
+    {% if bundle_product.id == product.id %}
+      {% assign product_in_bundles = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if product_in_bundles %}
+   .essential_annoucement_bar_wrapper{display:none!important;}
+  {% else %}
+
+  {% endif %}
+{% endif %}
+
+
+{%  endstyle %}
+
+
+
 {%- liquid
 	assign first_3d_model = product.media | where: "media_type", "model" | first
 	assign full_width = section.settings.full_width
@@ -45,7 +87,7 @@
   <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'product-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 
-<div id="MainProduct-{{ section.id }}" class="thb-product-detail product" data-handle="{{ product.handle }}">
+<div id="MainProduct-{{ section.id }}" class="thb-product-detail product product-{{ product.id }}" data-handle="{{ product.handle }}">
   <div class="row {% if full_width %}full-width-row{% endif %}">
 		<div class="small-12 columns">
 			<div class="product-grid-container">
@@ -491,6 +533,11 @@
     assign seo_media = product.featured_media
   endif
 -%}
+
+
+
+
+
 <script type="application/ld+json">
   {
     "@context": "http://schema.org/",
@@ -536,12 +583,168 @@
   }
 </script>
 
+
+
+
+ <script type="text/javascript">
+    var _learnq = _learnq || [];
+    var item = {
+      Name: {{ product.title|json }},
+      ProductID: {{ product.id|json }},
+      Categories: {{ product.collections|map:'title'|json }},
+      ImageURL: "https:{{ product.featured_image.src|img_url:'grande' }}",
+      URL: "{{ shop.secure_url }}{{ product.url }}",
+      Brand: {{ product.vendor|json }},
+      Price: {{ product.price|money|json }},
+      CompareAtPrice: {{ product.compare_at_price_max|money|json }}
+    };
+    _learnq.push(['track', 'Viewed Product', item]);
+    _learnq.push(['trackViewedItem', {
+      Title: item.Name,
+      ItemId: item.ProductID,
+      Categories: item.Categories,
+      ImageUrl: item.ImageURL,
+      Url: item.URL,
+      Metadata: {
+        Brand: item.Brand,
+        Price: item.Price,
+        CompareAtPrice: item.CompareAtPrice
+      }
+    }]);
+  </script>
+  
+  <script type="text/javascript">
+var _learnq = _learnq || [];
+	document.getElementById("AddToCart").addEventListener('click',function (){
+console.log('track')
+ 		_learnq.push(['track', 'Added to Cart', item]);
+	});</script>
+
+
+
+<!--Preorder4 button mo to container-->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+    const observer = new MutationObserver(function(mutations) {
+
+        let isInitialized = false;
+
+        mutations.forEach(function(mutation) {
+            if (mutation.addedNodes.length && !isInitialized) { 
+
+                //your element what you want found
+                const domElement = document.querySelectorAll('preorder-me-button');
+
+            
+                if (domElement.length > 0) {
+                      const targetContainer = document.querySelector('.product-add-to-cart-container .add_to_cart_holder');
+                                      
+                      //your custom scripts
+                     
+                      targetContainer.appendChild(domElement[0]);
+                       if(domElement[0].querySelector('.preorder-me-button').style.display === 'none'){
+                        domElement[0].style.display = 'none';
+                      }
+                      
+                      //domElement[0].style.flex = 1
+                      //domElement[0].style.width = '83%';
+
+                    //END your custom scripts
+
+
+
+                    isInitialized = true; 
+                    
+                    observer.disconnect();
+                }
+            }
+        });
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+});
+
+</script>
+ 
+
+
+<script type="text/javascript"> document.sezzleConfig = {
+				"configGroups": [{
+					"targetXPath": ".product__info-container/.price--on-sale/.price__sale/.price-item--sale",
+					"renderToPath": "../../../..",
+					"urlMatch": "product",
+					"relatedElementActions": [{
+					"relatedPath": "../..",
+					"initialAction": function(r,w){
+					if(getComputedStyle(r).display === "none"){
+					w.style.display = "none"
+					}
+					if(w.nextElementSibling && w.nextElementSibling.className.indexOf("sezzle-shopify-info-button") > -1){
+					w.nextElementSibling.style.display = "none"
+					}
+					}
+					}]
+				},{
+					"targetXPath": ".product__info-container/.price__regular/.price-item--regular",
+					"renderToPath": "../../../..",
+					"urlMatch": "product",
+					"relatedElementActions": [{
+					"relatedPath": "../../../../..",
+					"initialAction": function(r,w){
+					if(r.querySelector(".price--on-sale")){
+					w.style.display = "none"
+					}
+					var allwidgets = document.getElementsByClassName("sezzle-shopify-info-button");
+					for (let i = 0; i < allwidgets.length; i++){
+					widgetIndex = allwidgets[i].className.split("sezzlewidgetindex-")[1].split(" ")[0];
+					if(!document.querySelector('[data-sezzleindex="'+widgetIndex+'"]')) {
+					allwidgets[i].style.display = "none"
+					}
+					}
+					}
+					}]
+				},{
+					"targetXPath": ".totals__subtotal-value",
+					"urlMatch": "cart",
+					"alignment": "right",
+					"alignmentSwitchMinWidth": 768,
+					"alignmentSwitchType": "center"
+				}]
+				} </script>
+<script src="https://widget.sezzle.com/v1/javascript/price-widget/initial?uuid=12a34bc5-6de7-890f-g123-4hi5678jk901"></script>
+<script src="https://widget.sezzle.com/v1/javascript/price-widget?uuid=6b1667fc-dcbe-487a-8722-6887d5ae418c"></script>
+
 {% schema %}
 {
   "name": "Product information",
   "tag": "section",
   "class": "product-section",
 	"settings": [
+      {
+					"type": "color",
+					"id": "bg_btn_color",
+					"label": "Background color add to cart",
+                    "default":"#000"
+				},
+               {
+					"type": "color",
+					"id": "text_btn_color",
+					"label": "Text color add to cart",
+                 "default":"#fff"
+				},
+          {
+					"type": "color",
+					"id": "bg_btn_color_hover",
+					"label": "Background color hover add to cart ",
+                    "default":"#000"
+				},
+               {
+					"type": "color",
+					"id": "text_btn_color_hover",
+					"label": "Text color hover add to cart ",
+                 "default":"#fff"
+				}, 
 		{
 			"type": "checkbox",
 			"id": "full_width",
@@ -1052,6 +1255,7 @@
       "name": "Product form",
       "limit": 1,
 			"settings": [
+              
 				{
 					"type": "checkbox",
 					"id": "show_quantity_selector",
@@ -1735,6 +1939,12 @@
       "type": "collapsible_tab_2",
       "name": "Collapsible tab style 2",
       "settings": [
+        {
+          "type": "checkbox",
+          "id": "open",
+          "default": false,
+          "label": "Opened"
+        },
         {
           "type": "checkbox",
           "id": "show_okendo_reviews",

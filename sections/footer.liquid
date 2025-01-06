@@ -6,6 +6,26 @@
 	assign show_payment_icons = section.settings.show_payment_icons
 %}
 
+<style>
+  .product-drawer .product-add-to-cart-container .add_to_cart_holder #AddToCart {
+    color: {{ settings.button_text_color }}!important;
+    border-color: {{ settings.button_bg_color }}!important;
+    background: {{ settings.button_bg_color }}!important;
+  }
+  .product-drawer .product-add-to-cart-container .add_to_cart_holder #AddToCart:hover:before {
+    background: {{ settings.button_hover_bg_color }}!important;
+  }
+   .product-drawer .product-add-to-cart-container .add_to_cart_holder #AddToCart:hover {
+    color: {{ settings.button_hover_text_color }}!important;
+    border-color: {{ settings.button_hover_bg_color }}!important;
+  }
+  .widget.widget--text img{
+        max-width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>
+
 <link rel="stylesheet" href="{{ 'footer.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'footer.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -35,7 +55,7 @@
 					{%- endif -%}
 					{%- if block.settings.text != blank -%}
 						<div class="rte text-size--{{ block.settings.text_size }}">
-							{{ block.settings.text }}
+							{{ block.settings.text | replace: '<a href="#aacc-link"', '<a href="" id="INDmenu-btn"' }}
 						</div>
 					{%- endif -%}
 					{%- if block.settings.button_text != blank -%}

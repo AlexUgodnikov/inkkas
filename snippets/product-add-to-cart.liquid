@@ -57,7 +57,9 @@
 			    </quantity-selector>
 				</div>
 				{%- endif -%}
-		    <button type="submit" name="add" id="AddToCart" class="single-add-to-cart-button button outline {% unless product.selected_or_first_available_variant.available %}sold-out{% endunless %}" {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}>
+		    <button type="submit" name="add" id="AddToCart" class="single-add-to-cart-button button outline {% unless product.selected_or_first_available_variant.available %}sold-out{% endunless %}" 
+              {% unless product.selected_or_first_available_variant.available %}style="display:none;"{% endunless %}
+              {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}>
 					<span class="single-add-to-cart-button--text">
 						{%- liquid
 							if product.selected_or_first_available_variant.available == false
@@ -79,6 +81,11 @@
 				{%- if show_dynamic_checkout -%}
 		      {{ form | payment_button }}
 		    {%- endif -%}
+				{% unless product.selected_or_first_available_variant.available %}
+					<a class="klaviyo-bis-trigger button outline" href="#" style="flex: 1;margin-top: 0;">
+						<span>Notify Me When Available</span>
+					</a>
+				{% endunless %}
 		  </div>
 		</div>
 		{%- endform -%}

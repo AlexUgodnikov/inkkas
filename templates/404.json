@@ -3,9 +3,19 @@
     "main": {
       "type": "main-404",
       "settings": {}
+    },
+    "spacer_eGCgwC": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "spacer_eGCgwC"
   ]
 }

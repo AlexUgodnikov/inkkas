@@ -6,7 +6,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "uppercase": true,
+            "uppercase": false,
             "show_products_rating": true
           }
         },
@@ -24,11 +24,15 @@
           "type": "product_link",
           "settings": {}
         },
+        "preorder_me_product_button_GDFezM": {
+          "type": "shopify:\/\/apps\/preorder-me\/blocks\/product-button\/d3a9a307-3c62-4d7b-8a5b-7ae9b6e399ce",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_quantity_selector": true,
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         }
       },
@@ -36,6 +40,7 @@
         "title",
         "variant_picker",
         "product_link_AWWaAk",
+        "preorder_me_product_button_GDFezM",
         "buy_buttons"
       ],
       "settings": {

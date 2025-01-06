@@ -91,86 +91,227 @@
 															assign slug = 'color'
 														endif
 													-%}
-													<ul class="{{ filter.type | escape }}-{{ slug }}">
-														{%- liquid
-														assign custom_colors = settings.color_swatches | newline_to_br | split: '<br />'
-														assign key_array = ''
-														assign val_array = ''
 
-														for color in custom_colors
-															assign key = color | split: ':' | first | rstrip
-															assign value = color | split: ':' | last | lstrip
-															assign key_array = key_array | append: ',' | append: key
-															assign val_array = val_array | append: ',' | append: value
-														endfor
+													{% if filter.label == 'Size' %}
+														{% assign new_filter_title = '' %}
+														{% assign new_filter_title_10 = '' %}
+														{% assign first_label = '' %}
+														{%- for value in filter.values -%}
+															{% assign new_title_arr = value.label | downcase | split: "/" %}
+															{% assign new_title = new_title_arr | first %}
 
-														assign key_array = key_array | remove_first: ',' | strip_newlines | downcase | split: ','
-														assign val_array = val_array | remove_first: ',' | split: ','
+															{% if new_title contains 'us men' %}
+																{% assign first_label = 'us men' %}
+															{% endif %}
+															{% if new_title contains 'us women' %}
+																{% assign first_label = 'us women' %}
+															{% endif %}
+															{% if new_title contains 'eur' %}
+																{% assign first_label = 'eur' %}
+															{% endif %}
+															{% if new_title contains 'us kids' %}
+																{% assign first_label = 'us kids' %}
+															{% endif %}
 
-														assign sorted_values = filter.values
+															{% assign new_title = new_title | replace: "men", "" %}
+															{% assign new_title = new_title | replace: "women", "" %}
+															{% assign new_title = new_title | replace: "eur ", "" %}
+															{% assign new_title = new_title | replace: "kids", "" %}
+															{% assign new_title = new_title | replace: "us", "" %}
+															{% assign new_title = new_title | plus: 0 %}
 
-														# Keep the selected values grouped together when operator is AND
-														if filter.operator == 'AND'
-															assign active_filter_values = filter.values | where: 'active', true
-															assign inactive_filter_values = filter.values | where: 'active', false
-															assign sorted_values = active_filter_values | concat: inactive_filter_values
-														endif
-														-%}
-														{%- for value in sorted_values -%}
-															<li>
-																<input type="checkbox"
-																	name="{{ value.param_name }}"
-																	value="{{ value.value }}"
-																	id="Filter-Mobile-{{ label }}-{{ forloop.index }}"
-																	{% if value.active %}checked{% endif %}
-																	{% if value.count == 0 and value.active == false %}disabled{% endif %}
-																>
-																{%- if filter.presentation == 'swatch' -%}
-																	{%- liquid
-																		assign bg_value = empty
-																		assign color_value = value.swatch.color
+															{% if new_title < 10 %}
+																{% assign new_filter_title = new_filter_title  | append: ',' | append: new_title %}
+															{% else %}
+																{% assign new_filter_title_10 = new_filter_title_10  | append: ',' | append: new_title %}
+															{% endif %}
+														{% endfor %}
 
-																		if value.swatch.image
-																			assign bg_value = value.swatch.image | image_url: width: 40
-																		endif
+														{% assign new_filter_title = new_filter_title | remove_first: ',' | split: ',' | uniq %}
+														{% assign new_filter_title_10 = new_filter_title_10 | remove_first: ',' | split: ',' | uniq %}
 
-																	-%}
-																	<label
-																		for="Filter-Mobile-{{ label }}-{{ forloop.index }}"
-																		class="facet-checkbox facet-checkbox--presentation{% if value.count == 0 and value.active == false %} facet-checkbox--disabled{% endif %}"
-																		style="--bg-color: {{ color_value }}; {%- unless bg_value == empty -%}--option-color-image: url('{{ bg_value }}'){%- endunless -%};"
-																		data-tooltip="{{ value.label | escape }} ({{ value.count }})"
+														{% assign new_filter_title = new_filter_title | sort | join: "," %}
+														{% assign new_filter_title_10 = new_filter_title_10 | sort | join: "," %}
+														{% assign new_filter_title = new_filter_title | append: ',' | append: new_filter_title_10 %}
+
+
+														{% assign new_filter_title_arr = new_filter_title | split: ','  %}
+														{% assign find_label = '' %}
+
+														<ul class="{{ filter.type | escape }}-{{ slug }}">
+															{%- liquid
+																assign custom_colors = settings.color_swatches | newline_to_br | split: '<br />'
+																assign key_array = ''
+																assign val_array = ''
+
+																for color in custom_colors
+																	assign key = color | split: ':' | first | rstrip
+																	assign value = color | split: ':' | last | lstrip
+																	assign key_array = key_array | append: ',' | append: key
+																	assign val_array = val_array | append: ',' | append: value
+																endfor
+
+																assign key_array = key_array | remove_first: ',' | strip_newlines | downcase | split: ','
+																assign val_array = val_array | remove_first: ',' | split: ','
+
+																assign sorted_values = filter.values
+
+																# Keep the selected values grouped together when operator is AND
+																if filter.operator == 'AND'
+																	assign active_filter_values = filter.values | where: 'active', true
+																	assign inactive_filter_values = filter.values | where: 'active', false
+																	assign sorted_values = active_filter_values | concat: inactive_filter_values
+																endif
+															-%}
+															{%- for val in new_filter_title_arr -%}
+																{% assign find_title = first_label | append: ' ' | append: val | handleize %}
+
+																{%- for value in filter.values -%}
+																	{% assign new_title_arr = value.label | downcase | split: "/" %}
+																	{% assign new_title = new_title_arr | first | handleize %}
+																	{% if find_title == new_title %}
+																		{% assign find_label_item = value.label | append: ',' %}
+																		{% if find_label contains find_label_item %}
+																		{% else %}
+																			<li>
+																				<input type="checkbox"
+																							 name="{{ value.param_name }}"
+																							 value="{{ value.value }}"
+																							 id="Filter-Mobile-{{ label }}-{{ forloop.index }}"
+																							 {% if value.active %}checked{% endif %}
+																					{% if value.count == 0 and value.active == false %}disabled{% endif %}
+																				>
+																				{%- if filter.presentation == 'swatch' -%}
+																					{%- liquid
+																						assign bg_value = empty
+																						assign color_value = value.swatch.color
+
+																						if value.swatch.image
+																							assign bg_value = value.swatch.image | image_url: width: 40
+																						endif
+
+																					-%}
+																					<label
+																							for="Filter-Mobile-{{ label }}-{{ forloop.index }}"
+																							class="facet-checkbox facet-checkbox--presentation{% if value.count == 0 and value.active == false %} facet-checkbox--disabled{% endif %}"
+																							style="--bg-color: {{ color_value }}; {%- unless bg_value == empty -%}--option-color-image: url('{{ bg_value }}'){%- endunless -%};"
+																							data-tooltip="{{ value.label | escape }} ({{ value.count }})"
+																					>
+																						{{ value.label | escape }} {% if show_counts -%}<sup class="count">{{ value.count }}</sup>{%- endif -%}
+																					</label>
+																				{%- else -%}
+																					{%- liquid
+																						assign color_value = value.value | downcase | escape
+
+																						for custom_color in key_array
+																							if custom_color == color_value
+																								assign color_value = val_array[forloop.index0]
+																							endif
+																						endfor
+
+																						assign bg_value = false
+																						if color_value contains '.'
+																							assign bg_value = color_value | file_url
+																							assign color_value = 'var(--bg-body)'
+																						endif
+																					-%}
+																					<label
+																							for="Filter-Mobile-{{ label }}-{{ forloop.index }}"
+																							class="facet-checkbox{% if value.count == 0 and value.active == false %} facet-checkbox--disabled{% endif %}"
+																							style="--bg-color: {{ color_value | downcase | escape }};{%- if bg_value != blank -%} --option-color-image: url('{{ bg_value | escape }}');{%- endif -%}"
+																							data-tooltip="{{ value.label | escape }} ({{ value.count }})"
+																					>
+																						{{ value.label | escape }} {% if show_counts %}<span class="count">({{ value.count }})</span>{% endif %}
+																					</label>
+																				{%- endif -%}
+																			</li>
+																		{% endif %}
+																	{% endif %}
+																{% endfor %}
+															{%- endfor -%}
+														</ul>
+													{% else %}
+														<ul class="{{ filter.type | escape }}-{{ slug }}">
+															{%- liquid
+															assign custom_colors = settings.color_swatches | newline_to_br | split: '<br />'
+															assign key_array = ''
+															assign val_array = ''
+
+															for color in custom_colors
+																assign key = color | split: ':' | first | rstrip
+																assign value = color | split: ':' | last | lstrip
+																assign key_array = key_array | append: ',' | append: key
+																assign val_array = val_array | append: ',' | append: value
+															endfor
+
+															assign key_array = key_array | remove_first: ',' | strip_newlines | downcase | split: ','
+															assign val_array = val_array | remove_first: ',' | split: ','
+
+															assign sorted_values = filter.values
+
+															# Keep the selected values grouped together when operator is AND
+															if filter.operator == 'AND'
+																assign active_filter_values = filter.values | where: 'active', true
+																assign inactive_filter_values = filter.values | where: 'active', false
+																assign sorted_values = active_filter_values | concat: inactive_filter_values
+															endif
+															-%}
+															{%- for value in sorted_values -%}
+																<li>
+																	<input type="checkbox"
+																		name="{{ value.param_name }}"
+																		value="{{ value.value }}"
+																		id="Filter-Mobile-{{ label }}-{{ forloop.index }}"
+																		{% if value.active %}checked{% endif %}
+																		{% if value.count == 0 and value.active == false %}disabled{% endif %}
 																	>
-																		{{ value.label | escape }} {% if show_counts -%}<sup class="count">{{ value.count }}</sup>{%- endif -%}
-																	</label>
-																{%- else -%}
-																	{%- liquid
-																		assign color_value = value.value | downcase | escape
+																	{%- if filter.presentation == 'swatch' -%}
+																		{%- liquid
+																			assign bg_value = empty
+																			assign color_value = value.swatch.color
 
-																		for custom_color in key_array
-																			if custom_color == color_value
-																				assign color_value = val_array[forloop.index0]
+																			if value.swatch.image
+																				assign bg_value = value.swatch.image | image_url: width: 40
 																			endif
-																		endfor
 
-																		assign bg_value = false
-																		if color_value contains '.'
-																			assign bg_value = color_value | file_url
-																			assign color_value = 'var(--bg-body)'
-																		endif
-																	-%}
-																	<label
-																		for="Filter-Mobile-{{ label }}-{{ forloop.index }}"
-																		class="facet-checkbox{% if value.count == 0 and value.active == false %} facet-checkbox--disabled{% endif %}"
-																		style="--bg-color: {{ color_value | downcase | escape }};{%- if bg_value != blank -%} --option-color-image: url('{{ bg_value | escape }}');{%- endif -%}"
-																		data-tooltip="{{ value.label | escape }} ({{ value.count }})"
-																	>
-																		{{ value.label | escape }} {% if show_counts %}<span class="count">({{ value.count }})</span>{% endif %}
-																	</label>
-																{%- endif -%}
-															</li>
-														{%- endfor -%}
-													</ul>
+																		-%}
+																		<label
+																			for="Filter-Mobile-{{ label }}-{{ forloop.index }}"
+																			class="facet-checkbox facet-checkbox--presentation{% if value.count == 0 and value.active == false %} facet-checkbox--disabled{% endif %}"
+																			style="--bg-color: {{ color_value }}; {%- unless bg_value == empty -%}--option-color-image: url('{{ bg_value }}'){%- endunless -%};"
+																			data-tooltip="{{ value.label | escape }} ({{ value.count }})"
+																		>
+																			{{ value.label | escape }} {% if show_counts -%}<sup class="count">{{ value.count }}</sup>{%- endif -%}
+																		</label>
+																	{%- else -%}
+																		{%- liquid
+																			assign color_value = value.value | downcase | escape
+
+																			for custom_color in key_array
+																				if custom_color == color_value
+																					assign color_value = val_array[forloop.index0]
+																				endif
+																			endfor
+
+																			assign bg_value = false
+																			if color_value contains '.'
+																				assign bg_value = color_value | file_url
+																				assign color_value = 'var(--bg-body)'
+																			endif
+																		-%}
+																		<label
+																			for="Filter-Mobile-{{ label }}-{{ forloop.index }}"
+																			class="facet-checkbox{% if value.count == 0 and value.active == false %} facet-checkbox--disabled{% endif %}"
+																			style="--bg-color: {{ color_value | downcase | escape }};{%- if bg_value != blank -%} --option-color-image: url('{{ bg_value | escape }}');{%- endif -%}"
+																			data-tooltip="{{ value.label | escape }} ({{ value.count }})"
+																		>
+																			{{ value.label | escape }} {% if show_counts %}<span class="count">({{ value.count }})</span>{% endif %}
+																		</label>
+																	{%- endif -%}
+																</li>
+															{%- endfor -%}
+														</ul>
+													{% endif %}
 												</scroll-shadow>
 											{%- endif -%}
 										</div>

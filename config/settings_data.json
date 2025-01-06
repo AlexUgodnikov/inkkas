@@ -4,32 +4,41 @@
     "heading_font_scale": 110,
     "body_font": "news_gothic_no_2_n4",
     "navigation_uppercase": false,
-    "product_title_uppercase": true,
+    "product_title_uppercase": false,
     "button_uppercase": true,
-    "color_body": "#4e423e",
+    "color_body_bg": "#ffffff",
+    "color_body": "#151515",
     "color_accent": "#151515",
-    "color_border": "#e9e3e0",
-    "color_header_bg": "#384135",
-    "color_header_text": "#ffffff",
-    "color_header_links": "#ffffff",
-    "color_header_links_hover": "#ffffff",
-    "color_header_icons": "#ffffff",
+    "color_border": "#dedede",
+    "color_announcement_bar_text": "#ffffff",
+    "color_announcement_bar_bg": "#4e584a",
+    "color_header_bg": "#ffffff",
+    "color_header_text": "#151515",
+    "color_header_links": "#151515",
+    "color_header_links_hover": "#151515",
+    "color_header_icons": "#151515",
     "color_header_border": "#4e584a",
-    "solid_button_background": "#c95137",
+    "solid_button_background": "#151515",
     "solid_button_label": "#ffffff",
     "outline_button_label": "#151515",
     "color_price": "#35302e",
+    "color_stars": "#151515",
     "color_dots": "#151515",
-    "color_footer_border": "#59504c",
-    "color_footer_bg": "#3b3330",
+    "color_footer_text": "#FFFFFF",
+    "color_footer_link": "#FFFFFF",
+    "color_footer_link_hover": "#FFFFFF",
+    "color_footer_border": "#151515",
+    "color_footer_bg": "#4e584a",
     "section_spacing_mobile": 30,
     "section_spacing_desktop": 90,
-    "button_border_radius": 3,
+    "animations": false,
+    "button_border_radius": 2,
     "social_facebook_link": "https:\/\/www.facebook.com\/Inkkas\/",
-    "social_instagram_link": "@inkkasworldwear",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/InkkasWorldwear\/_shop\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/inkkasworldwear\/?hl=en",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/InkkasWorldwear\/",
     "social_tiktok_link": "https:\/\/www.tiktok.com\/@inkkasworldwear",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCjnDPl8tuQbOysrjYghH7hA",
+    "social_youtube_link": "",
+    "social_share_twitter": false,
     "product_aspect_ratio": "square",
     "products_hover_images_count": 1,
     "products_hover_dots": true,
@@ -37,22 +46,34 @@
     "enable_quick_view": true,
     "show_products_vendor": false,
     "show_products_swatches": true,
-    "show_products_rating": true,
+    "show_products_rating": false,
     "show_size_options": false,
+    "sale_badge_type": "sale",
+    "badge_position": "top right",
     "color_badge_text": "#ffffff",
     "best_sellers_badge": "Bestseller",
     "best_sellers_badge_color": "#ffffff",
     "best_sellers_badge_color_text": "#FB9E5B",
-    "sale_badge_color": "#c95137",
+    "sale_badge_color": "#d73917",
     "sale_badge_color_text": "#ffffff",
     "new_arrivals_badge": "New",
     "new_arrivals_badge_color": "#4e584a",
     "new_arrivals_badge_color_text": "#ffffff",
+    "final_sale_badge_color": "#c95137",
+    "final_sale_badge_color_text": "#FFFFFF",
     "color_badge_preorder": "#FD9A52",
     "sibling_style": "swatch",
+    "cart_terms_conditions_enable": false,
+    "cart_drawer_empty_button_url": "shopify:\/\/collections\/best-sellers",
+    "cart_drawer": false,
     "cart_drawer_notes": false,
     "free_shipping": true,
     "free_shipping_minimum": "175.00",
+    "search_product_collection": "winter-edit",
+    "lazy_loading": false,
+    "button_bg_color": "#151515",
+    "button_hover_bg_color": "#000000",
+    "favicon": "shopify:\/\/shop_images\/FAVICON-INKKASlogo-word.jpg",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -196,9 +217,49 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": [],
+    "blocks": {
+      "10641372206048101839": {
+        "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-global-embed\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+        "disabled": true,
+        "settings": {}
+      },
+      "6174324309569838175": {
+        "type": "shopify:\/\/apps\/smile-io\/blocks\/smile-shopify-app\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+        "disabled": false,
+        "settings": {}
+      },
+      "10864971697205422121": {
+        "type": "shopify:\/\/apps\/gorgias-live-chat-helpdesk\/blocks\/gorgias\/a66db725-7b96-4e3f-916e-6c8e6f87aaaa",
+        "disabled": false,
+        "settings": {}
+      },
+      "12657775114333427046": {
+        "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+        "disabled": false,
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "17676059084223943535": {
+        "type": "shopify:\/\/apps\/triplewhale\/blocks\/triple_pixel_snippet\/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
+        "disabled": false,
+        "settings": {}
+      },
+      "1232542678405107163": {
+        "type": "shopify:\/\/apps\/instafeed\/blocks\/head-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+        "disabled": false,
+        "settings": {}
+      },
+      "5460033060862993441": {
+        "type": "shopify:\/\/apps\/essential-announcer\/blocks\/app-embed\/93b5429f-c8d6-4c33-ae14-250fd84f361b",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Default": {
@@ -354,9 +415,7 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Reinvent": {
       "heading_font": "hope_sans_n6",
@@ -529,9 +588,7 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Sunshine": {
       "heading_font": "neue_swift_n6",
@@ -685,9 +742,7 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Mono": {
       "heading_font": "basic_commercial_n7",
@@ -896,9 +951,7 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Glamour": {
       "heading_font": "chong_modern_n4",
@@ -1073,9 +1126,7 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     }
   }
 }

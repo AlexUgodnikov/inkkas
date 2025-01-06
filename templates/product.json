@@ -1,9 +1,36 @@
 {
   "sections": {
+    "countdown_banner_Nkdg4Y": {
+      "type": "countdown-banner",
+      "disabled": true,
+      "settings": {
+        "section_width": "full-width-row-full",
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "subheading": "The sun sets on this deal TODAY",
+        "heading": "25% OFF SITEWIDE",
+        "heading_size": "h2",
+        "content": "Use code: JULY4",
+        "content_size": "small",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/best-sellers",
+        "timer_year": 2024,
+        "timer_month": "07",
+        "timer_day": "07",
+        "timer_hour": "22",
+        "timer_minute": "59",
+        "color_bg": "#e9e3e0",
+        "color_text": "#3758c9",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "breadcrumbs": {
       "type": "breadcrumbs",
-      "settings": {
-      }
+      "settings": {}
     },
     "main-product": {
       "type": "main-product",
@@ -11,7 +38,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "uppercase": true,
+            "uppercase": false,
             "show_products_rating": true
           }
         },
@@ -26,6 +53,12 @@
             "inventory_notice_base": 20
           }
         },
+        "custom_liquid_LyBCHn": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -35,67 +68,53 @@
             "color_picker_use_variants": false,
             "variant_is_disabled": true,
             "sizing_guide_variant": "",
-            "sizing_guide_text": "Size Guide",
+            "sizing_guide_text": "SIZE GUIDE",
             "sizing_guide_icon": "ruler",
             "sizing_guide_page": ""
           }
         },
         "preorder_me_product_button_t8zPaL": {
           "type": "shopify:\/\/apps\/preorder-me\/blocks\/product-button\/d3a9a307-3c62-4d7b-8a5b-7ae9b6e399ce",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_quantity_selector": true,
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
           }
         },
-        "collapsible_tab_PqJnhK": {
-          "type": "collapsible_tab",
-          "disabled": true,
+        "essential_countdown_app_block_fzdFNN": {
+          "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
-            "heading": "Size & Fit",
-            "open": false,
-            "content": "<p>These shoes fit true to size. Questions about fit? View our <a href=\"\/pages\/western-size-chart\" target=\"_blank\" title=\"Size Guide - Western\">size guide here<\/a> or email support@inkkas.com. <\/p>",
-            "page": "",
-            "custom_liquid": ""
+            "id": "clrtddqb71480131mqyb88zx1mk"
           }
         },
-        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
-          "type": "side_panel",
+        "essential_announcer_app_block_CEF9Vm": {
+          "type": "shopify:\/\/apps\/essential-announcement\/blocks\/app-block\/93b5429f-c8d6-4c33-ae14-250fd84f361b",
           "disabled": true,
           "settings": {
-            "side_panel_1_label": "",
-            "side_panel_1_icon": "none",
-            "side_panel_1_content": "",
-            "side_panel_1_page": "",
-            "side_panel_2_label": "",
-            "side_panel_2_icon": "ruler",
-            "side_panel_2_content": "",
-            "side_panel_2_page": "",
-            "side_panel_3_label": "Care Guide",
-            "side_panel_3_icon": "washing",
-            "side_panel_3_content": "",
-            "side_panel_3_page": "instructions"
+            "id": "9e62d6da-880b-4751-a1ff-390665ae0a3b"
           }
         },
-        "collapsible_tab_iM6t78": {
-          "type": "collapsible_tab",
+        "custom_liquid_JfYWyP": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.handle != 'nikwax-fabric-leather-proof-spray' %}\n<div class=\"essential-announcement-block\" id=\"9e62d6da-880b-4751-a1ff-390665ae0a3b\"><\/div>{% endif %}"
+          }
+        },
+        "custom_liquid_Ydcihg": {
+          "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "heading": "Care Guide",
-            "open": false,
-            "content": "",
-            "page": "instructions",
-            "custom_liquid": ""
+            "custom_liquid": "<style>\nform[action=\"\/cart\/add\"]{\ndisplay:flex;\n}\nform[action=\"\/cart\/add\"] .product-add-to-cart-container{\nwidth:100%;\n}\nform[action=\"\/cart\/add\"] preorder-me-button .preorder-me-button{\nwidth:1000%;\n}\n<\/style>"
           }
         },
         "collapsible_tab_2_hxiDMm": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": true,
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
@@ -109,6 +128,7 @@
         "collapsible_tab_2_UkAjaq": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
@@ -122,19 +142,21 @@
         "collapsible_tab_2_J3DBXz": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
             "heading": "Shipping & Returns",
             "show_description": false,
             "description_type": "full_description",
-            "content": "<p><strong>Free Shipping: <\/strong>FREE USPS ground shipping on orders of $175 or more is automatically applied at checkout!<\/p><p><strong>Easy Returns<\/strong>: We provide FREE shipping for items returned within 7 days of delivery. You can still easily return items for up to 30 days, less the cost of return shipping. View our full return policy <a href=\"\/pages\/return_policy\" title=\"Returns and Exchanges\">here<\/a>.<\/p><p><strong>Pre-Orders<\/strong>: Because we make collections in small batches, we also make certain products available for pre-order. We do our best to project accurate shipping dates for pre-orders on the product page; however, please note that these dates could change.<\/p>",
+            "content": "<p><strong>Free Shipping: <\/strong>FREE ground shipping on orders of $175 or more is automatically applied at checkout!<\/p><p><strong>Easy Returns\/Exchanges<\/strong>: You can easily return\/exchange eligible items for up to 30 days. We also provide a free exchange for every pair. View our full return policy <a href=\"\/pages\/return-policy\" title=\"Returns & Exchanges\">here<\/a>.<\/p><p><strong>Pre-Orders<\/strong>: Because we make collections in small batches, we also make certain products available for pre-order. We do our best to project accurate shipping dates for pre-orders on the product page; however, please note that these dates could change.<\/p>",
             "page": ""
           }
         },
         "collapsible_tab_2_6kFqVT": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "size-guide-trekks",
@@ -148,6 +170,7 @@
         "collapsible_tab_2_ALh97A": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "boots-size-chart",
@@ -161,6 +184,7 @@
         "collapsible_tab_2_mG4tgE": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "bootie-size-chart",
@@ -174,6 +198,7 @@
         "collapsible_tab_2_mDnryw": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "western-size-chart",
@@ -187,6 +212,7 @@
         "collapsible_tab_2_CwBR3G": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "high-top-size-chart",
@@ -200,6 +226,7 @@
         "collapsible_tab_2_PFyByf": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "low-top-size-chart",
@@ -213,6 +240,7 @@
         "collapsible_tab_2_efAGwX": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "bags",
@@ -226,6 +254,7 @@
         "collapsible_tab_2_NGVjqH": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "runner-size-chart",
@@ -239,6 +268,7 @@
         "collapsible_tab_2_3iXC6k": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "kids-size-chart",
@@ -252,6 +282,7 @@
         "collapsible_tab_2_cLYJEf": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "slip-on-size-chart",
@@ -265,6 +296,7 @@
         "collapsible_tab_2_8enptb": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "slide-size-chart",
@@ -278,6 +310,7 @@
         "collapsible_tab_2_9zwncR": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "jogger-size-chart",
@@ -291,6 +324,7 @@
         "collapsible_tab_2_nA4Rag": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "size-guide-buckle-sandals",
@@ -304,6 +338,7 @@
         "collapsible_tab_2_EG6eBL": {
           "type": "collapsible_tab_2",
           "settings": {
+            "open": true,
             "show_okendo_reviews": true,
             "show_only_with_tag": false,
             "product_tag": "",
@@ -316,19 +351,26 @@
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
+          "settings": {}
+        },
+        "custom_liquid_Y3EYmc": {
+          "type": "custom_liquid",
           "settings": {
+            "custom_liquid": "<style>\n.product-6767518154849 .shipping__returns,\n.product-10422074057 .shipping__returns{\ndisplay:none;\n}\n<\/style>"
           }
         }
       },
       "block_order": [
         "title",
         "inventory_level_BhJagd",
+        "custom_liquid_LyBCHn",
         "variant_picker",
         "preorder_me_product_button_t8zPaL",
         "buy_buttons",
-        "collapsible_tab_PqJnhK",
-        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
-        "collapsible_tab_iM6t78",
+        "essential_countdown_app_block_fzdFNN",
+        "essential_announcer_app_block_CEF9Vm",
+        "custom_liquid_JfYWyP",
+        "custom_liquid_Ydcihg",
         "collapsible_tab_2_hxiDMm",
         "collapsible_tab_2_UkAjaq",
         "collapsible_tab_2_J3DBXz",
@@ -346,9 +388,15 @@
         "collapsible_tab_2_9zwncR",
         "collapsible_tab_2_nA4Rag",
         "collapsible_tab_2_EG6eBL",
-        "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
+        "custom_liquid_Y3EYmc"
       ],
+      "custom_css": [],
       "settings": {
+        "bg_btn_color": "#151515",
+        "text_btn_color": "#ffffff",
+        "bg_btn_color_hover": "#000000",
+        "text_btn_color_hover": "#ffffff",
         "full_width": true,
         "enable_sticky_info": true,
         "enable_sticky_add_to_cart": true,
@@ -362,18 +410,58 @@
         "enable_video_looping": false
       }
     },
-    "product_review_bTk7Cp": {
-      "type": "product-review",
-      "disabled": true,
+    "text_with_icons_MRQx4U": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_8gn4BM": {
+          "type": "icon",
+          "settings": {
+            "icon": "shoe",
+            "heading": "SATISFACTION GUARANTEE",
+            "text": "<p><a href=\"\/pages\/return-policy\" title=\"Returns & Exchanges\">We provide FREE exchanges and easy returns for 30 days.<\/a><\/p>"
+          }
+        },
+        "icon_ctNqqJ": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "heading": "GET REWARDED",
+            "text": "<p><a href=\"\/pages\/rewards\" target=\"_blank\" title=\"REWARDS\">Earn points & exclusive rewards every time you shop. <\/a><\/p>"
+          }
+        },
+        "icon_8fyykF": {
+          "type": "icon",
+          "settings": {
+            "icon": "plant",
+            "heading": "ONE SHOE ONE TREE",
+            "text": "<p><a href=\"\/pages\/aboutstory\" target=\"_blank\" title=\"About Current\">Every pair you purchase plants a tree with Trees.org!<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_8gn4BM",
+        "icon_ctNqqJ",
+        "icon_8fyykF"
+      ],
       "settings": {
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "xlarge",
+        "heading_size": "medium",
+        "mobile_swipe": false,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#151515",
+        "color_text": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "YOU MAY ALSO LIKE",
+        "heading": "You May Also Like",
         "heading_left": true,
-        "description": "<p>Combine your style with these products<\/p>",
+        "description": "",
         "full_width": true,
         "mobile_swipe": true,
         "disable_top_spacing": false,
@@ -383,206 +471,100 @@
     "recently_viewed_products_HPzhR7": {
       "type": "recently-viewed-products",
       "settings": {
-        "heading": "RECENTLY VIEWED",
+        "heading": "Recently Viewed",
         "heading_left": true,
         "description": "",
         "full_width": true,
         "mobile_swipe": true,
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
-      }
-    },
-    "text_with_icons_MRQx4U": {
-      "type": "text-with-icons",
-      "blocks": {
-        "icon_ctNqqJ": {
-          "type": "icon",
-          "settings": {
-            "icon": "star",
-            "heading": "GET REWARDED",
-            "text": "<p><a href=\"\/pages\/rewards\" target=\"_blank\" title=\"REWARDS\">Earn points & exclusive rewards<\/a> every time you shop. <\/p>"
-          }
-        },
-        "icon_8fyykF": {
-          "type": "icon",
-          "settings": {
-            "icon": "plant",
-            "heading": "ONE SHOE ONE TREE",
-            "text": "<p>We plant 1 tree for every purchase with Trees.org.<\/p>"
-          }
-        },
-        "icon_8gn4BM": {
-          "type": "icon",
-          "settings": {
-            "icon": "shoe",
-            "heading": "STAY SMALL",
-            "text": "<p>To minimize our carbon footprint and reduce waste, we make collections in small batches & offer pre-order for upcoming productions.  <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "icon_ctNqqJ",
-        "icon_8fyykF",
-        "icon_8gn4BM"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "icon_position": "left",
-        "icon_size": "large",
-        "heading_size": "medium",
-        "mobile_swipe": false,
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#151515",
-        "color_text": "#151515",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "16623877721f33fb14": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 35,
-        "spacer_desktop": 90,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "166366868377cd57e4": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "b9349bb5-2620-4155-ac69-dea56c8ebbe1": {
-          "type": "subheading",
-          "settings": {
-            "text": "FUN SHOES THAT"
-          }
-        },
-        "16636686835e8f94d4-1": {
-          "type": "heading",
-          "settings": {
-            "text": "CONNECT THE WORLD",
-            "heading_size": "h1"
-          }
-        },
-        "83c3ef40-7ca5-4f79-8e21-16fcbebbc991": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Inkkas creates colorful, unique & joyful designs celebrating beauty around the globe. We hope you enjoy because these designs have literally travelled the world to get to you!<\/p>",
-            "description_size": "medium"
-          }
-        },
-        "c6ec8484-f95c-4682-a344-ab918c10cab4": {
-          "type": "space",
-          "settings": {
-            "height": 17
-          }
-        },
-        "16636686835e8f94d4-3": {
-          "type": "button",
-          "settings": {
-            "button_text": "Shop All Collections",
-            "button_link": "shopify:\/\/collections",
-            "button_outline": false
-          }
-        }
-      },
-      "block_order": [
-        "b9349bb5-2620-4155-ac69-dea56c8ebbe1",
-        "16636686835e8f94d4-1",
-        "83c3ef40-7ca5-4f79-8e21-16fcbebbc991",
-        "c6ec8484-f95c-4682-a344-ab918c10cab4",
-        "16636686835e8f94d4-3"
-      ],
-      "settings": {
-        "section_width": "full-width-row",
-        "image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/worldwide-inkkas.jpg",
-        "image_parallax": true,
-        "desktop_height": "desktop-height-450",
-        "mobile_height": "mobile-height-400",
-        "content_width": "medium",
-        "content_position": "middle-center",
-        "text_alignment": "center",
-        "overlay_opacity": 50,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
       }
     },
     "1662552569cce2536d": {
       "type": "spacer",
       "settings": {
-        "spacer_mobile": 0,
+        "spacer_mobile": 25,
         "spacer_desktop": 5,
-        "border_separator": true,
+        "border_separator": false,
         "border_separator_full": true
       }
     },
-    "image_with_text_Vp4qKf": {
-      "type": "image-with-text",
+    "gallery_zNTQNR": {
+      "type": "gallery",
       "blocks": {
-        "subheading_mbFQKH": {
-          "type": "subheading",
-          "settings": {
-            "text": "Planting joy"
-          }
-        },
-        "heading_bmy8Bk": {
-          "type": "heading",
-          "settings": {
-            "text": "ONE SHOE ONE TREE PROJECT",
-            "heading_size": "h3"
-          }
-        },
-        "text_bM787p": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We plant 1 tree for every Inkkas purchase. Over the years, that has amounted to more than 380,000 trees. All thanks to you.<\/p>",
-            "description_size": "medium"
-          }
-        },
-        "image_V6kUmt": {
+        "image_VFNtiP": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Planting-trees.jpg",
-            "retina": true
+            "image": "shopify:\/\/shop_images\/Tree-Square-02_0942744d-f211-46fa-9b7e-4ed5c53324c5.jpg",
+            "subheading": "445,000 trees & counting",
+            "title": "Planting towards carbon-neutral",
+            "text": "We plant one tree for every purchase",
+            "link_label": "Learn More",
+            "link": "shopify:\/\/pages\/about",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/pages\/about",
+            "product_list": []
+          }
+        },
+        "image_NPXA9L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Andes-Wide.jpg",
+            "subheading": "",
+            "title": "Artful Shoes For Happy Feet ♥️",
+            "text": "We make bold, inspired, ultra-plush designs to bring you all-day joy & comfort",
+            "link_label": "About Inkkas",
+            "link": "shopify:\/\/pages\/about",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/pages\/about",
+            "product_list": []
+          }
+        },
+        "image_BfVCnw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CALADIUM-JOGGER-SS200412-STUDIO-1.2.jpg",
+            "subheading": "Inkkas journal",
+            "title": "Good for the Sole",
+            "text": "See inspirations behind our original, one-of-a-kind designs, explore lookbooks, and more",
+            "link_label": "Check it out!",
+            "link": "shopify:\/\/blogs\/blog",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/blogs\/blog",
+            "product_list": []
           }
         }
       },
       "block_order": [
-        "subheading_mbFQKH",
-        "heading_bmy8Bk",
-        "text_bM787p",
-        "image_V6kUmt"
+        "image_VFNtiP",
+        "image_NPXA9L",
+        "image_BfVCnw"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Tree-Square-02_0942744d-f211-46fa-9b7e-4ed5c53324c5.jpg",
-        "use_video": false,
-        "video": "",
-        "video_autoplay": false,
-        "video_controls": false,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "section_width": "grid",
-        "layout": "text_first",
-        "content_position": "text-center",
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "color_border": "#e2e2e2",
+        "slider": false,
+        "columns_desktop": 3,
+        "section_width": "full-width-row",
+        "mobile_swipe": true,
+        "image_ratio": "portrait",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     }
   },
   "order": [
+    "countdown_banner_Nkdg4Y",
     "breadcrumbs",
     "main-product",
-    "product_review_bTk7Cp",
+    "text_with_icons_MRQx4U",
     "product-recommendations",
     "recently_viewed_products_HPzhR7",
-    "text_with_icons_MRQx4U",
-    "16623877721f33fb14",
-    "166366868377cd57e4",
     "1662552569cce2536d",
-    "image_with_text_Vp4qKf"
+    "gallery_zNTQNR"
   ]
 }
