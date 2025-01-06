@@ -884,10 +884,10 @@ body .back-to-top {
 .featured-product #product-form-installment {
   display: none!important;
 }
-
+/*
 .template-product #ps__widget_container {
   display:none!important;
-}
+}*/
 #ps__widget_container iframe{
   bottom: 80px!important;
   
@@ -920,4 +920,122 @@ preorder-me-button{
   margin:0!important;
 }
 
+/**********************************************/
+/**********product-add-to-cart-sticky**********/
+/**********************************************/
+.product-add-to-cart-sticky{
+  display:none!important;
+  transform:none!important;
+}
+.product-add-to-cart-sticky.sticky--visible{
+  display:block!important;
+  transform: none!important;
+}
+.product-add-to-cart-sticky .product-add-to-cart-sticky--inner,
+.product-add-to-cart-sticky .product-add-to-cart-sticky--inner:focus,
+.product-add-to-cart-sticky .product-add-to-cart-sticky--inner:active{
+    background: #151515;
+    color: #ffffff;
+    padding: 7px 30px;
+    height:65px;
+}
+.product-add-to-cart-sticky--inner.active .single-add-to-cart-button--text{
+  display:none;
+}
+.product-add-to-cart-sticky .product-add-to-cart-sticky--inner.active:before{
+  display:none;
+}
+.product-add-to-cart-sticky .product-add-to-cart-sticky--inner.active,
+.product-add-to-cart-sticky .product-add-to-cart-sticky--inner.active:hover,
+.product-add-to-cart-sticky .product-add-to-cart-sticky--inner.active:focus{
+background-color: #fff;
+    border: none;
+    justify-content: flex-end;
+    padding: 0;
+    height: auto;
+    min-height: 24px;
+}
+.product-add-to-cart-sticky .product-add-to-cart-sticky--inner.active:after{
+  content:'';
+  width:24px;
+  height:24px;
+  background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M18 18L6 6" stroke="%23191818" stroke-width="1.5" stroke-linecap="square"/></svg>');
+  background-repeat:no-repeat;
+}
+.product-add-to-cart-sticky--content{
+  padding-top:0!important;
+}
+.product-add-to-cart-sticky--content .tab_variants .danns{
+  font-size:16px;
+}
+.product-add-to-cart-sticky--content.active .product-form{
+  margin-top:0;
+}
+.product-add-to-cart-sticky--content .product-form__input_dann{
+  margin:10px 0;
+}
+.sticky-select-label{
+  color: #151515;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom:12px;
+}
+.product-add-to-cart-sticky--content .tab_variants .danns:first-child{
+  padding-left:0;
+}
+.product-information .product-add-to-cart-sticky{
+   max-width: 570px;
+}
+.product-add-to-cart-sticky--content .single-add-to-cart-button.preorpder:before,
+.product-add-to-cart-sticky--content .single-add-to-cart-button.preorpder{
+    background: #f9822c !important;
+      border: none;
+}
+.product-add-to-cart-sticky--content .single-add-to-cart-button.preorpder:after {
+  
+   content:'Pre-order';
+        color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.product-add-to-cart-sticky--content .single-add-to-cart-button.preorpder .single-add-to-cart-button--text{
+  display:none;
+}
+@media(max-width:500px){
+  .product-add-to-cart-sticky{
+   
+    padding:0!important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    background-color:rgba(0,0,0,.5);
+    max-width: 100% !important;
+    z-index:3;
+  }
+  .product-add-to-cart-sticky.active:before{
+    position:fixed;
+    content:'';
+    left:0;
+    bottom:0;
+    width:100%;
+    height:1000%;
+    background-color:rgba(0,0,0,.5);
+    z-index:1;
+  }
+  .product-add-to-cart-sticky .product-add-to-cart-sticky-wrp{
+    position:relative;
+    padding:15px 15px;
+    background-color:#fff;
+    z-index:5;
+    
+  }
+}
 
+#gorgias-chat-container #chat-button{
+  z-index:10;
+}
+/**********************************************/
+/**********END product-add-to-cart-sticky**********/
+/**********************************************/
