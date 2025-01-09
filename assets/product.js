@@ -1,3 +1,4 @@
+
 if (!customElements.get('variant-selects')) {
 
   /**
@@ -853,6 +854,7 @@ if (!customElements.get('product-add-to-cart-sticky')) {
     connectedCallback() {
       this.setupObservers();
       this.setupToggle();
+    
     }
     setupToggle() {
       const button = this.querySelector('.product-add-to-cart-sticky--inner'),
@@ -886,7 +888,9 @@ if (!customElements.get('product-add-to-cart-sticky')) {
           return false;
         });
       } else {
-        button.addEventListener('click', function () {
+        button.addEventListener('click', (e) => {
+          this.classList.toggle('active')
+          e.currentTarget.classList.toggle('active')
           content.classList.toggle('active');
           return false;
         });
@@ -894,6 +898,9 @@ if (!customElements.get('product-add-to-cart-sticky')) {
 
 
     }
+
+ 
+    
     setupObservers() {
       let _this = this,
         observer = new IntersectionObserver(function (entries) {
@@ -970,4 +977,3 @@ if (typeof addIdToRecentlyViewed !== "undefined") {
 }
 
 
-console.log('7777>>>')
