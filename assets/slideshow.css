@@ -9,7 +9,7 @@
 .main-slideshow .flickity-viewport:before{
   display: block;
   content: "";
-  padding-bottom: calc(100% /(1.5));
+  padding-bottom: calc(100% /(1));
 }
 .section-slideshow .row.full-width-row {
   padding: 0; }
