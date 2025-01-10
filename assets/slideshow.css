@@ -1,12 +1,12 @@
 
-/*
+
 .main-slideshow .flickity-viewport{
   height:auto!important;
 }
 .main-slideshow .flickity-slider{
   top:0;
 }
-.main-slideshow .flickity-viewport:before{
+/*.main-slideshow .flickity-viewport:before{
   display: block;
   content: "";
   padding-bottom: calc(100% /(1));
@@ -200,8 +200,8 @@
   @media only screen and (min-width: 768px) {
     .slideshow.desktop-height-auto .slideshow__slide-inner {
       position: static;
-      /*height:100%;*/
-      height: max-content; } }
+      height:100%;
+      /*height: max-content;*/ } }
   @media only screen and (max-width: 767px) {
     .slideshow.mobile-height-auto .slideshow__slide {
       height: auto; } }
