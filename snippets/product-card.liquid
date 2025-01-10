@@ -125,13 +125,13 @@
 			</button>
 		</a>
 	</figure>
-	<div class="product-card-info">
+	<div class="product-card-info">----
 		<div class="product-card-vendor"><a href="#" title="{{ 'onboarding.product_vendor' | t }}">{{ 'onboarding.product_vendor' | t }}</a></div>
 		<a href="#" title="{{ product_card_product.title | escape }}" class="product-card-title">{{ 'onboarding.product_title' | t }}</a>
 		{% render 'product-price', product: product_card_product %}
 		{%- if settings.show_products_rating and product_card_product.metafields.reviews.rating.value != blank -%}
 		<div class="star-rating" style="--star-rating: 5;"></div>
-		{%- endif -%}--
+		{%- endif -%}
 		{%- if settings.enable_quick_add -%}
 		<div class="product-card--add-to-cart-button-container">
 			<quick-view class="product-card--add-to-cart-button button outline" data-product-handle="" tabindex="-1" disabled>
