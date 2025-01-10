@@ -53,12 +53,7 @@
 				</div>
 			{%- endif -%}
     </a>
-			{%- if settings.enable_quick_view -%}
-			<quick-view class="product-card-quickview product-card-quickview--{%- unless show_size_options -%}button{%- else -%}icon{%- endunless -%}" href="#Product-Drawer" data-product-handle="{{ product_card_product.handle }}" tabindex="-1">
-				<div class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</div>
-				<span>{%- unless show_size_options -%}{{ 'products.product.quick_view' | t }}{%- else -%}{% render 'svg-icons' with 'thb-quick-view' %}{%- endunless -%}</span>
-			</quick-view>
-			{%- endif -%}
+			
 			{%- if show_size_options -%}
 				{%- render 'product-card-size-options', product_card_product: product_card_product -%}
 			{%- endif -%}
@@ -76,8 +71,21 @@
 		{%- if settings.show_products_vendor -%}
 		<div class="product-card-vendor"><a href="{{ product_card_product.vendor | url_for_vendor }}" title="{{ product_card_product.vendor | escape }}">{{ product_card_product.vendor }}</a></div>
 		{%- endif -%}
-  	<a href="{{ product_card_product.url | within: collection }}" title="{{ product_card_product.title | escape }}" class="product-card-title">{{ product_card_product.title }}</a>
-    {% render 'product-price', product: product_card_product %}
+		<div class="title-quick-view-wrp">
+			<a href="{{ product_card_product.url | within: collection }}" title="{{ product_card_product.title | escape }}" class="product-card-title">{{ product_card_product.title }}</a>
+	
+			{%- if settings.enable_quick_view -%}
+				<quick-view class="quick-view-title" href="#Product-Drawer" data-product-handle="{{ product_card_product.handle }}" tabindex="-1">
+					<div class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</div>
+					<span>{%- unless show_size_options -%}
+						<svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20" fill="none">
+							<path d="M0.947388 4.58011L3.67869 1.09945V1H14.4156L17.0527 4.58011M0.947388 4.58011V17.2099C0.947388 18.2044 1.79504 19 2.73686 19H15.2632C16.205 19 17.0527 18.2044 17.0527 17.2099V4.58011M0.947388 4.58011H17.0527M12.6261 8.16022C12.6261 10.1492 11.0249 11.7403 9.04711 11.7403C7.06927 11.7403 5.37398 10.1492 5.37398 8.16022" stroke="#151515" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+					{%- else -%}{% render 'svg-icons' with 'thb-quick-view' %}{%- endunless -%}</span>
+				</quick-view>
+			{%- endif -%}
+		</div>
+	{% render 'product-price', product: product_card_product %}
 		{% render 'product-card-swatch', product: product_card_product, sizes: sizes %}
 		{%- if settings.show_products_rating and product_card_product.metafields.reviews.rating.value != blank -%}
 		<div class="star-rating" style="--star-rating: {{ product_card_product.metafields.reviews.rating.value.rating }};"></div>
