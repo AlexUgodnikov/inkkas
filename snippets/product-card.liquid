@@ -75,7 +75,7 @@
   	<a href="{{ product_card_product.url | within: collection }}" title="{{ product_card_product.title | escape }}" class="product-card-title">{{ product_card_product.title }}</a>
    
 	  {%- if settings.enable_quick_view -%}
-	  <quick-view class="product-card-quickview product-card-quickview--{%- unless show_size_options -%}button{%- else -%}icon{%- endunless -%}" href="#Product-Drawer" data-product-handle="{{ product_card_product.handle }}" tabindex="-1">
+	  <quick-view class="" href="#Product-Drawer" data-product-handle="{{ product_card_product.handle }}" tabindex="-1">
 		  <div class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</div>
 		  <span>{%- unless show_size_options -%}
 			<svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20" fill="none">
