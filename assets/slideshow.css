@@ -23,7 +23,7 @@
   .slideshow__slide {
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 100%!important;
     flex-shrink: 0;
     background: var(--color-body);
     color: #fff;
