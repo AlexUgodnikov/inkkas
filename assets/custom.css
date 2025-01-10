@@ -1056,6 +1056,7 @@ background-color: #fff;
 }
 .quick-view-title{
     cursor: pointer;
+    padding-right: 3px;
 }
 .quick-view-title .loading-overlay svg{
     width:37px;
