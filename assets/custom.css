@@ -1050,8 +1050,12 @@ background-color: #fff;
 /**********************************************/
 .title-quick-view-wrp{
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    gap: 7px;
+}
+.quick-view-title{
+    cursor: pointer;
 }
 /**********************************************/
 /**********END product quick-view **********/
