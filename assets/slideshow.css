@@ -1,5 +1,5 @@
 
-/*
+
 .main-slideshow .flickity-viewport{
   height:auto!important;
 }
@@ -10,7 +10,7 @@
   display: block;
   content: "";
   padding-bottom: calc(100% /(1));
-}*/
+}
 .section-slideshow .row.full-width-row {
   padding: 0; }
   .section-slideshow .row.full-width-row > .columns {
