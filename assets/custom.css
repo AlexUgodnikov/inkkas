@@ -1045,3 +1045,14 @@ background-color: #fff;
 #rebuy-cart .rebuy-cart__flyout{
   z-index: 21474836380;
 }
+/**********************************************/
+/**********product quick-view **********/
+/**********************************************/
+.title-quick-view-wrp{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/**********************************************/
+/**********END product quick-view **********/
+/**********************************************/
