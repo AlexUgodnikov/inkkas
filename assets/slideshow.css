@@ -3,6 +3,9 @@
 .main-slideshow .flickity-viewport{
   height:auto!important;
 }
+.main-slideshow .flickity-slider{
+  top:0;
+}
 .main-slideshow .flickity-viewport:before{
   display: block;
   content: "";
