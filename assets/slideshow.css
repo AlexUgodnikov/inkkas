@@ -94,6 +94,7 @@
       height: 100%;
       z-index: 0;
       will-change: transform;
+      transform: scale(1);
       overflow: hidden; }
       .slideshow__slide-bg svg,
       .slideshow__slide-bg img {
