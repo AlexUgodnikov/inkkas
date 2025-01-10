@@ -88,7 +88,7 @@
         "essential_countdown_app_block_fzdFNN": {
           "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
-            "id": "clrtddqb71480131mqyb88zx1mk"
+            "id": "clr3iz2hv4877681gx19buu411u"
           }
         },
         "essential_announcer_app_block_CEF9Vm": {
@@ -400,6 +400,8 @@
         "full_width": true,
         "enable_sticky_info": true,
         "enable_sticky_add_to_cart": true,
+        "color_text_button": "",
+        "color_bg_button": "",
         "show_taxes_included": true,
         "media_layout": "grid",
         "display_slider_pagination": true,
@@ -511,8 +513,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Andes-Wide.jpg",
             "subheading": "",
-            "title": "Artful Shoes For Happy Feet ♥️",
-            "text": "We make bold, inspired, ultra-plush designs to bring you all-day joy & comfort",
+            "title": "Artful Shoes ♥️ Happy Feet",
+            "text": "We make bold, handcrafted, ultra-plush designs to bring you all-day joy & comfort",
             "link_label": "About Inkkas",
             "link": "shopify:\/\/pages\/about",
             "use_text_button": true,

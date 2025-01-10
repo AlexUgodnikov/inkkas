@@ -888,6 +888,9 @@ body .back-to-top {
 .template-product #ps__widget_container {
   display:none!important;
 }*/
+/**/#ps__widget_container{
+  z-index:999999999!important;
+}
 #ps__widget_container iframe{
   bottom: 80px!important;
   
@@ -898,7 +901,7 @@ body .back-to-top {
 }
 @media(max-width:768px){
   .template-product #ps__widget_container iframe{
-    bottom: 200px!important;
+    bottom: 155px!important;
   }
   .template-product #chat-button{
     right:auto!important;
@@ -1039,3 +1042,6 @@ background-color: #fff;
 /**********************************************/
 /**********END product-add-to-cart-sticky**********/
 /**********************************************/
+#rebuy-cart .rebuy-cart__flyout{
+  z-index: 21474836380;
+}

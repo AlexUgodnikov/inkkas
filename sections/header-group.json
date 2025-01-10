@@ -8,16 +8,16 @@
         "text_b9m48L": {
           "type": "text",
           "settings": {
-            "icon": "none",
-            "text": "FREE GROUND SHIPPING ON ORDERS $175+",
+            "icon": "box",
+            "text": "Free Ground Shipping On Orders $175+",
             "link": "shopify:\/\/pages\/shipping"
           }
         },
         "2f7893ee-7b84-4f15-911a-801b94ffa38e": {
           "type": "text",
           "settings": {
-            "icon": "none",
-            "text": "FREE EXCHANGES & EASY RETURNS FOR 30 DAYS",
+            "icon": "return",
+            "text": "30 Day Free Exchanges & Easy Returns",
             "link": "shopify:\/\/pages\/return-policy"
           }
         },
@@ -25,7 +25,7 @@
           "type": "text",
           "settings": {
             "icon": "plant",
-            "text": "EVERY PURCHASE PLANTS A TREE",
+            "text": "Every Purchase Plants A Tree",
             "link": "shopify:\/\/pages\/about"
           }
         }
