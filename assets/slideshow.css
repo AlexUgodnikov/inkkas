@@ -22,7 +22,7 @@
     position: relative;
     z-index: 1;
     backface-visibility: hidden; }
-    .lideshow__slide:before{
+    .slideshow__slide:before{
       display: block;
       content: "";
       padding-bottom: calc(100% /(1));
