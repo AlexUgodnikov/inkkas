@@ -1,6 +1,8 @@
 
 
-
+.main-slideshow .flickity-viewport{
+  height:auto!important;
+}
 .section-slideshow .row.full-width-row {
   padding: 0; }
   .section-slideshow .row.full-width-row > .columns {
