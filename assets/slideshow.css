@@ -200,8 +200,8 @@
   @media only screen and (min-width: 768px) {
     .slideshow.desktop-height-auto .slideshow__slide-inner {
       position: static;
-      height:100%;
-      /*height: max-content;*/ } }
+      /*height:100%;*/
+      height: max-content; } }
   @media only screen and (max-width: 767px) {
     .slideshow.mobile-height-auto .slideshow__slide {
       height: auto; } }
