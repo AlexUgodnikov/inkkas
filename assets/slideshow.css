@@ -20,6 +20,11 @@
     position: relative;
     z-index: 1;
     backface-visibility: hidden; }
+    .lideshow__slide:before{
+      display: block;
+      content: "";
+      padding-bottom: calc(100% /(1));
+    }
     .animations-false .slideshow__slide {
       clip-path: none !important; }
     .slideshow__slide > * {
