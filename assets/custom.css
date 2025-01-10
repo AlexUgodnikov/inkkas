@@ -1057,6 +1057,9 @@ background-color: #fff;
 .quick-view-title{
     cursor: pointer;
 }
+.quick-view-title .loading-overlay svg{
+    width:37px;
+}
 /**********************************************/
 /**********END product quick-view **********/
 /**********************************************/
