@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -10,7 +19,7 @@
           "settings": {
             "icon": "box",
             "text": "Free Ground Shipping On Orders $175+",
-            "link": "shopify:\/\/pages\/shipping"
+            "link": "shopify://pages/shipping"
           }
         },
         "2f7893ee-7b84-4f15-911a-801b94ffa38e": {
@@ -18,7 +27,7 @@
           "settings": {
             "icon": "return",
             "text": "30 Day Free Exchanges & Easy Returns",
-            "link": "shopify:\/\/pages\/return-policy"
+            "link": "shopify://pages/return-policy"
           }
         },
         "text_YePgmz": {
@@ -26,7 +35,7 @@
           "settings": {
             "icon": "plant",
             "text": "Every Purchase Plants A Tree",
-            "link": "shopify:\/\/pages\/about"
+            "link": "shopify://pages/about"
           }
         }
       },
@@ -53,10 +62,10 @@
           "disabled": true,
           "settings": {
             "position": "1",
-            "promo_1_image": "shopify:\/\/shop_images\/09-25-2024-AW24-Harmony-Collectio-MOBILE-comingsoon.jpg",
+            "promo_1_image": "shopify://shop_images/09-25-2024-AW24-Harmony-Collectio-MOBILE-comingsoon.jpg",
             "promo_1_heading": "",
             "promo_1_link_label": "Reserve yours now",
-            "promo_1_link": "shopify:\/\/collections\/the-harmony-collection",
+            "promo_1_link": "shopify://collections/new-arrivals",
             "promo_2_heading": "",
             "promo_2_link_label": "",
             "promo_2_link": "",
@@ -74,7 +83,7 @@
       ],
       "settings": {
         "sticky_header": true,
-        "logo": "shopify:\/\/shop_images\/inkkasblack_9292de40-7bd9-493f-8c9e-6d4eece2cd1c.png",
+        "logo": "shopify://shop_images/inkkasblack_9292de40-7bd9-493f-8c9e-6d4eece2cd1c.png",
         "logo_height_range": 30,
         "logo_height_range_mobile": 30,
         "style": "style1",
@@ -86,7 +95,7 @@
         "mobile_secondary_menu": "secondary-menu",
         "mobile_promo_heading": "",
         "mobile_promo_link_label": "",
-        "mobile_promo_link": "shopify:\/\/collections\/the-harmony-collection"
+        "mobile_promo_link": "shopify://collections/new-arrivals"
       }
     }
   },

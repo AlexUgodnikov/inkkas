@@ -132,9 +132,9 @@
             "title": "",
             "text": "",
             "link_label": "SHOP NEW",
-            "link": "shopify://collections/the-harmony-collection",
+            "link": "shopify://collections/new-arrivals",
             "use_text_button": false,
-            "block_link": "shopify://collections/the-harmony-collection",
+            "block_link": "shopify://collections/new-arrivals",
             "product_list": []
           }
         },
