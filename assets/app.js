@@ -1239,7 +1239,7 @@ if (!customElements.get('quick-view')) {
             var var_id=$(this).data('variantid');
             var title=$(this).data('title');
             var titleshort=$(this).data('titleshort');
-            $('#Product-Drawer .product-form form input[name="id"]').val(var_id);
+           // $('#Product-Drawer .product-form form input[name="id"]').val(var_id);
             history.pushState({}, null, '?variant='+var_id);
             console.log(titleshort+'==titleshort');
             $('#Product-Drawer .main_prod_'+titleshort+'').click();
