@@ -53,6 +53,13 @@
 				</div>
 			{%- endif -%}
     </a>
+
+	{%- if settings.enable_quick_view -%}
+	<quick-view class="product-card-quickview product-card-quickview--{%- unless show_size_options -%}button{%- else -%}icon{%- endunless -%}" href="#Product-Drawer" data-product-handle="{{ product_card_product.handle }}" tabindex="-1">
+		<div class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</div>
+		<span>{%- unless show_size_options -%}{{ 'products.product.quick_view' | t }}{%- else -%}{% render 'svg-icons' with 'thb-quick-view' %}{%- endunless -%}</span>
+	</quick-view>
+	{%- endif -%}
 			
 			{%- if show_size_options -%}
 				{%- render 'product-card-size-options', product_card_product: product_card_product -%}

@@ -1054,12 +1054,23 @@ background-color: #fff;
     justify-content: space-between;
     gap: 7px;
 }
+.title-quick-view-wrp .quick-view-title{
+    display:none;
+}
 .quick-view-title{
     cursor: pointer;
     padding-right: 3px;
 }
 .quick-view-title .loading-overlay svg{
     width:37px;
+}
+@media(max-width:1067px){
+    .title-quick-view-wrp .quick-view-title{
+        display:block;
+    }
+    .product-featured-image .product-card-quickview{
+        display:none!important;
+    }
 }
 /**********************************************/
 /**********END product quick-view **********/
