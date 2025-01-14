@@ -11,6 +11,7 @@
   "sections": {
     "image_banner_contain_WUAkaT": {
       "type": "image-banner-contain",
+      "disabled": true,
       "settings": {
         "image_contain": false,
         "button_text": "Shop Now",
