@@ -229,7 +229,7 @@
     z-index: 20; }
     @media only screen and (min-width: 768px) {
       .slideshow .flickity-page-dots {
-        bottom: 0; } }
+        bottom: 15px; } }
     .slideshow .flickity-page-dots li {
       border-color: #fff; }
       .slideshow .flickity-page-dots li.is-selected {
