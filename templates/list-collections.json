@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -233,7 +242,7 @@
       "settings": {
         "heading": "ALL COLLECTIONS",
         "heading_left": false,
-        "description": "<p><em>Explore all of our handcrafted  collections<\/em><\/p>",
+        "description": "<p><em>Explore all of our handcrafted  collections</em></p>",
         "full_width": true,
         "sort": "date_reversed",
         "image_ratio": "square",
@@ -279,7 +288,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<h4><strong>Explore all of our handcrafted collections below by <\/strong><em><strong>size<\/strong><\/em>,<strong> by <\/strong><em><strong>edit<\/strong><\/em><strong>, by <\/strong><em><strong>mood<\/strong><\/em><strong>, or by <\/strong><em><strong>style<\/strong><\/em><strong> <\/strong><\/h4>",
+            "text": "<h4><strong>Explore all of our handcrafted collections below by </strong><em><strong>size</strong></em>,<strong> by </strong><em><strong>edit</strong></em><strong>, by </strong><em><strong>mood</strong></em><strong>, or by </strong><em><strong>style</strong></em><strong> </strong></h4>",
             "custom_liquid": "",
             "size": "text-size-small"
           }
@@ -306,7 +315,7 @@
         "text_jqGMrN": {
           "type": "text",
           "settings": {
-            "text": "<h5><em>by<\/em> Size:<\/h5>",
+            "text": "<h5><em>by</em> Size:</h5>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -333,56 +342,56 @@
         "image_9hNQcK": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TREK-SLIP-ON-SS200306-MODEL_ZOOM-_5W1A8013.jpg",
+            "image": "shopify://shop_images/TREK-SLIP-ON-SS200306-MODEL_ZOOM-_5W1A8013.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "MEN'S",
-            "link": "shopify:\/\/collections\/mens-shoes",
+            "link": "shopify://collections/mens-shoes",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/mens-shoes",
+            "block_link": "shopify://collections/mens-shoes",
             "product_list": []
           }
         },
         "image_FVwTqq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TOUBKAL-JOGGER-SS230405-MODEL--EPI_3445.jpg",
+            "image": "shopify://shop_images/TOUBKAL-JOGGER-SS230405-MODEL--EPI_3445.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "WOMEN'S",
-            "link": "shopify:\/\/collections\/womens-collection-all-shoes",
+            "link": "shopify://collections/womens-collection-all-shoes",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/womens-collection-all-shoes",
+            "block_link": "shopify://collections/womens-collection-all-shoes",
             "product_list": []
           }
         },
         "image_ixLTJG": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/resizedInkkas_Shoe_2021_Kids_Collection_by_Ica_Images_157.jpg",
+            "image": "shopify://shop_images/resizedInkkas_Shoe_2021_Kids_Collection_by_Ica_Images_157.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "KIDS",
-            "link": "shopify:\/\/collections\/kids",
+            "link": "shopify://collections/kids",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/kids",
+            "block_link": "shopify://collections/kids",
             "product_list": []
           }
         },
         "image_grHqnc": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ZOCALO-FLEX-RUNNER-SS210620-ZOCALO-VEGAN-CAMPING-BOOT-SS210522-MODELZOOM-5W1A9628.jpg",
+            "image": "shopify://shop_images/ZOCALO-FLEX-RUNNER-SS210620-ZOCALO-VEGAN-CAMPING-BOOT-SS210522-MODELZOOM-5W1A9628.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "ALL",
-            "link": "shopify:\/\/collections\/all-products",
+            "link": "shopify://collections/all-products",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/all-products",
+            "block_link": "shopify://collections/all-products",
             "product_list": []
           }
         }
@@ -415,7 +424,7 @@
         "text_49Q9PE": {
           "type": "text",
           "settings": {
-            "text": "<h5><em>by<\/em> Edit:<\/h5>",
+            "text": "<h5><em>by</em> Edit:</h5>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -442,7 +451,7 @@
         "text_GhbKia": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>NEW <\/strong><em><strong>or<\/strong><\/em><strong> POPULAR <\/strong><em><strong>or<\/strong><\/em><strong> THIS SEASON?<\/strong><\/p>",
+            "text": "<p><strong>NEW </strong><em><strong>or</strong></em><strong> POPULAR </strong><em><strong>or</strong></em><strong> THIS SEASON?</strong></p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -469,42 +478,42 @@
         "image_337hQ4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-09-16at2.40.58PM.png",
+            "image": "shopify://shop_images/ScreenShot2024-09-16at2.40.58PM.png",
             "subheading": "",
             "title": "Newest Arrivals",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/the-harmony-collection",
+            "block_link": "shopify://collections/new-arrivals",
             "product_list": []
           }
         },
         "image_gFcfCG": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CYPRUS-WESTERN-BOOT-SS231124-MODEL-ZOOM-EPI_7931.jpg",
+            "image": "shopify://shop_images/CYPRUS-WESTERN-BOOT-SS231124-MODEL-ZOOM-EPI_7931.jpg",
             "subheading": "",
             "title": "Top Sellers",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/best-sellers",
+            "block_link": "shopify://collections/best-sellers",
             "product_list": []
           }
         },
         "image_j6Y99g": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-12-16at5.14.06PM.png",
+            "image": "shopify://shop_images/ScreenShot2024-12-16at5.14.06PM.png",
             "subheading": "",
             "title": "Winter Edit",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/winter-edit",
+            "block_link": "shopify://collections/winter-edit",
             "product_list": []
           }
         },
@@ -512,14 +521,14 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.34.14PM.png",
+            "image": "shopify://shop_images/ScreenShot2024-04-08at4.34.14PM.png",
             "subheading": "SHOP EVERYTHING",
             "title": "",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/all-products",
+            "block_link": "shopify://collections/all-products",
             "product_list": []
           }
         }
@@ -552,7 +561,7 @@
         "text_WhaaCn": {
           "type": "text",
           "settings": {
-            "text": "<h5><em>by<\/em> Mood:<\/h5>",
+            "text": "<h5><em>by</em> Mood:</h5>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -579,7 +588,7 @@
         "text_nJL9aE": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>feeling CLASSIC <\/strong><em><strong>or<\/strong><\/em><strong> TRENDY?<\/strong><\/p>",
+            "text": "<p><strong>feeling CLASSIC </strong><em><strong>or</strong></em><strong> TRENDY?</strong></p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -606,28 +615,28 @@
         "image_KheDDh": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MONTEREY-VEGAN-TREKK-BOOT-SS221015-MODEL-W1A1442.jpg",
+            "image": "shopify://shop_images/MONTEREY-VEGAN-TREKK-BOOT-SS221015-MODEL-W1A1442.jpg",
             "subheading": "timeless classics",
             "title": "ESSENTIALS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/inkkas-essentials",
+            "block_link": "shopify://collections/inkkas-essentials",
             "product_list": []
           }
         },
         "image_8ezjMp": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LUZON-RUNNER-V.2-SS240616-MODEL-ZOOM--EPI_2913.jpg",
+            "image": "shopify://shop_images/LUZON-RUNNER-V.2-SS240616-MODEL-ZOOM--EPI_2913.jpg",
             "subheading": "Go bold or go home",
             "title": "TRENDSETTERS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/inkkas-trendsetters",
+            "block_link": "shopify://collections/inkkas-trendsetters",
             "product_list": []
           }
         }
@@ -658,7 +667,7 @@
         "text_qVUYML": {
           "type": "text",
           "settings": {
-            "text": "<h5><em>by<\/em> Style:<\/h5>",
+            "text": "<h5><em>by</em> Style:</h5>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -685,182 +694,182 @@
         "image_iAAhP3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/JOEY-VEGAN-JOGGER-AW220409-1.jpg",
+            "image": "shopify://shop_images/JOEY-VEGAN-JOGGER-AW220409-1.jpg",
             "subheading": "",
             "title": "JOGGERS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/joggers",
+            "block_link": "shopify://collections/joggers",
             "product_list": []
           }
         },
         "image_BtPPcj": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ROOSTER-CAMPING-BOOT-CB179802-1.jpg",
+            "image": "shopify://shop_images/ROOSTER-CAMPING-BOOT-CB179802-1.jpg",
             "subheading": "",
             "title": "CAMPING BOOTS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/camping-boots",
+            "block_link": "shopify://collections/camping-boots",
             "product_list": []
           }
         },
         "image_pqqNNP": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/POPINJAY-TREKKBOOT-SS241014-1.jpg",
+            "image": "shopify://shop_images/POPINJAY-TREKKBOOT-SS241014-1.jpg",
             "subheading": "",
             "title": "TREKK BOOTS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/trekk-boots",
+            "block_link": "shopify://collections/trekk-boots",
             "product_list": []
           }
         },
         "image_34YDqN": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-WESTERNBOOT-SS241111-4.jpg",
+            "image": "shopify://shop_images/SAOLA-VEGAN-WESTERNBOOT-SS241111-4.jpg",
             "subheading": "",
             "title": "WESTERNS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/western-boots",
+            "block_link": "shopify://collections/western-boots",
             "product_list": []
           }
         },
         "image_Lngigz": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TOUBKAL-BOOTIE-SS230818-3.jpg",
+            "image": "shopify://shop_images/TOUBKAL-BOOTIE-SS230818-3.jpg",
             "subheading": "",
             "title": "BOOTIES",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/booties",
+            "block_link": "shopify://collections/booties",
             "product_list": []
           }
         },
         "image_QhVLPE": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/APEX-SLIPON-SS240409-4.jpg",
+            "image": "shopify://shop_images/APEX-SLIPON-SS240409-4.jpg",
             "subheading": "",
             "title": "SLIP ONS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/slip-ons",
+            "block_link": "shopify://collections/slip-ons",
             "product_list": []
           }
         },
         "image_Bwxfg3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CYPRUS-ACE-LOW-TOP-AW230207-2.jpg",
+            "image": "shopify://shop_images/CYPRUS-ACE-LOW-TOP-AW230207-2.jpg",
             "subheading": "",
             "title": "LOW TOPS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/low-top",
+            "block_link": "shopify://collections/low-top",
             "product_list": []
           }
         },
         "image_9rXCCq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CYPRUS-HIGH-TOP-3.jpg",
+            "image": "shopify://shop_images/CYPRUS-HIGH-TOP-3.jpg",
             "subheading": "",
             "title": "HIGH TOPS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/high-top-1",
+            "block_link": "shopify://collections/high-top-1",
             "product_list": []
           }
         },
         "image_YrcQHi": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MOLA-FLEX-RUNNER-V.2-AW190609-2.jpg",
+            "image": "shopify://shop_images/MOLA-FLEX-RUNNER-V.2-AW190609-2.jpg",
             "subheading": "",
             "title": "RUNNERS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/runners",
+            "block_link": "shopify://collections/runners",
             "product_list": []
           }
         },
         "image_mPMBEk": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LUZON-BUCKLE-SANDAL-SS241219-6.jpg",
+            "image": "shopify://shop_images/LUZON-BUCKLE-SANDAL-SS241219-6.jpg",
             "subheading": "",
             "title": "SANDALS & SLIDES",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/sandals-slides",
+            "block_link": "shopify://collections/sandals-slides",
             "product_list": []
           }
         },
         "image_frRme6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SLIP-ON-TREK-KIDS-4.jpg",
+            "image": "shopify://shop_images/SLIP-ON-TREK-KIDS-4.jpg",
             "subheading": "",
             "title": "KIDS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/kids",
+            "block_link": "shopify://collections/kids",
             "product_list": []
           }
         },
         "image_gGfyVK": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TREK-BACKPACK-1.jpg",
+            "image": "shopify://shop_images/TREK-BACKPACK-1.jpg",
             "subheading": "",
             "title": "BAGS, BRACELETS & MORE",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/all-accessories",
+            "block_link": "shopify://collections/all-accessories",
             "product_list": []
           }
         },
         "image_WyJeL3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-JOGGER-SS240402-4.jpg",
+            "image": "shopify://shop_images/SAOLA-VEGAN-JOGGER-SS240402-4.jpg",
             "subheading": "",
             "title": "VEGAN",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/vegan-products",
+            "block_link": "shopify://collections/vegan-products",
             "product_list": []
           }
         }
