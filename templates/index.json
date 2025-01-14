@@ -75,7 +75,7 @@
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "overlay_color": "transparent",
+            "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0,
             "overlay_gradient": "transparent",
             "button_1_text": "Shop Now",
@@ -132,9 +132,9 @@
             "title": "",
             "text": "",
             "link_label": "SHOP NEW",
-            "link": "shopify://collections/the-harmony-collection",
+            "link": "shopify://collections/new-arrivals",
             "use_text_button": false,
-            "block_link": "shopify://collections/the-harmony-collection",
+            "block_link": "shopify://collections/new-arrivals",
             "product_list": []
           }
         },
