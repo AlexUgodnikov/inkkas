@@ -1069,7 +1069,7 @@ background-color: #fff;
         display:block;
     }
     .product-featured-image .product-card-quickview{
-        display:none;
+        display:none!important;
     }
 }
 /**********************************************/
