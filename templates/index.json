@@ -62,6 +62,7 @@
         },
         "slide_QD4qyd": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/01-11-25-CLEARANCE-1.1_36843a87-e65f-4e48-848f-1cf8753775ce.gif",
             "mobile_image": "shopify://shop_images/01-11-25-CLEARANCE-MOBILE-1.1_761d4630-dda7-40a2-9ee6-144dfdb215bd.gif",
@@ -89,6 +90,7 @@
         },
         "slide_jB3wt7": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/01-11-25-CLEARANCE-sokoke1_177e769e-0d4b-46da-9421-f8caba9f8a07.jpg",
             "mobile_image": "shopify://shop_images/01-11-25-CLEARANCE-MOBILE-sokoke_aa477502-0e69-43a8-8820-83e50ac9774c.jpg",
