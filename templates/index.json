@@ -123,7 +123,7 @@
         "slide_jB3wt7"
       ],
       "settings": {
-        "desktop_height": "desktop-height-auto",
+        "desktop_height": "desktop-height-image",
         "mobile_height": "mobile-height-image",
         "full_width": true,
         "autoplay": false,
