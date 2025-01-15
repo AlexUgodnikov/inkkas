@@ -47,7 +47,7 @@
             "heading_size": "h1-xlarge",
             "content": "",
             "description_size": "medium",
-            "content_position": "middle-center",
+            "content_position": "bottom-center",
             "text_alignment": "center",
             "content_size": "medium",
             "overlay_color": "#000000",
