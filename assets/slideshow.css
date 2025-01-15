@@ -160,7 +160,7 @@
           padding: 50px; } }
       @media only screen and (min-width: 1068px) {
         .slideshow__slide-content {
-          padding: 70px 50px; } }
+          padding: 10px 50px; } }
       .slideshow__slide-content .button {
         position: relative;
         z-index: 22; }
