@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "type": "header",
   "name": "Header group",
@@ -14,35 +5,45 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "text_b9m48L": {
-          "type": "text",
-          "settings": {
-            "icon": "box",
-            "text": "Free Ground Shipping On Orders $175+",
-            "link": "shopify://pages/shipping"
-          }
-        },
         "2f7893ee-7b84-4f15-911a-801b94ffa38e": {
           "type": "text",
           "settings": {
-            "icon": "return",
-            "text": "30 Day Free Exchanges & Easy Returns",
-            "link": "shopify://pages/return-policy"
+            "icon": "none",
+            "text": "Join our annual Shoe Art Contest by March 25 for a chance to win a $300 gift card!",
+            "link": "shopify:\/\/pages\/shoe-art-contest"
+          }
+        },
+        "text_cQEaMB": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "FREE U.S. SHIPPING OVER $175 + FREE EXCHANGES",
+            "link": ""
           }
         },
         "text_YePgmz": {
           "type": "text",
           "settings": {
-            "icon": "plant",
-            "text": "Every Purchase Plants A Tree",
-            "link": "shopify://pages/about"
+            "icon": "none",
+            "text": "We plant a tree for every purchase with trees.org!",
+            "link": "shopify:\/\/pages\/about"
+          }
+        },
+        "text_VkHJUj": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "heart",
+            "text": "We partner with non-profit Soles4Souls to donate & upcycle worn shoes",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "text_b9m48L",
         "2f7893ee-7b84-4f15-911a-801b94ffa38e",
-        "text_YePgmz"
+        "text_cQEaMB",
+        "text_YePgmz",
+        "text_VkHJUj"
       ],
       "settings": {
         "announcement_bar": true,
@@ -62,10 +63,10 @@
           "disabled": true,
           "settings": {
             "position": "1",
-            "promo_1_image": "shopify://shop_images/09-25-2024-AW24-Harmony-Collectio-MOBILE-comingsoon.jpg",
+            "promo_1_image": "shopify:\/\/shop_images\/09-25-2024-AW24-Harmony-Collectio-MOBILE-comingsoon.jpg",
             "promo_1_heading": "",
             "promo_1_link_label": "Reserve yours now",
-            "promo_1_link": "shopify://collections/new-arrivals",
+            "promo_1_link": "shopify:\/\/collections\/new-arrivals",
             "promo_2_heading": "",
             "promo_2_link_label": "",
             "promo_2_link": "",
@@ -83,19 +84,19 @@
       ],
       "settings": {
         "sticky_header": true,
-        "logo": "shopify://shop_images/inkkasblack_9292de40-7bd9-493f-8c9e-6d4eece2cd1c.png",
+        "logo": "shopify:\/\/shop_images\/inkkasblack_9292de40-7bd9-493f-8c9e-6d4eece2cd1c.png",
         "logo_height_range": 30,
         "logo_height_range_mobile": 30,
         "style": "style1",
         "header_shadow": "header--shadow-small",
-        "menu": "new-menu",
+        "menu": "new-menu_67c2666a-af45-44e7-a485-8f38330ea3b6",
         "transparent_header": false,
         "show_language_switcher": false,
         "show_currency_switcher": false,
         "mobile_secondary_menu": "secondary-menu",
         "mobile_promo_heading": "",
         "mobile_promo_link_label": "",
-        "mobile_promo_link": "shopify://collections/new-arrivals"
+        "mobile_promo_link": "shopify:\/\/collections\/new-arrivals"
       }
     }
   },

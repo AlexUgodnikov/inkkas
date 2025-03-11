@@ -114,11 +114,12 @@
         "collapsible_tab_2_hxiDMm": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": true,
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Description",
+            "heading": "DESCRIPTION",
             "show_description": true,
             "description_type": "show_before_ul",
             "content": "",
@@ -128,11 +129,12 @@
         "collapsible_tab_2_UkAjaq": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Features",
+            "heading": "FEATURES",
             "show_description": true,
             "description_type": "show_ul",
             "content": "",
@@ -142,20 +144,53 @@
         "collapsible_tab_2_J3DBXz": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Shipping & Returns",
+            "heading": "FREE EXCHANGES & EASY RETURNS",
             "show_description": false,
             "description_type": "full_description",
-            "content": "<p><strong>Free Shipping: <\/strong>FREE ground shipping on orders of $175 or more is automatically applied at checkout!<\/p><p><strong>Easy Returns\/Exchanges<\/strong>: You can easily return\/exchange eligible items for up to 30 days. We also provide a free exchange for every pair. View our full return policy <a href=\"\/pages\/return-policy\" title=\"Returns & Exchanges\">here<\/a>.<\/p><p><strong>Pre-Orders<\/strong>: Because we make collections in small batches, we also make certain products available for pre-order. We do our best to project accurate shipping dates for pre-orders on the product page; however, please note that these dates could change.<\/p>",
+            "content": "<p>You can easily return or exchange eligible items for up to 30 days. We also provide one FREE exchange for every pair! View our full return policy <a href=\"\/pages\/return-policy\" title=\"Returns & Exchanges\">here<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_2_xGaHj7": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "idname": "",
+            "open": false,
+            "show_okendo_reviews": false,
+            "show_only_with_tag": false,
+            "product_tag": "",
+            "heading": "FREE SHIPPING",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "<p>FREE U.S. ground shipping on orders of $175 or more is automatically applied at checkout!<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_2_zVrH6p": {
+          "type": "collapsible_tab_2",
+          "disabled": true,
+          "settings": {
+            "idname": "",
+            "open": false,
+            "show_okendo_reviews": false,
+            "show_only_with_tag": false,
+            "product_tag": "",
+            "heading": "Pre-Orders",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "<p>Because we make collections in small batches, we also make certain products available for pre-order. We do our best to project accurate shipping dates for pre-orders on the product page; however, please note that these dates could change.<\/p>",
             "page": ""
           }
         },
         "collapsible_tab_2_6kFqVT": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
@@ -170,6 +205,7 @@
         "collapsible_tab_2_ALh97A": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
@@ -184,6 +220,7 @@
         "collapsible_tab_2_mG4tgE": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
@@ -198,6 +235,7 @@
         "collapsible_tab_2_mDnryw": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
@@ -212,6 +250,7 @@
         "collapsible_tab_2_CwBR3G": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
@@ -226,6 +265,7 @@
         "collapsible_tab_2_PFyByf": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
@@ -240,6 +280,7 @@
         "collapsible_tab_2_efAGwX": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
@@ -254,6 +295,7 @@
         "collapsible_tab_2_NGVjqH": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
@@ -268,6 +310,7 @@
         "collapsible_tab_2_3iXC6k": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
@@ -282,11 +325,12 @@
         "collapsible_tab_2_cLYJEf": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "slip-on-size-chart",
-            "heading": "",
+            "heading": "CARE INSTRUCTIONS",
             "show_description": false,
             "description_type": "full_description",
             "content": "",
@@ -296,6 +340,7 @@
         "collapsible_tab_2_8enptb": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
@@ -310,6 +355,7 @@
         "collapsible_tab_2_9zwncR": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
@@ -324,6 +370,7 @@
         "collapsible_tab_2_nA4Rag": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "",
             "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
@@ -338,11 +385,12 @@
         "collapsible_tab_2_EG6eBL": {
           "type": "collapsible_tab_2",
           "settings": {
+            "idname": "reviews-list",
             "open": true,
             "show_okendo_reviews": true,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Customer Reviews",
+            "heading": "CUSTOMER REVIEWS",
             "show_description": false,
             "description_type": "full_description",
             "content": "",
@@ -374,6 +422,8 @@
         "collapsible_tab_2_hxiDMm",
         "collapsible_tab_2_UkAjaq",
         "collapsible_tab_2_J3DBXz",
+        "collapsible_tab_2_xGaHj7",
+        "collapsible_tab_2_zVrH6p",
         "collapsible_tab_2_6kFqVT",
         "collapsible_tab_2_ALh97A",
         "collapsible_tab_2_mG4tgE",
@@ -412,6 +462,56 @@
         "enable_video_looping": false
       }
     },
+    "logo_list_TEgBMb": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_Jd8k9P": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ultracomfyiconrightsize.png",
+            "link": ""
+          }
+        },
+        "logo_iFq4CT": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/handcraftedicon.png",
+            "link": ""
+          }
+        },
+        "logo_VnzAAm": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_05965f59-7377-41de-890a-01af14dd90ad.png",
+            "link": ""
+          }
+        },
+        "logo_6Bartj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_c4a9dff1-9922-4e24-8d6b-bd95ce87a002.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_Jd8k9P",
+        "logo_iFq4CT",
+        "logo_VnzAAm",
+        "logo_6Bartj"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns": 4,
+        "mobile_swipe": false,
+        "center_align": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "text_with_icons_MRQx4U": {
       "type": "text-with-icons",
       "blocks": {
@@ -445,6 +545,7 @@
         "icon_ctNqqJ",
         "icon_8fyykF"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "left",
         "icon_position": "left",
@@ -461,7 +562,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You May Also Like",
+        "heading": "You might like these, too",
         "heading_left": true,
         "description": "",
         "full_width": true,
@@ -484,6 +585,7 @@
     },
     "1662552569cce2536d": {
       "type": "spacer",
+      "disabled": true,
       "settings": {
         "spacer_mobile": 25,
         "spacer_desktop": 5,
@@ -513,7 +615,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Andes-Wide.jpg",
             "subheading": "",
-            "title": "Artful Shoes ♥️ Happy Feet",
+            "title": "Handcrafted for Happiness ♥️",
             "text": "We make bold, handcrafted, ultra-plush designs to bring you all-day joy & comfort",
             "link_label": "About Inkkas",
             "link": "shopify:\/\/pages\/about",
@@ -563,6 +665,7 @@
     "countdown_banner_Nkdg4Y",
     "breadcrumbs",
     "main-product",
+    "logo_list_TEgBMb",
     "text_with_icons_MRQx4U",
     "product-recommendations",
     "recently_viewed_products_HPzhR7",

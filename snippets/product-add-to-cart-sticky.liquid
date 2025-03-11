@@ -156,7 +156,7 @@
                         <input type="radio" id="sticky-Size-Women-{{ forloop.index0 }}"
                                name="SizeWomen"
                                value="{{ value | escape }}"
-                               form="product-form-{{ section.id }}"
+                               form="sticky-product-form-{{ section.id }}"
                                {% if option.selected_value == value %}checked{% endif %}
                                data-inputshort="{{ value | downcase |handleize }}"
                                class="product_{{ value | downcase | handleize }}"
@@ -195,7 +195,7 @@
                         <input type="radio" id="sticky-Size-Men-{{ forloop.index0 }}"
                                name="SizeMen"
                                value="{{ value | escape }}"
-                               form="product-form-{{ section.id }}"
+                               form="sticky-product-form-{{ section.id }}"
                                {% if option.selected_value == value %}checked{% endif %}
                                data-inputshort="{{ value | downcase |handleize }}"
                                class="product_{{ value | downcase | handleize }}"
@@ -233,7 +233,7 @@
                         <input type="radio" id="sticky-Size-Kids-{{ forloop.index0 }}"
                                name="SizeKids"
                                value="{{ value | escape }}"
-                               form="product-form-{{ section.id }}"
+                               form="sticky-product-form-{{ section.id }}"
                                {% if option.selected_value == value %}checked{% endif %}
                                data-inputshort="{{ value | downcase |handleize }}"
                                class="product_{{ value | downcase | handleize }}"
@@ -272,7 +272,7 @@
                         <input type="radio" id="sticky-Size-Eur-{{ forloop.index0 }}"
                                name="SizeEur"
                                value="{{ value | escape }}"
-                               form="product-form-{{ section.id }}"
+                               form="sticky-product-form-{{ section.id }}"
                                {% if option.selected_value == value %}checked{% endif %}
                                data-inputshort="{{ value | downcase |handleize }}"
                                class="product_{{ value | downcase | handleize }}"
@@ -290,8 +290,9 @@
         {% else %}
           {% assign currentVariant = product.selected_or_first_available_variant %}
           {%- for option in product.options_with_values -%}
+            {% if product.variants.size > 1 %}
             <fieldset class="js product-form__input_dann">
-               
+              
                {% for value in option.values %}  
 
                  {% for variant in product.variants %}
@@ -302,7 +303,7 @@
                 <input type="radio" id="sticky-Dann-{{ forloop.index0 }}"
                       name="dann"
                       value="{{ value | escape }}"
-                      form="product-form-{{ section.id }}"
+                      form="sticky-product-form-{{ section.id }}"
                       {% if option.selected_value == value %}checked{% endif %}
                  data-inputshort="{{ value | downcase |handleize }}"
                  class="product_{{ value | downcase | handleize }}"
@@ -312,6 +313,7 @@
                 </label>
               {%- endfor -%}
             </fieldset>
+              {% endif %}
           {%- endfor -%}
         {% endif %}
         

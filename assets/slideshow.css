@@ -93,6 +93,7 @@
       width: 100%;
       height: 100%;
       z-index: 0;
+      background-color:#fff;
       will-change: transform;
       overflow: hidden; }
       .slideshow__slide-bg svg,
@@ -159,7 +160,7 @@
           padding: 50px; } }
       @media only screen and (min-width: 1068px) {
         .slideshow__slide-content {
-          padding: 70px 50px; } }
+          padding: 0px 50px; } }
       .slideshow__slide-content .button {
         position: relative;
         z-index: 22; }
@@ -229,7 +230,7 @@
     z-index: 20; }
     @media only screen and (min-width: 768px) {
       .slideshow .flickity-page-dots {
-        bottom: 45px; } }
+        bottom: 15px; } }
     .slideshow .flickity-page-dots li {
       border-color: #fff; }
       .slideshow .flickity-page-dots li.is-selected {

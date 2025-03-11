@@ -643,8 +643,9 @@ document.addEventListener("DOMContentLoaded", function() {
                       //your custom scripts
                      
                       targetContainer.appendChild(domElement[0]);
-                       if(domElement[0].querySelector('.preorder-me-button').style.display === 'none'){
-                        domElement[0].style.display = 'none';
+                         
+                       if(domElement[0].querySelector('button').style.display === 'none'){
+                       // domElement[0].style.display = 'none';
                       }
                       
                       //domElement[0].style.flex = 1
@@ -1949,6 +1950,11 @@ document.addEventListener("DOMContentLoaded", function() {
       "type": "collapsible_tab_2",
       "name": "Collapsible tab style 2",
       "settings": [
+         {
+          "type": "text",
+          "id": "idname",
+          "label": "Id for anchor"
+        },
         {
           "type": "checkbox",
           "id": "open",

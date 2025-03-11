@@ -33,7 +33,7 @@
           {%- endif -%}
         </div>
         {%- if block.settings.show_products_rating and product.metafields.reviews.rating.value != blank -%}
-          <a class="star-rating-container" href="#shopify-product-reviews">
+          <a class="star-rating-container" href="#reviews-list">
             <div class="star-rating" style="--star-rating: {{ product.metafields.reviews.rating.value.rating }};"></div>
             <span>{{ 'products.product.reviews' | t: count: product.metafields.reviews.rating_count }}</span>
           </a>
@@ -814,7 +814,7 @@
       {% endif %}
       {% if collapsible_tab_show %}
         {% assign className = block.settings.heading | downcase | replace: " ", "_" %}
-        <collapsible-row class="collapsible-tab-2 {{ className | replace: "&", "" }} product__accordion accordion{% if block.settings.open %} 11111{% endif %}{% if block.settings.heading == 'Customer Reviews' %} customer_reviews_tab{% endif %}" {{ block.shopify_attributes }}>
+        <collapsible-row {% if block.settings.idname != blank %}id="{{ block.settings.idname }}"{% endif %} class="collapsible-tab-2 {{ className | replace: "&", "" }} product__accordion accordion{% if block.settings.open %} {% endif %}{% if block.settings.heading == 'Customer Reviews' %} customer_reviews_tab{% endif %}" {{ block.shopify_attributes }}>
           <details class="custom-field-product custom-field__inspiration custom-field__type--text" id="Details-{{ block.id }}-{{ section.id }}" {% if block.settings.open %}open{% endif %}>
             <summary class="custom-field--title">
               {% assign heading = block.settings.heading | default: block.settings.page.title | split: ' - ' %}

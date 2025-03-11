@@ -58,14 +58,30 @@
         "disable_bottom_spacing": false
       }
     },
+    "173998895283371412": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_Ax3bth": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-WhpyCV\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_Ax3bth"
+      ],
+      "settings": {}
+    },
     "email_signup_PUxWJB": {
       "type": "email-signup",
+      "disabled": true,
       "settings": {
-        "heading": "We make happy emails, too.",
-        "description": "<p>Sign up and receive 15% off your first order! Plus, get first dibs on new styles, exclusive deals, and other fun stuff right in your inbox.<\/p>",
-        "color_bg": "#ffffff",
+        "heading": "Sign Up for 15% Off",
+        "description": "<p>We make artful & inspiring emails, too! Sign up and receive 15% off your first order. Plus, get first dibs on new styles, exclusive deals, and other fun stuff.<\/p>",
+        "color_bg": "#f5f3ef",
         "color_text": "#151515",
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
@@ -142,6 +158,7 @@
   "order": [
     "spacer_E7FEak",
     "text_with_icons_aNz4j3",
+    "173998895283371412",
     "email_signup_PUxWJB",
     "footer"
   ]

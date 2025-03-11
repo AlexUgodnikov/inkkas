@@ -3,8 +3,8 @@
     "heading_font": "archivo_narrow_n6",
     "heading_font_scale": 110,
     "body_font": "news_gothic_no_2_n4",
-    "announcement_font_scale": 125,
-    "navigation_font_scale": 125,
+    "announcement_font_scale": 100,
+    "navigation_font_scale": 100,
     "navigation_uppercase": false,
     "product_title_uppercase": false,
     "button_uppercase": true,
@@ -33,7 +33,7 @@
     "color_footer_bg": "#4e584a",
     "section_spacing_mobile": 30,
     "section_spacing_desktop": 90,
-    "animations": false,
+    "animations": true,
     "button_border_radius": 2,
     "social_facebook_link": "https:\/\/www.facebook.com\/Inkkas\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/inkkasworldwear\/?hl=en",
@@ -258,6 +258,11 @@
       },
       "5460033060862993441": {
         "type": "shopify:\/\/apps\/essential-announcer\/blocks\/app-embed\/93b5429f-c8d6-4c33-ae14-250fd84f361b",
+        "disabled": false,
+        "settings": {}
+      },
+      "17428600031447253342": {
+        "type": "shopify:\/\/apps\/attentive\/blocks\/attn-tag\/8df62c72-8fe4-407e-a5b3-72132be30a0d",
         "disabled": false,
         "settings": {}
       }

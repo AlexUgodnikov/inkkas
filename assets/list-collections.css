@@ -1,5 +1,7 @@
 
-
+.list-collections{
+     overflow:hidden;
+}
 .collection-card__image img, .collection-card.style2 .collection-card__content .collection-card__link svg {
   transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1); }
 
@@ -35,6 +37,7 @@
       grid-auto-columns: minmax(calc(50vw - 30px), 1fr);
       grid-template-columns: repeat(auto-fill, minmax(calc(50vw - 30px), 1fr)); } }
   .collection-grid__carousel {
+ 
     display: block;
     grid-gap: 0;
     overflow: visible; }
@@ -50,9 +53,9 @@
       .collection-grid__carousel .flickity-viewport {
         overflow: visible; } }
     .collection-grid__carousel .flickity-nav.flickity-prev {
-      left: -9px; }
+      left: 20px; }
     .collection-grid__carousel .flickity-nav.flickity-next {
-      right: -9px; }
+      right: 20px; }
 
 .collection-card {
   width: 100%;

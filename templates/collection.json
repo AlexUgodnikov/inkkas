@@ -34,7 +34,7 @@
         "show_collection_image": false,
         "show_collection_description": true,
         "show_subcollections": true,
-        "make_heading_uppercase": true,
+        "make_heading_uppercase": false,
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
@@ -262,7 +262,7 @@
         "heading_left": true,
         "description": "",
         "full_width": true,
-        "collection": "winter-edit",
+        "collection": "best-sellers",
         "display_type": "carousel",
         "product_limit": 8,
         "columns_desktop": 4,

@@ -1,49 +1,13 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "166161901464a25e50": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "166161901437c6bc67-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_size": "h1-xlarge"
-          }
-        },
-        "166161901437c6bc67-2": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "description_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "166161901437c6bc67-1",
-        "166161901437c6bc67-2"
-      ],
+    "image_banner_contain_NNhdmA": {
+      "type": "image-banner-contain",
       "settings": {
-        "section_width": "full-width-row-full",
-        "image": "shopify://shop_images/BLACK-HIGH-TOP-AW200108-GROUP-FLAT-BADASS-SLIDE-COZY-EDITION-AW200717-GROUP-BADASS-BLACK-SLIP-ON-AW200307-GROUP-5W1A5733.jpg",
-        "mobile_image": "shopify://shop_images/LONDON-SKY-SLIDE-SANDAL-SS210902-GROUP-_ZOCALO-JOGGER-SS210411-GROUP-_ALGARVE-BOOTIE-SS210807-GROUP-5W1A9510.jpg",
-        "image_parallax": false,
-        "desktop_height": "desktop-height-full",
-        "mobile_height": "mobile-height-450",
-        "content_width": "medium",
-        "content_position": "bottom-center",
-        "text_alignment": "center",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "image_contain": false,
+        "button_text": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/01-01-25-EVERGREEN-2-vibe.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/01-01-25_EVERGREEN-MOBILE_2_Artboard_5_copy_25.jpg"
       }
     },
     "16616191162185f622": {
@@ -52,20 +16,29 @@
         "subheading_7pmD8M": {
           "type": "subheading",
           "settings": {
-            "text": "artful shoes ♥️ happy feet"
+            "text": "STEP INTO THE WORLD IN INKKAS ♥️"
           }
         },
         "1661619116558a03c6-1": {
           "type": "heading",
           "settings": {
-            "text": "For more than 10 years, Inkkas has created bold, inspired, ultra-comfy shoes designed to make your feet and your heart happy. Our designs are colorful, hand-drawn, one-of-a-kind celebrations of beauty around the world, reflecting diverse stories of art, nature, and life within and around us all. Bottom line: You won't find shoes like this anywhere else. Plus, the earth as our muse, we strive to minimize waste and reduce impact throughout the crafting process, which is why we plant a tree for every pair sold, produce collections in small handcrafted batches, and make our products available for pre-order. Step into happiness with us!",
+            "text": "Since 2012, Inkkas has been making handcrafted, ultra-comfy, one-of-a-kind shoes designed to inspire your every step. Our artful hand-drawn designs celebrate beauty around the world, bring nature to life, and feature authentic woven global textiles. Bottom line: You won't find shoes like this anywhere else. Plus, the earth as our muse, we strive to minimize waste and reduce impact throughout the shoemaking process, which is why we plant a tree for every pair sold, make our collections in small batches, make pre-order available for certain products, and upcycle gently worn shoes for refurbishment & donation. What can we say, we do what feels good for the sole. We invite you to step into the world with us!",
             "size": "h4"
+          }
+        },
+        "button_9QqQHk": {
+          "type": "button",
+          "settings": {
+            "link_label": "check out our blog!",
+            "link": "shopify:\/\/blogs\/blog",
+            "button_outline": false
           }
         }
       },
       "block_order": [
         "subheading_7pmD8M",
-        "1661619116558a03c6-1"
+        "1661619116558a03c6-1",
+        "button_9QqQHk"
       ],
       "settings": {
         "section_width": "full-width-row",
@@ -75,7 +48,7 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
@@ -87,7 +60,7 @@
         "description": "",
         "section_width": "grid",
         "video": "",
-        "video_hosted": "shopify://files/videos/BRAND VIDEO-Inkkas (12.3) - YT No VO.mp4",
+        "video_hosted": "shopify:\/\/files\/videos\/BRAND VIDEO-Inkkas (12.3) - YT No VO.mp4",
         "video_autoplay": true,
         "aspect_ratio": "16-9",
         "disable_top_spacing": false,
@@ -100,14 +73,14 @@
         "image_pAw6HH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/TREE_LOGOS_X2-about_page_2b822c55-00b1-4dfb-86f1-9cc7f4d0c4ea.png",
+            "image": "shopify:\/\/shop_images\/TREE_LOGOS_X2-about_page_2b822c55-00b1-4dfb-86f1-9cc7f4d0c4ea.png",
             "retina": true
           }
         },
         "text_aPJiCC": {
           "type": "text",
           "settings": {
-            "text": "<p>Inkkas plants one tree for every shoe purchase as part of the <em><strong>One Shoe One Tree Project</strong></em><em> </em>with <a href=\"https://trees.org/\" target=\"_blank\" title=\"https://trees.org/\">Trees For The Future (trees.org).</a> Over the years, this has amounted to more than <strong>445,000 trees</strong>! The globe as our muse, we are committed to improving our environment and enriching our communities through environmental awareness and action. Together with your help, we are working to reforest the world and develop more sustainable agricultural infrastructure for communities around the globe. Thank you!</p>",
+            "text": "<p>Inkkas plants one tree for every shoe purchase as part of the <em><strong>One Shoe One Tree Project<\/strong><\/em><em> <\/em>with <a href=\"https:\/\/trees.org\/\" target=\"_blank\" title=\"https:\/\/trees.org\/\">Trees For The Future (trees.org).<\/a> Over the years, this has amounted to more than <strong>445,000 trees<\/strong>! The globe as our muse, we are committed to improving our environment and enriching our communities through environmental awareness and action. Together with your help, we are working to reforest the world and develop more sustainable agricultural infrastructure for communities around the globe. Thank you!<\/p>",
             "description_size": "small"
           }
         }
@@ -117,7 +90,7 @@
         "text_aPJiCC"
       ],
       "settings": {
-        "image": "shopify://shop_images/Planting-trees.jpg",
+        "image": "shopify:\/\/shop_images\/Planting-trees.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": false,
@@ -141,7 +114,7 @@
           "type": "button",
           "settings": {
             "button_text": "SHOP ALL COLLECTIONS",
-            "button_link": "shopify://collections",
+            "button_link": "shopify:\/\/collections",
             "button_outline": false
           }
         }
@@ -152,7 +125,7 @@
       "disabled": true,
       "settings": {
         "section_width": "full-width-row-full",
-        "image": "shopify://shop_images/footwear-connects-the-world.png",
+        "image": "shopify:\/\/shop_images\/footwear-connects-the-world.png",
         "image_parallax": false,
         "desktop_height": "desktop-height-550",
         "mobile_height": "mobile-height-350",
@@ -181,7 +154,7 @@
           "type": "text",
           "settings": {
             "text": "WOMEN'S",
-            "link": "shopify://collections/womens-collection-all-shoes",
+            "link": "shopify:\/\/collections\/womens-collection-all-shoes",
             "outline_text": false
           }
         },
@@ -189,7 +162,7 @@
           "type": "text",
           "settings": {
             "text": "MEN'S",
-            "link": "shopify://collections/mens-shoes",
+            "link": "shopify:\/\/collections\/mens-shoes",
             "outline_text": true
           }
         },
@@ -197,7 +170,7 @@
           "type": "text",
           "settings": {
             "text": "KIDS",
-            "link": "shopify://collections/kids",
+            "link": "shopify:\/\/collections\/kids",
             "outline_text": false
           }
         },
@@ -205,7 +178,7 @@
           "type": "text",
           "settings": {
             "text": "ACCESSORIES",
-            "link": "shopify://collections/all-accessories",
+            "link": "shopify:\/\/collections\/all-accessories",
             "outline_text": true
           }
         },
@@ -213,7 +186,7 @@
           "type": "text",
           "settings": {
             "text": "VEGAN",
-            "link": "shopify://collections/vegan-products",
+            "link": "shopify:\/\/collections\/vegan-products",
             "outline_text": false
           }
         },
@@ -221,7 +194,7 @@
           "type": "text",
           "settings": {
             "text": "EVERYTHING",
-            "link": "shopify://collections/all-products",
+            "link": "shopify:\/\/collections\/all-products",
             "outline_text": true
           }
         }
@@ -314,42 +287,42 @@
         "0e695f58-8205-43ec-8762-4137844e2d33": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ScreenShot2024-04-05at5.06.36PM.png",
+            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-05at5.06.36PM.png",
             "subheading": "",
-            "title": "STEP IN",
+            "title": "STEP INTO",
             "text": "",
-            "link_label": "See what's new",
-            "link": "shopify://collections/new-arrivals",
+            "link_label": "what's new",
+            "link": "shopify:\/\/collections\/new-arrivals",
             "use_text_button": false,
-            "block_link": "shopify://collections/new-arrivals",
+            "block_link": "shopify:\/\/collections\/new-arrivals",
             "product_list": []
           }
         },
         "0d86c2a6-f30c-40b5-9391-99b5bb12959b": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Inkkas_Shoes.png",
+            "image": "shopify:\/\/shop_images\/Inkkas_Shoes.png",
             "subheading": "",
-            "title": "AND SHARE",
+            "title": "THE WORLD",
             "text": "",
-            "link_label": "See Bestsellers",
-            "link": "shopify://collections/best-sellers",
+            "link_label": "Bestsellers",
+            "link": "shopify:\/\/collections\/best-sellers",
             "use_text_button": false,
-            "block_link": "shopify://collections/best-sellers",
+            "block_link": "shopify:\/\/collections\/best-sellers",
             "product_list": []
           }
         },
         "image_QLzdny": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/TESSE-LACE-UP-SS220205-GROUP-BAILA-SLIP-ON-SS220301-W1A1128.jpg",
+            "image": "shopify:\/\/shop_images\/TESSE-LACE-UP-SS220205-GROUP-BAILA-SLIP-ON-SS220301-W1A1128.jpg",
             "subheading": "",
-            "title": "THE HAPPINESS!",
+            "title": "WITH US",
             "text": "",
-            "link_label": "See All",
-            "link": "shopify://collections/all-products",
+            "link_label": "Shop All",
+            "link": "shopify:\/\/collections\/all-products",
             "use_text_button": false,
-            "block_link": "shopify://collections/all-products",
+            "block_link": "shopify:\/\/collections\/all-products",
             "product_list": []
           }
         }
@@ -397,7 +370,7 @@
     }
   },
   "order": [
-    "166161901464a25e50",
+    "image_banner_contain_NNhdmA",
     "16616191162185f622",
     "video_HXbYpW",
     "image_with_text_i7wJkM",

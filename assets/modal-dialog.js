@@ -52,8 +52,9 @@ const observer = new MutationObserver(function(mutations) {
                       //your custom scripts
                       
                       targetContainer.appendChild(domElement[0]);
-                     if(domElement[0].querySelector('.preorder-me-button').style.display === 'none'){
-                        domElement[0].style.display = 'none';
+                   
+                     if(domElement[0].querySelector('button').style.display === 'none'){
+                       // domElement[0].style.display = 'none';
                       }
                       //domElement[0].style.flex = 1
                   //domElement[0].style.width = '83%';
