@@ -15,7 +15,7 @@ how-itlooks-o-nyou .swiper-slide{
 how-itlooks-o-nyou .swiper-slide:after{
   display: block;
     content: "";
-    padding-bottom: calc(100% /(.65));
+    padding-bottom: calc(100% /(.8));
 }
 how-itlooks-o-nyou .swiper-slide video, how-itlooks-o-nyou .swiper-slide img{
   position:absolute;
@@ -65,6 +65,13 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
 .swiper-slide.active .play-video{
   opacity:0;
 }
+@media(max-width:768px){
+  how-itlooks-o-nyou .swiper-slide:after{
+    display: block;
+      content: "";
+      padding-bottom:322px;
+  }
+}
 {%- endstyle -%}
 
 <div class="how-looks-on-you-wrp section-{{ section.id }} ">
@@ -88,7 +95,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
             
                   <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        {% if block.settings.image_1 != blank %}
+                        {% if block.settings.image_1 != blank or block.settings.link_to_video_1 != blank %} 
                           <div class="swiper-slide">
                               {% if block.settings.link_to_video_1 == blank %}
                                 {% if block.settings.image_1 != blank %}
@@ -115,7 +122,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
                               {% endif %}
                           </div>
                         {% endif %}
-                        {% if block.settings.image_2 != blank %}
+                        {% if block.settings.image_2 != blank or block.settings.link_to_video_2 != blank %}
                           <div class="swiper-slide">
                             {% if block.settings.link_to_video_2 == blank %}
                               {% if block.settings.image_2 != blank %}
@@ -142,7 +149,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
                             {% endif %}
                           </div>
                         {% endif %}
-                        {% if block.settings.image_3 != blank %}
+                        {% if block.settings.image_3 != blank or block.settings.link_to_video_3 != blank %}
                           <div class="swiper-slide">
                             {% if block.settings.link_to_video_3 == blank %}
                               {% if block.settings.image_3 != blank %}
@@ -169,7 +176,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
                             {% endif %}
                           </div>
                         {% endif %}
-                        {% if block.settings.image_4 != blank %}
+                        {% if block.settings.image_4 != blank or block.settings.link_to_video_4 != blank %}
                           <div class="swiper-slide">
                             {% if block.settings.link_to_video_4 == blank %}
                               {% if block.settings.image_4 != blank %}
@@ -196,7 +203,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
                             {% endif %}
                           </div>
                         {% endif %}
-                        {% if block.settings.image_5 != blank %}
+                        {% if block.settings.image_5 != blank or block.settings.image_5 != blank  %}
                           <div class="swiper-slide">
                             {% if block.settings.link_to_video_5 == blank %}
                               {% if block.settings.image_5 != blank %}
@@ -223,7 +230,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
                             {% endif %}
                           </div>
                         {% endif %}
-                        {% if block.settings.image_6 != blank %}
+                        {% if block.settings.image_6 != blank or block.settings.link_to_video_6 != blank %}
                           <div class="swiper-slide">
                             {% if block.settings.link_to_video_6 == blank %}
                               {% if block.settings.image_6 != blank %}
@@ -250,7 +257,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
                             {% endif %}
                           </div>
                         {% endif %}
-                        {% if block.settings.image_7 != blank %}
+                        {% if block.settings.image_7 != blank or block.settings.link_to_video_7 != blank %}
                           <div class="swiper-slide">
                             {% if block.settings.link_to_video_7 == blank %}
                               {% if block.settings.image_7 != blank %}
@@ -277,7 +284,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
                             {% endif %}
                           </div>
                         {% endif %}
-                        {% if block.settings.image_8 != blank %}
+                        {% if block.settings.image_8 != blank or block.settings.link_to_video_8 != blank %}
                           <div class="swiper-slide">
                             {% if block.settings.link_to_video_8 == blank %}
                               {% if block.settings.image_8 != blank %}
@@ -304,7 +311,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
                             {% endif %}
                           </div>
                         {% endif %}
-                        {% if block.settings.image_9 != blank %}
+                        {% if block.settings.image_9 != blank or block.settings.link_to_video_9 != blank %}
                           <div class="swiper-slide">
                             {% if block.settings.link_to_video_9 == blank %}
                               {% if block.settings.image_9 != blank %}
@@ -331,7 +338,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
                             {% endif %}
                           </div>
                         {% endif %}
-                        {% if block.settings.image_10 != blank %}
+                        {% if block.settings.image_10 != blank or block.settings.link_to_video_10 != blank %}
                           <div class="swiper-slide">
                             {% if block.settings.link_to_video_10 == blank %}
                               {% if block.settings.image_10 != blank %}
@@ -358,7 +365,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
                             {% endif %}
                           </div>
                         {% endif %}
-                        {% if block.settings.image_11 != blank %}
+                        {% if block.settings.image_11 != blank or block.settings.link_to_video_11 != blank %}
                           <div class="swiper-slide">
                             {% if block.settings.link_to_video_11 == blank %}
                               {% if block.settings.image_11 != blank %}
@@ -385,7 +392,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
                             {% endif %}
                           </div>
                         {% endif %}
-                        {% if block.settings.image_12 != blank %}
+                        {% if block.settings.image_12 != blank or block.settings.link_to_video_12 != blank %}
                           <div class="swiper-slide">
                             {% if block.settings.link_to_video_12 == blank %}
                               {% if block.settings.image_12 != blank %}
@@ -412,7 +419,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
                             {% endif %}
                           </div>
                         {% endif %}
-                        {% if block.settings.image_13 != blank %}
+                        {% if block.settings.image_13 != blank or block.settings.link_to_video_13 != blank %}
                           <div class="swiper-slide">
                             {% if block.settings.link_to_video_13 == blank %}
                               {% if block.settings.image_13 != blank %}
@@ -439,7 +446,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
                             {% endif %}
                           </div>
                         {% endif %}
-                        {% if block.settings.image_14 != blank %}
+                        {% if block.settings.image_14 != blank or block.settings.link_to_video_14 != blank %}
                           <div class="swiper-slide">
                             {% if block.settings.link_to_video_14 == blank %}
                               {% if block.settings.image_14 != blank %}
@@ -466,7 +473,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
                             {% endif %}
                           </div>
                         {% endif %}
-                        {% if block.settings.image_15 != blank %}
+                        {% if block.settings.image_15 != blank or block.settings.link_to_video_15 != blank %}
                           <div class="swiper-slide">
                             {% if block.settings.link_to_video_15 == blank %}
                               {% if block.settings.image_14 != blank %}
@@ -512,7 +519,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active{
 
     </div>
 
-<script>
+<script> 
 
 
   
