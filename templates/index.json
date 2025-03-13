@@ -1,16 +1,5 @@
 {
   "sections": {
-    "image_banner_contain_ReqUVD": {
-      "type": "image-banner-contain",
-      "disabled": true,
-      "settings": {
-        "image_contain": false,
-        "button_text": "Join the fun!",
-        "button_link": "https:\/\/inkkas.com\/pages\/shoe-art-contest",
-        "image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-2.1.gif",
-        "mobile_image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-MOBILE-2.11_95dd6298-487e-4f31-b82f-dfcb0631bc2f.gif"
-      }
-    },
     "vertical_slideshow_3pEfhq": {
       "type": "vertical-slideshow",
       "blocks": {
@@ -38,13 +27,318 @@
             "button_2_link": "shopify:\/\/collections\/mens-shoes",
             "button_2_outline": false
           }
+        },
+        "slide_AUnp9X": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "slide_link": "shopify:\/\/collections\/best-sellers",
+            "video_background": true,
+            "video_hosted": "shopify:\/\/files\/videos\/TREK-SLIP-ON-SS200306-GIF-VIDEO-1.mp4",
+            "subheading": "HANDCRAFTED ARTFUL GLOBAL",
+            "heading": "Good for the Sole",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop Women",
+            "button_1_link": "shopify:\/\/collections\/womens-collection-all-shoes",
+            "button_1_outline": false,
+            "button_2_text": "Shop Men",
+            "button_2_link": "shopify:\/\/collections\/mens-shoes",
+            "button_2_outline": false
+          }
         }
       },
       "block_order": [
-        "slide_A6geiP"
+        "slide_A6geiP",
+        "slide_AUnp9X"
       ],
       "settings": {
         "dots": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "slideshow_piCd7r": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_n7ad6k": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-subs.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-MOBILE-sub1.1.gif",
+            "slide_link": "shopify:\/\/collections\/shoe-art-contest",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "enter for a chance to win",
+            "button_1_link": "shopify:\/\/pages\/shoe-art-contest",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_VnKwMb": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02-27-25-Spring-Clearance-f1.1.gif",
+            "mobile_image": "shopify:\/\/shop_images\/02-27-25-Spring-Clearance-MOBILE-f1.1.gif",
+            "slide_link": "shopify:\/\/collections\/clearance",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/clearance",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_wFUFKh": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-D1.1.gif",
+            "mobile_image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-MOBILE-D1.1_f392817d-166d-47f8-8543-47c9dcc90453.gif",
+            "slide_link": "shopify:\/\/collections\/shoe-art-contest",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "enter for a chance to win",
+            "button_1_link": "shopify:\/\/pages\/shoe-art-contest",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_EB7NjT": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/09-13-2024-Clearance-SALE-50-1.1.gif",
+            "mobile_image": "shopify:\/\/shop_images\/09-13-2024-Clearance-SALE-MOBILE-50-1.1.gif",
+            "slide_link": "shopify:\/\/collections\/clearance",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop Sale",
+            "button_1_link": "shopify:\/\/collections\/clearance",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_AAy89r": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02-01-25-GENERAL_from_Ads-Andes_Camping_Boot-handcrafte-DESKTOP.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/02-01-25-GENERAL_from_Ads-Andes_Camping_Boot-handcrafted-MOBILE.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/collections\/best-sellers",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_gK37Q4": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02-02-25-GENERAL_from_Ads-Monterey_Vegan_Trekk-one-of-a-kind-DESKTOP.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/02-02-25-GENERAL_from_Ads-Monterey_Vegan_Trekk-one-of-a-kind-MOBILE.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "shop",
+            "button_1_link": "shopify:\/\/collections\/best-sellers",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_Kf4tyf": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02-02-25-GENERAL_from_Ads-Andes_Joggers-Good_news-DESKTOP.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/02-02-25-GENERAL_from_Ads-Andes_Joggers-Good_news-MOBILE.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "SHOP",
+            "button_1_link": "shopify:\/\/collections\/best-sellers",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_zzgXPt": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/01-01-25-EVERGREEN-B-1.4-Chanterelle-Trekk.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1.16.25-Web-Graphics-ALL-THE-TIME-BOOTS.jpg",
+            "slide_link": "shopify:\/\/collections\/trekk-boots",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop trekks",
+            "button_1_link": "shopify:\/\/collections\/trekk-boots",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_KWpTKD": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/01-01-25-EVERGREEN-B-1.5-Rooster_Camping_Boot.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Ads-Spirit_Bear_Trekk-boots_for_everyone-1080x1920.jpg",
+            "slide_link": "shopify:\/\/collections\/all-boots",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop boots",
+            "button_1_link": "shopify:\/\/collections\/all-boots",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_n7ad6k",
+        "slide_VnKwMb",
+        "slide_wFUFKh",
+        "slide_EB7NjT",
+        "slide_AAy89r",
+        "slide_gK37Q4",
+        "slide_Kf4tyf",
+        "slide_zzgXPt",
+        "slide_KWpTKD"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "transition": "fade",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
@@ -181,280 +475,23 @@
         "disable_bottom_spacing": false
       }
     },
-    "slideshow_piCd7r": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_VnKwMb": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/02-27-25-Spring-Clearance-f1.1.gif",
-            "mobile_image": "shopify:\/\/shop_images\/02-27-25-Spring-Clearance-MOBILE-f1.1.gif",
-            "slide_link": "shopify:\/\/collections\/clearance",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop Now",
-            "button_1_link": "shopify:\/\/collections\/clearance",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_wFUFKh": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-D1.1.gif",
-            "mobile_image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-MOBILE-D1.1_f392817d-166d-47f8-8543-47c9dcc90453.gif",
-            "slide_link": "shopify:\/\/collections\/shoe-art-contest",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "enter for a chance to win",
-            "button_1_link": "shopify:\/\/pages\/shoe-art-contest",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_EB7NjT": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/09-13-2024-Clearance-SALE-50-1.1.gif",
-            "mobile_image": "shopify:\/\/shop_images\/09-13-2024-Clearance-SALE-MOBILE-50-1.1.gif",
-            "slide_link": "shopify:\/\/collections\/clearance",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop Sale",
-            "button_1_link": "shopify:\/\/collections\/clearance",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_AAy89r": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/02-01-25-GENERAL_from_Ads-Andes_Camping_Boot-handcrafte-DESKTOP.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/02-01-25-GENERAL_from_Ads-Andes_Camping_Boot-handcrafted-MOBILE.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify:\/\/collections\/best-sellers",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_n7ad6k": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-subs.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-MOBILE-sub1.1.gif",
-            "slide_link": "shopify:\/\/collections\/shoe-art-contest",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "enter for a chance to win",
-            "button_1_link": "shopify:\/\/pages\/shoe-art-contest",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_gK37Q4": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/02-02-25-GENERAL_from_Ads-Monterey_Vegan_Trekk-one-of-a-kind-DESKTOP.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/02-02-25-GENERAL_from_Ads-Monterey_Vegan_Trekk-one-of-a-kind-MOBILE.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "shop",
-            "button_1_link": "shopify:\/\/collections\/best-sellers",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_Kf4tyf": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/02-02-25-GENERAL_from_Ads-Andes_Joggers-Good_news-DESKTOP.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/02-02-25-GENERAL_from_Ads-Andes_Joggers-Good_news-MOBILE.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "SHOP",
-            "button_1_link": "shopify:\/\/collections\/best-sellers",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_zzgXPt": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/01-01-25-EVERGREEN-B-1.4-Chanterelle-Trekk.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/1.16.25-Web-Graphics-ALL-THE-TIME-BOOTS.jpg",
-            "slide_link": "shopify:\/\/collections\/trekk-boots",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop trekks",
-            "button_1_link": "shopify:\/\/collections\/trekk-boots",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_KWpTKD": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/01-01-25-EVERGREEN-B-1.5-Rooster_Camping_Boot.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Ads-Spirit_Bear_Trekk-boots_for_everyone-1080x1920.jpg",
-            "slide_link": "shopify:\/\/collections\/all-boots",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop boots",
-            "button_1_link": "shopify:\/\/collections\/all-boots",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_VnKwMb",
-        "slide_wFUFKh",
-        "slide_EB7NjT",
-        "slide_AAy89r",
-        "slide_n7ad6k",
-        "slide_gK37Q4",
-        "slide_Kf4tyf",
-        "slide_zzgXPt",
-        "slide_KWpTKD"
-      ],
+    "image_banner_contain_ReqUVD": {
+      "type": "image-banner-contain",
       "settings": {
-        "desktop_height": "desktop-height-image",
-        "mobile_height": "mobile-height-image",
-        "full_width": true,
-        "autoplay": true,
-        "autoplay_length": 5,
-        "transition": "fade",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "image_contain": false,
+        "button_text": "enter for a chance to win $300",
+        "button_link": "https:\/\/inkkas.com\/pages\/shoe-art-contest",
+        "image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-subs.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-MOBILE-sub1.1.gif"
+      }
+    },
+    "spacer_aKJJAR": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 15,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
       }
     },
     "collection_list_ypFaFe": {
@@ -465,12 +502,12 @@
         "description": "<p><em>Put your best foot forward in any of our all-season, ultra-comfy styles. Scroll to view more.<\/em><\/p>",
         "full_width": true,
         "collection_list": [
-          "joggers",
           "trekk-boots",
-          "booties",
+          "joggers",
+          "sandals",
+          "slip-ons",
           "camping-boots",
           "western-boots",
-          "slip-ons",
           "runners",
           "high-tops-and-low-tops"
         ],
@@ -1432,16 +1469,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "spacer_aKJJAR": {
-      "type": "spacer",
-      "disabled": true,
-      "settings": {
-        "spacer_mobile": 50,
-        "spacer_desktop": 50,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
     "rich_text_fVXtgE": {
       "type": "rich-text",
       "blocks": {
@@ -1679,7 +1706,7 @@
         "subheading_wznWRb": {
           "type": "subheading",
           "settings": {
-            "text": "HANDCRAFTED ARTFUL GLOBAL FOOTWEAR"
+            "text": "HANDCRAFTED ARTFUL GLOBAL"
           }
         },
         "heading_Nx6xAb": {
@@ -1939,19 +1966,19 @@
     }
   },
   "order": [
-    "image_banner_contain_ReqUVD",
     "vertical_slideshow_3pEfhq",
+    "slideshow_piCd7r",
     "rich_text_kdhNBH",
     "featured_collection_XENVwP",
     "rich_text_KC4Kf7",
-    "slideshow_piCd7r",
+    "image_banner_contain_ReqUVD",
+    "spacer_aKJJAR",
     "collection_list_ypFaFe",
     "rich_text_PxDcMg",
     "gallery_nUbVgE",
     "image_banner_contain_qLCXDw",
     "gallery_HMqiHT",
     "collection_list_aLNXqY",
-    "spacer_aKJJAR",
     "rich_text_fVXtgE",
     "customer_reviews_LkgfCk",
     "rich_text_3HUqXb",

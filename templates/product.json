@@ -88,7 +88,7 @@
         "essential_countdown_app_block_fzdFNN": {
           "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
-            "id": "clr3iz2hv4877681gx19buu411u"
+            "id": "clrtddqb71480131mqyb88zx1mk"
           }
         },
         "essential_announcer_app_block_CEF9Vm": {
@@ -559,6 +559,300 @@
         "disable_bottom_spacing": false
       }
     },
+    "how_it_looks_on_you_wEwKFG": {
+      "type": "how-it-looks-on-you",
+      "blocks": {
+        "column_xRrxVT": {
+          "type": "column",
+          "settings": {
+            "tag": "How It Looks: Camping Boots",
+            "link_to_video_1": "",
+            "link_to_video_2": "",
+            "link_to_video_3": "",
+            "link_to_video_4": "",
+            "link_to_video_5": "",
+            "link_to_video_6": "",
+            "link_to_video_7": "",
+            "link_to_video_8": "",
+            "link_to_video_9": "",
+            "link_to_video_10": "",
+            "link_to_video_11": "",
+            "link_to_video_12": "",
+            "link_to_video_13": "",
+            "link_to_video_14": "",
+            "link_to_video_15": ""
+          }
+        },
+        "column_7FpERN": {
+          "type": "column",
+          "settings": {
+            "tag": "How It Looks: Trekk Boots",
+            "link_to_video_1": "",
+            "link_to_video_2": "",
+            "link_to_video_3": "",
+            "link_to_video_4": "",
+            "link_to_video_5": "",
+            "link_to_video_6": "",
+            "link_to_video_7": "",
+            "link_to_video_8": "",
+            "link_to_video_9": "",
+            "link_to_video_10": "",
+            "link_to_video_11": "",
+            "link_to_video_12": "",
+            "link_to_video_13": "",
+            "link_to_video_14": "",
+            "link_to_video_15": ""
+          }
+        },
+        "column_negnAN": {
+          "type": "column",
+          "settings": {
+            "tag": "How It Looks: Booties",
+            "link_to_video_1": "",
+            "link_to_video_2": "",
+            "link_to_video_3": "",
+            "link_to_video_4": "",
+            "link_to_video_5": "",
+            "link_to_video_6": "",
+            "link_to_video_7": "",
+            "link_to_video_8": "",
+            "link_to_video_9": "",
+            "link_to_video_10": "",
+            "link_to_video_11": "",
+            "link_to_video_12": "",
+            "link_to_video_13": "",
+            "link_to_video_14": "",
+            "link_to_video_15": ""
+          }
+        },
+        "column_jXPAe9": {
+          "type": "column",
+          "settings": {
+            "tag": "How It Looks: Western Boots",
+            "link_to_video_1": "",
+            "link_to_video_2": "",
+            "link_to_video_3": "",
+            "link_to_video_4": "",
+            "link_to_video_5": "",
+            "link_to_video_6": "",
+            "link_to_video_7": "",
+            "link_to_video_8": "",
+            "link_to_video_9": "",
+            "link_to_video_10": "",
+            "link_to_video_11": "",
+            "link_to_video_12": "",
+            "link_to_video_13": "",
+            "link_to_video_14": "",
+            "link_to_video_15": ""
+          }
+        },
+        "column_TbRQwY": {
+          "type": "column",
+          "settings": {
+            "tag": "How It Looks: Joggers",
+            "link_to_video_1": "",
+            "link_to_video_2": "",
+            "link_to_video_3": "",
+            "link_to_video_4": "",
+            "link_to_video_5": "",
+            "link_to_video_6": "",
+            "link_to_video_7": "",
+            "link_to_video_8": "",
+            "link_to_video_9": "",
+            "link_to_video_10": "",
+            "link_to_video_11": "",
+            "link_to_video_12": "",
+            "link_to_video_13": "",
+            "link_to_video_14": "",
+            "link_to_video_15": ""
+          }
+        },
+        "column_FEFANz": {
+          "type": "column",
+          "settings": {
+            "tag": "How It Looks: Runners",
+            "link_to_video_1": "",
+            "link_to_video_2": "",
+            "link_to_video_3": "",
+            "link_to_video_4": "",
+            "link_to_video_5": "",
+            "link_to_video_6": "",
+            "link_to_video_7": "",
+            "link_to_video_8": "",
+            "link_to_video_9": "",
+            "link_to_video_10": "",
+            "link_to_video_11": "",
+            "link_to_video_12": "",
+            "link_to_video_13": "",
+            "link_to_video_14": "",
+            "link_to_video_15": ""
+          }
+        },
+        "column_RUHePf": {
+          "type": "column",
+          "settings": {
+            "tag": "How It Looks: Slip Ons",
+            "link_to_video_1": "",
+            "link_to_video_2": "",
+            "link_to_video_3": "",
+            "link_to_video_4": "",
+            "link_to_video_5": "",
+            "link_to_video_6": "",
+            "link_to_video_7": "",
+            "link_to_video_8": "",
+            "link_to_video_9": "",
+            "link_to_video_10": "",
+            "link_to_video_11": "",
+            "link_to_video_12": "",
+            "link_to_video_13": "",
+            "link_to_video_14": "",
+            "link_to_video_15": ""
+          }
+        },
+        "column_qamMJP": {
+          "type": "column",
+          "settings": {
+            "tag": "How It Looks: Low Tops",
+            "link_to_video_1": "",
+            "link_to_video_2": "",
+            "link_to_video_3": "",
+            "link_to_video_4": "",
+            "link_to_video_5": "",
+            "link_to_video_6": "",
+            "link_to_video_7": "",
+            "link_to_video_8": "",
+            "link_to_video_9": "",
+            "link_to_video_10": "",
+            "link_to_video_11": "",
+            "link_to_video_12": "",
+            "link_to_video_13": "",
+            "link_to_video_14": "",
+            "link_to_video_15": ""
+          }
+        },
+        "column_HQyE6f": {
+          "type": "column",
+          "settings": {
+            "tag": "How It Looks: High Tops",
+            "link_to_video_1": "",
+            "link_to_video_2": "",
+            "link_to_video_3": "",
+            "link_to_video_4": "",
+            "link_to_video_5": "",
+            "link_to_video_6": "",
+            "link_to_video_7": "",
+            "link_to_video_8": "",
+            "link_to_video_9": "",
+            "link_to_video_10": "",
+            "link_to_video_11": "",
+            "link_to_video_12": "",
+            "link_to_video_13": "",
+            "link_to_video_14": "",
+            "link_to_video_15": ""
+          }
+        },
+        "column_qKwitV": {
+          "type": "column",
+          "settings": {
+            "tag": "How It Looks: Buckle Sandals",
+            "link_to_video_1": "",
+            "link_to_video_2": "",
+            "link_to_video_3": "",
+            "link_to_video_4": "",
+            "link_to_video_5": "",
+            "link_to_video_6": "",
+            "link_to_video_7": "",
+            "link_to_video_8": "",
+            "link_to_video_9": "",
+            "link_to_video_10": "",
+            "link_to_video_11": "",
+            "link_to_video_12": "",
+            "link_to_video_13": "",
+            "link_to_video_14": "",
+            "link_to_video_15": ""
+          }
+        },
+        "column_NPKkft": {
+          "type": "column",
+          "settings": {
+            "tag": "How It Looks: Crossbody Bags",
+            "link_to_video_1": "",
+            "link_to_video_2": "",
+            "link_to_video_3": "",
+            "link_to_video_4": "",
+            "link_to_video_5": "",
+            "link_to_video_6": "",
+            "link_to_video_7": "",
+            "link_to_video_8": "",
+            "link_to_video_9": "",
+            "link_to_video_10": "",
+            "link_to_video_11": "",
+            "link_to_video_12": "",
+            "link_to_video_13": "",
+            "link_to_video_14": "",
+            "link_to_video_15": ""
+          }
+        },
+        "column_RCqFJe": {
+          "type": "column",
+          "settings": {
+            "tag": "How It Looks: Backpacks",
+            "link_to_video_1": "",
+            "link_to_video_2": "",
+            "link_to_video_3": "",
+            "link_to_video_4": "",
+            "link_to_video_5": "",
+            "link_to_video_6": "",
+            "link_to_video_7": "",
+            "link_to_video_8": "",
+            "link_to_video_9": "",
+            "link_to_video_10": "",
+            "link_to_video_11": "",
+            "link_to_video_12": "",
+            "link_to_video_13": "",
+            "link_to_video_14": "",
+            "link_to_video_15": ""
+          }
+        },
+        "column_KNNLQw": {
+          "type": "column",
+          "settings": {
+            "tag": "How It Looks: Duffle Bags\/Weekenders",
+            "link_to_video_1": "",
+            "link_to_video_2": "",
+            "link_to_video_3": "",
+            "link_to_video_4": "",
+            "link_to_video_5": "",
+            "link_to_video_6": "",
+            "link_to_video_7": "",
+            "link_to_video_8": "",
+            "link_to_video_9": "",
+            "link_to_video_10": "",
+            "link_to_video_11": "",
+            "link_to_video_12": "",
+            "link_to_video_13": "",
+            "link_to_video_14": "",
+            "link_to_video_15": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_xRrxVT",
+        "column_7FpERN",
+        "column_negnAN",
+        "column_jXPAe9",
+        "column_TbRQwY",
+        "column_FEFANz",
+        "column_RUHePf",
+        "column_qamMJP",
+        "column_HQyE6f",
+        "column_qKwitV",
+        "column_NPKkft",
+        "column_RCqFJe",
+        "column_KNNLQw"
+      ],
+      "settings": {}
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -667,6 +961,7 @@
     "main-product",
     "logo_list_TEgBMb",
     "text_with_icons_MRQx4U",
+    "how_it_looks_on_you_wEwKFG",
     "product-recommendations",
     "recently_viewed_products_HPzhR7",
     "1662552569cce2536d",
