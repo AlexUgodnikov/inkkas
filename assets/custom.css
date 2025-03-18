@@ -1083,6 +1083,9 @@ preorder-me-button {
 .title-quick-view-wrp .quick-view-title {
   display: none;
 }
+.template-product .product-card-quickview, .template-product .product-card-info .quick-view-title{
+  display:none!important;
+}
 .quick-view-title {
   cursor: pointer;
   padding-right: 3px;
