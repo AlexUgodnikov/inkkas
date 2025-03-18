@@ -59,6 +59,7 @@
         "slide_A6geiP",
         "slide_AUnp9X"
       ],
+      "disabled": true,
       "settings": {
         "dots": true,
         "disable_top_spacing": true,
@@ -68,102 +69,18 @@
     "slideshow_piCd7r": {
       "type": "slideshow",
       "blocks": {
-        "slide_n7ad6k": {
+        "slide_pdcPea": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-subs.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-MOBILE-sub1.1.gif",
-            "slide_link": "shopify:\/\/collections\/shoe-art-contest",
+            "image": "shopify:\/\/shop_images\/LOOMI-BUCKLESANDAL-SS251213-MODEL-HORIZONTAL-4Q2A0041.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/LOOMI-BUCKLESANDAL-SS251213-MODEL-4Q2A0025.jpg",
+            "slide_link": "",
             "video_background": false,
             "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "enter for a chance to win",
-            "button_1_link": "shopify:\/\/pages\/shoe-art-contest",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_VnKwMb": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/02-27-25-Spring-Clearance-f1.1.gif",
-            "mobile_image": "shopify:\/\/shop_images\/02-27-25-Spring-Clearance-MOBILE-f1.1.gif",
-            "slide_link": "shopify:\/\/collections\/clearance",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop Now",
-            "button_1_link": "shopify:\/\/collections\/clearance",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_wFUFKh": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-D1.1.gif",
-            "mobile_image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-MOBILE-D1.1_f392817d-166d-47f8-8543-47c9dcc90453.gif",
-            "slide_link": "shopify:\/\/collections\/shoe-art-contest",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "enter for a chance to win",
-            "button_1_link": "shopify:\/\/pages\/shoe-art-contest",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_EB7NjT": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/09-13-2024-Clearance-SALE-50-1.1.gif",
-            "mobile_image": "shopify:\/\/shop_images\/09-13-2024-Clearance-SALE-MOBILE-50-1.1.gif",
-            "slide_link": "shopify:\/\/collections\/clearance",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
+            "subheading": "NEW SPRING EARLY ACCESS",
+            "heading": "Luminous Collection",
+            "heading_size": "h2",
+            "content": "Now available for preorder",
             "description_size": "medium",
             "content_position": "middle-center",
             "text_alignment": "center",
@@ -171,40 +88,120 @@
             "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0,
             "overlay_gradient": "transparent",
-            "button_1_text": "Shop Sale",
-            "button_1_link": "shopify:\/\/collections\/clearance",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
+            "button_1_text": "Shop all new",
+            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
+            "button_1_outline": false,
+            "button_2_text": "Shop This",
+            "button_2_link": "shopify:\/\/products\/loomi-buckle-sandal",
+            "button_2_outline": true
           }
         },
-        "slide_AAy89r": {
+        "slide_NKUny3": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/02-01-25-GENERAL_from_Ads-Andes_Camping_Boot-handcrafte-DESKTOP.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/02-01-25-GENERAL_from_Ads-Andes_Camping_Boot-handcrafted-MOBILE.jpg",
+            "image": "shopify:\/\/shop_images\/EPI_6063_b53aaa9d-e388-4c78-aa54-2016e9239457.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/IMG_2868.jpg",
             "slide_link": "",
             "video_background": false,
             "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
+            "subheading": "NEW SPRING EARLY ACCESS",
+            "heading": "Luminous Collection",
+            "heading_size": "h2",
+            "content": "Now available for preorder",
             "description_size": "medium",
-            "content_position": "bottom-center",
+            "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
             "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0,
             "overlay_gradient": "transparent",
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify:\/\/collections\/best-sellers",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
+            "button_1_text": "Shop all new",
+            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
+            "button_1_outline": false,
+            "button_2_text": "Shop This",
+            "button_2_link": "shopify:\/\/products\/lundi-trainer",
+            "button_2_outline": true
+          }
+        },
+        "slide_cRW9cR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LUNDI-VEGAN-ACELOWTOP-SS250207-HOLD-HORIZONTAL-4Q2A9758.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/LUNDI-VEGAN-ACELOWTOP-SS250207-HOLD-4Q2A9761.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "NEW SPRING EARLY ACCESS",
+            "heading": "Luminous Collection",
+            "heading_size": "h2",
+            "content": "Now available for preorder",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 10,
+            "overlay_gradient": "",
+            "button_1_text": "Shop all new",
+            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
+            "button_1_outline": false,
+            "button_2_text": "Shop This",
+            "button_2_link": "shopify:\/\/products\/lundi-vegan-ace-low-top",
+            "button_2_outline": true
+          }
+        },
+        "slide_JfDwBG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EPI_5594.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/IMG_2871.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "NEW SPRING EARLY ACCESS",
+            "heading": "Luminous Collection",
+            "heading_size": "h2",
+            "content": "Now available for preorder",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop all new",
+            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
+            "button_1_outline": false,
+            "button_2_text": "Shop This",
+            "button_2_link": "shopify:\/\/products\/lundi-buckle-sandal",
+            "button_2_outline": true
+          }
+        },
+        "slide_m6ix9X": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CORONET-WESTERNBOOT-SS251118-MODEL-HORIZONTAL-EPI_5728.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/CORONET-WESTERNBOOT-SS251118-MODEL-4Q2A0074.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "NEW SPRING EARLY ACCESS",
+            "heading": "Luminous Collection",
+            "heading_size": "h2",
+            "content": "Now available for preorder",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop all new",
+            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
+            "button_1_outline": false,
+            "button_2_text": "Shop This",
+            "button_2_link": "shopify:\/\/products\/coronet-western-boot",
+            "button_2_outline": true
           }
         },
         "slide_gK37Q4": {
@@ -321,23 +318,22 @@
         }
       },
       "block_order": [
-        "slide_n7ad6k",
-        "slide_VnKwMb",
-        "slide_wFUFKh",
-        "slide_EB7NjT",
-        "slide_AAy89r",
+        "slide_pdcPea",
+        "slide_NKUny3",
+        "slide_cRW9cR",
+        "slide_JfDwBG",
+        "slide_m6ix9X",
         "slide_gK37Q4",
         "slide_Kf4tyf",
         "slide_zzgXPt",
         "slide_KWpTKD"
       ],
-      "disabled": true,
       "settings": {
         "desktop_height": "desktop-height-image",
         "mobile_height": "mobile-height-image",
         "full_width": true,
         "autoplay": true,
-        "autoplay_length": 5,
+        "autoplay_length": 3,
         "transition": "fade",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -421,17 +417,17 @@
         "disable_bottom_spacing": false
       }
     },
-    "featured_collection_XENVwP": {
+    "featured_collection_YnfKTJ": {
       "type": "featured-collection",
       "settings": {
-        "heading": "Bestsellers",
+        "heading": "New Spring Collection",
         "heading_left": false,
-        "description": "<p>Discover handcrafted, one-of-a-kind, ultra-comfy shoes designed to inspire your every step.<\/p>",
+        "description": "<p>Discover our newest, handcrafted, one-of-a-kind styles inspired by the luminous & enduring beauty of nature around the world<\/p>",
         "full_width": true,
-        "collection": "best-sellers",
+        "collection": "the-luminous-collection",
         "display_type": "grid",
-        "product_limit": 8,
-        "columns_desktop": 4,
+        "product_limit": 6,
+        "columns_desktop": 3,
         "show_view_all": false,
         "mobile_swipe": false,
         "show_progress_bar": true,
@@ -445,8 +441,8 @@
         "button_TLKyN4": {
           "type": "button",
           "settings": {
-            "link_label": "SHOP ALL BESTSELLERS",
-            "link": "shopify:\/\/collections\/best-sellers",
+            "link_label": "SHOP ALL NEW",
+            "link": "shopify:\/\/collections\/the-luminous-collection",
             "button_outline": false
           }
         },
@@ -475,23 +471,84 @@
         "disable_bottom_spacing": false
       }
     },
+    "featured_collection_XENVwP": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "Bestsellers",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection": "best-sellers",
+        "display_type": "grid",
+        "product_limit": 6,
+        "columns_desktop": 3,
+        "show_view_all": false,
+        "mobile_swipe": false,
+        "show_progress_bar": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_mVd8iG": {
+      "type": "rich-text",
+      "blocks": {
+        "button_kQq3hP": {
+          "type": "button",
+          "settings": {
+            "link_label": "SHOP ALL BESTSELLERS",
+            "link": "shopify:\/\/collections\/best-sellers",
+            "button_outline": false
+          }
+        },
+        "text_4hnBDx": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "button_kQq3hP",
+        "text_4hnBDx"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "grid",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "image_banner_contain_ReqUVD": {
       "type": "image-banner-contain",
+      "disabled": true,
       "settings": {
         "image_contain": false,
         "button_text": "enter for a chance to win $300",
-        "button_link": "https:\/\/inkkas.com\/pages\/shoe-art-contest",
-        "image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-subs.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/02-10-25-5th-shoe-art-contest-MOBILE-sub1.1.gif"
+        "button_link": ""
       }
     },
-    "spacer_aKJJAR": {
-      "type": "spacer",
+    "background_video_V9TVYh": {
+      "type": "background-video",
       "settings": {
-        "spacer_mobile": 15,
-        "spacer_desktop": 50,
-        "border_separator": false,
-        "border_separator_full": false
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-400",
+        "full_width": true,
+        "subheading": "HANDCRAFTED ARTFUL GLOBAL FOOTWEAR",
+        "heading": "Good for the Sole",
+        "text": "Step into the World in Inkkas",
+        "lightbox_button": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_hosted": "shopify:\/\/files\/videos\/BRISBANE-TREKK-AW211017-INFLUENCER-@livielarsen-c073.MP4",
+        "overlay_opacity": 20,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "collection_list_ypFaFe": {
@@ -1732,12 +1789,14 @@
         },
         "space_cAmXTe": {
           "type": "space",
+          "disabled": true,
           "settings": {
             "height": 20
           }
         },
         "button_JRLd4a": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_text": "Join us!",
             "button_link": "shopify:\/\/pages\/brand-ambassador"
@@ -1969,10 +2028,12 @@
     "vertical_slideshow_3pEfhq",
     "slideshow_piCd7r",
     "rich_text_kdhNBH",
-    "featured_collection_XENVwP",
+    "featured_collection_YnfKTJ",
     "rich_text_KC4Kf7",
+    "featured_collection_XENVwP",
+    "rich_text_mVd8iG",
     "image_banner_contain_ReqUVD",
-    "spacer_aKJJAR",
+    "background_video_V9TVYh",
     "collection_list_ypFaFe",
     "rich_text_PxDcMg",
     "gallery_nUbVgE",

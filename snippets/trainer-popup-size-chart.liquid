@@ -1,0 +1,19 @@
+<div class="js-sizechart-lightbox" id="size-chart{{ product.id }}" style="display: none">
+  <div class="size-chart-wrap hi">
+    {% assign product_tags = product.tags | join: ' ' %}
+    {% if product_tags contains 'trainer-size-chart' %}
+      {% for tag in product.tags %}
+        {% if tag contains 'trainer-size-chart' %}
+          {% assign trainer-size-chart = tag | handle | remove: 'meta-size-chart-' %}
+          <h5 class="center hi">{{ pages[trainer-size-chart].title }}</h5>
+          <div class="feature_divider"></div>
+          {{ pages[trainer-size-chart].content | replace: "<a", "<span class='fancybox-custom-link'" | replace: "</a", "</span" }}
+        {% endif %}
+      {% endfor %}
+    {% elsif settings.trainer-size-chart != blank %}
+      <h5 class="center">{{ pages[settings.trainer-size-chart].title }}</h5>
+      <div class="feature_divider"></div>
+      {{ pages[settings.trainer-size-chart].content | replace: "<a", "<span class='fancybox-custom-link'" | replace: "</a", "</span" }}
+    {% endif %}
+  </div>
+</div>

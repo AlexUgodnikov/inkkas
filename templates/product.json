@@ -119,7 +119,7 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "DESCRIPTION",
+            "heading": "Description",
             "show_description": true,
             "description_type": "show_before_ul",
             "content": "",
@@ -134,7 +134,7 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "FEATURES",
+            "heading": "Features",
             "show_description": true,
             "description_type": "show_ul",
             "content": "",
@@ -149,7 +149,7 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "FREE EXCHANGES & EASY RETURNS",
+            "heading": "Free Exchanges & Easy Returns",
             "show_description": false,
             "description_type": "full_description",
             "content": "<p>You can easily return or exchange eligible items for up to 30 days. We also provide one FREE exchange for every pair! View our full return policy <a href=\"\/pages\/return-policy\" title=\"Returns & Exchanges\">here<\/a>.<\/p>",
@@ -164,11 +164,26 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "FREE SHIPPING",
+            "heading": "Free Shipping",
             "show_description": false,
             "description_type": "full_description",
             "content": "<p>FREE U.S. ground shipping on orders of $175 or more is automatically applied at checkout!<\/p>",
             "page": ""
+          }
+        },
+        "collapsible_tab_2_9zwncR2": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "idname": "",
+            "open": false,
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "trainer-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-trainer"
           }
         },
         "collapsible_tab_2_zVrH6p": {
@@ -382,6 +397,21 @@
             "page": "copy-of-care-instructions"
           }
         },
+        "collapsible_tab_2_dihdcH": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "idname": "",
+            "open": false,
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "trainer-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "copy-of-care-instructions"
+          }
+        },
         "collapsible_tab_2_EG6eBL": {
           "type": "collapsible_tab_2",
           "settings": {
@@ -390,7 +420,7 @@
             "show_okendo_reviews": true,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "CUSTOMER REVIEWS",
+            "heading": "Customer Reviews",
             "show_description": false,
             "description_type": "full_description",
             "content": "",
@@ -423,6 +453,7 @@
         "collapsible_tab_2_UkAjaq",
         "collapsible_tab_2_J3DBXz",
         "collapsible_tab_2_xGaHj7",
+        "collapsible_tab_2_9zwncR2",
         "collapsible_tab_2_zVrH6p",
         "collapsible_tab_2_6kFqVT",
         "collapsible_tab_2_ALh97A",
@@ -437,6 +468,7 @@
         "collapsible_tab_2_8enptb",
         "collapsible_tab_2_9zwncR",
         "collapsible_tab_2_nA4Rag",
+        "collapsible_tab_2_dihdcH",
         "collapsible_tab_2_EG6eBL",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
         "custom_liquid_Y3EYmc"
@@ -629,10 +661,15 @@
           "type": "column",
           "settings": {
             "tag": "How It Looks: Western Boots",
+            "image_1": "shopify:\/\/shop_images\/SOCORRO-WESTERN-BOOT-SS231121-GROUP-DESERT-WESTERN-BOOT-SS231123-GROUP-EPI_8710.jpg",
             "link_to_video_1": "",
+            "image_2": "shopify:\/\/shop_images\/SOCORRO-WESTERN-BOOT-SS231121-MODEL-ZOOM-EPI_8009_65d7e6f2-4949-4846-bfd2-2f9441e763e9.jpg",
             "link_to_video_2": "",
+            "image_3": "shopify:\/\/shop_images\/SOCORRO-WESTERN-BOOT-SS231121-MODEL-EPI_7817.jpg",
             "link_to_video_3": "",
+            "image_4": "shopify:\/\/shop_images\/CYPRUS-WESTERN-BOOT-SS231124-MODEL-EPI_7852.jpg",
             "link_to_video_4": "",
+            "image_5": "shopify:\/\/shop_images\/CYPRUS-WESTERN-BOOT-SS231124-MODEL-EPI_7607.jpg",
             "link_to_video_5": "",
             "link_to_video_6": "",
             "link_to_video_7": "",

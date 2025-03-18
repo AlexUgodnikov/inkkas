@@ -7,10 +7,19 @@
       "blocks": {
         "2f7893ee-7b84-4f15-911a-801b94ffa38e": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "text": "Join our annual Shoe Art Contest by March 25 for a chance to win a $300 gift card!",
             "link": "shopify:\/\/pages\/shoe-art-contest"
+          }
+        },
+        "text_brFwER": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "Early Access: NEW Spring Luminous Collection is now available for preorder.🔅",
+            "link": "shopify:\/\/collections\/the-luminous-collection"
           }
         },
         "text_cQEaMB": {
@@ -41,6 +50,7 @@
       },
       "block_order": [
         "2f7893ee-7b84-4f15-911a-801b94ffa38e",
+        "text_brFwER",
         "text_cQEaMB",
         "text_YePgmz",
         "text_VkHJUj"

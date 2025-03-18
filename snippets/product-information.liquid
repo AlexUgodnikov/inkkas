@@ -311,6 +311,14 @@
                               {% render 'western-popup-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
+                       
+                        {% elsif product_tags contains 'trainer-size-chart' %}
+                          {% for tag in product.tags %}
+                            {% if tag contains 'trainer-size-chart' %}
+                              <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                              {% render 'trainer-popup-size-chart', product_id: product.id, product: product %}
+                            {% endif %}
+                          {% endfor %}
                         {% endif %}
                       </div>
                       <!--<button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
@@ -759,7 +767,17 @@
                   {% render 'western-popup-size-chart', product_id: product.id, product: product %}
                 {% endif %}
               {% endfor %}
+
+            {% elsif product_tags contains 'trainer-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'trainer-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Trainers run true to size. Half-size? see the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'trainer-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
             {% endif %}
+
           </div>
           <!--<button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
                           {% render 'svg-icons-inline', icon: block.settings.sizing_guide_icon %}<span>{{ block.settings.sizing_guide_text }}</span></button>-->
