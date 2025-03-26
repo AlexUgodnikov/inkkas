@@ -5,6 +5,7 @@
       "blocks": {
         "slide_A6geiP": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "slide_link": "",
             "video_background": true,
@@ -53,11 +54,92 @@
             "button_2_link": "shopify:\/\/collections\/mens-shoes",
             "button_2_outline": false
           }
+        },
+        "slide_REeriU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-vertical.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-MOBILE-vertical.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop all new",
+            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "shopify:\/\/products\/lundi-vegan-ace-low-top",
+            "button_2_outline": true
+          }
+        },
+        "slide_BNzyap": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-Vertical1.1.gif",
+            "mobile_image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-MOBILE-Vertical1.1.gif",
+            "slide_link": "",
+            "video_background": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop all new",
+            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "shopify:\/\/products\/loomi-buckle-sandal",
+            "button_2_outline": false
+          }
+        },
+        "slide_9Xzdyy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-Vertical-Cyprus-1.1.gif",
+            "mobile_image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-MOBILE-vertical-cyprus-1.1.gif",
+            "slide_link": "",
+            "video_background": false,
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop all new",
+            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "shopify:\/\/products\/loomi-buckle-sandal",
+            "button_2_outline": false
+          }
         }
       },
       "block_order": [
         "slide_A6geiP",
-        "slide_AUnp9X"
+        "slide_AUnp9X",
+        "slide_REeriU",
+        "slide_BNzyap",
+        "slide_9Xzdyy"
       ],
       "disabled": true,
       "settings": {
@@ -69,20 +151,47 @@
     "slideshow_piCd7r": {
       "type": "slideshow",
       "blocks": {
+        "slide_UeKFRY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-7.1.gif",
+            "mobile_image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-MOBILE-7.1.gif",
+            "slide_link": "shopify:\/\/collections\/the-luminous-collection",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop",
+            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "shopify:\/\/products\/loomi-buckle-sandal",
+            "button_2_outline": true
+          }
+        },
         "slide_pdcPea": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LOOMI-BUCKLESANDAL-SS251213-MODEL-HORIZONTAL-4Q2A0041.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/LOOMI-BUCKLESANDAL-SS251213-MODEL-4Q2A0025.jpg",
-            "slide_link": "",
+            "image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-7.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-MOBILE-7.jpg",
+            "slide_link": "shopify:\/\/collections\/the-luminous-collection",
             "video_background": false,
             "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "NEW SPRING EARLY ACCESS",
-            "heading": "Luminous Collection",
+            "subheading": "",
+            "heading": "",
             "heading_size": "h2",
-            "content": "Now available for preorder",
+            "content": "",
             "description_size": "medium",
-            "content_position": "middle-center",
+            "content_position": "bottom-center",
             "text_alignment": "center",
             "content_size": "medium",
             "overlay_color": "rgba(0,0,0,0)",
@@ -91,7 +200,7 @@
             "button_1_text": "Shop all new",
             "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
             "button_1_outline": false,
-            "button_2_text": "Shop This",
+            "button_2_text": "",
             "button_2_link": "shopify:\/\/products\/loomi-buckle-sandal",
             "button_2_outline": true
           }
@@ -104,10 +213,10 @@
             "slide_link": "",
             "video_background": false,
             "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "NEW SPRING EARLY ACCESS",
-            "heading": "Luminous Collection",
+            "subheading": "FRESH AIR + A FRESH PAIR",
+            "heading": "Kick Up Your Feet",
             "heading_size": "h2",
-            "content": "Now available for preorder",
+            "content": "",
             "description_size": "medium",
             "content_position": "middle-center",
             "text_alignment": "center",
@@ -118,23 +227,24 @@
             "button_1_text": "Shop all new",
             "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
             "button_1_outline": false,
-            "button_2_text": "Shop This",
+            "button_2_text": "",
             "button_2_link": "shopify:\/\/products\/lundi-trainer",
             "button_2_outline": true
           }
         },
         "slide_cRW9cR": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/LUNDI-VEGAN-ACELOWTOP-SS250207-HOLD-HORIZONTAL-4Q2A9758.jpg",
             "mobile_image": "shopify:\/\/shop_images\/LUNDI-VEGAN-ACELOWTOP-SS250207-HOLD-4Q2A9761.jpg",
             "slide_link": "",
             "video_background": false,
             "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "NEW SPRING EARLY ACCESS",
-            "heading": "Luminous Collection",
+            "subheading": "New: LUNDI ACE LOW TOPS",
+            "heading": "Versatile, one-of-a-kind, sleek",
             "heading_size": "h2",
-            "content": "Now available for preorder",
+            "content": "",
             "description_size": "medium",
             "content_position": "middle-center",
             "text_alignment": "center",
@@ -142,7 +252,7 @@
             "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 10,
             "overlay_gradient": "",
-            "button_1_text": "Shop all new",
+            "button_1_text": "",
             "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
             "button_1_outline": false,
             "button_2_text": "Shop This",
@@ -152,6 +262,7 @@
         },
         "slide_JfDwBG": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/EPI_5594.jpg",
             "mobile_image": "shopify:\/\/shop_images\/IMG_2871.jpg",
@@ -179,6 +290,7 @@
         },
         "slide_m6ix9X": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/CORONET-WESTERNBOOT-SS251118-MODEL-HORIZONTAL-EPI_5728.jpg",
             "mobile_image": "shopify:\/\/shop_images\/CORONET-WESTERNBOOT-SS251118-MODEL-4Q2A0074.jpg",
@@ -318,6 +430,7 @@
         }
       },
       "block_order": [
+        "slide_UeKFRY",
         "slide_pdcPea",
         "slide_NKUny3",
         "slide_cRW9cR",
@@ -333,7 +446,7 @@
         "mobile_height": "mobile-height-image",
         "full_width": true,
         "autoplay": true,
-        "autoplay_length": 3,
+        "autoplay_length": 4,
         "transition": "fade",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -417,66 +530,12 @@
         "disable_bottom_spacing": false
       }
     },
-    "featured_collection_YnfKTJ": {
-      "type": "featured-collection",
-      "settings": {
-        "heading": "New Spring Collection",
-        "heading_left": false,
-        "description": "<p>Discover our newest, handcrafted, one-of-a-kind styles inspired by the luminous & enduring beauty of nature around the world<\/p>",
-        "full_width": true,
-        "collection": "the-luminous-collection",
-        "display_type": "grid",
-        "product_limit": 6,
-        "columns_desktop": 3,
-        "show_view_all": false,
-        "mobile_swipe": false,
-        "show_progress_bar": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "rich_text_KC4Kf7": {
-      "type": "rich-text",
-      "blocks": {
-        "button_TLKyN4": {
-          "type": "button",
-          "settings": {
-            "link_label": "SHOP ALL NEW",
-            "link": "shopify:\/\/collections\/the-luminous-collection",
-            "button_outline": false
-          }
-        },
-        "text_ynfXQ3": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "custom_liquid": "",
-            "size": "text-size-regular"
-          }
-        }
-      },
-      "block_order": [
-        "button_TLKyN4",
-        "text_ynfXQ3"
-      ],
-      "settings": {
-        "section_width": "grid",
-        "text_width": "grid",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "featured_collection_XENVwP": {
       "type": "featured-collection",
       "settings": {
         "heading": "Bestsellers",
         "heading_left": false,
-        "description": "",
+        "description": "<p>Handcrafted & ultra-comfy with one-of-a-kind global style, these shoes are designed to inspire every step.<\/p>",
         "full_width": true,
         "collection": "best-sellers",
         "display_type": "grid",
@@ -485,7 +544,7 @@
         "show_view_all": false,
         "mobile_swipe": false,
         "show_progress_bar": false,
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
@@ -525,6 +584,60 @@
         "disable_bottom_spacing": false
       }
     },
+    "featured_collection_YnfKTJ": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "✨ New New New ✨",
+        "heading_left": false,
+        "description": "<p>Discover our Luminous Collection, 18 all-new handcrafted styles inspired by the luminous & enduring beauty of nature around the world.<\/p>",
+        "full_width": true,
+        "collection": "the-luminous-collection",
+        "display_type": "grid",
+        "product_limit": 6,
+        "columns_desktop": 3,
+        "show_view_all": false,
+        "mobile_swipe": false,
+        "show_progress_bar": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_KC4Kf7": {
+      "type": "rich-text",
+      "blocks": {
+        "button_TLKyN4": {
+          "type": "button",
+          "settings": {
+            "link_label": "SHOP ALL NEW",
+            "link": "shopify:\/\/collections\/the-luminous-collection",
+            "button_outline": false
+          }
+        },
+        "text_ynfXQ3": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "button_TLKyN4",
+        "text_ynfXQ3"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "grid",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "image_banner_contain_ReqUVD": {
       "type": "image-banner-contain",
       "disabled": true,
@@ -537,7 +650,7 @@
     "background_video_V9TVYh": {
       "type": "background-video",
       "settings": {
-        "desktop_height": "desktop-height-550",
+        "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-400",
         "full_width": true,
         "subheading": "HANDCRAFTED ARTFUL GLOBAL FOOTWEAR",
@@ -1353,17 +1466,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "image_banner_contain_qLCXDw": {
-      "type": "image-banner-contain",
-      "disabled": true,
-      "settings": {
-        "image_contain": false,
-        "button_text": "",
-        "button_link": "shopify:\/\/collections\/best-sellers",
-        "image": "shopify:\/\/shop_images\/1.16.25-Web-Graphics-5STAR.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/1.16.25-Web-Graphics-5STAR.jpg"
-      }
-    },
     "gallery_HMqiHT": {
       "type": "gallery",
       "blocks": {
@@ -1504,14 +1606,14 @@
         "description": "<p><em>Our one-of-a-kind styles celebrate beauty around the world, featuring handwoven global textiles & hand-drawn nature-inspired designs. Scroll to view more. <\/em><\/p>",
         "full_width": true,
         "collection_list": [
-          "travel-inspired",
-          "animal-lovers",
+          "floral-designs",
           "inkkas-essentials",
+          "animal-lovers",
+          "travel-inspired",
           "nature-lovers",
           "stellar",
           "ocean-adventures",
-          "art-lovers",
-          "floral-designs"
+          "art-lovers"
         ],
         "image_ratio": "portrait",
         "layout": "carousel",
@@ -1829,6 +1931,47 @@
         "disable_bottom_spacing": false
       }
     },
+    "collection_tabs_ybtnKV": {
+      "type": "collection-tabs",
+      "blocks": {
+        "collection_dpqnTK": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-collection-all-shoes"
+          }
+        },
+        "collection_f4g4BU": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-shoes"
+          }
+        },
+        "collection_p44BGq": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids"
+          }
+        }
+      },
+      "block_order": [
+        "collection_dpqnTK",
+        "collection_f4g4BU",
+        "collection_p44BGq"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Browse All Womens, Mens & Kids Styles",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "product_limit": 6,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
     "spacer_7tzXQ3": {
       "type": "spacer",
       "settings": {
@@ -2028,16 +2171,15 @@
     "vertical_slideshow_3pEfhq",
     "slideshow_piCd7r",
     "rich_text_kdhNBH",
-    "featured_collection_YnfKTJ",
-    "rich_text_KC4Kf7",
     "featured_collection_XENVwP",
     "rich_text_mVd8iG",
+    "featured_collection_YnfKTJ",
+    "rich_text_KC4Kf7",
     "image_banner_contain_ReqUVD",
     "background_video_V9TVYh",
     "collection_list_ypFaFe",
     "rich_text_PxDcMg",
     "gallery_nUbVgE",
-    "image_banner_contain_qLCXDw",
     "gallery_HMqiHT",
     "collection_list_aLNXqY",
     "rich_text_fVXtgE",
@@ -2045,6 +2187,7 @@
     "rich_text_3HUqXb",
     "scrolling_text_CXQtRH",
     "image_with_text_eKa9qp",
+    "collection_tabs_ybtnKV",
     "spacer_7tzXQ3",
     "rich_text_6mcATc",
     "17132060531886ffe4",

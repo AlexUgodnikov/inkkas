@@ -18,7 +18,7 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "Early Access: NEW Spring Luminous Collection is now available for preorder.🔅",
+            "text": "ALL-NEW Spring Collection is HERE!🔅",
             "link": "shopify:\/\/collections\/the-luminous-collection"
           }
         },
@@ -73,10 +73,9 @@
           "disabled": true,
           "settings": {
             "position": "1",
-            "promo_1_image": "shopify:\/\/shop_images\/09-25-2024-AW24-Harmony-Collectio-MOBILE-comingsoon.jpg",
             "promo_1_heading": "",
-            "promo_1_link_label": "Reserve yours now",
-            "promo_1_link": "shopify:\/\/collections\/new-arrivals",
+            "promo_1_link_label": "",
+            "promo_1_link": "",
             "promo_2_heading": "",
             "promo_2_link_label": "",
             "promo_2_link": "",
@@ -106,7 +105,7 @@
         "mobile_secondary_menu": "secondary-menu",
         "mobile_promo_heading": "",
         "mobile_promo_link_label": "",
-        "mobile_promo_link": "shopify:\/\/collections\/new-arrivals"
+        "mobile_promo_link": ""
       }
     }
   },

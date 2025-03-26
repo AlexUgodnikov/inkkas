@@ -88,11 +88,11 @@
         "essential_countdown_app_block_fzdFNN": {
           "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
-            "id": "clrtddqb71480131mqyb88zx1mk"
+            "id": "clr3iz2hv4877681gx19buu411u"
           }
         },
         "essential_announcer_app_block_CEF9Vm": {
-          "type": "shopify:\/\/apps\/essential-announcement\/blocks\/app-block\/93b5429f-c8d6-4c33-ae14-250fd84f361b",
+          "type": "shopify:\/\/apps\/essential-announcer\/blocks\/app-block\/93b5429f-c8d6-4c33-ae14-250fd84f361b",
           "disabled": true,
           "settings": {
             "id": "9e62d6da-880b-4751-a1ff-390665ae0a3b"
@@ -173,6 +173,7 @@
         },
         "collapsible_tab_2_9zwncR2": {
           "type": "collapsible_tab_2",
+          "disabled": true,
           "settings": {
             "idname": "",
             "open": false,
@@ -345,7 +346,7 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": true,
             "product_tag": "slip-on-size-chart",
-            "heading": "CARE INSTRUCTIONS",
+            "heading": "Care Instructions",
             "show_description": false,
             "description_type": "full_description",
             "content": "",

@@ -292,9 +292,9 @@
             "title": "STEP INTO",
             "text": "",
             "link_label": "what's new",
-            "link": "shopify:\/\/collections\/new-arrivals",
+            "link": "shopify:\/\/collections\/the-luminous-collection",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/new-arrivals",
+            "block_link": "shopify:\/\/collections\/the-luminous-collection",
             "product_list": []
           }
         },
