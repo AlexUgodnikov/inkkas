@@ -1,0 +1,43 @@
+<!-- navidium script start -->
+		<script>
+		const nvdShop = 'phuyupata.myshopify.com';
+		const nvdShopCurrency = '{{ shop.money_format | strip_html }}';
+		const nvdControls = {
+			subtotal_item: '.rebuy-cart__flyout-subtotal-amount span:nth-of-type(2)',
+			CheckoutBtns: '.rebuy-cart__checkout-button, .rebuy-cart__checkout-button *',
+			clickTriggers: '[name="add"], [name="add"] *, .single-add-to-cart-button, .single-add-to-cart-button *, #cart-drawer-toggle, #cart-drawer-toggle *, .rebuy-button, .rebuy-button *, .rebuy-cart__flyout-item-quantity-widget-button, .rebuy-cart__flyout-item-quantity-widget-button *, .rebuy-cart__flyout-item-remove, rebuy-cart__flyout-item-remove *',
+			changeTrigger: 'onchange_input_class_here',
+			cursorControl: '.nvd-mini',
+			showConsoleMessage: false,
+			iosDeviceListener:'click',
+			trackWidget: false,
+			forceClick: true,
+			forceCheckout: true,
+			redirectCheckout: {
+				upsaleOff: true,
+				noProtection: false
+			},
+		nvdInject:{
+			status:true, // Inject nvd-mini div
+			parent:'.rebuy-cart__flyout-footer .rebuy-cart__flyout-actions', // parent class for nvd-mini div
+			container:'.rebuy-cart__checkout-button' // nvd-mini will added before this div/button
+			}
+		}
+		</script>
+		<script  src="https://d10pwglna6up6p.cloudfront.net/navidium-widgets/js/nvd-js-asset.js"></script>
+	<script  src="https://d10pwglna6up6p.cloudfront.net/navidium-widgets/js/nvd-widget-v-jquery.js" defer></script>
+<!-- navidium script end -->
+<script>
+document.addEventListener('rebuy:smartcart.ready', (event) => {
+    setTimeout(nvd_init,300)
+});
+document.addEventListener('rebuy:smartcart.show', (event) => {
+    setTimeout(nvd_init,300)
+});
+</script>
+
+<style>
+  .flex-shrink-0Cstm-ld {
+    margin-right: 10px;
+  }
+</style>
