@@ -57,7 +57,7 @@
  {% if section.settings.button_text != blank %}
     <div class="banner-btn-wrp">
      
-          <a class="button white" href="{{ section.settings.button_link }}" role="button" title="{{ section.settings.button_text | escape }}"><span>{{ section.settings.button_text }}</span></a>
+          <a class="button white {% if section.settings.button_outline %}outline{% endif %}" href="{{ section.settings.button_link }}" role="button" title="{{ section.settings.button_text | escape }}"><span>{{ section.settings.button_text }}</span></a>
     
     </div>  {% endif %}
   </div>
@@ -71,6 +71,12 @@
 				"id": "image_contain",
 				"label": "Image contain",
               "default":false
+			},
+      {
+				"type": "checkbox",
+				"id": "button_outline",
+				"label": "Button outline",
+         "default":false
 			},
 			{
               "type": "text",

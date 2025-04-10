@@ -192,6 +192,33 @@
     "slideshow_piCd7r": {
       "type": "slideshow",
       "blocks": {
+        "slide_M7gjC9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-vertical.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-vertical.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
+            "heading_size": "h1-xlarge",
+            "content": "Add descriptive text for your slide here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "Shop Now",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "slide_UeKFRY": {
           "type": "slide",
           "settings": {
@@ -359,6 +386,7 @@
         }
       },
       "block_order": [
+        "slide_M7gjC9",
         "slide_UeKFRY",
         "slide_pdcPea",
         "slide_NKUny3",
@@ -366,12 +394,11 @@
         "slide_JfDwBG",
         "slide_m6ix9X"
       ],
-      "disabled": true,
       "settings": {
         "desktop_height": "desktop-height-image",
         "mobile_height": "mobile-height-image",
         "full_width": true,
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_length": 4,
         "transition": "fade",
         "disable_top_spacing": true,
@@ -1763,7 +1790,7 @@
           "settings": {
             "title": "",
             "title_color": "",
-            "title_size": 0,
+            "title_size_v2": 0,
             "alignment": "center",
             "margin_top": 0,
             "margin_bottom": 0,
