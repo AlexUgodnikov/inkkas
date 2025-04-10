@@ -495,6 +495,37 @@
         "enable_video_looping": false
       }
     },
+    "custom_liquid_qqHfLi": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "@media (max-width: 768px) {.revirow-title {display: none; }}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"revirow-title \n row full-width-row\"><h2 class=\"h3\">Customer Reviews<\/h2><\/div>\n<style>\n.collapsible-tab-2.customer_reviews {\n  display: none !important;\n}\n@media (max-width: 768px) {\n  .collapsible-tab-2.customer_reviews {\n    display: block !important;\n  }\n}\n<\/style>"
+      }
+    },
+    "17443016606c46dac5": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_widget_bEJLGc": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_widget_bEJLGc"
+      ],
+      "custom_css": [
+        ".okeReviews-widget-holder {max-width: 100% !important;}",
+        ".okeReviews .okeReviews-reviewsWidget,.okeReviews-widget-holder {padding-top: 0;}",
+        ".collapsible-tab-2.customer_reviews {display: none !important;}",
+        "@media (max-width: 768px) {.okeReviews-widget-holder {display: none !important; } .collapsible-tab-2.customer_reviews {display: block !important; }}"
+      ],
+      "settings": {}
+    },
     "logo_list_TEgBMb": {
       "type": "logo-list",
       "blocks": {
@@ -1082,6 +1113,8 @@
     "countdown_banner_Nkdg4Y",
     "breadcrumbs",
     "main-product",
+    "custom_liquid_qqHfLi",
+    "17443016606c46dac5",
     "logo_list_TEgBMb",
     "text_with_icons_MRQx4U",
     "how_it_looks_on_you_wEwKFG",
