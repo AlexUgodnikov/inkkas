@@ -5,7 +5,7 @@
 		const nvdControls = {
 			subtotal_item: '.rebuy-cart__flyout-subtotal-amount span:nth-of-type(2)',
 			CheckoutBtns: '.rebuy-cart__checkout-button, .rebuy-cart__checkout-button *',
-			clickTriggers: '[name="add"], [name="add"] *, .single-add-to-cart-button, .single-add-to-cart-button *, #cart-drawer-toggle, #cart-drawer-toggle *, .rebuy-button, .rebuy-button *, .rebuy-cart__flyout-item-quantity-widget-button, .rebuy-cart__flyout-item-quantity-widget-button *, .rebuy-cart__flyout-item-remove, rebuy-cart__flyout-item-remove *',
+			clickTriggers: '[name="add"], [name="add"] *, .single-add-to-cart-button, .single-add-to-cart-button *, #cart-drawer-toggle, #cart-drawer-toggle *,.rebuy-button,.rebuy-button *,.rebuy-cart__flyout-item-quantity-widget-button,.rebuy-cart__flyout-item-quantity-widget-button *,.rebuy-cart__flyout-item-remove,.rebuy-cart__flyout-item-remove *',
 			changeTrigger: 'onchange_input_class_here',
 			cursorControl: '.nvd-mini',
 			showConsoleMessage: false,
@@ -40,4 +40,8 @@ document.addEventListener('rebuy:smartcart.show', (event) => {
   .flex-shrink-0Cstm-ld {
     margin-right: 10px;
   }
+
+  .nvd-mini.w-nvd-100 {
+    margin-top: -28px !important;
+}
 </style>
