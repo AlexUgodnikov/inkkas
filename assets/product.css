@@ -18,7 +18,7 @@
 .add_to_cart_holder {
   display: flex;
   /*flex-wrap: wrap;*/
-  margin-bottom: 25px; }
+  margin-bottom: 15px; }
   .add_to_cart_holder .quantity {
     margin-right: 10px;
     max-height: 48px;

@@ -35,43 +35,43 @@ if (!customElements.get('modal-dialog')) {
 
 
 
-const observer = new MutationObserver(function(mutations) {
+     /* const observer = new MutationObserver(function(mutations) {
 
-        let isInitialized = false;
+              let isInitialized = false;
 
-        mutations.forEach(function(mutation) {
-            if (mutation.addedNodes.length && !isInitialized) { 
+              mutations.forEach(function(mutation) {
+                  if (mutation.addedNodes.length && !isInitialized) { 
 
-                //your element what you want found
-                const domElement = document.querySelectorAll('preorder-me-button');
+                      //your element what you want found
+                      const domElement = document.querySelectorAll('preorder-me-button');
 
-            
-                if (domElement.length > 0) {
-                      const targetContainer = document.querySelector('.product-add-to-cart-container .add_to_cart_holder');
-                                      
-                      //your custom scripts
-                      
-                      targetContainer.appendChild(domElement[0]);
-                   
-                     if(domElement[0].querySelector('button').style.display === 'none'){
-                       // domElement[0].style.display = 'none';
+                  
+                      if (domElement.length > 0) {
+                            const targetContainer = document.querySelector('.product-add-to-cart-container .add_to_cart_holder');
+                                            
+                            //your custom scripts
+                            
+                            targetContainer.appendChild(domElement[0]);
+                        
+                          if(domElement[0].querySelector('button').style.display === 'none'){
+                            // domElement[0].style.display = 'none';
+                            }
+                            //domElement[0].style.flex = 1
+                        //domElement[0].style.width = '83%';
+
+                          //END your custom scripts
+
+
+
+                          isInitialized = true; 
+                          
+                          observer.disconnect();
                       }
-                      //domElement[0].style.flex = 1
-                  //domElement[0].style.width = '83%';
+                  }
+              });
+          });
 
-                    //END your custom scripts
-
-
-
-                    isInitialized = true; 
-                    
-                    observer.disconnect();
-                }
-            }
-        });
-    });
-
-    observer.observe(document.body, { childList: true, subtree: true });
+          observer.observe(document.body, { childList: true, subtree: true });*/
 
 
 

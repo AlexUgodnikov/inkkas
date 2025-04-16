@@ -788,6 +788,9 @@ product-form > form > .product-form__buttons > p {
 .preorder-me-button:before {
   background: #f9822c !important;
 }
+preorder-me-button p{
+  text-align:center;
+}
 #rebuy-cart {
   /*display: none!important;*/
   /*opacity: 0!important;*/
