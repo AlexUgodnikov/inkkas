@@ -15,11 +15,12 @@
     },
     "image_banner_contain_RrEyYW": {
       "type": "image-banner-contain",
+      "disabled": true,
       "settings": {
         "image_contain": false,
         "button_text": "SHOP",
-        "button_link": "shopify:\/\/collections\/the-luminous-collection",
-        "image": "shopify:\/\/shop_images\/04-17-25-25_SITEWIDE-n2.1.gif",
+        "button_link": "shopify:\/\/collections\/best-sellers",
+        "image": "shopify:\/\/shop_images\/04-17-25-25_SITEWIDE-test.jpg",
         "mobile_image": "shopify:\/\/shop_images\/04-17-25-25_SITEWIDE-MOBILE-n2.1.gif"
       }
     },
