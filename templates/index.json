@@ -4,6 +4,9 @@
       "type": "image-banner-contain",
       "settings": {
         "image_contain": false,
+        "button_outline": false,
+        "button_horizontal": "center",
+        "button_vertical": "end",
         "button_text": "SHOP",
         "button_link": "shopify:\/\/collections\/the-luminous-collection",
         "image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-vertical.jpg",
@@ -394,6 +397,7 @@
         "slide_JfDwBG",
         "slide_m6ix9X"
       ],
+      "disabled": true,
       "settings": {
         "desktop_height": "desktop-height-image",
         "mobile_height": "mobile-height-image",
