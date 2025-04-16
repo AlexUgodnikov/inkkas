@@ -10,6 +10,16 @@
         "mobile_image": "shopify:\/\/shop_images\/IMG_3173.jpg"
       }
     },
+    "image_banner_contain_RrEyYW": {
+      "type": "image-banner-contain",
+      "settings": {
+        "image_contain": false,
+        "button_text": "SHOP",
+        "button_link": "shopify:\/\/collections\/the-luminous-collection",
+        "image": "shopify:\/\/shop_images\/04-17-25-25_SITEWIDE-n2.1.gif",
+        "mobile_image": "shopify:\/\/shop_images\/04-17-25-25_SITEWIDE-MOBILE-n2.1.gif"
+      }
+    },
     "vertical_slideshow_3pEfhq": {
       "type": "vertical-slideshow",
       "blocks": {
@@ -1763,7 +1773,7 @@
           "settings": {
             "title": "",
             "title_color": "",
-            "title_size": 0,
+            "title_size_v2": 0,
             "alignment": "center",
             "margin_top": 0,
             "margin_bottom": 0,
@@ -1920,6 +1930,7 @@
   },
   "order": [
     "image_banner_contain_FW7emL",
+    "image_banner_contain_RrEyYW",
     "vertical_slideshow_3pEfhq",
     "slideshow_piCd7r",
     "rich_text_kdhNBH",
