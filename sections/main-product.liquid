@@ -211,7 +211,23 @@
 												</div>
 											{% when 'video' %}
 												<div class="product-single__media product-single__media-native-video" data-media-id="{{ media.id }}" style="--aspect-ratio: {{ media.aspect_ratio }}" id="Media-Thumbnails-{{ section.id }}-{{ media.id }}">
-													{{ media | video_tag: controls: true, loading: "lazy", loop: section.settings.enable_video_looping, image_size: '960x' }}
+													{{ media | video_tag: controls: true, loading: "lazy", autoplay: section.settings.video_autoplay, loop: section.settings.enable_video_looping, image_size: '960x' }}
+                             {% comment %} <video
+                                {% if section.settings.video_autoplay %}autoplay{% endif %}
+                                {% if section.settings.video_loop %}loop{% endif %}
+                                controls
+                                playsinline
+                                webkit-playsinline
+                                muted
+                                preload="auto"
+                                poster=" {{ media.preview_image | img_url: width: 700 }}"
+                              >
+                              {% for source in media.sources %}
+                                {% if source.mime_type == 'video/mp4' %}
+                                  <source src="{{ source.url }}" type="{{ source.mime_type }}">
+                                {% endif %}
+                              {% endfor %}
+                              </video> {% endcomment %}
 												</div>
 											{% when 'model' %}
 												<product-model class="product-single__media product-single__media-model" style="padding-top: 100%" data-media-id="{{ media.id }}" id="Media-Thumbnails-{{ section.id }}-{{ media.id }}">
@@ -863,7 +879,13 @@ console.log('track')
       "id": "enable_video_looping",
       "default": false,
       "label": "Enable video looping"
-    }
+    },
+        {
+			"type": "checkbox",
+			"id": "video_autoplay",
+			"default": true,
+			"label": "Video autoplay"
+		}
   ],
   "blocks": [
 		{

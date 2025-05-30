@@ -503,6 +503,7 @@ if (!customElements.get('variant-selects')) {
 
       this.setupProductGallery();
 
+
       // // Start Pagination
       // if (this.pagination) {
       //   this.setupPagination();
@@ -511,6 +512,11 @@ if (!customElements.get('variant-selects')) {
       //   this.addEventListener('scroll', this.updatePagination.bind(this));
       // }
     }
+
+
+
+
+
     setupProductGallery() {
       if (!this.querySelectorAll('.product-single__media-zoom').length) {
         return;
