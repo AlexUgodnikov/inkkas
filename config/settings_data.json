@@ -71,7 +71,7 @@
     "cart_drawer_notes": false,
     "free_shipping": true,
     "free_shipping_minimum": "175.00",
-    "search_product_collection": "winter-edit",
+    "search_product_collection": "best-sellers",
     "lazy_loading": false,
     "button_bg_color": "#151515",
     "button_hover_bg_color": "#000000",
@@ -285,6 +285,13 @@
         "type": "shopify:\/\/apps\/black-crow-ai-that-delivers\/blocks\/blackcrow_ai_script\/3e73f597-cb71-47a1-8a06-0c931482ecd2",
         "disabled": false,
         "settings": {}
+      },
+      "733389323033596483": {
+        "type": "shopify:\/\/apps\/okendo\/blocks\/theme-settings\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+        "disabled": false,
+        "settings": {
+          "show_preview_data": true
+        }
       }
     }
   },

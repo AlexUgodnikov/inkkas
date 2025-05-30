@@ -8,416 +8,23 @@
         "button_horizontal": "center",
         "button_vertical": "end",
         "button_text": "SHOP",
-        "button_link": "shopify:\/\/collections\/the-luminous-collection",
-        "image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-vertical.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/IMG_3173.jpg"
+        "button_link": "shopify:\/\/collections\/best-sellers",
+        "image": "shopify:\/\/shop_images\/05-29-2024-Summer-Banner-1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/05-29-2024-Summer-Banner-MOBILE-1.jpg"
       }
     },
-    "image_banner_contain_RrEyYW": {
+    "image_banner_contain_rgeCTN": {
       "type": "image-banner-contain",
       "disabled": true,
       "settings": {
         "image_contain": false,
+        "button_outline": true,
+        "button_horizontal": "center",
+        "button_vertical": "end",
         "button_text": "SHOP",
         "button_link": "shopify:\/\/collections\/best-sellers",
-        "image": "shopify:\/\/shop_images\/04-17-25-25_SITEWIDE-test.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/04-17-25-25_SITEWIDE-MOBILE-n2.1.gif"
-      }
-    },
-    "vertical_slideshow_3pEfhq": {
-      "type": "vertical-slideshow",
-      "blocks": {
-        "slide_6mDTHK": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/White_Aesthetic_Vision_Board_Instagram_Story_3c5d18ad-8721-4f39-ad30-5427bb39ce8b.png",
-            "mobile_image": "shopify:\/\/shop_images\/IMG_3173.jpg",
-            "slide_link": "shopify:\/\/collections\/the-luminous-collection",
-            "video_background": false,
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop Now",
-            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_A6geiP": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "slide_link": "",
-            "video_background": true,
-            "video_hosted": "shopify:\/\/files\/videos\/BROWN-LEATHER-CAMPINGBOOT-140402-GIF-S.mp4",
-            "subheading": "HANDCRAFTED ARTFUL GLOBAL footwear",
-            "heading": "Good for the Sole",
-            "heading_size": "h1-xlarge",
-            "content": "Step into the World in Inkkas",
-            "description_size": "medium",
-            "content_position": "middle-left",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop Women",
-            "button_1_link": "shopify:\/\/collections\/womens-collection-all-shoes",
-            "button_1_outline": false,
-            "button_2_text": "Shop Men",
-            "button_2_link": "shopify:\/\/collections\/mens-shoes",
-            "button_2_outline": false
-          }
-        },
-        "slide_AUnp9X": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "slide_link": "shopify:\/\/collections\/best-sellers",
-            "video_background": true,
-            "video_hosted": "shopify:\/\/files\/videos\/TREK-SLIP-ON-SS200306-GIF-VIDEO-1.mp4",
-            "subheading": "HANDCRAFTED ARTFUL GLOBAL",
-            "heading": "Good for the Sole",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop Women",
-            "button_1_link": "shopify:\/\/collections\/womens-collection-all-shoes",
-            "button_1_outline": false,
-            "button_2_text": "Shop Men",
-            "button_2_link": "shopify:\/\/collections\/mens-shoes",
-            "button_2_outline": false
-          }
-        },
-        "slide_REeriU": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-vertical.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-MOBILE-vertical.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop all new",
-            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "shopify:\/\/products\/lundi-vegan-ace-low-top",
-            "button_2_outline": true
-          }
-        },
-        "slide_BNzyap": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-Vertical1.1.gif",
-            "mobile_image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-MOBILE-Vertical1.1.gif",
-            "slide_link": "",
-            "video_background": false,
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop all new",
-            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "shopify:\/\/products\/loomi-buckle-sandal",
-            "button_2_outline": false
-          }
-        },
-        "slide_9Xzdyy": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-Vertical-Cyprus-1.1.gif",
-            "mobile_image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-MOBILE-vertical-cyprus-1.1.gif",
-            "slide_link": "",
-            "video_background": false,
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop all new",
-            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "shopify:\/\/products\/loomi-buckle-sandal",
-            "button_2_outline": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_6mDTHK",
-        "slide_A6geiP",
-        "slide_AUnp9X",
-        "slide_REeriU",
-        "slide_BNzyap",
-        "slide_9Xzdyy"
-      ],
-      "disabled": true,
-      "settings": {
-        "dots": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "slideshow_piCd7r": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_M7gjC9": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-vertical.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-vertical.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "Add a tagline",
-            "heading": "Slide Heading",
-            "heading_size": "h1-xlarge",
-            "content": "Add descriptive text for your slide here.",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop Now",
-            "button_1_link": "",
-            "button_1_outline": true,
-            "button_2_text": "Shop Now",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_UeKFRY": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-7.1.gif",
-            "mobile_image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-MOBILE-7.1.gif",
-            "slide_link": "shopify:\/\/collections\/the-luminous-collection",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h2",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop",
-            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "shopify:\/\/products\/loomi-buckle-sandal",
-            "button_2_outline": true
-          }
-        },
-        "slide_pdcPea": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-7.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/03-20-25-Luminous-Collection-MOBILE-7.jpg",
-            "slide_link": "shopify:\/\/collections\/the-luminous-collection",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h2",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "large",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop all new",
-            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "shopify:\/\/products\/loomi-buckle-sandal",
-            "button_2_outline": true
-          }
-        },
-        "slide_NKUny3": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EPI_6063_b53aaa9d-e388-4c78-aa54-2016e9239457.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/IMG_2868.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "FRESH AIR + A FRESH PAIR",
-            "heading": "Kick Up Your Feet",
-            "heading_size": "h2",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop all new",
-            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "shopify:\/\/products\/lundi-trainer",
-            "button_2_outline": true
-          }
-        },
-        "slide_cRW9cR": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LUNDI-VEGAN-ACELOWTOP-SS250207-HOLD-HORIZONTAL-4Q2A9758.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/LUNDI-VEGAN-ACELOWTOP-SS250207-HOLD-4Q2A9761.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "New: LUNDI ACE LOW TOPS",
-            "heading": "Versatile, one-of-a-kind, sleek",
-            "heading_size": "h2",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 10,
-            "overlay_gradient": "",
-            "button_1_text": "",
-            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
-            "button_1_outline": false,
-            "button_2_text": "Shop This",
-            "button_2_link": "shopify:\/\/products\/lundi-vegan-ace-low-top",
-            "button_2_outline": true
-          }
-        },
-        "slide_JfDwBG": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EPI_5594.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/IMG_2871.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "NEW SPRING EARLY ACCESS",
-            "heading": "Luminous Collection",
-            "heading_size": "h2",
-            "content": "Now available for preorder",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop all new",
-            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
-            "button_1_outline": false,
-            "button_2_text": "Shop This",
-            "button_2_link": "shopify:\/\/products\/lundi-buckle-sandal",
-            "button_2_outline": true
-          }
-        },
-        "slide_m6ix9X": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CORONET-WESTERNBOOT-SS251118-MODEL-HORIZONTAL-EPI_5728.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/CORONET-WESTERNBOOT-SS251118-MODEL-4Q2A0074.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "subheading": "NEW SPRING EARLY ACCESS",
-            "heading": "Luminous Collection",
-            "heading_size": "h2",
-            "content": "Now available for preorder",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop all new",
-            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
-            "button_1_outline": false,
-            "button_2_text": "Shop This",
-            "button_2_link": "shopify:\/\/products\/coronet-western-boot",
-            "button_2_outline": true
-          }
-        }
-      },
-      "block_order": [
-        "slide_M7gjC9",
-        "slide_UeKFRY",
-        "slide_pdcPea",
-        "slide_NKUny3",
-        "slide_cRW9cR",
-        "slide_JfDwBG",
-        "slide_m6ix9X"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_height": "desktop-height-image",
-        "mobile_height": "mobile-height-image",
-        "full_width": true,
-        "autoplay": false,
-        "autoplay_length": 4,
-        "transition": "fade",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "image": "shopify:\/\/shop_images\/SALE_EXTENDED_1800_x_755_px.png",
+        "mobile_image": "shopify:\/\/shop_images\/SALE_EXTENDED.png"
       }
     },
     "rich_text_kdhNBH": {
@@ -436,22 +43,6 @@
             "text": "6,500+ 5-STAR REVIEWS"
           }
         },
-        "subheading_HMqJif": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "445,000+ TREES PLANTED"
-          }
-        },
-        "text_kNhfkx": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><em><strong>\"I came for the designs and I stayed for the comfort.\"<\/strong><\/em><\/p>",
-            "custom_liquid": "",
-            "size": "text-size-small"
-          }
-        },
         "button_CtGjVd": {
           "type": "button",
           "settings": {
@@ -459,32 +50,12 @@
             "link": "shopify:\/\/collections\/best-sellers",
             "button_outline": false
           }
-        },
-        "subheading_UtgtgX": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": ""
-          }
-        },
-        "button_WC9GhA": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "link_label": "FIND YOUR SIZE",
-            "link": "shopify:\/\/collections",
-            "button_outline": true
-          }
         }
       },
       "block_order": [
         "heading_DkyVVb",
         "subheading_jMkLW4",
-        "subheading_HMqJif",
-        "text_kNhfkx",
-        "button_CtGjVd",
-        "subheading_UtgtgX",
-        "button_WC9GhA"
+        "button_CtGjVd"
       ],
       "settings": {
         "section_width": "full-width-row-full",
@@ -503,12 +74,12 @@
       "settings": {
         "heading": "Bestsellers",
         "heading_left": false,
-        "description": "<p>Handcrafted & ultra-comfy with one-of-a-kind global style, these shoes are designed to inspire every step.<\/p>",
+        "description": "<p>Handcrafted & ultra-comfy with one-of-a-kind global style, we design shoes to inspire your every step.<\/p>",
         "full_width": true,
         "collection": "best-sellers",
         "display_type": "grid",
-        "product_limit": 6,
-        "columns_desktop": 3,
+        "product_limit": 8,
+        "columns_desktop": 4,
         "show_view_all": false,
         "mobile_swipe": false,
         "show_progress_bar": false,
@@ -548,21 +119,21 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     },
     "featured_collection_YnfKTJ": {
       "type": "featured-collection",
       "settings": {
-        "heading": "✨ New New New ✨",
+        "heading": "New SS25",
         "heading_left": false,
-        "description": "<p>Discover our Luminous Collection, 18 all-new handcrafted styles inspired by the luminous & enduring beauty of nature around the world.<\/p>",
+        "description": "<p>Our all-new SS25 Luminous Collection is a journey through the resilient brilliance of nature.<\/p>",
         "full_width": true,
         "collection": "the-luminous-collection",
         "display_type": "grid",
-        "product_limit": 6,
-        "columns_desktop": 3,
+        "product_limit": 8,
+        "columns_desktop": 4,
         "show_view_all": false,
         "mobile_swipe": false,
         "show_progress_bar": true,
@@ -576,7 +147,7 @@
         "button_TLKyN4": {
           "type": "button",
           "settings": {
-            "link_label": "SHOP ALL NEW",
+            "link_label": "SHOP NEW ARRIVALS",
             "link": "shopify:\/\/collections\/the-luminous-collection",
             "button_outline": false
           }
@@ -602,23 +173,127 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     },
     "background_video_V9TVYh": {
       "type": "background-video",
+      "disabled": true,
       "settings": {
-        "desktop_height": "desktop-height-650",
+        "desktop_height": "desktop-height-550",
         "mobile_height": "mobile-height-400",
-        "full_width": true,
-        "subheading": "HANDCRAFTED ARTFUL GLOBAL FOOTWEAR",
-        "heading": "Good for the Sole",
-        "text": "Step into the World in Inkkas",
+        "full_width": false,
+        "subheading": "",
+        "heading": "",
+        "text": "",
         "lightbox_button": false,
         "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "video_hosted": "shopify:\/\/files\/videos\/BROWN-LEATHER-CAMPINGBOOT-140402-GIF-S.mp4",
-        "overlay_opacity": 20,
+        "video_hosted": "shopify:\/\/files\/videos\/MASHUP-4.4.25-2.mov",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "slideshow_piCd7r": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_kM83qK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WEBSITE_BANNER_4.28.25_750_x_915_px_1800_x_755_px_.zip_-_2.png",
+            "mobile_image": "shopify:\/\/shop_images\/WEBSITE_BANNER_4.28.25_750_x_915_px_-_2.png",
+            "slide_link": "shopify:\/\/collections\/the-luminous-collection",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "large",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/the-luminous-collection",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "shopify:\/\/products\/loomi-buckle-sandal",
+            "button_2_outline": false
+          }
+        },
+        "slide_M7gjC9": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/05-29-2024-Summer-Banner-1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/05-29-2024-Summer-Banner-MOBILE-1.jpg",
+            "slide_link": "shopify:\/\/collections\/best-sellers",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "SHOP",
+            "button_1_link": "shopify:\/\/collections\/best-sellers",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_hxxYpY": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25_OFF_SITEWIDE_1.gif",
+            "slide_link": "shopify:\/\/collections\/best-sellers",
+            "video_background": true,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify:\/\/files\/videos\/25%OFF SITEWIDE.mp4",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/best-sellers",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_kM83qK",
+        "slide_M7gjC9",
+        "slide_hxxYpY"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": false,
+        "autoplay_length": 4,
+        "transition": "fade",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
@@ -628,7 +303,7 @@
       "settings": {
         "heading": "Shop by Style",
         "heading_left": true,
-        "description": "<p><em>Put your best foot forward in any of our handcrafted, ultra-comfy styles. Scroll to view more.<\/em><\/p>",
+        "description": "<p><em>Put your best foot forward in any of our handcrafted, ultra-comfy styles. Scroll to view more. &gt;&gt;<\/em><\/p>",
         "full_width": true,
         "collection_list": [
           "trekk-boots",
@@ -653,21 +328,76 @@
         "disable_bottom_spacing": false
       }
     },
+    "collection_list_aLNXqY": {
+      "type": "collection-list",
+      "settings": {
+        "heading": "Explore Artful Designs",
+        "heading_left": true,
+        "description": "<p><em>Our one-of-a-kind styles celebrate beauty around the world, featuring handwoven global textiles & hand-drawn, nature-inspired designs. Scroll to view more. &gt;&gt;<\/em><\/p>",
+        "full_width": true,
+        "collection_list": [
+          "floral-designs",
+          "inkkas-essentials",
+          "animal-lovers",
+          "travel-inspired",
+          "nature-lovers",
+          "stellar",
+          "ocean-adventures",
+          "art-lovers"
+        ],
+        "image_ratio": "portrait",
+        "layout": "carousel",
+        "style": "style2",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "rich_text_PxDcMg": {
       "type": "rich-text",
       "blocks": {
+        "heading_ynAVq6": {
+          "type": "heading",
+          "settings": {
+            "text": "Shop #Inkkas IRL",
+            "size": "h3"
+          }
+        },
         "subheading_WmkH7j": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
-            "text": "SHOP #INKKAS IRL"
+            "text": "#INKKAS IN REAL LIFE"
+          }
+        },
+        "subheading_p8gU6b": {
+          "type": "subheading",
+          "settings": {
+            "text": "140K FOLLOWERS"
+          }
+        },
+        "text_fYztTX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>follow us <a href=\"https:\/\/www.instagram.com\/inkkasworldwear\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/inkkasworldwear\/\">@<strong>inkkasworldwear<\/strong><\/a> or leave a review for a chance to be featured!<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
           }
         }
       },
       "block_order": [
-        "subheading_WmkH7j"
+        "heading_ynAVq6",
+        "subheading_WmkH7j",
+        "subheading_p8gU6b",
+        "text_fYztTX"
       ],
       "settings": {
-        "section_width": "grid",
+        "section_width": "full-width-row",
         "text_width": "grid",
         "text_position": "center",
         "text_alignment": "center",
@@ -677,6 +407,103 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
+    },
+    "rich_text_6mcATc": {
+      "type": "rich-text",
+      "blocks": {
+        "text_a7g6mi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>follow us <strong>@inkkasworldwear<\/strong> or leave us a review for a chance to be featured!<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "text_a7g6mi"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".rich-text .rte {margin-bottom: 0; margin-top: 30px;}"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "#ffffff",
+        "color_text": "#fb9e5b",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "17448250330cb43968": {
+      "type": "apps",
+      "blocks": {
+        "foursixty_shoppable_social_ugc_custom_slider_RBeziL": {
+          "type": "shopify:\/\/apps\/foursixty-shoppable-social-ugc\/blocks\/custom_slider\/e2616dfe-fbb6-4e7d-874d-d250b973556d",
+          "disabled": true,
+          "settings": {
+            "foreground_color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_alpha": 100,
+            "post_spacing": 1,
+            "hover_margin": 0,
+            "cell_size": "20%",
+            "target_blank": true,
+            "arrows_outside": false,
+            "show_icon": true,
+            "show_text": false,
+            "show_date": false,
+            "call_to_action": "SHOP IT",
+            "shop_type": "button",
+            "body_font_size": 14,
+            "body_font": "helvetica_n4",
+            "accent_font_size": 14,
+            "accent_font": "helvetica_n4",
+            "disable_filter": false,
+            "override_feed_id": "",
+            "arbitrary_attributes": "",
+            "custom_css": "",
+            "custom_js": ""
+          }
+        },
+        "foursixty_shoppable_social_ugc_custom_minifeed_qYNRzT": {
+          "type": "shopify:\/\/apps\/foursixty-shoppable-social-ugc\/blocks\/custom_minifeed\/e2616dfe-fbb6-4e7d-874d-d250b973556d",
+          "disabled": true,
+          "settings": {
+            "foreground_color": "#ffffff",
+            "background_color": "#fb9e5b",
+            "background_color_alpha": 50,
+            "post_spacing": 1,
+            "hover_margin": 0,
+            "rows": 2,
+            "columns": 3,
+            "target_blank": true,
+            "show_icon": true,
+            "show_text": true,
+            "show_date": true,
+            "call_to_action": "SHOP IT",
+            "shop_type": "button",
+            "body_font_size": 14,
+            "body_font": "helvetica_n4",
+            "accent_font_size": 14,
+            "accent_font": "helvetica_n4",
+            "disable_filter": false,
+            "override_feed_id": "",
+            "arbitrary_attributes": "",
+            "custom_css": ".fs-showcase_v2_6.fs-mobile .fs-next-page .fs-next-button, .fs-showcase_v2_6.fs-desktop .fs-next-page .fs-next-button { display: block; }",
+            "custom_js": ""
+          }
+        }
+      },
+      "block_order": [
+        "foursixty_shoppable_social_ugc_custom_slider_RBeziL",
+        "foursixty_shoppable_social_ugc_custom_minifeed_qYNRzT"
+      ],
+      "settings": {}
     },
     "gallery_nUbVgE": {
       "type": "gallery",
@@ -709,6 +536,20 @@
             "product_list": []
           }
         },
+        "image_gCmNUW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_12.27.50_PM_8055a621-2f82-446b-ba9a-f04e9b0436df.png",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "shop",
+            "link": "shopify:\/\/products\/samadhi-buckle-sandal",
+            "use_text_button": false,
+            "block_link": "shopify:\/\/products\/samadhi-buckle-sandal",
+            "product_list": []
+          }
+        },
         "image_6Td6yM": {
           "type": "image",
           "settings": {
@@ -720,6 +561,20 @@
             "link": "shopify:\/\/products\/brown-leather-bootie",
             "use_text_button": true,
             "block_link": "shopify:\/\/products\/brown-leather-bootie",
+            "product_list": []
+          }
+        },
+        "image_AM7KRK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Joey_Vegan_Joggers-Alpine_Joggers-Yuuki_Joggers-INFLUENCER-GROUP-NURSE-_wirebackcandles_74d535fc-bfe0-4385-b9ec-faf49326c82b.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "shop",
+            "link": "shopify:\/\/products\/joey-vegan-jogger",
+            "use_text_button": false,
+            "block_link": "shopify:\/\/products\/joey-vegan-jogger",
             "product_list": []
           }
         },
@@ -1296,73 +1151,14 @@
             "block_link": "shopify:\/\/products\/rooster-duffle-bag",
             "product_list": []
           }
-        },
-        "image_N4RTad": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TAN-SUEDE-CAMPING-BOOT-150402-UGC-_carlssbarkely.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "@carlssbarkely",
-            "link_label": "shop",
-            "link": "shopify:\/\/products\/tan-suede-camping-boot",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_9m633d": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BADass-Black-Slip-Ons-UGC-KIDS-MATCHING-_chasingtwinadoes_28c65757-bc66-4ecf-a0c5-e0ac2eddd16a.png",
-            "subheading": "",
-            "title": "",
-            "text": "@chasingtwinadoes",
-            "link_label": "SHOP",
-            "link": "shopify:\/\/products\/badass-black-slip-on",
-            "use_text_button": true,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_md9pGf": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Yuuki_Jogger-UGC-_sweet_jiva.png",
-            "subheading": "",
-            "title": "",
-            "text": "@sweet.jiva",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": [
-              "namibia-jogger"
-            ]
-          }
-        },
-        "image_8hJUEp": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CUSCO-HIGH-TOP-D180416-UGC-YOGA-_becomingbudokon-_kemba_quinn-4.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "@becomingbudokon",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify:\/\/products\/2016-cusco-high-top",
-            "product_list": []
-          }
         }
       },
       "block_order": [
         "image_fWGwdK",
         "image_FfTktC",
+        "image_gCmNUW",
         "image_6Td6yM",
+        "image_AM7KRK",
         "image_wKzQFx",
         "image_XwXrQ9",
         "image_qpna4e",
@@ -1403,11 +1199,7 @@
         "image_Vxztb6",
         "image_anpFYC",
         "image_QEmMxE",
-        "image_7LdCBF",
-        "image_N4RTad",
-        "image_9m633d",
-        "image_md9pGf",
-        "image_8hJUEp"
+        "image_7LdCBF"
       ],
       "settings": {
         "slider": true,
@@ -1425,59 +1217,54 @@
         "disable_bottom_spacing": false
       }
     },
-    "collection_list_aLNXqY": {
-      "type": "collection-list",
+    "spacer_7tzXQ3": {
+      "type": "spacer",
       "settings": {
-        "heading": "Shop by Artful Design",
-        "heading_left": true,
-        "description": "<p><em>Our one-of-a-kind styles celebrate beauty around the world, featuring handwoven global textiles & hand-drawn nature-inspired designs. Scroll to view more. <\/em><\/p>",
-        "full_width": true,
-        "collection_list": [
-          "floral-designs",
-          "inkkas-essentials",
-          "animal-lovers",
-          "travel-inspired",
-          "nature-lovers",
-          "stellar",
-          "ocean-adventures",
-          "art-lovers"
-        ],
-        "image_ratio": "portrait",
-        "layout": "carousel",
-        "style": "style2",
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "show_progress_bar": true,
-        "mobile_swipe": true,
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
       }
     },
     "rich_text_fVXtgE": {
       "type": "rich-text",
       "blocks": {
-        "subheading_EWALdf": {
+        "heading_48gpfN": {
+          "type": "heading",
+          "settings": {
+            "text": "What Customers Are Saying (Right Now)",
+            "size": "h3"
+          }
+        },
+        "heading_faXtRP": {
+          "type": "heading",
+          "settings": {
+            "text": "★★★★★",
+            "size": "h4"
+          }
+        },
+        "subheading_Rfbq9f": {
           "type": "subheading",
           "settings": {
-            "text": "what customers are saying"
+            "text": "6,500+ 5-star reviews"
           }
         }
       },
       "block_order": [
-        "subheading_EWALdf"
+        "heading_48gpfN",
+        "heading_faXtRP",
+        "subheading_Rfbq9f"
       ],
       "settings": {
-        "section_width": "grid",
-        "text_width": "grid",
+        "section_width": "full-width-row-full",
+        "text_width": "xlarge",
         "text_position": "center",
         "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
+        "color_bg": "#f5f3ef",
+        "color_text": "#fb9e5b",
         "color_links": "#151515",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     },
     "customer_reviews_LkgfCk": {
@@ -1561,6 +1348,7 @@
         "review_BaPVWC",
         "review_e83AWF"
       ],
+      "disabled": true,
       "settings": {
         "mobile_height": "mobile-height-300",
         "desktop_height": "desktop-height-650",
@@ -1577,6 +1365,32 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
+    },
+    "1747174269fe699597": {
+      "type": "apps",
+      "blocks": {
+        "okendo_media_carousel_VBxH4m": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/media-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "disabled": true,
+          "settings": {
+            "product": ""
+          }
+        },
+        "okendo_reviews_carousel_VnXGBG": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "show_heading": false,
+            "heading": "",
+            "badge_link": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "okendo_media_carousel_VBxH4m",
+        "okendo_reviews_carousel_VnXGBG"
+      ],
+      "settings": {}
     },
     "rich_text_3HUqXb": {
       "type": "rich-text",
@@ -1599,7 +1413,7 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
@@ -1755,45 +1569,6 @@
         "color_text": "#151515",
         "color_border": "#e2e2e2",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "spacer_7tzXQ3": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 50,
-        "spacer_desktop": 50,
-        "border_separator": true,
-        "border_separator_full": false
-      }
-    },
-    "rich_text_6mcATc": {
-      "type": "rich-text",
-      "blocks": {
-        "text_a7g6mi": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>follow us<\/strong> and <strong>tag #inkkas<\/strong> for a chance to be featured!<\/p>",
-            "custom_liquid": "",
-            "size": "text-size-small"
-          }
-        }
-      },
-      "block_order": [
-        "text_a7g6mi"
-      ],
-      "custom_css": [
-        ".rich-text .rte {margin-bottom: 0; margin-top: 30px;}"
-      ],
-      "settings": {
-        "section_width": "full-width-row-full",
-        "text_width": "xlarge",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "#ffffff",
-        "color_text": "#fb9e5b",
-        "color_links": "#151515",
-        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
@@ -1807,9 +1582,9 @@
             "title_color": "",
             "title_size_v2": 0,
             "alignment": "center",
-            "margin_top": 0,
-            "margin_bottom": 0,
-            "margin_sides": 0,
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
             "show_instagram_link": false,
             "link_alignment": "left",
             "link_color": "#000000",
@@ -1822,6 +1597,7 @@
       "block_order": [
         "instafeed_app_block_TFUALm"
       ],
+      "disabled": true,
       "custom_css": [
         "#insta-feed {margin-top: 0; margin-bottom: 30px;}"
       ],
@@ -1962,26 +1738,27 @@
   },
   "order": [
     "image_banner_contain_FW7emL",
-    "image_banner_contain_RrEyYW",
-    "vertical_slideshow_3pEfhq",
-    "slideshow_piCd7r",
+    "image_banner_contain_rgeCTN",
     "rich_text_kdhNBH",
     "featured_collection_XENVwP",
     "rich_text_mVd8iG",
     "featured_collection_YnfKTJ",
     "rich_text_KC4Kf7",
     "background_video_V9TVYh",
+    "slideshow_piCd7r",
     "collection_list_ypFaFe",
-    "rich_text_PxDcMg",
-    "gallery_nUbVgE",
     "collection_list_aLNXqY",
+    "rich_text_PxDcMg",
+    "rich_text_6mcATc",
+    "17448250330cb43968",
+    "gallery_nUbVgE",
+    "spacer_7tzXQ3",
     "rich_text_fVXtgE",
     "customer_reviews_LkgfCk",
+    "1747174269fe699597",
     "rich_text_3HUqXb",
     "scrolling_text_CXQtRH",
     "image_with_text_eKa9qp",
-    "spacer_7tzXQ3",
-    "rich_text_6mcATc",
     "17132060531886ffe4",
     "gallery_VkjtUe",
     "featured_product_JQ6qcn"

@@ -34,7 +34,21 @@
 	<figure class="featured-image aspect-ratio" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%; --ratio-percent-medium: {{ 0.66 | divided_by: ratio | times: 100 }}%;">
 		<a href="{{ article.url }}" title="{{ article.title | escape }}">
 			{%- if article.image -%}
+              {% comment %}
 				{%- render 'responsive-image', image: article.image, sizes: image_sizes -%}
+             {% endcomment %}
+                                    {{
+                                          article.image
+                                          | image_url: width: 3840
+                                          | image_tag:
+                                          loading: 'lazy',
+                                          class: 'slide-image-absolute',
+                                          sizes: '100vw',
+                                          width: article.image.width,
+                                          widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+                                          alt: article.image.alt
+                                    }}
+                           
 			{%- endif -%}
 		</a>
 	</figure>

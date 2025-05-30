@@ -25,18 +25,32 @@
 		}
 		</script>
 		<script  src="https://d10pwglna6up6p.cloudfront.net/navidium-widgets/js/nvd-js-asset.js"></script>
-	<script  src="https://d10pwglna6up6p.cloudfront.net/navidium-widgets/js/nvd-widget-v-jquery.js" defer></script>
+	<script  src="https://d10pwglna6up6p.cloudfront.net/navidium-widgets/js/nvd-widget-v-jquery-ext-sync.js" defer></script>
 <!-- navidium script end -->
 <script>
 document.addEventListener('rebuy:smartcart.ready', (event) => {
+  injectNvdToCart()
     setTimeout(nvd_init,300)
 });
 document.addEventListener('rebuy:smartcart.show', (event) => {
+  injectNvdToCart()
     setTimeout(nvd_init,300)
+});
+  document.addEventListener('rebuy:cart.change', (event) => { 
+    injectNvdToCart()
+     setTimeout(nvd_init,300)
+});
+  document.addEventListener('rebuy:cart.ready', (event) => { 
+    injectNvdToCart()
+     setTimeout(nvd_init,300)
 });
 </script>
 
 <style>
+  
+.rebuy-cart__flyout-item.product-navidium-shipping-protection {
+  display: none;
+}
   .flex-shrink-0Cstm-ld {
     margin-right: 10px;
   }

@@ -86,9 +86,9 @@
           }
         },
         "essential_countdown_app_block_fzdFNN": {
-          "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "type": "shopify:\/\/apps\/countdown-timer-essential\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
-            "id": "clr3iz2hv4877681gx19buu411u"
+            "id": "cmb9apv98001n14iyoregiqn4"
           }
         },
         "essential_announcer_app_block_CEF9Vm": {
@@ -410,8 +410,12 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
-            "page": "copy-of-care-instructions"
+            "page": "care-instructions-2"
           }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {}
         },
         "collapsible_tab_2_EG6eBL": {
           "type": "collapsible_tab_2",
@@ -427,10 +431,6 @@
             "content": "",
             "page": ""
           }
-        },
-        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
-          "type": "share",
-          "settings": {}
         },
         "custom_liquid_Y3EYmc": {
           "type": "custom_liquid",
@@ -470,8 +470,8 @@
         "collapsible_tab_2_9zwncR",
         "collapsible_tab_2_nA4Rag",
         "collapsible_tab_2_dihdcH",
-        "collapsible_tab_2_EG6eBL",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
+        "collapsible_tab_2_EG6eBL",
         "custom_liquid_Y3EYmc"
       ],
       "custom_css": [],
@@ -495,13 +495,38 @@
         "enable_video_looping": false
       }
     },
+    "rich_text_xHRfX6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gYFHX8": {
+          "type": "heading",
+          "settings": {
+            "text": "Customer Reviews",
+            "size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gYFHX8"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
     "custom_liquid_qqHfLi": {
       "type": "custom-liquid",
-      "custom_css": [
-        "@media (max-width: 768px) {.revirow-title {display: none; }}"
-      ],
+      "custom_css": [],
       "settings": {
-        "custom_liquid": "<div class=\"revirow-title \n row full-width-row\"><h2 class=\"h3\">Customer Reviews<\/h2><\/div>\n<style>\n.collapsible-tab-2.customer_reviews {\n  display: none !important;\n}\n@media (max-width: 768px) {\n  .collapsible-tab-2.customer_reviews {\n    display: block !important;\n  }\n}\n<\/style>"
+        "custom_liquid": "<div class=\"revirow-title \n row full-width-row\"><h2 class=\"h3\">Customer Reviews<\/h2><\/div>\n<style>\n.revirow-title {\n   padding: 90px 50px 0 50px;\n  }\n.collapsible-tab-2.customer_reviews {\n  display: none !important;\n}\n@media (max-width: 768px) {\n  .collapsible-tab-2.customer_reviews {\n    display: block !important;\n  }\n .revirow-title {\n    display: none;\n  }\n}\n<\/style>"
       }
     },
     "17443016606c46dac5": {
@@ -519,7 +544,7 @@
         "okendo_reviews_widget_bEJLGc"
       ],
       "custom_css": [
-        ".okeReviews-widget-holder {max-width: 100% !important;}",
+        ".okeReviews-widget-holder {max-width: 100% !important; padding: 40px 50px;}",
         ".okeReviews .okeReviews-reviewsWidget,.okeReviews-widget-holder {padding-top: 0;}",
         ".collapsible-tab-2.customer_reviews {display: none !important;}",
         "@media (max-width: 768px) {.okeReviews-widget-holder {display: none !important; } .collapsible-tab-2.customer_reviews {display: block !important; }}"
@@ -621,6 +646,15 @@
         "color_text": "#151515",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
+      }
+    },
+    "spacer_ER4pCJ": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
       }
     },
     "how_it_looks_on_you_wEwKFG": {
@@ -820,7 +854,9 @@
             "link_to_video_6": "",
             "image_7": "shopify:\/\/shop_images\/Blake-Slip_Ons-UGC-_koshiatthepark-CAT-1_d547aea1-7f15-4e5b-b7ba-d1d0ea41de03.png",
             "link_to_video_7": "",
+            "image_8": "shopify:\/\/shop_images\/Socorro_Slip_On-INFLUENCER-DOG-_crystal_pelka_81d8f0d0-67b6-476b-8a3c-355159af2268.png",
             "link_to_video_8": "",
+            "image_9": "shopify:\/\/shop_images\/Socorro_Slip_On-INFLUENCER-wedding-_crystal_pelka_81dc5e3b-6a04-441e-9d00-3cec62f86a71.jpg",
             "link_to_video_9": "",
             "link_to_video_10": "",
             "link_to_video_11": "",
@@ -892,7 +928,6 @@
           "type": "column",
           "settings": {
             "tag": "How It Looks: Buckle Sandals",
-            "image_1": "shopify:\/\/shop_images\/Samadhi_Buckle_Sandals-UGC-_lollarbills_906661b2-87dc-452f-823a-b7e129886b3e.png",
             "link_to_video_1": "",
             "image_2": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_12.27.20_PM_1cc30e34-2f7b-47ba-8a7d-8885fcbf0a69.png",
             "link_to_video_2": "",
@@ -1005,7 +1040,94 @@
         "column_RCqFJe",
         "column_KNNLQw"
       ],
+      "disabled": true,
       "settings": {}
+    },
+    "rich_text_PHjEmh": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_R3P4VM": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "heading_zcNhAH": {
+          "type": "heading",
+          "settings": {
+            "text": "How it looks on You",
+            "size": "h3"
+          }
+        },
+        "text_xrnpQ9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_qpgUtx": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_R3P4VM",
+        "heading_zcNhAH",
+        "text_xrnpQ9",
+        "button_qpgUtx"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1747249189d6f27eae": {
+      "type": "apps",
+      "blocks": {
+        "okendo_media_grid_gFwYa8": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/media-grid\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "okendo_media_carousel_i8irzn": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/media-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_media_grid_gFwYa8",
+        "okendo_media_carousel_i8irzn"
+      ],
+      "settings": {}
+    },
+    "spacer_pgAtTX": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
@@ -1113,11 +1235,16 @@
     "countdown_banner_Nkdg4Y",
     "breadcrumbs",
     "main-product",
+    "rich_text_xHRfX6",
     "custom_liquid_qqHfLi",
     "17443016606c46dac5",
     "logo_list_TEgBMb",
     "text_with_icons_MRQx4U",
+    "spacer_ER4pCJ",
     "how_it_looks_on_you_wEwKFG",
+    "rich_text_PHjEmh",
+    "1747249189d6f27eae",
+    "spacer_pgAtTX",
     "product-recommendations",
     "recently_viewed_products_HPzhR7",
     "1662552569cce2536d",

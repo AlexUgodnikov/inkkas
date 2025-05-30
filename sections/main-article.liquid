@@ -10,8 +10,10 @@
 								{% render block %}
 							</div>
 						{% endif %}
+                    
 						{% if block.type == 'featured_image' %}
 							<div class="featured-image" {{ block.shopify_attributes }}>
+                              {% comment %}
 								{%- liquid
 									case block.settings.image_ratio
 										when 'adapt'
@@ -22,10 +24,24 @@
 										when 'medium'
 											assign sizes = '320x195,750x390,1340x550'
 										when 'large'
-											assign sizes = '320x230,750x460,1340x690'
+											assign sizes = '320x230,750x460,1340x690,2340x1390'
 									endcase
 								-%}
 								{%- render 'responsive-image', image: article.image, sizes: sizes -%}
+                           {% endcomment %}
+                                {% if article.image != blank %}
+                                    {{
+                                          article.image
+                                          | image_url: width: 3840
+                                          | image_tag:
+                                          loading: 'lazy',
+                                          class: 'slide-image-absolute',
+                                          sizes: '100vw',
+                                          width: article.image.width,
+                                          widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+                                          alt: article.image.alt
+                                    }}
+                            {% endif %}
 							</div>
 						{% endif %}
 						{% if block.type == 'title' %}
