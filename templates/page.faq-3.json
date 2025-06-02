@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "16618629918566dc27": {
@@ -52,7 +61,7 @@
           "settings": {
             "heading": "Why the name “Inkkas”?",
             "open": true,
-            "content": "<p>More than 10 years ago, Inkkas was established as a footwear brand unlike any others. In every one of Inkkas' designs, it celebrates beauty from <em><strong>around the world<\/strong><\/em> -- creating <em><strong>hand-drawn<\/strong><\/em>, <em><strong>colorful<\/strong><\/em>, and <em><strong>joyful<\/strong><\/em> <em><strong>global designs<\/strong><\/em>. Inkkas' first-ever shoe form was the <a href=\"\/collections\/high-top-1\" title=\"High Tops\"><strong>classic Peruvian high top sneaker<\/strong><\/a><strong> <\/strong>which was crafted through a sustained partnership with skilled artisan shoemakers. These sneakers, which continue to be a best-seller today, use authentic Peruvian textiles on handcrafted, comfortable forms. <\/p><p>The name <em><strong>Inkkas<\/strong><\/em> reflects the brand's uniquely <em><strong>hand-drawn (\"inked\")<\/strong><\/em> style of design, its roots in Latin America, and  its growth as a <em><strong>globally-inclusive<\/strong><\/em> brand. <\/p>",
+            "content": "<p>More than 10 years ago, Inkkas was established as a footwear brand unlike any others. In every one of Inkkas' designs, it celebrates beauty from <em><strong>around the world</strong></em> -- creating <em><strong>hand-drawn</strong></em>, <em><strong>colorful</strong></em>, and <em><strong>joyful</strong></em> <em><strong>global designs</strong></em>. Inkkas' first-ever shoe form was the <a href=\"/collections/high-top-1\" title=\"High Tops\"><strong>classic Peruvian high top sneaker</strong></a><strong> </strong>which was crafted through a sustained partnership with skilled artisan shoemakers. These sneakers, which continue to be a best-seller today, use authentic Peruvian textiles on handcrafted, comfortable forms. </p><p>The name <em><strong>Inkkas</strong></em> reflects the brand's uniquely <em><strong>hand-drawn (\"inked\")</strong></em> style of design, its roots in Latin America, and  its growth as a <em><strong>globally-inclusive</strong></em> brand. </p>",
             "page": ""
           }
         },
@@ -61,7 +70,7 @@
           "settings": {
             "heading": "How does my purchase help reforestation?",
             "open": false,
-            "content": "<p>It is thanks to our partnership with<em>Trees for The Future  <\/em>(<a href=\"https:\/\/trees.org\/\">https:\/\/trees.org<\/a>), an award-winning global tree planting organization, that we can guarantee you that your purchase will directly allow for a new tree to be planted on the planet.  With your support, Inkkas has been responsible for planting more than 445,000 trees as of 2025.<\/p>",
+            "content": "<p>It is thanks to our partnership with<em>Trees for The Future  </em>(<a href=\"https://trees.org/\">https://trees.org</a>), an award-winning global tree planting organization, that we can guarantee you that your purchase will directly allow for a new tree to be planted on the planet.  With your support, Inkkas has been responsible for planting more than 445,000 trees as of 2025.</p>",
             "page": ""
           }
         },
@@ -70,7 +79,7 @@
           "settings": {
             "heading": "Where does Inkkas ship?",
             "open": false,
-            "content": "<p>Inkkas is able to ship worldwide via UPS or USPS for domestic orders, DHL Express Worldwide for non-Canada international orders, and via USPS Priority International for Canada orders. <\/p><ul><li>DHL Express Worldwide rates vary depending upon what country the items are being shipped to.<\/li><li>International (DHL) orders are not eligible for free shipping discounts. <\/li><li>Please allow an extra business day for customs paperwork processing when ordering to ship international. <\/li><li>Please also note Inkkas is not liable for any customs taxes or duties on outbound shipments to international customers. Customs taxes and duties are the sole responsibility of the recipient.<\/li><\/ul>",
+            "content": "<p>Inkkas is able to ship worldwide via UPS or USPS for domestic orders, DHL Express Worldwide for non-Canada international orders, and via USPS Priority International for Canada orders. </p><ul><li>DHL Express Worldwide rates vary depending upon what country the items are being shipped to.</li><li>International (DHL) orders are not eligible for free shipping discounts. </li><li>Please allow an extra business day for customs paperwork processing when ordering to ship international. </li><li>Please also note Inkkas is not liable for any customs taxes or duties on outbound shipments to international customers. Customs taxes and duties are the sole responsibility of the recipient.</li></ul>",
             "page": ""
           }
         },
@@ -79,7 +88,7 @@
           "settings": {
             "heading": "I just ordered my shoes. When will they arrive?",
             "open": false,
-            "content": "<p>If you selected Regular US Ground Shipping, your order will arrive within 3-10 business days from the time your order ships from our warehouse. Please note that this does not account for the 1-2 business day processing time once your order is placed. Specific transit times vary according to shipping destination. <\/p><p>Pre-ordered items will ship according to the date stated on the product page at the time of purchase.<\/p>",
+            "content": "<p>If you selected Regular US Ground Shipping, your order will arrive within 3-10 business days from the time your order ships from our warehouse. Please note that this does not account for the 1-2 business day processing time once your order is placed. Specific transit times vary according to shipping destination. </p><p>Pre-ordered items will ship according to the date stated on the product page at the time of purchase.</p>",
             "page": ""
           }
         },
@@ -88,7 +97,7 @@
           "settings": {
             "heading": "Oh no! I made a mistake in my order. what should I do?",
             "open": false,
-            "content": "<p>Don't worry! If you made a mistake in your order such as putting in the wrong shipping address or choosing the wrong size, please contact <a href=\"mailto:support@inkkas.com\">support@inkkas.com<\/a> as soon as possible and we will do everything we can to correct your order if it has not already been shipped.<\/p>",
+            "content": "<p>Don't worry! If you made a mistake in your order such as putting in the wrong shipping address or choosing the wrong size, please contact <a href=\"mailto:support@inkkas.com\">support@inkkas.com</a> as soon as possible and we will do everything we can to correct your order if it has not already been shipped.</p>",
             "page": ""
           }
         },
@@ -97,7 +106,7 @@
           "settings": {
             "heading": "How Can I Track My Order?",
             "open": false,
-            "content": "<p>Once your product ships, you will receive an email with tracking information. <\/p>",
+            "content": "<p>Once your product ships, you will receive an email with tracking information. </p>",
             "page": ""
           }
         },
@@ -106,7 +115,7 @@
           "settings": {
             "heading": "I just ordered a pre-order item. when will it arrive?",
             "open": false,
-            "content": "<p>Your pre-ordered shoes will be shipped according to the date stated on the product page. If you do not recall the estimated shipping date, feel free to request an ETA for your order from our customer service team at <a href=\"mailto:support@inkkas.com\">support@inkkas.com<\/a>.<\/p>",
+            "content": "<p>Your pre-ordered shoes will be shipped according to the date stated on the product page. If you do not recall the estimated shipping date, feel free to request an ETA for your order from our customer service team at <a href=\"mailto:support@inkkas.com\">support@inkkas.com</a>.</p>",
             "page": ""
           }
         },
@@ -115,7 +124,7 @@
           "settings": {
             "heading": "I have a sizing question. Who can help?",
             "open": false,
-            "content": "<p>We created detailed size guides on each product page for your quick reference. Please refer to those for size and fit information for a particular shoe. If you still have questions or need guidance, feel free to email <a href=\"mailto:support@inkkas.com\">support@inkkas.com<\/a>.<\/p>",
+            "content": "<p>We created detailed size guides on each product page for your quick reference. Please refer to those for size and fit information for a particular shoe. If you still have questions or need guidance, feel free to email <a href=\"mailto:support@inkkas.com\">support@inkkas.com</a>.</p>",
             "page": ""
           }
         },
@@ -124,7 +133,7 @@
           "settings": {
             "heading": "Does Inkkas carry sizes for people with wide feet?",
             "open": false,
-            "content": "<p>At this time, Inkkas only makes shoes in “regular” standard widths. We do not currently offer wide sizes. However, the construction of our <a href=\"https:\/\/inkkas.com\/collections\/jogger-1\">Joggers<\/a> and <a href=\"https:\/\/inkkas.com\/collections\/slip-on\">Slip Ons<\/a> collections tend to accommodate wider feet. We recommend giving these a try!<\/p>",
+            "content": "<p>At this time, Inkkas only makes shoes in “regular” standard widths. We do not currently offer wide sizes. However, the construction of our <a href=\"https://inkkas.com/collections/jogger-1\">Joggers</a> and <a href=\"https://inkkas.com/collections/slip-on\">Slip Ons</a> collections tend to accommodate wider feet. We recommend giving these a try!</p>",
             "page": ""
           }
         },
@@ -133,7 +142,7 @@
           "settings": {
             "heading": "The shoes I want are listed as \"Out of Stock\" or “Sold Out” — when will you be getting it again?",
             "open": false,
-            "content": "<p>If your shoes are currently not in stock, please join the waitlist on the product page to be alerted for a restock, or check back in a few days. Our collections are often made in small batches, but we receive shipments regularly.<\/p>",
+            "content": "<p>If your shoes are currently not in stock, please join the waitlist on the product page to be alerted for a restock, or check back in a few days. Our collections are often made in small batches, but we receive shipments regularly.</p>",
             "page": ""
           }
         },
@@ -142,7 +151,7 @@
           "settings": {
             "heading": "Are Inkkas shoes designed for performance, like hiking or running?",
             "open": false,
-            "content": "<p>All of our shoes, including our Joggers, Runners, Camping Boots and Trekks, are designed as comfortable lifestyle footwear. They are made to be comfortable and durable – and many have found them to be great for long walks or casual jogs and hikes, depending on specific needs.  However, they are not designed as technical performance footwear.<\/p>",
+            "content": "<p>All of our shoes, including our Joggers, Runners, Camping Boots and Trekks, are designed as comfortable lifestyle footwear. They are made to be comfortable and durable – and many have found them to be great for long walks or casual jogs and hikes, depending on specific needs.  However, they are not designed as technical performance footwear.</p>",
             "page": ""
           }
         },
@@ -151,7 +160,7 @@
           "settings": {
             "heading": "I got my Inkkas shoes dirty. How should I clean them?",
             "open": false,
-            "content": "<p>We do not recommend putting Inkkas shoes in the washing machine. To keep your Inkkas clean and looking good, we recommend spot cleaning them with a rag and a little soap and water. (For leather areas, spot clean with water only or use a specialized leather cleaner.) Please refer to the Care Instructions on the product page for more information. <\/p>",
+            "content": "<p>We do not recommend putting Inkkas shoes in the washing machine. To keep your Inkkas clean and looking good, we recommend spot cleaning them with a rag and a little soap and water. (For leather areas, spot clean with water only or use a specialized leather cleaner.) Please refer to the Care Instructions on the product page for more information. </p>",
             "page": ""
           }
         },
@@ -160,7 +169,7 @@
           "settings": {
             "heading": "Are Inkkas waterproof? ",
             "open": false,
-            "content": "<p>While Inkkas shoes are not waterproof, they are water-resistant. This means they will resist the intrusion of light water (yes, you can stroll around on rainy days). However, if you plan to take them into inclement weather, we recommend using this <a href=\"https:\/\/inkkas.com\/products\/nikwax-fabric-leather-proof-spray?_pos=1&_sid=fd960d240&_ss=r\">spray-on protectant<\/a> to further protect or waterproof your shoes.<\/p>",
+            "content": "<p>While Inkkas shoes are not waterproof, they are water-resistant. This means they will resist the intrusion of light water (yes, you can stroll around on rainy days). However, if you plan to take them into inclement weather, we recommend using this <a href=\"https://inkkas.com/products/nikwax-fabric-leather-proof-spray?_pos=1&_sid=fd960d240&_ss=r\">spray-on protectant</a> to further protect or waterproof your shoes.</p>",
             "page": ""
           }
         },
@@ -169,7 +178,7 @@
           "settings": {
             "heading": "Do Inkkas shoes have arch support?",
             "open": false,
-            "content": "<p>Yes, Inkkas provide arch support that is sufficient for the curvature of the average foot.<\/p><p>However, if you typically wear orthopedic insoles in your shoes, you may want to use orthopedic insoles in your Inkkas as well. Inkkas' insoles are removable to make room for orthopedic inserts for the following collections: Slip Ons, High Tops, Low Tops, Camping Boots, and Trekk Boots.<\/p>",
+            "content": "<p>Yes, Inkkas provide arch support that is sufficient for the curvature of the average foot.</p><p>However, if you typically wear orthopedic insoles in your shoes, you may want to use orthopedic insoles in your Inkkas as well. Inkkas' insoles are removable to make room for orthopedic inserts for the following collections: Slip Ons, High Tops, Low Tops, Camping Boots, and Trekk Boots.</p>",
             "page": ""
           }
         },
@@ -178,7 +187,7 @@
           "settings": {
             "heading": "Where are Inkkas shoes made?",
             "open": false,
-            "content": "<p>All of our shoes are handcrafted in Mexico. Our signature woven textiles are supplied from local artisans and professionals in Peru. When you buy our shoes, you are buying an authentic, quality Latin American product.<\/p>",
+            "content": "<p>All of our shoes are handcrafted in Mexico. Our signature woven textiles are supplied from local artisans and professionals in Peru. When you buy our shoes, you are buying an authentic, quality Latin American product.</p>",
             "page": ""
           }
         },
@@ -187,7 +196,7 @@
           "settings": {
             "heading": "What does “handcrafted” mean?",
             "open": false,
-            "content": "<p>Our footwear designs rely on age-old, small batch craft techniques that are better for people and the planet. We use the finest textiles, leathers and vegan leathers to develop comfortable and vibrant shoes, with <em><strong>every pair cut, sewn, & stitched by hand<\/strong><\/em><em>.<\/em><\/p>",
+            "content": "<p>Our footwear designs rely on age-old, small batch craft techniques that are better for people and the planet. We use the finest textiles, leathers and vegan leathers to develop comfortable and vibrant shoes, with <em><strong>every pair cut, sewn, & stitched by hand</strong></em><em>.</em></p>",
             "page": ""
           }
         },
@@ -196,7 +205,7 @@
           "settings": {
             "heading": "How are shoemakers who work with Inkkas paid?",
             "open": false,
-            "content": "<p>Our partners throughout the supply chain are paid fair living wages and work in environments that prioritize health, safety, and respect.<\/p>",
+            "content": "<p>Our partners throughout the supply chain are paid fair living wages and work in environments that prioritize health, safety, and respect.</p>",
             "page": ""
           }
         },
@@ -205,7 +214,7 @@
           "settings": {
             "heading": "I would like to buy an Inkkas gift certificate to offer as a gift. How do I do that?",
             "open": false,
-            "content": "<p>E-gifts cards are available <a href=\"\/products\/gift-card\" title=\"Inkkas Gift Card\">here<\/a>. You can also find them under the shop tab on our website. They are a great gift option for holidays and birthdays! <\/p>",
+            "content": "<p>E-gifts cards are available <a href=\"/products/gift-card\" title=\"Inkkas Gift Card\">here</a>. You can also find them under the shop tab on our website. They are a great gift option for holidays and birthdays! </p>",
             "page": ""
           }
         },
@@ -214,7 +223,7 @@
           "settings": {
             "heading": "What can I do with old Inkkas I no longer wear? ",
             "open": false,
-            "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. Our partner organization that does a great job repurposing used shoes is Soles4Souls (<a href=\"https:\/\/soles4souls.org\/\">https:\/\/soles4souls.org<\/a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. <\/p>",
+            "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. Our partner organization that does a great job repurposing used shoes is Soles4Souls (<a href=\"https://soles4souls.org/\">https://soles4souls.org</a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. </p>",
             "page": ""
           }
         },
@@ -223,7 +232,7 @@
           "settings": {
             "heading": "I have contacted Inkkas customer service, when will I hear back?",
             "open": false,
-            "content": "<p>Inkkas support agents are available between 9:00am to 5:00pm EST, Monday to Saturday. We are committed to responding to inquiries within 24 to 48 hours during business hours. You can reach us at <a href=\"mailto:support@inkkas.com\">support@inkkas.com<\/a>.  Please note that we do not respond to inquiries during weekends and\/or holidays. For urgent matters, you can also email ops@inkkas.com.<\/p>",
+            "content": "<p>Inkkas support agents are available between 9:00am to 5:00pm EST, Monday to Saturday. We are committed to responding to inquiries within 24 to 48 hours during business hours. You can reach us at <a href=\"mailto:support@inkkas.com\">support@inkkas.com</a>.  Please note that we do not respond to inquiries during weekends and/or holidays. For urgent matters, you can also email ops@inkkas.com.</p>",
             "page": ""
           }
         },
@@ -232,7 +241,7 @@
           "settings": {
             "heading": "Who owns Inkkas?",
             "open": false,
-            "content": "<p>Inkkas is owned & operated by a diverse collective of individuals – we are a team united by a shared belief in the power of <strong>globally inclusive & joyful<\/strong> representation in fashion, and we are on a mission to do so in a way that <strong>respects people & our planet<\/strong>. We hope you enjoy these fun, global, colorful designs!<\/p>",
+            "content": "<p>Inkkas is owned & operated by a diverse collective of individuals – we are a team united by a shared belief in the power of <strong>globally inclusive & joyful</strong> representation in fashion, and we are on a mission to do so in a way that <strong>respects people & our planet</strong>. We hope you enjoy these fun, global, colorful designs!</p>",
             "page": ""
           }
         }

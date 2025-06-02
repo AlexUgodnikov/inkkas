@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "countdown_banner_Nkdg4Y": {
@@ -14,7 +23,7 @@
         "content": "Use code: JULY4",
         "content_size": "small",
         "button_text": "",
-        "button_link": "shopify:\/\/collections\/best-sellers",
+        "button_link": "shopify://collections/best-sellers",
         "timer_year": 2024,
         "timer_month": "07",
         "timer_day": "07",
@@ -74,7 +83,7 @@
           }
         },
         "preorder_me_product_button_t8zPaL": {
-          "type": "shopify:\/\/apps\/preorder-me\/blocks\/product-button\/d3a9a307-3c62-4d7b-8a5b-7ae9b6e399ce",
+          "type": "shopify://apps/preorder-me/blocks/product-button/d3a9a307-3c62-4d7b-8a5b-7ae9b6e399ce",
           "settings": {}
         },
         "buy_buttons": {
@@ -86,13 +95,13 @@
           }
         },
         "essential_countdown_app_block_fzdFNN": {
-          "type": "shopify:\/\/apps\/countdown-timer-essential\/blocks\/app-block\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "type": "shopify://apps/countdown-timer-essential/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
             "id": "cmb9apv98001n14iyoregiqn4"
           }
         },
         "essential_announcer_app_block_CEF9Vm": {
-          "type": "shopify:\/\/apps\/essential-announcer\/blocks\/app-block\/93b5429f-c8d6-4c33-ae14-250fd84f361b",
+          "type": "shopify://apps/essential-announcer/blocks/app-block/93b5429f-c8d6-4c33-ae14-250fd84f361b",
           "disabled": true,
           "settings": {
             "id": "9e62d6da-880b-4751-a1ff-390665ae0a3b"
@@ -101,14 +110,14 @@
         "custom_liquid_JfYWyP": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.handle != 'nikwax-fabric-leather-proof-spray' %}\n<div class=\"essential-announcement-block\" id=\"9e62d6da-880b-4751-a1ff-390665ae0a3b\"><\/div>{% endif %}"
+            "custom_liquid": "{% if product.handle != 'nikwax-fabric-leather-proof-spray' %}\n<div class=\"essential-announcement-block\" id=\"9e62d6da-880b-4751-a1ff-390665ae0a3b\"></div>{% endif %}"
           }
         },
         "custom_liquid_Ydcihg": {
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<style>\nform[action=\"\/cart\/add\"]{\ndisplay:flex;\n}\nform[action=\"\/cart\/add\"] .product-add-to-cart-container{\nwidth:100%;\n}\nform[action=\"\/cart\/add\"] preorder-me-button .preorder-me-button{\nwidth:1000%;\n}\n<\/style>"
+            "custom_liquid": "<style>\nform[action=\"/cart/add\"]{\ndisplay:flex;\n}\nform[action=\"/cart/add\"] .product-add-to-cart-container{\nwidth:100%;\n}\nform[action=\"/cart/add\"] preorder-me-button .preorder-me-button{\nwidth:1000%;\n}\n</style>"
           }
         },
         "collapsible_tab_2_hxiDMm": {
@@ -152,7 +161,7 @@
             "heading": "Free Exchanges & Easy Returns",
             "show_description": false,
             "description_type": "full_description",
-            "content": "<p>You can easily return or exchange eligible items for up to 30 days. We also provide one FREE exchange for every pair! View our full return policy <a href=\"\/pages\/return-policy\" title=\"Returns & Exchanges\">here<\/a>.<\/p>",
+            "content": "<p>You can easily return or exchange eligible items for up to 30 days. We also provide one FREE exchange for every pair! View our full return policy <a href=\"/pages/return-policy\" title=\"Returns & Exchanges\">here</a>.</p>",
             "page": ""
           }
         },
@@ -167,7 +176,7 @@
             "heading": "Free Shipping",
             "show_description": false,
             "description_type": "full_description",
-            "content": "<p>FREE U.S. ground shipping on orders of $175 or more is automatically applied at checkout!<\/p>",
+            "content": "<p>FREE U.S. ground shipping on orders of $175 or more is automatically applied at checkout!</p>",
             "page": ""
           }
         },
@@ -199,7 +208,7 @@
             "heading": "Pre-Orders",
             "show_description": false,
             "description_type": "full_description",
-            "content": "<p>Because we make collections in small batches, we also make certain products available for pre-order. We do our best to project accurate shipping dates for pre-orders on the product page; however, please note that these dates could change.<\/p>",
+            "content": "<p>Because we make collections in small batches, we also make certain products available for pre-order. We do our best to project accurate shipping dates for pre-orders on the product page; however, please note that these dates could change.</p>",
             "page": ""
           }
         },
@@ -435,7 +444,7 @@
         "custom_liquid_Y3EYmc": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.product-6767518154849 .shipping__returns,\n.product-10422074057 .shipping__returns{\ndisplay:none;\n}\n<\/style>"
+            "custom_liquid": "<style>\n.product-6767518154849 .shipping__returns,\n.product-10422074057 .shipping__returns{\ndisplay:none;\n}\n</style>"
           }
         }
       },
@@ -492,7 +501,8 @@
         "display_captions": false,
         "hide_variants": false,
         "lightbox": true,
-        "enable_video_looping": false
+        "enable_video_looping": true,
+        "video_autoplay": true
       }
     },
     "rich_text_xHRfX6": {
@@ -526,14 +536,14 @@
       "type": "custom-liquid",
       "custom_css": [],
       "settings": {
-        "custom_liquid": "<div class=\"revirow-title \n row full-width-row\"><h2 class=\"h3\">Customer Reviews<\/h2><\/div>\n<style>\n.revirow-title {\n   padding: 90px 50px 0 50px;\n  }\n.collapsible-tab-2.customer_reviews {\n  display: none !important;\n}\n@media (max-width: 768px) {\n  .collapsible-tab-2.customer_reviews {\n    display: block !important;\n  }\n .revirow-title {\n    display: none;\n  }\n}\n<\/style>"
+        "custom_liquid": "<div class=\"revirow-title \n row full-width-row\"><h2 class=\"h3\">Customer Reviews</h2></div>\n<style>\n.revirow-title {\n   padding: 90px 50px 0 50px;\n  }\n.collapsible-tab-2.customer_reviews {\n  display: none !important;\n}\n@media (max-width: 768px) {\n  .collapsible-tab-2.customer_reviews {\n    display: block !important;\n  }\n .revirow-title {\n    display: none;\n  }\n}\n</style>"
       }
     },
     "17443016606c46dac5": {
       "type": "apps",
       "blocks": {
         "okendo_reviews_widget_bEJLGc": {
-          "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
             "product": "{{product}}",
             "widget_type": "reviews_widget"
@@ -558,28 +568,28 @@
           "type": "logo",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/ultracomfyiconrightsize.png",
+            "image": "shopify://shop_images/ultracomfyiconrightsize.png",
             "link": ""
           }
         },
         "logo_iFq4CT": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/handcraftedicon.png",
+            "image": "shopify://shop_images/handcraftedicon.png",
             "link": ""
           }
         },
         "logo_VnzAAm": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/unnamed_05965f59-7377-41de-890a-01af14dd90ad.png",
+            "image": "shopify://shop_images/unnamed_05965f59-7377-41de-890a-01af14dd90ad.png",
             "link": ""
           }
         },
         "logo_6Bartj": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/unnamed_c4a9dff1-9922-4e24-8d6b-bd95ce87a002.png",
+            "image": "shopify://shop_images/unnamed_c4a9dff1-9922-4e24-8d6b-bd95ce87a002.png",
             "link": ""
           }
         }
@@ -609,7 +619,7 @@
           "settings": {
             "icon": "shoe",
             "heading": "SATISFACTION GUARANTEE",
-            "text": "<p><a href=\"\/pages\/return-policy\" title=\"Returns & Exchanges\">We provide FREE exchanges and easy returns for 30 days.<\/a><\/p>"
+            "text": "<p><a href=\"/pages/return-policy\" title=\"Returns & Exchanges\">We provide FREE exchanges and easy returns for 30 days.</a></p>"
           }
         },
         "icon_ctNqqJ": {
@@ -617,7 +627,7 @@
           "settings": {
             "icon": "star",
             "heading": "GET REWARDED",
-            "text": "<p><a href=\"\/pages\/rewards\" target=\"_blank\" title=\"REWARDS\">Earn points & exclusive rewards every time you shop. <\/a><\/p>"
+            "text": "<p><a href=\"/pages/rewards\" target=\"_blank\" title=\"REWARDS\">Earn points & exclusive rewards every time you shop. </a></p>"
           }
         },
         "icon_8fyykF": {
@@ -625,7 +635,7 @@
           "settings": {
             "icon": "plant",
             "heading": "ONE SHOE ONE TREE",
-            "text": "<p><a href=\"\/pages\/aboutstory\" target=\"_blank\" title=\"About Current\">Every pair you purchase plants a tree with Trees.org!<\/a><\/p>"
+            "text": "<p><a href=\"/pages/aboutstory\" target=\"_blank\" title=\"About Current\">Every pair you purchase plants a tree with Trees.org!</a></p>"
           }
         }
       },
@@ -664,21 +674,21 @@
           "type": "column",
           "settings": {
             "tag": "How It Looks: Camping Boots",
-            "image_1": "shopify:\/\/shop_images\/Prickly_Camping_Boot-UGC-_jamie_adventurelover-3_ce206ba4-a866-4802-a9d0-e4b662ed0355.png",
+            "image_1": "shopify://shop_images/Prickly_Camping_Boot-UGC-_jamie_adventurelover-3_ce206ba4-a866-4802-a9d0-e4b662ed0355.png",
             "link_to_video_1": "",
-            "image_2": "shopify:\/\/shop_images\/Tan_Suede_Camping_Boots-UGC-_val.zetti_5ce55ebb-8128-419c-a283-ea87a1d5afce.png",
+            "image_2": "shopify://shop_images/Tan_Suede_Camping_Boots-UGC-_val.zetti_5ce55ebb-8128-419c-a283-ea87a1d5afce.png",
             "link_to_video_2": "",
-            "image_3": "shopify:\/\/shop_images\/PRICKLY-CAMPING-BOOT-SS190501-UGC-_evinoutside-IMG_8017_4fbb62fb-98a0-4776-a0bf-809686aa9ae9.png",
+            "image_3": "shopify://shop_images/PRICKLY-CAMPING-BOOT-SS190501-UGC-_evinoutside-IMG_8017_4fbb62fb-98a0-4776-a0bf-809686aa9ae9.png",
             "link_to_video_3": "",
-            "image_4": "shopify:\/\/shop_images\/Brown_Leather_Camping_Boot-UGC-_carlssbarkely_15607266-52d7-45b2-9b09-a5f582ac9674.png",
+            "image_4": "shopify://shop_images/Brown_Leather_Camping_Boot-UGC-_carlssbarkely_15607266-52d7-45b2-9b09-a5f582ac9674.png",
             "link_to_video_4": "",
-            "image_5": "shopify:\/\/shop_images\/Brown_Leather_Camping_Boot-UGC-Hammock-_doxie85_f07a60ee-9085-4374-8daa-555ad111133a.jpg",
+            "image_5": "shopify://shop_images/Brown_Leather_Camping_Boot-UGC-Hammock-_doxie85_f07a60ee-9085-4374-8daa-555ad111133a.jpg",
             "link_to_video_5": "",
-            "image_6": "shopify:\/\/shop_images\/Tan_Suede_Camping_Boots-UGC-Hike-_carlssbarkely-1_4d0afa5b-e4c1-4ff5-8da9-9aac62dc7d8f.png",
+            "image_6": "shopify://shop_images/Tan_Suede_Camping_Boots-UGC-Hike-_carlssbarkely-1_4d0afa5b-e4c1-4ff5-8da9-9aac62dc7d8f.png",
             "link_to_video_6": "",
-            "image_7": "shopify:\/\/shop_images\/Screen_Shot_2025-04-10_at_12.07.16_PM.png",
+            "image_7": "shopify://shop_images/Screen_Shot_2025-04-10_at_12.07.16_PM.png",
             "link_to_video_7": "",
-            "image_8": "shopify:\/\/shop_images\/Prickly_Camping_Boot-UGC-_jamie_adventurelover_59098539-dbec-4a65-a602-97bedc150b78.png",
+            "image_8": "shopify://shop_images/Prickly_Camping_Boot-UGC-_jamie_adventurelover_59098539-dbec-4a65-a602-97bedc150b78.png",
             "link_to_video_8": "",
             "link_to_video_9": "",
             "link_to_video_10": "",
@@ -693,33 +703,33 @@
           "type": "column",
           "settings": {
             "tag": "How It Looks: Trekk Boots",
-            "image_1": "shopify:\/\/shop_images\/Toubkal_Trekk_Boot-INFLUENCER-_anna_thenurse_f7017a05-86f9-4fdf-9b3b-b71d5dd3df0c.png",
+            "image_1": "shopify://shop_images/Toubkal_Trekk_Boot-INFLUENCER-_anna_thenurse_f7017a05-86f9-4fdf-9b3b-b71d5dd3df0c.png",
             "link_to_video_1": "",
-            "image_2": "shopify:\/\/shop_images\/Screen_Shot_2025-04-08_at_12.20.15_PM.png",
+            "image_2": "shopify://shop_images/Screen_Shot_2025-04-08_at_12.20.15_PM.png",
             "link_to_video_2": "",
-            "image_3": "shopify:\/\/shop_images\/Monterey_Vegan_Trekk_Boot-UGC-yoga-hike-_sarahdoesyoga.png",
+            "image_3": "shopify://shop_images/Monterey_Vegan_Trekk_Boot-UGC-yoga-hike-_sarahdoesyoga.png",
             "link_to_video_3": "",
-            "image_4": "shopify:\/\/shop_images\/MOHAVE-TREKK-BOOT-INFLUENCER-MILLARD_CANYON_FALLS-_PURPLES_CHIC-2_80f5f650-f4bf-4f1d-8e5d-e2eb4aceedc3.png",
+            "image_4": "shopify://shop_images/MOHAVE-TREKK-BOOT-INFLUENCER-MILLARD_CANYON_FALLS-_PURPLES_CHIC-2_80f5f650-f4bf-4f1d-8e5d-e2eb4aceedc3.png",
             "link_to_video_4": "",
-            "image_5": "shopify:\/\/shop_images\/Cyprus_Trekk_Boot-UGC-_margaretemilygraham-_betweenthepine-2_e8b89ee6-ebbb-49e9-93c8-3c37f435ce99.png",
+            "image_5": "shopify://shop_images/Cyprus_Trekk_Boot-UGC-_margaretemilygraham-_betweenthepine-2_e8b89ee6-ebbb-49e9-93c8-3c37f435ce99.png",
             "link_to_video_5": "",
-            "image_6": "shopify:\/\/shop_images\/Cyprus_Trekk_Boot-UGC-_texansoverland_101858c3-5e26-4930-a9e7-3eeeb02dbd5c.png",
+            "image_6": "shopify://shop_images/Cyprus_Trekk_Boot-UGC-_texansoverland_101858c3-5e26-4930-a9e7-3eeeb02dbd5c.png",
             "link_to_video_6": "",
-            "image_7": "shopify:\/\/shop_images\/ALPINE-TREKK-BOOT-INFLUENCER-MOM-_ANNA_THENURSE-2_966fa3b0-d441-4918-9183-ffaaf82b1586.png",
+            "image_7": "shopify://shop_images/ALPINE-TREKK-BOOT-INFLUENCER-MOM-_ANNA_THENURSE-2_966fa3b0-d441-4918-9183-ffaaf82b1586.png",
             "link_to_video_7": "",
-            "image_8": "shopify:\/\/shop_images\/Brown_Leather_Trekk_Boot-UGC-HIKE-_poncedeitzleon-3.jpg",
+            "image_8": "shopify://shop_images/Brown_Leather_Trekk_Boot-UGC-HIKE-_poncedeitzleon-3.jpg",
             "link_to_video_8": "",
-            "image_9": "shopify:\/\/shop_images\/CYPRUS-TREKK-BOOT-UGC-_HAPPY.LILBIRD-1.png",
+            "image_9": "shopify://shop_images/CYPRUS-TREKK-BOOT-UGC-_HAPPY.LILBIRD-1.png",
             "link_to_video_9": "",
-            "image_10": "shopify:\/\/shop_images\/Brisbane-Trekk-Boots-UGC-_elisabethkatlyn-ZION-1_05f59a9f-e611-445d-a39f-bbac02ebb43d.png",
+            "image_10": "shopify://shop_images/Brisbane-Trekk-Boots-UGC-_elisabethkatlyn-ZION-1_05f59a9f-e611-445d-a39f-bbac02ebb43d.png",
             "link_to_video_10": "",
-            "image_11": "shopify:\/\/shop_images\/Mohave_Trekk_Boot-UGC-HIKE-ZION_national_park-_culturemebeautiful-2.jpg",
+            "image_11": "shopify://shop_images/Mohave_Trekk_Boot-UGC-HIKE-ZION_national_park-_culturemebeautiful-2.jpg",
             "link_to_video_11": "",
-            "image_12": "shopify:\/\/shop_images\/Mohave_Trekk_Boot-_smile_outloud-UGC-1_daf442c9-c1f8-4a90-988d-593a37412278.png",
+            "image_12": "shopify://shop_images/Mohave_Trekk_Boot-_smile_outloud-UGC-1_daf442c9-c1f8-4a90-988d-593a37412278.png",
             "link_to_video_12": "",
-            "image_13": "shopify:\/\/shop_images\/Flutterby_Trekk_Boot-INFLUENCER-hike-_iamoneness11-1_90d06fc1-468a-44c0-bb0a-ec2f03698035.jpg",
+            "image_13": "shopify://shop_images/Flutterby_Trekk_Boot-INFLUENCER-hike-_iamoneness11-1_90d06fc1-468a-44c0-bb0a-ec2f03698035.jpg",
             "link_to_video_13": "",
-            "image_14": "shopify:\/\/shop_images\/Alpine_Trekk_Boot-Influencer-_bjgruber-8_eeea4680-bdfd-4499-a234-77e0f3fce129.jpg",
+            "image_14": "shopify://shop_images/Alpine_Trekk_Boot-Influencer-_bjgruber-8_eeea4680-bdfd-4499-a234-77e0f3fce129.jpg",
             "link_to_video_14": "",
             "link_to_video_15": ""
           }
@@ -728,19 +738,19 @@
           "type": "column",
           "settings": {
             "tag": "How It Looks: Booties",
-            "image_1": "shopify:\/\/shop_images\/Brown_Leather_Bootie-UGC-_lelemariecreates_5c2b6ae3-2e19-48ec-bd92-ec6edc51831d.png",
+            "image_1": "shopify://shop_images/Brown_Leather_Bootie-UGC-_lelemariecreates_5c2b6ae3-2e19-48ec-bd92-ec6edc51831d.png",
             "link_to_video_1": "",
-            "image_2": "shopify:\/\/shop_images\/SOCORRO-BOOTIE-AW210802-INFLUENCER-_jesscharmian-JES_2994_4fa4caae-1b7f-4b37-bd22-eaf11e3ef69b.jpg",
+            "image_2": "shopify://shop_images/SOCORRO-BOOTIE-AW210802-INFLUENCER-_jesscharmian-JES_2994_4fa4caae-1b7f-4b37-bd22-eaf11e3ef69b.jpg",
             "link_to_video_2": "",
-            "image_3": "shopify:\/\/shop_images\/Socorro-Bootie-INFLUENCER-_hiriemusic-5_cd2b1cd6-dcf7-41c7-b7cb-8aa5358466fa.jpg",
+            "image_3": "shopify://shop_images/Socorro-Bootie-INFLUENCER-_hiriemusic-5_cd2b1cd6-dcf7-41c7-b7cb-8aa5358466fa.jpg",
             "link_to_video_3": "",
-            "image_4": "shopify:\/\/shop_images\/GROVE-BOOTIE-AW210801-INFLUENCER-_seacaitlinmccall-0_54182a28-7d90-4f91-94c7-c1c0ad32d31e.jpg",
+            "image_4": "shopify://shop_images/GROVE-BOOTIE-AW210801-INFLUENCER-_seacaitlinmccall-0_54182a28-7d90-4f91-94c7-c1c0ad32d31e.jpg",
             "link_to_video_4": "",
-            "image_5": "shopify:\/\/shop_images\/Brown_Leather_Bootie-INFLUENCER-Holiday-Family-Snow-_plsmithed-1_0fcf06ca-fda4-4275-9428-ff8cb5bba8b8.jpg",
+            "image_5": "shopify://shop_images/Brown_Leather_Bootie-INFLUENCER-Holiday-Family-Snow-_plsmithed-1_0fcf06ca-fda4-4275-9428-ff8cb5bba8b8.jpg",
             "link_to_video_5": "",
-            "image_6": "shopify:\/\/shop_images\/Brown_Leather_Bootie-UGC-_this_thrifted_wardrobe_39f37ebd-d142-4616-973c-758afec96673.png",
+            "image_6": "shopify://shop_images/Brown_Leather_Bootie-UGC-_this_thrifted_wardrobe_39f37ebd-d142-4616-973c-758afec96673.png",
             "link_to_video_6": "",
-            "image_7": "shopify:\/\/shop_images\/SOCORRO-BOOTIE-AW210802-INFLUENCER-_jesscharmian-1_ebbcca3e-4261-4772-a859-35b5693a2562.jpg",
+            "image_7": "shopify://shop_images/SOCORRO-BOOTIE-AW210802-INFLUENCER-_jesscharmian-1_ebbcca3e-4261-4772-a859-35b5693a2562.jpg",
             "link_to_video_7": "",
             "link_to_video_8": "",
             "link_to_video_9": "",
@@ -756,15 +766,15 @@
           "type": "column",
           "settings": {
             "tag": "How It Looks: Western Boots",
-            "image_1": "shopify:\/\/shop_images\/Samadhi_Western_Boot-Influencer-_miss_t_garnier-3_4f888ea7-4782-4cc5-b6b4-bcc984707b47.png",
+            "image_1": "shopify://shop_images/Samadhi_Western_Boot-Influencer-_miss_t_garnier-3_4f888ea7-4782-4cc5-b6b4-bcc984707b47.png",
             "link_to_video_1": "",
-            "image_2": "shopify:\/\/shop_images\/Screen_Shot_2025-04-08_at_12.24.48_PM.png",
+            "image_2": "shopify://shop_images/Screen_Shot_2025-04-08_at_12.24.48_PM.png",
             "link_to_video_2": "",
-            "image_3": "shopify:\/\/shop_images\/Screen_Shot_2025-04-08_at_12.26.35_PM_9cb79ae7-c5bf-4db2-bd2f-b748042c96f8.png",
+            "image_3": "shopify://shop_images/Screen_Shot_2025-04-08_at_12.26.35_PM_9cb79ae7-c5bf-4db2-bd2f-b748042c96f8.png",
             "link_to_video_3": "",
-            "image_4": "shopify:\/\/shop_images\/Samadhi_Western_Boot-Influencer-_miss_t_garnier-9_0cb97cd8-1eba-491a-a384-4acb3631dc1d.png",
+            "image_4": "shopify://shop_images/Samadhi_Western_Boot-Influencer-_miss_t_garnier-9_0cb97cd8-1eba-491a-a384-4acb3631dc1d.png",
             "link_to_video_4": "",
-            "image_5": "shopify:\/\/shop_images\/Screen_Shot_2025-04-08_at_12.25.29_PM_ddaa38df-cee5-4b34-9f47-d9e9016ec48f.png",
+            "image_5": "shopify://shop_images/Screen_Shot_2025-04-08_at_12.25.29_PM_ddaa38df-cee5-4b34-9f47-d9e9016ec48f.png",
             "link_to_video_5": "",
             "link_to_video_6": "",
             "link_to_video_7": "",
@@ -782,27 +792,27 @@
           "type": "column",
           "settings": {
             "tag": "How It Looks: Joggers",
-            "image_1": "shopify:\/\/shop_images\/Prickly_Joggers-UGC-_chickieharristhal_b2d4dbe8-156e-4a97-a473-f569257dc818.jpg",
+            "image_1": "shopify://shop_images/Prickly_Joggers-UGC-_chickieharristhal_b2d4dbe8-156e-4a97-a473-f569257dc818.jpg",
             "link_to_video_1": "",
-            "image_2": "shopify:\/\/shop_images\/Yuuki_Jogger-UGC-_sweet_jiva_7e961a6c-f7bb-4deb-b39b-4a4eb1e78ecd.png",
+            "image_2": "shopify://shop_images/Yuuki_Jogger-UGC-_sweet_jiva_7e961a6c-f7bb-4deb-b39b-4a4eb1e78ecd.png",
             "link_to_video_2": "",
-            "image_3": "shopify:\/\/shop_images\/Andes-Grey-Joggers-UGC-_vermontbeans-CAT.jpg",
+            "image_3": "shopify://shop_images/Andes-Grey-Joggers-UGC-_vermontbeans-CAT.jpg",
             "link_to_video_3": "",
-            "image_4": "shopify:\/\/shop_images\/Joey_Vegan_Joggers-Alpine_Joggers-Yuuki_Joggers-INFLUENCER-GROUP-NURSE-_wirebackcandles_74d535fc-bfe0-4385-b9ec-faf49326c82b.jpg",
+            "image_4": "shopify://shop_images/Joey_Vegan_Joggers-Alpine_Joggers-Yuuki_Joggers-INFLUENCER-GROUP-NURSE-_wirebackcandles_74d535fc-bfe0-4385-b9ec-faf49326c82b.jpg",
             "link_to_video_4": "",
-            "image_5": "shopify:\/\/shop_images\/PASSERINE_JOGGER-INFLUENCER-_PINKSHEEPDESIGNS-6159_ab7a777b-7c07-4d7f-8f16-a14a1223f393.jpg",
+            "image_5": "shopify://shop_images/PASSERINE_JOGGER-INFLUENCER-_PINKSHEEPDESIGNS-6159_ab7a777b-7c07-4d7f-8f16-a14a1223f393.jpg",
             "link_to_video_5": "",
-            "image_6": "shopify:\/\/shop_images\/Samadhi_Joggers-Influencer-_miss_t_garnier-2_f16866a2-60a5-4533-bc4b-f76356a035a5.png",
+            "image_6": "shopify://shop_images/Samadhi_Joggers-Influencer-_miss_t_garnier-2_f16866a2-60a5-4533-bc4b-f76356a035a5.png",
             "link_to_video_6": "",
-            "image_7": "shopify:\/\/shop_images\/SOCORRO-JOGGER-UGC-DOG-_SIERRASOPAIPILLA_447000ac-9c27-409e-9fa4-8c871d841db6.png",
+            "image_7": "shopify://shop_images/SOCORRO-JOGGER-UGC-DOG-_SIERRASOPAIPILLA_447000ac-9c27-409e-9fa4-8c871d841db6.png",
             "link_to_video_7": "",
-            "image_8": "shopify:\/\/shop_images\/Lea_Jogger-SS230406-_adventuresofmssmith_-Teacher-Influencer-C179_0e8981f0-619f-4d92-9465-82a0d37ce438.jpg",
+            "image_8": "shopify://shop_images/Lea_Jogger-SS230406-_adventuresofmssmith_-Teacher-Influencer-C179_0e8981f0-619f-4d92-9465-82a0d37ce438.jpg",
             "link_to_video_8": "",
-            "image_9": "shopify:\/\/shop_images\/Andes_Jogger-INFLUENCER-_luzpyle-1.png",
+            "image_9": "shopify://shop_images/Andes_Jogger-INFLUENCER-_luzpyle-1.png",
             "link_to_video_9": "",
-            "image_10": "shopify:\/\/shop_images\/Hendrix_Jogger-UGC-_ourbigadventure573.png",
+            "image_10": "shopify://shop_images/Hendrix_Jogger-UGC-_ourbigadventure573.png",
             "link_to_video_10": "",
-            "image_11": "shopify:\/\/shop_images\/Andes_Jogger-UGC-_bookishly_overdue_ba898cf7-c7b7-41aa-8370-c4c44ac1be8d.png",
+            "image_11": "shopify://shop_images/Andes_Jogger-UGC-_bookishly_overdue_ba898cf7-c7b7-41aa-8370-c4c44ac1be8d.png",
             "link_to_video_11": "",
             "link_to_video_12": "",
             "link_to_video_13": "",
@@ -814,16 +824,16 @@
           "type": "column",
           "settings": {
             "tag": "How It Looks: Runners",
-            "image_1": "shopify:\/\/shop_images\/Spirit_Bear_Runners-UGC-_liv_stew7_1c06090d-5bd6-412c-9b72-0b3979a43d17.png",
+            "image_1": "shopify://shop_images/Spirit_Bear_Runners-UGC-_liv_stew7_1c06090d-5bd6-412c-9b72-0b3979a43d17.png",
             "link_to_video_1": "",
-            "image_2": "shopify:\/\/shop_images\/Mohave_Runner-Passerine_Slip_On-UGC-_thellavenderllama-1_a925823b-e5cc-42ba-a7e5-ccd8ea80f78d.png",
+            "image_2": "shopify://shop_images/Mohave_Runner-Passerine_Slip_On-UGC-_thellavenderllama-1_a925823b-e5cc-42ba-a7e5-ccd8ea80f78d.png",
             "link_to_video_2": "",
-            "image_3": "shopify:\/\/shop_images\/Screen_Shot_2025-04-08_at_4.54.08_PM.png",
+            "image_3": "shopify://shop_images/Screen_Shot_2025-04-08_at_4.54.08_PM.png",
             "link_to_video_3": "",
-            "image_4": "shopify:\/\/shop_images\/Screen_Shot_2025-04-08_at_4.54.40_PM_6e9ac81c-0d09-44cd-8285-0df0b99b686a.png",
+            "image_4": "shopify://shop_images/Screen_Shot_2025-04-08_at_4.54.40_PM_6e9ac81c-0d09-44cd-8285-0df0b99b686a.png",
             "link_to_video_4": "",
             "link_to_video_5": "",
-            "image_6": "shopify:\/\/shop_images\/Screen_Shot_2025-04-08_at_4.55.01_PM_06db5a6a-65f6-4118-ae9d-0ac70c226a64.png",
+            "image_6": "shopify://shop_images/Screen_Shot_2025-04-08_at_4.55.01_PM_06db5a6a-65f6-4118-ae9d-0ac70c226a64.png",
             "link_to_video_6": "",
             "link_to_video_7": "",
             "link_to_video_8": "",
@@ -840,23 +850,23 @@
           "type": "column",
           "settings": {
             "tag": "How It Looks: Slip Ons",
-            "image_1": "shopify:\/\/shop_images\/TREK-SLIP-ON-UGC-_EMSPIREDLIVING.png",
+            "image_1": "shopify://shop_images/TREK-SLIP-ON-UGC-_EMSPIREDLIVING.png",
             "link_to_video_1": "",
-            "image_2": "shopify:\/\/shop_images\/Trek_Slip_On-UGC-CAT-_crashanddebby_5bad1c83-a6fd-40d9-a149-3371dc78f0bb.png",
+            "image_2": "shopify://shop_images/Trek_Slip_On-UGC-CAT-_crashanddebby_5bad1c83-a6fd-40d9-a149-3371dc78f0bb.png",
             "link_to_video_2": "",
-            "image_3": "shopify:\/\/shop_images\/BLAKE-SLIP-ON-KL302333-UGC-_just.jo8-IMG_4299_69a298fa-5c65-45f4-b9c6-852b542f2c53.png",
+            "image_3": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-UGC-_just.jo8-IMG_4299_69a298fa-5c65-45f4-b9c6-852b542f2c53.png",
             "link_to_video_3": "",
-            "image_4": "shopify:\/\/shop_images\/SOCORRO-SLIP-ON-AW210306-INFLUENCER-_projecthxr-32ECDF_948d6b97-397d-45c0-abf8-a936619b6792.jpg",
+            "image_4": "shopify://shop_images/SOCORRO-SLIP-ON-AW210306-INFLUENCER-_projecthxr-32ECDF_948d6b97-397d-45c0-abf8-a936619b6792.jpg",
             "link_to_video_4": "",
-            "image_5": "shopify:\/\/shop_images\/BADASS-BLACK-SLIP-ON-AW200307-UGC-_Kacey_Jackson-Way-This_is_Lucy_she_is_8_weeks_old_blue_heeler-1-DOG_61cc291d-34d0-440f-b6fb-f4eecabfd495.jpg",
+            "image_5": "shopify://shop_images/BADASS-BLACK-SLIP-ON-AW200307-UGC-_Kacey_Jackson-Way-This_is_Lucy_she_is_8_weeks_old_blue_heeler-1-DOG_61cc291d-34d0-440f-b6fb-f4eecabfd495.jpg",
             "link_to_video_5": "",
-            "image_6": "shopify:\/\/shop_images\/Mohave_Runner-Passerine_Slip_On-UGC-_thellavenderllama-1_65f808d7-1bf9-4925-820b-583b0005f4cb.png",
+            "image_6": "shopify://shop_images/Mohave_Runner-Passerine_Slip_On-UGC-_thellavenderllama-1_65f808d7-1bf9-4925-820b-583b0005f4cb.png",
             "link_to_video_6": "",
-            "image_7": "shopify:\/\/shop_images\/Blake-Slip_Ons-UGC-_koshiatthepark-CAT-1_d547aea1-7f15-4e5b-b7ba-d1d0ea41de03.png",
+            "image_7": "shopify://shop_images/Blake-Slip_Ons-UGC-_koshiatthepark-CAT-1_d547aea1-7f15-4e5b-b7ba-d1d0ea41de03.png",
             "link_to_video_7": "",
-            "image_8": "shopify:\/\/shop_images\/Socorro_Slip_On-INFLUENCER-DOG-_crystal_pelka_81d8f0d0-67b6-476b-8a3c-355159af2268.png",
+            "image_8": "shopify://shop_images/Socorro_Slip_On-INFLUENCER-DOG-_crystal_pelka_81d8f0d0-67b6-476b-8a3c-355159af2268.png",
             "link_to_video_8": "",
-            "image_9": "shopify:\/\/shop_images\/Socorro_Slip_On-INFLUENCER-wedding-_crystal_pelka_81dc5e3b-6a04-441e-9d00-3cec62f86a71.jpg",
+            "image_9": "shopify://shop_images/Socorro_Slip_On-INFLUENCER-wedding-_crystal_pelka_81dc5e3b-6a04-441e-9d00-3cec62f86a71.jpg",
             "link_to_video_9": "",
             "link_to_video_10": "",
             "link_to_video_11": "",
@@ -870,25 +880,25 @@
           "type": "column",
           "settings": {
             "tag": "How It Looks: Low Tops",
-            "image_1": "shopify:\/\/shop_images\/Spectrum_Low_Tops-Influencer-_sewbonita-3_02fa2d81-a5e3-401b-9f66-10c59d61ba14.jpg",
+            "image_1": "shopify://shop_images/Spectrum_Low_Tops-Influencer-_sewbonita-3_02fa2d81-a5e3-401b-9f66-10c59d61ba14.jpg",
             "link_to_video_1": "",
-            "image_2": "shopify:\/\/shop_images\/4377d288-a522-4029-bebf-3101f06d87ba_large_fa0e4898-c7fa-4e4a-a20a-d2c657b9c875.jpg",
+            "image_2": "shopify://shop_images/4377d288-a522-4029-bebf-3101f06d87ba_large_fa0e4898-c7fa-4e4a-a20a-d2c657b9c875.jpg",
             "link_to_video_2": "",
-            "image_3": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_11.50.42_AM_4ddb2e62-a7ca-444a-9c9a-d74e8fc8ae37.png",
+            "image_3": "shopify://shop_images/Screen_Shot_2025-04-09_at_11.50.42_AM_4ddb2e62-a7ca-444a-9c9a-d74e8fc8ae37.png",
             "link_to_video_3": "",
-            "image_4": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_11.51.29_AM.png",
+            "image_4": "shopify://shop_images/Screen_Shot_2025-04-09_at_11.51.29_AM.png",
             "link_to_video_4": "",
-            "image_5": "shopify:\/\/shop_images\/Love_these_for_creativity_a0e7c33c-a500-42b0-906c-cd686c8f5a30.jpg",
+            "image_5": "shopify://shop_images/Love_these_for_creativity_a0e7c33c-a500-42b0-906c-cd686c8f5a30.jpg",
             "link_to_video_5": "",
-            "image_6": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_11.49.51_AM_d8e1fbdc-91d7-4323-8556-e1b99d90360b.png",
+            "image_6": "shopify://shop_images/Screen_Shot_2025-04-09_at_11.49.51_AM_d8e1fbdc-91d7-4323-8556-e1b99d90360b.png",
             "link_to_video_6": "",
-            "image_7": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_11.50.10_AM.png",
+            "image_7": "shopify://shop_images/Screen_Shot_2025-04-09_at_11.50.10_AM.png",
             "link_to_video_7": "",
-            "image_8": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_11.50.25_AM.png",
+            "image_8": "shopify://shop_images/Screen_Shot_2025-04-09_at_11.50.25_AM.png",
             "link_to_video_8": "",
-            "image_9": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_11.52.28_AM.png",
+            "image_9": "shopify://shop_images/Screen_Shot_2025-04-09_at_11.52.28_AM.png",
             "link_to_video_9": "",
-            "image_10": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_11.49.59_AM.png",
+            "image_10": "shopify://shop_images/Screen_Shot_2025-04-09_at_11.49.59_AM.png",
             "link_to_video_10": "",
             "link_to_video_11": "",
             "link_to_video_12": "",
@@ -901,17 +911,17 @@
           "type": "column",
           "settings": {
             "tag": "How It Looks: High Tops",
-            "image_1": "shopify:\/\/shop_images\/CYPRUS-HIGH-TOP-SS200108-UGC-_eriicisiiah_27ed61d5-909c-4a29-8076-e517d18e6021.png",
+            "image_1": "shopify://shop_images/CYPRUS-HIGH-TOP-SS200108-UGC-_eriicisiiah_27ed61d5-909c-4a29-8076-e517d18e6021.png",
             "link_to_video_1": "",
-            "image_2": "shopify:\/\/shop_images\/CYPRUS-HIGH-TOP-UGC-_MIKE_GORDON_4634e1c6-6cf1-4f95-9c7e-4d80f66da1f9.png",
+            "image_2": "shopify://shop_images/CYPRUS-HIGH-TOP-UGC-_MIKE_GORDON_4634e1c6-6cf1-4f95-9c7e-4d80f66da1f9.png",
             "link_to_video_2": "",
-            "image_3": "shopify:\/\/shop_images\/Zeal_Ace_High_Top-UGC-_silly_zili_501c0ea1-2761-4cb5-a693-b70176ebc904.png",
+            "image_3": "shopify://shop_images/Zeal_Ace_High_Top-UGC-_silly_zili_501c0ea1-2761-4cb5-a693-b70176ebc904.png",
             "link_to_video_3": "",
-            "image_4": "shopify:\/\/shop_images\/Tranquilo_Ace_High_Top-INFLUENCER-_pinksheepdesign-4.jpg",
+            "image_4": "shopify://shop_images/Tranquilo_Ace_High_Top-INFLUENCER-_pinksheepdesign-4.jpg",
             "link_to_video_4": "",
-            "image_5": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_12.10.00_PM_a15b16e6-52f4-4995-9c82-0aacbaaa2c9a.png",
+            "image_5": "shopify://shop_images/Screen_Shot_2025-04-09_at_12.10.00_PM_a15b16e6-52f4-4995-9c82-0aacbaaa2c9a.png",
             "link_to_video_5": "",
-            "image_6": "shopify:\/\/shop_images\/Screen_Shot_2025-04-10_at_2.47.24_PM.png",
+            "image_6": "shopify://shop_images/Screen_Shot_2025-04-10_at_2.47.24_PM.png",
             "link_to_video_6": "",
             "link_to_video_7": "",
             "link_to_video_8": "",
@@ -929,13 +939,13 @@
           "settings": {
             "tag": "How It Looks: Buckle Sandals",
             "link_to_video_1": "",
-            "image_2": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_12.27.20_PM_1cc30e34-2f7b-47ba-8a7d-8885fcbf0a69.png",
+            "image_2": "shopify://shop_images/Screen_Shot_2025-04-09_at_12.27.20_PM_1cc30e34-2f7b-47ba-8a7d-8885fcbf0a69.png",
             "link_to_video_2": "",
-            "image_3": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_12.27.29_PM_b0c3fac9-c4a6-442a-806c-dcf639d4668e.png",
+            "image_3": "shopify://shop_images/Screen_Shot_2025-04-09_at_12.27.29_PM_b0c3fac9-c4a6-442a-806c-dcf639d4668e.png",
             "link_to_video_3": "",
-            "image_4": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_12.27.41_PM_793e63de-6482-440a-9e76-745c2fde53a7.png",
+            "image_4": "shopify://shop_images/Screen_Shot_2025-04-09_at_12.27.41_PM_793e63de-6482-440a-9e76-745c2fde53a7.png",
             "link_to_video_4": "",
-            "image_5": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_12.27.50_PM_8055a621-2f82-446b-ba9a-f04e9b0436df.png",
+            "image_5": "shopify://shop_images/Screen_Shot_2025-04-09_at_12.27.50_PM_8055a621-2f82-446b-ba9a-f04e9b0436df.png",
             "link_to_video_5": "",
             "link_to_video_6": "",
             "link_to_video_7": "",
@@ -953,13 +963,13 @@
           "type": "column",
           "settings": {
             "tag": "How It Looks: Crossbody Bags",
-            "image_1": "shopify:\/\/shop_images\/Screen_Shot_2025-04-09_at_12.48.26_PM.png",
+            "image_1": "shopify://shop_images/Screen_Shot_2025-04-09_at_12.48.26_PM.png",
             "link_to_video_1": "",
-            "image_2": "shopify:\/\/shop_images\/Screen_Shot_2025-04-10_at_3.02.26_PM.png",
+            "image_2": "shopify://shop_images/Screen_Shot_2025-04-10_at_3.02.26_PM.png",
             "link_to_video_2": "",
-            "image_3": "shopify:\/\/shop_images\/CYPRUS-BELT-BAG-AW231719-MODELZOOM--HOLD-EPI_8848_6be22999-fa03-409d-959c-7d41020dbf91.jpg",
+            "image_3": "shopify://shop_images/CYPRUS-BELT-BAG-AW231719-MODELZOOM--HOLD-EPI_8848_6be22999-fa03-409d-959c-7d41020dbf91.jpg",
             "link_to_video_3": "",
-            "image_4": "shopify:\/\/shop_images\/CYPRUS-BELT-BAG-AW231719-MODELZOOM-EPI_8759_eb946b9a-82b6-4ca6-85e1-781cc871bdff.jpg",
+            "image_4": "shopify://shop_images/CYPRUS-BELT-BAG-AW231719-MODELZOOM-EPI_8759_eb946b9a-82b6-4ca6-85e1-781cc871bdff.jpg",
             "link_to_video_4": "",
             "link_to_video_5": "",
             "link_to_video_6": "",
@@ -978,13 +988,13 @@
           "type": "column",
           "settings": {
             "tag": "How It Looks: Backpacks",
-            "image_1": "shopify:\/\/shop_images\/Grove-Backpack-UGC-_goldietwoshoes.png",
+            "image_1": "shopify://shop_images/Grove-Backpack-UGC-_goldietwoshoes.png",
             "link_to_video_1": "",
-            "image_2": "shopify:\/\/shop_images\/CYPRUS-BACKPACK-UGC-_BLUELOTUS303.png",
+            "image_2": "shopify://shop_images/CYPRUS-BACKPACK-UGC-_BLUELOTUS303.png",
             "link_to_video_2": "",
-            "image_3": "shopify:\/\/shop_images\/SLATE_PATCHWORK-BACKPACK-BK211903-BRISBANE-TREKK-AW211017-INFLUENCER-_amyyconte-1_e934430b-88f1-4553-8e0f-a10c41d358e9.jpg",
+            "image_3": "shopify://shop_images/SLATE_PATCHWORK-BACKPACK-BK211903-BRISBANE-TREKK-AW211017-INFLUENCER-_amyyconte-1_e934430b-88f1-4553-8e0f-a10c41d358e9.jpg",
             "link_to_video_3": "",
-            "image_4": "shopify:\/\/shop_images\/CHANTERELLE-BACKPACK-AW241918-MODEL_ZOOM-EPI_1768_749216c7-0569-4c81-aca0-6a7cdfdd3e5d.jpg",
+            "image_4": "shopify://shop_images/CHANTERELLE-BACKPACK-AW241918-MODEL_ZOOM-EPI_1768_749216c7-0569-4c81-aca0-6a7cdfdd3e5d.jpg",
             "link_to_video_4": "",
             "link_to_video_5": "",
             "link_to_video_6": "",
@@ -1002,14 +1012,14 @@
         "column_KNNLQw": {
           "type": "column",
           "settings": {
-            "tag": "How It Looks: Duffle Bags\/Weekenders",
-            "image_1": "shopify:\/\/shop_images\/Screen_Shot_2025-04-10_at_3.10.34_PM.png",
+            "tag": "How It Looks: Duffle Bags/Weekenders",
+            "image_1": "shopify://shop_images/Screen_Shot_2025-04-10_at_3.10.34_PM.png",
             "link_to_video_1": "",
-            "image_2": "shopify:\/\/shop_images\/BLUEBIRD-DUFFLE-DF212005-UGC-BLACK-SPECTRUM-LOW-TOP-P020301-UGC-_corinnavidal_5b43c582-99e4-49c7-afa7-08b8ffb84f6b.jpg",
+            "image_2": "shopify://shop_images/BLUEBIRD-DUFFLE-DF212005-UGC-BLACK-SPECTRUM-LOW-TOP-P020301-UGC-_corinnavidal_5b43c582-99e4-49c7-afa7-08b8ffb84f6b.jpg",
             "link_to_video_2": "",
-            "image_3": "shopify:\/\/shop_images\/ROOSTER-DUFFLE-DF212006-INFLUENCER-_jesscharmian-2_a5ba851f-656a-469b-9cf1-9b801001c33b.jpg",
+            "image_3": "shopify://shop_images/ROOSTER-DUFFLE-DF212006-INFLUENCER-_jesscharmian-2_a5ba851f-656a-469b-9cf1-9b801001c33b.jpg",
             "link_to_video_3": "",
-            "image_4": "shopify:\/\/shop_images\/Cyprus_Duffle_Bag-Model_Zoom-Holiday24-1_2434b1b6-57c6-4be7-80fd-36c589c41f52.jpg",
+            "image_4": "shopify://shop_images/Cyprus_Duffle_Bag-Model_Zoom-Holiday24-1_2434b1b6-57c6-4be7-80fd-36c589c41f52.jpg",
             "link_to_video_4": "",
             "link_to_video_5": "",
             "link_to_video_6": "",
@@ -1056,7 +1066,7 @@
         "heading_zcNhAH": {
           "type": "heading",
           "settings": {
-            "text": "How it looks on You",
+            "text": "How it Looks on You",
             "size": "h3"
           }
         },
@@ -1064,7 +1074,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -1100,22 +1110,14 @@
     "1747249189d6f27eae": {
       "type": "apps",
       "blocks": {
-        "okendo_media_grid_gFwYa8": {
-          "type": "shopify:\/\/apps\/okendo\/blocks\/media-grid\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "disabled": true,
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "okendo_media_carousel_i8irzn": {
-          "type": "shopify:\/\/apps\/okendo\/blocks\/media-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "type": "shopify://apps/okendo/blocks/media-carousel/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
             "product": "{{product}}"
           }
         }
       },
       "block_order": [
-        "okendo_media_grid_gFwYa8",
         "okendo_media_carousel_i8irzn"
       ],
       "settings": {}
@@ -1169,42 +1171,42 @@
         "image_VFNtiP": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tree-Square-02_0942744d-f211-46fa-9b7e-4ed5c53324c5.jpg",
+            "image": "shopify://shop_images/Tree-Square-02_0942744d-f211-46fa-9b7e-4ed5c53324c5.jpg",
             "subheading": "445,000 trees & counting",
             "title": "Planting towards carbon-neutral",
             "text": "We plant one tree for every purchase",
             "link_label": "Learn More",
-            "link": "shopify:\/\/pages\/about",
+            "link": "shopify://pages/about",
             "use_text_button": true,
-            "block_link": "shopify:\/\/pages\/about",
+            "block_link": "shopify://pages/about",
             "product_list": []
           }
         },
         "image_NPXA9L": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Andes-Wide.jpg",
+            "image": "shopify://shop_images/Andes-Wide.jpg",
             "subheading": "",
             "title": "Handcrafted for Happiness ♥️",
             "text": "We make bold, handcrafted, ultra-plush designs to bring you all-day joy & comfort",
             "link_label": "About Inkkas",
-            "link": "shopify:\/\/pages\/about",
+            "link": "shopify://pages/about",
             "use_text_button": true,
-            "block_link": "shopify:\/\/pages\/about",
+            "block_link": "shopify://pages/about",
             "product_list": []
           }
         },
         "image_BfVCnw": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CALADIUM-JOGGER-SS200412-STUDIO-1.2.jpg",
+            "image": "shopify://shop_images/CALADIUM-JOGGER-SS200412-STUDIO-1.2.jpg",
             "subheading": "Inkkas journal",
             "title": "Good for the Sole",
             "text": "See inspirations behind our original, one-of-a-kind designs, explore lookbooks, and more",
             "link_label": "Check it out!",
-            "link": "shopify:\/\/blogs\/blog",
+            "link": "shopify://blogs/blog",
             "use_text_button": true,
-            "block_link": "shopify:\/\/blogs\/blog",
+            "block_link": "shopify://blogs/blog",
             "product_list": []
           }
         }

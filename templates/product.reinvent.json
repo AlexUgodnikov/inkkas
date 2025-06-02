@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
@@ -59,7 +68,7 @@
           "settings": {
             "heading": "How to Use",
             "open": true,
-            "content": "<p>Apply evenly to face as the last part of your morning routine to help protect your skin. It is important to apply 15 minutes prior to UV exposure. Also, see Drug Facts panel(s) on the package. Can be used with Vitamin C Lotion 15% or 30% for added antioxidant benefits.<\/p>",
+            "content": "<p>Apply evenly to face as the last part of your morning routine to help protect your skin. It is important to apply 15 minutes prior to UV exposure. Also, see Drug Facts panel(s) on the package. Can be used with Vitamin C Lotion 15% or 30% for added antioxidant benefits.</p>",
             "page": ""
           }
         },
@@ -68,7 +77,7 @@
           "settings": {
             "heading": "Ingredients",
             "open": false,
-            "content": "<p><strong>Active:<\/strong> Titanium Dioxide 4.4% (Sunscreen), Zinc Oxide 14.4% (Sunscreen).<\/p><p><strong>Inactive:<\/strong> Water (Aqua), Caprylic\/Capric Triglyceride, Thermus Thermophillus Ferment, Polyglyceryl-2 Dipolyhydroxystearate, C12-15 Alkyl Benzoate, Dicaprylyl Carbonate, Cyclopentasiloxane, Dimethicone, Polyglyceryl-3 Diisostearate, Hydrogenated Starch Hydrolysate, Glycerin, Butylene Glycol, Aloe Barbadensis Leaf Juice, Betula Alba (White Birch) Bark Extract, Camellia Sinensis (Green Tea) Leaf Extract, Plankton Extract, Beeswax (Cera Alba), Acrylates\/Dimethicone Copolymer<\/p>",
+            "content": "<p><strong>Active:</strong> Titanium Dioxide 4.4% (Sunscreen), Zinc Oxide 14.4% (Sunscreen).</p><p><strong>Inactive:</strong> Water (Aqua), Caprylic/Capric Triglyceride, Thermus Thermophillus Ferment, Polyglyceryl-2 Dipolyhydroxystearate, C12-15 Alkyl Benzoate, Dicaprylyl Carbonate, Cyclopentasiloxane, Dimethicone, Polyglyceryl-3 Diisostearate, Hydrogenated Starch Hydrolysate, Glycerin, Butylene Glycol, Aloe Barbadensis Leaf Juice, Betula Alba (White Birch) Bark Extract, Camellia Sinensis (Green Tea) Leaf Extract, Plankton Extract, Beeswax (Cera Alba), Acrylates/Dimethicone Copolymer</p>",
             "page": ""
           }
         },
@@ -77,7 +86,7 @@
           "settings": {
             "heading": "Other Details",
             "open": false,
-            "content": "<p>Free delivery is available on all orders over $40. Please see our shipping information page for all available delivery options.<\/p>",
+            "content": "<p>Free delivery is available on all orders over $40. Please see our shipping information page for all available delivery options.</p>",
             "page": ""
           }
         },
@@ -146,7 +155,7 @@
         "heading": "BACKGROUND VIDEO",
         "text": "The lightweight gel-cream formula has a pillowy, bouncy feel that blends seamlessly and leaves cheeks dewy, not streaky or chalky",
         "lightbox_button": false,
-        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "overlay_opacity": 25,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -170,7 +179,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "Sambucus Nigra",
-            "text": "<p>It grows in a variety of conditions including both wet and dry fertile soils, primarily in sunny locations. The plant is widely grown as an ornamental shrub or small tree.<\/p>",
+            "text": "<p>It grows in a variety of conditions including both wet and dry fertile soils, primarily in sunny locations. The plant is widely grown as an ornamental shrub or small tree.</p>",
             "link_label": "",
             "link": ""
           }
@@ -181,7 +190,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "Vitis Vinifera",
-            "text": "<p>Vitis vinifera, the common grape vine, is a species of flowering plant, native to the Mediterranean region, Central Europe, and southwestern Asia, from Morocco.<\/p>",
+            "text": "<p>Vitis vinifera, the common grape vine, is a species of flowering plant, native to the Mediterranean region, Central Europe, and southwestern Asia, from Morocco.</p>",
             "link_label": "",
             "link": ""
           }
@@ -192,7 +201,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "Fragrance",
-            "text": "<p>For an individual chemical or class of chemical compounds to impart a smell or fragrance, it must be sufficiently volatile for transmission via the air to the olfactory system.<\/p>",
+            "text": "<p>For an individual chemical or class of chemical compounds to impart a smell or fragrance, it must be sufficiently volatile for transmission via the air to the olfactory system.</p>",
             "link_label": "",
             "link": ""
           }
@@ -203,7 +212,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "Cocos Nucifera",
-            "text": "<p>The inner flesh of the mature seed, as well as the coconut milk extracted from it, form a regular part of the diets of many people in the tropics and subtropics.<\/p>",
+            "text": "<p>The inner flesh of the mature seed, as well as the coconut milk extracted from it, form a regular part of the diets of many people in the tropics and subtropics.</p>",
             "link_label": "",
             "link": ""
           }
@@ -214,7 +223,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "Citric Acid",
-            "text": "<p>The concentrations of citric acid in citrus fruits range from 0.005 mol\/L for oranges and grapefruits to 0.30 mol\/L in lemons and limes, these values vary within species depending.<\/p>",
+            "text": "<p>The concentrations of citric acid in citrus fruits range from 0.005 mol/L for oranges and grapefruits to 0.30 mol/L in lemons and limes, these values vary within species depending.</p>",
             "link_label": "",
             "link": ""
           }
@@ -441,7 +450,7 @@
       "settings": {
         "heading": "Product recommendations",
         "heading_left": true,
-        "description": "<p>Product recommendations description<\/p>",
+        "description": "<p>Product recommendations description</p>",
         "full_width": false,
         "mobile_swipe": true,
         "disable_top_spacing": false,

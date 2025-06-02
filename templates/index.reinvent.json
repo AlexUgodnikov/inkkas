@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "847e4397-8b46-49de-88bf-00e3ff372423": {
@@ -152,7 +161,7 @@
       "settings": {
         "heading": "New Arrivals",
         "heading_left": true,
-        "description": "<p>Describe your featured collection here<\/p>",
+        "description": "<p>Describe your featured collection here</p>",
         "full_width": false,
         "collection": "frontpage",
         "display_type": "grid",
@@ -363,7 +372,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "",
-            "text": "<p>The important thing is to take your time and not get stressed. It's useless to send models out on the runway to cry.<\/p>",
+            "text": "<p>The important thing is to take your time and not get stressed. It's useless to send models out on the runway to cry.</p>",
             "link_label": "",
             "link": ""
           }
@@ -375,7 +384,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "",
-            "text": "<p>What you wear is how you present yourself to the world, especially today when human contacts go so fast.<\/p>",
+            "text": "<p>What you wear is how you present yourself to the world, especially today when human contacts go so fast.</p>",
             "link_label": "",
             "link": ""
           }
@@ -387,7 +396,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "",
-            "text": "<p>We look our best in subdued colors, sophisticated cuts, and a general air of sleek understatement.<\/p>",
+            "text": "<p>We look our best in subdued colors, sophisticated cuts, and a general air of sleek understatement.</p>",
             "link_label": "",
             "link": ""
           }
@@ -399,7 +408,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "",
-            "text": "<p>We have got to change our ethics and our financial system and our whole way of understanding the world.<\/p>",
+            "text": "<p>We have got to change our ethics and our financial system and our whole way of understanding the world.</p>",
             "link_label": "",
             "link": ""
           }
@@ -561,7 +570,7 @@
       "settings": {
         "heading": "Latest News",
         "heading_left": true,
-        "description": "<p>Add a short description for your brand news<\/p>",
+        "description": "<p>Add a short description for your brand news</p>",
         "full_width": false,
         "blog": "news",
         "post_limit": 3,
@@ -599,7 +608,7 @@
           "settings": {
             "heading": "How do I choose the right products for my skin?",
             "open": true,
-            "content": "<p>Your skin deserves a routine as unique as you are. That’s why we’re always chatting with skin care experts and looking into the latest products, treatments and tips to help you create your perfect skin care routine. Whether your skin is sensitive, dry or acne-prone, you’ll find tips for all your concerns.<\/p>",
+            "content": "<p>Your skin deserves a routine as unique as you are. That’s why we’re always chatting with skin care experts and looking into the latest products, treatments and tips to help you create your perfect skin care routine. Whether your skin is sensitive, dry or acne-prone, you’ll find tips for all your concerns.</p>",
             "page": ""
           }
         },
@@ -608,7 +617,7 @@
           "settings": {
             "heading": "Are the products tested on animals?",
             "open": false,
-            "content": "<p>Our formulas are vegan, contain no ingredients of animal origin and comply with European regulations which prohibit animal testing.<\/p>",
+            "content": "<p>Our formulas are vegan, contain no ingredients of animal origin and comply with European regulations which prohibit animal testing.</p>",
             "page": ""
           }
         },
@@ -617,7 +626,7 @@
           "settings": {
             "heading": "Can I receive samples?",
             "open": false,
-            "content": "<p>We do not send samples alone, without placing a prior order. We also offer our products in travel size, ideal for testing their formula over several weeks before buying a larger size!<\/p>",
+            "content": "<p>We do not send samples alone, without placing a prior order. We also offer our products in travel size, ideal for testing their formula over several weeks before buying a larger size!</p>",
             "page": ""
           }
         },
@@ -638,7 +647,7 @@
       "settings": {
         "image": "",
         "use_video": false,
-        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
         "height": "large",
         "desktop_image_width": "medium",

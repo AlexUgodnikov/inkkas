@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "rich_text_WMrAYm": {
@@ -13,7 +22,7 @@
         "text_Vz4jX4": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Shop Bestsellers by size.<\/em><\/p><p><em>Half sizes below will include a range of one-half size above\/below your selection.<\/em><\/p>",
+            "text": "<p><em>Shop Bestsellers by size.</em></p><p><em>Half sizes below will include a range of one-half size above/below your selection.</em></p>",
             "custom_liquid": "",
             "size": "text-size-small"
           }
@@ -65,7 +74,7 @@
           "type": "button",
           "settings": {
             "link_label": "5",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+3+%2F+US+Women+5+%2F+EUR+36&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+3+%2F+US+Women+5+%2F+EUR+36&sort_by=manual",
             "button_outline": false
           }
         },
@@ -73,7 +82,7 @@
           "type": "button",
           "settings": {
             "link_label": "6",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+4+%2F+US+Women+6+%2F+EUR+37&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+4+%2F+US+Women+6+%2F+EUR+37&sort_by=manual",
             "button_outline": false
           }
         },
@@ -81,7 +90,7 @@
           "type": "button",
           "settings": {
             "link_label": "7",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+5+%2F+US+Women+7+%2F+EUR+38&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+5+%2F+US+Women+7+%2F+EUR+38&sort_by=manual",
             "button_outline": false
           }
         },
@@ -89,7 +98,7 @@
           "type": "button",
           "settings": {
             "link_label": "7.5",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+5+%2F+US+Women+7+%2F+EUR+38&filter.v.option.size=US+Men+5.5+%2F+US+Women+7.5+%2F+EUR+38.5&filter.v.option.size=US+Men+6+%2F+US+Women+8+%2F+EUR+39&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+5+%2F+US+Women+7+%2F+EUR+38&filter.v.option.size=US+Men+5.5+%2F+US+Women+7.5+%2F+EUR+38.5&filter.v.option.size=US+Men+6+%2F+US+Women+8+%2F+EUR+39&sort_by=manual",
             "button_outline": false
           }
         },
@@ -103,7 +112,7 @@
           "type": "button",
           "settings": {
             "link_label": "8",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+6+%2F+US+Women+8+%2F+EUR+39&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+6+%2F+US+Women+8+%2F+EUR+39&sort_by=manual",
             "button_outline": false
           }
         },
@@ -111,7 +120,7 @@
           "type": "button",
           "settings": {
             "link_label": "8.5",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+6+%2F+US+Women+8+%2F+EUR+39&filter.v.option.size=US+Men+6.5+%2F+US+Women+8.5+%2F+EUR+39.5&filter.v.option.size=US+Men+7+%2F+US+Women+9+%2F+EUR+40&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+6+%2F+US+Women+8+%2F+EUR+39&filter.v.option.size=US+Men+6.5+%2F+US+Women+8.5+%2F+EUR+39.5&filter.v.option.size=US+Men+7+%2F+US+Women+9+%2F+EUR+40&sort_by=manual",
             "button_outline": false
           }
         },
@@ -119,7 +128,7 @@
           "type": "button",
           "settings": {
             "link_label": "9",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+7+%2F+US+Women+9+%2F+EUR+40&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+7+%2F+US+Women+9+%2F+EUR+40&sort_by=manual",
             "button_outline": false
           }
         },
@@ -127,7 +136,7 @@
           "type": "button",
           "settings": {
             "link_label": "9.5",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+7+%2F+US+Women+9+%2F+EUR+40&filter.v.option.size=US+Men+7.5+%2F+US+Women+9.5+%2F+EUR+40.5&filter.v.option.size=US+Men+8+%2F+US+Women+10+%2F+EUR+41&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+7+%2F+US+Women+9+%2F+EUR+40&filter.v.option.size=US+Men+7.5+%2F+US+Women+9.5+%2F+EUR+40.5&filter.v.option.size=US+Men+8+%2F+US+Women+10+%2F+EUR+41&sort_by=manual",
             "button_outline": false
           }
         },
@@ -141,7 +150,7 @@
           "type": "button",
           "settings": {
             "link_label": "10",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+8+%2F+US+Women+10+%2F+EUR+41&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+8+%2F+US+Women+10+%2F+EUR+41&sort_by=manual",
             "button_outline": false
           }
         },
@@ -149,7 +158,7 @@
           "type": "button",
           "settings": {
             "link_label": "11",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+9+%2F+US+Women+11+%2F+EUR+42&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+9+%2F+US+Women+11+%2F+EUR+42&sort_by=manual",
             "button_outline": false
           }
         },
@@ -157,7 +166,7 @@
           "type": "button",
           "settings": {
             "link_label": "12",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+10+%2F+US+Women+12+%2F+EUR+43&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+10+%2F+US+Women+12+%2F+EUR+43&sort_by=manual",
             "button_outline": false
           }
         },
@@ -171,7 +180,7 @@
           "type": "button",
           "settings": {
             "link_label": "13",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+11+%2F+US+Women+13+%2F+EUR+44&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+11+%2F+US+Women+13+%2F+EUR+44&sort_by=manual",
             "button_outline": false
           }
         },
@@ -179,7 +188,7 @@
           "type": "button",
           "settings": {
             "link_label": "14",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+12+%2F+US+Women+14+%2F+EUR+45&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+12+%2F+US+Women+14+%2F+EUR+45&sort_by=manual",
             "button_outline": false
           }
         }
@@ -238,7 +247,7 @@
           "type": "button",
           "settings": {
             "link_label": "3",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+3+%2F+US+Women+5+%2F+EUR+36&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+3+%2F+US+Women+5+%2F+EUR+36&sort_by=manual",
             "button_outline": false
           }
         },
@@ -246,7 +255,7 @@
           "type": "button",
           "settings": {
             "link_label": "4",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+4+%2F+US+Women+6+%2F+EUR+37&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+4+%2F+US+Women+6+%2F+EUR+37&sort_by=manual",
             "button_outline": false
           }
         },
@@ -254,7 +263,7 @@
           "type": "button",
           "settings": {
             "link_label": "5",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+5+%2F+US+Women+7+%2F+EUR+38&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+5+%2F+US+Women+7+%2F+EUR+38&sort_by=manual",
             "button_outline": false
           }
         },
@@ -262,7 +271,7 @@
           "type": "button",
           "settings": {
             "link_label": "5.5",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+5+%2F+US+Women+7+%2F+EUR+38&filter.v.option.size=US+Men+5.5+%2F+US+Women+7.5+%2F+EUR+38.5&filter.v.option.size=US+Men+6+%2F+US+Women+8+%2F+EUR+39&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+5+%2F+US+Women+7+%2F+EUR+38&filter.v.option.size=US+Men+5.5+%2F+US+Women+7.5+%2F+EUR+38.5&filter.v.option.size=US+Men+6+%2F+US+Women+8+%2F+EUR+39&sort_by=manual",
             "button_outline": false
           }
         },
@@ -276,7 +285,7 @@
           "type": "button",
           "settings": {
             "link_label": "6",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+6+%2F+US+Women+8+%2F+EUR+39&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+6+%2F+US+Women+8+%2F+EUR+39&sort_by=manual",
             "button_outline": false
           }
         },
@@ -284,7 +293,7 @@
           "type": "button",
           "settings": {
             "link_label": "6.5",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+6+%2F+US+Women+8+%2F+EUR+39&filter.v.option.size=US+Men+6.5+%2F+US+Women+8.5+%2F+EUR+39.5&filter.v.option.size=US+Men+7+%2F+US+Women+9+%2F+EUR+40&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+6+%2F+US+Women+8+%2F+EUR+39&filter.v.option.size=US+Men+6.5+%2F+US+Women+8.5+%2F+EUR+39.5&filter.v.option.size=US+Men+7+%2F+US+Women+9+%2F+EUR+40&sort_by=manual",
             "button_outline": false
           }
         },
@@ -292,7 +301,7 @@
           "type": "button",
           "settings": {
             "link_label": "7",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+7+%2F+US+Women+9+%2F+EUR+40&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+7+%2F+US+Women+9+%2F+EUR+40&sort_by=manual",
             "button_outline": false
           }
         },
@@ -300,7 +309,7 @@
           "type": "button",
           "settings": {
             "link_label": "7.5",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+7+%2F+US+Women+9+%2F+EUR+40&filter.v.option.size=US+Men+7.5+%2F+US+Women+9.5+%2F+EUR+40.5&filter.v.option.size=US+Men+8+%2F+US+Women+10+%2F+EUR+41&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+7+%2F+US+Women+9+%2F+EUR+40&filter.v.option.size=US+Men+7.5+%2F+US+Women+9.5+%2F+EUR+40.5&filter.v.option.size=US+Men+8+%2F+US+Women+10+%2F+EUR+41&sort_by=manual",
             "button_outline": false
           }
         },
@@ -314,7 +323,7 @@
           "type": "button",
           "settings": {
             "link_label": "8",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+8+%2F+US+Women+10+%2F+EUR+41&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+8+%2F+US+Women+10+%2F+EUR+41&sort_by=manual",
             "button_outline": false
           }
         },
@@ -322,7 +331,7 @@
           "type": "button",
           "settings": {
             "link_label": "9",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+9+%2F+US+Women+11+%2F+EUR+42&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+9+%2F+US+Women+11+%2F+EUR+42&sort_by=manual",
             "button_outline": false
           }
         },
@@ -330,7 +339,7 @@
           "type": "button",
           "settings": {
             "link_label": "10",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+10+%2F+US+Women+12+%2F+EUR+43&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+10+%2F+US+Women+12+%2F+EUR+43&sort_by=manual",
             "button_outline": false
           }
         },
@@ -344,7 +353,7 @@
           "type": "button",
           "settings": {
             "link_label": "11",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+11+%2F+US+Women+13+%2F+EUR+44&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+11+%2F+US+Women+13+%2F+EUR+44&sort_by=manual",
             "button_outline": false
           }
         },
@@ -352,7 +361,7 @@
           "type": "button",
           "settings": {
             "link_label": "12",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+12+%2F+US+Women+14+%2F+EUR+45&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+12+%2F+US+Women+14+%2F+EUR+45&sort_by=manual",
             "button_outline": false
           }
         },
@@ -360,7 +369,7 @@
           "type": "button",
           "settings": {
             "link_label": "13",
-            "link": "https:\/\/inkkas.com\/collections\/best-sellers?filter.v.option.size=US+Men+13+%2F+EUR+46&sort_by=manual",
+            "link": "https://inkkas.com/collections/best-sellers?filter.v.option.size=US+Men+13+%2F+EUR+46&sort_by=manual",
             "button_outline": false
           }
         }
@@ -419,7 +428,7 @@
           "type": "button",
           "settings": {
             "link_label": "6",
-            "link": "https:\/\/inkkas.com\/collections\/kids?filter.v.option.size=US+Kids+6+%2F+Eur+22&sort_by=manual",
+            "link": "https://inkkas.com/collections/kids?filter.v.option.size=US+Kids+6+%2F+Eur+22&sort_by=manual",
             "button_outline": false
           }
         },
@@ -427,7 +436,7 @@
           "type": "button",
           "settings": {
             "link_label": "7",
-            "link": "https:\/\/inkkas.com\/collections\/kids?filter.v.option.size=US+Kids+7+%2F+Eur+23&sort_by=manual",
+            "link": "https://inkkas.com/collections/kids?filter.v.option.size=US+Kids+7+%2F+Eur+23&sort_by=manual",
             "button_outline": false
           }
         },
@@ -435,7 +444,7 @@
           "type": "button",
           "settings": {
             "link_label": "8",
-            "link": "https:\/\/inkkas.com\/collections\/kids?filter.v.option.size=US+Kids+8+%2F+Eur+24%2F25&sort_by=manual",
+            "link": "https://inkkas.com/collections/kids?filter.v.option.size=US+Kids+8+%2F+Eur+24%2F25&sort_by=manual",
             "button_outline": false
           }
         },
@@ -443,7 +452,7 @@
           "type": "button",
           "settings": {
             "link_label": "9",
-            "link": "https:\/\/inkkas.com\/collections\/kids?filter.v.option.size=US+Kids+9+%2F+Eur+26&sort_by=manual",
+            "link": "https://inkkas.com/collections/kids?filter.v.option.size=US+Kids+9+%2F+Eur+26&sort_by=manual",
             "button_outline": false
           }
         },
@@ -457,7 +466,7 @@
           "type": "button",
           "settings": {
             "link_label": "10",
-            "link": "https:\/\/inkkas.com\/collections\/kids?filter.v.option.size=US+Kids+10+%2F+Eur+27&sort_by=manual",
+            "link": "https://inkkas.com/collections/kids?filter.v.option.size=US+Kids+10+%2F+Eur+27&sort_by=manual",
             "button_outline": false
           }
         },
@@ -465,7 +474,7 @@
           "type": "button",
           "settings": {
             "link_label": "11",
-            "link": "https:\/\/inkkas.com\/collections\/kids?filter.v.option.size=US+Kids+11+%2F+Eur+28&sort_by=manual",
+            "link": "https://inkkas.com/collections/kids?filter.v.option.size=US+Kids+11+%2F+Eur+28&sort_by=manual",
             "button_outline": false
           }
         },
@@ -473,7 +482,7 @@
           "type": "button",
           "settings": {
             "link_label": "12",
-            "link": "https:\/\/inkkas.com\/collections\/kids?filter.v.option.size=US+Kids+12+%2F+Eur+29&sort_by=manual",
+            "link": "https://inkkas.com/collections/kids?filter.v.option.size=US+Kids+12+%2F+Eur+29&sort_by=manual",
             "button_outline": false
           }
         },
@@ -487,7 +496,7 @@
           "type": "button",
           "settings": {
             "link_label": "13",
-            "link": "https:\/\/inkkas.com\/collections\/kids?filter.v.option.size=US+Kids+13+%2F+Eur+30&sort_by=manual",
+            "link": "https://inkkas.com/collections/kids?filter.v.option.size=US+Kids+13+%2F+Eur+30&sort_by=manual",
             "button_outline": false
           }
         }
@@ -523,56 +532,56 @@
         "image_9hNQcK": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TREK-SLIP-ON-SS200306-MODEL_ZOOM-_5W1A8013.jpg",
+            "image": "shopify://shop_images/TREK-SLIP-ON-SS200306-MODEL_ZOOM-_5W1A8013.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "MEN'S",
-            "link": "shopify:\/\/collections\/mens-shoes",
+            "link": "shopify://collections/mens-shoes",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/mens-shoes",
+            "block_link": "shopify://collections/mens-shoes",
             "product_list": []
           }
         },
         "image_FVwTqq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TOUBKAL-JOGGER-SS230405-MODEL--EPI_3445.jpg",
+            "image": "shopify://shop_images/TOUBKAL-JOGGER-SS230405-MODEL--EPI_3445.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "WOMEN'S",
-            "link": "shopify:\/\/collections\/womens-collection-all-shoes",
+            "link": "shopify://collections/womens-collection-all-shoes",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/womens-collection-all-shoes",
+            "block_link": "shopify://collections/womens-collection-all-shoes",
             "product_list": []
           }
         },
         "image_ixLTJG": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/resizedInkkas_Shoe_2021_Kids_Collection_by_Ica_Images_157.jpg",
+            "image": "shopify://shop_images/resizedInkkas_Shoe_2021_Kids_Collection_by_Ica_Images_157.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "KIDS",
-            "link": "shopify:\/\/collections\/kids",
+            "link": "shopify://collections/kids",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/kids",
+            "block_link": "shopify://collections/kids",
             "product_list": []
           }
         },
         "image_grHqnc": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ZOCALO-FLEX-RUNNER-SS210620-ZOCALO-VEGAN-CAMPING-BOOT-SS210522-MODELZOOM-5W1A9628.jpg",
+            "image": "shopify://shop_images/ZOCALO-FLEX-RUNNER-SS210620-ZOCALO-VEGAN-CAMPING-BOOT-SS210522-MODELZOOM-5W1A9628.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "ALL",
-            "link": "shopify:\/\/collections\/all-products",
+            "link": "shopify://collections/all-products",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/all-products",
+            "block_link": "shopify://collections/all-products",
             "product_list": []
           }
         }
@@ -606,7 +615,7 @@
         "text_qVUYML": {
           "type": "text",
           "settings": {
-            "text": "<h5><em>by<\/em> Style:<\/h5>",
+            "text": "<h5><em>by</em> Style:</h5>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -634,182 +643,182 @@
         "image_iAAhP3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/JOEY-VEGAN-JOGGER-AW220409-1.jpg",
+            "image": "shopify://shop_images/JOEY-VEGAN-JOGGER-AW220409-1.jpg",
             "subheading": "",
             "title": "JOGGERS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/joggers",
+            "block_link": "shopify://collections/joggers",
             "product_list": []
           }
         },
         "image_BtPPcj": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ROOSTER-CAMPING-BOOT-CB179802-1.jpg",
+            "image": "shopify://shop_images/ROOSTER-CAMPING-BOOT-CB179802-1.jpg",
             "subheading": "",
             "title": "CAMPING BOOTS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/camping-boots",
+            "block_link": "shopify://collections/camping-boots",
             "product_list": []
           }
         },
         "image_pqqNNP": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/POPINJAY-TREKKBOOT-SS241014-1.jpg",
+            "image": "shopify://shop_images/POPINJAY-TREKKBOOT-SS241014-1.jpg",
             "subheading": "",
             "title": "TREKK BOOTS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/trekk-boots",
+            "block_link": "shopify://collections/trekk-boots",
             "product_list": []
           }
         },
         "image_34YDqN": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-WESTERNBOOT-SS241111-4.jpg",
+            "image": "shopify://shop_images/SAOLA-VEGAN-WESTERNBOOT-SS241111-4.jpg",
             "subheading": "",
             "title": "WESTERNS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/western-boots",
+            "block_link": "shopify://collections/western-boots",
             "product_list": []
           }
         },
         "image_Lngigz": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TOUBKAL-BOOTIE-SS230818-3.jpg",
+            "image": "shopify://shop_images/TOUBKAL-BOOTIE-SS230818-3.jpg",
             "subheading": "",
             "title": "BOOTIES",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/booties",
+            "block_link": "shopify://collections/booties",
             "product_list": []
           }
         },
         "image_QhVLPE": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/APEX-SLIPON-SS240409-4.jpg",
+            "image": "shopify://shop_images/APEX-SLIPON-SS240409-4.jpg",
             "subheading": "",
             "title": "SLIP ONS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/slip-ons",
+            "block_link": "shopify://collections/slip-ons",
             "product_list": []
           }
         },
         "image_Bwxfg3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CYPRUS-ACE-LOW-TOP-AW230207-2.jpg",
+            "image": "shopify://shop_images/CYPRUS-ACE-LOW-TOP-AW230207-2.jpg",
             "subheading": "",
             "title": "LOW TOPS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/low-top",
+            "block_link": "shopify://collections/low-top",
             "product_list": []
           }
         },
         "image_9rXCCq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CYPRUS-HIGH-TOP-3.jpg",
+            "image": "shopify://shop_images/CYPRUS-HIGH-TOP-3.jpg",
             "subheading": "",
             "title": "HIGH TOPS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/high-top-1",
+            "block_link": "shopify://collections/high-top-1",
             "product_list": []
           }
         },
         "image_YrcQHi": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MOLA-FLEX-RUNNER-V.2-AW190609-2.jpg",
+            "image": "shopify://shop_images/MOLA-FLEX-RUNNER-V.2-AW190609-2.jpg",
             "subheading": "",
             "title": "RUNNERS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/runners",
+            "block_link": "shopify://collections/runners",
             "product_list": []
           }
         },
         "image_mPMBEk": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LUZON-BUCKLE-SANDAL-SS241219-6.jpg",
+            "image": "shopify://shop_images/LUZON-BUCKLE-SANDAL-SS241219-6.jpg",
             "subheading": "",
             "title": "SANDALS & SLIDES",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/sandals-slides",
+            "block_link": "shopify://collections/sandals-slides",
             "product_list": []
           }
         },
         "image_frRme6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SLIP-ON-TREK-KIDS-4.jpg",
+            "image": "shopify://shop_images/SLIP-ON-TREK-KIDS-4.jpg",
             "subheading": "",
             "title": "KIDS",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/kids",
+            "block_link": "shopify://collections/kids",
             "product_list": []
           }
         },
         "image_gGfyVK": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TREK-BACKPACK-1.jpg",
+            "image": "shopify://shop_images/TREK-BACKPACK-1.jpg",
             "subheading": "",
             "title": "BAGS, BRACELETS & MORE",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/all-accessories",
+            "block_link": "shopify://collections/all-accessories",
             "product_list": []
           }
         },
         "image_WyJeL3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-JOGGER-SS240402-4.jpg",
+            "image": "shopify://shop_images/SAOLA-VEGAN-JOGGER-SS240402-4.jpg",
             "subheading": "",
             "title": "VEGAN",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/vegan-products",
+            "block_link": "shopify://collections/vegan-products",
             "product_list": []
           }
         }
@@ -1079,7 +1088,7 @@
       "settings": {
         "heading": "ALL COLLECTIONS",
         "heading_left": false,
-        "description": "<p><em>Explore all of our handcrafted  collections<\/em><\/p>",
+        "description": "<p><em>Explore all of our handcrafted  collections</em></p>",
         "full_width": true,
         "sort": "date_reversed",
         "image_ratio": "square",

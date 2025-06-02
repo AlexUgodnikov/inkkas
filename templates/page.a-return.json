@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -28,7 +37,7 @@
         "text_cNjihq": {
           "type": "text",
           "settings": {
-            "text": "<p>1. <strong>Sign Up <\/strong>by creating an Inkkas customer account.<\/p><p>2. <strong>Earn<\/strong> <strong>Points<\/strong> every time you make a purchase.<\/p><p>3. <strong>Redeem<\/strong> your points at checkout for savings.<\/p>",
+            "text": "<p>1. <strong>Sign Up </strong>by creating an Inkkas customer account.</p><p>2. <strong>Earn</strong> <strong>Points</strong> every time you make a purchase.</p><p>3. <strong>Redeem</strong> your points at checkout for savings.</p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -37,7 +46,7 @@
           "type": "button",
           "settings": {
             "link_label": "sign up",
-            "link": "https:\/\/inkkas.com\/account\/register",
+            "link": "https://inkkas.com/account/register",
             "button_outline": false
           }
         },
@@ -45,7 +54,7 @@
           "type": "button",
           "settings": {
             "link_label": "Log in",
-            "link": "https:\/\/inkkas.com\/#smile-home",
+            "link": "https://inkkas.com/#smile-home",
             "button_outline": true
           }
         }
@@ -78,7 +87,7 @@
           "settings": {
             "icon": "shoe",
             "heading": "EARN POINTS",
-            "text": "<p><strong>Earn 1 point for every $1 you spend.<\/strong> <\/p><p>You must be logged into your customer account at checkout to collect points.<\/p>"
+            "text": "<p><strong>Earn 1 point for every $1 you spend.</strong> </p><p>You must be logged into your customer account at checkout to collect points.</p>"
           }
         },
         "icon_bUjkjH": {
@@ -86,7 +95,7 @@
           "settings": {
             "icon": "price_tag",
             "heading": "REDEEM POINTS",
-            "text": "<p><strong>Every 100 points earned equals $10 off.<\/strong><\/p><p>Note that rewards points cannot be combined with other discounts or promotions. <\/p>"
+            "text": "<p><strong>Every 100 points earned equals $10 off.</strong></p><p>Note that rewards points cannot be combined with other discounts or promotions. </p>"
           }
         }
       },
@@ -142,7 +151,7 @@
           "settings": {
             "icon": "clipboard",
             "heading": "LEAVE A PRODUCT REVIEW",
-            "text": "<p>Earns 20 points<\/p>"
+            "text": "<p>Earns 20 points</p>"
           }
         },
         "icon_xVrUFU": {
@@ -150,7 +159,7 @@
           "settings": {
             "icon": "check_mark",
             "heading": "FOLLOW OUR INSTAGRAM OR FACEBOOK",
-            "text": "<p>Earns 20 points<\/p>"
+            "text": "<p>Earns 20 points</p>"
           }
         },
         "icon_BVEAzd": {
@@ -158,7 +167,7 @@
           "settings": {
             "icon": "heart",
             "heading": "CELEBRATE YOUR BIRTHDAY",
-            "text": "<p>Earns 20 points<\/p>"
+            "text": "<p>Earns 20 points</p>"
           }
         },
         "icon_wjkUep": {
@@ -166,7 +175,7 @@
           "settings": {
             "icon": "lightning_bolt",
             "heading": "TAG US IN A POST ON INSTAGRAM OR FACEBOOK",
-            "text": "<p>Earns 20 points<\/p>"
+            "text": "<p>Earns 20 points</p>"
           }
         }
       },

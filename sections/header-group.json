@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -10,7 +19,7 @@
           "settings": {
             "icon": "none",
             "text": "ALL NEW SS25 COLLECTION IS HERE!🔅",
-            "link": "shopify:\/\/collections\/the-luminous-collection"
+            "link": "shopify://collections/the-luminous-collection"
           }
         },
         "text_cQEaMB": {
@@ -26,7 +35,7 @@
           "settings": {
             "icon": "none",
             "text": "We plant a tree for every purchase with trees.org!",
-            "link": "shopify:\/\/pages\/about"
+            "link": "shopify://pages/about"
           }
         },
         "text_KHXbnF": {
@@ -35,7 +44,7 @@
           "settings": {
             "icon": "none",
             "text": "Final Day to Take 25% OFF SITEWIDE with code MDW25.",
-            "link": "shopify:\/\/collections\/best-sellers"
+            "link": "shopify://collections/best-sellers"
           }
         }
       },
@@ -83,7 +92,7 @@
       ],
       "settings": {
         "sticky_header": true,
-        "logo": "shopify:\/\/shop_images\/inkkasblack_9292de40-7bd9-493f-8c9e-6d4eece2cd1c.png",
+        "logo": "shopify://shop_images/inkkasblack_9292de40-7bd9-493f-8c9e-6d4eece2cd1c.png",
         "logo_height_range": 30,
         "logo_height_range_mobile": 30,
         "style": "style1",

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "455789b9-f423-4c4f-bbc5-591c60085e60": {
@@ -173,7 +182,7 @@
         "template--18432547684635__97a561df-77ff-415e-98d2-a5e00211d784-1681195070f0596331-2": {
           "type": "text",
           "settings": {
-            "text": "<p>The brand is named after the town her grandma lived. Now based in Bristol, UK, Audrey splits her time between the two countries working directly with over 150 artisans in Kenya, ensuring they receive fair wages, work in safe and healthy environments, and real recognition for their talent all while using eco-friendly materials.<\/p>",
+            "text": "<p>The brand is named after the town her grandma lived. Now based in Bristol, UK, Audrey splits her time between the two countries working directly with over 150 artisans in Kenya, ensuring they receive fair wages, work in safe and healthy environments, and real recognition for their talent all while using eco-friendly materials.</p>",
             "size": "text-size-regular"
           }
         }
@@ -339,7 +348,7 @@
       "settings": {
         "heading": "Best Sellers",
         "heading_left": false,
-        "description": "<p> Each collection is exclusively made in small batches to create as little  as possible.<\/p>",
+        "description": "<p> Each collection is exclusively made in small batches to create as little  as possible.</p>",
         "full_width": true,
         "product_limit": 6,
         "columns_desktop": 4,
@@ -395,7 +404,7 @@
       "settings": {
         "image": "",
         "use_video": false,
-        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
         "video_controls": true,
         "height": "small",
@@ -419,7 +428,7 @@
             "image": "",
             "subheading": "QUALITY",
             "heading": "Bring sparkle to everyday life",
-            "text": "<p>Jewelry has been an important part of human culture for thousands of years, used for both adornment and communication. From ancient Egypt to modern times, jewelry has been a symbol of wealth, power, and status, as well as a way to express personal style and creativity.<\/p>",
+            "text": "<p>Jewelry has been an important part of human culture for thousands of years, used for both adornment and communication. From ancient Egypt to modern times, jewelry has been a symbol of wealth, power, and status, as well as a way to express personal style and creativity.</p>",
             "link_label": "LEARN MORE",
             "link": ""
           }
@@ -430,7 +439,7 @@
             "image": "",
             "subheading": "APPROACH",
             "heading": "Accessories with soul and style",
-            "text": "<p>As technology advanced, jewelry became more intricate and was often made from precious metals such as gold and silver, as well as precious gems such as diamonds, rubies, and emeralds.<\/p>",
+            "text": "<p>As technology advanced, jewelry became more intricate and was often made from precious metals such as gold and silver, as well as precious gems such as diamonds, rubies, and emeralds.</p>",
             "link_label": "LEARN MORE",
             "link": ""
           }
@@ -441,7 +450,7 @@
             "image": "",
             "subheading": "VISION",
             "heading": "More than just a piece of jewelry",
-            "text": "<p>Jewelry has a rich history and a variety of meanings and significance. From ancient times to modern-day, jewelry has been used for adornment, communication, and self-expression.<\/p>",
+            "text": "<p>Jewelry has a rich history and a variety of meanings and significance. From ancient times to modern-day, jewelry has been used for adornment, communication, and self-expression.</p>",
             "link_label": "LEARN MORE",
             "link": ""
           }
@@ -481,7 +490,7 @@
       "settings": {
         "heading": "Latest News",
         "heading_left": false,
-        "description": "<p>Add a short description for your brand news<\/p>",
+        "description": "<p>Add a short description for your brand news</p>",
         "full_width": true,
         "blog": "news",
         "post_limit": 4,
