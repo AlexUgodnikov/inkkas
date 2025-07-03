@@ -178,10 +178,18 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "collection_filters_button_777d3Q": {
+      "type": "collection-filters-button",
+      "name": "Filters chips",
+      "settings": {
+        "max_button": 5
+      }
     }
   },
   "order": [
     "main-collection-banner",
+    "collection_filters_button_777d3Q",
     "product-grid",
     "spacer_HDe43e",
     "featured_collection_6RbLfp"
