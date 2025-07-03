@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Footer group",
@@ -19,7 +28,7 @@
           "settings": {
             "icon": "chat_bubble",
             "heading": "CUSTOMER SUPPORT",
-            "text": "<p><a href=\"\/pages\/contact\" target=\"_blank\" title=\"Contact Us\">Mon - Sat, 9am - 5pm<\/a><\/p>"
+            "text": "<p><a href=\"/pages/contact\" target=\"_blank\" title=\"Contact Us\">Mon - Sat, 9am - 5pm</a></p>"
           }
         },
         "icon_YmkNXV": {
@@ -35,7 +44,7 @@
           "settings": {
             "icon": "box",
             "heading": "FREE SHIPPING",
-            "text": "<p><a href=\"\/pages\/shipping\" target=\"_blank\" title=\"Shipping\">for orders $175+ plus expedited shipping available to most regions<\/a><\/p>"
+            "text": "<p><a href=\"/pages/shipping\" target=\"_blank\" title=\"Shipping\">for orders $175+ plus expedited shipping available to most regions</a></p>"
           }
         }
       },
@@ -62,9 +71,9 @@
       "type": "apps",
       "blocks": {
         "klaviyo_email_marketing_sms_form_embed_block_Ax3bth": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
-            "formId": "<div class=\"klaviyo-form-WhpyCV\"><\/div>"
+            "formId": "<div class=\"klaviyo-form-WhpyCV\"></div>"
           }
         }
       },
@@ -73,16 +82,13 @@
       ],
       "settings": {}
     },
-    "email_signup_PUxWJB": {
-      "type": "email-signup",
-      "disabled": true,
+    "spacer_z4LB8M": {
+      "type": "spacer",
       "settings": {
-        "heading": "Sign Up for 15% Off",
-        "description": "<p>We make artful & inspiring emails, too! Sign up and receive 15% off your first order. Plus, get first dibs on new styles, exclusive deals, and other fun stuff.<\/p>",
-        "color_bg": "#f5f3ef",
-        "color_text": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "spacer_mobile": 15,
+        "spacer_desktop": 15,
+        "border_separator": false,
+        "border_separator_full": true
       }
     },
     "footer": {
@@ -112,17 +118,24 @@
             "menu": "customer-care-reformation"
           }
         },
+        "social_f3XQrA": {
+          "type": "social",
+          "settings": {
+            "column_size": "small",
+            "title": "FOLLOW US"
+          }
+        },
         "text_Ug8FA3": {
           "type": "text",
           "settings": {
             "column_size": "large",
             "title": "GIVING FORWARD 🔄",
-            "image": "shopify:\/\/shop_images\/TREE_LOGOS_X2-2_7f04821e-f813-43ee-9129-9482142ad565.png",
-            "text": "<p>In addition to planting a tree for every purchase with <a href=\"https:\/\/trees.org\/\"><span style=\"text-decoration:underline\">Trees for the Future<\/span><\/a>, we also upcycle gently worn shoes to <a href=\"https:\/\/soles4souls.org\/\" title=\"https:\/\/soles4souls.org\/\"><span style=\"text-decoration:underline\">Soles4Souls<\/span><\/a>, which refurbishes & provides them to any in need.<\/p>",
+            "image": "shopify://shop_images/TREE_LOGOS_X2-2_7f04821e-f813-43ee-9129-9482142ad565.png",
+            "text": "<p>In addition to planting a tree for every purchase with <a href=\"https://trees.org/\"><span style=\"text-decoration:underline\">Trees for the Future</span></a>, we also upcycle gently worn shoes to <a href=\"https://soles4souls.org/\" title=\"https://soles4souls.org/\"><span style=\"text-decoration:underline\">Soles4Souls</span></a>, which refurbishes & provides them to any in need.</p>",
             "text_size": "small",
             "button_text": "",
             "button_link": "",
-            "show_social_links": true
+            "show_social_links": false
           }
         },
         "text_cLrayB": {
@@ -130,7 +143,7 @@
           "settings": {
             "column_size": "large",
             "title": "",
-            "text": "<p><a href=\"\/pages\/terms-conditions\" target=\"_blank\" title=\"Terms & Conditions\">Terms.<\/a> <a href=\"https:\/\/inkkas.com\/pages\/privacy-policy\" title=\"https:\/\/inkkas.com\/pages\/privacy-policy\">Privacy Policy<\/a>. <a href=\"#aacc-link\" title=\"#aacc-link\">Website Accessibility<\/a>.<\/p>",
+            "text": "<p><a href=\"/pages/terms-conditions\" target=\"_blank\" title=\"Terms & Conditions\">Terms.</a> <a href=\"https://inkkas.com/pages/privacy-policy\" title=\"https://inkkas.com/pages/privacy-policy\">Privacy Policy</a>. <a href=\"#aacc-link\" title=\"#aacc-link\">Website Accessibility</a>.</p>",
             "text_size": "small",
             "button_text": "",
             "button_link": "",
@@ -142,6 +155,7 @@
         "menu_8fj8kU",
         "401e3886-6cb7-4742-8fda-45a0d97a26a3",
         "00a364e5-af4e-4073-871b-4d533bd4da06",
+        "social_f3XQrA",
         "text_Ug8FA3",
         "text_cLrayB"
       ],
@@ -159,7 +173,7 @@
     "spacer_E7FEak",
     "text_with_icons_aNz4j3",
     "173998895283371412",
-    "email_signup_PUxWJB",
+    "spacer_z4LB8M",
     "footer"
   ]
 }

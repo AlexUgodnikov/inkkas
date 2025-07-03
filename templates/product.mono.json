@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
@@ -107,7 +116,7 @@
         "9478cde5-dd8a-4308-9a5d-49525ace0cf4": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
           }
         }
       },
@@ -117,7 +126,7 @@
         "9478cde5-dd8a-4308-9a5d-49525ace0cf4"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/img8.jpg",
+        "image": "shopify://shop_images/img8.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "section_width": "full-width-row",
@@ -147,7 +156,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -158,7 +167,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -169,7 +178,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -224,7 +233,7 @@
         "5cddc64d-d6df-404d-bc68-bbbbfcd40dc4": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
           }
         }
       },
@@ -234,7 +243,7 @@
         "5cddc64d-d6df-404d-bc68-bbbbfcd40dc4"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/img10.jpg",
+        "image": "shopify://shop_images/img10.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "section_width": "full-width-row",
@@ -344,7 +353,7 @@
         "a227fa84-66b5-413e-b6de-5c3e38f35867": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
             "size": "text-size-regular"
           }
         },
@@ -383,7 +392,7 @@
       "settings": {
         "heading": "Product recommendations",
         "heading_left": false,
-        "description": "<p>Product recommendations description<\/p>",
+        "description": "<p>Product recommendations description</p>",
         "full_width": true,
         "mobile_swipe": true,
         "disable_top_spacing": false,

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_with_text_overlay_YWaCad": {
@@ -17,7 +26,7 @@
       ],
       "settings": {
         "section_width": "full-width-row-full",
-        "image": "shopify:\/\/shop_images\/ScreenShot2024-02-21at2.49.41PM.png",
+        "image": "shopify://shop_images/ScreenShot2024-02-21at2.49.41PM.png",
         "image_parallax": false,
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-350",
@@ -42,7 +51,7 @@
         "166161938159ca8988-2": {
           "type": "text",
           "settings": {
-            "text": "<p>We'd love to hear from you! Drop us a note below and we'll get back to you shortly. Also, the answer to your question may be in our <a href=\"\/pages\/faq-3\" title=\"faq-3\">FAQ  here<\/a>.<\/p>",
+            "text": "<p>We'd love to hear from you! Drop us a note below and we'll get back to you shortly. Also, the answer to your question may be in our <a href=\"/pages/faq-3\" title=\"faq-3\">FAQ  here</a>.</p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -91,7 +100,7 @@
           "settings": {
             "icon": "chat_bubble",
             "heading": "CUSTOMER SUPPORT",
-            "text": "<p>Mon - Sat, 9am - 5pm<\/p>"
+            "text": "<p>Mon - Sat, 9am - 5pm</p>"
           }
         },
         "icon_x6kFrf": {
@@ -99,7 +108,7 @@
           "settings": {
             "icon": "ruler",
             "heading": "SIZE GUIDES",
-            "text": "<p>tailored for each style is available on every product page<\/p>"
+            "text": "<p>tailored for each style is available on every product page</p>"
           }
         },
         "icon_gAgznN": {
@@ -107,7 +116,7 @@
           "settings": {
             "icon": "box",
             "heading": "FREE SHIPPING",
-            "text": "<p>for orders of $175+ plus expedited shipping available to most regions.<\/p>"
+            "text": "<p>for orders of $175+ plus expedited shipping available to most regions.</p>"
           }
         },
         "icon_Rfnaxj": {
@@ -115,7 +124,7 @@
           "settings": {
             "icon": "return",
             "heading": "EASY RETURNS & EXCHANGES",
-            "text": "<p>for 30 days from delivery. Plus, <strong>FREE <\/strong>within 7 days of delivery. <\/p>"
+            "text": "<p>for 30 days from delivery. Plus, <strong>FREE </strong>within 7 days of delivery. </p>"
           }
         }
       },

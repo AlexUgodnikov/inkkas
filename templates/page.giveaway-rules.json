@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "layered_images_with_text_X4A8qK": {
@@ -19,13 +28,13 @@
         "text_GcJjXJ": {
           "type": "text",
           "settings": {
-            "text": "<p>We've teamed up with <a href=\"https:\/\/www.instagram.com\/sewbonita\/\" title=\"https:\/\/www.instagram.com\/sewbonita\/\">@Sewbonita<\/a>,  a boutique gifts store with quality, beautiful Mexican-American goods in Corpus Christi, Texas to bring you this awesome giveaway!<\/p>"
+            "text": "<p>We've teamed up with <a href=\"https://www.instagram.com/sewbonita/\" title=\"https://www.instagram.com/sewbonita/\">@Sewbonita</a>,  a boutique gifts store with quality, beautiful Mexican-American goods in Corpus Christi, Texas to bring you this awesome giveaway!</p>"
           }
         },
         "text_ik7QkX": {
           "type": "text",
           "settings": {
-            "text": "<p><strong> . . . .<\/strong><\/p>"
+            "text": "<p><strong> . . . .</strong></p>"
           }
         }
       },
@@ -35,12 +44,14 @@
         "text_GcJjXJ",
         "text_ik7QkX"
       ],
+      "disabled": true,
+      "name": "SEW BONITA",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2024-11-13_at_10.42.28_AM.png",
+        "image": "shopify://shop_images/Screen_Shot_2024-11-13_at_10.42.28_AM.png",
         "image_ratio": "adapt",
-        "image_2": "shopify:\/\/shop_images\/bag_details_028014a3-a34f-4594-8827-d2acae2cd69b.png",
+        "image_2": "shopify://shop_images/bag_details_028014a3-a34f-4594-8827-d2acae2cd69b.png",
         "image_ratio_2": "square",
-        "image_3": "shopify:\/\/shop_images\/logos_b7e72674-bf72-4fad-a2d1-7b8cf5cdaffd.png",
+        "image_3": "shopify://shop_images/logos_b7e72674-bf72-4fad-a2d1-7b8cf5cdaffd.png",
         "image_ratio_3": "square",
         "full_width": true,
         "layout": "text_first",
@@ -48,6 +59,54 @@
         "content_position": "middle",
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_ePVJzQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_4Ljnmh": {
+          "type": "subheading",
+          "settings": {
+            "text": "HAPPY TRAILS"
+          }
+        },
+        "heading_8An8AP": {
+          "type": "heading",
+          "settings": {
+            "text": "GIVEAWAY",
+            "heading_size": "h1"
+          }
+        },
+        "text_zMp9xf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've teamed up with <a href=\"https://www.instagram.com/olli_adventure/\" target=\"_blank\" title=\"https://www.instagram.com/olli_adventure/\">@olli_adventure</a>, <a href=\"https://www.instagram.com/get_out_there_girl/\" target=\"_blank\" title=\"https://www.instagram.com/get_out_there_girl/\">@get_out_there_girl</a>, and <a href=\"https://www.instagram.com/rejoiceinjoyretreats/\" target=\"_blank\" title=\"https://www.instagram.com/rejoiceinjoyretreats/\">@rejoiceinjoyretreats</a> to bring you the ultimate hiking prize package! Everything you need to hit the trails, get outside, and feed your soul!</p>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4Ljnmh",
+        "heading_8An8AP",
+        "text_zMp9xf"
+      ],
+      "name": "HAPPY TRAILS GIVEAWAY",
+      "settings": {
+        "image": "shopify://shop_images/Inkkas_X_HIking_Giveaway-post-ALL.jpg",
+        "use_video": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "section_width": "grid",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "main": {
@@ -61,6 +120,7 @@
   },
   "order": [
     "layered_images_with_text_X4A8qK",
+    "image_with_text_ePVJzQ",
     "main"
   ]
 }

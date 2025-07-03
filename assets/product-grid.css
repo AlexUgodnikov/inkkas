@@ -443,5 +443,12 @@
     display: none; }
   .rating-text {
     display: block; } }
+/* tag information 06/03/25 */
+.product-card__tag-info {
+  display: block;
+  margin-top: 8px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
 
 

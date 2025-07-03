@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1663670702acb57791": {
@@ -14,7 +23,7 @@
       "type": "single-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at2.53.03PM.png",
+        "image": "shopify://shop_images/ScreenShot2024-04-08at2.53.03PM.png",
         "full_width": false,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
@@ -39,7 +48,7 @@
         "text_QQ8r8a": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Explore our collection lookbooks, design inspirations, travel diaries, and more!<\/em><\/p>",
+            "text": "<p><em>Explore our collection lookbooks, design inspirations, travel diaries, and more!</em></p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -91,7 +100,7 @@
         "text_9Ejx4y": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Explore our collection lookbooks, design inspirations, travel diaries, and more!<\/em><\/p>"
+            "text": "<p><em>Explore our collection lookbooks, design inspirations, travel diaries, and more!</em></p>"
           }
         }
       },
@@ -102,7 +111,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at2.53.03PM.png",
+        "image": "shopify://shop_images/ScreenShot2024-04-08at2.53.03PM.png",
         "image_ratio": "adapt",
         "image_ratio_2": "adapt",
         "image_ratio_3": "portrait",
@@ -119,7 +128,7 @@
       "disabled": true,
       "settings": {
         "heading": "Inkkas Journal",
-        "description": "<p>Explore our collection lookbooks, design inspirations, travel diaries & more. <\/p>",
+        "description": "<p>Explore our collection lookbooks, design inspirations, travel diaries & more. </p>",
         "show_category_list": false
       }
     },

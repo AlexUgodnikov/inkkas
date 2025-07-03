@@ -1,33 +1,14 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "countdown_banner_CCTbHh": {
-      "type": "countdown-banner",
-      "disabled": true,
-      "settings": {
-        "section_width": "full-width-row-full",
-        "section_layout": "horizontal",
-        "desktop_height": "desktop-height-auto",
-        "mobile_height": "mobile-height-auto",
-        "subheading": "Sale final hours",
-        "heading": "25% OFF SITEWIDE",
-        "heading_size": "h2",
-        "content": "Use code: JULY4",
-        "content_size": "medium",
-        "button_text": "",
-        "button_link": "",
-        "timer_year": 2024,
-        "timer_month": "07",
-        "timer_day": "07",
-        "timer_hour": "22",
-        "timer_minute": "59",
-        "color_bg": "#e9e3e0",
-        "color_text": "#3758c9",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
     "main-collection-banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -37,34 +18,6 @@
         "make_heading_uppercase": false,
         "overlay_color": "#000000",
         "overlay_opacity": 0
-      }
-    },
-    "rich_text_YRMwRR": {
-      "type": "rich-text",
-      "blocks": {
-        "text_mjxcMK": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em><strong>Filter by your size to find great deals FAST.<\/strong><\/em><\/p>",
-            "custom_liquid": "",
-            "size": "text-size-small"
-          }
-        }
-      },
-      "block_order": [
-        "text_mjxcMK"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_width": "full-width-row-full",
-        "text_width": "medium",
-        "text_position": "left",
-        "text_alignment": "left",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#c95137",
-        "color_links": "#151515",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
       }
     },
     "product-grid": {
@@ -77,7 +30,7 @@
             "promotion_collection": "the-radiance-collection",
             "promotion_position": 5,
             "promotion_width": "1",
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.00.34PM.png",
+            "image": "shopify://shop_images/ScreenShot2024-04-08at4.00.34PM.png",
             "title": "COLORFUL RADIANT DESIGNS",
             "text": "",
             "link_label": "",
@@ -95,7 +48,7 @@
             "promotion_collection": "the-radiance-collection",
             "promotion_position": 11,
             "promotion_width": "1",
-            "image": "shopify:\/\/shop_images\/SAOLA-VEGAN-WESTERN-BOOT-SS241111-MODEL-SS241111-EPI_2754.jpg",
+            "image": "shopify://shop_images/SAOLA-VEGAN-WESTERN-BOOT-SS241111-MODEL-SS241111-EPI_2754.jpg",
             "title": "SUNNY PLAYFUL PATTERNS",
             "text": "",
             "link_label": "",
@@ -113,7 +66,7 @@
             "promotion_collection": "the-radiance-collection",
             "promotion_position": 17,
             "promotion_width": "1",
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.26.51PM.png",
+            "image": "shopify://shop_images/ScreenShot2024-04-08at4.26.51PM.png",
             "title": "UNIQUE GLOBAL BEAUTY",
             "text": "",
             "link_label": "",
@@ -131,7 +84,7 @@
             "promotion_collection": "best-sellers",
             "promotion_position": 6,
             "promotion_width": "2",
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-08at4.34.14PM.png",
+            "image": "shopify://shop_images/ScreenShot2024-04-08at4.34.14PM.png",
             "title": "UNISEX SILHOUETTES",
             "text": "",
             "link_label": "",
@@ -149,7 +102,7 @@
             "promotion_collection": "best-sellers",
             "promotion_position": 15,
             "promotion_width": "2",
-            "image": "shopify:\/\/shop_images\/SOBEK-CAMPINGBOOT-SS230514-MODEL--EPI_3304.jpg",
+            "image": "shopify://shop_images/SOBEK-CAMPINGBOOT-SS230514-MODEL--EPI_3304.jpg",
             "title": "INSPIRED DESIGNS",
             "text": "",
             "link_label": "",
@@ -167,7 +120,7 @@
             "promotion_collection": "best-sellers",
             "promotion_position": 24,
             "promotion_width": "2",
-            "image": "shopify:\/\/shop_images\/HENDRIX-SLIP-ON-SS210308-MODEL-2.jpg",
+            "image": "shopify://shop_images/HENDRIX-SLIP-ON-SS210308-MODEL-2.jpg",
             "title": "AUTHENTIC GLOBAL TEXTILES",
             "text": "",
             "link_label": "",
@@ -199,53 +152,6 @@
         "facets_desktop": "drawer"
       }
     },
-    "text_with_icons_MkhgQi": {
-      "type": "text-with-icons",
-      "blocks": {
-        "icon_hYBx9X": {
-          "type": "icon",
-          "settings": {
-            "icon": "star",
-            "heading": "GET REWARDED",
-            "text": "<p><a href=\"\/pages\/rewards\" target=\"_blank\" title=\"REWARDS\">Earn points & redeem rewards on every purchase.<\/a><\/p>"
-          }
-        },
-        "icon_RUwBjH": {
-          "type": "icon",
-          "settings": {
-            "icon": "return",
-            "heading": "EASY RETURNS",
-            "text": "<p><a href=\"\/pages\/return-policy\" target=\"_blank\" title=\"Returns & Exchanges\">for 30 days from delivery. Plus <strong>FREE<\/strong> <strong>RETURNS <\/strong>within 7 days of delivery.<\/a><\/p>"
-          }
-        },
-        "icon_FcNWP3": {
-          "type": "icon",
-          "settings": {
-            "icon": "box",
-            "heading": "FREE SHIPPING",
-            "text": "<p><a href=\"\/pages\/shipping\" target=\"_blank\" title=\"Shipping\">for orders of $175+ plus expedited shipping available to most regions.<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "icon_hYBx9X",
-        "icon_RUwBjH",
-        "icon_FcNWP3"
-      ],
-      "disabled": true,
-      "settings": {
-        "text_alignment": "left",
-        "icon_position": "left",
-        "icon_size": "medium",
-        "heading_size": "small",
-        "mobile_swipe": false,
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#151515",
-        "color_text": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "spacer_HDe43e": {
       "type": "spacer",
       "settings": {
@@ -275,11 +181,8 @@
     }
   },
   "order": [
-    "countdown_banner_CCTbHh",
     "main-collection-banner",
-    "rich_text_YRMwRR",
     "product-grid",
-    "text_with_icons_MkhgQi",
     "spacer_HDe43e",
     "featured_collection_6RbLfp"
   ]

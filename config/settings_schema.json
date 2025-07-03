@@ -792,6 +792,75 @@
         "id": "color_badge_preorder",
         "label": "Pre-Order (not active)",
         "default": "#666666"
+      },
+      {
+        "type": "paragraph",
+        "content": "Product label 1"
+      },
+      {
+        "type": "text",
+        "id": "prd_tag",
+        "label": "Product Tag 1"
+      },
+      {
+        "type": "liquid",
+        "id": "prd_text",
+        "label": "Label Text 1",
+        "visible_if": "{{ settings.prd_tag != ''}}",
+
+      },
+      {
+        "type": "color",
+        "id": "color_txt1",
+        "label": "Label Color 1",
+        "default": "#e32e02",
+        "visible_if": "{{ settings.prd_tag != ''}}",
+      },
+      {
+        "type": "paragraph",
+        "content": "Product label 2"
+      },
+      {
+        "type": "text",
+        "id": "prd_tag2",
+        "label": "Product Tag 2"
+      },
+      {
+        "type": "liquid",
+        "id": "prd_text2",
+        "label": "Label Text 2",
+        "visible_if": "{{ settings.prd_tag2 != ''}}",
+
+      },
+      {
+        "type": "color",
+        "id": "color_txt2",
+        "label": "Label Color 2",
+        "default": "#e32e02",
+        "visible_if": "{{ settings.prd_tag2 != ''}}",
+      },
+      {
+        "type": "paragraph",
+        "content": "Product label 3"
+      },
+      {
+        "type": "text",
+        "id": "prd_tag3",
+        "label": "Product Tag 3"
+      },
+      {
+        "type": "liquid",
+        "id": "prd_text3",
+        "label": "Label Text 3",
+        "visible_if": "{{ settings.prd_tag3 != ''}}",
+
+      },
+      {
+        "type": "color",
+        "id": "color_txt3",
+        "label": "Label Color 3",
+        "default": "#e32e02",
+        "visible_if": "{{ settings.prd_tag3 != ''}}",
       }
     ]
   },

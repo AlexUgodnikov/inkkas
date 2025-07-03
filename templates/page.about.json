@@ -1,13 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_contain_NNhdmA": {
       "type": "image-banner-contain",
       "settings": {
         "image_contain": false,
+        "button_outline": false,
+        "button_horizontal": "center",
+        "button_vertical": "end",
         "button_text": "",
         "button_link": "",
-        "image": "shopify:\/\/shop_images\/01-01-25-EVERGREEN-2-vibe.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/01-01-25_EVERGREEN-MOBILE_2_Artboard_5_copy_25.jpg"
+        "image": "shopify://shop_images/01-01-25-EVERGREEN-2-vibe.jpg",
+        "mobile_image": "shopify://shop_images/01-01-25_EVERGREEN-MOBILE_2_Artboard_5_copy_25.jpg"
       }
     },
     "16616191162185f622": {
@@ -30,7 +42,7 @@
           "type": "button",
           "settings": {
             "link_label": "check out our blog!",
-            "link": "shopify:\/\/blogs\/blog",
+            "link": "shopify://blogs/blog",
             "button_outline": false
           }
         }
@@ -60,7 +72,7 @@
         "description": "",
         "section_width": "grid",
         "video": "",
-        "video_hosted": "shopify:\/\/files\/videos\/BRAND VIDEO-Inkkas (12.3) - YT No VO.mp4",
+        "video_hosted": "shopify://files/videos/BRAND VIDEO-Inkkas (12.3) - YT No VO.mp4",
         "video_autoplay": true,
         "aspect_ratio": "16-9",
         "disable_top_spacing": false,
@@ -73,14 +85,14 @@
         "image_pAw6HH": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TREE_LOGOS_X2-about_page_2b822c55-00b1-4dfb-86f1-9cc7f4d0c4ea.png",
+            "image": "shopify://shop_images/TREE_LOGOS_X2-about_page_2b822c55-00b1-4dfb-86f1-9cc7f4d0c4ea.png",
             "retina": true
           }
         },
         "text_aPJiCC": {
           "type": "text",
           "settings": {
-            "text": "<p>Inkkas plants one tree for every shoe purchase as part of the <em><strong>One Shoe One Tree Project<\/strong><\/em><em> <\/em>with <a href=\"https:\/\/trees.org\/\" target=\"_blank\" title=\"https:\/\/trees.org\/\">Trees For The Future (trees.org).<\/a> Over the years, this has amounted to more than <strong>445,000 trees<\/strong>! The globe as our muse, we are committed to improving our environment and enriching our communities through environmental awareness and action. Together with your help, we are working to reforest the world and develop more sustainable agricultural infrastructure for communities around the globe. Thank you!<\/p>",
+            "text": "<p>Inkkas plants one tree for every shoe purchase as part of the <em><strong>One Shoe One Tree Project</strong></em><em> </em>with <a href=\"https://trees.org/\" target=\"_blank\" title=\"https://trees.org/\">Trees For The Future (trees.org).</a> Over the years, this has amounted to more than <strong>445,000 trees</strong>! The globe as our muse, we are committed to improving our environment and enriching our communities through environmental awareness and action. Together with your help, we are working to reforest the world and develop more sustainable agricultural infrastructure for communities around the globe. Thank you!</p>",
             "description_size": "small"
           }
         }
@@ -90,7 +102,7 @@
         "text_aPJiCC"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Planting-trees.jpg",
+        "image": "shopify://shop_images/Planting-trees.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": false,
@@ -114,7 +126,7 @@
           "type": "button",
           "settings": {
             "button_text": "SHOP ALL COLLECTIONS",
-            "button_link": "shopify:\/\/collections",
+            "button_link": "shopify://collections",
             "button_outline": false
           }
         }
@@ -125,7 +137,7 @@
       "disabled": true,
       "settings": {
         "section_width": "full-width-row-full",
-        "image": "shopify:\/\/shop_images\/footwear-connects-the-world.png",
+        "image": "shopify://shop_images/footwear-connects-the-world.png",
         "image_parallax": false,
         "desktop_height": "desktop-height-550",
         "mobile_height": "mobile-height-350",
@@ -154,7 +166,7 @@
           "type": "text",
           "settings": {
             "text": "WOMEN'S",
-            "link": "shopify:\/\/collections\/womens-collection-all-shoes",
+            "link": "shopify://collections/womens-collection-all-shoes",
             "outline_text": false
           }
         },
@@ -162,7 +174,7 @@
           "type": "text",
           "settings": {
             "text": "MEN'S",
-            "link": "shopify:\/\/collections\/mens-shoes",
+            "link": "shopify://collections/mens-shoes",
             "outline_text": true
           }
         },
@@ -170,7 +182,7 @@
           "type": "text",
           "settings": {
             "text": "KIDS",
-            "link": "shopify:\/\/collections\/kids",
+            "link": "shopify://collections/kids",
             "outline_text": false
           }
         },
@@ -178,7 +190,7 @@
           "type": "text",
           "settings": {
             "text": "ACCESSORIES",
-            "link": "shopify:\/\/collections\/all-accessories",
+            "link": "shopify://collections/all-accessories",
             "outline_text": true
           }
         },
@@ -186,7 +198,7 @@
           "type": "text",
           "settings": {
             "text": "VEGAN",
-            "link": "shopify:\/\/collections\/vegan-products",
+            "link": "shopify://collections/vegan-products",
             "outline_text": false
           }
         },
@@ -194,7 +206,7 @@
           "type": "text",
           "settings": {
             "text": "EVERYTHING",
-            "link": "shopify:\/\/collections\/all-products",
+            "link": "shopify://collections/all-products",
             "outline_text": true
           }
         }
@@ -287,42 +299,42 @@
         "0e695f58-8205-43ec-8762-4137844e2d33": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ScreenShot2024-04-05at5.06.36PM.png",
+            "image": "shopify://shop_images/ScreenShot2024-04-05at5.06.36PM.png",
             "subheading": "",
             "title": "STEP INTO",
             "text": "",
             "link_label": "what's new",
-            "link": "shopify:\/\/collections\/the-luminous-collection",
+            "link": "shopify://collections/the-luminous-collection",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/the-luminous-collection",
+            "block_link": "shopify://collections/the-luminous-collection",
             "product_list": []
           }
         },
         "0d86c2a6-f30c-40b5-9391-99b5bb12959b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Inkkas_Shoes.png",
+            "image": "shopify://shop_images/Inkkas_Shoes.png",
             "subheading": "",
             "title": "THE WORLD",
             "text": "",
             "link_label": "Bestsellers",
-            "link": "shopify:\/\/collections\/best-sellers",
+            "link": "shopify://collections/best-sellers",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/best-sellers",
+            "block_link": "shopify://collections/best-sellers",
             "product_list": []
           }
         },
         "image_QLzdny": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TESSE-LACE-UP-SS220205-GROUP-BAILA-SLIP-ON-SS220301-W1A1128.jpg",
+            "image": "shopify://shop_images/TESSE-LACE-UP-SS220205-GROUP-BAILA-SLIP-ON-SS220301-W1A1128.jpg",
             "subheading": "",
             "title": "WITH US",
             "text": "",
             "link_label": "Shop All",
-            "link": "shopify:\/\/collections\/all-products",
+            "link": "shopify://collections/all-products",
             "use_text_button": false,
-            "block_link": "shopify:\/\/collections\/all-products",
+            "block_link": "shopify://collections/all-products",
             "product_list": []
           }
         }

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "16618629918566dc27": {
@@ -52,7 +61,7 @@
           "settings": {
             "heading": "Return policy (USA)",
             "open": true,
-            "content": "<ul><li>If you are not 100% satisfied with your order, you may return it within thirty (30) days of delivery for a <a href=\"https:\/\/inkkas.com\/a\/return\" title=\"https:\/\/inkkas.com\/a\/return\"><strong>refund, exchange or store credit<\/strong> <span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><\/a><\/li><li>Alternatively, if your package was damaged or lost in transit, you can submit a <a href=\"https:\/\/inkkas.com\/pages\/navidium-protection-claim\"><span style=\"text-decoration:underline\"><strong>shipping claim here<\/strong><\/span><\/a><\/li><li>To support you in finding your perfect fit, <strong>Inkkas provides FREE EXCHANGE shipping one time per pair of shoes<\/strong>! Any additional exchange shipping costs will be the responsibility of the customer. Exchanges can only be made for items currently in stock.<\/li><li>To be eligible for return, items must be in new, unworn condition in the original packaging. We recommend trying on your shoes on a clean indoor surface and keeping all packaging until you've decided they are just right. Returns must be received at our warehouse within thirty (30) days of order delivery.<\/li><li>You will be notified via email once your return has been processed.<\/li><li>Refunds take approximately 7-14 business days to be returned to your original payment method. <\/li><li><em>Note: Return labels are approved initially, however final inspection is done when your items are received at our warehouse. Items that are found to be unacceptable or ineligible for return<\/em> <em>will be sent back to the customer. We are unable to accept items that have been worn outside or are not clean, including the bottoms of the shoes. <\/em><\/li><\/ul>",
+            "content": "<ul><li>If you are not 100% satisfied with your order, you may return it within thirty (30) days of delivery for a <a href=\"https://inkkas.com/a/return\" title=\"https://inkkas.com/a/return\"><strong>refund, exchange or store credit</strong> <span style=\"text-decoration:underline\"><strong>here</strong></span></a></li><li>Alternatively, if your package was damaged or lost in transit, you can submit a <a href=\"https://inkkas.com/pages/navidium-protection-claim\"><span style=\"text-decoration:underline\"><strong>shipping claim here</strong></span></a></li><li>To support you in finding your perfect fit, <strong>Inkkas provides FREE EXCHANGE shipping one time per pair of shoes</strong>! Any additional exchange shipping costs will be the responsibility of the customer. Exchanges can only be made for items currently in stock.</li><li>To be eligible for return, items must be in new, unworn condition in the original packaging. We recommend trying on your shoes on a clean indoor surface and keeping all packaging until you've decided they are just right. Returns must be received at our warehouse within thirty (30) days of order delivery.</li><li>You will be notified via email once your return has been processed.</li><li>Refunds take approximately 7-14 business days to be returned to your original payment method. </li><li><em>Note: Return labels are approved initially, however final inspection is done when your items are received at our warehouse. Items that are found to be unacceptable or ineligible for return</em> <em>will be sent back to the customer. We are unable to accept items that have been worn outside or are not clean, including the bottoms of the shoes. </em></li></ul>",
             "page": ""
           }
         },
@@ -62,7 +71,7 @@
           "settings": {
             "heading": "REQUEST A RETURN OR EXCHANGE",
             "open": false,
-            "content": "<ul><li>Request your <a href=\"https:\/\/inkkas.com\/a\/return?\" title=\"https:\/\/inkkas.com\/a\/return?\"><span style=\"text-decoration:underline\"><strong>return\/exchange here<\/strong><\/span><\/a> by entering your order number (provided in the email confirmation of your order) and the email address used to make your original purchase.<\/li><li>Follow the prompts for a refund, exchange, or store credit. <\/li><li>Once we receive your returned eligible item(s) at our warehouse, we will process your refund\/exchange. If you selected exchange, your exchanged pair will automatically be shipped to you.<\/li><li>Refunds take approximately 10-14 business days to be returned to your original payment method. <\/li><\/ul>",
+            "content": "<ul><li>Request your <a href=\"https://inkkas.com/a/return?\" title=\"https://inkkas.com/a/return?\"><span style=\"text-decoration:underline\"><strong>return/exchange here</strong></span></a> by entering your order number (provided in the email confirmation of your order) and the email address used to make your original purchase.</li><li>Follow the prompts for a refund, exchange, or store credit. </li><li>Once we receive your returned eligible item(s) at our warehouse, we will process your refund/exchange. If you selected exchange, your exchanged pair will automatically be shipped to you.</li><li>Refunds take approximately 10-14 business days to be returned to your original payment method. </li></ul>",
             "page": ""
           }
         },
@@ -71,7 +80,7 @@
           "settings": {
             "heading": "CHECKOUT OFFER: FREE Returns + Shipping Protection",
             "open": false,
-            "content": "<ul><li>Inkkas offers additional peace of mind  for those unsure about their need for returns & exchanges, and shipping protection for their packages. <\/li><li>If you purchased Inkkas' optional <strong>Free<\/strong> <strong>Returns + Shipping Protection<\/strong> at checkout, we will cover the cost of return shipping and we provide full protection in the event any delivery is damaged, stolen, or lost during transit.<\/li><li>For orders that did not select this option during checkout, any return shipping costs will be deducted from the refund and we are not liable for lost or stolen packages. <\/li><\/ul>",
+            "content": "<ul><li>Inkkas offers additional peace of mind  for those unsure about their need for returns & exchanges, and shipping protection for their packages. </li><li>If you purchased Inkkas' optional <strong>Free</strong> <strong>Returns + Shipping Protection</strong> at checkout, we will cover the cost of return shipping and we provide full protection in the event any delivery is damaged, stolen, or lost during transit.</li><li>For orders that did not select this option during checkout, any return shipping costs will be deducted from the refund and we are not liable for lost or stolen packages. </li></ul>",
             "page": ""
           }
         },
@@ -80,7 +89,7 @@
           "settings": {
             "heading": "How long do I have to return my order?",
             "open": false,
-            "content": "<p>To be eligible for return, our warehouse needs to receive your return within<strong> <\/strong>30 days from your order delivery date.  <\/p>",
+            "content": "<p>To be eligible for return, our warehouse needs to receive your return within<strong> </strong>30 days from your order delivery date.  </p>",
             "page": ""
           }
         },
@@ -89,7 +98,7 @@
           "settings": {
             "heading": "Refund Timeline",
             "open": false,
-            "content": "<ul><li>Eligible refunds are processed once we receive the returned item(s) at our warehouse. Please allow 7-14 business days from the day your return is received at our warehouse for your refund to be processed. <\/li><li>Your refund will be processed to the same method of payment used to make your original purchase. <\/li><li>If the method of payment used at the time of purchase has changed, please note that you will be refunded in the form of store credit only.<\/li><\/ul>",
+            "content": "<ul><li>Eligible refunds are processed once we receive the returned item(s) at our warehouse. Please allow 7-14 business days from the day your return is received at our warehouse for your refund to be processed. </li><li>Your refund will be processed to the same method of payment used to make your original purchase. </li><li>If the method of payment used at the time of purchase has changed, please note that you will be refunded in the form of store credit only.</li></ul>",
             "page": ""
           }
         },
@@ -99,7 +108,7 @@
           "settings": {
             "heading": "Year-END: Extended Returns Policy",
             "open": false,
-            "content": "<ul><li>Orders placed between Dec 3rd - 23rd will have an extended return window through Jan 6th.<\/li><li>Orders placed after Dec 23rd will have the normal return policy (7 days for free returns, more details above).<\/li><\/ul>",
+            "content": "<ul><li>Orders placed between Dec 3rd - 23rd will have an extended return window through Jan 6th.</li><li>Orders placed after Dec 23rd will have the normal return policy (7 days for free returns, more details above).</li></ul>",
             "page": ""
           }
         },
@@ -108,7 +117,7 @@
           "settings": {
             "heading": "FINAL SALE: LIMITED RETURNS policy",
             "open": false,
-            "content": "<ul><li>Items marked \"Final Sale\" are not eligible for a return or exchange. Please contact customer service with questions or special circumstances.<\/li><\/ul>",
+            "content": "<ul><li>Items marked \"Final Sale\" are not eligible for a return or exchange. Please contact customer service with questions or special circumstances.</li></ul>",
             "page": ""
           }
         },
@@ -117,7 +126,7 @@
           "settings": {
             "heading": "I have contacted Inkkas customer service, when will I hear back?",
             "open": false,
-            "content": "<p>Our support team is available between 9:00 AM to 5:00 PM EST, Monday to Saturday. We are committed to responding to inquiries within 24-48 hours during business hours. You can contact us <a href=\"\/pages\/contact\"><span style=\"text-decoration:underline\">here<\/span><\/a> or at <a href=\"mailto:support@inkkas.com\"><span style=\"text-decoration:underline\">support@inkkas.com<\/span><\/a>.  Please note that we do not respond to inquiries during weekends and\/or holidays. <\/p><p>For urgent matters or if you haven't received a response from our customer service team in 48-72 hours (sometimes replies go to spam), please email us at ops@inkkas.com.<\/p>",
+            "content": "<p>Our support team is available between 9:00 AM to 5:00 PM EST, Monday to Saturday. We are committed to responding to inquiries within 24-48 hours during business hours. You can contact us <a href=\"/pages/contact\"><span style=\"text-decoration:underline\">here</span></a> or at <a href=\"mailto:support@inkkas.com\"><span style=\"text-decoration:underline\">support@inkkas.com</span></a>.  Please note that we do not respond to inquiries during weekends and/or holidays. </p><p>For urgent matters or if you haven't received a response from our customer service team in 48-72 hours (sometimes replies go to spam), please email us at ops@inkkas.com.</p>",
             "page": ""
           }
         },
@@ -126,7 +135,7 @@
           "settings": {
             "heading": "What can I do with old Inkkas I no longer wear? ",
             "open": false,
-            "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. There are quality programs across the country and donation centers that will take used shoes. Our partner organization that does a great job taking used shoes and repurposing them is Soles4Souls (<a href=\"https:\/\/soles4souls.org\/\">https:\/\/soles4souls.org<\/a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. <\/p>",
+            "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. There are quality programs across the country and donation centers that will take used shoes. Our partner organization that does a great job taking used shoes and repurposing them is Soles4Souls (<a href=\"https://soles4souls.org/\">https://soles4souls.org</a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. </p>",
             "page": ""
           }
         },
@@ -135,7 +144,7 @@
           "settings": {
             "heading": "RETURN POLICY (CANADA)",
             "open": false,
-            "content": "<ul><li>All returns\/exchanges will be sent to our CA Returns Center located in Ottawa, ON. <\/li><li>To request a return on an international order, please visit our <a href=\"https:\/\/inkkas.com\/a\/return?\" title=\"https:\/\/inkkas.com\/a\/return?\">return portal here<\/a>. Please contact ops@inkkas.com.<\/li><li>Please note, our Free Returns + Shipping Protection offer does not apply to orders outside of the United States.<\/li><\/ul>",
+            "content": "<ul><li>All returns/exchanges will be sent to our CA Returns Center located in Ottawa, ON. </li><li>To request a return on an international order, please visit our <a href=\"https://inkkas.com/a/return?\" title=\"https://inkkas.com/a/return?\">return portal here</a>. Please contact ops@inkkas.com.</li><li>Please note, our Free Returns + Shipping Protection offer does not apply to orders outside of the United States.</li></ul>",
             "page": ""
           }
         },
@@ -144,7 +153,7 @@
           "settings": {
             "heading": "Return Policy (INTERNATIONAL)",
             "open": false,
-            "content": "<ul><li>For return\/exchange requests on orders outside of the US and Canada, please contact us directly at ops@inkkas.com. <\/li><li>Please note, our Free Returns + Shipping Protection offer does not apply to orders outside of the United States.<\/li><\/ul>",
+            "content": "<ul><li>For return/exchange requests on orders outside of the US and Canada, please contact us directly at ops@inkkas.com. </li><li>Please note, our Free Returns + Shipping Protection offer does not apply to orders outside of the United States.</li></ul>",
             "page": ""
           }
         }

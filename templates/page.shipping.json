@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "16618629918566dc27": {
@@ -52,7 +61,7 @@
           "settings": {
             "heading": "Do you offer Free Shipping?",
             "open": true,
-            "content": "<ul><li>Yes, Inkkas is happy to offer <strong>FREE shipping<\/strong> within the Continental U.S. on all orders of $175 or more! <\/li><li>Free shipping is automatically applied at checkout wherever eligible.<\/li><li>Free shipping is also available to Canada for orders of $200 or more. <\/li><li>Free shipping does not currently apply to Alaska, Hawaii and Puerto Rico. <\/li><li>Free shipping does not currently apply to international orders other than Canada.<\/li><\/ul>",
+            "content": "<ul><li>Yes, Inkkas is happy to offer <strong>FREE shipping</strong> within the Continental U.S. on all orders of $175 or more! </li><li>Free shipping is automatically applied at checkout wherever eligible.</li><li>Free shipping is also available to Canada for orders of $200 or more. </li><li>Free shipping does not currently apply to Alaska, Hawaii and Puerto Rico. </li><li>Free shipping does not currently apply to international orders other than Canada.</li></ul>",
             "page": ""
           }
         },
@@ -61,7 +70,7 @@
           "settings": {
             "heading": "How fast is your shipping?",
             "open": false,
-            "content": "<p>Most orders are shipped and will arrive to you between 2-10 business days from your order date, pending  availability and payment verification.<strong> <\/strong>All orders are processed for shipping the business day after placement. <\/p><p><strong>Continental U.S.<\/strong> shipping options:<\/p><ul><li><em><strong>Expedited UPS 2-Day Air <\/strong><\/em>usually takes 2-4 business days to arrive to the destination<\/li><li><em><strong>Standard USPS Ground: <\/strong><\/em>3-7 business days<\/li><li><em><strong>No-Rush USPS Ground:<\/strong><\/em><em> <\/em>6-10 business days<\/li><\/ul><p><strong>Pre-Orders: <\/strong>Items that are available for pre-order will be indicated as pre-order before you make a purchase and will indicate an estimated shipping date on the product page.<\/p><p><strong>International:<\/strong> International orders typically take between 14 - 20 business days to arrive, as our shipping center is located in the Continental U.S.<\/p>",
+            "content": "<p>Most orders are shipped and will arrive to you between 2-10 business days from your order date, pending  availability and payment verification.<strong> </strong>All orders are processed for shipping the business day after placement. </p><p><strong>Continental U.S.</strong> shipping options:</p><ul><li><em><strong>Expedited UPS 2-Day Air </strong></em>usually takes 2-4 business days to arrive to the destination</li><li><em><strong>Standard USPS Ground: </strong></em>3-7 business days</li><li><em><strong>No-Rush USPS Ground:</strong></em><em> </em>6-10 business days</li></ul><p><strong>Pre-Orders: </strong>Items that are available for pre-order will be indicated as pre-order before you make a purchase and will indicate an estimated shipping date on the product page.</p><p><strong>International:</strong> International orders typically take between 14 - 20 business days to arrive, as our shipping center is located in the Continental U.S.</p>",
             "page": ""
           }
         },
@@ -70,7 +79,7 @@
           "settings": {
             "heading": "Is expedited shipping available?",
             "open": false,
-            "content": "<p>Yes, we offer expedited UPS 2-Day Air options in addition to USPS ground options (no-rush and standard).<\/p><ul><li>Wherever eligible, these options will appear at checkout. <\/li><li>Note that all orders are processed the business day after placement. <\/li><\/ul>",
+            "content": "<p>Yes, we offer expedited UPS 2-Day Air options in addition to USPS ground options (no-rush and standard).</p><ul><li>Wherever eligible, these options will appear at checkout. </li><li>Note that all orders are processed the business day after placement. </li></ul>",
             "page": ""
           }
         },
@@ -79,7 +88,7 @@
           "settings": {
             "heading": "Where do you ship?",
             "open": false,
-            "content": "<p>We ship worldwide!<\/p><ul><li>via USPS and UPS for domestic orders<\/li><li>via DHL Express Worldwide for non-Canada international orders <\/li><li>via USPS Priority International for Canada orders<\/li><\/ul>",
+            "content": "<p>We ship worldwide!</p><ul><li>via USPS and UPS for domestic orders</li><li>via DHL Express Worldwide for non-Canada international orders </li><li>via USPS Priority International for Canada orders</li></ul>",
             "page": ""
           }
         },
@@ -88,7 +97,7 @@
           "settings": {
             "heading": "Do I have to add shipping to the price?",
             "open": false,
-            "content": "<ul><li>We automatically add shipping to your total cost during the checkout process, once you select the shipping method you prefer. <\/li><\/ul>",
+            "content": "<ul><li>We automatically add shipping to your total cost during the checkout process, once you select the shipping method you prefer. </li></ul>",
             "page": ""
           }
         },
@@ -97,7 +106,7 @@
           "settings": {
             "heading": "What are shipping rates for International Orders?",
             "open": false,
-            "content": "<ul><li>DHL Express Worldwide rates vary widely depending upon the country where the items are being shipped. The best way to find a shipping quote for an international order is to use the shipping calculator during checkout.<\/li><li>Note that international orders shipping via DHL are not eligible for free shipping discounts. <\/li><li>Please allow an extra business day for customs paperwork processing when ordering internationally. <\/li><li>Note Inkkas is not liable for any customs duties and taxes on outbound shipment to international customers. Customs duties taxes are the sole responsibility of the recipient.<\/li><\/ul>",
+            "content": "<ul><li>DHL Express Worldwide rates vary widely depending upon the country where the items are being shipped. The best way to find a shipping quote for an international order is to use the shipping calculator during checkout.</li><li>Note that international orders shipping via DHL are not eligible for free shipping discounts. </li><li>Please allow an extra business day for customs paperwork processing when ordering internationally. </li><li>Note Inkkas is not liable for any customs duties and taxes on outbound shipment to international customers. Customs duties taxes are the sole responsibility of the recipient.</li></ul>",
             "page": ""
           }
         },
@@ -106,7 +115,7 @@
           "settings": {
             "heading": "Will I receive a tracking number once I order?",
             "open": false,
-            "content": "<p>Yes, you will be sent an automatic email with a tracking number once your order ships. The tracking number will enable you to track the shipment from our fulfillment center to its destination.<\/p>",
+            "content": "<p>Yes, you will be sent an automatic email with a tracking number once your order ships. The tracking number will enable you to track the shipment from our fulfillment center to its destination.</p>",
             "page": ""
           }
         },
@@ -115,7 +124,7 @@
           "settings": {
             "heading": "My shoes are on pre-order. When  will they ship?",
             "open": false,
-            "content": "<ul><li>If your item is on pre-order, the product page will show the estimated shipping date at the time of your order. <\/li><li>Once your order has shipped, you will be notified via e-mail with a tracking number. <\/li><li>If you have any questions about the status of your pre-order, please contact customer service at support@inkkas.com.<\/li><li>Note that we do our best to project accurate shipping dates for pre-orders on the product page; however, these dates could change.<\/li><\/ul>",
+            "content": "<ul><li>If your item is on pre-order, the product page will show the estimated shipping date at the time of your order. </li><li>Once your order has shipped, you will be notified via e-mail with a tracking number. </li><li>If you have any questions about the status of your pre-order, please contact customer service at support@inkkas.com.</li><li>Note that we do our best to project accurate shipping dates for pre-orders on the product page; however, these dates could change.</li></ul>",
             "page": ""
           }
         },
@@ -124,7 +133,7 @@
           "settings": {
             "heading": "I'm returning my order. Does Inkkas cover the cost of return shipping?",
             "open": false,
-            "content": "<ul><li>A purchase of Inkkas' optional <strong>Returns & Exchanges + Shipping Protection<\/strong> at checkout qualifies you for FREE return shipping.<\/li><li>For orders that did not select this option, the return shipping cost will be deducted from any refund. For additional details, view our full return policy <a href=\"\/pages\/return-policy\" title=\"Returns & Exchanges\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/li><\/ul>",
+            "content": "<ul><li>A purchase of Inkkas' optional <strong>Returns & Exchanges + Shipping Protection</strong> at checkout qualifies you for FREE return shipping.</li><li>For orders that did not select this option, the return shipping cost will be deducted from any refund. For additional details, view our full return policy <a href=\"/pages/return-policy\" title=\"Returns & Exchanges\"><span style=\"text-decoration:underline\">here</span></a>.</li></ul>",
             "page": ""
           }
         },
@@ -133,7 +142,7 @@
           "settings": {
             "heading": "I have contacted Inkkas customer service, when will I hear back?",
             "open": false,
-            "content": "<p>Our support team is available between 9:00 AM to 5:00 PM EST, Monday to Saturday. We are committed to responding to inquiries within 24-48 hours during business hours. You can contact us <a href=\"\/pages\/contact\"><span style=\"text-decoration:underline\">here<\/span><\/a> or at <a href=\"mailto:support@inkkas.com\"><span style=\"text-decoration:underline\">support@inkkas.com<\/span><\/a>.  Please note that we do not respond to inquiries during weekends and\/or holidays. <\/p><p>For urgent matters or if you haven't received a response from our customer service team in 48-72 hours (sometimes replies go to spam), please email us at ops@inkkas.com.<\/p>",
+            "content": "<p>Our support team is available between 9:00 AM to 5:00 PM EST, Monday to Saturday. We are committed to responding to inquiries within 24-48 hours during business hours. You can contact us <a href=\"/pages/contact\"><span style=\"text-decoration:underline\">here</span></a> or at <a href=\"mailto:support@inkkas.com\"><span style=\"text-decoration:underline\">support@inkkas.com</span></a>.  Please note that we do not respond to inquiries during weekends and/or holidays. </p><p>For urgent matters or if you haven't received a response from our customer service team in 48-72 hours (sometimes replies go to spam), please email us at ops@inkkas.com.</p>",
             "page": ""
           }
         },
@@ -142,7 +151,7 @@
           "settings": {
             "heading": "My package was damaged, stolen or lost in the mail. What should I do?",
             "open": false,
-            "content": "<p>Oh no! If your package got lost or stolen in the mail please submit <a href=\"https:\/\/inkkas.com\/pages\/navidium-protection-claim\" title=\"https:\/\/inkkas.com\/pages\/navidium-protection-claim\">your claim here.<\/a><\/p>",
+            "content": "<p>Oh no! If your package got lost or stolen in the mail please submit <a href=\"https://inkkas.com/pages/navidium-protection-claim\" title=\"https://inkkas.com/pages/navidium-protection-claim\">your claim here.</a></p>",
             "page": ""
           }
         },
@@ -151,7 +160,7 @@
           "settings": {
             "heading": "What can I do with old Inkkas I no longer wear? ",
             "open": false,
-            "content": "<ul><li>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. Our partner organization that does a great job taking used shoes and repurposing them is <a href=\"https:\/\/soles4souls.org\/\" target=\"_blank\" title=\"https:\/\/soles4souls.org\/\">Soles4Souls<\/a>.<\/li><li>Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. <\/li><li>If you would like to donate your shoes to Soles4Souls, reach out to us for a FREE shipping label at support@inkkas.com.<\/li><\/ul>",
+            "content": "<ul><li>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. Our partner organization that does a great job taking used shoes and repurposing them is <a href=\"https://soles4souls.org/\" target=\"_blank\" title=\"https://soles4souls.org/\">Soles4Souls</a>.</li><li>Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. </li><li>If you would like to donate your shoes to Soles4Souls, reach out to us for a FREE shipping label at support@inkkas.com.</li></ul>",
             "page": ""
           }
         }

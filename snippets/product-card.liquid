@@ -92,7 +92,14 @@
 				</quick-view>
 			{%- endif -%}
 		</div>
-	{% render 'product-price', product: product_card_product %}
+    	{% render 'product-price', product: product_card_product %}
+        {%- if settings.prd_tag != blank and settings.prd_text != blank and product_card_product.tags contains settings.prd_tag -%}		
+			<span class="product-card__tag-info" style="color: {{ settings.color_txt1 }}">{{ settings.prd_text }}</span>
+			{%- elsif settings.prd_tag2 != blank and settings.prd_text2 != blank and product_card_product.tags contains settings.prd_tag2 -%}
+			<span class="product-card__tag-info" style="color: {{ settings.color_txt2 }}">{{ settings.prd_text2 }}</span>	
+			{%- elsif settings.prd_tag3 != blank and settings.prd_text3 != blank and product_card_product.tags contains settings.prd_tag3 -%}
+			<span class="product-card__tag-info" style="color: {{ settings.color_txt3 }}">{{ settings.prd_text3 }}</span>	
+		{%- endif -%}
 		{% render 'product-card-swatch', product: product_card_product, sizes: sizes %}
 		{%- if settings.show_products_rating and product_card_product.metafields.reviews.rating.value != blank -%}
 		<div class="star-rating" style="--star-rating: {{ product_card_product.metafields.reviews.rating.value.rating }};"></div>

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -5,45 +14,57 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "text_brFwER": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "ALL NEW SS25 COLLECTION IS HERE!🔅",
-            "link": "shopify:\/\/collections\/the-luminous-collection"
-          }
-        },
         "text_cQEaMB": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "none",
-            "text": "FREE U.S. SHIPPING OVER $175 + FREE EXCHANGES",
+            "text": "★★★★★ Rated 'Excellent' by Thousands of Happy Customers",
             "link": ""
           }
         },
         "text_YePgmz": {
           "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "We plant a tree for every purchase with trees.org!",
-            "link": "shopify:\/\/pages\/about"
-          }
-        },
-        "text_KHXbnF": {
-          "type": "text",
           "disabled": true,
           "settings": {
             "icon": "none",
-            "text": "Final Day to Take 25% OFF SITEWIDE with code MDW25.",
-            "link": "shopify:\/\/collections\/best-sellers"
+            "text": "We plant a tree for every purchase with trees.org! 🌱",
+            "link": "shopify://pages/about"
+          }
+        },
+        "text_xhDUtd": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "return",
+            "text": "Free Exchanges & Easy Returns",
+            "link": "shopify://pages/return-policy"
+          }
+        },
+        "text_CmerAE": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "box",
+            "text": "Free US Shipping for Orders $175+",
+            "link": "shopify://pages/shipping"
+          }
+        },
+        "text_epRXWW": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "JULY 4TH SALE: 25% OFF SITEWIDE + UP TO 60% OFF MARKDOWNS",
+            "link": "shopify://collections/best-sellers"
           }
         }
       },
       "block_order": [
-        "text_brFwER",
         "text_cQEaMB",
         "text_YePgmz",
-        "text_KHXbnF"
+        "text_xhDUtd",
+        "text_CmerAE",
+        "text_epRXWW"
       ],
       "settings": {
         "announcement_bar": true,
@@ -83,7 +104,7 @@
       ],
       "settings": {
         "sticky_header": true,
-        "logo": "shopify:\/\/shop_images\/inkkasblack_9292de40-7bd9-493f-8c9e-6d4eece2cd1c.png",
+        "logo": "shopify://shop_images/inkkasblack_9292de40-7bd9-493f-8c9e-6d4eece2cd1c.png",
         "logo_height_range": 30,
         "logo_height_range_mobile": 30,
         "style": "style1",

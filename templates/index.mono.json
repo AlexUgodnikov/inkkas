@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1663242381f7b5d4e3": {
@@ -164,7 +173,7 @@
       "settings": {
         "heading": "Shop by Category",
         "heading_left": false,
-        "description": "<p>All leather goods available on Mono<\/p>",
+        "description": "<p>All leather goods available on Mono</p>",
         "full_width": false,
         "collection_list": [
           "backpacks",
@@ -195,7 +204,7 @@
         "heading": "Mono Premium Leather Goods 2022",
         "text": "",
         "lightbox_button": true,
-        "video": "https:\/\/www.youtube.com\/watch?v=Xs2IL070G2Q",
+        "video": "https://www.youtube.com/watch?v=Xs2IL070G2Q",
         "overlay_opacity": 0,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -332,7 +341,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "",
-            "text": "<p>Maintenance and repairs are free up to 1 year after purchase. Repairs are done in-house by our craftsmen.<\/p>",
+            "text": "<p>Maintenance and repairs are free up to 1 year after purchase. Repairs are done in-house by our craftsmen.</p>",
             "link_label": "",
             "link": ""
           }
@@ -344,7 +353,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "",
-            "text": "<p>All our products can be exchanged or returned for a refund within 365 days after shipping.<\/p>",
+            "text": "<p>All our products can be exchanged or returned for a refund within 365 days after shipping.</p>",
             "link_label": "",
             "link": ""
           }
@@ -356,7 +365,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "",
-            "text": "<p>Vegan leather is often made from polyurethane, a polymer that can be made to order for any designer's whim.<\/p>",
+            "text": "<p>Vegan leather is often made from polyurethane, a polymer that can be made to order for any designer's whim.</p>",
             "link_label": "",
             "link": ""
           }
@@ -401,7 +410,7 @@
             "image": "",
             "subheading": "1928",
             "heading": "ESTB. 1928",
-            "text": "<p>Since launching in April 1928, Mono has established itself as a global fashion destination to busy fast paced woman with a strong sense of fashion.<\/p>",
+            "text": "<p>Since launching in April 1928, Mono has established itself as a global fashion destination to busy fast paced woman with a strong sense of fashion.</p>",
             "link_label": "",
             "link": ""
           }
@@ -412,7 +421,7 @@
             "image": "",
             "subheading": "1940",
             "heading": "Premium Leather",
-            "text": "<p>Rsvp is a design studio whose practice explores the beauty of modern craft. We apply our design practice to the creation of the finest leather accessories.<\/p>",
+            "text": "<p>Rsvp is a design studio whose practice explores the beauty of modern craft. We apply our design practice to the creation of the finest leather accessories.</p>",
             "link_label": "",
             "link": ""
           }
@@ -422,7 +431,7 @@
           "settings": {
             "subheading": "1962",
             "heading": "1962",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -433,7 +442,7 @@
             "image": "",
             "subheading": "1986",
             "heading": "Vegan Leather",
-            "text": "<p>Vegan leather is often made from polyurethane, a polymer that can be made to order for any designer's whim. It can also be made from innovative.<\/p>",
+            "text": "<p>Vegan leather is often made from polyurethane, a polymer that can be made to order for any designer's whim. It can also be made from innovative.</p>",
             "link_label": "",
             "link": ""
           }
@@ -444,7 +453,7 @@
             "image": "",
             "subheading": "2001",
             "heading": "Product of the year",
-            "text": "<p>Because a well-maintained leather product can have many lives, here are some tips to take care of yours.<\/p>",
+            "text": "<p>Because a well-maintained leather product can have many lives, here are some tips to take care of yours.</p>",
             "link_label": "",
             "link": ""
           }
@@ -454,7 +463,7 @@
           "settings": {
             "subheading": "2023",
             "heading": "Munchkin Bag",
-            "text": "<p>It’s also the only one with a handle. Though very compact, it’s still roomy enough to fit a big-screen smartphone.<\/p>",
+            "text": "<p>It’s also the only one with a handle. Though very compact, it’s still roomy enough to fit a big-screen smartphone.</p>",
             "link_label": "",
             "link": ""
           }
@@ -471,7 +480,7 @@
       "settings": {
         "heading": "Our Journey",
         "heading_left": false,
-        "description": "<p>Add a short description for this section<\/p>",
+        "description": "<p>Add a short description for this section</p>",
         "full_width": true,
         "text_alignment": "left",
         "show_progress_bar": true,
@@ -570,7 +579,7 @@
             "icon": "ruler",
             "image": "",
             "heading": "Customer Support",
-            "text": "<p>Mon - Sat, 10am - 9pm<\/p>"
+            "text": "<p>Mon - Sat, 10am - 9pm</p>"
           }
         },
         "1663504539840ad171-1": {
@@ -579,7 +588,7 @@
             "icon": "ruler",
             "image": "",
             "heading": "Easy Returns",
-            "text": "<p>Returns extended to 60 days<\/p>"
+            "text": "<p>Returns extended to 60 days</p>"
           }
         },
         "1663504539840ad171-2": {
@@ -588,7 +597,7 @@
             "icon": "ruler",
             "image": "",
             "heading": "Gift Package",
-            "text": "<p>Unique packages for you<\/p>"
+            "text": "<p>Unique packages for you</p>"
           }
         },
         "86c52570-4080-4c69-bcd2-af0194ed52fe": {
@@ -597,7 +606,7 @@
             "icon": "ruler",
             "image": "",
             "heading": "One-year Warranty",
-            "text": "<p>Pair text with an image<\/p>"
+            "text": "<p>Pair text with an image</p>"
           }
         }
       },
