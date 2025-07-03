@@ -1,11 +1,11 @@
-{% if section.blocks.size > 0 %}
+{% if collection.metafields.custom.filter_chips.value.filter_name != blank %}
 
   {% style %}
     filters-button {
       position: relative;
       display: block;
       overflow: auto;
-      margin-bottom: 15px;
+      margin-bottom: 30px;
     }
     filters-button.updating button {
       pointer-events: none;
@@ -35,24 +35,26 @@
     .custom-filter-item:first-child {
       padding-left: 0;
     }
-    .custom-filter-item button {
+    .custom-filter-item button,
+    .custom-filter-item a {
       cursor: pointer;
-      color: #131313;
+      color: #fff;
       text-align: center;
       font-size: 14px;
       font-weight: 400;
       line-height: 15px;
       text-transform: uppercase;
       border-radius: 3px;
-      background-color: #F5F7F8;
+      background-color: #4e584a;
       border: none;
       padding: 12px 15px;
       transition: all 0.3s;
     }
     .custom-filter-item button.active,
-    .custom-filter-item button:hover {
-      background-color: #555;
-      color: #fff;
+    .custom-filter-item button:hover,
+    .custom-filter-item a:hover {
+      background-color: #e1e1e1;
+      color: #4e584a;
       transition: all 0.3s;
     }
     .custom-filter-item button:disabled {
@@ -71,8 +73,12 @@
         font-weight: 400;
         line-height: 15px;
       }
+      filters-button {
+        margin-bottom: 15px;
+      }
     }
   {% endstyle %}
+  {% comment %} -- sdf {{ collection.metafields.custom.filter_chips.value.filter_name }} {% endcomment %}
 
   <div class="container">
 
@@ -82,14 +88,14 @@
 
   </div>
 
+
   <script>
 
       class FiltersButton extends HTMLElement {
           constructor() {
               super();
 
-              this.filtersArray = [{% for item in section.blocks %}"{{item.settings.title}}",{%endfor%}]
-              this.buttonsMax = {{section.settings.max_button}}
+              this.filtersArray = {{ collection.metafields.custom.filter_chips.value.filter_name }}
               this.filterButtonsList = this.querySelector('.js-filter-buttons-list')
           }
           connectedCallback() {
@@ -104,53 +110,55 @@
           renderFilterButtons(){
             if(!this.filtersArray.length) return
 
-     
             const fragmentItemProduct = document.createDocumentFragment();
 
-            // let itemFilter = []
-
             this.filtersArray.forEach((item,index) => {
-              const itemFilter = document.querySelector(`facet-filters-form input[value="${item}"]`)
-              if(itemFilter){
-                const currentIndex = index + 1
-                  if(currentIndex <= this.buttonsMax){
-                    const buttonElement = document.createElement('div')
-                    buttonElement.className = 'custom-filter-item';
+               
+       
+              if(item.includes(':')){
+                
+                const buttonElement = document.createElement('div')
+                  buttonElement.className = 'custom-filter-item';
+
+                 const splitUtl = item.split(':');
+                 if(splitUtl.length === 2){
+                  buttonElement.innerHTML += `
+                    <a href="${splitUtl[1]}" class="">${splitUtl[0]}</a>
+                  `;
+                 }
+                 if(splitUtl.length === 3){
+                  buttonElement.innerHTML += `
+                    <a href="${splitUtl[2]}" class="">${splitUtl[0]}</a>
+                  `;
+                 }
+
+                  fragmentItemProduct.appendChild(buttonElement)
+
+              }else{
+                const itemFilter = document.querySelector(`facet-filters-form input[value="${item}"]`)
+                if(itemFilter){
+
+                  const buttonElement = document.createElement('div')
+                  buttonElement.className = 'custom-filter-item';
+
+                  const currentIndex = index + 1
                     let isActive = false
                     let isDisabled = false
-
                     if (itemFilter.checked) isActive = true
                     if (itemFilter.disabled) isDisabled = true
-                    buttonElement.innerHTML = `
+
+                    buttonElement.innerHTML += `
                       <button data-value="${itemFilter.value}" class="${isActive ? 'active' : ''}" ${isDisabled ? 'disabled' : ''}>${itemFilter.value}</button>
                     `
-                
                     fragmentItemProduct.appendChild(buttonElement)
-                  }
+                }
               }
+
+              
+
             })
 
-        //     console.log(itemFilter.length)
-       
-        //     if(!itemFilter.length) return
 
-        //     itemFilter.querySelectorAll('input').forEach((input, index) => {
-        //           const currentIndex = index + 1
-        //           if(currentIndex <= this.buttonsMax){
-        //             const buttonElement = document.createElement('div')
-        //             buttonElement.className = 'custom-filter-item';
-        //             let isActive = false
-        //             let isDisabled = false
-
-        //             if (input.checked) isActive = true
-        //             if (input.disabled) isDisabled = true
-        //             buttonElement.innerHTML = `
-        //               <button data-value="${input.value}" class="${isActive ? 'active' : ''}" ${isDisabled ? 'disabled' : ''}>${input.value}</button>
-        //             `
-                
-        //             fragmentItemProduct.appendChild(buttonElement)
-        //           }
-        //    })
 
             this.filterButtonsList.innerHTML = '';
             this.filterButtonsList.appendChild(fragmentItemProduct)
@@ -210,7 +218,7 @@
            
               for (const mutation of mutationsList) {
                 if (mutation.type === 'childList' || mutation.type === 'attributes') {
-                  console.log('render renderFilterButtons');
+                 
                   this.renderFilterButtons()
                 }
               }
@@ -237,37 +245,12 @@
 
 
   </script>
-
-
 {% endif %}
-
 
 {% schema %}
   {
     "name": "Filters chips",
-    "settings": [
-      {
-        "type": "number",
-        "id": "max_button",
-        "label": "Max button from filter",
-        "default": 5
-      }
-    ],
-    "blocks": [
-      {
-        "type": "column",
-        "name": "Filters",
-        "settings": [
-
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Filter name"
-          }
-
-        ]
-      }
-    ],
+    "settings": [],
     "presets": [
       {
         "name": "Filters chips"
