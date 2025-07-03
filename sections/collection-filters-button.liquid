@@ -1,0 +1,277 @@
+{% if section.blocks.size > 0 %}
+
+  {% style %}
+    filters-button {
+      position: relative;
+      display: block;
+      overflow: auto;
+      margin-bottom: 15px;
+    }
+    filters-button.updating button {
+      pointer-events: none;
+    }
+    filters-button .updating {
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: rgb(255 255 255 / 50%);
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+    .filter-buttons-list {
+      display: table;
+      width: max-content;
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+    .custom-filter-item {
+      display: table-cell;
+      padding-left: 20px;
+    }
+    .custom-filter-item:first-child {
+      padding-left: 0;
+    }
+    .custom-filter-item button {
+      cursor: pointer;
+      color: #131313;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 15px;
+      text-transform: uppercase;
+      border-radius: 3px;
+      background-color: #F5F7F8;
+      border: none;
+      padding: 12px 15px;
+      transition: all 0.3s;
+    }
+    .custom-filter-item button.active,
+    .custom-filter-item button:hover {
+      background-color: #555;
+      color: #fff;
+      transition: all 0.3s;
+    }
+    .custom-filter-item button:disabled {
+      opacity: .5;
+      pointer-events: none;
+    }
+    @media(max-width: 768px) {
+      filters-button {
+        padding-bottom: 9px;
+      }
+      .custom-filter-item {
+        padding-left: 10px;
+      }
+      .custom-filter-item button {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+      }
+    }
+  {% endstyle %}
+
+  <div class="container">
+
+    <filters-button>
+      <div class="js-filter-buttons-list filter-buttons-list"></div>
+    </filters-button>
+
+  </div>
+
+  <script>
+
+      class FiltersButton extends HTMLElement {
+          constructor() {
+              super();
+
+              this.filtersArray = [{% for item in section.blocks %}"{{item.settings.title}}",{%endfor%}]
+              this.buttonsMax = {{section.settings.max_button}}
+              this.filterButtonsList = this.querySelector('.js-filter-buttons-list')
+          }
+          connectedCallback() {
+
+                this.renderFilterButtons()
+
+                this.observeFacetFilters()
+
+          }
+
+
+          renderFilterButtons(){
+            if(!this.filtersArray.length) return
+
+     
+            const fragmentItemProduct = document.createDocumentFragment();
+
+            // let itemFilter = []
+
+            this.filtersArray.forEach((item,index) => {
+              const itemFilter = document.querySelector(`facet-filters-form input[value="${item}"]`)
+              if(itemFilter){
+                const currentIndex = index + 1
+                  if(currentIndex <= this.buttonsMax){
+                    const buttonElement = document.createElement('div')
+                    buttonElement.className = 'custom-filter-item';
+                    let isActive = false
+                    let isDisabled = false
+
+                    if (itemFilter.checked) isActive = true
+                    if (itemFilter.disabled) isDisabled = true
+                    buttonElement.innerHTML = `
+                      <button data-value="${itemFilter.value}" class="${isActive ? 'active' : ''}" ${isDisabled ? 'disabled' : ''}>${itemFilter.value}</button>
+                    `
+                
+                    fragmentItemProduct.appendChild(buttonElement)
+                  }
+              }
+            })
+
+        //     console.log(itemFilter.length)
+       
+        //     if(!itemFilter.length) return
+
+        //     itemFilter.querySelectorAll('input').forEach((input, index) => {
+        //           const currentIndex = index + 1
+        //           if(currentIndex <= this.buttonsMax){
+        //             const buttonElement = document.createElement('div')
+        //             buttonElement.className = 'custom-filter-item';
+        //             let isActive = false
+        //             let isDisabled = false
+
+        //             if (input.checked) isActive = true
+        //             if (input.disabled) isDisabled = true
+        //             buttonElement.innerHTML = `
+        //               <button data-value="${input.value}" class="${isActive ? 'active' : ''}" ${isDisabled ? 'disabled' : ''}>${input.value}</button>
+        //             `
+                
+        //             fragmentItemProduct.appendChild(buttonElement)
+        //           }
+        //    })
+
+            this.filterButtonsList.innerHTML = '';
+            this.filterButtonsList.appendChild(fragmentItemProduct)
+
+            //loading effect
+            this.loadingEffect()
+
+            //run change logic
+            this.changeFilterButtons();
+
+          }
+
+
+
+          changeFilterButtons(){
+
+              this.querySelectorAll('.custom-filter-item button').forEach(item => {
+                item.addEventListener('click', (e) => {
+                  e.preventDefault();
+                  
+                  const currentFIlterCheckbox = document.querySelector(`facet-filters-form input[value="${e.currentTarget.dataset.value}"]`)
+                  
+                  if(currentFIlterCheckbox.checked){
+                    currentFIlterCheckbox.click();
+                    e.currentTarget.classList.remove('active')
+                   
+
+                  }else{
+                    currentFIlterCheckbox.click();
+                    e.currentTarget.classList.add('active')
+
+                  }
+                  this.classList.add('updating')
+
+                })
+              })
+          }
+
+
+          loadingEffect(){
+            const createTextElement = document.createElement('div')
+            createTextElement.textContent = ''
+            createTextElement.className = 'updating'
+            this.classList.add('updating')
+              this.appendChild(createTextElement)
+              setTimeout(()=>{
+                createTextElement.remove()
+                this.classList.remove('updating')
+              },1000)
+          }
+
+          observeFacetFilters() {
+            const target = document.querySelector('#FacetFiltersFormMobile collapsible-row');
+            if (!target) return;
+
+            const observer = new MutationObserver((mutationsList) => {
+           
+              for (const mutation of mutationsList) {
+                if (mutation.type === 'childList' || mutation.type === 'attributes') {
+                  console.log('render renderFilterButtons');
+                  this.renderFilterButtons()
+                }
+              }
+            });
+
+            observer.observe(target, {
+              childList: true,       
+              subtree: false,         
+              attributes: false      
+            });
+
+            this.facetFiltersObserver = observer;
+          }
+
+      }
+
+
+      document.addEventListener("DOMContentLoaded", function() {
+          
+          if (!customElements.get('filters-button')) {
+            customElements.define('filters-button', FiltersButton);
+          }
+      })
+
+
+  </script>
+
+
+{% endif %}
+
+
+{% schema %}
+  {
+    "name": "Filters chips",
+    "settings": [
+      {
+        "type": "number",
+        "id": "max_button",
+        "label": "Max button from filter",
+        "default": 5
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Filters",
+        "settings": [
+
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Filter name"
+          }
+
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Filters chips"
+      }
+    ]
+  }
+{% endschema %}
