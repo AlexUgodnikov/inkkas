@@ -11,6 +11,16 @@
         "name": "file_reference",
         "category": "REFERENCE"
       }
+    },
+    {
+      "key": "filter_chips",
+      "namespace": "custom",
+      "name": "Filter Chips",
+      "description": "",
+      "type": {
+        "name": "metaobject_reference",
+        "category": "REFERENCE"
+      }
     }
   ],
   "company": [],

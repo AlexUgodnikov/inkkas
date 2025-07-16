@@ -1,6 +1,9 @@
 {% if collection.metafields.custom.filter_chips.value.filter_name != blank %}
 
   {% style %}
+    .filter-buttons-container {
+      padding: 0 15px;
+    }
     filters-button {
       position: relative;
       display: block;
@@ -80,7 +83,7 @@
   {% endstyle %}
   {% comment %} -- sdf {{ collection.metafields.custom.filter_chips.value.filter_name }} {% endcomment %}
 
-  <div class="container">
+  <div class="filter-buttons-container">
 
     <filters-button>
       <div class="js-filter-buttons-list filter-buttons-list"></div>
