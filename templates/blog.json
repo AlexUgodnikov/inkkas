@@ -48,7 +48,7 @@
         "text_QQ8r8a": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Explore our collection lookbooks, design inspirations, travel diaries, and more!</em></p>",
+            "text": "<p><em>Explore our collection lookbooks, meet the artists behind the designs and more!</em></p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }

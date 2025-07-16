@@ -28,13 +28,13 @@
         "subheading_7pmD8M": {
           "type": "subheading",
           "settings": {
-            "text": "STEP INTO THE WORLD IN INKKAS ♥️"
+            "text": "inked by artists, designed for you ♥️"
           }
         },
         "1661619116558a03c6-1": {
           "type": "heading",
           "settings": {
-            "text": "Since 2012, Inkkas has been making handcrafted, ultra-comfy, one-of-a-kind shoes designed to inspire your every step. Our artful hand-drawn designs celebrate beauty around the world, bring nature to life, and feature authentic woven global textiles. Bottom line: You won't find shoes like this anywhere else. Plus, the earth as our muse, we strive to minimize waste and reduce impact throughout the shoemaking process, which is why we plant a tree for every pair sold, make our collections in small batches, make pre-order available for certain products, and upcycle gently worn shoes for refurbishment & donation. What can we say, we do what feels good for the sole. We invite you to step into the world with us!",
+            "text": "Inkkas is a globally-inspired, independent footwear brand where every design begins as a hand-drawn work of art. We partner with artists to create original illustrations that celebrate nature, craft, and beauty around the world. Every shoe is brought to life through thoughtful design and handcrafted production, blending art with adventure in every step. Born from a love of travel and deep respect for tradition, our collections are (literally) woven with stories -- from the Andes to the Sahara, from hand-inked sketches to bold soles built for exploration. We believe in craftsmanship that matters, creativity that connects, and products that are as unique as the people who wear them. Whether you're chasing city streets or forest trails, Inkkas are made to move you -- and move with you.",
             "size": "h4"
           }
         },
@@ -304,9 +304,9 @@
             "title": "STEP INTO",
             "text": "",
             "link_label": "what's new",
-            "link": "shopify://collections/the-luminous-collection",
+            "link": "shopify://collections/new-arrivals",
             "use_text_button": false,
-            "block_link": "shopify://collections/the-luminous-collection",
+            "block_link": "shopify://collections/new-arrivals",
             "product_list": []
           }
         },

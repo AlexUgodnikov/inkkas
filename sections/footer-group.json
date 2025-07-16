@@ -82,15 +82,6 @@
       ],
       "settings": {}
     },
-    "spacer_z4LB8M": {
-      "type": "spacer",
-      "settings": {
-        "spacer_mobile": 15,
-        "spacer_desktop": 15,
-        "border_separator": false,
-        "border_separator_full": true
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -173,7 +164,6 @@
     "spacer_E7FEak",
     "text_with_icons_aNz4j3",
     "173998895283371412",
-    "spacer_z4LB8M",
     "footer"
   ]
 }

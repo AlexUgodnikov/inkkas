@@ -1,0 +1,74 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "17519203299e40f6e0": {
+      "type": "apps",
+      "blocks": {
+        "octane_ai_advanced_quiz_maker_octaneai_section_6QqaM8": {
+          "type": "shopify://apps/octane-ai-advanced-quiz-maker/blocks/octaneai_section/db2513a5-c9b0-40fd-9058-42c28e6e6502",
+          "settings": {
+            "octane_id": "ywu7yb4i2l1ah89a:d2pMnKJXl9Ph8t6K:quiz",
+            "embed_type": "fullpage",
+            "enable_loading": true,
+            "stroke_color": "#000000",
+            "mobile_height": "match_browser",
+            "mobile_custom_height_px": 600,
+            "desktop_height": "match_browser",
+            "desktop_custom_height_px": 600
+          }
+        },
+        "octane_ai_advanced_quiz_maker_octaneai_section_zFrCVt": {
+          "type": "shopify://apps/octane-ai-advanced-quiz-maker/blocks/octaneai_section/db2513a5-c9b0-40fd-9058-42c28e6e6502",
+          "disabled": true,
+          "settings": {
+            "octane_id": "ywu7yb4i2l1ah89a:UoTuV3Rlzy4mI5WV:quiz",
+            "embed_type": "fullpage",
+            "enable_loading": true,
+            "stroke_color": "#000000",
+            "mobile_height": "match_browser",
+            "mobile_custom_height_px": 600,
+            "desktop_height": "match_browser",
+            "desktop_custom_height_px": 600
+          }
+        }
+      },
+      "block_order": [
+        "octane_ai_advanced_quiz_maker_octaneai_section_6QqaM8",
+        "octane_ai_advanced_quiz_maker_octaneai_section_zFrCVt"
+      ],
+      "settings": {}
+    },
+    "page_jtPX6Y": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "",
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17519203299e40f6e0",
+    "page_jtPX6Y"
+  ]
+}
