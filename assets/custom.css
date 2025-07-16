@@ -30,10 +30,10 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-top: -34px;
-  margin-left: -34px;
-  height: 68px;
-  width: 68px;
+  margin-top: -32px;
+  margin-left: -32px;
+  height: 64px;
+  width: 64px;
   border-radius: 50%;
   overflow: inherit;
   border: 1px solid transparent;
