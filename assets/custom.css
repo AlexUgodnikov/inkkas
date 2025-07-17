@@ -3,8 +3,10 @@
   background-size: cover;
   cursor: pointer;
   min-width: 50px;
-  width: 50px;
-  height: 50px;
+  /* width: 50px;
+  height: 50px; */
+      width: 75px;
+    height: 75px;
   margin-right: 10px;
   margin-bottom: 5px;
   border: 1px solid #f5f5f5;
@@ -28,12 +30,16 @@
 .product__custom-colors .product__custom-color:after {
   content: "";
   position: absolute;
-  left: 50%;
+      left: -5px;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+  /* left: 50%;
   top: 50%;
   margin-top: -32px;
   margin-left: -32px;
   height: 64px;
-  width: 64px;
+  width: 64px; */
   border-radius: 50%;
   overflow: inherit;
   border: 1px solid transparent;
@@ -45,7 +51,28 @@
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-
+@media(max-width:550px){
+  .metaobjects-colors-links {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media(max-width:470px){
+  .metaobjects-colors-links {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .product__custom-colors .product__custom-color{
+    width: 60px;
+    height: 60px;
+  }
+}
+@media(max-width:374px){
+  .metaobjects-colors-links {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 .collapsible-tab-2 {
   margin: 0 !important;
   border-top: 0.1rem solid rgba(0, 0, 0, 0.08);
