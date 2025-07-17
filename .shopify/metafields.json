@@ -159,6 +159,16 @@
         "name": "boolean",
         "category": "TRUE_FALSE"
       }
+    },
+    {
+      "key": "metaobject_colors",
+      "namespace": "custom",
+      "name": "Metaobject Colors",
+      "description": "",
+      "type": {
+        "name": "mixed_reference",
+        "category": "REFERENCE"
+      }
     }
   ],
   "variant": [],
