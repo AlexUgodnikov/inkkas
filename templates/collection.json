@@ -182,9 +182,7 @@
     "collection_filters_button_777d3Q": {
       "type": "collection-filters-button",
       "name": "Filters chips",
-      "settings": {
-        "max_button": 5
-      }
+      "settings": {}
     }
   },
   "order": [
