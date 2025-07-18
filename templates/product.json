@@ -41,6 +41,41 @@
       "type": "breadcrumbs",
       "settings": {}
     },
+    "rich_text_wii9BR": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_VXFWxk": {
+          "type": "subheading",
+          "settings": {
+            "text": "Handcrafted. Bold. Made to express your one-of-a-kind soul."
+          }
+        },
+        "heading_FxjrUJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Not Just Shoes--A Work of Art You Can Wear",
+            "size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_VXFWxk",
+        "heading_FxjrUJ"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "main-product": {
       "type": "main-product",
       "blocks": {
@@ -97,13 +132,20 @@
         "essential_countdown_app_block_fzdFNN": {
           "type": "shopify://apps/countdown-timer-essential/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
-            "id": "cmcc3f46100f6ax9pjke9bgnt"
+            "id": "cmd0q9kjo00gw10myw4fk3sg5"
           }
         },
         "essential_announcer_app_block_CEF9Vm": {
           "type": "shopify://apps/essential-announcer/blocks/app-block/93b5429f-c8d6-4c33-ae14-250fd84f361b",
           "settings": {
-            "id": "45d3928b-ff0c-42d3-af89-226ac41a3064"
+            "id": "6ef996fc-8616-415f-b3d9-68fe1cbe0c63"
+          }
+        },
+        "text_rb3fi9": {
+          "type": "text",
+          "settings": {
+            "text": "Every purchase plants a 🌱 and supports ethical, small-batch production.",
+            "text_style": "style_body"
           }
         },
         "custom_liquid_JfYWyP": {
@@ -128,7 +170,7 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Description",
+            "heading": "✔️ One-of-a-kind design",
             "show_description": true,
             "description_type": "show_before_ul",
             "content": "",
@@ -143,7 +185,7 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Features",
+            "heading": "✔️ Unmatched comfort",
             "show_description": true,
             "description_type": "show_ul",
             "content": "",
@@ -158,10 +200,25 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Free Exchanges & Easy Returns",
+            "heading": "✔️ Ethically handcrafted",
             "show_description": false,
             "description_type": "full_description",
-            "content": "<p>You can easily return or exchange eligible items for up to 30 days. We also provide one FREE exchange for every pair! View our full return policy <a href=\"/pages/return-policy\" title=\"Returns & Exchanges\">here</a>.</p>",
+            "content": "<p>Every product is made by skilled artisans using traditional techniques and premium materials—never mass produced, always made with heart. When you wear Inkkas you're supporting craft and conscious creation.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_2_9YGwmW": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "idname": "",
+            "open": false,
+            "show_okendo_reviews": false,
+            "show_only_with_tag": false,
+            "product_tag": "",
+            "heading": "✔️ Free exchanges & easy returns",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "<p>We want you to love your shoes—no stress, no regrets. If they're not the perfect fit, we'll make it right with easy returns and hassle-free exchanges within 30 days of order delivery. View our full return policy <a href=\"/pages/return-policy\" title=\"Returns & Exchanges\">here</a>.</p>",
             "page": ""
           }
         },
@@ -173,7 +230,7 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Free Shipping",
+            "heading": "✔️ Free Shipping",
             "show_description": false,
             "description_type": "full_description",
             "content": "<p>FREE U.S. ground shipping on orders of $175 or more is automatically applied at checkout!</p>",
@@ -457,11 +514,13 @@
         "buy_buttons",
         "essential_countdown_app_block_fzdFNN",
         "essential_announcer_app_block_CEF9Vm",
+        "text_rb3fi9",
         "custom_liquid_JfYWyP",
         "custom_liquid_Ydcihg",
         "collapsible_tab_2_hxiDMm",
         "collapsible_tab_2_UkAjaq",
         "collapsible_tab_2_J3DBXz",
+        "collapsible_tab_2_9YGwmW",
         "collapsible_tab_2_xGaHj7",
         "collapsible_tab_2_9zwncR2",
         "collapsible_tab_2_zVrH6p",
@@ -1037,7 +1096,7 @@
         "heading_zcNhAH": {
           "type": "heading",
           "settings": {
-            "text": "How it Looks on You",
+            "text": "Inkkas in the Wild",
             "size": "h3"
           }
         },
@@ -1045,7 +1104,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "text": "<p><em>Spotted: Real people bringing their Inkkas to life across the globe</em>. </p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -1068,7 +1127,7 @@
       ],
       "settings": {
         "section_width": "full-width-row",
-        "text_width": "medium",
+        "text_width": "xlarge",
         "text_position": "left",
         "text_alignment": "left",
         "color_bg": "rgba(0,0,0,0)",
@@ -1187,8 +1246,8 @@
           "settings": {
             "image": "shopify://shop_images/Andes-Wide.jpg",
             "subheading": "",
-            "title": "Handcrafted for Happiness ♥️",
-            "text": "We make bold, handcrafted, ultra-plush designs to bring you all-day joy & comfort",
+            "title": "Inked by Artists ♥️",
+            "text": "We make one-of-a-kind, handcrafted, plush designs to bring you all-day joy & comfort",
             "link_label": "About Inkkas",
             "link": "shopify://pages/about",
             "use_text_button": true,
@@ -1200,7 +1259,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/CALADIUM-JOGGER-SS200412-STUDIO-1.2.jpg",
-            "subheading": "Inkkas journal",
+            "subheading": "BLOG",
             "title": "Good for the Sole",
             "text": "See inspirations behind our original, one-of-a-kind designs, explore lookbooks, and more",
             "link_label": "Check it out!",
@@ -1236,6 +1295,7 @@
   "order": [
     "countdown_banner_Nkdg4Y",
     "breadcrumbs",
+    "rich_text_wii9BR",
     "main-product",
     "rich_text_xHRfX6",
     "logo_list_TEgBMb",
