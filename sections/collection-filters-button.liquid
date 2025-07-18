@@ -45,7 +45,9 @@
       text-align: center;
       font-size: 14px;
       font-weight: 500;
-      line-height: 15px;
+      display: block;
+      line-height: 10px;
+      min-width: 100px;
       text-transform: uppercase;
       border-radius: 100px;
       opacity: .5;
@@ -117,45 +119,67 @@
             const fragmentItemProduct = document.createDocumentFragment();
 
             this.filtersArray.forEach((item,index) => {
-               
-       
-              if(item.includes(':')){
+
+              if(item.includes('//')){
                 
                 const buttonElement = document.createElement('div')
                   buttonElement.className = 'custom-filter-item';
 
-                 const splitUtl = item.split(':');
+                 const splitUtl = item.split('>');
                  if(splitUtl.length === 2){
                   buttonElement.innerHTML += `
-                    <a href="${splitUtl[1]}" class="">${splitUtl[0]}</a>
+                    <a href="${splitUtl[0].trimEnd()}" class="">${splitUtl[1]}</a>
                   `;
                  }
-                 if(splitUtl.length === 3){
-                  buttonElement.innerHTML += `
-                    <a href="${splitUtl[2]}" class="">${splitUtl[0]}</a>
-                  `;
-                 }
-
                   fragmentItemProduct.appendChild(buttonElement)
 
               }else{
-                const itemFilter = document.querySelector(`facet-filters-form input[value="${item}"]`)
-                if(itemFilter){
+                 if(item.includes('>')){
+                    const splitUtl = item.split('>');
+                    const itemFilter = document.querySelector(`facet-filters-form input[value="${splitUtl[0].trimEnd()}"]`)
+                 
+                    if(itemFilter){
 
-                  const buttonElement = document.createElement('div')
-                  buttonElement.className = 'custom-filter-item';
+                      const buttonElement = document.createElement('div')
+                      buttonElement.className = 'custom-filter-item';
 
-                  const currentIndex = index + 1
-                    let isActive = false
-                    let isDisabled = false
-                    if (itemFilter.checked) isActive = true
-                    if (itemFilter.disabled) isDisabled = true
+                      const currentIndex = index + 1
+                        let isActive = false
+                        let isDisabled = false
+                        if (itemFilter.checked) isActive = true
+                        if (itemFilter.disabled) isDisabled = true
 
-                    buttonElement.innerHTML += `
-                      <button data-value="${itemFilter.value}" class="${isActive ? 'active' : ''}" ${isDisabled ? 'disabled' : ''}>${itemFilter.value}</button>
-                    `
-                    fragmentItemProduct.appendChild(buttonElement)
-                }
+                          buttonElement.innerHTML += `
+                            <button data-value="${splitUtl[0].trimEnd()}" class="${isActive ? 'active' : ''}" ${isDisabled ? 'disabled' : ''}>${splitUtl[1]}</button>
+                          `
+                      
+
+                        
+                        fragmentItemProduct.appendChild(buttonElement)
+                    }
+                  }else{
+                      const itemFilter = document.querySelector(`facet-filters-form input[value="${item}"]`)
+                      if(itemFilter){
+
+                        const buttonElement = document.createElement('div')
+                        buttonElement.className = 'custom-filter-item';
+
+                        const currentIndex = index + 1
+                          let isActive = false
+                          let isDisabled = false
+                          if (itemFilter.checked) isActive = true
+                          if (itemFilter.disabled) isDisabled = true
+
+                            buttonElement.innerHTML += `
+                              <button data-value="${itemFilter.value.trimEnd()}" class="${isActive ? 'active' : ''}" ${isDisabled ? 'disabled' : ''}>${itemFilter.value}</button>
+                            `
+                        
+
+                          
+                          fragmentItemProduct.appendChild(buttonElement)
+                      }
+                  }
+
               }
 
               
