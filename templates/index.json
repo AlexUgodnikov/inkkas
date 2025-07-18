@@ -15,8 +15,8 @@
         "slide_RyCMac": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Quiz_Banner_-_Desktop_1800_x_755_px.png",
-            "mobile_image": "shopify://shop_images/Quiz_Banner_-_Mobile.png",
+            "image": "shopify://shop_images/Quiz_Banner_with_25_Off.png",
+            "mobile_image": "shopify://shop_images/Quiz_Banner_with_25_Off_-_MOBILE.png",
             "slide_link": "shopify://pages/quiz",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -41,10 +41,9 @@
         },
         "slide_a7t46B": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Your_Summer_Story_-_Desktop_Banner.gif",
-            "mobile_image": "shopify://shop_images/Your_Summer_-_Mobile_Banner_png.png",
+            "image": "shopify://shop_images/Summer_Statement_Maker_Banner_-_Loomi_Joggers_1.gif",
+            "mobile_image": "shopify://shop_images/Bring_the_Sunshine_-_Desktop_Banner.gif",
             "slide_link": "shopify://collections/best-sellers",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -69,9 +68,10 @@
         },
         "slide_tjXC6i": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Your_Summer_Story_-_Desktop_Banner.gif",
-            "mobile_image": "shopify://shop_images/Bring_the_Sunshine_-_Desktop_Banner.gif",
+            "image": "shopify://shop_images/Bring_the_Sunshine_-_25_Off_Sale_-_Desktop_Banner.gif",
+            "mobile_image": "shopify://shop_images/Bring_the_Sunshine_-_Desktop_Banner_1.png",
             "slide_link": "shopify://collections/best-sellers",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -105,7 +105,7 @@
         "mobile_height": "mobile-height-image",
         "full_width": true,
         "autoplay": true,
-        "autoplay_length": 6,
+        "autoplay_length": 8,
         "transition": "swipe",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -117,7 +117,7 @@
       "settings": {
         "heading": "BEST SELLERS",
         "heading_left": true,
-        "description": "",
+        "description": "<p><em>Bold design meets all-day comfort. Explore these crowd favorites. </em></p>",
         "full_width": true,
         "collection": "best-sellers",
         "display_type": "grid",
@@ -176,6 +176,36 @@
         "disable_bottom_spacing": true
       }
     },
+    "collection_list_ypFaFe": {
+      "type": "collection-list",
+      "settings": {
+        "heading": "Shop by Category",
+        "heading_left": true,
+        "description": "<p><em>Scroll to view more. </em>→</p>",
+        "full_width": true,
+        "collection_list": [
+          "trekk-boots",
+          "joggers",
+          "slip-ons",
+          "camping-boots",
+          "high-tops-and-low-tops",
+          "sandals",
+          "runners",
+          "western-boots"
+        ],
+        "image_ratio": "adapt",
+        "layout": "carousel",
+        "style": "style1",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "show_progress_bar": true,
+        "mobile_swipe": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
     "collection_list_wtFVtm": {
       "type": "collection-list",
       "name": "Collection list",
@@ -198,6 +228,52 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "slideshow_7DqM8K": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_63beDd": {
+          "type": "slide",
+          "settings": {
+            "slide_link": "",
+            "video_background": true,
+            "video": "",
+            "video_hosted": "shopify://files/videos/Evestar-Inkkas-Shelly-UGC-Luzon Buckle Sandal-Luzon Cush Jogger-EDIT.mp4",
+            "subheading": "now back in stock",
+            "heading": "Luzon Buckle Sandals",
+            "heading_size": "h1-xlarge",
+            "content": "The sandals with a 200+ person waitlist is finally back - but they will sell out again.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify://products/luzon-buckle-sandal",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_63beDd"
+      ],
+      "disabled": true,
+      "name": "Slideshow",
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "transition": "swipe",
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
@@ -268,7 +344,7 @@
     "featured_collection_W4UkqD": {
       "type": "featured-collection",
       "settings": {
-        "heading": "Summertime Statement-Makers",
+        "heading": "Summer Statement-Makers",
         "heading_left": true,
         "description": "",
         "full_width": true,
@@ -315,36 +391,6 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
-    "collection_list_ypFaFe": {
-      "type": "collection-list",
-      "settings": {
-        "heading": "Shop by Category",
-        "heading_left": true,
-        "description": "<p><em>Scroll to view more. </em>→</p>",
-        "full_width": true,
-        "collection_list": [
-          "trekk-boots",
-          "joggers",
-          "slip-ons",
-          "camping-boots",
-          "high-tops-and-low-tops",
-          "sandals",
-          "runners",
-          "western-boots"
-        ],
-        "image_ratio": "adapt",
-        "layout": "carousel",
-        "style": "style1",
-        "columns_desktop": 4,
-        "columns_mobile": "1",
-        "show_progress_bar": true,
-        "mobile_swipe": false,
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
@@ -1606,11 +1652,12 @@
     "slideshow_fxWW6g",
     "featured_collection_tJhHEP",
     "rich_text_KC4Kf7",
+    "collection_list_ypFaFe",
     "collection_list_wtFVtm",
+    "slideshow_7DqM8K",
     "featured_product_JQ6qcn",
     "featured_collection_W4UkqD",
     "rich_text_mVd8iG",
-    "collection_list_ypFaFe",
     "rich_text_3HUqXb",
     "scrolling_text_CXQtRH",
     "testimonials_PXWabY",

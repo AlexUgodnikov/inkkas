@@ -66,6 +66,7 @@
     },
     "video_HXbYpW": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_left": false,
@@ -75,6 +76,22 @@
         "video_hosted": "shopify://files/videos/BRAND VIDEO-Inkkas (12.3) - YT No VO.mp4",
         "video_autoplay": true,
         "aspect_ratio": "16-9",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "video_WqRnpH": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "heading": "Shoes made to move you",
+        "heading_left": false,
+        "description": "<h3>and move <em>with</em> you</h3>",
+        "section_width": "full-width-row",
+        "video": "",
+        "video_hosted": "shopify://files/videos/MASHUP-UGC-7-2025.mp4",
+        "video_autoplay": true,
+        "aspect_ratio": "3-4",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -385,6 +402,7 @@
     "image_banner_contain_NNhdmA",
     "16616191162185f622",
     "video_HXbYpW",
+    "video_WqRnpH",
     "image_with_text_i7wJkM",
     "16618593470c5f63bd",
     "16623735222f31e80e",

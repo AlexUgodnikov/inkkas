@@ -50,9 +50,9 @@
         "text_epRXWW": {
           "type": "text",
           "settings": {
-            "icon": "none",
-            "text": "TAKE 20% OFF YOUR ORDER WITH CODE: SUMMER20 AT CHECKOUT",
-            "link": "shopify://collections/best-sellers"
+            "icon": "heart",
+            "text": "GET AN EXCLUSIVE 25% OFF CODE WHEN YOU TAKE THIS FIND-YOUR-SHOE QUIZ",
+            "link": "shopify://pages/quiz"
           }
         }
       },
