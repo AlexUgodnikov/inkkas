@@ -1357,3 +1357,58 @@ a.mobile-link-caps img {
 .header-section {
   z-index: 100;
 }
+
+/* rebuy bundle page */
+.rebuy-product-options .custom-option-wrapper .tab-buttons{
+  padding: 5px 0;
+  display:flex;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.rebuy-product-options .custom-option-wrapper .tab-button.active{
+  font-weight: 600;
+  text-decoration: underline;
+}
+.rebuy-product-options .custom-option-wrapper .radio-group{
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.rebuy-product-options .custom-option-wrapper .radio-group label{
+  position:relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:30px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.rebuy-product-options .custom-option-wrapper .radio-group label:after{
+  opacity: 0;
+  content:'';
+  position:absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: -1;
+}
+.rebuy-product-options .custom-option-wrapper .radio-group input{
+  display: none;
+}
+.rebuy-product-options .custom-option-wrapper .radio-group input:checked + label:after{
+  opacity: 1;
+}
+.rebuy-product-options .custom-option-wrapper .radio-group input:checked + label{
+  color: #fff;
+}
+.rebuy-product-options .custom-option-wrapper + .rebuy-select{
+  display: none;
+}

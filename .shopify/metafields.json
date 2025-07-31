@@ -169,6 +169,16 @@
         "name": "mixed_reference",
         "category": "REFERENCE"
       }
+    },
+    {
+      "key": "best_seller_filter",
+      "namespace": "custom",
+      "name": "Best seller filter",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
     }
   ],
   "variant": [],
