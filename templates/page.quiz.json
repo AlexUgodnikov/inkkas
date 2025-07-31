@@ -24,10 +24,10 @@
         "octane_ai_advanced_quiz_maker_octaneai_section_6QqaM8": {
           "type": "shopify://apps/octane-ai-advanced-quiz-maker/blocks/octaneai_section/db2513a5-c9b0-40fd-9058-42c28e6e6502",
           "settings": {
-            "octane_id": "ywu7yb4i2l1ah89a:d2pMnKJXl9Ph8t6K:quiz",
+            "octane_id": "ywu7yb4i2l1ah89a:8ETr206bsJsidD3B:quiz",
             "embed_type": "fullpage",
             "enable_loading": true,
-            "stroke_color": "#000000",
+            "stroke_color": "#c3d4b6",
             "mobile_height": "match_browser",
             "mobile_custom_height_px": 600,
             "desktop_height": "match_browser",

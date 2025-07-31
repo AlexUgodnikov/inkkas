@@ -9,11 +9,196 @@
  */
 {
   "sections": {
+    "slideshow_CQXNHG": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_bXGFzh": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "slide_link": "",
+            "video_background": true,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify://files/videos/LUNDI-BUCKLE SANDAL-VIDEO-SS251214-EDIT.mov",
+            "subheading": "NEW STYLES ADDED!",
+            "heading": "Summer Clearance Sale Up to 60% Off",
+            "heading_size": "h1-xlarge",
+            "content": "Make your own puffin inspired magic.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify://collections/clearance",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_tUiPDb": {
+          "type": "slide",
+          "settings": {
+            "slide_link": "",
+            "video_background": true,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify://files/videos/LUNDI-TRAINER-VIDEO-SS250611-EDIT.mov",
+            "subheading": "NEW STYLES ADDED!",
+            "heading": "Clearance Sale Up to 60% Off",
+            "heading_size": "h1-xlarge",
+            "content": "Make your own puffin magic.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify://collections/clearance",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_Fn8jbU": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "slide_link": "shopify://collections/clearance",
+            "video_background": true,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify://files/videos/LUNDI-BUCKLE SANDAL-VIDEO-SS251214-EDIT.mov",
+            "subheading": "NOW ON SALE",
+            "heading": "Lundi Buckle Sandals",
+            "heading_size": "h1-xlarge",
+            "content": "Step into puffin inspired magic",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify://products/lundi-buckle-sandal",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_ff3QnP": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "slide_link": "shopify://collections/clearance",
+            "video_background": true,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify://files/videos/LUNDI-TRAINER-VIDEO-SS250611-EDIT.mov",
+            "subheading": "Now on Sale",
+            "heading": "Lundi Trainers",
+            "heading_size": "h1-xlarge",
+            "content": "Step into puffin inspired magic",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_bXGFzh",
+        "slide_tUiPDb",
+        "slide_Fn8jbU",
+        "slide_ff3QnP"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "desktop_height": "desktop-height-750",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_ctC9Gp": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "heading": "Shop Up to 60% Off Clearance",
+        "heading_left": false,
+        "description": "<p>Use code <strong>EXTRA20</strong> to save up to 60% Off during our Summer Clearance Sale! </p>",
+        "full_width": true,
+        "collection": "clearance",
+        "display_type": "carousel",
+        "product_limit": 8,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_AUmbth": {
+      "type": "rich-text",
+      "blocks": {
+        "button_khEEE3": {
+          "type": "button",
+          "settings": {
+            "link_label": "SHOP UP TO 60% OFF →",
+            "link": "shopify://collections/clearance",
+            "button_outline": false
+          }
+        },
+        "text_kREVw6": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "button_khEEE3",
+        "text_kREVw6"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "grid",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
     "slideshow_fxWW6g": {
       "type": "slideshow",
       "blocks": {
         "slide_RyCMac": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Quiz_Banner_with_25_Off.png",
             "mobile_image": "shopify://shop_images/Quiz_Banner_with_25_Off_-_MOBILE.png",
@@ -42,9 +227,9 @@
         "slide_a7t46B": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Summer_Statement_Maker_Banner_-_Loomi_Joggers_1.gif",
-            "mobile_image": "shopify://shop_images/Bring_the_Sunshine_-_Desktop_Banner.gif",
-            "slide_link": "shopify://collections/best-sellers",
+            "image": "shopify://shop_images/07-29-25-Clearance-Sale3.6.gif",
+            "mobile_image": "shopify://shop_images/07-29-25-Clearance-Sale-MOBILE2.1.gif",
+            "slide_link": "shopify://collections/clearance",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "",
@@ -66,12 +251,12 @@
             "button_2_outline": false
           }
         },
-        "slide_tjXC6i": {
+        "slide_FDmAx4": {
           "type": "slide",
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Bring_the_Sunshine_-_25_Off_Sale_-_Desktop_Banner.gif",
-            "mobile_image": "shopify://shop_images/Bring_the_Sunshine_-_Desktop_Banner_1.png",
+            "mobile_image": "shopify://shop_images/Bring_the_Sunshine_-_25_Off_Sale_-_Mobile_Banner.gif",
             "slide_link": "shopify://collections/best-sellers",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -98,7 +283,7 @@
       "block_order": [
         "slide_RyCMac",
         "slide_a7t46B",
-        "slide_tjXC6i"
+        "slide_FDmAx4"
       ],
       "settings": {
         "desktop_height": "desktop-height-image",
@@ -115,19 +300,19 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "heading": "BEST SELLERS",
+        "heading": "Bestsellers",
         "heading_left": true,
         "description": "<p><em>Bold design meets all-day comfort. Explore these crowd favorites. </em></p>",
         "full_width": true,
         "collection": "best-sellers",
-        "display_type": "grid",
+        "display_type": "carousel",
         "product_limit": 8,
         "columns_desktop": 4,
         "show_view_all": false,
         "mobile_swipe": true,
         "show_progress_bar": true,
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     },
     "rich_text_KC4Kf7": {
@@ -343,18 +528,19 @@
     },
     "featured_collection_W4UkqD": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "heading": "Summer Statement-Makers",
+        "heading": "Statement-Makers",
         "heading_left": true,
-        "description": "",
+        "description": "<p><em>Walk on clouds and turn heads in our one-of-a-kind Joggers.</em></p>",
         "full_width": true,
         "collection": "joggers",
-        "display_type": "grid",
+        "display_type": "carousel",
         "product_limit": 8,
         "columns_desktop": 4,
         "show_view_all": false,
         "mobile_swipe": true,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
@@ -383,6 +569,7 @@
         "button_kQq3hP",
         "text_4hnBDx"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "grid",
         "text_width": "grid",
@@ -391,7 +578,7 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
@@ -562,7 +749,7 @@
         "text_FQjG7f": {
           "type": "text",
           "settings": {
-            "text": "<p>See how customers around the world wear their one-of-a-kind pairs—and make them their own.</p>",
+            "text": "<p><em>See how customers around the world wear their one-of-a-kind pairs—and make them their own. Scroll to view. </em>→</p>",
             "custom_liquid": "",
             "size": "text-size-small"
           }
@@ -587,6 +774,76 @@
     "gallery_nUbVgE": {
       "type": "gallery",
       "blocks": {
+        "image_UVqRFb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desert_Buckle_Sandal-INFLUENCER-_jessicayekin-1.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "@jessicayekin",
+            "link_label": "SHOP",
+            "link": "shopify://products/desert-buckle-sandal",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_HfUqcf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-29_at_2.16.38_PM.png",
+            "subheading": "",
+            "title": "",
+            "text": "@julieasperry",
+            "link_label": "SHOP",
+            "link": "shopify://products/popinjay-trekk-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_dEBaLF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Brisbane_Camping_Boot-UGC-Hike-Flowers-_alybradio.png",
+            "subheading": "",
+            "title": "",
+            "text": "@alybradio",
+            "link_label": "SHOP",
+            "link": "shopify://products/brisbane-camping-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_Bmw9FU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-29_at_2.13.04_PM.png",
+            "subheading": "",
+            "title": "",
+            "text": "@see_az_with_bre",
+            "link_label": "shop",
+            "link": "shopify://products/caladium-jogger",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_QEmMxE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Grey_Andes_Joggers-INFLUENCER-dog-_crystal_pelka-1_b9fc897b-d8b6-4ba3-a618-89887f76a0cb.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "@crystal_pelka",
+            "link_label": "SHOP",
+            "link": "shopify://products/andes-grey-jogger",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
         "image_FfTktC": {
           "type": "image",
           "settings": {
@@ -629,16 +886,15 @@
             "product_list": []
           }
         },
-        "image_dEBaLF": {
+        "image_iAVheH": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Chanterelle_Vegan_Trekk_Boot-UGC-LAKE-Paulina_Lake-_a.corabelle.thornton-1.png",
+            "image": "shopify://shop_images/CYPRUS-HIGH-TOP-CYPRUS-KIDS-HIGH-TOP-UGC-MATCHING-_CCMACKEY65.png",
             "subheading": "",
             "title": "",
-            "text": "@a.corabelle.thornton",
-            "link_label": "SHOP",
-            "link": "shopify://products/chanterelle-vegan-trekk-boot",
+            "text": "@ccmackey65",
+            "link_label": "SHOP FAMILY",
+            "link": "shopify://collections/matching-sets",
             "use_text_button": true,
             "block_link": "",
             "product_list": []
@@ -653,7 +909,7 @@
             "text": "@miss_t_garnier",
             "link_label": "SHOP",
             "link": "shopify://products/samadhi-western-boot",
-            "use_text_button": true,
+            "use_text_button": false,
             "block_link": "",
             "product_list": []
           }
@@ -924,34 +1180,6 @@
             "product_list": []
           }
         },
-        "image_UVqRFb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BADASS-SLIP-ON-NP020001-UGC-_sammyk1984.png",
-            "subheading": "",
-            "title": "",
-            "text": "@sammyk1984",
-            "link_label": "SHOP",
-            "link": "shopify://products/badass-black-slip-on",
-            "use_text_button": true,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_Bmw9FU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BROWN-LEATHER-CAMPING-BOOT-140402-UGC-MODEL-_gypsyhillphotography_Melanie_Hutti-DSC00904.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "shop",
-            "link": "shopify://products/brown-leather-camping-boot",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
         "image_Xi4iid": {
           "type": "image",
           "settings": {
@@ -1190,20 +1418,6 @@
             "product_list": []
           }
         },
-        "image_iAVheH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/CYPRUS-HIGH-TOP-CYPRUS-KIDS-HIGH-TOP-UGC-MATCHING-_CCMACKEY65.png",
-            "subheading": "",
-            "title": "",
-            "text": "@ccmackey65",
-            "link_label": "SHOP FAMILY",
-            "link": "shopify://collections/matching-sets",
-            "use_text_button": true,
-            "block_link": "",
-            "product_list": []
-          }
-        },
         "image_anh6Vr": {
           "type": "image",
           "settings": {
@@ -1259,27 +1473,18 @@
             "block_link": "",
             "product_list": []
           }
-        },
-        "image_QEmMxE": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ALPINE-TREKK-BOOT-UGC-_MERMAIDLOVESMOUNTAINS-3.png",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "SHOP",
-            "link": "shopify://products/alpine-trekk-boot",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
         }
       },
       "block_order": [
+        "image_UVqRFb",
+        "image_HfUqcf",
+        "image_dEBaLF",
+        "image_Bmw9FU",
+        "image_QEmMxE",
         "image_FfTktC",
         "image_qMtTm9",
         "image_pGwxk3",
-        "image_dEBaLF",
+        "image_iAVheH",
         "image_iLPTN8",
         "image_fWGwdK",
         "image_gCmNUW",
@@ -1300,8 +1505,6 @@
         "image_bYTgwL",
         "image_Mj7UGM",
         "image_wmCiPp",
-        "image_UVqRFb",
-        "image_Bmw9FU",
         "image_Xi4iid",
         "image_4TMCGV",
         "image_7rWXNc",
@@ -1319,12 +1522,10 @@
         "image_ErLpN9",
         "image_yMNCHG",
         "image_r3WN4J",
-        "image_iAVheH",
         "image_anh6Vr",
         "image_anxtQN",
         "image_Vxztb6",
-        "image_anpFYC",
-        "image_QEmMxE"
+        "image_anpFYC"
       ],
       "settings": {
         "slider": true,
@@ -1618,7 +1819,7 @@
           "settings": {
             "link_label": "ABOUT US",
             "link": "shopify://pages/about",
-            "button_outline": true
+            "button_outline": false
           }
         },
         "button_qtwhhz": {
@@ -1649,6 +1850,9 @@
     }
   },
   "order": [
+    "slideshow_CQXNHG",
+    "featured_collection_ctC9Gp",
+    "rich_text_AUmbth",
     "slideshow_fxWW6g",
     "featured_collection_tJhHEP",
     "rich_text_KC4Kf7",

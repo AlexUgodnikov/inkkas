@@ -20,6 +20,11 @@
         "overlay_opacity": 0
       }
     },
+    "collection_filters_button_777d3Q": {
+      "type": "collection-filters-button",
+      "name": "Filters chips",
+      "settings": {}
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -142,9 +147,9 @@
       ],
       "settings": {
         "full_width": true,
-        "products_per_page": 48,
+        "products_per_page": 40,
         "columns_desktop": 4,
-        "pagination_type": "infinite",
+        "pagination_type": "loadmore",
         "enable_filtering": true,
         "enable_sorting": true,
         "show_counts": false,
@@ -159,6 +164,17 @@
         "spacer_desktop": 100,
         "border_separator": true,
         "border_separator_full": true
+      }
+    },
+    "single_image_3UWGVN": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/DesertPolaroid15.jpg",
+        "image_mobile": "shopify://shop_images/Inkkas_Mobile_Banner_2_750_x_915_px_-_2_5bac755d-6f6f-4d27-b542-97c521070aa3.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
       }
     },
     "featured_collection_6RbLfp": {
@@ -178,11 +194,6 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "collection_filters_button_777d3Q": {
-      "type": "collection-filters-button",
-      "name": "Filters chips",
-      "settings": {}
     }
   },
   "order": [
@@ -190,6 +201,7 @@
     "collection_filters_button_777d3Q",
     "product-grid",
     "spacer_HDe43e",
+    "single_image_3UWGVN",
     "featured_collection_6RbLfp"
   ]
 }

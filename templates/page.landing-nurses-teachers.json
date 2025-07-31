@@ -1,0 +1,503 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1662373200967c613c": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Tk8cLk": {
+          "type": "subheading",
+          "settings": {
+            "text": "You show up with heart. We’ve got your feet."
+          }
+        },
+        "23c05a65-fd58-4945-b22a-3ebcf7903e48": {
+          "type": "heading",
+          "settings": {
+            "text": "❤️ For the Nurses & Teachers Who Carry Us All",
+            "size": "h1"
+          }
+        },
+        "05722c02-ce4f-461f-a041-3e159cddb760": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nursing and teaching aren't just jobs — they are callings. That’s why we’ve created shoes that support your every step, shift after shift, class after class. Lightweight, plush styles with cushy soles  feel like walking on clouds. Artfully inspired designs remind you who you are. </p><p>Just like your work, our shoes aim to bring comfort and joy to you and those you care for. </p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Tk8cLk",
+        "23c05a65-fd58-4945-b22a-3ebcf7903e48",
+        "05722c02-ce4f-461f-a041-3e159cddb760"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "#ffffff",
+        "color_text": "#1e4e1c",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "aa625e0d-88be-4d75-8df5-30c6ed2a30d5": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "5bad47dd-05dc-464b-9171-7b1563b93a84": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17027745022267__5bad47dd-05dc-464b-9171-7b1563b93a84-1670399999b1d81fbb-1": {
+          "type": "heading",
+          "settings": {
+            "text": "👣 Comfort That Moves With You",
+            "heading_size": "h2"
+          }
+        },
+        "template--17027745022267__5bad47dd-05dc-464b-9171-7b1563b93a84-1670399999b1d81fbb-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether in the clinic or classroom, you’re always in motion. Inkkas shoes are designed for real life — with:</p><ul><li>All-day comfort  thanks to cushioned insoles and breathable linings<br/></li><li>Slip-on ease for fast-paced mornings<br/></li><li>Supportive construction to carry you through 12-hour days (and then some)<br/></li></ul><p>So you can focus on your patients & students — not your feet.</p>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--17027745022267__5bad47dd-05dc-464b-9171-7b1563b93a84-1670399999b1d81fbb-1",
+        "template--17027745022267__5bad47dd-05dc-464b-9171-7b1563b93a84-1670399999b1d81fbb-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Joey_Vegan_Joggers-Alpine_Joggers-Yuuki_Joggers-INFLUENCER-GROUP-NURSE-_wirebackcandles.jpg",
+        "use_video": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "section_width": "full-width-row-full",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "color_bg": "#fff5e9",
+        "color_text": "#1e4e1c",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "9b5d80c3-a712-486c-be14-8ed726a999d7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17027745022267__9b5d80c3-a712-486c-be14-8ed726a999d7-1670399999b1d81fbb-1": {
+          "type": "heading",
+          "settings": {
+            "text": "✨ Shoes With Soul",
+            "heading_size": "h2"
+          }
+        },
+        "template--17027745022267__9b5d80c3-a712-486c-be14-8ed726a999d7-1670399999b1d81fbb-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every pair is a wearable work of art — inked by artists and inspired by places around the world. Because you deserve to feel bold, bright, and grounded, no matter where the day takes you.</p>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--17027745022267__9b5d80c3-a712-486c-be14-8ed726a999d7-1670399999b1d81fbb-1",
+        "template--17027745022267__9b5d80c3-a712-486c-be14-8ed726a999d7-1670399999b1d81fbb-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Andes_Jogger-UGC-_bookishly_overdue_ba898cf7-c7b7-41aa-8370-c4c44ac1be8d.png",
+        "use_video": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "section_width": "full-width-row-full",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "color_bg": "#fce7f1",
+        "color_text": "#1e4e1c",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "19ffe627-a09d-44d7-9e06-cfde64314179": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17027745022267__19ffe627-a09d-44d7-9e06-cfde64314179-16704012079c5969f5-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/logo2.png",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17027745022267__19ffe627-a09d-44d7-9e06-cfde64314179-16704012079c5969f5-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/logo3.png",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17027745022267__19ffe627-a09d-44d7-9e06-cfde64314179-16704012079c5969f5-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/logo4.png",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17027745022267__19ffe627-a09d-44d7-9e06-cfde64314179-16704012079c5969f5-1",
+        "template--17027745022267__19ffe627-a09d-44d7-9e06-cfde64314179-16704012079c5969f5-2",
+        "template--17027745022267__19ffe627-a09d-44d7-9e06-cfde64314179-16704012079c5969f5-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "text_alignment": "center",
+        "heading_size": "h5",
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1822cf42-4957-456b-8fb1-a23fb43b4965": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 30,
+        "spacer_desktop": 80,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "scrolling_text_BEU3jf": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_eqQfNx": {
+          "type": "text",
+          "settings": {
+            "text": "🩺  Meet the Inkkas Nurses Community",
+            "link": "",
+            "outline_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_eqQfNx"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "right",
+        "speed": "30s",
+        "text_size": 40,
+        "text_uppercase": false,
+        "image_size": "large",
+        "color_bg": "#c3d4b6",
+        "color_text": "#2b2825",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "scrolling_text_maQXBD": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_ndGhry": {
+          "type": "text",
+          "settings": {
+            "text": "🍎 Meet the Inkkas Teachers Community",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_ndGhry"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "30s",
+        "text_size": 40,
+        "text_uppercase": false,
+        "image_size": "large",
+        "color_bg": "#2b2825",
+        "color_text": "#c3d4b6",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_QUwzNx": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 30,
+        "spacer_desktop": 80,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "collection_list_cjnMm8": {
+      "type": "collection-list",
+      "name": "Collection list",
+      "settings": {
+        "heading": "🛍️ Shop Favorites",
+        "heading_left": false,
+        "description": "<p>These are the top picks from nurses & teachers who know what it takes to stay comfy and stylish from morning to night. And yes — there’s a <strong>special offer just for you</strong>.</p>",
+        "full_width": true,
+        "collection_list": [
+          "nurse-favorites",
+          "teacher-favorites"
+        ],
+        "image_ratio": "adapt",
+        "layout": "grid",
+        "style": "style2",
+        "columns_desktop": 2,
+        "columns_mobile": "1",
+        "show_progress_bar": false,
+        "mobile_swipe": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "customer_reviews_4MKxYb": {
+      "type": "customer-reviews",
+      "blocks": {
+        "review_jAcftt": {
+          "type": "review",
+          "settings": {
+            "product_handle": "lundi-trainer",
+            "stars": "5",
+            "text": "Love the shoes! Great for teaching classes. Super comfortable and light.",
+            "author": "Jill S."
+          }
+        },
+        "review_dwpn8c": {
+          "type": "review",
+          "settings": {
+            "product_handle": "manu-jogger",
+            "image": "shopify://shop_images/MANU_JOGGERS_NURSE.jpg",
+            "stars": "5",
+            "text": "So GREAT!!! I am so glad I bought these! I needed a comfortable shoe to be on my feet all day in at the hospital, and these were so comfortable I didn't even really have to break them in very long... lots of support; they fit nicely - even with my socks and inserts! Great shoe. Will buy more.",
+            "author": "Holly B."
+          }
+        },
+        "review_MVbeUn": {
+          "type": "review",
+          "settings": {
+            "product_handle": "blake-slip-on",
+            "stars": "5",
+            "text": "MY FAVORITE SHOES. I teach and I'm on my feet all day. These shoes have been comfortable for me. . . I have gotten lots of compliments on how unique they are. . . I wear them all the time and love the design.",
+            "author": "Sam R."
+          }
+        },
+        "review_WdBKfr": {
+          "type": "review",
+          "settings": {
+            "product_handle": "andes-jogger",
+            "image": "shopify://shop_images/Andes_Jogger-INFLUENCER-_luzpyle-1.png",
+            "stars": "5",
+            "text": "COMFORTABLE. They are very comfortable and I love the design. I am a nurse and am prone to plantar fasciitis, these are comfortable with a little bit of arch support. I haven't needed to put and insole in as of yet.",
+            "author": "Jennifer L."
+          }
+        },
+        "review_MREcme": {
+          "type": "review",
+          "settings": {
+            "product_handle": "coronet-trainer",
+            "image": "shopify://shop_images/CORONET_SCRUBS.jpg",
+            "stars": "5",
+            "text": "5TH PAIR! I can't say enough good things about all 5 of the pairs of Inkkas that I have purchased (yet). I work in healthcare, and I am on my feet non-stop, 40+ hours a week. And that doesn't even include the time I wear them off the clock! I have had 4 pairs of joggers and just bought my first pair of trainers. My joggers would last me 9-12 months before I even realized I needed a new pair of shoes. My trainers are only 2 months old and are great so far! All other brands of shoes I have worn, I have been lucky to get 6 months of wear out of them. But not only are Inkkas comfortable, durable, and make me smile when I look at them, I love that they are handmade and have a purpose, story, meaning, and cause. #inkkasforlife #scrublife",
+            "author": "Elysia D."
+          }
+        },
+        "review_pFq3tN": {
+          "type": "review",
+          "settings": {
+            "product_handle": "mohave-slip-on",
+            "stars": "5",
+            "text": "PERFECT FIT. I am a nurse and these are perfect for being on my feet much of the day. And the patients I take care of always love them.",
+            "author": "Elizabeth K."
+          }
+        }
+      },
+      "block_order": [
+        "review_jAcftt",
+        "review_dwpn8c",
+        "review_MVbeUn",
+        "review_WdBKfr",
+        "review_MREcme",
+        "review_pFq3tN"
+      ],
+      "name": "Customer reviews",
+      "settings": {
+        "mobile_height": "mobile-height-350",
+        "desktop_height": "desktop-height-450",
+        "full_width": false,
+        "layout": "image_first",
+        "content_position": "text-center",
+        "text_size": "small",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#FFFACE",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "631d2483-b75c-4134-9bf3-f659baca6377": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--17027745022267__631d2483-b75c-4134-9bf3-f659baca6377-16703999997cbc62e9-1": {
+          "type": "heading",
+          "settings": {
+            "text": "SHOP ALL BESTSELLERS",
+            "heading_size": "h1-xlarge"
+          }
+        },
+        "template--17027745022267__631d2483-b75c-4134-9bf3-f659baca6377-16703999997cbc62e9-3": {
+          "type": "button",
+          "settings": {
+            "button_text": "SHOP MOST LOVED",
+            "button_link": "shopify://collections/best-sellers",
+            "button_outline": true
+          }
+        }
+      },
+      "block_order": [
+        "template--17027745022267__631d2483-b75c-4134-9bf3-f659baca6377-16703999997cbc62e9-1",
+        "template--17027745022267__631d2483-b75c-4134-9bf3-f659baca6377-16703999997cbc62e9-3"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 10,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "681e6a2f-3dea-4971-8c96-6e159bd33136": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--17027745022267__681e6a2f-3dea-4971-8c96-6e159bd33136-16703999997cbc62e9-1": {
+          "type": "heading",
+          "settings": {
+            "text": "SHOP TEACHER FAVORITES",
+            "heading_size": "h1-xlarge"
+          }
+        },
+        "template--17027745022267__681e6a2f-3dea-4971-8c96-6e159bd33136-16703999997cbc62e9-3": {
+          "type": "button",
+          "settings": {
+            "button_text": "View all products",
+            "button_link": "shopify://collections/skincare",
+            "button_outline": true
+          }
+        }
+      },
+      "block_order": [
+        "template--17027745022267__681e6a2f-3dea-4971-8c96-6e159bd33136-16703999997cbc62e9-1",
+        "template--17027745022267__681e6a2f-3dea-4971-8c96-6e159bd33136-16703999997cbc62e9-3"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 25,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "930dc7e4-19c7-4cd5-a9c1-3701e252f6af": {
+      "type": "featured-blog-post",
+      "settings": {
+        "heading": "Featured post",
+        "heading_left": false,
+        "description": "<p>Design and style should work toward making you look good and feel good</p>",
+        "full_width": true,
+        "article": "news/whats-new-in-foundations",
+        "image_ratio": "adapt",
+        "show_date": true,
+        "show_excerpt": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "1662373200967c613c",
+    "aa625e0d-88be-4d75-8df5-30c6ed2a30d5",
+    "5bad47dd-05dc-464b-9171-7b1563b93a84",
+    "9b5d80c3-a712-486c-be14-8ed726a999d7",
+    "19ffe627-a09d-44d7-9e06-cfde64314179",
+    "1822cf42-4957-456b-8fb1-a23fb43b4965",
+    "scrolling_text_BEU3jf",
+    "scrolling_text_maQXBD",
+    "spacer_QUwzNx",
+    "collection_list_cjnMm8",
+    "customer_reviews_4MKxYb",
+    "631d2483-b75c-4134-9bf3-f659baca6377",
+    "681e6a2f-3dea-4971-8c96-6e159bd33136",
+    "930dc7e4-19c7-4cd5-a9c1-3701e252f6af"
+  ]
+}

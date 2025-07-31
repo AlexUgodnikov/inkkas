@@ -36,7 +36,7 @@
         </a>
         {%- if has_sub_menu == true and has_mega_menu == false -%}
           <ul
-            class="sub-menu {% if link.title == 'WOMENS' %}sub-menu--women{% endif %} {% if link.title == 'MENS' %}sub-menu--men{% endif %}"
+            class="sub-menu {% if link.title == 'WOMENS' %}sub-menu--women{% endif %} {% if link.title == 'MENS'  %}sub-menu--men{% endif %}"
             tabindex="-1"
           >
             {%- for l in link.links -%}

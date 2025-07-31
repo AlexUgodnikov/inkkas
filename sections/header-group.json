@@ -11,12 +11,26 @@
   "type": "header",
   "name": "Header group",
   "sections": {
+    "17537418499196266c": {
+      "type": "apps",
+      "blocks": {
+        "essential_announcer_app_block_iUFiMH": {
+          "type": "shopify://apps/essential-announcer/blocks/app-block/93b5429f-c8d6-4c33-ae14-250fd84f361b",
+          "settings": {
+            "id": "a450ffd0-e8d5-44be-9494-8fb5720145f4"
+          }
+        }
+      },
+      "block_order": [
+        "essential_announcer_app_block_iUFiMH"
+      ],
+      "settings": {}
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
         "text_cQEaMB": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "icon": "none",
             "text": "★★★★★ RATED 'EXCELLENT' BY THOUSANDS OF HAPPY CUSTOMERS",
@@ -41,6 +55,7 @@
         },
         "text_YePgmz": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "text": "EVERY PURCHASE PLANTS A TREE WITH TREES.ORG 🌱",
@@ -49,6 +64,7 @@
         },
         "text_epRXWW": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "heart",
             "text": "GET AN EXCLUSIVE 25% OFF CODE WHEN YOU TAKE THIS FIND-YOUR-SHOE QUIZ",
@@ -118,6 +134,7 @@
     }
   },
   "order": [
+    "17537418499196266c",
     "announcement-bar",
     "header"
   ]
