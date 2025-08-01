@@ -1,4 +1,5 @@
 {{ 'product.css' | asset_url | stylesheet_tag }}
+
 {%- liquid
 	assign media_aspect_ratio = section.settings.media_aspect_ratio
 	assign first_3d_model = product.media | where: "media_type", "model" | first
@@ -145,6 +146,14 @@
 			        {%- endfor -%}
 			      </div>
 				</div>
+       {% style %}
+          {% if settings.colors_swatches == false %}
+            .product-drawer .thb-product-detail .product__custom-colors-title,
+            .product-drawer .thb-product-detail .product__custom-colors{
+              display:none;
+            }
+          {% endif %}
+        {% endstyle %}
         {% render 'product-information', product: product, section: section, update_url: false, pickup: false %}
 			</div>
 		</div>
