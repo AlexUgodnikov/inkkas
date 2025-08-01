@@ -27,7 +27,11 @@
       margin-right: 0;
       margin-left: 10px; }
   .add_to_cart_holder .button {
+    
     flex: 1; }
+    .add_to_cart_holder .button[name="add"]{
+      height: 65px;
+    }
   .add_to_cart_holder .swym-button-bar {
     margin-top: 0;
     margin-bottom: 0; }

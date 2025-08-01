@@ -86,9 +86,9 @@
 					</a>
 				{% endunless %}
 		  </div>
-		  {%- if show_dynamic_checkout -%}
+		  {%- if show_dynamic_checkout -%}  {%- endif -%}
 		      {{ form | payment_button }}
-		    {%- endif -%}
+		  
 		</div>
 		{%- endform -%}
 	</product-form>
