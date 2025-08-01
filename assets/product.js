@@ -849,90 +849,60 @@ if (!customElements.get('product-add-to-cart-sticky')) {
     constructor() {
       super();
 
-      this.animations_enabled = document.body.classList.contains('animations-true') && typeof gsap !== 'undefined';
+      
     }
     connectedCallback() {
-      this.setupObservers();
-      this.setupToggle();
+   
+       this.setupToggle();
+      //Start infinix button catcher
+        const targetElement1 = document.querySelector('form button[name="add"]');
+
+    
+        if (targetElement1 && this) {
+          let visibilityMap = new Map();
+
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              visibilityMap.set(entry.target, entry.isIntersecting);
+            });
+
+            const anyVisible = Array.from(visibilityMap.values()).some(v => v === true);
+
+            if (anyVisible) {
+              this.classList.remove('sticky--visible');
+            } else {
+              this.classList.add('sticky--visible');
+            }
+          });
+
+          visibilityMap.set(targetElement1, false);
+          
+
+          observer.observe(targetElement1);
+        
+        }
+
+
+
+     
     
     }
     setupToggle() {
       const button = this.querySelector('.product-add-to-cart-sticky--inner'),
         content = this.querySelector('.product-add-to-cart-sticky--content');
 
-      if (this.animations_enabled) {
-        const tl = gsap.timeline({
-          reversed: true,
-          paused: true,
-          onStart: () => {
-            button.classList.add('sticky-open');
-          },
-          onReverseComplete: () => {
-            button.classList.remove('sticky-open');
-          }
-        });
-
-        tl
-          .set(content, {
-            display: 'block',
-            height: 'auto'
-          }, 'start')
-          .from(content, {
-            height: 0,
-            duration: 0.25
-          }, 'start+=0.001');
-
-        button.addEventListener('click', function () {
-          tl.reversed() ? tl.play() : tl.reverse();
-
-          return false;
-        });
-      } else {
+     
         button.addEventListener('click', (e) => {
           this.classList.toggle('active')
           e.currentTarget.classList.toggle('active')
           content.classList.toggle('active');
           return false;
         });
-      }
+      
 
 
     }
 
- 
-    
-    setupObservers() {
-      let _this = this,
-        observer = new IntersectionObserver(function (entries) {
-          entries.forEach((entry) => {
-            if (entry.target === footer) {
-              if (entry.intersectionRatio > 0) {
-                _this.classList.remove('sticky--visible');
-              } else if (entry.intersectionRatio == 0 && _this.formPassed) {
-                _this.classList.add('sticky--visible');
-              }
-            }
-            if (entry.target === form) {
-              let boundingRect = form.getBoundingClientRect();
-
-              if (entry.intersectionRatio === 0 && window.scrollY > (boundingRect.top + boundingRect.height)) {
-                _this.formPassed = true;
-                _this.classList.add('sticky--visible');
-              } else if (entry.intersectionRatio === 1) {
-                _this.formPassed = false;
-                _this.classList.remove('sticky--visible');
-              }
-            }
-          });
-        }, {
-          threshold: [0, 1]
-        }),
-        form = document.getElementById(`product-form-${this.dataset.section}`),
-        footer = document.getElementById('footer');
-      _this.formPassed = false;
-      observer.observe(form);
-      observer.observe(footer);
-    }
   }
 
   customElements.define('product-add-to-cart-sticky', ProductAddToCartSticky);
