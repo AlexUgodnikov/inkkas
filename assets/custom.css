@@ -1359,6 +1359,24 @@ a.mobile-link-caps img {
 }
 
 /* rebuy bundle page */
+.custom-option-toggle{
+  font-weight: 400;
+    padding: 1px 9px;
+    border: 1px solid #070707;
+    border-radius: 3px;
+    display: inline-flex;
+    cursor: pointer;
+}
+.custom-option-toggle.active{
+  background-color: #070707;
+  color: #fff;
+}
+.custom-option-wrapper{
+  display:none;
+}
+.custom-option-wrapper.active{
+  display:block;
+}
 .rebuy-product-options .custom-option-wrapper .tab-buttons{
   padding: 5px 0;
   display:flex;

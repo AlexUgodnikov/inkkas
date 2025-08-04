@@ -39,18 +39,18 @@ function rebayBundlesCustomVarinats(){
         if (getCardOptions) {
           const optionsCollection = Array.from(getCardOptions.options);
           if (optionsCollection.length > 1) {
-            const menOptions = [];
             const womenOptions = [];
+            const menOptions = [];
             const eurOptions = [];
 
             optionsCollection.forEach(option => {
               const parts = option.text.toLowerCase().split(' / ');
-              const men = parts.find(p => p.includes('men'))?.trim();
               const women = parts.find(p => p.includes('women'))?.trim();
+              const men = parts.find(p => p.includes('men'))?.trim();
               const eur = parts.find(p => p.includes('eur'))?.trim();
 
-              if (men) menOptions.push({ label: men.replace('us men', '').trim(), value: option.value });
               if (women) womenOptions.push({ label: women.replace('us women', '').trim(), value: option.value });
+              if (men) menOptions.push({ label: men.replace('us men', '').trim(), value: option.value });
               if (eur) eurOptions.push({ label: eur.replace('eur', '').trim(), value: option.value });
             });
 
@@ -78,13 +78,18 @@ function rebayBundlesCustomVarinats(){
               return container;
             }
 
+
+            const customOptionToggle =  document.createElement('div');
+            customOptionToggle.classList.add('custom-option-toggle');
+            customOptionToggle.textContent = 'See all sizes';
+
             const wrapper = document.createElement('div');
             wrapper.classList.add('custom-option-wrapper');
 
             const tabContainer = document.createElement('div');
             tabContainer.className = 'tab-buttons';
 
-            ['men', 'women', 'eur'].forEach((tabName, index) => {
+            ['women','men','eur'].forEach((tabName, index) => {
               const btn = document.createElement('button');
               btn.textContent = tabName.toUpperCase();
               btn.dataset.target = tabName;
@@ -101,20 +106,37 @@ function rebayBundlesCustomVarinats(){
               });
 
               tabContainer.appendChild(btn);
-            });
+            }); 
 
             const groupsFragment = document.createDocumentFragment();
-            groupsFragment.appendChild(createRadioGroup('men', menOptions));
             groupsFragment.appendChild(createRadioGroup('women', womenOptions));
+            groupsFragment.appendChild(createRadioGroup('men', menOptions));
             groupsFragment.appendChild(createRadioGroup('eur', eurOptions));
 
             groupsFragment.querySelectorAll('.radio-group').forEach(group => {
-              if (group.dataset.group !== 'men') group.style.display = 'none';
+              if (group.dataset.group !== 'women') group.style.display = 'none';
             });
 
             wrapper.appendChild(tabContainer);
             wrapper.appendChild(groupsFragment);
             getCardOptions.parentNode.prepend(wrapper);
+
+            //toggle all sizes
+            getCardOptions.parentNode.prepend(customOptionToggle);
+
+            customOptionToggle.addEventListener('click', (e) => {
+              if(!e.currentTarget.classList.contains('active')){
+                e.currentTarget.classList.add('active')
+                e.currentTarget.parentNode.querySelector('.custom-option-wrapper').classList.add('active');
+                e.currentTarget.textContent = 'Hide sizes';
+              }else{
+                e.currentTarget.classList.remove('active')
+                e.currentTarget.parentNode.querySelector('.custom-option-wrapper').classList.remove('active');
+                e.currentTarget.textContent = 'See all sizes';
+              }
+            })
+
+           
 
 
             function changeCustomRadioButtons(){
