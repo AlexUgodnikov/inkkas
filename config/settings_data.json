@@ -50,13 +50,14 @@
     "social_tiktok_link": "https://www.tiktok.com/@inkkasworldwear",
     "social_youtube_link": "",
     "social_share_twitter": false,
+    "colors_swatches": false,
     "product_aspect_ratio": "square",
     "products_hover_images_count": 1,
     "products_hover_dots": true,
     "enable_quick_add": false,
     "enable_quick_view": true,
     "show_products_vendor": false,
-    "show_products_swatches": true,
+    "show_products_swatches": false,
     "show_products_rating": false,
     "show_size_options": false,
     "sale_badge_type": "sale",
@@ -266,11 +267,6 @@
       },
       "17676059084223943535": {
         "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
-        "disabled": false,
-        "settings": {}
-      },
-      "1232542678405107163": {
-        "type": "shopify://apps/instafeed/blocks/head-block/c447db20-095d-4a10-9725-b5977662c9d5",
         "disabled": false,
         "settings": {}
       },
