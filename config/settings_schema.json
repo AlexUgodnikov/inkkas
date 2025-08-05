@@ -498,17 +498,6 @@
       }
     ]
   },
-   {
-    "name": "Quick view",
-    "settings": [
-      {
-        "type": "checkbox",
-        "id" : "colors_swatches",
-        "default": false,
-        "label": "Enable Colors swatches"
-      }
-    ]
-  }, 
   {
     "name": "Product card",
     "settings": [
@@ -1085,8 +1074,25 @@
     ]
   },
   {
+    "name": "Dynamic checkout button",
+    "settings": [
+        {
+          "type": "checkbox",
+          "id" : "show_dynamic_button",
+          "default": false, 
+          "label": "Show dynamic checkout button"
+        }
+      ]
+  },
+  {
     "name": "Quick view",
     "settings": [
+      {
+        "type": "checkbox",
+        "id" : "colors_swatches",
+        "default": false,
+        "label": "Enable Colors swatches"
+      },
       {
         "type": "color",
         "id": "button_bg_color",

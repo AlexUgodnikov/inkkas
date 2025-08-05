@@ -44,6 +44,7 @@
 
 .shopify-payment-button {
   margin-top: 10px;
+  margin-bottom: 10px;
   width: 100%; }
   .shopify-payment-button__button:not(.shopify-payment-button__button--branded) {
     display: inline-flex;
