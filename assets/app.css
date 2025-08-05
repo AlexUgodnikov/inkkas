@@ -2455,7 +2455,7 @@ h6,
   .thb-full-menu .sub-menu {
     position: absolute;
     top: 100%;
-    left: -15px;
+    right: 0;
     font-size: calc(var(--font-navigation-scale, 1) * 14px);
     line-height: 1;
     padding: 22px 30px;

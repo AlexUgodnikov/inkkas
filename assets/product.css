@@ -17,7 +17,7 @@
 
 .add_to_cart_holder {
   display: flex;
-  /*flex-wrap: wrap;*/
+  /* flex-wrap: wrap; */
   margin-bottom: 15px; }
   .add_to_cart_holder .quantity {
     margin-right: 10px;
@@ -27,7 +27,11 @@
       margin-right: 0;
       margin-left: 10px; }
   .add_to_cart_holder .button {
+    
     flex: 1; }
+    .add_to_cart_holder .button[name="add"]{
+      height: 65px;
+    }
   .add_to_cart_holder .swym-button-bar {
     margin-top: 0;
     margin-bottom: 0; }
@@ -40,6 +44,7 @@
 
 .shopify-payment-button {
   margin-top: 10px;
+  margin-bottom: 10px;
   width: 100%; }
   .shopify-payment-button__button:not(.shopify-payment-button__button--branded) {
     display: inline-flex;
@@ -1359,3 +1364,7 @@
       .product-recommendations.swipe-on-mobile .products.row .columns {
         flex: 0 0 100%;
         max-width: 100%; } }
+shopify-accelerated-checkout {
+    --shopify-accelerated-checkout-button-block-size: 48px;
+    --shopify-accelerated-checkout-button-border-radius: var(--button-border-radius, 0px);
+}
