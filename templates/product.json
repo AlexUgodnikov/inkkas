@@ -612,10 +612,10 @@
       "type": "single-image",
       "name": "Single image",
       "settings": {
-        "image": "shopify://shop_images/4_Logos_for_Product_Pages_240_x_240_px_1.png",
+        "image": "shopify://shop_images/Tagline_4_Logos_for_Homepage_525077c7-9121-4bad-a1f2-a3c014cdb05c.png",
         "full_width": false,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "spacer_ER4pCJ": {
@@ -1037,7 +1037,7 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
@@ -1049,10 +1049,17 @@
           "settings": {
             "product": "{{product}}"
           }
+        },
+        "okendo_media_carousel_c9krQK": {
+          "type": "shopify://apps/okendo/blocks/media-carousel/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
         }
       },
       "block_order": [
-        "okendo_media_grid_rX9LtE"
+        "okendo_media_grid_rX9LtE",
+        "okendo_media_carousel_c9krQK"
       ],
       "disabled": true,
       "settings": {}
@@ -1084,16 +1091,6 @@
       ],
       "settings": {}
     },
-    "single_image_44gN4U": {
-      "type": "single-image",
-      "name": "Single image",
-      "settings": {
-        "image": "shopify://shop_images/cpmecter.png",
-        "full_width": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
     "text_with_icons_MRQx4U": {
       "type": "text-with-icons",
       "blocks": {
@@ -1118,7 +1115,7 @@
           "settings": {
             "icon": "plant",
             "heading": "ONE SHOE ONE TREE",
-            "text": "<p><a href=\"/pages/aboutstory\" target=\"_blank\" title=\"About Current\">Every purchase plants a tree with Trees.org!</a></p>"
+            "text": "<p><a href=\"/pages/aboutstory\" target=\"_blank\" title=\"About Current\">Every purchase plants a tree with Trees.org.</a></p>"
           }
         }
       },
@@ -1292,6 +1289,7 @@
         "image_VFNtiP",
         "image_BfVCnw"
       ],
+      "disabled": true,
       "settings": {
         "slider": false,
         "columns_desktop": 3,
@@ -1305,6 +1303,164 @@
         "overlay_color": "#000000",
         "overlay_opacity": 15,
         "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "collapsible_content_GTjkiJ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_K9axCc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "✔️ Independent. Artful. Unapologetically You.",
+            "open": false,
+            "content": "<p>Since 2012, we’ve been crafting shoes that don’t follow the crowd—because neither do you. Our team of independent artists and shoemakers create original, handcrafted designs that defy mass production and forgettable trends.<br/><br/>While big-box brands chase what’s next, we stay rooted in what’s real: bold artwork, thoughtful details, and ultra-comfy silhouettes that tell a story. Every Inkkas pair is a one-of-a-kind canvas—meant to bring you joy, connection, and the freedom to express yourself with every step.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_a9g4DA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "✔️ Handcrafted Comfort You Feel In Every Step",
+            "open": false,
+            "content": "<p>We don’t just design shoes. We build experiences—for your feet and your soul. Every pair is carefully constructed using time-honored techniques and premium materials that mold to your movement.<br/><br/>The result? All-day comfort, custom-feeling fits, and effortless support—so you can go further, explore longer, and live bolder.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_g8HBdF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "✔️ Feels Good for Your Sole (And Your Soul)",
+            "open": false,
+            "content": "<p>Inkkas are made with intention—from ethical production and fair wages to our <em>OneShoeOneTree</em> reforestation program. Every purchase supports artists, protects the planet, and plants a tree in a reforestation project across the globe.<br/><br/>Looking good never felt this good.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_KGN8Jm": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "✔️ We Stand Behind Every Pair",
+            "open": false,
+            "content": "<p>You deserve shoes that are as reliable as they are original. If you’re not 100% happy with your Inkkas, our friendly support team is here to make it right.<br/><br/>We offer free exchanges, hassle-free returns, and the kind of customer service that makes you feel at home.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_wTkFx9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "💬 What Our Community Is Saying",
+            "open": false,
+            "content": "<p>We could go on about our handcrafted designs and buttery-soft comfort—but we’d rather let the people who wear them every day do the talking.</p><p>Real customers. Real adventures. Real love for Inkkas. Check out thousands of reviews, customer feedback and photos on the product pages. Also, follow along  <a href=\"https://www.instagram.com/inkkasworldwear/\" target=\"_blank\" title=\"https://www.instagram.com/inkkasworldwear/\">@<strong>inkkasworldwear</strong></a><strong> </strong>for more inspo. </p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_K9axCc",
+        "collapsible_tab_a9g4DA",
+        "collapsible_tab_g8HBdF",
+        "collapsible_tab_KGN8Jm",
+        "collapsible_tab_wTkFx9"
+      ],
+      "name": "Collapsible content",
+      "settings": {
+        "heading": "Original by Design. Loved for a Reason.",
+        "description": "",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_44gN4U": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/cpmecter.png",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "before_after_image_KGxR9e": {
+      "type": "before-after-image",
+      "blocks": {
+        "image_w9EtXy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
+            "title": "Inked by Artists",
+            "heading_size": "h4",
+            "heading_position": "top",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ck88LC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5W1A8149.jpg",
+            "title": "Designed for You",
+            "heading_size": "h4",
+            "heading_position": "center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_w9EtXy",
+        "image_ck88LC"
+      ],
+      "name": "Before/after image",
+      "settings": {
+        "heading": "Get Inspired",
+        "heading_left": false,
+        "description": "<p>Slide left to reveal art & hugs for your feet</p>",
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "initial_position": 80,
+        "line_color": "#ffffff",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_B8FVDF": {
+      "type": "rich-text",
+      "blocks": {
+        "text_7tjKt4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Read more about the artists & inspirations behind our designs on our blog, Good for the Sole.</em></p>",
+            "custom_liquid": "",
+            "size": "text-size-small"
+          }
+        },
+        "button_DyHCgQ": {
+          "type": "button",
+          "settings": {
+            "link_label": "CHECK IT OUT",
+            "link": "shopify://blogs/blog",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "text_7tjKt4",
+        "button_DyHCgQ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     }
@@ -1322,13 +1478,16 @@
     "1747249189d6f27eae",
     "custom_liquid_qqHfLi",
     "17443016606c46dac5",
-    "single_image_44gN4U",
     "text_with_icons_MRQx4U",
     "spacer_pgAtTX",
     "product-recommendations",
     "recently_viewed_products_HPzhR7",
     "1662552569cce2536d",
     "image_with_text_slideshow_KJjN8y",
-    "gallery_zNTQNR"
+    "gallery_zNTQNR",
+    "collapsible_content_GTjkiJ",
+    "single_image_44gN4U",
+    "before_after_image_KGxR9e",
+    "rich_text_B8FVDF"
   ]
 }
