@@ -81,7 +81,7 @@ function rebayBundlesCustomVarinats(){
 
             const customOptionToggle =  document.createElement('div');
             customOptionToggle.classList.add('custom-option-toggle');
-            customOptionToggle.textContent = 'See all sizes';
+            customOptionToggle.textContent = 'Show all size';
 
             const wrapper = document.createElement('div');
             wrapper.classList.add('custom-option-wrapper');
@@ -132,7 +132,7 @@ function rebayBundlesCustomVarinats(){
               }else{
                 e.currentTarget.classList.remove('active')
                 e.currentTarget.parentNode.querySelector('.custom-option-wrapper').classList.remove('active');
-                e.currentTarget.textContent = 'See all sizes';
+                e.currentTarget.textContent = 'Show all size';
               }
             })
 
