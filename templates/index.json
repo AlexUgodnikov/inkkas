@@ -12,6 +12,32 @@
     "slideshow_CQXNHG": {
       "type": "slideshow",
       "blocks": {
+        "slide_tUiPDb": {
+          "type": "slide",
+          "settings": {
+            "slide_link": "",
+            "video_background": true,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify://files/videos/Evestar_Inkkas_Andes Camping Boot_Lauren_EDIT.mp4",
+            "subheading": "HANDCRAFTED ALL-SEASON BOOTS",
+            "heading": "Designed to Inspire Every Step",
+            "heading_size": "h1-large",
+            "content": "",
+            "description_size": "large",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify://collections/best-sellers",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "slide_bXGFzh": {
           "type": "slide",
           "disabled": true,
@@ -24,32 +50,6 @@
             "heading": "Summer Clearance Sale Up to 60% Off",
             "heading_size": "h1-xlarge",
             "content": "Make your own puffin inspired magic.",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop Now",
-            "button_1_link": "shopify://collections/clearance",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_tUiPDb": {
-          "type": "slide",
-          "settings": {
-            "slide_link": "",
-            "video_background": true,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "video_hosted": "shopify://files/videos/LUNDI-TRAINER-VIDEO-SS250611-EDIT.mov",
-            "subheading": "NEW STYLES ADDED!",
-            "heading": "Clearance Sale Up to 60% Off",
-            "heading_size": "h1-xlarge",
-            "content": "Make your own puffin magic.",
             "description_size": "medium",
             "content_position": "middle-center",
             "text_alignment": "center",
@@ -121,8 +121,8 @@
         }
       },
       "block_order": [
-        "slide_bXGFzh",
         "slide_tUiPDb",
+        "slide_bXGFzh",
         "slide_Fn8jbU",
         "slide_ff3QnP"
       ],
@@ -138,162 +138,24 @@
         "disable_bottom_spacing": true
       }
     },
-    "featured_collection_ctC9Gp": {
-      "type": "featured-collection",
-      "name": "Featured collection",
+    "single_image_KYnHUq": {
+      "type": "single-image",
+      "name": "Single image",
       "settings": {
-        "heading": "Shop Up to 60% Off Clearance",
-        "heading_left": false,
-        "description": "<p>Use code <strong>EXTRA20</strong> to save up to 60% Off during our Summer Clearance Sale! </p>",
+        "image": "shopify://shop_images/Tagline_3_Logos_for_Homepage_2.png",
         "full_width": true,
-        "collection": "clearance",
-        "display_type": "carousel",
-        "product_limit": 8,
-        "columns_desktop": 4,
-        "show_view_all": false,
-        "mobile_swipe": true,
-        "show_progress_bar": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "rich_text_AUmbth": {
-      "type": "rich-text",
-      "blocks": {
-        "button_khEEE3": {
-          "type": "button",
-          "settings": {
-            "link_label": "SHOP UP TO 60% OFF →",
-            "link": "shopify://collections/clearance",
-            "button_outline": false
-          }
-        },
-        "text_kREVw6": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "custom_liquid": "",
-            "size": "text-size-regular"
-          }
-        }
-      },
-      "block_order": [
-        "button_khEEE3",
-        "text_kREVw6"
-      ],
-      "settings": {
-        "section_width": "grid",
-        "text_width": "grid",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "slideshow_fxWW6g": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_RyCMac": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Quiz_Banner_with_25_Off.png",
-            "mobile_image": "shopify://shop_images/Quiz_Banner_with_25_Off_-_MOBILE.png",
-            "slide_link": "shopify://pages/quiz",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_a7t46B": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/07-29-25-Clearance-Sale3.6.gif",
-            "mobile_image": "shopify://shop_images/07-29-25-Clearance-Sale-MOBILE2.1.gif",
-            "slide_link": "shopify://collections/clearance",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_FDmAx4": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Bring_the_Sunshine_-_25_Off_Sale_-_Desktop_Banner.gif",
-            "mobile_image": "shopify://shop_images/Bring_the_Sunshine_-_25_Off_Sale_-_Mobile_Banner.gif",
-            "slide_link": "shopify://collections/best-sellers",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_RyCMac",
-        "slide_a7t46B",
-        "slide_FDmAx4"
-      ],
-      "settings": {
-        "desktop_height": "desktop-height-image",
-        "mobile_height": "mobile-height-image",
-        "full_width": true,
-        "autoplay": true,
-        "autoplay_length": 8,
-        "transition": "swipe",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
+      }
+    },
+    "spacer_X9yDga": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 55,
+        "border_separator": true,
+        "border_separator_full": false
       }
     },
     "featured_collection_tJhHEP": {
@@ -310,8 +172,8 @@
         "columns_desktop": 4,
         "show_view_all": false,
         "mobile_swipe": true,
-        "show_progress_bar": true,
-        "disable_top_spacing": false,
+        "show_progress_bar": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     },
@@ -358,6 +220,164 @@
         "color_text": "#151515",
         "color_links": "#151515",
         "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "slideshow_fxWW6g": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_a7t46B": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/07-29-25-Clearance-Sale3.6.gif",
+            "mobile_image": "shopify://shop_images/07-29-25-Clearance-Sale-MOBILE2.1.gif",
+            "slide_link": "shopify://collections/clearance",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_RyCMac": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Quiz_Banner_with_25_Off.png",
+            "mobile_image": "shopify://shop_images/Quiz_Banner_with_25_Off_-_MOBILE.png",
+            "slide_link": "shopify://pages/quiz",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_FDmAx4": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Bring_the_Sunshine_-_25_Off_Sale_-_Desktop_Banner.gif",
+            "mobile_image": "shopify://shop_images/Bring_the_Sunshine_-_25_Off_Sale_-_Mobile_Banner.gif",
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_a7t46B",
+        "slide_RyCMac",
+        "slide_FDmAx4"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 8,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_ctC9Gp": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "heading": "Shop Up to 60% Off",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "clearance",
+        "display_type": "carousel",
+        "product_limit": 8,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_AUmbth": {
+      "type": "rich-text",
+      "blocks": {
+        "button_khEEE3": {
+          "type": "button",
+          "settings": {
+            "link_label": "SHOP UP TO 60% OFF →",
+            "link": "shopify://collections/clearance",
+            "button_outline": false
+          }
+        },
+        "text_kREVw6": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "button_khEEE3",
+        "text_kREVw6"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "grid",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
@@ -387,79 +407,61 @@
         "mobile_swipe": false,
         "overlay_color": "#000000",
         "overlay_opacity": 0,
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
-    "collection_list_wtFVtm": {
-      "type": "collection-list",
-      "name": "Collection list",
-      "settings": {
-        "heading": "JUST IN",
-        "heading_left": true,
-        "description": "",
-        "full_width": true,
-        "collection_list": [
-          "new-arrivals",
-          "all-sneakers"
-        ],
-        "image_ratio": "portrait",
-        "layout": "grid",
-        "style": "style1",
-        "columns_desktop": 2,
-        "columns_mobile": "1",
-        "show_progress_bar": false,
-        "mobile_swipe": false,
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
-    "slideshow_7DqM8K": {
-      "type": "slideshow",
+    "gallery_rR8WGd": {
+      "type": "gallery",
       "blocks": {
-        "slide_63beDd": {
-          "type": "slide",
+        "image_jNEjyA": {
+          "type": "image",
           "settings": {
-            "slide_link": "",
-            "video_background": true,
-            "video": "",
-            "video_hosted": "shopify://files/videos/Evestar-Inkkas-Shelly-UGC-Luzon Buckle Sandal-Luzon Cush Jogger-EDIT.mp4",
-            "subheading": "now back in stock",
-            "heading": "Luzon Buckle Sandals",
-            "heading_size": "h1-xlarge",
-            "content": "The sandals with a 200+ person waitlist is finally back - but they will sell out again.",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop Now",
-            "button_1_link": "shopify://products/luzon-buckle-sandal",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
+            "image": "shopify://shop_images/LOOMI-TREKKBOOT-SS251015-MODELZOOM-EPI_5361.jpg",
+            "subheading": "JUST IN",
+            "title": "New Arrivals",
+            "text": "",
+            "link_label": "Shop",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/new-arrivals",
+            "product_list": []
+          }
+        },
+        "image_Uk7iti": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bundle_-_Summer25.png",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://pages/bundle-builder",
+            "product_list": []
           }
         }
       },
       "block_order": [
-        "slide_63beDd"
+        "image_jNEjyA",
+        "image_Uk7iti"
       ],
-      "disabled": true,
-      "name": "Slideshow",
+      "name": "Gallery",
       "settings": {
-        "desktop_height": "desktop-height-image",
-        "mobile_height": "mobile-height-image",
-        "full_width": true,
-        "autoplay": true,
-        "autoplay_length": 5,
-        "transition": "swipe",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "slider": false,
+        "columns_desktop": 2,
+        "section_width": "grid",
+        "mobile_swipe": false,
+        "image_ratio": "portrait",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "large",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "featured_product_JQ6qcn": {
@@ -522,62 +524,6 @@
         "display_captions": false,
         "lightbox": false,
         "enable_video_looping": false,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "featured_collection_W4UkqD": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "heading": "Statement-Makers",
-        "heading_left": true,
-        "description": "<p><em>Walk on clouds and turn heads in our one-of-a-kind Joggers.</em></p>",
-        "full_width": true,
-        "collection": "joggers",
-        "display_type": "carousel",
-        "product_limit": 8,
-        "columns_desktop": 4,
-        "show_view_all": false,
-        "mobile_swipe": true,
-        "show_progress_bar": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "rich_text_mVd8iG": {
-      "type": "rich-text",
-      "blocks": {
-        "button_kQq3hP": {
-          "type": "button",
-          "settings": {
-            "link_label": "SHOP JOGGERS →",
-            "link": "shopify://collections/joggers",
-            "button_outline": false
-          }
-        },
-        "text_4hnBDx": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "custom_liquid": "",
-            "size": "text-size-regular"
-          }
-        }
-      },
-      "block_order": [
-        "button_kQq3hP",
-        "text_4hnBDx"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_width": "grid",
-        "text_width": "grid",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
-        "color_links": "#151515",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -1732,6 +1678,7 @@
         "image_UfXM9y",
         "image_mYAGVU"
       ],
+      "disabled": true,
       "name": "Before/after image",
       "settings": {
         "heading": "Inked by Artists, Designed for You",
@@ -1802,6 +1749,7 @@
         "collapsible_tab_9z7UAj",
         "collapsible_tab_CUNVRP"
       ],
+      "disabled": true,
       "name": "Collapsible content",
       "settings": {
         "heading": "Original by Design. Loved for a Reason.",
@@ -1835,6 +1783,7 @@
         "button_PdfiaW",
         "button_qtwhhz"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "section_width": "grid",
@@ -1847,21 +1796,88 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
+    },
+    "image_with_text_slideshow_CzrqYT": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "slide_zTMjQ9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
+            "heading": "Artful. Independent. Original.",
+            "content": "Every design starts with original art — inspired by nature around the world, crafted with bold colors and details you won’t find anywhere else.",
+            "button_text": "Shop",
+            "button_link": "shopify://collections/best-sellers"
+          }
+        },
+        "slide_JT9EmQ": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
+            "heading": "Independent. Artful. Unapologetically You.",
+            "content": "Since 2012, we’ve been crafting shoes that don’t follow the crowd—because neither do you. Our global team of independent artists and shoemakers create original, handcrafted designs that defy mass production and forgettable trends.",
+            "button_text": "Shop Shoes",
+            "button_link": "shopify://collections/best-sellers"
+          }
+        },
+        "slide_pMBpFU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/making_of_the_joggers.gif",
+            "heading": "Made with Purpose.",
+            "content": "We don’t just design shoes. We build experiences—for your feet and your soul. Every pair is carefully constructed using time-honored techniques and premium materials that mold to your movement.",
+            "button_text": "Learn More",
+            "button_link": "shopify://pages/about"
+          }
+        },
+        "slide_e8Cyfq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Tree-Square-02_256x256_a2c0dc82-9e89-4b48-8573-939f971398a5.jpg",
+            "heading": "Look Good. Feel Good. Do Good.",
+            "content": "We plant one tree for every purchase through our partnership with Trees.org. We also donate worn shoes for refurbishment & renewed purpose for those in need.",
+            "button_text": "Learn More",
+            "button_link": "shopify://pages/about"
+          }
+        }
+      },
+      "block_order": [
+        "slide_zTMjQ9",
+        "slide_JT9EmQ",
+        "slide_pMBpFU",
+        "slide_e8Cyfq"
+      ],
+      "name": "Image with text slideshow",
+      "settings": {
+        "mobile_height": "mobile-height-400",
+        "desktop_height": "desktop-height-450",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 7,
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
     }
   },
   "order": [
     "slideshow_CQXNHG",
-    "featured_collection_ctC9Gp",
-    "rich_text_AUmbth",
-    "slideshow_fxWW6g",
+    "single_image_KYnHUq",
+    "spacer_X9yDga",
     "featured_collection_tJhHEP",
     "rich_text_KC4Kf7",
+    "slideshow_fxWW6g",
+    "featured_collection_ctC9Gp",
+    "rich_text_AUmbth",
     "collection_list_ypFaFe",
-    "collection_list_wtFVtm",
-    "slideshow_7DqM8K",
+    "gallery_rR8WGd",
     "featured_product_JQ6qcn",
-    "featured_collection_W4UkqD",
-    "rich_text_mVd8iG",
     "rich_text_3HUqXb",
     "scrolling_text_CXQtRH",
     "testimonials_PXWabY",
@@ -1873,6 +1889,7 @@
     "1751946728564ebb7d",
     "before_after_image_AGTA9b",
     "collapsible_content_w7htfh",
-    "rich_text_L6cPQc"
+    "rich_text_L6cPQc",
+    "image_with_text_slideshow_CzrqYT"
   ]
 }
