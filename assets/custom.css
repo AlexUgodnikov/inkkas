@@ -1474,11 +1474,13 @@ a.mobile-link-caps img {
 }
 
 /* Product quantity */
-
+.product-inventory-notice{
+  margin-right:10px;
+}
 .inventory_level-wrp{
   display: flex;
   align-items: flex-start;
-  gap: 15px;
+  gap: 0;
 }
 .inventory-custom-code{
   line-height: 1;
@@ -1486,6 +1488,9 @@ a.mobile-link-caps img {
 .label-quantity{
   font-size:16px;
   margin-bottom:7px;
+}
+.inventory-custom-code .product-card__tag-info{
+  margin:0;
 }
 .label-quantity.label-selling-fast{
   color:#279A4B;
