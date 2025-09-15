@@ -141,11 +141,11 @@
     {%- when 'inventory_level' -%}
       <div class="inventory_level-wrp">
         {% render 'product-inventory-notice', product: product, section: section, block: block %}
-        {% if block.settings.custom_code != blank %}
+       
           <div class="inventory-custom-code">
-            {{block.settings.custom_code}}
+            {% render 'product-tags-label', product: product %}
           </div>
-        {% endif %}
+        
       </div>
     {%- when 'variant_picker' -%}
       
