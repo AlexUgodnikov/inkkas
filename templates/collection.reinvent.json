@@ -12,24 +12,25 @@
     "9de27e1e-9c24-4334-982b-86e9980a73bd": {
       "type": "scrolling-text",
       "blocks": {
-        "template--17027745972539__9de27e1e-9c24-4334-982b-86e9980a73bd-1669829603416565ad-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ collection.title }}",
-            "link": "",
-            "outline_text": false
-          }
-        },
         "template--17027745972539__9de27e1e-9c24-4334-982b-86e9980a73bd-1669829603416565ad-1": {
           "type": "text",
           "settings": {
-            "text": "{{ collection.title }}",
+            "text": "Essence Collection",
+            "link": "",
+            "outline_text": true
+          }
+        },
+        "template--17027745972539__9de27e1e-9c24-4334-982b-86e9980a73bd-1669829603416565ad-0": {
+          "type": "text",
+          "settings": {
+            "text": "FALL 2025",
             "link": "",
             "outline_text": false
           }
         },
         "template--17027745972539__9de27e1e-9c24-4334-982b-86e9980a73bd-1669829603416565ad-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ collection.title }}",
             "link": "",
@@ -38,28 +39,249 @@
         }
       },
       "block_order": [
-        "template--17027745972539__9de27e1e-9c24-4334-982b-86e9980a73bd-1669829603416565ad-0",
         "template--17027745972539__9de27e1e-9c24-4334-982b-86e9980a73bd-1669829603416565ad-1",
+        "template--17027745972539__9de27e1e-9c24-4334-982b-86e9980a73bd-1669829603416565ad-0",
         "template--17027745972539__9de27e1e-9c24-4334-982b-86e9980a73bd-1669829603416565ad-2"
       ],
+      "disabled": true,
       "settings": {
         "height": "height-auto",
         "full_width": true,
         "direction": "left",
         "speed": "20s",
-        "text_size": 70,
+        "text_size": 40,
         "text_uppercase": true,
         "image_size": "medium",
-        "color_bg": "#fffce2",
-        "color_text": "#1e4e1c",
+        "color_bg": "#c3d4b6",
+        "color_text": "#151515",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
+    "scrolling_text_eDxme7": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_gBxwDn": {
+          "type": "text",
+          "settings": {
+            "text": "NEW NEW NEW",
+            "link": "",
+            "outline_text": true
+          }
+        },
+        "text_Df6w4b": {
+          "type": "text",
+          "settings": {
+            "text": "FALL 2025",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_CDChUV": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ collection.title }}",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_gBxwDn",
+        "text_Df6w4b",
+        "text_CDChUV"
+      ],
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "right",
+        "speed": "20s",
+        "text_size": 40,
+        "text_uppercase": true,
+        "image_size": "medium",
+        "color_bg": "#c27b34",
+        "color_text": "#151515",
+        "overlay_color": "#dedede",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "slideshow_77EGb9": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_gDmJzL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AW25_Group_2.png",
+            "mobile_image": "shopify://shop_images/AW25_Group_3.png",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "Essence Collection",
+            "heading": "Free-spirited design meets adventure-ready comfort",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "large",
+            "content_position": "bottom-right",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "transparent",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_gGkXWa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2025-09-14_at_5.04.46_PM.png",
+            "mobile_image": "shopify://shop_images/Screen_Shot_2025-09-14_at_4.50.53_PM.png",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "18 bold new styles",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "large",
+            "content_position": "bottom-center",
+            "text_alignment": "right",
+            "content_size": "medium",
+            "overlay_color": "transparent",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_pU6TEB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2025-09-14_at_5.22.05_PM.png",
+            "mobile_image": "shopify://shop_images/Screen_Shot_2025-09-14_at_5.24.11_PM.png",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "channeling the\nwild and free",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-left",
+            "text_alignment": "right",
+            "content_size": "medium",
+            "overlay_color": "transparent",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_mU3M7p": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Cyprus_Bootie_5.png",
+            "mobile_image": "shopify://shop_images/Cyprus_Bootie_4.png",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "hand-inked & handcrafted",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-left",
+            "text_alignment": "left",
+            "content_size": "large",
+            "overlay_color": "transparent",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_MrhfEw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2025-09-14_at_5.17.48_PM.png",
+            "mobile_image": "shopify://shop_images/AW25_Group_1.png",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "Find Your Essence",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "transparent",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_gDmJzL",
+        "slide_gGkXWa",
+        "slide_pU6TEB",
+        "slide_mU3M7p",
+        "slide_MrhfEw"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_image": true,
+        "show_collection_description": false,
+        "show_subcollections": true,
+        "make_heading_uppercase": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
     "13c1fa9b-e669-46a9-8040-f6f0e85ee079": {
       "type": "spacer",
+      "disabled": true,
       "settings": {
         "spacer_mobile": 25,
         "spacer_desktop": 30,
@@ -67,20 +289,84 @@
         "border_separator_full": false
       }
     },
-    "main-collection-banner": {
-      "type": "main-collection-banner",
-      "disabled": true,
-      "settings": {
-        "show_collection_image": true,
-        "show_collection_description": true,
-        "show_subcollections": true,
-        "make_heading_uppercase": true,
-        "overlay_color": "#000000",
-        "overlay_opacity": 40
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "blocks": {
+        "promotion_ddgpy9": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/1-EPI_1128.jpg",
+            "title": "Essence of You",
+            "text": "",
+            "link_label": "SHOP",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_4ktEWW": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "all-boots",
+            "promotion_position": 5,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/1-EPI_1128.jpg",
+            "title": "Essence of You",
+            "text": "",
+            "link_label": "SHOP",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_eKr4aj": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "all-boots",
+            "promotion_position": 9,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/1-EPI_1128.jpg",
+            "title": "Essence of You",
+            "text": "",
+            "link_label": "SHOP",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_mMdUCg": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "all-boots",
+            "promotion_position": 13,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/1-EPI_1128.jpg",
+            "title": "Essence of You",
+            "text": "",
+            "link_label": "SHOP",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        }
+      },
+      "block_order": [
+        "promotion_ddgpy9",
+        "promotion_4ktEWW",
+        "promotion_eKr4aj",
+        "promotion_mMdUCg"
+      ],
       "settings": {
         "full_width": true,
         "products_per_page": 9,
@@ -89,14 +375,120 @@
         "enable_filtering": true,
         "enable_sorting": true,
         "show_counts": false,
+        "filter_color_swatches": true,
         "facets_desktop": "sidebar"
+      }
+    },
+    "slideshow_Pe7qPw": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_rBAGna": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1-EPI_1128.jpg",
+            "mobile_image": "shopify://shop_images/12-EPI_1138.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "ALL NEW",
+            "heading": "Essence Collection",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-left",
+            "text_alignment": "left",
+            "content_size": "medium",
+            "overlay_color": "transparent",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop This Look",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_qJQKjt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1-EPI_0316.jpg",
+            "mobile_image": "shopify://shop_images/12-EPI_0534.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "ALL NEW",
+            "heading": "Essence Collection",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "transparent",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop This Look",
+            "button_1_link": "",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_cPaPdY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/EPI_1787.jpg",
+            "mobile_image": "shopify://shop_images/EPI_1751.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "ALL NEW",
+            "heading": "Essence Collection",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-right",
+            "text_alignment": "right",
+            "content_size": "medium",
+            "overlay_color": "transparent",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop This Look",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_rBAGna",
+        "slide_qJQKjt",
+        "slide_cPaPdY"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
       }
     }
   },
   "order": [
     "9de27e1e-9c24-4334-982b-86e9980a73bd",
-    "13c1fa9b-e669-46a9-8040-f6f0e85ee079",
+    "scrolling_text_eDxme7",
+    "slideshow_77EGb9",
     "main-collection-banner",
-    "product-grid"
+    "13c1fa9b-e669-46a9-8040-f6f0e85ee079",
+    "product-grid",
+    "slideshow_Pe7qPw"
   ]
 }

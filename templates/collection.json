@@ -30,110 +30,70 @@
       "blocks": {
         "promotion_iE6HkP": {
           "type": "promotion",
-          "disabled": true,
           "settings": {
-            "promotion_collection": "the-radiance-collection",
-            "promotion_position": 5,
-            "promotion_width": "1",
-            "image": "shopify://shop_images/ScreenShot2024-04-08at4.00.34PM.png",
-            "title": "COLORFUL RADIANT DESIGNS",
+            "promotion_collection": "best-sellers",
+            "promotion_position": 3,
+            "promotion_width": "2",
+            "image": "shopify://shop_images/ANDES-CAMPING-BOOT-CB169916-GROUP-ROOSTER-CAMPING-BOOT-CB179802-GROUP-PhotoMay17_14154PM.jpg",
+            "title": "for discovery",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "",
+            "block_link": "shopify://products/andes-camping-boot",
             "overlay_color": "#000000",
-            "overlay_opacity": 16
+            "overlay_opacity": 0
           }
         },
         "promotion_LAFKer": {
           "type": "promotion",
-          "disabled": true,
           "settings": {
-            "promotion_collection": "the-radiance-collection",
-            "promotion_position": 11,
-            "promotion_width": "1",
-            "image": "shopify://shop_images/SAOLA-VEGAN-WESTERN-BOOT-SS241111-MODEL-SS241111-EPI_2754.jpg",
-            "title": "SUNNY PLAYFUL PATTERNS",
+            "promotion_collection": "best-sellers",
+            "promotion_position": 7,
+            "promotion_width": "2",
+            "image": "shopify://shop_images/LUNDI-VEGAN-ACE-LOW-TOP-SS250207-MODEL-ZOOM-EPI_5629.jpg",
+            "title": "for all-day sunshine",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "",
+            "block_link": "shopify://products/lundi-vegan-ace-low-top",
             "overlay_color": "#000000",
-            "overlay_opacity": 22
+            "overlay_opacity": 0
           }
         },
         "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
           "type": "promotion",
-          "disabled": true,
           "settings": {
-            "promotion_collection": "the-radiance-collection",
-            "promotion_position": 17,
-            "promotion_width": "1",
-            "image": "shopify://shop_images/ScreenShot2024-04-08at4.26.51PM.png",
-            "title": "UNIQUE GLOBAL BEAUTY",
+            "promotion_collection": "best-sellers",
+            "promotion_position": 11,
+            "promotion_width": "2",
+            "image": "shopify://shop_images/CYPRUS-TREKK-BOOT-UGC-_HAPPY.LILBIRD-1.png",
+            "title": "for going places",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "",
+            "block_link": "shopify://products/cyprus-trekk-boot",
             "overlay_color": "#000000",
-            "overlay_opacity": 15
+            "overlay_opacity": 0
           }
         },
         "promotion_crfKdz": {
           "type": "promotion",
-          "disabled": true,
           "settings": {
             "promotion_collection": "best-sellers",
-            "promotion_position": 6,
-            "promotion_width": "2",
-            "image": "shopify://shop_images/ScreenShot2024-04-08at4.34.14PM.png",
-            "title": "UNISEX SILHOUETTES",
+            "promotion_position": 21,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/Spirit_Bear_Vegan_Joggers-UGC-_thelifeofthreebeagles.png",
+            "title": "for expressing your true self",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "",
+            "block_link": "shopify://products/spirit-bear-vegan-jogger",
             "overlay_color": "#000000",
-            "overlay_opacity": 20
-          }
-        },
-        "promotion_UiR8zH": {
-          "type": "promotion",
-          "disabled": true,
-          "settings": {
-            "promotion_collection": "best-sellers",
-            "promotion_position": 15,
-            "promotion_width": "2",
-            "image": "shopify://shop_images/SOBEK-CAMPINGBOOT-SS230514-MODEL--EPI_3304.jpg",
-            "title": "INSPIRED DESIGNS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "",
-            "overlay_color": "#000000",
-            "overlay_opacity": 21
-          }
-        },
-        "promotion_rqwfRL": {
-          "type": "promotion",
-          "disabled": true,
-          "settings": {
-            "promotion_collection": "best-sellers",
-            "promotion_position": 24,
-            "promotion_width": "2",
-            "image": "shopify://shop_images/HENDRIX-SLIP-ON-SS210308-MODEL-2.jpg",
-            "title": "AUTHENTIC GLOBAL TEXTILES",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "",
-            "overlay_color": "#000000",
-            "overlay_opacity": 25
+            "overlay_opacity": 0
           }
         }
       },
@@ -141,13 +101,11 @@
         "promotion_iE6HkP",
         "promotion_LAFKer",
         "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9",
-        "promotion_crfKdz",
-        "promotion_UiR8zH",
-        "promotion_rqwfRL"
+        "promotion_crfKdz"
       ],
       "settings": {
         "full_width": true,
-        "products_per_page": 40,
+        "products_per_page": 48,
         "columns_desktop": 4,
         "pagination_type": "loadmore",
         "enable_filtering": true,

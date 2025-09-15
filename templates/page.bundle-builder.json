@@ -18,6 +18,17 @@
         "disable_bottom_spacing": false
       }
     },
+    "single_image_hnaMrG": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/Bundle_-_Summer25_1.png",
+        "image_mobile": "shopify://shop_images/Bundle_-_Summer25_2.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "17519203299e40f6e0": {
       "type": "apps",
       "blocks": {
@@ -49,6 +60,7 @@
   },
   "order": [
     "main",
+    "single_image_hnaMrG",
     "17519203299e40f6e0",
     "page_jtPX6Y"
   ]

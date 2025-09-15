@@ -33,51 +33,51 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "★★★★★ RATED 'EXCELLENT' BY THOUSANDS OF HAPPY CUSTOMERS",
+            "text": "★★★★★ RATED 'EXCELLENT' BY 7,600+ HAPPY CUSTOMERS",
             "link": "shopify://collections/best-sellers"
+          }
+        },
+        "text_CmerAE": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "FREE SHIPPING FOR ALL US ORDERS OVER $175",
+            "link": "shopify://pages/shipping"
           }
         },
         "text_xhDUtd": {
           "type": "text",
           "settings": {
             "icon": "return",
-            "text": "FREE EXCHANGES + EASY RETURNS",
+            "text": "FREE EXCHANGES + 30-DAY EASY RETURNS",
             "link": "shopify://pages/return-policy"
-          }
-        },
-        "text_CmerAE": {
-          "type": "text",
-          "settings": {
-            "icon": "box",
-            "text": "FREE US SHIPPING FOR ORDERS $175+",
-            "link": "shopify://pages/shipping"
-          }
-        },
-        "text_YePgmz": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "text": "EVERY PURCHASE PLANTS A TREE WITH TREES.ORG 🌱",
-            "link": "shopify://pages/about"
           }
         },
         "text_epRXWW": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "icon": "heart",
-            "text": "GET AN EXCLUSIVE 25% OFF CODE WHEN YOU TAKE THIS FIND-YOUR-SHOE QUIZ",
+            "icon": "shoe",
+            "text": "QUIZ: FIND THE SHOE FOR YOU IN 60 SECS",
             "link": "shopify://pages/quiz"
+          }
+        },
+        "text_KzRt4b": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "LABOR DAY SALE: 25% OFF SITEWIDE.",
+            "link": "shopify://collections/best-sellers"
           }
         }
       },
       "block_order": [
         "text_cQEaMB",
-        "text_xhDUtd",
         "text_CmerAE",
-        "text_YePgmz",
-        "text_epRXWW"
+        "text_xhDUtd",
+        "text_epRXWW",
+        "text_KzRt4b"
       ],
       "settings": {
         "announcement_bar": true,

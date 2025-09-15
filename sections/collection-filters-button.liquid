@@ -136,7 +136,7 @@
               }else{
                  if(item.includes('>')){
                     const splitUtl = item.split('>');
-                    const itemFilter = document.querySelector(`facet-filters-form input[value="${splitUtl[0].trimEnd()}"]`)
+                    const itemFilter = document.querySelector(`facet-filters-form input[data-label="${splitUtl[0].trimEnd()}"]`)
                  
                     if(itemFilter){
 
@@ -158,7 +158,7 @@
                         fragmentItemProduct.appendChild(buttonElement)
                     }
                   }else{
-                      const itemFilter = document.querySelector(`facet-filters-form input[value="${item}"]`)
+                      const itemFilter = document.querySelector(`facet-filters-form input[data-label="${item}"]`)
                       if(itemFilter){
 
                         const buttonElement = document.createElement('div')
@@ -207,7 +207,7 @@
                 item.addEventListener('click', (e) => {
                   e.preventDefault();
                   
-                  const currentFIlterCheckbox = document.querySelector(`facet-filters-form input[value="${e.currentTarget.dataset.value}"]`)
+                  const currentFIlterCheckbox = document.querySelector(`facet-filters-form input[data-label="${e.currentTarget.dataset.value}"]`)
                   
                   if(currentFIlterCheckbox.checked){
                     currentFIlterCheckbox.click();

@@ -9,61 +9,6 @@
  */
 {
   "sections": {
-    "image_banner_contain_NNhdmA": {
-      "type": "image-banner-contain",
-      "settings": {
-        "image_contain": false,
-        "button_outline": false,
-        "button_horizontal": "center",
-        "button_vertical": "end",
-        "button_text": "",
-        "button_link": "",
-        "image": "shopify://shop_images/01-01-25-EVERGREEN-2-vibe.jpg",
-        "mobile_image": "shopify://shop_images/01-01-25_EVERGREEN-MOBILE_2_Artboard_5_copy_25.jpg"
-      }
-    },
-    "16616191162185f622": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_7pmD8M": {
-          "type": "subheading",
-          "settings": {
-            "text": "inked by artists, designed for you ♥️"
-          }
-        },
-        "1661619116558a03c6-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Inkkas is a globally-inspired, independent footwear brand where every design begins as a hand-drawn work of art. We partner with artists to create original illustrations that celebrate nature, craft, and beauty around the world. Every shoe is brought to life through thoughtful design and handcrafted production, blending art with adventure in every step. Born from a love of travel and deep respect for tradition, our collections are (literally) woven with stories -- from the Andes to the Sahara, from hand-inked sketches to bold soles built for exploration. We believe in craftsmanship that matters, creativity that connects, and products that are as unique as the people who wear them. Whether you're chasing city streets or forest trails, Inkkas are made to move you -- and move with you.",
-            "size": "h4"
-          }
-        },
-        "button_9QqQHk": {
-          "type": "button",
-          "settings": {
-            "link_label": "check out our blog!",
-            "link": "shopify://blogs/blog",
-            "button_outline": false
-          }
-        }
-      },
-      "block_order": [
-        "subheading_7pmD8M",
-        "1661619116558a03c6-1",
-        "button_9QqQHk"
-      ],
-      "settings": {
-        "section_width": "full-width-row",
-        "text_width": "xlarge",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
     "video_HXbYpW": {
       "type": "video",
       "disabled": true,
@@ -80,20 +25,253 @@
         "disable_bottom_spacing": false
       }
     },
-    "video_WqRnpH": {
+    "background_video_kErFF3": {
+      "type": "background-video",
+      "disabled": true,
+      "name": "Background video",
+      "settings": {
+        "desktop_height": "desktop-height-full",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "subheading": "",
+        "heading": "",
+        "text": "",
+        "lightbox_button": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_hosted": "shopify://files/videos/MASHUP-UGC-7-2025.mp4",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "video_cGLXP6": {
       "type": "video",
       "name": "Video",
       "settings": {
-        "heading": "Shoes made to move you",
+        "heading": "",
         "heading_left": false,
-        "description": "<h3>and move <em>with</em> you</h3>",
-        "section_width": "full-width-row",
-        "video": "",
+        "description": "",
+        "section_width": "grid",
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_hosted": "shopify://files/videos/MASHUP-UGC-7-2025.mp4",
         "video_autoplay": true,
         "aspect_ratio": "3-4",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
+      }
+    },
+    "16616191162185f622": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HDEMGe": {
+          "type": "heading",
+          "settings": {
+            "text": "About Us",
+            "size": "h3"
+          }
+        },
+        "subheading_7pmD8M": {
+          "type": "subheading",
+          "settings": {
+            "text": "inked by artists, designed for you ♥️"
+          }
+        },
+        "text_gdYyhJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inkkas is a globally-inspired, independent footwear brand where every design begins as a hand-drawn work of art. We partner with artists to create original illustrations that celebrate nature, craft, and beauty around the world. Every shoe is brought to life through thoughtful design and handcrafted production, blending art with adventure in every step. Born from a love of travel and deep respect for tradition, our collections are (literally) woven with stories -- from the Andes to the Sahara, from hand-inked sketches to bold soles built for exploration. We believe in craftsmanship that matters, creativity that connects, and products that are as unique as the people who wear them. Whether you're chasing city streets or forest trails, Inkkas are made to move you -- and move with you.</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HDEMGe",
+        "subheading_7pmD8M",
+        "text_gdYyhJ"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "multicolumn_deWBge": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_gmh9d4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
+            "image_full_width": false,
+            "retina": true,
+            "title": "Art You Can Wear",
+            "text": "<p>We collaborate with talented artists to create one-of-a-kind designs that start as hand-drawn works of art. Every shoe is more than footwear — it’s a wearable canvas that connects you to places and people across the globe. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qLhgRr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/5W1A8149.jpg",
+            "image_full_width": false,
+            "retina": true,
+            "title": "Step Into the World",
+            "text": "<p>Every pair of shoes tells a story — inked by artists, inspired by the world, and crafted to take you on your next adventure. Our collections celebrate the colors, textures, and patterns of our planet.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aK6FzF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/making_of_the_joggers.gif",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Crafted with Care",
+            "text": "<p>Each pair is handcrafted in Latin America, using premium materials and time-honored techniques. We believe in slow fashion — making shoes with integrity, built to last, and designed for comfort from the very first step.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_gmh9d4",
+        "column_qLhgRr",
+        "column_aK6FzF"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_GnLaUf": {
+      "type": "rich-text",
+      "blocks": {
+        "button_G8Aczt": {
+          "type": "button",
+          "settings": {
+            "link_label": "READ MORE ON OUR BLOG",
+            "link": "shopify://blogs/blog",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "button_G8Aczt"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "scrolling_text_3jYpcV": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_iiJGwb": {
+          "type": "text",
+          "settings": {
+            "text": "Designed to make your feet & your heart happy",
+            "link": "",
+            "outline_text": true
+          }
+        },
+        "text_BLjf6T": {
+          "type": "text",
+          "settings": {
+            "text": "Designed to make your feet & your heart happy",
+            "link": "",
+            "outline_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_iiJGwb",
+        "text_BLjf6T"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "text_size": 40,
+        "text_uppercase": false,
+        "image_size": "large",
+        "color_bg": "#c3d4b6",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "scrolling_text_XQmKrT": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_CQe7M9": {
+          "type": "text",
+          "settings": {
+            "text": "Shoes that feel good for the sole",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_xtkrxC": {
+          "type": "text",
+          "settings": {
+            "text": "Shoes that feel good for the sole",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_CQe7M9",
+        "text_xtkrxC"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "right",
+        "speed": "20s",
+        "text_size": 40,
+        "text_uppercase": false,
+        "image_size": "large",
+        "color_bg": "#f5f3ef",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "image_with_text_i7wJkM": {
@@ -106,16 +284,31 @@
             "retina": true
           }
         },
+        "heading_wnxVGx": {
+          "type": "heading",
+          "settings": {
+            "text": "Walking the Talk",
+            "heading_size": "h3"
+          }
+        },
+        "subheading_gBj8Hx": {
+          "type": "subheading",
+          "settings": {
+            "text": "ONE SHOE ONE TREE"
+          }
+        },
         "text_aPJiCC": {
           "type": "text",
           "settings": {
-            "text": "<p>Inkkas plants one tree for every shoe purchase as part of the <em><strong>One Shoe One Tree Project</strong></em><em> </em>with <a href=\"https://trees.org/\" target=\"_blank\" title=\"https://trees.org/\">Trees For The Future (trees.org).</a> Over the years, this has amounted to more than <strong>445,000 trees</strong>! The globe as our muse, we are committed to improving our environment and enriching our communities through environmental awareness and action. Together with your help, we are working to reforest the world and develop more sustainable agricultural infrastructure for communities around the globe. Thank you!</p>",
+            "text": "<p>For every purchase, we plant one tree through our <em><strong>OneShoeOneTree</strong></em>™ program— helping to restore forests, protect biodiversity, and fight climate change. Over the years, this has amounted to more than <strong>445,000 trees planted</strong>! </p><p>The globe as our muse, we are committed to improving our environment and enriching our communities through responsible choices and action. That is why, in addition to tree planting, we make our collections in small batches & allow pre-order (limits overproduction and waste), donate worn pairs to our partner Soles4Souls for refurbishment to those in need, and ensure fair and ethical practices across our supply chain. Thank you for your support!</p>",
             "description_size": "small"
           }
         }
       },
       "block_order": [
         "image_pAw6HH",
+        "heading_wnxVGx",
+        "subheading_gBj8Hx",
         "text_aPJiCC"
       ],
       "settings": {
@@ -123,7 +316,7 @@
         "use_video": false,
         "video": "",
         "video_autoplay": false,
-        "video_controls": true,
+        "video_controls": false,
         "height": "adapt",
         "desktop_image_width": "medium",
         "section_width": "grid",
@@ -133,7 +326,7 @@
         "color_text": "#151515",
         "color_border": "#e2e2e2",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "16618593470c5f63bd": {
@@ -310,6 +503,38 @@
         "disable_bottom_spacing": true
       }
     },
+    "image_banner_contain_NNhdmA": {
+      "type": "image-banner-contain",
+      "settings": {
+        "image_contain": false,
+        "button_outline": false,
+        "button_horizontal": "center",
+        "button_vertical": "end",
+        "button_text": "",
+        "button_link": "",
+        "image": "shopify://shop_images/01-01-25-EVERGREEN-2-vibe.jpg",
+        "mobile_image": "shopify://shop_images/01-01-25_EVERGREEN-MOBILE_2_Artboard_5_copy_25.jpg"
+      }
+    },
+    "featured_blog_X8TVad": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "The Inkkas Journal",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "blog": "blog",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "show_date": false,
+        "show_excerpt": true,
+        "show_view_all": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "1661619177029ffd60": {
       "type": "gallery",
       "blocks": {
@@ -376,40 +601,25 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
-    },
-    "featured_blog_X8TVad": {
-      "type": "featured-blog",
-      "disabled": true,
-      "settings": {
-        "heading": "The Inkkas Journal",
-        "heading_left": false,
-        "description": "",
-        "full_width": true,
-        "blog": "blog",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "mobile_swipe": true,
-        "image_ratio": "square",
-        "show_date": false,
-        "show_excerpt": true,
-        "show_view_all": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
     }
   },
   "order": [
-    "image_banner_contain_NNhdmA",
-    "16616191162185f622",
     "video_HXbYpW",
-    "video_WqRnpH",
+    "background_video_kErFF3",
+    "video_cGLXP6",
+    "16616191162185f622",
+    "multicolumn_deWBge",
+    "rich_text_GnLaUf",
+    "scrolling_text_3jYpcV",
+    "scrolling_text_XQmKrT",
     "image_with_text_i7wJkM",
     "16618593470c5f63bd",
     "16623735222f31e80e",
     "166161906436c7d4d0",
     "16623736356fb1e92f",
     "1661619131dc23111f",
-    "1661619177029ffd60",
-    "featured_blog_X8TVad"
+    "image_banner_contain_NNhdmA",
+    "featured_blog_X8TVad",
+    "1661619177029ffd60"
   ]
 }

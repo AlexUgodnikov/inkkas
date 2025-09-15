@@ -141,31 +141,86 @@
     {%- when 'inventory_level' -%}
       {% render 'product-inventory-notice', product: product, section: section, block: block %}
     {%- when 'variant_picker' -%}
-      {% assign additionalProducts = product.metafields.custom.product_colors %}
-      {% assign additionalProductsCount = additionalProducts | split: ',' %}
+      
+      {% if product.metafields.custom.metaobject_colors != blank and block.settings.show_color_metaobject %}
 
-      {% if additionalProductsCount.size > 0 %}
+          <div class="product__custom-colors-title">
+            Color:
+            <span class="form__label__value js-metaobjectcolor-label">
+              {% if product.metafields.custom.color_custom_title != blank %}
+                {{ product.metafields.custom.color_custom_title }}
+              {% else %}
+                {% assign product_title_first_word = product.title | split: ' ' | first %}
+                {{ product_title_first_word }}
+              {% endif %}
+            </span>
+          </div>
+          
+          <div class="product__custom-colors metaobjects-colors-links">
+            {% for item in product.metafields.custom.metaobject_colors.value.products.value %}
+              <a
+                class="product__custom-color {% if product.id == item.id %} active{% endif %}"
+                href="{{ item.url }}"
+                data-name=" {% if item.metafields.custom.color_custom_title != blank %}
+                {{ item.metafields.custom.color_custom_title }}
+              {% else %}
+                {% assign product_title_first_word = item.title | split: ' ' | first %}
+                {{ product_title_first_word }}
+              {% endif %}"
+                style="background-image: url('{% if item.metafields.custom.color_custom_image != blank %}{{ item.metafields.custom.color_custom_image | img_url: '100x100', crop: 'center' }}{% else %}{{ item.media[0].preview_image | img_url: '100x100', crop: 'center' }}{% endif %} center/100%;')">
+                {% comment %} <img src="{% if item.metafields.custom.color_custom_image != blank %}{{ item.metafields.custom.color_custom_image | img_url: '100x100', crop: 'center' }}{% else %}{{ item.media[0].preview_image | img_url: '100x100', crop: 'center' }}{% endif %}" alt=""> {% endcomment %}
+              </a>
+            {% endfor %}
+          </div>
 
-        <div class="product__custom-colors-title">
-          Color:
-          <span class="form__label__value">
-            {% if product.metafields.custom.color_custom_title != blank %}
-              {{ product.metafields.custom.color_custom_title }}
-            {% else %}
-              {% assign product_title_first_word = product.title | split: ' ' | first %}
-              {{ product_title_first_word }}
-            {% endif %}
-          </span>
-        </div>
-        <div class="product__custom-colors">
-          <div class="product__custom-color active" style="background-image: url('{{ product.media[0].preview_image | img_url: 'master' }} center/100%;')"></div>
-          {% for item in additionalProducts.value %}
-            {% comment %}{{ item.metafields.custom.color_custom_image }}{% endcomment %}
-            {% comment %}{{ item.metafields.custom.color_custom_title }}{% endcomment %}
-            <a class="product__custom-color" href="{{ item.url }}" style="background-image: url('{% if item.metafields.custom.color_custom_image != blank %}{{ item.metafields.custom.color_custom_image | img_url: 'master' }}{% else %}{{ item.media[0].preview_image | img_url: 'master' }}{% endif %} center/100%;')"></a>
-          {% endfor %}
-        </div>
-      {% endif %}
+          <script>
+              document.addEventListener("DOMContentLoaded", function() {
+                    
+                  const metaobjectColors = document.querySelectorAll('.metaobjects-colors-links a')
+                  const colorLabel = document.querySelector('.js-metaobjectcolor-label')
+                  if(metaobjectColors && colorLabel){
+                    metaobjectColors.forEach(item => {
+                      item.addEventListener('mouseenter', (e) => {
+                        colorLabel.textContent = item.dataset.name
+                      })
+                    })
+                  }
+              })
+          </script>
+
+
+        {% else %}
+
+          {% assign additionalProducts = product.metafields.custom.product_colors %}
+          {% assign additionalProductsCount = additionalProducts | split: ',' %}
+
+          {% if additionalProductsCount.size > 0 %}
+
+            <div class="product__custom-colors-title">
+              Color:
+              <span class="form__label__value">
+                {% if product.metafields.custom.color_custom_title != blank %}
+                  {{ product.metafields.custom.color_custom_title }}
+                {% else %}
+                  {% assign product_title_first_word = product.title | split: ' ' | first %}
+                  {{ product_title_first_word }}
+                {% endif %}
+              </span>
+            </div>
+            <div class="product__custom-colors">
+              <div class="product__custom-color active" style="background-image: url('{{ product.media[0].preview_image | img_url: 'master' }} center/100%;')"></div>
+              {% for item in additionalProducts.value %}
+                {% comment %}{{ item.metafields.custom.color_custom_image }}{% endcomment %}
+                {% comment %}{{ item.metafields.custom.color_custom_title }}{% endcomment %}
+                <a
+                  class="product__custom-color"
+                  href="{{ item.url }}"
+                  style="background-image: url('{% if item.metafields.custom.color_custom_image != blank %}{{ item.metafields.custom.color_custom_image | img_url: 'x100' }}{% else %}{{ item.media[0].preview_image | img_url: 'x100' }}{% endif %} center/100%;')"></a>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+        {% endif %}
 
       {%- unless product.has_only_default_variant -%}
         {%- liquid
@@ -309,6 +364,14 @@
                             {% if tag contains 'western-size-chart' %}
                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
                               {% render 'western-popup-size-chart', product_id: product.id, product: product %}
+                            {% endif %}
+                          {% endfor %}
+
+                        {% elsif product_tags contains 'coverups-size-chart' %}
+                          {% for tag in product.tags %}
+                            {% if tag contains 'coverups-size-chart' %}
+                              <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                              {% render 'coverups-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
                        
@@ -767,6 +830,15 @@
                   {% render 'western-popup-size-chart', product_id: product.id, product: product %}
                 {% endif %}
               {% endfor %}
+
+            {% elsif product_tags contains 'coverups-size-chart' %}
+                          {% for tag in product.tags %}
+                            {% if tag contains 'coverups-size-chart' %}
+                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Cover Ups. See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'coverups-size-chart', product_id: product.id, product: product %}
+                            {% endif %}
+                          {% endfor %}
 
             {% elsif product_tags contains 'trainer-size-chart' %}
               {% for tag in product.tags %}

@@ -9,72 +9,9 @@
  */
 {
   "sections": {
-    "countdown_banner_Nkdg4Y": {
-      "type": "countdown-banner",
-      "disabled": true,
-      "settings": {
-        "section_width": "full-width-row-full",
-        "section_layout": "horizontal",
-        "desktop_height": "desktop-height-auto",
-        "mobile_height": "mobile-height-auto",
-        "subheading": "The sun sets on this deal TODAY",
-        "heading": "25% OFF SITEWIDE",
-        "heading_size": "h2",
-        "content": "Use code: JULY4",
-        "content_size": "small",
-        "button_text": "",
-        "button_link": "shopify://collections/best-sellers",
-        "timer_year": 2024,
-        "timer_month": "07",
-        "timer_day": "07",
-        "timer_hour": "22",
-        "timer_minute": "59",
-        "color_bg": "#e9e3e0",
-        "color_text": "#3758c9",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
     "breadcrumbs": {
       "type": "breadcrumbs",
       "settings": {}
-    },
-    "rich_text_wii9BR": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_VXFWxk": {
-          "type": "subheading",
-          "settings": {
-            "text": "Handcrafted. Bold. Made to express your one-of-a-kind soul."
-          }
-        },
-        "heading_FxjrUJ": {
-          "type": "heading",
-          "settings": {
-            "text": "Not Just Shoes--A Work of Art You Can Wear",
-            "size": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_VXFWxk",
-        "heading_FxjrUJ"
-      ],
-      "disabled": true,
-      "name": "Rich text",
-      "settings": {
-        "section_width": "grid",
-        "text_width": "xlarge",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
     },
     "main-product": {
       "type": "main-product",
@@ -106,6 +43,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "show_color_metaobject": true,
             "picker_type": "button",
             "color_picker": true,
             "color_picker_size": "regular",
@@ -130,30 +68,21 @@
           }
         },
         "essential_countdown_app_block_fzdFNN": {
-          "type": "shopify://apps/countdown-timer-essential/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
             "id": "cmd0q9kjo00gw10myw4fk3sg5"
           }
         },
-        "countdown_timer_essential_app_block_awDmiX": {
-          "type": "shopify://apps/countdown-timer-essential/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+        "essential_countdown_timer_app_block_9LiqdH": {
+          "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
-            "id": "cmdinyvg800634ofkpqrbmula"
+            "id": "cmeth6d6i005v6xraetjg0e9w"
           }
         },
         "essential_announcer_app_block_CEF9Vm": {
           "type": "shopify://apps/essential-announcer/blocks/app-block/93b5429f-c8d6-4c33-ae14-250fd84f361b",
-          "disabled": true,
           "settings": {
-            "id": "eeade253-18f0-444a-9638-701013d8674b"
-          }
-        },
-        "text_rb3fi9": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Every purchase plants a 🌱 and supports ethical, small-batch production.",
-            "text_style": "style_body"
+            "id": "9861da9b-222f-4be4-94be-77b18577e623"
           }
         },
         "custom_liquid_JfYWyP": {
@@ -515,9 +444,8 @@
         "preorder_me_product_button_t8zPaL",
         "buy_buttons",
         "essential_countdown_app_block_fzdFNN",
-        "countdown_timer_essential_app_block_awDmiX",
+        "essential_countdown_timer_app_block_9LiqdH",
         "essential_announcer_app_block_CEF9Vm",
-        "text_rb3fi9",
         "custom_liquid_JfYWyP",
         "custom_liquid_Ydcihg",
         "collapsible_tab_2_hxiDMm",
@@ -567,47 +495,6 @@
         "video_autoplay": true
       }
     },
-    "logo_list_TEgBMb": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_iFq4CT": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/handcraftedicon.png",
-            "link": ""
-          }
-        },
-        "logo_VnzAAm": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/unnamed_05965f59-7377-41de-890a-01af14dd90ad.png",
-            "link": ""
-          }
-        },
-        "logo_6Bartj": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/unnamed_c4a9dff1-9922-4e24-8d6b-bd95ce87a002.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_iFq4CT",
-        "logo_VnzAAm",
-        "logo_6Bartj"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "description": "",
-        "columns": 3,
-        "mobile_swipe": false,
-        "center_align": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "single_image_EGQtMA": {
       "type": "single-image",
       "name": "Single image",
@@ -616,16 +503,6 @@
         "full_width": false,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
-      }
-    },
-    "spacer_ER4pCJ": {
-      "type": "spacer",
-      "disabled": true,
-      "settings": {
-        "spacer_mobile": 50,
-        "spacer_desktop": 100,
-        "border_separator": false,
-        "border_separator_full": false
       }
     },
     "how_it_looks_on_you_wEwKFG": {
@@ -1137,16 +1014,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "spacer_pgAtTX": {
-      "type": "spacer",
-      "disabled": true,
-      "settings": {
-        "spacer_mobile": 50,
-        "spacer_desktop": 50,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -1169,16 +1036,6 @@
         "mobile_swipe": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
-      }
-    },
-    "1662552569cce2536d": {
-      "type": "spacer",
-      "disabled": true,
-      "settings": {
-        "spacer_mobile": 25,
-        "spacer_desktop": 5,
-        "border_separator": false,
-        "border_separator_full": true
       }
     },
     "image_with_text_slideshow_KJjN8y": {
@@ -1466,23 +1323,17 @@
     }
   },
   "order": [
-    "countdown_banner_Nkdg4Y",
     "breadcrumbs",
-    "rich_text_wii9BR",
     "main-product",
-    "logo_list_TEgBMb",
     "single_image_EGQtMA",
-    "spacer_ER4pCJ",
     "how_it_looks_on_you_wEwKFG",
     "rich_text_PHjEmh",
     "1747249189d6f27eae",
     "custom_liquid_qqHfLi",
     "17443016606c46dac5",
     "text_with_icons_MRQx4U",
-    "spacer_pgAtTX",
     "product-recommendations",
     "recently_viewed_products_HPzhR7",
-    "1662552569cce2536d",
     "image_with_text_slideshow_KJjN8y",
     "gallery_zNTQNR",
     "collapsible_content_GTjkiJ",
