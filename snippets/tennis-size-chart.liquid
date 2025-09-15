@@ -1,0 +1,19 @@
+<div class="js-sizechart-lightbox" id="size-chart{{ product.id }}" style="display: none">
+  <div class="size-chart-wrap hi">
+    {% assign product_tags = product.tags | join: ' ' %}
+    {% if product_tags contains 'tennis-size-chart' %}
+      {% for tag in product.tags %}
+        {% if tag contains 'tennis-size-chart' %}
+          {% assign tennis-size-chart = tag | handle | remove: 'meta-size-chart-' %}
+          <h5 class="center hi">{{ pages[tennis-size-chart].title }}</h5>
+          <div class="feature_divider"></div>
+          {{ pages[tennis-size-chart].content | replace: "<a", "<span class='fancybox-custom-link'" | replace: "</a", "</span" }}
+        {% endif %}
+      {% endfor %}
+    {% elsif settings.tennis-size-chart != blank %}
+      <h5 class="center">{{ pages[settings.tennis-size-chart].title }}</h5>
+      <div class="feature_divider"></div>
+      {{ pages[settings.tennis-size-chart].content | replace: "<a", "<span class='fancybox-custom-link'" | replace: "</a", "</span" }}
+    {% endif %}
+  </div>
+</div>

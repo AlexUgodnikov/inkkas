@@ -1472,3 +1472,31 @@ a.mobile-link-caps img {
 .rebuy-product-options .custom-option-wrapper + .rebuy-select{
   display: none;
 }
+
+/* Product quantity */
+
+.inventory_level-wrp{
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+.inventory-custom-code{
+  line-height: 1;
+}
+.label-quantity{
+  font-size:16px;
+  margin-bottom:7px;
+}
+.label-quantity.label-selling-fast{
+  color:#279A4B;
+}
+.label-quantity.label-discount{
+  color:#9b5e51;
+}
+@media(max-width:550px){
+  .inventory_level-wrp{
+        gap: 0;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+}
