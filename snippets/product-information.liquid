@@ -374,6 +374,14 @@
                               {% render 'coverups-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
+
+                        {% elsif product_tags contains 'tennis-size-chart' %}
+                          {% for tag in product.tags %}
+                            {% if tag contains 'tennis-size-chart' %}
+                              <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                              {% render 'tennis-size-chart', product_id: product.id, product: product %}
+                            {% endif %}
+                          {% endfor %}
                        
                         {% elsif product_tags contains 'trainer-size-chart' %}
                           {% for tag in product.tags %}
@@ -839,6 +847,15 @@
                   {% render 'coverups-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
+
+            {% elsif product_tags contains 'tennis-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'tennis-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Tennis size chart. See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'tennis-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
 
             {% elsif product_tags contains 'trainer-size-chart' %}
               {% for tag in product.tags %}

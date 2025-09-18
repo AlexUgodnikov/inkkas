@@ -97,7 +97,7 @@
           "settings": {
             "heading": "Oh no! I made a mistake in my order. what should I do?",
             "open": false,
-            "content": "<p>Don't worry! If you made a mistake in your order such as putting in the wrong shipping address or choosing the wrong size, please contact <a href=\"mailto:support@inkkas.com\">support@inkkas.com</a> as soon as possible and we will do everything we can to correct your order if it has not already been shipped.</p>",
+            "content": "<p>Don't worry! If you made a mistake in your order such as putting in the wrong shipping address or choosing the wrong size, please contact <a href=\"mailto:help@inkkas.com\" target=\"_blank\" title=\"mailto:help@inkkas.com\">help@inkkas.com</a> as soon as possible and we will do everything we can to correct your order if it has not already been shipped.</p>",
             "page": ""
           }
         },
@@ -115,7 +115,7 @@
           "settings": {
             "heading": "I just ordered a pre-order item. when will it arrive?",
             "open": false,
-            "content": "<p>Your pre-ordered shoes will be shipped according to the date stated on the product page. If you do not recall the estimated shipping date, feel free to request an ETA for your order from our customer service team at <a href=\"mailto:support@inkkas.com\">support@inkkas.com</a>.</p>",
+            "content": "<p>Your pre-ordered shoes will be shipped according to the date stated on the product page. If you do not recall the estimated shipping date, feel free to request an ETA for your order from our customer service team at <a href=\"mailto:help@inkkas.com\" target=\"_blank\" title=\"mailto:help@inkkas.com\">help@inkkas.com</a>.</p>",
             "page": ""
           }
         },
@@ -124,7 +124,7 @@
           "settings": {
             "heading": "I have a sizing question. Who can help?",
             "open": false,
-            "content": "<p>We created detailed size guides on each product page for your quick reference. Please refer to those for size and fit information for a particular shoe. If you still have questions or need guidance, feel free to email <a href=\"mailto:support@inkkas.com\">support@inkkas.com</a>.</p>",
+            "content": "<p>We created detailed size guides on each product page for your quick reference. Please refer to those for size and fit information for a particular shoe. If you still have questions or need guidance, feel free to email <a href=\"mailto:help@inkkas.com\" target=\"_blank\" title=\"mailto:help@inkkas.com\">help@inkkas.com</a>.</p>",
             "page": ""
           }
         },
@@ -214,7 +214,7 @@
           "settings": {
             "heading": "I would like to buy an Inkkas gift certificate to offer as a gift. How do I do that?",
             "open": false,
-            "content": "<p>E-gifts cards are available <a href=\"/products/gift-card\" title=\"Inkkas Gift Card\">here</a>. You can also find them under the shop tab on our website. They are a great gift option for holidays and birthdays! </p>",
+            "content": "<p>E-gifts cards are available <a href=\"/products/gift-card\" target=\"_blank\" title=\"Inkkas Gift Card\">here</a>. You can also find them under the shop tab on our website. They are a great gift option for holidays and birthdays! </p>",
             "page": ""
           }
         },
@@ -232,7 +232,7 @@
           "settings": {
             "heading": "I have contacted Inkkas customer service, when will I hear back?",
             "open": false,
-            "content": "<p>Inkkas support agents are available between 9:00am to 5:00pm EST, Monday to Saturday. We are committed to responding to inquiries within 24 to 48 hours during business hours. You can reach us at <a href=\"mailto:support@inkkas.com\">support@inkkas.com</a>.  Please note that we do not respond to inquiries during weekends and/or holidays. For urgent matters, you can also email ops@inkkas.com.</p>",
+            "content": "<p>Inkkas support agents are available between 9:00am to 5:00pm EST, Monday to Saturday. We are committed to responding to inquiries within 24 to 48 hours during business hours. You can reach us at <a href=\"mailto:help@inkkas.com\" target=\"_blank\" title=\"mailto:help@inkkas.com\">help@inkkas.com</a>.  Please note that we do not respond to inquiries during weekends and/or holidays. For urgent matters, you can also email ops@inkkas.com.</p>",
             "page": ""
           }
         },
@@ -241,7 +241,7 @@
           "settings": {
             "heading": "Who owns Inkkas?",
             "open": false,
-            "content": "<p>Inkkas is owned & operated by a diverse collective of individuals – we are a team united by a shared belief in the power of <strong>globally inclusive & joyful</strong> representation in fashion, and we are on a mission to do so in a way that <strong>respects people & our planet</strong>. We hope you enjoy these fun, global, colorful designs!</p>",
+            "content": "<p>Inkkas is an independent brand -- family-owned & operated, with long-running relationships & partnerships with artists and shoemakers. </p><p>Our team is united by a belief in the power of bold, artful & one-of-a-kind expression in footwear. We are on a mission to do so in a way that respects people & our planet. We hope you enjoy our hand-inked & handcrafted designs!</p>",
             "page": ""
           }
         }

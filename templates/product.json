@@ -103,11 +103,11 @@
           "type": "collapsible_tab_2",
           "settings": {
             "idname": "",
-            "open": false,
+            "open": true,
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Artful design",
+            "heading": "Description",
             "show_description": true,
             "description_type": "show_before_ul",
             "content": "",
@@ -122,7 +122,7 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Product features",
+            "heading": "Features",
             "show_description": true,
             "description_type": "show_ul",
             "content": "",
@@ -166,9 +166,9 @@
             "idname": "",
             "open": false,
             "show_okendo_reviews": false,
-            "show_only_with_tag": true,
-            "product_tag": "trainer-size-chart",
-            "heading": "",
+            "show_only_with_tag": false,
+            "product_tag": "runner-size-chart",
+            "heading": "Care Instructions",
             "show_description": false,
             "description_type": "full_description",
             "content": "",
@@ -401,6 +401,21 @@
             "page": "care-instructions-2"
           }
         },
+        "collapsible_tab_2_x3xKnb": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "idname": "",
+            "open": false,
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "tennis-size-chart",
+            "heading": "",
+            "show_description": false,
+            "description_type": "full_description",
+            "content": "",
+            "page": "care-instructions-2"
+          }
+        },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
           "settings": {}
@@ -468,6 +483,7 @@
         "collapsible_tab_2_9zwncR",
         "collapsible_tab_2_nA4Rag",
         "collapsible_tab_2_dihdcH",
+        "collapsible_tab_2_x3xKnb",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
         "image_6idBVE",
         "collapsible_tab_2_EG6eBL",

@@ -12,22 +12,21 @@
     "slideshow_rcFRQA": {
       "type": "slideshow",
       "blocks": {
-        "slide_VXkaUj": {
+        "slide_pfrYz8": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/2025_Sept_Clearance_Sale_Banner_2.gif",
-            "mobile_image": "shopify://shop_images/2025_Sept_Clearance_Sale_Banner_1.gif",
-            "slide_link": "shopify://collections/clearance",
+            "image": "shopify://shop_images/FALL_25_Essence_Collection_1.png",
+            "mobile_image": "shopify://shop_images/FALL_25_Essence_Collection_2.png",
+            "slide_link": "shopify://collections/new-arrivals",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "",
             "heading": "",
-            "heading_size": "h1-xlarge",
+            "heading_size": "h2",
             "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
+            "description_size": "large",
+            "content_position": "bottom-left",
+            "text_alignment": "left",
             "content_size": "medium",
             "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0,
@@ -43,12 +42,13 @@
         "slide_xeyrLq": {
           "type": "slide",
           "settings": {
-            "slide_link": "shopify://collections/all-boots",
-            "video_background": true,
+            "image": "shopify://shop_images/FALL_25_Essence_Collection_1.png",
+            "mobile_image": "shopify://shop_images/FALL_25_Essence_Collection.png",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "video_hosted": "shopify://files/videos/Evestar_Inkkas_Andes Camping Boot_Lauren_EDIT.mp4",
-            "subheading": "HELLO FALL",
-            "heading": "Take 20% Off \nwith code: \nFALLFORWARD20",
+            "subheading": "",
+            "heading": "",
             "heading_size": "h2",
             "content": "",
             "description_size": "large",
@@ -58,8 +58,8 @@
             "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0,
             "overlay_gradient": "transparent",
-            "button_1_text": "Shop Boots →",
-            "button_1_link": "shopify://collections/all-boots",
+            "button_1_text": "",
+            "button_1_link": "",
             "button_1_outline": false,
             "button_2_text": "",
             "button_2_link": "",
@@ -68,15 +68,15 @@
         }
       },
       "block_order": [
-        "slide_VXkaUj",
+        "slide_pfrYz8",
         "slide_xeyrLq"
       ],
       "name": "Slideshow",
       "settings": {
-        "desktop_height": "desktop-height-full",
+        "desktop_height": "desktop-height-image",
         "mobile_height": "mobile-height-image",
         "full_width": true,
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_length": 3,
         "transition": "swipe",
         "disable_top_spacing": true,
@@ -101,6 +101,61 @@
         "spacer_desktop": 55,
         "border_separator": true,
         "border_separator_full": false
+      }
+    },
+    "featured_collection_ctC9Gp": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "heading": "Shop New for Fall '25",
+        "heading_left": true,
+        "description": "<p><em>Free-spirited design meets adventure-ready comfort in our ALL NEW Essence Collection.</em></p>",
+        "full_width": true,
+        "collection": "essence-collection",
+        "display_type": "carousel",
+        "product_limit": 12,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_AUmbth": {
+      "type": "rich-text",
+      "blocks": {
+        "button_khEEE3": {
+          "type": "button",
+          "settings": {
+            "link_label": "SHOP THE COLLECTION →",
+            "link": "shopify://collections/new-arrivals",
+            "button_outline": false
+          }
+        },
+        "text_kREVw6": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "button_khEEE3",
+        "text_kREVw6"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "grid",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "featured_collection_tJhHEP": {
@@ -154,7 +209,7 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     },
@@ -164,9 +219,9 @@
         "slide_rBJRLg": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Abacaxi_-_2025_Sept_end_of_season_Clearance_Sale_Banner_1.gif",
-            "mobile_image": "shopify://shop_images/Abacaxi_-_2025_Sept_end_of_season_Clearance_Sale_Banner.gif",
-            "slide_link": "shopify://collections/clearance",
+            "image": "shopify://shop_images/FALL_25_Essence_Collection_4.png",
+            "mobile_image": "shopify://shop_images/FALL_25_Essence_Collection_3.png",
+            "slide_link": "shopify://collections/new-arrivals",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "",
@@ -229,61 +284,6 @@
         "autoplay_length": 3,
         "transition": "swipe",
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
-    "featured_collection_ctC9Gp": {
-      "type": "featured-collection",
-      "name": "Featured collection",
-      "settings": {
-        "heading": "Shop up to 60% Off",
-        "heading_left": true,
-        "description": "",
-        "full_width": true,
-        "collection": "clearance",
-        "display_type": "carousel",
-        "product_limit": 12,
-        "columns_desktop": 4,
-        "show_view_all": false,
-        "mobile_swipe": true,
-        "show_progress_bar": false,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "rich_text_AUmbth": {
-      "type": "rich-text",
-      "blocks": {
-        "button_khEEE3": {
-          "type": "button",
-          "settings": {
-            "link_label": "SHOP CLEARANCE SALE →",
-            "link": "shopify://collections/clearance",
-            "button_outline": false
-          }
-        },
-        "text_kREVw6": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "custom_liquid": "",
-            "size": "text-size-regular"
-          }
-        }
-      },
-      "block_order": [
-        "button_khEEE3",
-        "text_kREVw6"
-      ],
-      "settings": {
-        "section_width": "grid",
-        "text_width": "grid",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
@@ -445,6 +445,16 @@
         "color_text": "#151515",
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
+      }
+    },
+    "spacer_xtxPaB": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": true,
+        "border_separator_full": false
       }
     },
     "rich_text_PxDcMg": {
@@ -1673,27 +1683,17 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "spacer_xtxPaB": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 50,
-        "spacer_desktop": 100,
-        "border_separator": true,
-        "border_separator_full": false
-      }
     }
   },
   "order": [
     "slideshow_rcFRQA",
     "single_image_KYnHUq",
     "spacer_X9yDga",
+    "featured_collection_ctC9Gp",
+    "rich_text_AUmbth",
     "featured_collection_tJhHEP",
     "rich_text_KC4Kf7",
     "slideshow_CQXNHG",
-    "featured_collection_ctC9Gp",
-    "rich_text_AUmbth",
     "rich_text_74Xzqb",
     "collection_list_ypFaFe",
     "collection_list_jkqahH",
