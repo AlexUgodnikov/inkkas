@@ -1472,3 +1472,50 @@ a.mobile-link-caps img {
 .rebuy-product-options .custom-option-wrapper + .rebuy-select{
   display: none;
 }
+
+/* Product quantity */
+.product-inventory-notice{
+  margin-right:15px;
+  margin-bottom: 0!important;
+}
+.product-inventory-notice .product-inventory-notice--text{
+  margin-bottom: 0;
+}
+.inventory_level-wrp{
+  position: relative;  
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-bottom:15px;
+}
+.inventory-custom-code{
+  line-height: 1.1;
+  max-width: 200px;
+  text-align: center;
+}
+.inventory-custom-code .product-card__tag-info{
+  display: block;
+  line-height: 1.1;
+  max-width: 200px;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #2f2f2f;
+  border-radius: 100px;
+}
+.label-quantity{
+  font-size:16px;
+  margin-bottom:7px;
+}
+.inventory-custom-code .product-card__tag-info{
+  margin:0;
+  color:#fff!important;
+}
+
+
+@media(max-width:550px){
+  .inventory_level-wrp{
+        gap: 0;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+}

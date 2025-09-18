@@ -181,6 +181,17 @@
       }
     }
   ],
-  "variant": [],
+  "variant": [
+    {
+      "key": "variationPrices",
+      "namespace": "intelligems",
+      "name": "PriceTestVariant",
+      "description": "Metafields configuring product variant prices per variation",
+      "type": {
+        "name": "json",
+        "category": "JSON"
+      }
+    }
+  ],
   "shop": []
 }

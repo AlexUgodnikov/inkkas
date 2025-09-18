@@ -139,7 +139,14 @@
     {%- when 'description' -%}
       <div class="product-short-description rte" {{ block.shopify_attributes }}>{{ product.description }}</div>
     {%- when 'inventory_level' -%}
-      {% render 'product-inventory-notice', product: product, section: section, block: block %}
+      <div class="inventory_level-wrp">
+        {% render 'product-inventory-notice', product: product, section: section, block: block %}
+       
+          <div class="inventory-custom-code">
+            {% render 'product-tags-label', product: product %}
+          </div>
+        
+      </div>
     {%- when 'variant_picker' -%}
       
       {% if product.metafields.custom.metaobject_colors != blank and block.settings.show_color_metaobject %}

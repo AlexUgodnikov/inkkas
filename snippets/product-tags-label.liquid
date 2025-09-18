@@ -1,0 +1,7 @@
+   {%- if settings.prd_tag != blank and settings.prd_text != blank and product.tags contains settings.prd_tag -%}		
+			<span class="product-card__tag-info" style="color: {{ settings.color_txt1 }}">{{ settings.prd_text }}</span>
+			{%- elsif settings.prd_tag2 != blank and settings.prd_text2 != blank and product.tags contains settings.prd_tag2 -%}
+			<span class="product-card__tag-info" style="color: {{ settings.color_txt2 }}">{{ settings.prd_text2 }}</span>	
+			{%- elsif settings.prd_tag3 != blank and settings.prd_text3 != blank and product.tags contains settings.prd_tag3 -%}
+			<span class="product-card__tag-info" style="color: {{ settings.color_txt3 }}">{{ settings.prd_text3 }}</span>	
+		{%- endif -%}
