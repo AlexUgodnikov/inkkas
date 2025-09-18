@@ -79,11 +79,18 @@
             "outline_text": false
           }
         },
-        "text_CDChUV": {
+        "text_mjVWWc": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "{{ collection.title }}",
+            "text": "NEW NEW NEW",
+            "link": "",
+            "outline_text": true
+          }
+        },
+        "text_jgr8qQ": {
+          "type": "text",
+          "settings": {
+            "text": "FALL 2025",
             "link": "",
             "outline_text": false
           }
@@ -92,7 +99,8 @@
       "block_order": [
         "text_gBxwDn",
         "text_Df6w4b",
-        "text_CDChUV"
+        "text_mjVWWc",
+        "text_jgr8qQ"
       ],
       "settings": {
         "height": "height-auto",
@@ -110,169 +118,11 @@
         "disable_bottom_spacing": true
       }
     },
-    "slideshow_77EGb9": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_gDmJzL": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/AW25_Group_2.png",
-            "mobile_image": "shopify://shop_images/AW25_Group_3.png",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "Essence Collection",
-            "heading": "Free-spirited design meets adventure-ready comfort",
-            "heading_size": "h2",
-            "content": "",
-            "description_size": "large",
-            "content_position": "bottom-right",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "transparent",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_gGkXWa": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2025-09-14_at_5.04.46_PM.png",
-            "mobile_image": "shopify://shop_images/Screen_Shot_2025-09-14_at_4.50.53_PM.png",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "18 bold new styles",
-            "heading_size": "h2",
-            "content": "",
-            "description_size": "large",
-            "content_position": "bottom-center",
-            "text_alignment": "right",
-            "content_size": "medium",
-            "overlay_color": "transparent",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_pU6TEB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2025-09-14_at_5.22.05_PM.png",
-            "mobile_image": "shopify://shop_images/Screen_Shot_2025-09-14_at_5.24.11_PM.png",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "channeling the\nwild and free",
-            "heading_size": "h2",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-left",
-            "text_alignment": "right",
-            "content_size": "medium",
-            "overlay_color": "transparent",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_mU3M7p": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Cyprus_Bootie_5.png",
-            "mobile_image": "shopify://shop_images/Cyprus_Bootie_4.png",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "hand-inked & handcrafted",
-            "heading_size": "h2",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-left",
-            "text_alignment": "left",
-            "content_size": "large",
-            "overlay_color": "transparent",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_MrhfEw": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2025-09-14_at_5.17.48_PM.png",
-            "mobile_image": "shopify://shop_images/AW25_Group_1.png",
-            "slide_link": "",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "Find Your Essence",
-            "heading_size": "h2",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "transparent",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_gDmJzL",
-        "slide_gGkXWa",
-        "slide_pU6TEB",
-        "slide_mU3M7p",
-        "slide_MrhfEw"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "desktop_height": "desktop-height-image",
-        "mobile_height": "mobile-height-image",
-        "full_width": true,
-        "autoplay": true,
-        "autoplay_length": 5,
-        "transition": "swipe",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
     "main-collection-banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_image": true,
-        "show_collection_description": false,
+        "show_collection_image": false,
+        "show_collection_description": true,
         "show_subcollections": true,
         "make_heading_uppercase": false,
         "overlay_color": "#000000",
@@ -292,34 +142,272 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
-        "promotion_ddgpy9": {
+        "promotion_aNHxqJ": {
           "type": "promotion",
           "settings": {
             "promotion_collection": "essence-collection",
             "promotion_position": 1,
             "promotion_width": "1",
-            "image": "shopify://shop_images/1-EPI_1128.jpg",
-            "title": "Essence of You",
+            "image": "shopify://shop_images/HENDRIX-TENNIS-AW250211-MODEL-RTSS1604_21011e60-8e67-445e-8141-1c68e1055209.jpg",
+            "title": "",
             "text": "",
-            "link_label": "SHOP",
-            "link": "",
+            "link_label": "SHOP HENDRIX",
+            "link": "shopify://products/hendrix-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_JYCBLf": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 1,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/HENDRIX-TENNIS-AW250211-MODEL-RTSS1604_21011e60-8e67-445e-8141-1c68e1055209.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP HENDRIX",
+            "link": "shopify://products/hendrix-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_tmrE77": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 3,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/FLUTTERBY-VEGAN-TENNIS-AW250210EPI_1739.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP FLUTTERBY",
+            "link": "shopify://products/flutterby-vegan-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_YjHL8f": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 3,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/FLUTTERBY-VEGAN-TENNIS-AW250210EPI_1739.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP FLUTTERBY",
+            "link": "shopify://products/flutterby-vegan-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_gQEfC9": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 3,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/LUZON-TENNIS-AW250213-MODEL-RTSS2551.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP LUZON",
+            "link": "shopify://products/luzon-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_JcxqRq": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 3,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/LUZON-TENNIS-AW250213-MODEL-RTSS2551.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP LUZON",
+            "link": "shopify://products/luzon-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_WBjXzL": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 5,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/CHANTERELLE-VEGAN-TENNIS-AW250212-MODEL-RTSS1283_428e0b30-2bd0-41e8-b6b1-27c81ee97c94.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP CHANTERELLE",
+            "link": "shopify://products/chanterelle-vegan-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 2
+          }
+        },
+        "promotion_fBn9kk": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 5,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/CHANTERELLE-VEGAN-TENNIS-AW250212-MODEL-RTSS1283_428e0b30-2bd0-41e8-b6b1-27c81ee97c94.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP CHANTERELLE",
+            "link": "shopify://products/chanterelle-vegan-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 2
+          }
+        },
+        "promotion_A7Vccc": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 5,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/BUSSI-CUSHJOGGER-AW250402-MODEL-RTSS3680.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP BUSSI",
+            "link": "shopify://products/bussi-cush-jogger",
             "use_text_button": true,
             "block_link": "",
             "overlay_color": "#000000",
             "overlay_opacity": 7
           }
         },
-        "promotion_4ktEWW": {
+        "promotion_YBG8n6": {
           "type": "promotion",
           "settings": {
-            "promotion_collection": "all-boots",
+            "promotion_collection": "new-arrivals",
             "promotion_position": 5,
             "promotion_width": "1",
-            "image": "shopify://shop_images/1-EPI_1128.jpg",
-            "title": "Essence of You",
+            "image": "shopify://shop_images/BUSSI-CUSHJOGGER-AW250402-MODEL-RTSS3680.jpg",
+            "title": "",
             "text": "",
-            "link_label": "SHOP",
-            "link": "",
+            "link_label": "SHOP BUSSI",
+            "link": "shopify://products/bussi-cush-jogger",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_mzbM3z": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 7,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/SARAS-CUSH-JOGGER-AW250401-MODEL-EPI_9867.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP SARAS",
+            "link": "shopify://products/saras-cush-jogger",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_gpWWCy": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 7,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/SARAS-CUSH-JOGGER-AW250401-MODEL-EPI_9867.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP SARAS",
+            "link": "shopify://products/saras-cush-jogger",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_9hPM6U": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 7,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/WANYAMA-TREKKBOOT-AW251018-MODEL-EPI_1351.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP WANYAMA",
+            "link": "shopify://products/wanyama-trekk-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_xkf8iq": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 7,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/WANYAMA-TREKKBOOT-AW251018-MODEL-EPI_1351.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP WANYAMA",
+            "link": "shopify://products/wanyama-trekk-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_TyNb8Y": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 9,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/SARAS-VEGAN-TREKKBOOT-AW251017-MODEL-RTSS2362.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP SARAS TREKK",
+            "link": "shopify://products/saras-vegan-trekk-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_ergFNW": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 9,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/SARAS-VEGAN-TREKKBOOT-AW251017-MODEL-RTSS2362.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP SARAS TREKK",
+            "link": "shopify://products/saras-vegan-trekk-boot",
             "use_text_button": true,
             "block_link": "",
             "overlay_color": "#000000",
@@ -329,31 +417,337 @@
         "promotion_eKr4aj": {
           "type": "promotion",
           "settings": {
-            "promotion_collection": "all-boots",
+            "promotion_collection": "essence-collection",
             "promotion_position": 9,
             "promotion_width": "1",
-            "image": "shopify://shop_images/1-EPI_1128.jpg",
-            "title": "Essence of You",
+            "image": "shopify://shop_images/JASPER-CAMPING-BOOT-AW250515-MODEL-EPI_2041.jpg",
+            "title": "",
             "text": "",
-            "link_label": "SHOP",
-            "link": "",
+            "link_label": "SHOP JASPER",
+            "link": "shopify://products/jasper-camping-boot",
             "use_text_button": true,
             "block_link": "",
             "overlay_color": "#000000",
             "overlay_opacity": 7
           }
         },
+        "promotion_aLm3kf": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 9,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/JASPER-CAMPING-BOOT-AW250515-MODEL-EPI_2041.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP JASPER",
+            "link": "shopify://products/jasper-camping-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_gwhbWT": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 11,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/CHANTERELLE-CAMPING-BOOT-AW250516-MODEL-EPI_0962.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP CHANTERELLE",
+            "link": "shopify://products/chanterelle-camping-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_pCXmgX": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 11,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/CHANTERELLE-CAMPING-BOOT-AW250516-MODEL-EPI_0962.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP CHANTERELLE",
+            "link": "shopify://products/chanterelle-camping-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "promotion_mMdUCg": {
           "type": "promotion",
           "settings": {
-            "promotion_collection": "all-boots",
+            "promotion_collection": "essence-collection",
+            "promotion_position": 11,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/TUAMOTU-CAMPINGBOOT-AW250514-MODEL-RTSS4037.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP TUAMOTU CAMPING BOOT",
+            "link": "shopify://products/tuamotu-camping-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_pD7x9g": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 11,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/TUAMOTU-CAMPINGBOOT-AW250514-MODEL-RTSS4037.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP TUAMOTU CAMPING BOOT",
+            "link": "shopify://products/tuamotu-camping-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_4ktEWW": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
             "promotion_position": 13,
             "promotion_width": "1",
-            "image": "shopify://shop_images/1-EPI_1128.jpg",
-            "title": "Essence of You",
+            "image": "shopify://shop_images/TUAMOTU-SLIPON-AW250303-TUAMOTU-SLIPON-AW250303-MODEL-GROUP-RTSS2776.jpg",
+            "title": "",
             "text": "",
-            "link_label": "SHOP",
-            "link": "",
+            "link_label": "SHOP TUAMOTU SLIP ON",
+            "link": "shopify://products/tuamotu-slip-on",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_kQjcTC": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 13,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/TUAMOTU-SLIPON-AW250303-TUAMOTU-SLIPON-AW250303-MODEL-GROUP-RTSS2776.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP TUAMOTU SLIP ON",
+            "link": "shopify://products/tuamotu-slip-on",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_WEfRgM": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 13,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/BUSSI-TRAINER-AW250609-MODEL-IEPI_1438.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP BUSSI",
+            "link": "shopify://products/bussi-trainer",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_f6fPVh": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 13,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/BUSSI-TRAINER-AW250609-MODEL-IEPI_1438.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP BUSSI",
+            "link": "shopify://products/bussi-trainer",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_ddgpy9": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/JASPER-SLIPON-AW250304-MODEL-RTSS1459_9afc1b8d-6527-4403-b52d-61921b7f99f8.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP JASPER",
+            "link": "shopify://products/jasper-slip-on",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_kQQqqU": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/JASPER-SLIPON-AW250304-MODEL-RTSS1459_9afc1b8d-6527-4403-b52d-61921b7f99f8.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP JASPER",
+            "link": "shopify://products/jasper-slip-on",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_ybLVJW": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/WANYAMA-TRAINER-AW250608-MODEL-HORIZONTAL-EPI_0655.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP WANYAMA",
+            "link": "shopify://products/wanyama-trainer",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_n7q9hT": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/WANYAMA-TRAINER-AW250608-MODEL-HORIZONTAL-EPI_0655.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP WANYAMA",
+            "link": "shopify://products/wanyama-trainer",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_UTec9y": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 17,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/CYPRUS-BOOTIE-AW250807-MODEL-RTSS2495.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP CYPRUS",
+            "link": "shopify://products/cyprus-bootie",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_mfJxtY": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 17,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/CYPRUS-BOOTIE-AW250807-MODEL-RTSS2495.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP CYPRUS",
+            "link": "shopify://products/cyprus-bootie",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_g4ghjN": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 17,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/SARAS-BOOTIE-AW250805-MODEL-EPI_0861.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP SARAS",
+            "link": "shopify://products/saras-bootie",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_ccknfG": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 17,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/SARAS-BOOTIE-AW250805-MODEL-EPI_0861.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP SARAS",
+            "link": "shopify://products/saras-bootie",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_4C4q8r": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "essence-collection",
+            "promotion_position": 18,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/FLUTTERBY-BOOTIE-AW250806-MODEL-RTSS4246.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP FLUTTERBY",
+            "link": "shopify://products/saras-bootie",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_hhDDjg": {
+          "type": "promotion",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 18,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/FLUTTERBY-BOOTIE-AW250806-MODEL-RTSS4246.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP FLUTTERBY",
+            "link": "shopify://products/saras-bootie",
             "use_text_button": true,
             "block_link": "",
             "overlay_color": "#000000",
@@ -362,21 +756,231 @@
         }
       },
       "block_order": [
-        "promotion_ddgpy9",
-        "promotion_4ktEWW",
+        "promotion_aNHxqJ",
+        "promotion_JYCBLf",
+        "promotion_tmrE77",
+        "promotion_YjHL8f",
+        "promotion_gQEfC9",
+        "promotion_JcxqRq",
+        "promotion_WBjXzL",
+        "promotion_fBn9kk",
+        "promotion_A7Vccc",
+        "promotion_YBG8n6",
+        "promotion_mzbM3z",
+        "promotion_gpWWCy",
+        "promotion_9hPM6U",
+        "promotion_xkf8iq",
+        "promotion_TyNb8Y",
+        "promotion_ergFNW",
         "promotion_eKr4aj",
-        "promotion_mMdUCg"
+        "promotion_aLm3kf",
+        "promotion_gwhbWT",
+        "promotion_pCXmgX",
+        "promotion_mMdUCg",
+        "promotion_pD7x9g",
+        "promotion_4ktEWW",
+        "promotion_kQjcTC",
+        "promotion_WEfRgM",
+        "promotion_f6fPVh",
+        "promotion_ddgpy9",
+        "promotion_kQQqqU",
+        "promotion_ybLVJW",
+        "promotion_n7q9hT",
+        "promotion_UTec9y",
+        "promotion_mfJxtY",
+        "promotion_g4ghjN",
+        "promotion_ccknfG",
+        "promotion_4C4q8r",
+        "promotion_hhDDjg"
       ],
       "settings": {
         "full_width": true,
-        "products_per_page": 9,
-        "columns_desktop": 3,
-        "pagination_type": "loadmore",
+        "products_per_page": 33,
+        "columns_desktop": 4,
+        "pagination_type": "infinite",
         "enable_filtering": true,
         "enable_sorting": true,
         "show_counts": false,
         "filter_color_swatches": true,
-        "facets_desktop": "sidebar"
+        "facets_desktop": "drawer"
+      }
+    },
+    "spacer_b6FMbf": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": true,
+        "border_separator_full": false
+      }
+    },
+    "slideshow_77EGb9": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_gDmJzL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AW25_Group_2.png",
+            "mobile_image": "shopify://shop_images/AW25_Group_3.png",
+            "slide_link": "shopify://products/chanterelle-camping-boot",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "Essence Collection",
+            "heading": "Free-spirited design meets adventure-ready comfort",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "large",
+            "content_position": "bottom-right",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_pU6TEB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2025-09-14_at_5.22.05_PM.png",
+            "mobile_image": "shopify://shop_images/Screen_Shot_2025-09-14_at_5.24.11_PM.png",
+            "slide_link": "shopify://products/saras-bootie",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "18 bold new styles",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_gGkXWa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2025-09-14_at_5.04.46_PM.png",
+            "mobile_image": "shopify://shop_images/CHANTERELLE-CAMPING-BOOT-AW250516-MODEL-EPI_0962.jpg",
+            "slide_link": "shopify://products/chanterelle-camping-boot",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "channeling the \nwild & free",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "large",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_mU3M7p": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Cyprus_Bootie_5.png",
+            "mobile_image": "shopify://shop_images/Cyprus_Bootie_4.png",
+            "slide_link": "shopify://products/cyprus-bootie",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "hand-inked & handcrafted",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-left",
+            "text_alignment": "left",
+            "content_size": "large",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_MrhfEw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2025-09-14_at_5.17.48_PM.png",
+            "mobile_image": "shopify://shop_images/AW25_Group_1.png",
+            "slide_link": "shopify://products/jasper-camping-boot",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "Find Your Essence",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_gDmJzL",
+        "slide_pU6TEB",
+        "slide_gGkXWa",
+        "slide_mU3M7p",
+        "slide_MrhfEw"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "single_image_4emjKU": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/Tagline_3_Logos_for_Homepage_2.png",
+        "full_width": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
       }
     },
     "slideshow_Pe7qPw": {
@@ -390,18 +994,18 @@
             "slide_link": "",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "ALL NEW",
-            "heading": "Essence Collection",
+            "subheading": "FALL '25",
+            "heading": "Find Your Essence",
             "heading_size": "h2",
             "content": "",
             "description_size": "medium",
             "content_position": "bottom-left",
             "text_alignment": "left",
             "content_size": "medium",
-            "overlay_color": "transparent",
+            "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0,
             "overlay_gradient": "transparent",
-            "button_1_text": "Shop This Look",
+            "button_1_text": "",
             "button_1_link": "",
             "button_1_outline": false,
             "button_2_text": "",
@@ -417,18 +1021,18 @@
             "slide_link": "",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "ALL NEW",
-            "heading": "Essence Collection",
+            "subheading": "FALL '25",
+            "heading": "Find Your Essence",
             "heading_size": "h2",
             "content": "",
             "description_size": "medium",
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "overlay_color": "transparent",
+            "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0,
             "overlay_gradient": "transparent",
-            "button_1_text": "Shop This Look",
+            "button_1_text": "",
             "button_1_link": "",
             "button_1_outline": true,
             "button_2_text": "",
@@ -444,18 +1048,18 @@
             "slide_link": "",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "ALL NEW",
-            "heading": "Essence Collection",
+            "subheading": "FALL '25",
+            "heading": "Find Your Essence",
             "heading_size": "h2",
             "content": "",
             "description_size": "medium",
             "content_position": "bottom-right",
             "text_alignment": "right",
             "content_size": "medium",
-            "overlay_color": "transparent",
+            "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0,
             "overlay_gradient": "transparent",
-            "button_1_text": "Shop This Look",
+            "button_1_text": "",
             "button_1_link": "",
             "button_1_outline": false,
             "button_2_text": "",
@@ -469,6 +1073,7 @@
         "slide_qJQKjt",
         "slide_cPaPdY"
       ],
+      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "desktop_height": "desktop-height-image",
@@ -485,10 +1090,12 @@
   "order": [
     "9de27e1e-9c24-4334-982b-86e9980a73bd",
     "scrolling_text_eDxme7",
-    "slideshow_77EGb9",
     "main-collection-banner",
     "13c1fa9b-e669-46a9-8040-f6f0e85ee079",
     "product-grid",
+    "spacer_b6FMbf",
+    "slideshow_77EGb9",
+    "single_image_4emjKU",
     "slideshow_Pe7qPw"
   ]
 }
