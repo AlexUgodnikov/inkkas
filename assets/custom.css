@@ -1508,7 +1508,10 @@ a.mobile-link-caps img {
 }
 .inventory-custom-code .product-card__tag-info{
   margin:0;
-  color:#fff!important;
+  /* color:#fff!important; */
+}
+.product-card .product-card__tag-info{
+  background-color: #fff!important;
 }
 
 

@@ -1,7 +1,39 @@
-   {%- if settings.prd_tag != blank and settings.prd_text != blank and product.tags contains settings.prd_tag -%}		
-			<span class="product-card__tag-info" style="color: {{ settings.color_txt1 }}">{{ settings.prd_text }}</span>
-			{%- elsif settings.prd_tag2 != blank and settings.prd_text2 != blank and product.tags contains settings.prd_tag2 -%}
-			<span class="product-card__tag-info" style="color: {{ settings.color_txt2 }}">{{ settings.prd_text2 }}</span>	
-			{%- elsif settings.prd_tag3 != blank and settings.prd_text3 != blank and product.tags contains settings.prd_tag3 -%}
-			<span class="product-card__tag-info" style="color: {{ settings.color_txt3 }}">{{ settings.prd_text3 }}</span>	
-		{%- endif -%}
+
+
+
+
+{%- for i in (1..6) -%}
+  {%- liquid
+    assign prd_tag_key = 'prd_tag' | append: i
+    assign prd_text_key = 'prd_text' | append: i
+    assign show_pdp_key = 'show_pdp_' | append: i
+    assign show_preview_key = 'show_preview_' | append: i
+    assign color_bg_key = 'color_bg_pdp_' | append: i
+	assign color_text_pdp_key = 'color_txt_pdp_' | append: i
+    assign color_text_key = 'color_txt' | append: i
+
+    assign prd_tag = settings[prd_tag_key]
+    assign prd_text = settings[prd_text_key]
+    assign show_pdp = settings[show_pdp_key]
+    assign show_preview = settings[show_preview_key]
+    assign color_bg = settings[color_bg_key]
+	 assign color_pdp = settings[color_text_pdp_key]
+    assign color_text = settings[color_text_key]
+  -%}
+
+
+  {%- if product.tags contains prd_tag and prd_text != blank -%}
+    {%- if show_pdp and template.name == 'product' -%}
+      {%- comment -%} For product page {%- endcomment -%}
+      <span class="product-card__tag-info" style="color: {{ color_pdp }}; background-color: {{ color_bg }};">
+        {{- prd_text -}}
+      </span>
+    {%- elsif show_preview and template.name != 'product' -%}
+      {%- comment -%} For previews {%- endcomment -%}
+      <span class="product-card__tag-info" style="color: {{ color_text }}; background-color: {{ color_bg }};">
+       {{- prd_text -}}
+      </span>
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
