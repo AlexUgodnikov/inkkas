@@ -1519,3 +1519,65 @@ a.mobile-link-caps img {
     margin-bottom: 15px;
   }
 }
+
+/* Page size guide */
+.fancybox-stage .shoesImg img{
+  display:block;
+  max-width:500px;
+  margin:auto;
+  width: 100%;
+}
+.fancybox-stage table.table-striped{
+  border-collapse: collapse;
+		  text-align: center;
+		  margin: 25px auto;
+		  font-weight: 600;
+		  text-transform: uppercase;
+		  width: 700px;
+}
+.fancybox-stage table.table-striped tr{
+
+}
+.fancybox-stage table.table-striped td{
+  text-align: center;
+	  border: none !important;
+}
+
+.fancybox-stage table.table-striped tr:nth-child(even), .fancybox-stage table.table-striped tr:nth-child(2) th {
+	  background-color: #f1f1f2;
+	}
+
+	.fancybox-stage table.table-striped tr:nth-child(odd), .fancybox-stage table.table-striped tr:first-child th {
+		background-color: #d1d3d4;
+	}
+
+	.fancybox-stage table.table-striped tr:hover {
+	    background: #fff200;
+	    transition: 0.4s all ease;
+	    cursor: pointer;
+	}
+
+	.fancybox-stage table.table-striped th {
+		padding: 15px !important;
+		font-size: 16px;
+	}
+
+	.fancybox-stage table.table-striped td:first-child {
+	  border-right: 1px solid #707070 !important;
+	}
+
+	.fancybox-stage table.table-striped td {
+	    width: 50%;
+	    padding: 15px !important; 
+	    font-size: 14px;
+	}
+
+	@media screen and (max-width: 798px) {
+		.fancybox-stage .mainDiv, table {
+			width: auto !important;
+		}
+
+		.js-sizechart-lightbox.fancybox-content{
+          padding: 40px 10px;
+    }
+	}

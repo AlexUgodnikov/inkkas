@@ -31,6 +31,7 @@
       "blocks": {
         "text_cQEaMB": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "text": "★★★★★ RATED 'EXCELLENT' BY 7,600+ HAPPY CUSTOMERS",
@@ -47,6 +48,7 @@
         },
         "text_xhDUtd": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "return",
             "text": "FREE EXCHANGES + 30-DAY EASY RETURNS",
@@ -64,11 +66,10 @@
         },
         "text_KzRt4b": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "icon": "none",
-            "text": "LABOR DAY SALE: 25% OFF SITEWIDE.",
-            "link": "shopify://collections/best-sellers"
+            "text": "VIP ACCESS: NEW FALL '25 COLLECTION! 🌾",
+            "link": "shopify://collections/new-arrivals"
           }
         }
       },

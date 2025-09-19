@@ -31,7 +31,8 @@
             "inventory_notice_pulse": true,
             "inventory_notice_bar": false,
             "inventory_notice_threshold": 10,
-            "inventory_notice_base": 20
+            "inventory_notice_base": 20,
+            "custom_code": ""
           }
         },
         "custom_liquid_LyBCHn": {
@@ -103,7 +104,7 @@
           "type": "collapsible_tab_2",
           "settings": {
             "idname": "",
-            "open": true,
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",

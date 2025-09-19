@@ -9,57 +9,6 @@
  */
 {
   "sections": {
-    "video_HXbYpW": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_left": false,
-        "description": "",
-        "section_width": "grid",
-        "video": "",
-        "video_hosted": "shopify://files/videos/BRAND VIDEO-Inkkas (12.3) - YT No VO.mp4",
-        "video_autoplay": true,
-        "aspect_ratio": "16-9",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "background_video_kErFF3": {
-      "type": "background-video",
-      "disabled": true,
-      "name": "Background video",
-      "settings": {
-        "desktop_height": "desktop-height-full",
-        "mobile_height": "mobile-height-500",
-        "full_width": true,
-        "subheading": "",
-        "heading": "",
-        "text": "",
-        "lightbox_button": false,
-        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "video_hosted": "shopify://files/videos/MASHUP-UGC-7-2025.mp4",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
-    "video_cGLXP6": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "heading": "",
-        "heading_left": false,
-        "description": "",
-        "section_width": "grid",
-        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "video_hosted": "shopify://files/videos/MASHUP-UGC-7-2025.mp4",
-        "video_autoplay": true,
-        "aspect_ratio": "3-4",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "16616191162185f622": {
       "type": "rich-text",
       "blocks": {
@@ -98,70 +47,40 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
-    "multicolumn_deWBge": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_gmh9d4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
-            "image_full_width": false,
-            "retina": true,
-            "title": "Art You Can Wear",
-            "text": "<p>We collaborate with talented artists to create one-of-a-kind designs that start as hand-drawn works of art. Every shoe is more than footwear — it’s a wearable canvas that connects you to places and people across the globe. </p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_qLhgRr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/5W1A8149.jpg",
-            "image_full_width": false,
-            "retina": true,
-            "title": "Step Into the World",
-            "text": "<p>Every pair of shoes tells a story — inked by artists, inspired by the world, and crafted to take you on your next adventure. Our collections celebrate the colors, textures, and patterns of our planet.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_aK6FzF": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/making_of_the_joggers.gif",
-            "image_full_width": true,
-            "retina": true,
-            "title": "Crafted with Care",
-            "text": "<p>Each pair is handcrafted in Latin America, using premium materials and time-honored techniques. We believe in slow fashion — making shoes with integrity, built to last, and designed for comfort from the very first step.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_gmh9d4",
-        "column_qLhgRr",
-        "column_aK6FzF"
-      ],
-      "name": "Multicolumn",
+    "video_cGLXP6": {
+      "type": "video",
+      "name": "Video",
       "settings": {
         "heading": "",
         "heading_left": false,
         "description": "",
-        "full_width": true,
-        "display_type": "grid",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "text_alignment": "left",
-        "heading_size": "h5",
-        "mobile_swipe": true,
-        "show_progress_bar": true,
+        "section_width": "grid",
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_hosted": "shopify://files/videos/MASHUP-UGC-7-2025.mp4",
+        "video_autoplay": true,
+        "aspect_ratio": "3-4",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
+      }
+    },
+    "video_HXbYpW": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "section_width": "grid",
+        "video": "",
+        "video_hosted": "shopify://files/videos/BRAND VIDEO-Inkkas (12.3) - YT No VO.mp4",
+        "video_autoplay": true,
+        "aspect_ratio": "16-9",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "rich_text_GnLaUf": {
@@ -170,7 +89,7 @@
         "button_G8Aczt": {
           "type": "button",
           "settings": {
-            "link_label": "READ MORE ON OUR BLOG",
+            "link_label": "CHECK OUT THE BLOG!",
             "link": "shopify://blogs/blog",
             "button_outline": false
           }
@@ -272,6 +191,68 @@
         "overlay_opacity": 0,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
+      }
+    },
+    "multicolumn_deWBge": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_gmh9d4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
+            "image_full_width": false,
+            "retina": true,
+            "title": "Art You Can Wear",
+            "text": "<p>We collaborate with talented artists to create one-of-a-kind designs that start as hand-drawn works of art. Every shoe is more than footwear — it’s a wearable canvas that connects you to places and people across the globe. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qLhgRr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/5W1A8149.jpg",
+            "image_full_width": false,
+            "retina": true,
+            "title": "Step Into the World",
+            "text": "<p>Every pair of shoes tells a story — inked by artists, inspired by the world, and crafted to take you on your next adventure. Our collections celebrate the colors, textures, and patterns of our planet.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aK6FzF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/making_of_the_joggers.gif",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Crafted with Care",
+            "text": "<p>Each pair is handcrafted in Latin America, using premium materials and time-honored techniques. We believe in slow fashion — making shoes with integrity, built to last, and designed for comfort from the very first step.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_gmh9d4",
+        "column_qLhgRr",
+        "column_aK6FzF"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "heading": "Independent. Handcrafted. One-of-a-kind.",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "image_with_text_i7wJkM": {
@@ -604,14 +585,13 @@
     }
   },
   "order": [
-    "video_HXbYpW",
-    "background_video_kErFF3",
-    "video_cGLXP6",
     "16616191162185f622",
-    "multicolumn_deWBge",
+    "video_cGLXP6",
+    "video_HXbYpW",
     "rich_text_GnLaUf",
     "scrolling_text_3jYpcV",
     "scrolling_text_XQmKrT",
+    "multicolumn_deWBge",
     "image_with_text_i7wJkM",
     "16618593470c5f63bd",
     "16623735222f31e80e",

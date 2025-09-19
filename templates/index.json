@@ -80,11 +80,12 @@
         "autoplay_length": 3,
         "transition": "swipe",
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     },
     "single_image_KYnHUq": {
       "type": "single-image",
+      "disabled": true,
       "name": "Single image",
       "settings": {
         "image": "shopify://shop_images/Tagline_3_Logos_for_Homepage_2.png",
@@ -95,6 +96,7 @@
     },
     "spacer_X9yDga": {
       "type": "spacer",
+      "disabled": true,
       "name": "Spacer",
       "settings": {
         "spacer_mobile": 35,
@@ -107,18 +109,18 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "heading": "Shop New for Fall '25",
+        "heading": "New for Fall '25",
         "heading_left": true,
         "description": "<p><em>Free-spirited design meets adventure-ready comfort in our ALL NEW Essence Collection.</em></p>",
         "full_width": true,
         "collection": "essence-collection",
-        "display_type": "carousel",
-        "product_limit": 12,
-        "columns_desktop": 4,
+        "display_type": "grid",
+        "product_limit": 6,
+        "columns_desktop": 3,
         "show_view_all": false,
-        "mobile_swipe": true,
+        "mobile_swipe": false,
         "show_progress_bar": false,
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
@@ -128,7 +130,7 @@
         "button_khEEE3": {
           "type": "button",
           "settings": {
-            "link_label": "SHOP THE COLLECTION →",
+            "link_label": "SHOP NEW COLLECTION →",
             "link": "shopify://collections/new-arrivals",
             "button_outline": false
           }
