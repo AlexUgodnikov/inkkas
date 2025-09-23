@@ -9,48 +9,156 @@
  */
 {
   "sections": {
-    "slideshow_rcFRQA": {
+    "slideshow_CQXNHG": {
       "type": "slideshow",
       "blocks": {
-        "slide_pfrYz8": {
+        "slide_CTYGn7": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/FALL_25_Essence_Collection_1.png",
-            "mobile_image": "shopify://shop_images/FALL_25_Essence_Collection_2.png",
+            "image": "shopify://shop_images/AW25_Group_2.png",
+            "mobile_image": "shopify://shop_images/AW25_Group_3.png",
             "slide_link": "shopify://collections/new-arrivals",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
+            "subheading": "ALL NEW FALL '25",
+            "heading": "Free-spirited design meets adventure-ready comfort",
             "heading_size": "h2",
             "content": "",
-            "description_size": "large",
-            "content_position": "bottom-left",
-            "text_alignment": "left",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
             "content_size": "medium",
             "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0,
             "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
+            "button_1_text": "Shop Collection",
+            "button_1_link": "shopify://collections/new-arrivals",
             "button_1_outline": false,
             "button_2_text": "",
             "button_2_link": "",
             "button_2_outline": false
           }
         },
-        "slide_xeyrLq": {
+        "slide_rBJRLg": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/FALL_25_Essence_Collection_1.png",
-            "mobile_image": "shopify://shop_images/FALL_25_Essence_Collection.png",
+            "image": "shopify://shop_images/Screen_Shot_2025-09-14_at_5.22.05_PM.png",
+            "mobile_image": "shopify://shop_images/Screen_Shot_2025-09-14_at_5.24.11_PM.png",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "NEW FALL '25",
+            "heading": "18 bold new styles",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop",
+            "button_1_link": "shopify://products/saras-bootie",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_yTyATD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CHANTERELLE-CAMPING-BOOT-AW250516-HOLD-HORIZONTAL-IMG_8884.jpg",
+            "mobile_image": "shopify://shop_images/CHANTERELLE-CAMPING-BOOT-AW250516-MODEL-EPI_0962.jpg",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "NEW FALL '25",
+            "heading": "channeling the \nwild & free",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop",
+            "button_1_link": "shopify://products/chanterelle-camping-boot",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_RWBCHM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CYPRUS-BOOTIE-AW250807-MODEL-HORIZONTAL-RTSS2510.jpg",
+            "mobile_image": "shopify://shop_images/CYPRUS-BOOTIE-AW250807-MODEL-RTSS2495.jpg",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "NEW FALL '25",
+            "heading": "hand-inked &\nhandcrafted",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "right",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop",
+            "button_1_link": "shopify://products/cyprus-bootie",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_EFhRyh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/JASPER-CAMPINGBOOT-AW250515-TUAMOTU-SLIPON-AW250303-MODEL-GROUP-HORIZONTAL-RTSS2648_d29e737e-b91d-47fc-bb24-55073172130c.jpg",
+            "mobile_image": "shopify://shop_images/TUAMOTU-CAMPINGBOOT-AW250514-JASPER-CAMPINGBOOT-AW250515-MODEL-GROUP-RTSS3488.jpg",
             "slide_link": "shopify://collections/new-arrivals",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "",
-            "heading": "",
+            "heading": "Find Your Essence",
             "heading_size": "h2",
             "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop Collection",
+            "button_1_link": "shopify://collections/new-arrivals",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_cTGqAN": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": true,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify://files/videos/Evestar_Inkkas_Andes Camping Boot_Lauren_EDIT.mp4",
+            "subheading": "20% OFF WITH CODE:",
+            "heading": "FALLFORWARD20",
+            "heading_size": "h2",
+            "content": "Stay Ultra-Comfy & Adventure-Ready",
             "description_size": "large",
             "content_position": "bottom-left",
             "text_alignment": "left",
@@ -58,7 +166,7 @@
             "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0,
             "overlay_gradient": "transparent",
-            "button_1_text": "",
+            "button_1_text": "Shop",
             "button_1_link": "",
             "button_1_outline": false,
             "button_2_text": "",
@@ -68,8 +176,12 @@
         }
       },
       "block_order": [
-        "slide_pfrYz8",
-        "slide_xeyrLq"
+        "slide_CTYGn7",
+        "slide_rBJRLg",
+        "slide_yTyATD",
+        "slide_RWBCHM",
+        "slide_EFhRyh",
+        "slide_cTGqAN"
       ],
       "name": "Slideshow",
       "settings": {
@@ -109,9 +221,9 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "heading": "New for Fall '25",
+        "heading": "New Arrivals",
         "heading_left": true,
-        "description": "<p><em>Free-spirited design meets adventure-ready comfort in our ALL NEW Essence Collection.</em></p>",
+        "description": "<p><em>Meet the ALL NEW Fall '25 Essence Collection</em></p>",
         "full_width": true,
         "collection": "essence-collection",
         "display_type": "grid",
@@ -130,7 +242,7 @@
         "button_khEEE3": {
           "type": "button",
           "settings": {
-            "link_label": "SHOP NEW COLLECTION →",
+            "link_label": "SHOP NEW ARRIVALS →",
             "link": "shopify://collections/new-arrivals",
             "button_outline": false
           }
@@ -215,80 +327,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "slideshow_CQXNHG": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_rBJRLg": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/FALL_25_Essence_Collection_4.png",
-            "mobile_image": "shopify://shop_images/FALL_25_Essence_Collection_3.png",
-            "slide_link": "shopify://collections/new-arrivals",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_cTGqAN": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "slide_link": "shopify://collections/best-sellers",
-            "video_background": true,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "video_hosted": "shopify://files/videos/Evestar_Inkkas_Andes Camping Boot_Lauren_EDIT.mp4",
-            "subheading": "20% OFF WITH CODE:",
-            "heading": "FALLFORWARD20",
-            "heading_size": "h2",
-            "content": "Stay Ultra-Comfy & Adventure-Ready",
-            "description_size": "large",
-            "content_position": "bottom-left",
-            "text_alignment": "left",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Shop",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_rBJRLg",
-        "slide_cTGqAN"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "desktop_height": "desktop-height-image",
-        "mobile_height": "mobile-height-image",
-        "full_width": true,
-        "autoplay": false,
-        "autoplay_length": 3,
-        "transition": "swipe",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
     "rich_text_74Xzqb": {
       "type": "rich-text",
       "blocks": {
@@ -327,6 +365,109 @@
         "disable_bottom_spacing": false
       }
     },
+    "slideshow_rcFRQA": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_xeyrLq": {
+          "type": "slide",
+          "settings": {
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": true,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify://files/videos/Mash Up-Essence Collection fall25-Reel.mp4",
+            "subheading": "FIND YOUR ESSENCE",
+            "heading": "NEW Fall '25 Collection has landed!",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "large",
+            "content_position": "bottom-left",
+            "text_alignment": "left",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/new-arrivals",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_pfrYz8": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/FALL_25_Essence_Collection_1.png",
+            "mobile_image": "shopify://shop_images/FALL_25_Essence_Collection_2.png",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "large",
+            "content_position": "bottom-left",
+            "text_alignment": "left",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_xxKAHH": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/FALL_25_Essence_Collection_1.png",
+            "mobile_image": "shopify://shop_images/FALL_25_Essence_Collection.png",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "large",
+            "content_position": "bottom-left",
+            "text_alignment": "left",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_xeyrLq",
+        "slide_pfrYz8",
+        "slide_xxKAHH"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "desktop_height": "desktop-height-full",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": false,
+        "autoplay_length": 3,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
     "collection_list_ypFaFe": {
       "type": "collection-list",
       "settings": {
@@ -337,7 +478,7 @@
         "collection_list": [
           "trekk-boots",
           "camping-boots",
-          "booties"
+          "western-boots"
         ],
         "image_ratio": "adapt",
         "layout": "grid",
@@ -361,7 +502,7 @@
         "full_width": false,
         "collection_list": [
           "joggers",
-          "slip-ons",
+          "high-tops-and-low-tops",
           "runners"
         ],
         "image_ratio": "adapt",
@@ -385,8 +526,8 @@
         "description": "",
         "full_width": false,
         "collection_list": [
-          "western-boots",
-          "high-tops-and-low-tops",
+          "booties",
+          "slip-ons",
           "sandals"
         ],
         "image_ratio": "adapt",
@@ -1688,15 +1829,15 @@
     }
   },
   "order": [
-    "slideshow_rcFRQA",
+    "slideshow_CQXNHG",
     "single_image_KYnHUq",
     "spacer_X9yDga",
     "featured_collection_ctC9Gp",
     "rich_text_AUmbth",
     "featured_collection_tJhHEP",
     "rich_text_KC4Kf7",
-    "slideshow_CQXNHG",
     "rich_text_74Xzqb",
+    "slideshow_rcFRQA",
     "collection_list_ypFaFe",
     "collection_list_jkqahH",
     "collection_list_M4EPDL",

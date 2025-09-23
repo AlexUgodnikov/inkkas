@@ -68,18 +68,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "essential_countdown_app_block_fzdFNN": {
-          "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-          "settings": {
-            "id": "cmd0q9kjo00gw10myw4fk3sg5"
-          }
-        },
-        "essential_countdown_timer_app_block_9LiqdH": {
-          "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-          "settings": {
-            "id": "cmeth6d6i005v6xraetjg0e9w"
-          }
-        },
         "essential_announcer_app_block_CEF9Vm": {
           "type": "shopify://apps/essential-announcer/blocks/app-block/93b5429f-c8d6-4c33-ae14-250fd84f361b",
           "settings": {
@@ -138,10 +126,10 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Ethically handcrafted",
+            "heading": "OneShoeOneTree™",
             "show_description": false,
             "description_type": "full_description",
-            "content": "<p>Each product is made start-to-finish in a fair trade environment using traditional techniques and premium materials—never mass produced, always made with heart. When you wear Inkkas you're supporting craft and conscious creation.</p>",
+            "content": "<p>For every Inkkas purchase, we plant one tree through our <strong>OneShoeOneTree™ </strong>program with trees.org— helping to restore forests, protect biodiversity, and fight climate change. Over the years, this has amounted to more than 445,000 trees planted!</p>",
             "page": ""
           }
         },
@@ -153,10 +141,10 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Shipping & returns",
+            "heading": "Shipping & Returns",
             "show_description": false,
             "description_type": "full_description",
-            "content": "<p>FREE U.S. ground shipping on orders of $175 or more is automatically applied at checkout!</p><p>We want you to love your shoes—no stress, no regrets. If they're not perfect, we'll make it right with a FREE exchange for every pair and easy returns within 30 days of order delivery. View our full return policy <a href=\"/pages/return-policy\" title=\"Returns & Exchanges\">here</a>.</p>",
+            "content": "<p>FREE U.S. ground shipping on orders of $175 or more is automatically applied at checkout!</p><p>If you don't love your Inkkas product, we'll make it right with a FREE exchange for every pair and easy returns within 30 days of order delivery. View our full return policy <a href=\"/pages/return-policy\" title=\"Returns & Exchanges\">here</a>.</p>",
             "page": ""
           }
         },
@@ -459,8 +447,6 @@
         "variant_picker",
         "preorder_me_product_button_t8zPaL",
         "buy_buttons",
-        "essential_countdown_app_block_fzdFNN",
-        "essential_countdown_timer_app_block_9LiqdH",
         "essential_announcer_app_block_CEF9Vm",
         "custom_liquid_JfYWyP",
         "custom_liquid_Ydcihg",
