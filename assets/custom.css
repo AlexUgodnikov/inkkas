@@ -1073,6 +1073,15 @@ preorder-me-button {
 .product-add-to-cart-sticky--content .single-add-to-cart-button.preorpder .single-add-to-cart-button--text {
   display: none;
 }
+.product-add-to-cart-sticky .product-form .add_to_cart_holder{
+  flex-wrap: wrap;
+}
+.ship-sticky-text{
+  width:100%;
+  text-align: center;
+  margin:0 0 0 0;
+  line-height: 1;
+}
 @media (max-width: 500px) {
   .product-add-to-cart-sticky {
     padding: 0 !important;
