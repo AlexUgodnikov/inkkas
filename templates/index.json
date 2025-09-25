@@ -14,6 +14,34 @@
       "blocks": {
         "slide_CTYGn7": {
           "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SEPT_ADS_-_NEW_RELEASES_3.png",
+            "mobile_image": "shopify://shop_images/SEPT_ADS_-_NEW_RELEASES_1.png",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_rRAREH": {
+          "type": "slide",
           "settings": {
             "image": "shopify://shop_images/AW25_Group_2.png",
             "mobile_image": "shopify://shop_images/AW25_Group_3.png",
@@ -177,6 +205,7 @@
       },
       "block_order": [
         "slide_CTYGn7",
+        "slide_rRAREH",
         "slide_rBJRLg",
         "slide_yTyATD",
         "slide_RWBCHM",

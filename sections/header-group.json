@@ -31,6 +31,7 @@
       "blocks": {
         "text_cQEaMB": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "text": "★★★★★ RATED 'EXCELLENT' BY THOUSANDS OF HAPPY CUSTOMERS",
@@ -49,8 +50,8 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "NEW FALL '25 COLLECTION HAS LANDED! 🌾",
-            "link": "shopify://collections/new-arrivals"
+            "text": "Make it a beautiful Wednesday! Use code FALLWALK15 to save 15% OFF your order at checkout.",
+            "link": ""
           }
         },
         "text_xhDUtd": {
