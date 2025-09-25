@@ -855,7 +855,7 @@ if (!customElements.get('product-add-to-cart-sticky')) {
    
        this.setupToggle();
       //Start infinix button catcher
-        const targetElement1 = document.querySelector('form button[name="add"]');
+        const targetElement1 = document.querySelector('.product-information product-form .add_to_cart_holder');
 
     
         if (targetElement1 && this) {

@@ -408,15 +408,26 @@
           
                       if (domElement.length > 0) {
                           const inputElement = document.querySelector('input[name="properties[Pre-Order]"]');
-          
+                          const getPreorderText = document.querySelector('preorder-me-button .preorder-me-button + p')
                          
                           const updateButtonState = () => {
                               if (inputElement && inputElement.disabled === false) {
                                   document.querySelector('#AddToCartSticky').classList.add('preorpder');
-                                  //document.querySelector('#AddToCartSticky .single-add-to-cart-button--text').textContent = 'Pre-Order'
+                                  
+                                  if(getPreorderText){
+                                    const createPelem = document.createElement('p')
+                                    createPelem.classList.add('ship-sticky-text')
+                                    createPelem.textContent = getPreorderText.textContent
+                                    document.querySelector('#AddToCartSticky').after(createPelem)
+                                  }
+                                  
+                                 
                               } else {
                                   document.querySelector('#AddToCartSticky').classList.remove('preorpder');
-                                  //document.querySelector('#AddToCartSticky .single-add-to-cart-button--text').textContent = 'Add to cart'
+                                  if(document.querySelector('.ship-sticky-text')){
+                                    document.querySelector('.ship-sticky-text').remove()
+                                  }
+                                  
                               }
                           };
           
