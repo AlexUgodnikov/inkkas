@@ -31,7 +31,8 @@
             "inventory_notice_pulse": true,
             "inventory_notice_bar": false,
             "inventory_notice_threshold": 10,
-            "inventory_notice_base": 20
+            "inventory_notice_base": 20,
+            "custom_code": ""
           }
         },
         "custom_liquid_LyBCHn": {
@@ -43,6 +44,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "show_color_metaobject": true,
             "picker_type": "button",
             "color_picker": true,
             "color_picker_size": "regular",
@@ -67,13 +69,13 @@
           }
         },
         "essential_countdown_app_block_fzdFNN": {
-          "type": "shopify://apps/countdown-timer-essential/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
             "id": "cmd0q9kjo00gw10myw4fk3sg5"
           }
         },
         "countdown_timer_essential_app_block_LeNCJc": {
-          "type": "shopify://apps/countdown-timer-essential/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
             "id": "cmd9c1r7q00hrk5e208ki87rb"
           }
@@ -106,7 +108,7 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Artful design",
+            "heading": "Description",
             "show_description": true,
             "description_type": "show_before_ul",
             "content": "",
@@ -121,7 +123,7 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Product features",
+            "heading": "Features",
             "show_description": true,
             "description_type": "show_ul",
             "content": "",
@@ -136,25 +138,10 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "Ethically handcrafted",
+            "heading": "OneShoeOneTree™",
             "show_description": false,
             "description_type": "full_description",
-            "content": "<p>Our products are made start-to-finish in a fair trade environment using traditional techniques and premium materials—never mass produced, always made with heart. When you wear Inkkas you're supporting craft and conscious creation.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_2_9YGwmW": {
-          "type": "collapsible_tab_2",
-          "settings": {
-            "idname": "",
-            "open": false,
-            "show_okendo_reviews": false,
-            "show_only_with_tag": false,
-            "product_tag": "",
-            "heading": "Shipping & returns",
-            "show_description": false,
-            "description_type": "full_description",
-            "content": "<p>FREE U.S. ground shipping on orders of $175 or more is automatically applied at checkout!</p><p>We want you to love your item—no stress, no regrets. If it's not perfect, we'll make it right with easy returns and hassle-free exchanges within 30 days of order delivery. View our full return policy <a href=\"/pages/return-policy\" title=\"Returns & Exchanges\">here</a>.</p>",
+            "content": "<p>For every Inkkas purchase, we plant one tree through our <strong>OneShoeOneTree™ </strong>program with trees.org— helping to restore forests, protect biodiversity, and fight climate change. Over the years, this has amounted to more than 489.000 trees planted!</p>",
             "page": ""
           }
         },
@@ -441,7 +428,6 @@
         "collapsible_tab_2_hxiDMm",
         "collapsible_tab_2_UkAjaq",
         "collapsible_tab_2_J3DBXz",
-        "collapsible_tab_2_9YGwmW",
         "collapsible_tab_2_9zwncR2",
         "collapsible_tab_2_zVrH6p",
         "collapsible_tab_2_6kFqVT",
@@ -977,8 +963,8 @@
           "type": "icon",
           "settings": {
             "icon": "return",
-            "heading": "SATISFACTION GUARANTEE",
-            "text": "<p><a href=\"/pages/return-policy\" title=\"Returns & Exchanges\">FREE exchanges and easy returns for 30 days.</a></p>"
+            "heading": "FREE RETURNS & EXCHANGES",
+            "text": "<p><a href=\"/pages/return-policy\" target=\"_blank\" title=\"Returns & Exchanges\">Love them or send them back — free returns & exchanges.</a></p>"
           }
         },
         "icon_ctNqqJ": {

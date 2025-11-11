@@ -29,56 +29,35 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "text_xhDUtd": {
+          "type": "text",
+          "settings": {
+            "icon": "return",
+            "text": "FREE RETURNS & EXCHANGES INCLUDED",
+            "link": "shopify://pages/return-policy"
+          }
+        },
         "text_cQEaMB": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "icon": "none",
             "text": "★★★★★ RATED 'EXCELLENT' BY THOUSANDS OF HAPPY CUSTOMERS",
-            "link": "shopify://collections/best-sellers"
+            "link": ""
           }
         },
         "text_CmerAE": {
           "type": "text",
           "settings": {
-            "icon": "none",
+            "icon": "box",
             "text": "FREE SHIPPING FOR ALL US ORDERS OVER $175",
             "link": "shopify://pages/shipping"
-          }
-        },
-        "text_KzRt4b": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "Make it a beautiful Wednesday! Use code FALLWALK15 to save 15% OFF your order at checkout.",
-            "link": ""
-          }
-        },
-        "text_xhDUtd": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "icon": "return",
-            "text": "30-DAY FREE EXCHANGES + EASY RETURNS",
-            "link": "shopify://pages/return-policy"
-          }
-        },
-        "text_epRXWW": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "icon": "shoe",
-            "text": "QUIZ: FIND THE SHOE FOR YOU IN 60 SECS",
-            "link": "shopify://pages/quiz"
           }
         }
       },
       "block_order": [
-        "text_cQEaMB",
-        "text_CmerAE",
-        "text_KzRt4b",
         "text_xhDUtd",
-        "text_epRXWW"
+        "text_cQEaMB",
+        "text_CmerAE"
       ],
       "settings": {
         "announcement_bar": true,

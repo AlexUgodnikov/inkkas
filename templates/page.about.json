@@ -28,7 +28,7 @@
         "text_gdYyhJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Inkkas is a globally-inspired, independent footwear brand where every design begins as a hand-drawn work of art. We partner with artists to create original illustrations that celebrate nature, craft, and beauty around the world. Every shoe is brought to life through thoughtful design and handcrafted production, blending art with adventure in every step. Born from a love of travel and deep respect for tradition, our collections are (literally) woven with stories -- from the Andes to the Sahara, from hand-inked sketches to bold soles built for exploration. We believe in craftsmanship that matters, creativity that connects, and products that are as unique as the people who wear them. Whether you're chasing city streets or forest trails, Inkkas are made to move you -- and move with you.</p>",
+            "text": "<p>Inkkas is a nature-inspired, independent footwear brand where every design begins as a hand-drawn work of art. Every shoe is brought to life through thoughtful design and handcrafted production, blending art with adventure in every step. Born from a love of travel and deep respect for tradition, our collections are (literally) woven with stories -- from the Andes to the Sahara, from hand-inked sketches to bold soles built for exploration. We believe in craftsmanship that matters, creativity that connects, and products that are as unique as the people who wear them. Whether you're chasing city streets or forest trails, Inkkas are made to move you -- and move with you.</p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
@@ -202,8 +202,8 @@
             "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
             "image_full_width": false,
             "retina": true,
-            "title": "Art You Can Wear",
-            "text": "<p>We collaborate with talented artists to create one-of-a-kind designs that start as hand-drawn works of art. Every shoe is more than footwear — it’s a wearable canvas that connects you to places and people across the globe. </p>",
+            "title": "1. The Art That Starts It All",
+            "text": "<p>Every pair of Inkkas begins as a hand-drawn work of art — created to spark joy, connection, and inspiration. Our collections draw from the colors, textures, and patterns of our planet to celebrate beauty everywhere. But that’s just where the journey begins.</p>",
             "link_label": "",
             "link": ""
           }
@@ -214,8 +214,8 @@
             "image": "shopify://shop_images/5W1A8149.jpg",
             "image_full_width": false,
             "retina": true,
-            "title": "Step Into the World",
-            "text": "<p>Every pair of shoes tells a story — inked by artists, inspired by the world, and crafted to take you on your next adventure. Our collections celebrate the colors, textures, and patterns of our planet.</p>",
+            "title": "2. Beauty Meets Function",
+            "text": "<p>Each sketch is carefully transformed into a handcrafted shoe — where artistry meets engineering. Using high-quality, responsible materials and time-honored techniques, we build comfort into every detail: cushioned insoles, supportive soles, and a fit that feels like it was made just for you.</p>",
             "link_label": "",
             "link": ""
           }
@@ -226,8 +226,8 @@
             "image": "shopify://shop_images/making_of_the_joggers.gif",
             "image_full_width": true,
             "retina": true,
-            "title": "Crafted with Care",
-            "text": "<p>Each pair is handcrafted in Latin America, using premium materials and time-honored techniques. We believe in slow fashion — making shoes with integrity, built to last, and designed for comfort from the very first step.</p>",
+            "title": "3. Made to be Loved",
+            "text": "<p>Then comes the best part — you. When you step into a pair of Inkkas, you’re not just wearing shoes; you’re carrying art that moves with you. Expect smiles, compliments, and that unmistakable feel-good confidence that comes from walking in something truly one-of-a-kind.</p>",
             "link_label": "",
             "link": ""
           }
@@ -240,7 +240,7 @@
       ],
       "name": "Multicolumn",
       "settings": {
-        "heading": "Independent. Handcrafted. One-of-a-kind.",
+        "heading": "From Sketch to Step: The Inkkas Journey",
         "heading_left": false,
         "description": "",
         "full_width": true,
@@ -275,14 +275,21 @@
         "subheading_gBj8Hx": {
           "type": "subheading",
           "settings": {
-            "text": "ONE SHOE ONE TREE"
+            "text": "ONE SHOE ONE TREE™"
           }
         },
         "text_aPJiCC": {
           "type": "text",
           "settings": {
-            "text": "<p>For every purchase, we plant one tree through our <em><strong>OneShoeOneTree</strong></em>™ program— helping to restore forests, protect biodiversity, and fight climate change. Over the years, this has amounted to more than <strong>445,000 trees planted</strong>! </p><p>The globe as our muse, we are committed to improving our environment and enriching our communities through responsible choices and action. That is why, in addition to tree planting, we make our collections in small batches & allow pre-order (limits overproduction and waste), donate worn pairs to our partner Soles4Souls for refurbishment to those in need, and ensure fair and ethical practices across our supply chain. Thank you for your support!</p>",
+            "text": "<p>For every purchase, we plant one tree through our <em><strong>OneShoeOneTree</strong></em>™ program with trees.org — helping to restore forests, protect biodiversity, and fight climate change. </p><p>In addition to tree planting, we:</p><ul><li>ensure fair and ethical practices across our supply chain</li><li>make our collections in small batches & allow pre-order to limit overproduction and waste</li><li>donate worn pairs to our partner Soles4Souls for refurbishment to those in need.</li></ul><p>Thank you for your support!</p>",
             "description_size": "small"
+          }
+        },
+        "image_HwfPeP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Total_Thanks_-_Trees_Planted_GIF_1.gif",
+            "retina": true
           }
         }
       },
@@ -290,7 +297,8 @@
         "image_pAw6HH",
         "heading_wnxVGx",
         "subheading_gBj8Hx",
-        "text_aPJiCC"
+        "text_aPJiCC",
+        "image_HwfPeP"
       ],
       "settings": {
         "image": "shopify://shop_images/Planting-trees.jpg",
@@ -302,7 +310,7 @@
         "desktop_image_width": "medium",
         "section_width": "grid",
         "layout": "image_first",
-        "content_position": "text-center",
+        "content_position": "text-left",
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_border": "#e2e2e2",
@@ -331,7 +339,7 @@
         "image": "shopify://shop_images/footwear-connects-the-world.png",
         "image_parallax": false,
         "desktop_height": "desktop-height-550",
-        "mobile_height": "mobile-height-350",
+        "mobile_height": "mobile-height-auto",
         "content_width": "large",
         "content_position": "bottom-center",
         "text_alignment": "center",
@@ -342,11 +350,10 @@
     },
     "16623735222f31e80e": {
       "type": "spacer",
-      "disabled": true,
       "settings": {
         "spacer_mobile": 5,
         "spacer_desktop": 10,
-        "border_separator": false,
+        "border_separator": true,
         "border_separator_full": false
       }
     },
@@ -486,6 +493,7 @@
     },
     "image_banner_contain_NNhdmA": {
       "type": "image-banner-contain",
+      "disabled": true,
       "settings": {
         "image_contain": false,
         "button_outline": false,
@@ -513,7 +521,7 @@
         "show_excerpt": true,
         "show_view_all": true,
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "1661619177029ffd60": {

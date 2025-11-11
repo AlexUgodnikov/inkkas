@@ -56,8 +56,54 @@
     "faq": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_tab_KhBqzd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Returns & Exchange Policy (USA)",
+            "open": true,
+            "content": "<p>We want you to <strong>love your Inkkas</strong>. If something’s not quite right, our updated policy makes it easy to return or exchange your order.</p><h4><strong>Start a Return or Exchange</strong></h4><ul><li>Visit our <a href=\"https://inkkas.com/a/return\" target=\"_blank\" title=\"https://inkkas.com/a/return\"><strong>Returns Portal</strong></a> to initiate your return or exchange quickly and easily.</li></ul><h4><strong>Free Returns (First 7 Days)</strong></h4><ul><li>If you start a return <strong>within 7 days of delivery</strong>, we’ll cover the cost of return shipping — <strong>completely free!</strong></li><li><em>Why 7 Days? </em>As a <strong>small, independent brand</strong>, we provide a 7-day free return window to give you <strong>enough time to try your shoes on at home</strong> and make sure they’re the perfect fit — while keeping our processes sustainable and efficient.</li></ul><h4><strong>Returns (30 Days)</strong></h4><ul><li>You can still return items <strong>up to 30 days after delivery</strong>.</li><li>For returns started <strong>after the first 7 days</strong>, the return shipping cost will be <strong>deducted from your refund</strong>.</li></ul><h4><strong>Free Exchanges (30 Days) </strong></h4><ul><li>You can exchange your item <strong>free of charge</strong> within <strong>30 days of delivery</strong> — no shipping costs to you.</li><li>Exchanges are subject to availability and are <strong>limited to one free exchange per pair</strong>.</li><li>Additional exchange shipping costs after the first exchange will be the customer’s responsibility.</li></ul><h4><strong>Return & Exchange Eligibility</strong></h4><p>To qualify for a return or exchange, items must:</p><ul><li>Be in <strong>new, unworn condition</strong>, with original packaging and labels intact.</li><li>Be returned <strong>within 30 days of delivery</strong>.</li><li>Pass final inspection at our warehouse.</li><li>Items showing signs of wear, dirt, or damage may be <strong>rejected</strong> and shipped back to you.<br/></li></ul><p><em>Tip: Try your shoes on indoors until you’re sure they’re keepers.</em></p><h4><strong>Refunds</strong></h4><ul><li>Refunds are processed once your return is inspected and approved.<br/></li><li>Please allow <strong>7–14 business days</strong> from when your return is received to see the refund on your original payment method.<br/></li><li>If the original payment method is unavailable, we’ll issue store credit instead.</li></ul><h4><strong>Final Sale Items</strong></h4><ul><li>Items marked <strong>“Final Sale”</strong> cannot be returned or exchanged.</li><li>If you experience an issue with a Final Sale item, please <strong>contact our support team</strong> at help@inkkas.com for assistance.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_cLY4gg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Return Policy (CANADA)",
+            "open": false,
+            "content": "<ul><li>Initiate your return request for an international order on our <a href=\"https://inkkas.com/a/return?\" title=\"https://inkkas.com/a/return?\">Return Portal here</a>. </li><li>All returns/exchanges will be sent to our CA Returns Center located in Ottawa, ON. </li><li>If you experience any issues, please email ops@inkkas.com.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_N9WLgd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Return Policy (INTERNATIONAL)",
+            "open": false,
+            "content": "<ul><li>For return/exchange requests on orders outside of the US and Canada, please email ops@inkkas.com. </li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_NjzrQR": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "CONTACT US",
+            "open": false,
+            "content": "<p>Need more help? Our support team is available between 9:00 AM to 5:00 PM EST, Monday to Saturday. We are committed to responding to inquiries within 24-48 hours during business hours. You can contact us <a href=\"/pages/contact\"><span style=\"text-decoration:underline\">here,</span></a> via our chatbox, or via email at <a href=\"mailto:help@inkkas.com\" title=\"mailto:help@inkkas.com\"><span style=\"text-decoration:underline\">help@inkkas.com</span></a>.  Please note that we do not respond to inquiries during weekends and/or holidays. </p><p>If you haven't received a response from our customer service team in 48-72 hours, please check your spam and promotions folders as emails are sometimes misdirected there! You can also email us at ops@inkkas.com. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_wAkQAF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DONATING WORN PAIRS",
+            "open": false,
+            "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. There are quality programs across the country and donation centers that will take used shoes. Our partner organization that does a great job taking used shoes and repurposing them is Soles4Souls (<a href=\"https://soles4souls.org/\">https://soles4souls.org</a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. </p><p>Please contact us <a href=\"/pages/contact\"><span style=\"text-decoration:underline\">here</span></a> if you would like assistance donating a pair to Soles4Souls.</p>",
+            "page": ""
+          }
+        },
         "collapsible_tab_mLFbJi": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Return policy (USA)",
             "open": true,
@@ -77,6 +123,7 @@
         },
         "collapsible_tab_DN4BEi": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "CHECKOUT OFFER: FREE Returns + Shipping Protection",
             "open": false,
@@ -86,6 +133,7 @@
         },
         "collapsible_tab_RTgTUh": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "How long do I have to return my order?",
             "open": false,
@@ -95,6 +143,7 @@
         },
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Refund Timeline",
             "open": false,
@@ -114,62 +163,28 @@
         },
         "collapsible_tab_Bp9Tpx": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "FINAL SALE: LIMITED RETURNS policy",
             "open": false,
             "content": "<ul><li>Items marked \"Final Sale\" are not eligible for a return or exchange. Please contact customer service with questions or special circumstances.</li></ul>",
             "page": ""
           }
-        },
-        "collapsible_tab_NjzrQR": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "I have contacted Inkkas customer service, when will I hear back?",
-            "open": false,
-            "content": "<p>Our support team is available between 9:00 AM to 5:00 PM EST, Monday to Saturday. We are committed to responding to inquiries within 24-48 hours during business hours. You can contact us <a href=\"/pages/contact\"><span style=\"text-decoration:underline\">here</span></a> or at <a href=\"mailto:support@inkkas.com\"><span style=\"text-decoration:underline\">support@inkkas.com</span></a>.  Please note that we do not respond to inquiries during weekends and/or holidays. </p><p>For urgent matters or if you haven't received a response from our customer service team in 48-72 hours (sometimes replies go to spam), please email us at ops@inkkas.com.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_wAkQAF": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "What can I do with old Inkkas I no longer wear? ",
-            "open": false,
-            "content": "<p>Inkkas is always looking for ways to reduce waste, so we encourage all of our customers that are finished using a pair to donate them. There are quality programs across the country and donation centers that will take used shoes. Our partner organization that does a great job taking used shoes and repurposing them is Soles4Souls (<a href=\"https://soles4souls.org/\">https://soles4souls.org</a>). Please continue to support our mission of sustainable habits by donating your used shoes instead of throwing them in the trash. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_cLY4gg": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "RETURN POLICY (CANADA)",
-            "open": false,
-            "content": "<ul><li>All returns/exchanges will be sent to our CA Returns Center located in Ottawa, ON. </li><li>To request a return on an international order, please visit our <a href=\"https://inkkas.com/a/return?\" title=\"https://inkkas.com/a/return?\">return portal here</a>. Please contact ops@inkkas.com.</li><li>Please note, our Free Returns + Shipping Protection offer does not apply to orders outside of the United States.</li></ul>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_N9WLgd": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Return Policy (INTERNATIONAL)",
-            "open": false,
-            "content": "<ul><li>For return/exchange requests on orders outside of the US and Canada, please contact us directly at ops@inkkas.com. </li><li>Please note, our Free Returns + Shipping Protection offer does not apply to orders outside of the United States.</li></ul>",
-            "page": ""
-          }
         }
       },
       "block_order": [
+        "collapsible_tab_KhBqzd",
+        "collapsible_tab_cLY4gg",
+        "collapsible_tab_N9WLgd",
+        "collapsible_tab_NjzrQR",
+        "collapsible_tab_wAkQAF",
         "collapsible_tab_mLFbJi",
         "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
         "collapsible_tab_DN4BEi",
         "collapsible_tab_RTgTUh",
         "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
         "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
-        "collapsible_tab_Bp9Tpx",
-        "collapsible_tab_NjzrQR",
-        "collapsible_tab_wAkQAF",
-        "collapsible_tab_cLY4gg",
-        "collapsible_tab_N9WLgd"
+        "collapsible_tab_Bp9Tpx"
       ],
       "settings": {
         "heading": "",

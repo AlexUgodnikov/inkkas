@@ -56,12 +56,22 @@
     "faq": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_tab_AgGYpC": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Limited-Time Free Shipping Weekend (U.S. Only)",
+            "open": false,
+            "content": "<p><strong>Limited-Time Free Shipping Weekend (U.S. Only)</strong></p><p>For one weekend only — October 10–12, 2025 (ET), enjoy free standard shipping on all U.S. orders.</p><p>Apply the promo code shown in our site banner at checkout to qualify. No minimum purchase required.</p><p>Details:</p><ul><li>Valid on standard shipping to U.S. addresses.</li><li>Only combinable with select discount codes and promotions.</li><li>Returns & exchanges follow our standard policy.</li><li>Offer ends October 12, 2025 at 11:59 PM ET.</li></ul><p><br/></p>",
+            "page": ""
+          }
+        },
         "collapsible_tab_mLFbJi": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Do you offer Free Shipping?",
             "open": true,
-            "content": "<ul><li>Yes, Inkkas is happy to offer <strong>FREE shipping</strong> within the Continental U.S. on all orders of $175 or more! </li><li>Free shipping is automatically applied at checkout wherever eligible.</li><li>Free shipping is also available to Canada for orders of $200 or more. </li><li>Free shipping does not currently apply to Alaska, Hawaii and Puerto Rico. </li><li>Free shipping does not currently apply to international orders other than Canada.</li></ul>",
+            "content": "<ul><li>Yes, we offer <strong>FREE shipping</strong> within the Continental U.S. on all orders of $175 or more! </li><li>Free shipping is automatically applied at checkout wherever eligible.</li><li>Free shipping is also available to Canada for orders of $200 or more. </li><li>Free shipping does not currently apply to Alaska, Hawaii and Puerto Rico. </li><li>Free shipping does not currently apply to international orders other than Canada.</li></ul>",
             "page": ""
           }
         },
@@ -133,7 +143,7 @@
           "settings": {
             "heading": "I'm returning my order. Does Inkkas cover the cost of return shipping?",
             "open": false,
-            "content": "<ul><li>A purchase of Inkkas' optional <strong>Returns & Exchanges + Shipping Protection</strong> at checkout qualifies you for FREE return shipping.</li><li>For orders that did not select this option, the return shipping cost will be deducted from any refund. For additional details, view our full return policy <a href=\"/pages/return-policy\" title=\"Returns & Exchanges\"><span style=\"text-decoration:underline\">here</span></a>.</li></ul>",
+            "content": "<ul><li>If you return your order within 7 days of order delivery, Inkkas covers the cost of return shipping. </li><li>For orders returned between 7-30 days, the return shipping cost will be deducted from any refund. For additional details, view our full return policy <a href=\"/pages/return-policy\" title=\"Returns & Exchanges\"><span style=\"text-decoration:underline\">here</span></a>.</li></ul>",
             "page": ""
           }
         },
@@ -166,6 +176,7 @@
         }
       },
       "block_order": [
+        "collapsible_tab_AgGYpC",
         "collapsible_tab_mLFbJi",
         "collapsible_tab_RTgTUh",
         "collapsible_tab_wNwVAb",

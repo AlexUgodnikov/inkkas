@@ -9,40 +9,39 @@
  */
 {
   "sections": {
-    "main-cart": {
-      "type": "main-cart",
-      "settings": {
-        "cart_notes_enable": true
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "We're fun too",
+        "heading": "More customer favorites",
         "heading_left": true,
         "description": "",
-        "full_width": true,
+        "full_width": false,
         "mobile_swipe": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     },
-    "recently-viewed-products": {
-      "type": "recently-viewed-products",
+    "main-cart": {
+      "type": "main-cart",
+      "blocks": {
+        "shipping_estimator_QeRgU4": {
+          "type": "shipping_estimator",
+          "disabled": true,
+          "settings": {
+            "default_country": ""
+          }
+        }
+      },
+      "block_order": [
+        "shipping_estimator_QeRgU4"
+      ],
       "settings": {
-        "heading": "Recently viewed",
-        "heading_left": true,
-        "description": "",
-        "full_width": true,
-        "mobile_swipe": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "cart_notes_enable": false
       }
     }
   },
   "order": [
     "main-cart",
-    "product-recommendations",
-    "recently-viewed-products"
+    "product-recommendations"
   ]
 }

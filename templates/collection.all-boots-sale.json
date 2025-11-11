@@ -1,0 +1,132 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": false,
+        "show_subcollections": true,
+        "make_heading_uppercase": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "collection_filters_button_777d3Q": {
+      "type": "collection-filters-button",
+      "name": "Filters chips",
+      "settings": {}
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "full_width": true,
+        "products_per_page": 48,
+        "columns_desktop": 4,
+        "pagination_type": "infinite",
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": false,
+        "filter_color_swatches": true,
+        "facets_desktop": "drawer"
+      }
+    },
+    "scrolling_text_MGTnMF": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_qtPPHE": {
+          "type": "text",
+          "settings": {
+            "text": "Use code: BOOT50 for $50 OFF Every Pair",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_YJYQip": {
+          "type": "text",
+          "settings": {
+            "text": "Only During Our 48 Hour Prime Sale",
+            "link": "",
+            "outline_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_qtPPHE",
+        "text_YJYQip"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "right",
+        "speed": "20s",
+        "text_size": 24,
+        "text_uppercase": true,
+        "image_size": "small",
+        "color_bg": "#c3d4b6",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_HDe43e": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "single_image_3UWGVN": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/DesertPolaroid15.jpg",
+        "image_mobile": "shopify://shop_images/Inkkas_Mobile_Banner_2_750_x_915_px_-_2_5bac755d-6f6f-4d27-b542-97c521070aa3.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "featured_collection_6RbLfp": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "Trending Now",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "best-sellers",
+        "display_type": "carousel",
+        "product_limit": 8,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "collection_filters_button_777d3Q",
+    "product-grid",
+    "scrolling_text_MGTnMF",
+    "spacer_HDe43e",
+    "single_image_3UWGVN",
+    "featured_collection_6RbLfp"
+  ]
+}

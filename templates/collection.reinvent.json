@@ -110,7 +110,7 @@
         "text_size": 40,
         "text_uppercase": true,
         "image_size": "medium",
-        "color_bg": "#c27b34",
+        "color_bg": "#c3d4b6",
         "color_text": "#151515",
         "overlay_color": "#dedede",
         "overlay_opacity": 0,
@@ -961,6 +961,7 @@
         "slide_mU3M7p",
         "slide_MrhfEw"
       ],
+      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "desktop_height": "desktop-height-image",
