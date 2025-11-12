@@ -164,8 +164,18 @@ if (!customElements.get('slide-show')) {
         }
       }
       if (slideshow.classList.contains('products')) {
-        args.wrapAround = false;
+        // If autoplay is enabled, we want wrapAround to be true for continuous looping.
+        // Otherwise, it can be false (default for products).
+        if (autoplay) { // 'autoplay' here is the parsed integer value from data-autoplay
+            args.wrapAround = true;
+        } else {
+            args.wrapAround = false; // Keep original behavior if no autoplay
+        }
+        const existingReady = args.on.ready;
         args.on.ready = function () {
+          if (existingReady) {
+            existingReady.call(this);
+          }
           var flickity = this;
           if (next_button) {
             window.addEventListener('resize', function () {

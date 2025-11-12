@@ -12,6 +12,7 @@
 	assign product_limit = section.settings.product_limit
 	assign mobile_swipe = section.settings.mobile_swipe
 	assign show_progress_bar = section.settings.show_progress_bar
+	assign show_dots_setting = section.settings.show_dots
 	assign disable_top_spacing = section.settings.disable_top_spacing
 	assign disable_bottom_spacing = section.settings.disable_bottom_spacing
 	assign columns_class = 'small-6 medium-6 large-4'
@@ -37,13 +38,57 @@
 	else
 		assign element = 'div'
 	endif
+
+	assign products_in_carousel = product_limit
+	if featured_collection.products.size > 0
+		assign products_in_carousel = featured_collection.products.size
+	endif
+
+	if products_in_carousel > product_limit
+		assign products_in_carousel = product_limit
+	endif
+
+	assign show_dots = false
+	assign dots_class = ''
+	if show_dots_setting and products_in_carousel > columns_desktop and display_type == 'carousel'
+		assign show_dots = true
+		assign dots_class = 'custom-dots'
+	endif
+	assign autoplay = section.settings.autoplay
+	if autoplay
+		assign autoplay = section.settings.autoplay_length | times: 1000
+	endif
 -%}
-<div class="featured-collection{% if mobile_swipe %} swipe-on-mobile{% endif %} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+
+{% style %}
+.section-{{section.id}} .products.custom-dots{
+	position:relative;
+	padding-bottom: 70px!important;
+}
+.section-{{section.id}} .products.custom-dots .flickity-page-dots{
+    z-index: 99;
+    position: absolute;
+    bottom: 0;
+    color: #000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-{{section.id}} .flickity-page-dots .dot {
+    flex-shrink: 0;
+    margin: 0 20px;
+    background: var(--color-text, var(--color-body));
+}
+.section-{{section.id}} .flickity-page-dots .dot .thb-pagination-svg circle {
+    stroke: var(--color-text, var(--color-body));
+}
+{% endstyle %}
+<div class="section-{{section.id}} featured-collection{% if mobile_swipe %} swipe-on-mobile{% endif %} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
 	<div class="row{% if full_width %} full-width-row{% endif %}">
 		<div class="small-12 columns">
 			{% render 'section-header', section_heading: section_heading, section_description: section_description, section_heading_left: section_heading_left, section_heading_button: section_heading_button %}
-			<div class="featured-collection__inner display-type--{{ display_type }}">
-				<{{ element }} id="product-grid-{{ section.id }}" class="products row {{ display_type }}">
+			<div class="featured-collection__inner display-type--{{ display_type }}" style="--dot-speed: {{ autoplay | divided_by: 1000 | append: 's' }};">
+				<{{ element }} id="product-grid-{{ section.id }}" class="products row {{ display_type }} {{ dots_class }}" {% if display_type == 'carousel' %}data-dots="{{ show_dots }}"{% endif %} data-autoplay="{{ autoplay }}">
 					{%- if featured_collection != blank -%}
 						{%- for product in featured_collection.products limit: product_limit -%}
 							<div class="{{ columns_class }} columns {% if display_type == 'carousel' %}carousel__slide{% endif %}">
@@ -62,7 +107,18 @@
 						{%- render 'slideshow-arrows' -%}
 						{%- endif -%}
 					{%- endif -%}
+					{%- if show_dots -%}
+						{%- assign num_pages = products_in_carousel | times: 1.0 | divided_by: columns_desktop | ceil -%}
+						<ol class="flickity-page-dots">
+							{%- for i in (1..num_pages) -%}
+							<li class="dot" aria-label="{{ forloop.index }}">
+								{%- render 'svg-icons' with 'thb-pagination-dot' -%}
+							</li>
+							{%- endfor -%}
+						</ol>
+					{%- endif -%}
 				</{{ element }}>
+
 				{%- if display_type == 'carousel' and show_progress_bar -%}
 				<div class="flickity-progress">
 					<div class="flickity-progress--bar"></div>
@@ -171,6 +227,28 @@
 			"label": "Show progress bar",
 			"default": true
 		},
+		{
+			"type": "checkbox",
+			"id": "show_dots",
+			"label": "Show dots",
+			"default": true
+		},
+		{
+        "type": "checkbox",
+        "id": "autoplay",
+        "label": "Auto-rotate slides",
+        "default": true
+      },
+			{
+				"type": "range",
+				"id": "autoplay_length",
+				"min": 3,
+				"max": 10,
+				"step": 1,
+				"unit": "s",
+				"label": "Change slides every",
+				"default": 5
+			},
 		{
       "type": "header",
       "content": "Spacing"
