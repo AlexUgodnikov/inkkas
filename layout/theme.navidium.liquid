@@ -188,36 +188,60 @@ a.appendChild(r);
 			}
 		});
 	</script>
-  <!-- Accessibility - inkkas.com -->
-  <script> 
-    window.interdeal = {
-        sitekey   : "4c2e8a90152b898e1f9ee1864d7df9a7",
-        Position  : "Left",
-        Menulang  : "EN",
-        domains  : {
-          js  : "https://cdn.equalweb.com/",
-          acc : "https://access.equalweb.com/"
+<!-- Accessibility Code for "inkkas.com" -->
+<script>
+/*
+Want to customize your button? visit our documentation page:
+https://login.equalweb.com/custom-button
+*/
+window.interdeal = {
+    get sitekey (){ return "4c2e8a90152b898e1f9ee1864d7df9a7"} ,
+    get domains(){
+        return {
+            "js": "https://cdn.equalweb.com/",
+            "acc": "https://access.equalweb.com/"
+        }
+    },
+    "Position": "left",
+    "Menulang": "EN",
+    "draggable": false,
+    "btnStyle": {
+        "vPosition": [
+            "80%",
+            "80%"
+        ],
+        "margin": [
+            "0",
+            "0"
+        ],
+        "scale": [
+            "0.5",
+            "0.5"
+        ],
+        "color": {
+            "main": "#767874",
+            "second": "#ffffff"
         },
-        btnStyle  : {
-                color : {
-                    main   : "#000",
-                    second : "#fff"
-                },
-                vPosition : ["80%",undefined], //Y-axis position of the widget, left side is reffering to the desktop version, the right side is for mobile.
-                scale     : ["0.5","0.5"] //Size of the widget, the left side is referring to the desktop version, the right side is for mobile.
-                
-            }
-    };
-    (function(doc, head, body){
-        var coreCall             = doc.createElement('script');
-        coreCall.src             = 'https://cdn.equalweb.com/core/4.4.0/accessibility.js';
-        coreCall.defer           = true;
-        coreCall.integrity       = 'sha512-3lGJBcuai1J0rGJHJj4e4lYOzm7K08oEHsg1Llt7x24OOsa/Ca0wwbSi9HhWUn92FKN3fylaq9xmIKVZnUsT3Q==';
-        coreCall.crossOrigin     = 'anonymous';
-        coreCall.setAttribute('data-cfasync', true );
-        body? body.appendChild(coreCall) : head.appendChild(coreCall);
-    })(document, document.head, document.body);
-  </script>
+        "icon": {
+            "outline": false,
+            "outlineColor": "#ffffff",
+            "type":  11 ,
+            "shape": "semicircle"
+        }
+    },
+                                  
+};
+
+(function(doc, head, body){
+    var coreCall             = doc.createElement('script');
+    coreCall.src             = interdeal.domains.js + 'core/5.2.0/accessibility.js';
+    coreCall.defer           = true;
+    coreCall.integrity       = 'sha512-fHF4rKIzByr1XeM6stpnVdiHrJUOZsKN2/Pm0jikdTQ9uZddgq15F92kUptMnyYmjIVNKeMIa67HRFnBNTOXsQ==';
+    coreCall.crossOrigin     = 'anonymous';
+    coreCall.setAttribute('data-cfasync', true );
+    body? body.appendChild(coreCall) : head.appendChild(coreCall);
+})(document, document.head, document.body);
+</script>
 
   <!--Gorgias Chat Widget Start-->
 <script id="gorgias-chat-widget-install-v3" 
