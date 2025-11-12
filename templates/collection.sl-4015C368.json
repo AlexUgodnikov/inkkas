@@ -1,0 +1,237 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": true,
+        "show_subcollections": true,
+        "make_heading_uppercase": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "collection_filters_button_777d3Q": {
+      "type": "collection-filters-button",
+      "settings": {}
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "promotion_iE6HkP": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "best-sellers",
+            "promotion_position": 3,
+            "promotion_width": "2",
+            "image": "shopify://shop_images/ANDES-CAMPING-BOOT-CB169916-GROUP-ROOSTER-CAMPING-BOOT-CB179802-GROUP-PhotoMay17_14154PM.jpg",
+            "title": "for discovery",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://products/andes-camping-boot",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_LAFKer": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "best-sellers",
+            "promotion_position": 7,
+            "promotion_width": "2",
+            "image": "shopify://shop_images/LUNDI-VEGAN-ACE-LOW-TOP-SS250207-MODEL-ZOOM-EPI_5629.jpg",
+            "title": "for all-day sunshine",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://products/lundi-vegan-ace-low-top",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "best-sellers",
+            "promotion_position": 11,
+            "promotion_width": "2",
+            "image": "shopify://shop_images/CYPRUS-TREKK-BOOT-UGC-_HAPPY.LILBIRD-1.png",
+            "title": "for going places",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://products/cyprus-trekk-boot",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_crfKdz": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "promotion_collection": "best-sellers",
+            "promotion_position": 21,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/Spirit_Bear_Vegan_Joggers-UGC-_thelifeofthreebeagles.png",
+            "title": "for expressing your true self",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://products/spirit-bear-vegan-jogger",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "promotion_iE6HkP",
+        "promotion_LAFKer",
+        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9",
+        "promotion_crfKdz"
+      ],
+      "settings": {
+        "full_width": true,
+        "products_per_page": 48,
+        "columns_desktop": 4,
+        "pagination_type": "infinite",
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": false,
+        "filter_color_swatches": true,
+        "facets_desktop": "drawer"
+      }
+    },
+    "spacer_HDe43e": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "single_image_3UWGVN": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/DesertPolaroid15.jpg",
+        "image_mobile": "shopify://shop_images/Inkkas_Mobile_Banner_2_750_x_915_px_-_2_5bac755d-6f6f-4d27-b542-97c521070aa3.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "featured_collection_6RbLfp": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "Trending Now",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection": "best-sellers",
+        "display_type": "carousel",
+        "product_limit": 8,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "q47NCnPYEufWWzte8sBKD4": {
+      "type": "sl-quick-nav-1-1",
+      "blocks": {
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-1": {
+          "type": "collection_block",
+          "settings": {
+            "show_on": "all_devices",
+            "collection": "",
+            "title": ""
+          }
+        },
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-2": {
+          "type": "collection_block",
+          "settings": {
+            "show_on": "all_devices",
+            "collection": "",
+            "title": ""
+          }
+        },
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-3": {
+          "type": "collection_block",
+          "settings": {
+            "show_on": "all_devices",
+            "collection": "",
+            "title": ""
+          }
+        },
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-4": {
+          "type": "collection_block",
+          "settings": {
+            "show_on": "all_devices",
+            "collection": "",
+            "title": ""
+          }
+        },
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-5": {
+          "type": "collection_block",
+          "settings": {
+            "show_on": "all_devices",
+            "collection": "",
+            "title": ""
+          }
+        },
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-6": {
+          "type": "collection_block",
+          "settings": {
+            "show_on": "all_devices",
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-1",
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-2",
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-3",
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-4",
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-5",
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-6"
+      ],
+      "settings": {
+        "card_format": "no_image",
+        "show_card_border": true,
+        "show_card_bg": false,
+        "image_rounding": "round",
+        "card_ratio": "adapt_to_image",
+        "use_padding": false
+      }
+    }
+  },
+  "order": [
+    "q47NCnPYEufWWzte8sBKD4",
+    "main-collection-banner",
+    "collection_filters_button_777d3Q",
+    "product-grid",
+    "spacer_HDe43e",
+    "single_image_3UWGVN",
+    "featured_collection_6RbLfp"
+  ]
+}

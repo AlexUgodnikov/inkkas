@@ -1,0 +1,101 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "2B3PVG8C5Q2Y34J1QL68jW": {
+      "type": "sl-benefit-bar",
+      "blocks": {
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-1": {
+          "type": "benefit_linktext",
+          "settings": {
+            "devices": "all",
+            "text": "Free shipping over $175",
+            "message_link": "",
+            "message_icon": "truck"
+          }
+        },
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-2": {
+          "type": "benefit_linktext",
+          "settings": {
+            "devices": "all",
+            "text": "24/7 support",
+            "message_link": "",
+            "message_icon": "phone"
+          }
+        },
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-3": {
+          "type": "benefit_linktext",
+          "settings": {
+            "devices": "all",
+            "text": "Free returns & exchanges",
+            "message_link": "",
+            "message_icon": "check-circle"
+          }
+        }
+      },
+      "block_order": [
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-1",
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-2",
+        "0859508e-8894-4a16-ae91-94a1e52c8acb-3"
+      ],
+      "settings": {
+        "devices": "all",
+        "sticky_on_scroll": false,
+        "desktop_layout": "alternate_timer",
+        "timer_length": 2,
+        "pattern_select": "019a73dd-9211-7209-898b-51d56e258fa3",
+        "bar_height": "medium",
+        "font_style": "body",
+        "text_size": "medium",
+        "border_type": "brand_style",
+        "mobile_bar_height": "match_desktop",
+        "mobile_text_size": "match_desktop",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "border_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main-cart": {
+      "type": "main-cart",
+      "blocks": {
+        "shipping_estimator_QeRgU4": {
+          "type": "shipping_estimator",
+          "disabled": true,
+          "settings": {
+            "default_country": ""
+          }
+        }
+      },
+      "block_order": [
+        "shipping_estimator_QeRgU4"
+      ],
+      "settings": {
+        "cart_notes_enable": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "More customer favorites",
+        "heading_left": true,
+        "description": "",
+        "full_width": false,
+        "mobile_swipe": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "2B3PVG8C5Q2Y34J1QL68jW",
+    "main-cart",
+    "product-recommendations"
+  ]
+}

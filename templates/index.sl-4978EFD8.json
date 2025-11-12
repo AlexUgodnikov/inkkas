@@ -130,7 +130,6 @@
         "slide_7KjMz4",
         "slide_xcXW4R"
       ],
-      "name": "Slideshow",
       "settings": {
         "desktop_height": "desktop-height-image",
         "mobile_height": "mobile-height-image",
@@ -144,7 +143,6 @@
     },
     "featured_collection_tJhHEP": {
       "type": "featured-collection",
-      "name": "Featured collection",
       "settings": {
         "heading": "Bestsellers",
         "heading_left": false,
@@ -199,7 +197,6 @@
     },
     "featured_collection_mJPPbC": {
       "type": "featured-collection",
-      "name": "Featured collection",
       "settings": {
         "heading": "New Arrivals: AW25",
         "heading_left": false,
@@ -343,7 +340,6 @@
         "text_MpD46i",
         "text_6gw9k6"
       ],
-      "custom_css": [],
       "settings": {
         "height": "height-auto",
         "full_width": true,
@@ -402,7 +398,6 @@
         "quote_CyaMfC",
         "quote_FmHYhn"
       ],
-      "name": "Testimonials",
       "settings": {
         "full_width": false,
         "text_size": "small",
@@ -417,7 +412,6 @@
     },
     "spacer_JLMGrN": {
       "type": "spacer",
-      "name": "Spacer",
       "settings": {
         "spacer_mobile": 0,
         "spacer_desktop": 100,
@@ -460,7 +454,7 @@
       "block_order": [
         "slide_xeyrLq"
       ],
-      "name": "Slideshow",
+      "disabled": true,
       "settings": {
         "desktop_height": "desktop-height-image",
         "mobile_height": "mobile-height-500",
@@ -496,7 +490,6 @@
         "heading_nymHVr",
         "text_JzdRjm"
       ],
-      "name": "Rich text",
       "settings": {
         "section_width": "full-width-row",
         "text_width": "medium",
@@ -650,7 +643,6 @@
         "image_d9xjHc",
         "image_L6Q7D6"
       ],
-      "name": "Gallery",
       "settings": {
         "slider": true,
         "columns_desktop": 4,
@@ -740,7 +732,6 @@
         "heading_yL7Uaw",
         "subheading_FpELAD"
       ],
-      "name": "Rich text",
       "settings": {
         "section_width": "grid",
         "text_width": "medium",
@@ -1540,7 +1531,6 @@
       "block_order": [
         "button_kbaedH"
       ],
-      "name": "Rich text",
       "settings": {
         "section_width": "full-width-row-full",
         "text_width": "xlarge",
@@ -1615,7 +1605,6 @@
     },
     "spacer_9PVUJE": {
       "type": "spacer",
-      "name": "Spacer",
       "settings": {
         "spacer_mobile": 35,
         "spacer_desktop": 55,
@@ -1711,7 +1700,6 @@
         "column_f6TFFJ",
         "column_mwd9nj"
       ],
-      "name": "Multicolumn",
       "settings": {
         "heading": "WHY INKKAS",
         "heading_left": false,
@@ -1731,7 +1719,6 @@
     "single_image_KYnHUq": {
       "type": "single-image",
       "disabled": true,
-      "name": "Single image",
       "settings": {
         "image": "shopify://shop_images/Tagline_3_Logos_for_Homepage_2.png",
         "full_width": false,
@@ -1769,7 +1756,6 @@
         "button_M6FV8i"
       ],
       "disabled": true,
-      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/shoe_finder.gif",
         "use_video": false,
@@ -1787,9 +1773,17 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "MLkYkdTJba7J2ebA1gBpM": {
+      "type": "sl-offer-bar",
+      "settings": {
+        "headline_text": "Awarded product of the year",
+        "message_icon": "award"
+      }
     }
   },
   "order": [
+    "MLkYkdTJba7J2ebA1gBpM",
     "slideshow_CQXNHG",
     "featured_collection_tJhHEP",
     "rich_text_KC4Kf7",

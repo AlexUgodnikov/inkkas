@@ -1,0 +1,2385 @@
+.sl-brandstyle-019a73d4-fc04-7bab-9646-78cc9a7910d4 .sl-font-style--title {
+font-family: Figtree;
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d4-fc04-7bab-9646-78cc9a7910d4 .sl-font-style--body {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d4-fc04-7bab-9646-78cc9a7910d4 .sl-font-style--button {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d4-fc04-7bab-9646-78cc9a7910d4 .sl-font-style--label {
+font-family: "Archivo Narrow";
+font-weight: 500;
+font-style: normal;
+text-transform: uppercase;
+}
+.sl-pattern-019a73d4-fc1d-7ac4-97cb-0cad571a92a2 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d4-fc1d-7ac4-97cb-0cad571a92a2 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d4-fc1d-7ac4-97cb-0cad571a92a2 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d4-fc1d-7ac4-97cb-0cad571a92a2 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d4-fc1d-7ac4-97cb-0cad571a92a2 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d4-fc1d-7ac4-97cb-0cad571a92a2 .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73d4-fc1d-7ac4-97cb-0cad571a92a2 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d4-fc7e-7dc8-9179-fcc8d43381f5 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d4-fc7e-7dc8-9179-fcc8d43381f5 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d4-fc7e-7dc8-9179-fcc8d43381f5 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d4-fc7e-7dc8-9179-fcc8d43381f5 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d4-fc7e-7dc8-9179-fcc8d43381f5 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d4-fc7e-7dc8-9179-fcc8d43381f5 .sl-button--brand-style {
+color: #000000;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d4-fc7e-79d3-9a34-e4e7437bb416 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d4-fc7e-79d3-9a34-e4e7437bb416 .sl-font-style--title { color: #ffffff; }
+.sl-pattern-019a73d4-fc7e-79d3-9a34-e4e7437bb416 .sl-font-style--body { color: #ffffff; }
+.sl-pattern-019a73d4-fc7e-79d3-9a34-e4e7437bb416 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d4-fc7e-79d3-9a34-e4e7437bb416 .sl-font-style--label { color: #ffffff; }
+.sl-pattern-019a73d4-fc7e-79d3-9a34-e4e7437bb416 .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d4-fc7e-72d3-a1b1-9c3b7d54f0e1 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+}
+.sl-pattern-019a73d4-fc7e-72d3-a1b1-9c3b7d54f0e1 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d4-fc7e-72d3-a1b1-9c3b7d54f0e1 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d4-fc7e-72d3-a1b1-9c3b7d54f0e1 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d4-fc7e-72d3-a1b1-9c3b7d54f0e1 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d4-fc7e-72d3-a1b1-9c3b7d54f0e1 .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73d4-fc7e-704f-ba9d-bb5e9c3617f5 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d4-fc7e-704f-ba9d-bb5e9c3617f5 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d4-fc7e-704f-ba9d-bb5e9c3617f5 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d4-fc7e-704f-ba9d-bb5e9c3617f5 .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d4-fc7e-704f-ba9d-bb5e9c3617f5 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d4-fc7e-704f-ba9d-bb5e9c3617f5 .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d4-fc7e-704f-ba9d-bb5e9c3617f5 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d4-fc7e-704f-ba9d-bb5e9c3617f5 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d4-fc7e-7a57-893a-0343e5e3f24a {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d4-fc7e-7a57-893a-0343e5e3f24a .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d4-fc7e-7a57-893a-0343e5e3f24a .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d4-fc7e-7a57-893a-0343e5e3f24a .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d4-fc7e-7a57-893a-0343e5e3f24a .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d4-fc7e-7a57-893a-0343e5e3f24a .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73d4-fc7e-7a57-893a-0343e5e3f24a .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d4-fc7e-70cc-9472-cf626e5bb5d7 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d4-fc7e-70cc-9472-cf626e5bb5d7 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d4-fc7e-70cc-9472-cf626e5bb5d7 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d4-fc7e-70cc-9472-cf626e5bb5d7 .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d4-fc7e-70cc-9472-cf626e5bb5d7 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d4-fc7e-70cc-9472-cf626e5bb5d7 .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d4-fc7e-7a0d-867f-8ed132631ede {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d4-fc7e-7a0d-867f-8ed132631ede .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d4-fc7e-7a0d-867f-8ed132631ede .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d4-fc7e-7a0d-867f-8ed132631ede .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d4-fc7e-7a0d-867f-8ed132631ede .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d4-fc7e-7a0d-867f-8ed132631ede .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d4-fc7e-7042-95c1-cfc3b88eee0b {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d4-fc7e-7042-95c1-cfc3b88eee0b .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d4-fc7e-7042-95c1-cfc3b88eee0b .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d4-fc7e-7042-95c1-cfc3b88eee0b .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d4-fc7e-7042-95c1-cfc3b88eee0b .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d4-fc7e-7042-95c1-cfc3b88eee0b .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d4-fc7f-74fd-9f87-d37012f1298a {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d4-fc7f-74fd-9f87-d37012f1298a .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d4-fc7f-74fd-9f87-d37012f1298a .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d4-fc7f-74fd-9f87-d37012f1298a .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d4-fc7f-74fd-9f87-d37012f1298a .sl-button--brand-style {
+background-color: #ffffff;
+}
+.sl-brandstyle-019a73d6-3bc5-7bb3-9212-8438b73480c9 .sl-font-style--title {
+font-family: Figtree;
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d6-3bc5-7bb3-9212-8438b73480c9 .sl-font-style--body {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d6-3bc5-7bb3-9212-8438b73480c9 .sl-font-style--button {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d6-3bc5-7bb3-9212-8438b73480c9 .sl-font-style--label {
+font-family: "Archivo Narrow";
+font-weight: 500;
+font-style: normal;
+text-transform: uppercase;
+}
+.sl-pattern-019a73d6-3be0-7711-a52e-4c6ab77aeff5 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d6-3be0-7711-a52e-4c6ab77aeff5 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d6-3be0-7711-a52e-4c6ab77aeff5 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d6-3be0-7711-a52e-4c6ab77aeff5 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d6-3be0-7711-a52e-4c6ab77aeff5 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d6-3be0-7711-a52e-4c6ab77aeff5 .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73d6-3be0-7711-a52e-4c6ab77aeff5 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d6-3c42-7d98-84d0-81e513d98713 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d6-3c42-7d98-84d0-81e513d98713 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d6-3c42-7d98-84d0-81e513d98713 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d6-3c42-7d98-84d0-81e513d98713 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d6-3c42-7d98-84d0-81e513d98713 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d6-3c42-7d98-84d0-81e513d98713 .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73d6-3c42-7d98-84d0-81e513d98713 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d6-3c42-7091-9478-97d6adb9ac5a {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d6-3c42-7091-9478-97d6adb9ac5a .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d6-3c42-7091-9478-97d6adb9ac5a .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d6-3c42-7091-9478-97d6adb9ac5a .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d6-3c42-7091-9478-97d6adb9ac5a .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d6-3c42-7091-9478-97d6adb9ac5a .sl-button--brand-style {
+color: #151515;
+background-color: #000000;
+}
+.sl-pattern-019a73d6-3c42-7091-9478-97d6adb9ac5a .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d6-3c42-7091-9478-97d6adb9ac5a .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d6-3c43-754b-970a-49784a9a3a9d {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d6-3c43-754b-970a-49784a9a3a9d .sl-font-style--title { color: #ffffff; }
+.sl-pattern-019a73d6-3c43-754b-970a-49784a9a3a9d .sl-font-style--body { color: #ffffff; }
+.sl-pattern-019a73d6-3c43-754b-970a-49784a9a3a9d .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d6-3c43-754b-970a-49784a9a3a9d .sl-font-style--label { color: #ffffff; }
+.sl-pattern-019a73d6-3c43-754b-970a-49784a9a3a9d .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d6-3c43-7cad-b4c5-84dbb593bd47 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d6-3c43-7cad-b4c5-84dbb593bd47 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d6-3c43-7cad-b4c5-84dbb593bd47 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d6-3c43-7cad-b4c5-84dbb593bd47 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d6-3c43-7cad-b4c5-84dbb593bd47 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d6-3c43-7cad-b4c5-84dbb593bd47 .sl-button--brand-style {
+color: #000000;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d6-3c43-7d57-9572-b43e5ea2ef83 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d6-3c43-7d57-9572-b43e5ea2ef83 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d6-3c43-7d57-9572-b43e5ea2ef83 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d6-3c43-7d57-9572-b43e5ea2ef83 .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d6-3c43-7d57-9572-b43e5ea2ef83 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d6-3c43-7d57-9572-b43e5ea2ef83 .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d6-3c43-7352-b6e2-1cd1fb953cb8 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d6-3c43-7352-b6e2-1cd1fb953cb8 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d6-3c43-7352-b6e2-1cd1fb953cb8 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d6-3c43-7352-b6e2-1cd1fb953cb8 .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d6-3c43-7352-b6e2-1cd1fb953cb8 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d6-3c43-7352-b6e2-1cd1fb953cb8 .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d6-3c43-7586-a62f-6f360e00875e {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d6-3c43-7586-a62f-6f360e00875e .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d6-3c43-7586-a62f-6f360e00875e .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d6-3c43-7586-a62f-6f360e00875e .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d6-3c43-7586-a62f-6f360e00875e .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d6-3c43-7586-a62f-6f360e00875e .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d6-3c43-7586-a62f-6f360e00875e .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d6-3c43-7586-a62f-6f360e00875e .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d6-3c43-7dc6-aa79-f9492ef60cf3 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+}
+.sl-pattern-019a73d6-3c43-7dc6-aa79-f9492ef60cf3 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d6-3c43-7dc6-aa79-f9492ef60cf3 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d6-3c43-7dc6-aa79-f9492ef60cf3 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d6-3c43-7dc6-aa79-f9492ef60cf3 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d6-3c43-7dc6-aa79-f9492ef60cf3 .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73d6-3c43-7d50-ac38-b22ae70b65dd {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d6-3c43-7d50-ac38-b22ae70b65dd .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d6-3c43-7d50-ac38-b22ae70b65dd .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d6-3c43-7d50-ac38-b22ae70b65dd .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d6-3c43-7d50-ac38-b22ae70b65dd .sl-button--brand-style {
+background-color: #ffffff;
+}
+.sl-brandstyle-019a73d7-5fd6-7ed7-aa05-770e9e5e838e .sl-font-style--title {
+font-family: Figtree;
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d7-5fd6-7ed7-aa05-770e9e5e838e .sl-font-style--body {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d7-5fd6-7ed7-aa05-770e9e5e838e .sl-font-style--button {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d7-5fd6-7ed7-aa05-770e9e5e838e .sl-font-style--label {
+font-family: "Archivo Narrow";
+font-weight: 500;
+font-style: normal;
+text-transform: uppercase;
+}
+.sl-pattern-019a73d7-5fd7-71f7-ba3c-7d517fa06bd6 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d7-5fd7-71f7-ba3c-7d517fa06bd6 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-5fd7-71f7-ba3c-7d517fa06bd6 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-5fd7-71f7-ba3c-7d517fa06bd6 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d7-5fd7-71f7-ba3c-7d517fa06bd6 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-5fd7-71f7-ba3c-7d517fa06bd6 .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73d7-5fd7-71f7-ba3c-7d517fa06bd6 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d7-5fd7-7293-b487-797550c75188 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d7-5fd7-7293-b487-797550c75188 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-5fd7-7293-b487-797550c75188 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-5fd7-7293-b487-797550c75188 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d7-5fd7-7293-b487-797550c75188 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-5fd7-7293-b487-797550c75188 .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffb715;
+}
+.sl-pattern-019a73d7-5fd7-7293-b487-797550c75188 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d7-5fd8-7eab-8c23-4417650ee3e7 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-5fd8-7eab-8c23-4417650ee3e7 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-5fd8-7eab-8c23-4417650ee3e7 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-5fd8-7eab-8c23-4417650ee3e7 .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d7-5fd8-7eab-8c23-4417650ee3e7 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-5fd8-7eab-8c23-4417650ee3e7 .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-5fd8-7a31-b518-62a05cf85f27 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d7-5fd8-7a31-b518-62a05cf85f27 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-5fd8-7a31-b518-62a05cf85f27 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-5fd8-7a31-b518-62a05cf85f27 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d7-5fd8-7a31-b518-62a05cf85f27 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-5fd8-7a31-b518-62a05cf85f27 .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73d7-5fd8-7a31-b518-62a05cf85f27 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d7-5fd8-7a31-b518-62a05cf85f27 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d7-5fd8-7ad9-8000-5734316925ba {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-5fd8-7ad9-8000-5734316925ba .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d7-5fd8-7ad9-8000-5734316925ba .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d7-5fd8-7ad9-8000-5734316925ba .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d7-5fd8-7ad9-8000-5734316925ba .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d7-5fd8-7ad9-8000-5734316925ba .sl-button--brand-style {
+color: #000000;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-5fd8-79b0-ba97-269781e99a30 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d7-5fd8-79b0-ba97-269781e99a30 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-5fd8-79b0-ba97-269781e99a30 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-5fd8-79b0-ba97-269781e99a30 .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d7-5fd8-79b0-ba97-269781e99a30 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-5fd8-79b0-ba97-269781e99a30 .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-5fd8-79b0-ba97-269781e99a30 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d7-5fd8-79b0-ba97-269781e99a30 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d7-5fd8-78a2-9285-4f4c2740ac18 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+}
+.sl-pattern-019a73d7-5fd8-78a2-9285-4f4c2740ac18 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-5fd8-78a2-9285-4f4c2740ac18 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-5fd8-78a2-9285-4f4c2740ac18 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d7-5fd8-78a2-9285-4f4c2740ac18 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-5fd8-78a2-9285-4f4c2740ac18 .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73d7-5fd8-7676-8d43-7440312b9fba {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-5fd8-7676-8d43-7440312b9fba .sl-font-style--title { color: #ffffff; }
+.sl-pattern-019a73d7-5fd8-7676-8d43-7440312b9fba .sl-font-style--body { color: #ffffff; }
+.sl-pattern-019a73d7-5fd8-7676-8d43-7440312b9fba .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d7-5fd8-7676-8d43-7440312b9fba .sl-font-style--label { color: #ffffff; }
+.sl-pattern-019a73d7-5fd8-7676-8d43-7440312b9fba .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-5fd8-7b61-bb6e-3fb2993dd01f {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-5fd8-7b61-bb6e-3fb2993dd01f .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-5fd8-7b61-bb6e-3fb2993dd01f .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-5fd8-7b61-bb6e-3fb2993dd01f .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d7-5fd8-7b61-bb6e-3fb2993dd01f .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-5fd8-7b61-bb6e-3fb2993dd01f .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-5fd8-7a2b-91f6-add02d16912e {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-5fd8-7a2b-91f6-add02d16912e .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d7-5fd8-7a2b-91f6-add02d16912e .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d7-5fd8-7a2b-91f6-add02d16912e .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d7-5fd8-7a2b-91f6-add02d16912e .sl-button--brand-style {
+background-color: #ffffff;
+}
+.sl-brandstyle-019a73d7-898f-77cf-9159-d41bb2ff6911 .sl-font-style--title {
+font-family: Figtree;
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d7-898f-77cf-9159-d41bb2ff6911 .sl-font-style--body {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d7-898f-77cf-9159-d41bb2ff6911 .sl-font-style--button {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d7-898f-77cf-9159-d41bb2ff6911 .sl-font-style--label {
+font-family: "Archivo Narrow";
+font-weight: 500;
+font-style: normal;
+text-transform: uppercase;
+}
+.sl-pattern-019a73d7-89b1-79bf-85aa-0655b7a8d9cf {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d7-89b1-79bf-85aa-0655b7a8d9cf .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-89b1-79bf-85aa-0655b7a8d9cf .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-89b1-79bf-85aa-0655b7a8d9cf .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d7-89b1-79bf-85aa-0655b7a8d9cf .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-89b1-79bf-85aa-0655b7a8d9cf .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73d7-89b1-79bf-85aa-0655b7a8d9cf .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d7-8a1b-7dd4-8287-c7353dc7ddf5 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d7-8a1b-7dd4-8287-c7353dc7ddf5 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-8a1b-7dd4-8287-c7353dc7ddf5 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-8a1b-7dd4-8287-c7353dc7ddf5 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d7-8a1b-7dd4-8287-c7353dc7ddf5 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-8a1b-7dd4-8287-c7353dc7ddf5 .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73d7-8a1b-7dd4-8287-c7353dc7ddf5 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d7-8a1b-79f0-916b-1570f0f9e315 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d7-8a1b-79f0-916b-1570f0f9e315 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-8a1b-79f0-916b-1570f0f9e315 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-8a1b-79f0-916b-1570f0f9e315 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d7-8a1b-79f0-916b-1570f0f9e315 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-8a1b-79f0-916b-1570f0f9e315 .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73d7-8a1b-79f0-916b-1570f0f9e315 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d7-8a1b-79f0-916b-1570f0f9e315 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d7-8a1c-7feb-ab4d-74b7898a5ef2 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-8a1c-7feb-ab4d-74b7898a5ef2 .sl-font-style--title { color: #ffffff; }
+.sl-pattern-019a73d7-8a1c-7feb-ab4d-74b7898a5ef2 .sl-font-style--body { color: #ffffff; }
+.sl-pattern-019a73d7-8a1c-7feb-ab4d-74b7898a5ef2 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d7-8a1c-7feb-ab4d-74b7898a5ef2 .sl-font-style--label { color: #ffffff; }
+.sl-pattern-019a73d7-8a1c-7feb-ab4d-74b7898a5ef2 .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-8a1c-736c-a871-fe5d37a676f1 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+}
+.sl-pattern-019a73d7-8a1c-736c-a871-fe5d37a676f1 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-8a1c-736c-a871-fe5d37a676f1 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-8a1c-736c-a871-fe5d37a676f1 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d7-8a1c-736c-a871-fe5d37a676f1 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-8a1c-736c-a871-fe5d37a676f1 .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73d7-8a1c-7950-be21-3be6cda7d083 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d7-8a1c-7950-be21-3be6cda7d083 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-8a1c-7950-be21-3be6cda7d083 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-8a1c-7950-be21-3be6cda7d083 .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d7-8a1c-7950-be21-3be6cda7d083 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-8a1c-7950-be21-3be6cda7d083 .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-8a1c-7950-be21-3be6cda7d083 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d7-8a1c-7950-be21-3be6cda7d083 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d7-8a1c-7af9-8042-e1c720edf585 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-8a1c-7af9-8042-e1c720edf585 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-8a1c-7af9-8042-e1c720edf585 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-8a1c-7af9-8042-e1c720edf585 .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d7-8a1c-7af9-8042-e1c720edf585 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-8a1c-7af9-8042-e1c720edf585 .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-8a1c-7c9b-9054-ca900c2278ac {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-8a1c-7c9b-9054-ca900c2278ac .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d7-8a1c-7c9b-9054-ca900c2278ac .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d7-8a1c-7c9b-9054-ca900c2278ac .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d7-8a1c-7c9b-9054-ca900c2278ac .sl-button--brand-style {
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-8a1c-7e8e-8420-e3f88f44b663 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-8a1c-7e8e-8420-e3f88f44b663 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d7-8a1c-7e8e-8420-e3f88f44b663 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d7-8a1c-7e8e-8420-e3f88f44b663 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d7-8a1c-7e8e-8420-e3f88f44b663 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d7-8a1c-7e8e-8420-e3f88f44b663 .sl-button--brand-style {
+color: #000000;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-8a1c-72b9-962a-6ae774f59070 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-8a1c-72b9-962a-6ae774f59070 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-8a1c-72b9-962a-6ae774f59070 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-8a1c-72b9-962a-6ae774f59070 .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d7-8a1c-72b9-962a-6ae774f59070 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-8a1c-72b9-962a-6ae774f59070 .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-brandstyle-019a73d7-f2d6-7c51-b21e-ed7ea05f9718 .sl-font-style--title {
+font-family: Figtree;
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d7-f2d6-7c51-b21e-ed7ea05f9718 .sl-font-style--body {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d7-f2d6-7c51-b21e-ed7ea05f9718 .sl-font-style--button {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d7-f2d6-7c51-b21e-ed7ea05f9718 .sl-font-style--label {
+font-family: "Archivo Narrow";
+font-weight: 500;
+font-style: normal;
+text-transform: uppercase;
+}
+.sl-pattern-019a73d7-f2d7-708e-b251-41a840731b39 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-f2d7-708e-b251-41a840731b39 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d7-f2d7-708e-b251-41a840731b39 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d7-f2d7-708e-b251-41a840731b39 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d7-f2d7-708e-b251-41a840731b39 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d7-f2d7-708e-b251-41a840731b39 .sl-button--brand-style {
+color: #000000;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-f2d7-7e20-b32c-337a5537ba9b {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-f2d7-7e20-b32c-337a5537ba9b .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d7-f2d7-7e20-b32c-337a5537ba9b .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d7-f2d7-7e20-b32c-337a5537ba9b .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d7-f2d7-7e20-b32c-337a5537ba9b .sl-button--brand-style {
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-f2d7-700c-9f90-316f1f6f8c9e {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d7-f2d7-700c-9f90-316f1f6f8c9e .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-f2d7-700c-9f90-316f1f6f8c9e .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-f2d7-700c-9f90-316f1f6f8c9e .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d7-f2d7-700c-9f90-316f1f6f8c9e .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-f2d7-700c-9f90-316f1f6f8c9e .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73d7-f2d7-700c-9f90-316f1f6f8c9e .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d7-f2d7-79e2-b883-a83636f370dc {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-f2d7-79e2-b883-a83636f370dc .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-f2d7-79e2-b883-a83636f370dc .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-f2d7-79e2-b883-a83636f370dc .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d7-f2d7-79e2-b883-a83636f370dc .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-f2d7-79e2-b883-a83636f370dc .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-f2d7-79c4-a575-899ad7e93706 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+}
+.sl-pattern-019a73d7-f2d7-79c4-a575-899ad7e93706 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-f2d7-79c4-a575-899ad7e93706 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-f2d7-79c4-a575-899ad7e93706 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d7-f2d7-79c4-a575-899ad7e93706 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-f2d7-79c4-a575-899ad7e93706 .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73d7-f2d6-79af-8376-94d728d750a3 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d7-f2d6-79af-8376-94d728d750a3 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-f2d6-79af-8376-94d728d750a3 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-f2d6-79af-8376-94d728d750a3 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d7-f2d6-79af-8376-94d728d750a3 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-f2d6-79af-8376-94d728d750a3 .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73d7-f2d6-79af-8376-94d728d750a3 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d7-f2d7-74d9-8bfc-f9540434ea51 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d7-f2d7-74d9-8bfc-f9540434ea51 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-f2d7-74d9-8bfc-f9540434ea51 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-f2d7-74d9-8bfc-f9540434ea51 .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d7-f2d7-74d9-8bfc-f9540434ea51 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-f2d7-74d9-8bfc-f9540434ea51 .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-f2d7-74d9-8bfc-f9540434ea51 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d7-f2d7-74d9-8bfc-f9540434ea51 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d7-f2d7-7065-ac85-98038c27fe24 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d7-f2d7-7065-ac85-98038c27fe24 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-f2d7-7065-ac85-98038c27fe24 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-f2d7-7065-ac85-98038c27fe24 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d7-f2d7-7065-ac85-98038c27fe24 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-f2d7-7065-ac85-98038c27fe24 .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73d7-f2d7-7065-ac85-98038c27fe24 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d7-f2d7-7065-ac85-98038c27fe24 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d7-f2d7-7041-a67e-860b4809469f {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-f2d7-7041-a67e-860b4809469f .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d7-f2d7-7041-a67e-860b4809469f .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d7-f2d7-7041-a67e-860b4809469f .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d7-f2d7-7041-a67e-860b4809469f .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d7-f2d7-7041-a67e-860b4809469f .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d7-f2d7-7272-ba89-be762cfc0ec0 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d7-f2d7-7272-ba89-be762cfc0ec0 .sl-font-style--title { color: #ffffff; }
+.sl-pattern-019a73d7-f2d7-7272-ba89-be762cfc0ec0 .sl-font-style--body { color: #ffffff; }
+.sl-pattern-019a73d7-f2d7-7272-ba89-be762cfc0ec0 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d7-f2d7-7272-ba89-be762cfc0ec0 .sl-font-style--label { color: #ffffff; }
+.sl-pattern-019a73d7-f2d7-7272-ba89-be762cfc0ec0 .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffffff;
+}
+.sl-brandstyle-019a73d8-a0d1-72a1-b625-f3844b12a1fb .sl-font-style--title {
+font-family: Figtree;
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d8-a0d1-72a1-b625-f3844b12a1fb .sl-font-style--body {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d8-a0d1-72a1-b625-f3844b12a1fb .sl-font-style--button {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d8-a0d1-72a1-b625-f3844b12a1fb .sl-font-style--label {
+font-family: "Archivo Narrow";
+font-weight: 500;
+font-style: normal;
+text-transform: uppercase;
+}
+.sl-pattern-019a73d8-a0e0-7b91-b966-0aba24977281 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d8-a0e0-7b91-b966-0aba24977281 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d8-a0e0-7b91-b966-0aba24977281 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d8-a0e0-7b91-b966-0aba24977281 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d8-a0e0-7b91-b966-0aba24977281 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d8-a0e0-7b91-b966-0aba24977281 .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73d8-a0e0-7b91-b966-0aba24977281 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d8-a118-78e7-898a-e308258035ec {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d8-a118-78e7-898a-e308258035ec .sl-font-style--title { color: #ffffff; }
+.sl-pattern-019a73d8-a118-78e7-898a-e308258035ec .sl-font-style--body { color: #ffffff; }
+.sl-pattern-019a73d8-a118-78e7-898a-e308258035ec .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d8-a118-78e7-898a-e308258035ec .sl-font-style--label { color: #ffffff; }
+.sl-pattern-019a73d8-a118-78e7-898a-e308258035ec .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d8-a118-7849-aae9-cd525a46d2b0 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d8-a118-7849-aae9-cd525a46d2b0 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d8-a118-7849-aae9-cd525a46d2b0 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d8-a118-7849-aae9-cd525a46d2b0 .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d8-a118-7849-aae9-cd525a46d2b0 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d8-a118-7849-aae9-cd525a46d2b0 .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d8-a118-7849-aae9-cd525a46d2b0 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d8-a118-7849-aae9-cd525a46d2b0 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d8-a118-777c-8142-fb92b22ddf94 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d8-a118-777c-8142-fb92b22ddf94 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d8-a118-777c-8142-fb92b22ddf94 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d8-a118-777c-8142-fb92b22ddf94 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d8-a118-777c-8142-fb92b22ddf94 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d8-a118-777c-8142-fb92b22ddf94 .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73d8-a118-777c-8142-fb92b22ddf94 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d8-a118-777c-8142-fb92b22ddf94 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d8-a118-7c35-bc23-ee1c951e75ff {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d8-a118-7c35-bc23-ee1c951e75ff .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d8-a118-7c35-bc23-ee1c951e75ff .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d8-a118-7c35-bc23-ee1c951e75ff .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d8-a118-7c35-bc23-ee1c951e75ff .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d8-a118-7c35-bc23-ee1c951e75ff .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73d8-a118-7c35-bc23-ee1c951e75ff .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d8-a118-79d0-88c7-88d89b2a03fb {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d8-a118-79d0-88c7-88d89b2a03fb .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d8-a118-79d0-88c7-88d89b2a03fb .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d8-a118-79d0-88c7-88d89b2a03fb .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d8-a118-79d0-88c7-88d89b2a03fb .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d8-a118-79d0-88c7-88d89b2a03fb .sl-button--brand-style {
+color: #000000;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d8-a118-70e3-889b-2229fc05c68d {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d8-a118-70e3-889b-2229fc05c68d .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d8-a118-70e3-889b-2229fc05c68d .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d8-a118-70e3-889b-2229fc05c68d .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d8-a118-70e3-889b-2229fc05c68d .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d8-a118-70e3-889b-2229fc05c68d .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73d8-a118-70e3-889b-2229fc05c68d .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d8-a118-7642-b431-ba207e04328f {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d8-a118-7642-b431-ba207e04328f .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d8-a118-7642-b431-ba207e04328f .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d8-a118-7642-b431-ba207e04328f .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d8-a118-7642-b431-ba207e04328f .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d8-a118-7642-b431-ba207e04328f .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d8-a118-7461-a2d0-428de481c18d {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d8-a118-7461-a2d0-428de481c18d .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d8-a118-7461-a2d0-428de481c18d .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d8-a118-7461-a2d0-428de481c18d .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d8-a118-7461-a2d0-428de481c18d .sl-button--brand-style {
+background-color: #ffffff;
+}
+.sl-brandstyle-019a73d8-dbd1-7973-8f62-8c274e310311 .sl-font-style--title {
+font-family: Figtree;
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d8-dbd1-7973-8f62-8c274e310311 .sl-font-style--body {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d8-dbd1-7973-8f62-8c274e310311 .sl-font-style--button {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d8-dbd1-7973-8f62-8c274e310311 .sl-font-style--label {
+font-family: "Archivo Narrow";
+font-weight: 500;
+font-style: normal;
+text-transform: uppercase;
+}
+.sl-pattern-019a73d8-dbd2-7436-b8d6-fce3052ba7c1 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d8-dbd2-7436-b8d6-fce3052ba7c1 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d8-dbd2-7436-b8d6-fce3052ba7c1 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d8-dbd2-7436-b8d6-fce3052ba7c1 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d8-dbd2-7436-b8d6-fce3052ba7c1 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d8-dbd2-7436-b8d6-fce3052ba7c1 .sl-button--brand-style {
+color: #000000;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d8-dbd2-7223-beef-8a241f5fb268 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d8-dbd2-7223-beef-8a241f5fb268 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d8-dbd2-7223-beef-8a241f5fb268 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d8-dbd2-7223-beef-8a241f5fb268 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d8-dbd2-7223-beef-8a241f5fb268 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d8-dbd2-7223-beef-8a241f5fb268 .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73d8-dbd2-7223-beef-8a241f5fb268 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d8-dbd2-774e-a014-f45aa0a3383e {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d8-dbd2-774e-a014-f45aa0a3383e .sl-font-style--title { color: #ffffff; }
+.sl-pattern-019a73d8-dbd2-774e-a014-f45aa0a3383e .sl-font-style--body { color: #ffffff; }
+.sl-pattern-019a73d8-dbd2-774e-a014-f45aa0a3383e .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d8-dbd2-774e-a014-f45aa0a3383e .sl-font-style--label { color: #ffffff; }
+.sl-pattern-019a73d8-dbd2-774e-a014-f45aa0a3383e .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d8-dbd2-7169-9bcc-fbdd6870ed8a {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d8-dbd2-7169-9bcc-fbdd6870ed8a .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d8-dbd2-7169-9bcc-fbdd6870ed8a .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d8-dbd2-7169-9bcc-fbdd6870ed8a .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d8-dbd2-7169-9bcc-fbdd6870ed8a .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d8-dbd2-7169-9bcc-fbdd6870ed8a .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d8-dbd2-7169-9bcc-fbdd6870ed8a .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d8-dbd2-7169-9bcc-fbdd6870ed8a .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d8-dbd2-78c3-9a9f-02187487b536 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d8-dbd2-78c3-9a9f-02187487b536 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d8-dbd2-78c3-9a9f-02187487b536 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d8-dbd2-78c3-9a9f-02187487b536 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d8-dbd2-78c3-9a9f-02187487b536 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d8-dbd2-78c3-9a9f-02187487b536 .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73d8-dbd2-78c3-9a9f-02187487b536 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d8-dbd2-7838-9bce-ae4056986666 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d8-dbd2-7838-9bce-ae4056986666 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d8-dbd2-7838-9bce-ae4056986666 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d8-dbd2-7838-9bce-ae4056986666 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d8-dbd2-7838-9bce-ae4056986666 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d8-dbd2-7838-9bce-ae4056986666 .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73d8-dbd2-7838-9bce-ae4056986666 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d8-dbd2-7838-9bce-ae4056986666 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d8-dbd2-7821-bcd2-a361bb16fa78 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d8-dbd2-7821-bcd2-a361bb16fa78 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d8-dbd2-7821-bcd2-a361bb16fa78 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d8-dbd2-7821-bcd2-a361bb16fa78 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d8-dbd2-7821-bcd2-a361bb16fa78 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d8-dbd2-7821-bcd2-a361bb16fa78 .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73d8-dbd2-7821-bcd2-a361bb16fa78 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d8-dbd2-7f0c-b396-9ed47d86bdc8 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d8-dbd2-7f0c-b396-9ed47d86bdc8 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d8-dbd2-7f0c-b396-9ed47d86bdc8 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d8-dbd2-7f0c-b396-9ed47d86bdc8 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d8-dbd2-7f0c-b396-9ed47d86bdc8 .sl-button--brand-style {
+background-color: #ffffff;
+}
+.sl-pattern-019a73d8-dbd2-753f-87a9-904c1feca044 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d8-dbd2-753f-87a9-904c1feca044 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d8-dbd2-753f-87a9-904c1feca044 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d8-dbd2-753f-87a9-904c1feca044 .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d8-dbd2-753f-87a9-904c1feca044 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d8-dbd2-753f-87a9-904c1feca044 .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-brandstyle-019a73d9-5358-7116-95cc-c424c662d1ab .sl-font-style--title {
+font-family: Figtree;
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d9-5358-7116-95cc-c424c662d1ab .sl-font-style--body {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d9-5358-7116-95cc-c424c662d1ab .sl-font-style--button {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73d9-5358-7116-95cc-c424c662d1ab .sl-font-style--label {
+font-family: "Archivo Narrow";
+font-weight: 500;
+font-style: normal;
+text-transform: uppercase;
+}
+.sl-pattern-019a73d9-5359-7d93-8013-b95fb1cb1c81 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d9-5359-7d93-8013-b95fb1cb1c81 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d9-5359-7d93-8013-b95fb1cb1c81 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d9-5359-7d93-8013-b95fb1cb1c81 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d9-5359-7d93-8013-b95fb1cb1c81 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d9-5359-7d93-8013-b95fb1cb1c81 .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73d9-5359-7d93-8013-b95fb1cb1c81 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d9-5359-7d93-8013-b95fb1cb1c81 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d9-5359-717c-aee1-b1cd5443655c {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d9-5359-717c-aee1-b1cd5443655c .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d9-5359-717c-aee1-b1cd5443655c .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d9-5359-717c-aee1-b1cd5443655c .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d9-5359-717c-aee1-b1cd5443655c .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d9-5359-717c-aee1-b1cd5443655c .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73d9-5359-717c-aee1-b1cd5443655c .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d9-5359-72f7-965c-3c3a18542812 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d9-5359-72f7-965c-3c3a18542812 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d9-5359-72f7-965c-3c3a18542812 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d9-5359-72f7-965c-3c3a18542812 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d9-5359-72f7-965c-3c3a18542812 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d9-5359-72f7-965c-3c3a18542812 .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73d9-5359-72f7-965c-3c3a18542812 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d9-535a-7759-8396-54f5678bda11 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d9-535a-7759-8396-54f5678bda11 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d9-535a-7759-8396-54f5678bda11 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d9-535a-7759-8396-54f5678bda11 .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73d9-535a-7759-8396-54f5678bda11 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d9-535a-7759-8396-54f5678bda11 .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d9-535a-7759-8396-54f5678bda11 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73d9-535a-7759-8396-54f5678bda11 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d9-535a-7160-a3e1-e81f35251c5b {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d9-535a-7160-a3e1-e81f35251c5b .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d9-535a-7160-a3e1-e81f35251c5b .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d9-535a-7160-a3e1-e81f35251c5b .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d9-535a-7160-a3e1-e81f35251c5b .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d9-535a-7160-a3e1-e81f35251c5b .sl-button--brand-style {
+color: #000000;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d9-535a-71ae-846d-891e9ae84ef1 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73d9-535a-71ae-846d-891e9ae84ef1 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d9-535a-71ae-846d-891e9ae84ef1 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d9-535a-71ae-846d-891e9ae84ef1 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d9-535a-71ae-846d-891e9ae84ef1 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d9-535a-71ae-846d-891e9ae84ef1 .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73d9-535a-71ae-846d-891e9ae84ef1 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73d9-535a-7019-b290-5ee0405d227b {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d9-535a-7019-b290-5ee0405d227b .sl-font-style--title { color: #ffffff; }
+.sl-pattern-019a73d9-535a-7019-b290-5ee0405d227b .sl-font-style--body { color: #ffffff; }
+.sl-pattern-019a73d9-535a-7019-b290-5ee0405d227b .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73d9-535a-7019-b290-5ee0405d227b .sl-font-style--label { color: #ffffff; }
+.sl-pattern-019a73d9-535a-7019-b290-5ee0405d227b .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffffff;
+}
+.sl-pattern-019a73d9-535b-7103-a3bf-278ffe9a7af4 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73d9-535b-7103-a3bf-278ffe9a7af4 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73d9-535b-7103-a3bf-278ffe9a7af4 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73d9-535b-7103-a3bf-278ffe9a7af4 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73d9-535b-7103-a3bf-278ffe9a7af4 .sl-button--brand-style {
+background-color: #ffffff;
+}
+.sl-pattern-019a73d9-535a-7b05-8f40-7ece78bf9783 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+}
+.sl-pattern-019a73d9-535a-7b05-8f40-7ece78bf9783 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73d9-535a-7b05-8f40-7ece78bf9783 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73d9-535a-7b05-8f40-7ece78bf9783 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73d9-535a-7b05-8f40-7ece78bf9783 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73d9-535a-7b05-8f40-7ece78bf9783 .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-brandstyle-019a73da-6b05-7b55-8976-67b1c3201b6d .sl-font-style--title {
+font-family: Figtree;
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73da-6b05-7b55-8976-67b1c3201b6d .sl-font-style--body {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73da-6b05-7b55-8976-67b1c3201b6d .sl-font-style--button {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73da-6b05-7b55-8976-67b1c3201b6d .sl-font-style--label {
+font-family: "Archivo Narrow";
+font-weight: 500;
+font-style: normal;
+text-transform: uppercase;
+}
+.sl-pattern-019a73da-6b24-7143-94ac-768a685367f0 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73da-6b24-7143-94ac-768a685367f0 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73da-6b24-7143-94ac-768a685367f0 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73da-6b24-7143-94ac-768a685367f0 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73da-6b24-7143-94ac-768a685367f0 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73da-6b24-7143-94ac-768a685367f0 .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73da-6b24-7143-94ac-768a685367f0 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73da-6b98-77b3-948a-3cc1fc3e6c00 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73da-6b98-77b3-948a-3cc1fc3e6c00 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73da-6b98-77b3-948a-3cc1fc3e6c00 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73da-6b98-77b3-948a-3cc1fc3e6c00 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73da-6b98-77b3-948a-3cc1fc3e6c00 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73da-6b98-77b3-948a-3cc1fc3e6c00 .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73da-6b98-77b3-948a-3cc1fc3e6c00 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73da-6b98-7f08-98cd-71295c6aa755 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73da-6b98-7f08-98cd-71295c6aa755 .sl-font-style--title { color: #ffffff; }
+.sl-pattern-019a73da-6b98-7f08-98cd-71295c6aa755 .sl-font-style--body { color: #ffffff; }
+.sl-pattern-019a73da-6b98-7f08-98cd-71295c6aa755 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73da-6b98-7f08-98cd-71295c6aa755 .sl-font-style--label { color: #ffffff; }
+.sl-pattern-019a73da-6b98-7f08-98cd-71295c6aa755 .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffffff;
+}
+.sl-pattern-019a73da-6b98-78ce-af27-ff54a3a4de16 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73da-6b98-78ce-af27-ff54a3a4de16 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73da-6b98-78ce-af27-ff54a3a4de16 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73da-6b98-78ce-af27-ff54a3a4de16 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73da-6b98-78ce-af27-ff54a3a4de16 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73da-6b98-78ce-af27-ff54a3a4de16 .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73da-6b98-78ce-af27-ff54a3a4de16 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73da-6b98-78ce-af27-ff54a3a4de16 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73da-6b97-7c8b-a40d-0651aaac2def {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73da-6b97-7c8b-a40d-0651aaac2def .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73da-6b97-7c8b-a40d-0651aaac2def .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73da-6b97-7c8b-a40d-0651aaac2def .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73da-6b97-7c8b-a40d-0651aaac2def .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73da-6b97-7c8b-a40d-0651aaac2def .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73da-6b97-7c8b-a40d-0651aaac2def .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73da-6b99-7c43-bb10-d14501334642 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+}
+.sl-pattern-019a73da-6b99-7c43-bb10-d14501334642 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73da-6b99-7c43-bb10-d14501334642 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73da-6b99-7c43-bb10-d14501334642 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73da-6b99-7c43-bb10-d14501334642 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73da-6b99-7c43-bb10-d14501334642 .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73da-6b99-7158-b4dd-0a36492f73f3 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #151515;
+--sl-gv-btn-bg-color: #ffffff;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73da-6b99-7158-b4dd-0a36492f73f3 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73da-6b99-7158-b4dd-0a36492f73f3 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73da-6b99-7158-b4dd-0a36492f73f3 .sl-font-style--button { color: #151515; }
+.sl-pattern-019a73da-6b99-7158-b4dd-0a36492f73f3 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73da-6b99-7158-b4dd-0a36492f73f3 .sl-button--brand-style {
+color: #151515;
+background-color: #ffffff;
+}
+.sl-pattern-019a73da-6b99-7158-b4dd-0a36492f73f3 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73da-6b99-7158-b4dd-0a36492f73f3 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73da-6b99-7597-bebe-6e8d9f3a17b6 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73da-6b99-7597-bebe-6e8d9f3a17b6 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73da-6b99-7597-bebe-6e8d9f3a17b6 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73da-6b99-7597-bebe-6e8d9f3a17b6 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73da-6b99-7597-bebe-6e8d9f3a17b6 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73da-6b99-7597-bebe-6e8d9f3a17b6 .sl-button--brand-style {
+color: #000000;
+background-color: #ffffff;
+}
+.sl-pattern-019a73da-6b99-7ae1-be63-025ac0439d89 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73da-6b99-7ae1-be63-025ac0439d89 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73da-6b99-7ae1-be63-025ac0439d89 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73da-6b99-7ae1-be63-025ac0439d89 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73da-6b99-7ae1-be63-025ac0439d89 .sl-button--brand-style {
+background-color: #ffffff;
+}
+.sl-brandstyle-019a73dc-6287-7049-b0f4-99b5431a578d .sl-font-style--title {
+font-family: Figtree;
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dc-6287-7049-b0f4-99b5431a578d .sl-font-style--body {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dc-6287-7049-b0f4-99b5431a578d .sl-font-style--button {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dc-6287-7049-b0f4-99b5431a578d .sl-font-style--label {
+font-family: "Archivo Narrow";
+font-weight: 500;
+font-style: normal;
+text-transform: uppercase;
+}
+.sl-pattern-019a73dc-6288-7126-9a50-5af80b49199b {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dc-6288-7126-9a50-5af80b49199b .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dc-6288-7126-9a50-5af80b49199b .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dc-6288-7126-9a50-5af80b49199b .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dc-6288-7126-9a50-5af80b49199b .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dc-6288-7126-9a50-5af80b49199b .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73dc-6288-7126-9a50-5af80b49199b .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dc-6288-78d0-a191-f3f45896851b {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dc-6288-78d0-a191-f3f45896851b .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dc-6288-78d0-a191-f3f45896851b .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dc-6288-78d0-a191-f3f45896851b .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dc-6288-78d0-a191-f3f45896851b .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dc-6288-78d0-a191-f3f45896851b .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73dc-6288-78d0-a191-f3f45896851b .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dc-6289-717e-8880-704ec0ba23f8 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73dc-6289-717e-8880-704ec0ba23f8 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73dc-6289-717e-8880-704ec0ba23f8 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73dc-6289-717e-8880-704ec0ba23f8 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73dc-6289-717e-8880-704ec0ba23f8 .sl-button--brand-style {
+background-color: #ffffff;
+}
+.sl-pattern-019a73dc-6289-7a03-adf4-bd21d2ddc436 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73dc-6289-7a03-adf4-bd21d2ddc436 .sl-font-style--title { color: #ffffff; }
+.sl-pattern-019a73dc-6289-7a03-adf4-bd21d2ddc436 .sl-font-style--body { color: #ffffff; }
+.sl-pattern-019a73dc-6289-7a03-adf4-bd21d2ddc436 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dc-6289-7a03-adf4-bd21d2ddc436 .sl-font-style--label { color: #ffffff; }
+.sl-pattern-019a73dc-6289-7a03-adf4-bd21d2ddc436 .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffffff;
+}
+.sl-pattern-019a73dc-6289-7bf3-af41-a68fd53a3e39 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dc-6289-7bf3-af41-a68fd53a3e39 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dc-6289-7bf3-af41-a68fd53a3e39 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dc-6289-7bf3-af41-a68fd53a3e39 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dc-6289-7bf3-af41-a68fd53a3e39 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dc-6289-7bf3-af41-a68fd53a3e39 .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73dc-6289-7bf3-af41-a68fd53a3e39 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dc-6289-7836-862b-a3e507c04442 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dc-6289-7836-862b-a3e507c04442 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dc-6289-7836-862b-a3e507c04442 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dc-6289-7836-862b-a3e507c04442 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dc-6289-7836-862b-a3e507c04442 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dc-6289-7836-862b-a3e507c04442 .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73dc-6289-7836-862b-a3e507c04442 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dc-6289-7397-a295-7f0cbc070b70 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dc-6289-7397-a295-7f0cbc070b70 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dc-6289-7397-a295-7f0cbc070b70 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dc-6289-7397-a295-7f0cbc070b70 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dc-6289-7397-a295-7f0cbc070b70 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dc-6289-7397-a295-7f0cbc070b70 .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73dc-6289-7397-a295-7f0cbc070b70 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dc-6289-7cef-b8d0-81f2ec3a32e0 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+}
+.sl-pattern-019a73dc-6289-7cef-b8d0-81f2ec3a32e0 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73dc-6289-7cef-b8d0-81f2ec3a32e0 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73dc-6289-7cef-b8d0-81f2ec3a32e0 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dc-6289-7cef-b8d0-81f2ec3a32e0 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73dc-6289-7cef-b8d0-81f2ec3a32e0 .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73dc-6288-7b82-ab1e-751787163769 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dc-6288-7b82-ab1e-751787163769 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dc-6288-7b82-ab1e-751787163769 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dc-6288-7b82-ab1e-751787163769 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dc-6288-7b82-ab1e-751787163769 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dc-6288-7b82-ab1e-751787163769 .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73dc-6288-7b82-ab1e-751787163769 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73dc-6288-7b82-ab1e-751787163769 .sl-button--border-radius { border-radius: 8px; }
+.sl-brandstyle-019a73dc-cf87-77ae-a13c-bc2658e482d4 .sl-font-style--title {
+font-family: Figtree;
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dc-cf87-77ae-a13c-bc2658e482d4 .sl-font-style--body {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dc-cf87-77ae-a13c-bc2658e482d4 .sl-font-style--button {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dc-cf87-77ae-a13c-bc2658e482d4 .sl-font-style--label {
+font-family: "Archivo Narrow";
+font-weight: 500;
+font-style: normal;
+text-transform: uppercase;
+}
+.sl-pattern-019a73dc-cfa7-73ea-ba00-461ae53538a6 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dc-cfa7-73ea-ba00-461ae53538a6 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dc-cfa7-73ea-ba00-461ae53538a6 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dc-cfa7-73ea-ba00-461ae53538a6 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dc-cfa7-73ea-ba00-461ae53538a6 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dc-cfa7-73ea-ba00-461ae53538a6 .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73dc-cfa7-73ea-ba00-461ae53538a6 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dc-d02f-7cce-9d7e-caf3387315d5 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dc-d02f-7cce-9d7e-caf3387315d5 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dc-d02f-7cce-9d7e-caf3387315d5 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dc-d02f-7cce-9d7e-caf3387315d5 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dc-d02f-7cce-9d7e-caf3387315d5 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dc-d02f-7cce-9d7e-caf3387315d5 .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73dc-d02f-7cce-9d7e-caf3387315d5 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dc-d02f-741f-9488-8dcf110f8df0 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dc-d02f-741f-9488-8dcf110f8df0 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dc-d02f-741f-9488-8dcf110f8df0 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dc-d02f-741f-9488-8dcf110f8df0 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dc-d02f-741f-9488-8dcf110f8df0 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dc-d02f-741f-9488-8dcf110f8df0 .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73dc-d02f-741f-9488-8dcf110f8df0 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73dc-d02f-741f-9488-8dcf110f8df0 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dc-d030-70e7-93e3-5be53d93acc0 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73dc-d030-70e7-93e3-5be53d93acc0 .sl-font-style--title { color: #ffffff; }
+.sl-pattern-019a73dc-d030-70e7-93e3-5be53d93acc0 .sl-font-style--body { color: #ffffff; }
+.sl-pattern-019a73dc-d030-70e7-93e3-5be53d93acc0 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dc-d030-70e7-93e3-5be53d93acc0 .sl-font-style--label { color: #ffffff; }
+.sl-pattern-019a73dc-d030-70e7-93e3-5be53d93acc0 .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffffff;
+}
+.sl-pattern-019a73dc-d030-7e79-99c8-434ae262eb44 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dc-d030-7e79-99c8-434ae262eb44 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dc-d030-7e79-99c8-434ae262eb44 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dc-d030-7e79-99c8-434ae262eb44 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dc-d030-7e79-99c8-434ae262eb44 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dc-d030-7e79-99c8-434ae262eb44 .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73dc-d030-7e79-99c8-434ae262eb44 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dc-d030-7680-b601-0b012d10fe43 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dc-d030-7680-b601-0b012d10fe43 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dc-d030-7680-b601-0b012d10fe43 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dc-d030-7680-b601-0b012d10fe43 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dc-d030-7680-b601-0b012d10fe43 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dc-d030-7680-b601-0b012d10fe43 .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73dc-d030-7680-b601-0b012d10fe43 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dc-d031-765b-a236-7254839f3bac {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dc-d031-765b-a236-7254839f3bac .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dc-d031-765b-a236-7254839f3bac .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dc-d031-765b-a236-7254839f3bac .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dc-d031-765b-a236-7254839f3bac .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dc-d031-765b-a236-7254839f3bac .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73dc-d031-765b-a236-7254839f3bac .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dc-d031-7c47-a694-537e251d29d0 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+}
+.sl-pattern-019a73dc-d031-7c47-a694-537e251d29d0 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73dc-d031-7c47-a694-537e251d29d0 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73dc-d031-7c47-a694-537e251d29d0 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dc-d031-7c47-a694-537e251d29d0 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73dc-d031-7c47-a694-537e251d29d0 .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73dc-d031-7070-970d-09984ba0f3aa {
+background-color: #f5f3ef;
+border-style: none;
+--sl-gv-bg-color: #f5f3ef;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dc-d031-7070-970d-09984ba0f3aa .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73dc-d031-7070-970d-09984ba0f3aa .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73dc-d031-7070-970d-09984ba0f3aa .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73dc-d031-7070-970d-09984ba0f3aa .sl-button--brand-style {
+background-color: #000000;
+}
+.sl-pattern-019a73dc-d031-7070-970d-09984ba0f3aa .sl-button--border-radius { border-radius: 8px; }
+.sl-brandstyle-019a73dd-0778-7c89-b334-ee4892007c75 .sl-font-style--title {
+font-family: Figtree;
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dd-0778-7c89-b334-ee4892007c75 .sl-font-style--body {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dd-0778-7c89-b334-ee4892007c75 .sl-font-style--button {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dd-0778-7c89-b334-ee4892007c75 .sl-font-style--label {
+font-family: "Archivo Narrow";
+font-weight: 500;
+font-style: normal;
+text-transform: uppercase;
+}
+.sl-pattern-019a73dd-077a-7b77-b08e-54b1acb78197 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-077a-7b77-b08e-54b1acb78197 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-077a-7b77-b08e-54b1acb78197 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-077a-7b77-b08e-54b1acb78197 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dd-077a-7b77-b08e-54b1acb78197 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-077a-7b77-b08e-54b1acb78197 .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73dd-077a-7b77-b08e-54b1acb78197 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-077b-7b9d-936e-89a5b51e9389 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-077b-7b9d-936e-89a5b51e9389 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-077b-7b9d-936e-89a5b51e9389 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-077b-7b9d-936e-89a5b51e9389 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dd-077b-7b9d-936e-89a5b51e9389 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-077b-7b9d-936e-89a5b51e9389 .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73dd-077b-7b9d-936e-89a5b51e9389 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-077c-7ccd-a333-9c3c3a772e0a {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-077c-7ccd-a333-9c3c3a772e0a .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-077c-7ccd-a333-9c3c3a772e0a .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-077c-7ccd-a333-9c3c3a772e0a .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dd-077c-7ccd-a333-9c3c3a772e0a .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-077c-7ccd-a333-9c3c3a772e0a .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73dd-077c-7ccd-a333-9c3c3a772e0a .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-077c-7302-9d72-9b8a0c414b7b {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73dd-077c-7302-9d72-9b8a0c414b7b .sl-font-style--title { color: #ffffff; }
+.sl-pattern-019a73dd-077c-7302-9d72-9b8a0c414b7b .sl-font-style--body { color: #ffffff; }
+.sl-pattern-019a73dd-077c-7302-9d72-9b8a0c414b7b .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dd-077c-7302-9d72-9b8a0c414b7b .sl-font-style--label { color: #ffffff; }
+.sl-pattern-019a73dd-077c-7302-9d72-9b8a0c414b7b .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffffff;
+}
+.sl-pattern-019a73dd-077b-76ba-ab58-ed5885c61760 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-077b-76ba-ab58-ed5885c61760 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-077b-76ba-ab58-ed5885c61760 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-077b-76ba-ab58-ed5885c61760 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dd-077b-76ba-ab58-ed5885c61760 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-077b-76ba-ab58-ed5885c61760 .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73dd-077b-76ba-ab58-ed5885c61760 .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73dd-077b-76ba-ab58-ed5885c61760 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-077d-7838-92a6-d38bd59b74b7 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+}
+.sl-pattern-019a73dd-077d-7838-92a6-d38bd59b74b7 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73dd-077d-7838-92a6-d38bd59b74b7 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73dd-077d-7838-92a6-d38bd59b74b7 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dd-077d-7838-92a6-d38bd59b74b7 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73dd-077d-7838-92a6-d38bd59b74b7 .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73dd-077d-7f23-8efb-f2b16abc1451 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-077d-7f23-8efb-f2b16abc1451 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-077d-7f23-8efb-f2b16abc1451 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-077d-7f23-8efb-f2b16abc1451 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dd-077d-7f23-8efb-f2b16abc1451 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-077d-7f23-8efb-f2b16abc1451 .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73dd-077d-7f23-8efb-f2b16abc1451 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-077d-7542-bc7a-b523aa20e59e {
+background-color: #f5f3ef;
+border-style: none;
+--sl-gv-bg-color: #f5f3ef;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #c3d4b6;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-077d-7542-bc7a-b523aa20e59e .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-077d-7542-bc7a-b523aa20e59e .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-077d-7542-bc7a-b523aa20e59e .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dd-077d-7542-bc7a-b523aa20e59e .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-077d-7542-bc7a-b523aa20e59e .sl-button--brand-style {
+color: #000000;
+background-color: #c3d4b6;
+}
+.sl-pattern-019a73dd-077d-7542-bc7a-b523aa20e59e .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-077d-7904-8de4-d91ecbf2a0d5 {
+background-color: #f5f3ef;
+border-style: none;
+--sl-gv-bg-color: #f5f3ef;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-077d-7904-8de4-d91ecbf2a0d5 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73dd-077d-7904-8de4-d91ecbf2a0d5 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73dd-077d-7904-8de4-d91ecbf2a0d5 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73dd-077d-7904-8de4-d91ecbf2a0d5 .sl-button--brand-style {
+background-color: #000000;
+}
+.sl-pattern-019a73dd-077d-7904-8de4-d91ecbf2a0d5 .sl-button--border-radius { border-radius: 8px; }
+.sl-brandstyle-019a73dd-3b11-735a-afa6-dcbc369f7acb .sl-font-style--title {
+font-family: Figtree;
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dd-3b11-735a-afa6-dcbc369f7acb .sl-font-style--body {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dd-3b11-735a-afa6-dcbc369f7acb .sl-font-style--button {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dd-3b11-735a-afa6-dcbc369f7acb .sl-font-style--label {
+font-family: "Archivo Narrow";
+font-weight: 500;
+font-style: normal;
+text-transform: uppercase;
+}
+.sl-pattern-019a73dd-3b12-7e9a-ae34-c251ef862644 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-3b12-7e9a-ae34-c251ef862644 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-3b12-7e9a-ae34-c251ef862644 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-3b12-7e9a-ae34-c251ef862644 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dd-3b12-7e9a-ae34-c251ef862644 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-3b12-7e9a-ae34-c251ef862644 .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73dd-3b12-7e9a-ae34-c251ef862644 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-3b12-76bd-9813-a6170b4130f0 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-3b12-76bd-9813-a6170b4130f0 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-3b12-76bd-9813-a6170b4130f0 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-3b12-76bd-9813-a6170b4130f0 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dd-3b12-76bd-9813-a6170b4130f0 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-3b12-76bd-9813-a6170b4130f0 .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73dd-3b12-76bd-9813-a6170b4130f0 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-3b12-702a-aeaa-29d3dd381cb0 {
+background-color: #f5f3ef;
+border-style: none;
+--sl-gv-bg-color: #f5f3ef;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #c3d4b6;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-3b12-702a-aeaa-29d3dd381cb0 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-3b12-702a-aeaa-29d3dd381cb0 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-3b12-702a-aeaa-29d3dd381cb0 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dd-3b12-702a-aeaa-29d3dd381cb0 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-3b12-702a-aeaa-29d3dd381cb0 .sl-button--brand-style {
+color: #000000;
+background-color: #c3d4b6;
+}
+.sl-pattern-019a73dd-3b12-702a-aeaa-29d3dd381cb0 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-3b12-7fd7-aeea-6c04f75dd72b {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-3b12-7fd7-aeea-6c04f75dd72b .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-3b12-7fd7-aeea-6c04f75dd72b .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-3b12-7fd7-aeea-6c04f75dd72b .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dd-3b12-7fd7-aeea-6c04f75dd72b .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-3b12-7fd7-aeea-6c04f75dd72b .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73dd-3b12-7fd7-aeea-6c04f75dd72b .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73dd-3b12-7fd7-aeea-6c04f75dd72b .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-3b12-7760-a96d-7ecddd9b01f2 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73dd-3b12-7760-a96d-7ecddd9b01f2 .sl-font-style--title { color: #ffffff; }
+.sl-pattern-019a73dd-3b12-7760-a96d-7ecddd9b01f2 .sl-font-style--body { color: #ffffff; }
+.sl-pattern-019a73dd-3b12-7760-a96d-7ecddd9b01f2 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dd-3b12-7760-a96d-7ecddd9b01f2 .sl-font-style--label { color: #ffffff; }
+.sl-pattern-019a73dd-3b12-7760-a96d-7ecddd9b01f2 .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffffff;
+}
+.sl-pattern-019a73dd-3b12-7b62-8523-465b1c6bc7ad {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-3b12-7b62-8523-465b1c6bc7ad .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-3b12-7b62-8523-465b1c6bc7ad .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-3b12-7b62-8523-465b1c6bc7ad .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dd-3b12-7b62-8523-465b1c6bc7ad .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-3b12-7b62-8523-465b1c6bc7ad .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73dd-3b12-7b62-8523-465b1c6bc7ad .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-3b12-76c4-bef3-4f2ba6c919a9 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+}
+.sl-pattern-019a73dd-3b12-76c4-bef3-4f2ba6c919a9 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73dd-3b12-76c4-bef3-4f2ba6c919a9 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73dd-3b12-76c4-bef3-4f2ba6c919a9 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dd-3b12-76c4-bef3-4f2ba6c919a9 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73dd-3b12-76c4-bef3-4f2ba6c919a9 .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73dd-3b12-779c-9448-821819720b8a {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-3b12-779c-9448-821819720b8a .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-3b12-779c-9448-821819720b8a .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-3b12-779c-9448-821819720b8a .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dd-3b12-779c-9448-821819720b8a .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-3b12-779c-9448-821819720b8a .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73dd-3b12-779c-9448-821819720b8a .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-3b12-7ad3-8c48-5a001508c289 {
+background-color: #f5f3ef;
+border-style: none;
+--sl-gv-bg-color: #f5f3ef;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-3b12-7ad3-8c48-5a001508c289 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73dd-3b12-7ad3-8c48-5a001508c289 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73dd-3b12-7ad3-8c48-5a001508c289 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73dd-3b12-7ad3-8c48-5a001508c289 .sl-button--brand-style {
+background-color: #000000;
+}
+.sl-pattern-019a73dd-3b12-7ad3-8c48-5a001508c289 .sl-button--border-radius { border-radius: 8px; }
+.sl-brandstyle-019a73dd-9211-72ad-9810-ac56befdf317 .sl-font-style--title {
+font-family: Figtree;
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dd-9211-72ad-9810-ac56befdf317 .sl-font-style--body {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dd-9211-72ad-9810-ac56befdf317 .sl-font-style--button {
+font-family: "Archivo Narrow";
+font-weight: 400;
+font-style: normal;
+}
+.sl-brandstyle-019a73dd-9211-72ad-9810-ac56befdf317 .sl-font-style--label {
+font-family: "Archivo Narrow";
+font-weight: 500;
+font-style: normal;
+text-transform: uppercase;
+}
+.sl-pattern-019a73dd-9211-7209-898b-51d56e258fa3 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-9211-7209-898b-51d56e258fa3 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-9211-7209-898b-51d56e258fa3 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-9211-7209-898b-51d56e258fa3 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dd-9211-7209-898b-51d56e258fa3 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-9211-7209-898b-51d56e258fa3 .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73dd-9211-7209-898b-51d56e258fa3 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-9211-7e7f-8f42-80d0fd02b6f6 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #151515;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-9211-7e7f-8f42-80d0fd02b6f6 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-9211-7e7f-8f42-80d0fd02b6f6 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-9211-7e7f-8f42-80d0fd02b6f6 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dd-9211-7e7f-8f42-80d0fd02b6f6 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-9211-7e7f-8f42-80d0fd02b6f6 .sl-button--brand-style {
+color: #ffffff;
+background-color: #151515;
+}
+.sl-pattern-019a73dd-9211-7e7f-8f42-80d0fd02b6f6 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-9211-730a-a19b-b8375923d5ee {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-9211-730a-a19b-b8375923d5ee .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-9211-730a-a19b-b8375923d5ee .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-9211-730a-a19b-b8375923d5ee .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dd-9211-730a-a19b-b8375923d5ee .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-9211-730a-a19b-b8375923d5ee .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73dd-9211-730a-a19b-b8375923d5ee .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-9211-790c-9682-95fe3dff4159 {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #ffffff;
+}
+.sl-pattern-019a73dd-9211-790c-9682-95fe3dff4159 .sl-font-style--title { color: #ffffff; }
+.sl-pattern-019a73dd-9211-790c-9682-95fe3dff4159 .sl-font-style--body { color: #ffffff; }
+.sl-pattern-019a73dd-9211-790c-9682-95fe3dff4159 .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dd-9211-790c-9682-95fe3dff4159 .sl-font-style--label { color: #ffffff; }
+.sl-pattern-019a73dd-9211-790c-9682-95fe3dff4159 .sl-button--brand-style {
+color: #ffffff;
+background-color: #ffffff;
+}
+.sl-pattern-019a73dd-9211-730d-a410-b3237882d20e {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-9211-730d-a410-b3237882d20e .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-9211-730d-a410-b3237882d20e .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-9211-730d-a410-b3237882d20e .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dd-9211-730d-a410-b3237882d20e .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-9211-730d-a410-b3237882d20e .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73dd-9211-730d-a410-b3237882d20e .sl-button--button-style { border: 2px solid; }
+.sl-pattern-019a73dd-9211-730d-a410-b3237882d20e .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-9211-77a0-bc60-aa1ffef9a91f {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #ffffff;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-9211-77a0-bc60-aa1ffef9a91f .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-9211-77a0-bc60-aa1ffef9a91f .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-9211-77a0-bc60-aa1ffef9a91f .sl-font-style--button { color: #ffffff; }
+.sl-pattern-019a73dd-9211-77a0-bc60-aa1ffef9a91f .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-9211-77a0-bc60-aa1ffef9a91f .sl-button--brand-style {
+color: #ffffff;
+background-color: #000000;
+}
+.sl-pattern-019a73dd-9211-77a0-bc60-aa1ffef9a91f .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-9212-701e-a7ed-0f12bd8b726c {
+background-color: #ffffff;
+border-style: none;
+--sl-gv-bg-color: #ffffff;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #000000;
+}
+.sl-pattern-019a73dd-9212-701e-a7ed-0f12bd8b726c .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73dd-9212-701e-a7ed-0f12bd8b726c .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73dd-9212-701e-a7ed-0f12bd8b726c .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dd-9212-701e-a7ed-0f12bd8b726c .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73dd-9212-701e-a7ed-0f12bd8b726c .sl-button--brand-style {
+color: #000000;
+background-color: #000000;
+}
+.sl-pattern-019a73dd-9212-78f9-8260-bc2234c05f70 {
+background-color: #f5f3ef;
+border-style: none;
+--sl-gv-bg-color: #f5f3ef;
+--sl-gv-btn-txt-color: #000000;
+--sl-gv-btn-bg-color: #ffb715;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-9212-78f9-8260-bc2234c05f70 .sl-font-style--title { color: #151515; }
+.sl-pattern-019a73dd-9212-78f9-8260-bc2234c05f70 .sl-font-style--body { color: #151515; }
+.sl-pattern-019a73dd-9212-78f9-8260-bc2234c05f70 .sl-font-style--button { color: #000000; }
+.sl-pattern-019a73dd-9212-78f9-8260-bc2234c05f70 .sl-font-style--label { color: #151515; }
+.sl-pattern-019a73dd-9212-78f9-8260-bc2234c05f70 .sl-button--brand-style {
+color: #000000;
+background-color: #ffb715;
+}
+.sl-pattern-019a73dd-9212-78f9-8260-bc2234c05f70 .sl-button--border-radius { border-radius: 8px; }
+.sl-pattern-019a73dd-9212-71e2-8f2d-18350fa7b1f8 {
+background-color: #f5f3ef;
+border-style: none;
+--sl-gv-bg-color: #f5f3ef;
+--sl-gv-btn-bg-color: #000000;
+--sl-gv-btn-radius: 8px;
+}
+.sl-pattern-019a73dd-9212-71e2-8f2d-18350fa7b1f8 .sl-font-style--title { color: #000000; }
+.sl-pattern-019a73dd-9212-71e2-8f2d-18350fa7b1f8 .sl-font-style--body { color: #000000; }
+.sl-pattern-019a73dd-9212-71e2-8f2d-18350fa7b1f8 .sl-font-style--label { color: #000000; }
+.sl-pattern-019a73dd-9212-71e2-8f2d-18350fa7b1f8 .sl-button--brand-style {
+background-color: #000000;
+}
+.sl-pattern-019a73dd-9212-71e2-8f2d-18350fa7b1f8 .sl-button--border-radius { border-radius: 8px; }

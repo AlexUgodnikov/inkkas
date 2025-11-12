@@ -110,7 +110,7 @@
     "cart_drawer_empty_button_url": "shopify://collections/best-sellers",
     "cart_drawer": true,
     "cart_drawer_notes": false,
-    "cart_recommendations": true,
+    "cart_recommendations": false,
     "free_shipping": true,
     "free_shipping_minimum": "175.00",
     "search_product_collection": "best-sellers",
