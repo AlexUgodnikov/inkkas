@@ -147,6 +147,150 @@
           </div>
         
       </div>
+      <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
+          {% assign product_tags = product.tags | join: ' ' %}
+          <div class="product_size-chart">
+            {% if product_tags contains 'bootie-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'bootie-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Booties run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'bootie-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'boots-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'boots-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle"> Camping Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'boots-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'high-top-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'high-top-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">High Tops run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'hightop-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'jogger-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'jogger-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Joggers run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'jogger-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+
+            {% elsif product_tags contains 'low-top-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'low-top-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Low Tops run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'lowtop-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'kids-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'kids-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Kids true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'popup-kids-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+
+            {% elsif product_tags contains 'runner-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'runner-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Runners run slightly narrow. For half sizes, size up. For more details on fit, <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>see the Size Guide</a></small>
+                  {% render 'runner-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'slide-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'slide-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Slides run true to size. Half size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'slide-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'slip-on-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'slip-on-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Slip Ons run true to size. If we don’t carry your half size, see the<a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'slipon-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'size-guide-buckle-sandals' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'size-guide-buckle-sandals' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Buckle sandals run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'size-guide-buckle-sandals', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'size-guide-trekks' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'size-guide-trekks' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Trekk Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'trekks-size-guide', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+            {% elsif product_tags contains 'western-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'western-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Western Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'western-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'coverups-size-chart' %}
+                          {% for tag in product.tags %}
+                            {% if tag contains 'coverups-size-chart' %}
+                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Cover Ups. See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'coverups-size-chart', product_id: product.id, product: product %}
+                            {% endif %}
+                          {% endfor %}
+
+            {% elsif product_tags contains 'tennis-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'tennis-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Runs true to size. Half size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'tennis-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+
+            {% elsif product_tags contains 'trainer-size-chart' %}
+              {% for tag in product.tags %}
+                {% if tag contains 'trainer-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                  <small class="size-chart-subtitle">Trainers run true to size. Half-size? see the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                  {% render 'trainer-popup-size-chart', product_id: product.id, product: product %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+
+          </div>
+          <!--<button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
+                          {% render 'svg-icons-inline', icon: block.settings.sizing_guide_icon %}<span>{{ block.settings.sizing_guide_text }}</span></button>-->
+        </modal-opener>
     {%- when 'variant_picker' -%}
       
       {% if product.metafields.custom.metaobject_colors != blank and block.settings.show_color_metaobject %}
@@ -734,150 +878,7 @@
           });
         </script>
      
-        <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
-          {% assign product_tags = product.tags | join: ' ' %}
-          <div class="product_size-chart">
-            {% if product_tags contains 'bootie-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'bootie-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle">Booties run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'bootie-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'boots-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'boots-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"> Camping Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'boots-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'high-top-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'high-top-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle">High Tops run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'hightop-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'jogger-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'jogger-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle">Joggers run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'jogger-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-
-            {% elsif product_tags contains 'low-top-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'low-top-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle">Low Tops run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'lowtop-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'kids-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'kids-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle">Kids true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'popup-kids-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-
-            {% elsif product_tags contains 'runner-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'runner-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle">Runners run slightly narrow. For half sizes, size up. For more details on fit, <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>see the Size Guide</a></small>
-                  {% render 'runner-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'slide-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'slide-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle">Slides run true to size. Half size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'slide-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'slip-on-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'slip-on-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle">Slip Ons run true to size. If we don’t carry your half size, see the<a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'slipon-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'size-guide-buckle-sandals' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'size-guide-buckle-sandals' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle">Buckle sandals run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'size-guide-buckle-sandals', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'size-guide-trekks' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'size-guide-trekks' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle">Trekk Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'trekks-size-guide', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-            {% elsif product_tags contains 'western-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'western-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle">Western Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'western-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'coverups-size-chart' %}
-                          {% for tag in product.tags %}
-                            {% if tag contains 'coverups-size-chart' %}
-                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle">Cover Ups. See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'coverups-size-chart', product_id: product.id, product: product %}
-                            {% endif %}
-                          {% endfor %}
-
-            {% elsif product_tags contains 'tennis-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'tennis-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle">Runs true to size. Half size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'tennis-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'trainer-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'trainer-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle">Trainers run true to size. Half-size? see the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'trainer-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-            {% endif %}
-
-          </div>
-          <!--<button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
-                          {% render 'svg-icons-inline', icon: block.settings.sizing_guide_icon %}<span>{{ block.settings.sizing_guide_text }}</span></button>-->
-        </modal-opener>
+        
       {%- endunless -%}
       <noscript class="product-form__noscript-wrapper-{{ section.id }}">
         <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">

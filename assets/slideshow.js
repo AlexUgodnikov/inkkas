@@ -194,6 +194,9 @@ if (!customElements.get('slide-show')) {
 
         };
       }
+      if (slideshow.classList.contains('paged')) {
+        args.groupCells = true;
+      }
       const flkty = new Flickity(slideshow, args);
 
       selectedIndex = flkty.selectedIndex;

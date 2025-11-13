@@ -12,10 +12,77 @@
 	assign overlay_opacity = section.settings.overlay_opacity
 	assign disable_top_spacing = section.settings.disable_top_spacing
 	assign disable_bottom_spacing = section.settings.disable_bottom_spacing
+	assign show_dots_setting = section.settings.show_dots
+
+	assign show_dots = false
+	assign dots_class = ''
+	if show_dots_setting
+		assign show_dots = true
+		assign dots_class = 'custom-dots'
+	endif
+	assign autoplay = section.settings.autoplay
+	if autoplay
+		assign autoplay = section.settings.autoplay_length | times: 1000
+	endif
 -%}
+{% style %}
+	#gallery-{{ section.id }}{
+		padding-bottom:25px;
+	}
+	.slider-pagination-{{ section.id }}{
+		padding-top:20px;
+	}
+	.pagination-{{ section.id }}{
+		position:static;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		gap: 0 10px;
+	}
+	.pagination-{{ section.id }} .custom-timeout-dot{
+		flex-shrink: 0;
+		margin: 0 25px;
+		background: var(--color-text, var(--color-body));
+	}
+	.pagination-{{ section.id }} .custom-timeout-dot{
+		width: 8px!important;
+		height: 8px!important;
+		display: inline-block;
+		opacity: .6;
+		border-radius: 4px;
+		margin: 0 10px;
+		cursor: pointer!important;
+		position: relative!important;
+	}
+	.pagination-{{ section.id }} .custom-timeout-dot.swiper-pagination-bullet-active{
+		opacity: 1;
+	}
+	.pagination-{{ section.id }} .custom-timeout-dot .thb-pagination-svg {
+		position: absolute;
+		top: -6px;
+		left: -6px;
+		width: 20px;
+		height: 20px;
+		transform: rotate(-90deg);
+		visibility: hidden;
+	}
+	.pagination-{{ section.id }} .custom-timeout-dot.swiper-pagination-bullet-active .thb-pagination-svg {
+    	visibility: visible;
+	}
+	.pagination-{{ section.id }} .custom-timeout-dot .thb-pagination-svg circle {
+		stroke-dasharray: 58 58;
+		stroke-dashoffset: 58;
+		stroke: var(--color-text, var(--color-body));
+	}
+	.pagination-{{ section.id }} .custom-timeout-dot.swiper-pagination-bullet-active .thb-pagination-svg circle {
+		stroke-dashoffset: 0;
+		transition: stroke-dashoffset var(--dot-speed) linear;
+	} 
+
+{% endstyle %}
 <div class="row {{ section_width }}">
 	<div class="small-12 columns">
-		<div id="gallery-{{ section.id }}" class="{% if section.settings.slider %}swiper {% endif %}gallery gallery-spacing--{{ column_spacing }} text-{{ text_alignment }}{% if mobile_swipe and section.settings.slider != true %} swipe-on-mobile{% endif %} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}" style="--gallery-columns: {{ columns_desktop }};--overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}">
+		<div id="gallery-{{ section.id }}" style="--color-bg:rgba(0,0,0,0); --color-text:#151515; --dot-speed: 2" class="{% if section.settings.slider %}swiper {% endif %}gallery gallery-spacing--{{ column_spacing }} text-{{ text_alignment }}{% if mobile_swipe and section.settings.slider != true %} swipe-on-mobile{% endif %} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}" style="--gallery-columns: {{ columns_desktop }};--overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}">
 			<div class="swiper-wrapper gallery__inner" {% if section.settings.slider %}style="display: flex;" {% endif %}>
 				{%- for block in section.blocks -%}
 					<div class="gallery__item swiper-slide" {{ block.shopify_attributes }}{% if section.settings.slider %} style="cursor: pointer;" {% endif %}>
@@ -72,6 +139,9 @@
 					</div>
 				{%- endfor -%}
 			</div>
+			 <div class="slider-pagination-{{ section.id }} swiper-slider-pagination" style="--dot-speed: {{ autoplay | divided_by: 1000 | append: 's' }};">
+                <div class="pagination-{{ section.id }} slider-pagination swiper-pagination"></div>
+              </div>
 		</div>
 	</div>
 </div>
@@ -99,41 +169,59 @@
 {% if section.settings.slider %}
 	<script>
 		document.addEventListener('DOMContentLoaded', () => {
-			if (window.innerWidth > 769) {
+			// if (window.innerWidth > 769) {
 				const sliderGallery = new Swiper('#gallery-{{ section.id }}', {
 					spaceBetween: 0,
-					slidesPerView: 4.3,
+					slidesPerView: 4,
+					slidesPerGroup: 4,
+					 speed: 1000, 
+					 pagination: {
+						el: document.querySelector('.pagination-{{ section.id }}'),
+						clickable: true,
+						renderBullet: function (index, className) {
+							// You can use an <img> tag, SVG icon, or a font icon here
+							return `<span class="${className} custom-timeout-dot dot" aria-label="${index}">
+								{%- render 'svg-icons' with 'thb-pagination-dot' -%}
+							</span>`;
+						},
+					},
+					 autoplay: {
+						delay: {{section.settings.autoplay_length | times: 1000}},
+					},
 					breakpoints: {
 						0: {
-							slidesPerView: 1.2,
-							centeredSlides: true,
+							slidesPerView: 1,
+							slidesPerGroup: 1
 						},
 						450: {
 							slidesPerView: 2,
+							slidesPerGroup: 2
 						},
 						576: {
 							slidesPerView: 3,
+							slidesPerGroup: 3
 						},
 						991: {
-							slidesPerView: 4.3,
+							slidesPerView: 4,
+							slidesPerGroup: 4
 						},
 					}
 				});
-			} else {
-				const gallery = document.getElementById('gallery-{{ section.id }}');
+			// } else {
+			// 	const gallery = document.getElementById('gallery-{{ section.id }}');
 
-				if (gallery) {
-					const inner = gallery.querySelector('.gallery__inner');
-					if (inner) {
-						inner.style.display = 'grid';
-					}
-					gallery.classList.remove('swiper');
-					{% if mobile_swipe %}
-					gallery.classList.add('swipe-on-mobile')
-					{% endif %}
-				}
+			// 	if (gallery) {
+			// 		const inner = gallery.querySelector('.gallery__inner');
+			// 		if (inner) {
+			// 			inner.style.display = 'grid';
+			// 		}
+			// 		gallery.classList.remove('swiper');
+			// 		{% if mobile_swipe %}
+			// 		gallery.classList.add('swipe-on-mobile')
+			// 		{% endif %}
+			// 	}
 
-			}
+			// }
 		});
 	</script>
 {% endif %}
@@ -323,7 +411,29 @@
 				"id": "disable_bottom_spacing",
 				"default": false,
 				"label": "Remove bottom spacing"
-			}
+			},
+				{
+			"type": "checkbox",
+			"id": "show_dots",
+			"label": "Show dots",
+			"default": true
+		},
+		{
+        "type": "checkbox",
+        "id": "autoplay",
+        "label": "Auto-rotate slides",
+        "default": true
+      },
+			{
+				"type": "range",
+				"id": "autoplay_length",
+				"min": 3,
+				"max": 10,
+				"step": 1,
+				"unit": "s",
+				"label": "Change slides every",
+				"default": 5
+			},
     ],
     "blocks": [
       {

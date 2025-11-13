@@ -50,9 +50,11 @@
 
 	assign show_dots = false
 	assign dots_class = ''
+	assign paged_class = ''
 	if show_dots_setting and products_in_carousel > columns_desktop and display_type == 'carousel'
 		assign show_dots = true
 		assign dots_class = 'custom-dots'
+		assign paged_class = 'paged'
 	endif
 	assign autoplay = section.settings.autoplay
 	if autoplay
@@ -88,7 +90,7 @@
 		<div class="small-12 columns">
 			{% render 'section-header', section_heading: section_heading, section_description: section_description, section_heading_left: section_heading_left, section_heading_button: section_heading_button %}
 			<div class="featured-collection__inner display-type--{{ display_type }}" style="--dot-speed: {{ autoplay | divided_by: 1000 | append: 's' }};">
-				<{{ element }} id="product-grid-{{ section.id }}" class="products row {{ display_type }} {{ dots_class }}" {% if display_type == 'carousel' %}data-dots="{{ show_dots }}"{% endif %} data-autoplay="{{ autoplay }}">
+				<{{ element }} id="product-grid-{{ section.id }}" class="products row {{ display_type }} {{ dots_class }} {{ paged_class }}" {% if display_type == 'carousel' %}data-dots="{{ show_dots }}"{% endif %} data-autoplay="{{ autoplay }}">
 					{%- if featured_collection != blank -%}
 						{%- for product in featured_collection.products limit: product_limit -%}
 							<div class="{{ columns_class }} columns {% if display_type == 'carousel' %}carousel__slide{% endif %}">

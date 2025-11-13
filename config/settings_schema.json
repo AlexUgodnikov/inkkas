@@ -526,6 +526,12 @@
         "default": "left"
       },
       {
+        "type":"checkbox",
+        "id":"image_order",
+        "label":"First image - from product metafield",
+        "default": true
+      },
+      {
         "type": "select",
         "id": "product_aspect_ratio",
         "options": [
