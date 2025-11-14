@@ -1259,7 +1259,18 @@
         "label": "Free shipping minimum amount",
         "default": "250",
         "info": "Enter the value without a currency symbol and use a decimal to separate dollars and cents. Example: '100.00'"
-      }
+      },
+      {
+				"type": "text",
+				"id": "recommends_title",
+				"label": "Recommends title",
+        "default": "Shop more customer favorites"
+			},
+      {
+				"type": "product_list",
+				"id": "draawer_recommends",
+				"label": "Drawer recommends"
+			}
     ]
   },
   {

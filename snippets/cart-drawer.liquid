@@ -4,6 +4,7 @@
 	assign free_shipping_minimum = settings.free_shipping_minimum | times: 100
 	assign total = cart.total_price
 -%}
+
 <div class="side-panel cart-drawer" id="Cart-Drawer" tabindex="-1">
 	<div class="side-panel-inner">
 		<div class="side-panel-header">
@@ -30,7 +31,17 @@
 							</div>
 						</aside>
 					{%- endif -%}
+
+					{% assign cartItemsId = '' %}
+
 					{% for item in cart.items %}
+
+						{% if forloop.first %}
+										{% assign cartItemsId = item.id %}
+									{% else %}
+										{% assign cartItemsId = cartItemsId | append: ',' | append: item.id %}
+									{% endif %}
+
 					<div class="product-cart-item" id="CartDrawerItem-{{ item.index | plus: 1 }}">
 						<div class="product-cart-item-image">
 							{% if item.image %}
@@ -171,6 +182,43 @@
 		</div>
 		{%- if cart != empty -%}
 			<div class="side-panel-footer">
+
+				{% if settings.draawer_recommends != blank  %}
+				
+				<cartdrawer-recommends>
+					<div class="cartdrawer-recommends-swiper">
+						<div class="cartdrawer-recommends-header">
+							{% if settings.recommends_title != blank %}
+								<div class="cartdrawer-recommends-header">
+			
+									<div class="cartdrawer-recommends-title h5">{{settings.recommends_title}}</div>
+								
+								</div>
+							{% endif %}
+							
+						</div>
+						<div class="swiper-wrapper">
+							{% for item in settings.draawer_recommends %}
+								{% if cartItemsId contains item.selected_or_first_available_variant.id %}
+								{% else %}
+									<div class="swiper-slide">
+										<div class="slider__cards">
+											{{item.title}}
+										</div>
+									</div>
+								{% endif %}
+							{% endfor %}
+						</div>
+
+						<div class="slider-pagination-{{ section.id }} swiper-slider-pagination" style="--dot-speed:5s;">
+							<div class="pagination-{{ section.id }} slider-pagination swiper-pagination"></div>
+						</div>
+						
+					</div>
+				</cartdrawer-recommends>
+			{% endif %}
+
+
 				{%- if settings.cart_drawer_notes -%}
 				<button type="button" class="order-note-toggle mini-cart__row" id="order-note-toggle" aria-controls="mini-cart-note">{{ 'general.cart_drawer.add_order_note' | t }} <span></span></button>
 				<div class="order-note-toggle__content">

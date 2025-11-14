@@ -193,3 +193,4 @@ window.addEventListener('load', () => {
     new Cart();
   }
 });
+

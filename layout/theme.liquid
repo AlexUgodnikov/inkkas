@@ -87,7 +87,7 @@
 	<script src="{{ 'fancy.js' | asset_url }}" defer></script>
 	<script src="{{ 'jquery.cookie.js' | asset_url }}" defer></script>
 	<script src="{{ 'custom.js' | asset_url }}" defer></script>
-	<script src="{{ 'swiper-bundle.min.js' | asset_url }}" async></script>
+	<script src="{{ 'swiper-bundle.min.js' | asset_url }}"></script>
     {% render 'revenueRoll-GTM' %}
 
 
@@ -132,6 +132,8 @@
 	{% endif %}
 	{{ 'slideshow.js' | asset_url | script_tag }}
 	{{ 'app.js' | asset_url | script_tag }}
+
+
 	{%- liquid
 		assign add_product_js = false
 		if settings.enable_quick_view or settings.enable_quick_add
