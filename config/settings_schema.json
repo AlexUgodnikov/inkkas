@@ -90,6 +90,7 @@
         "type": "header",
         "content": "Announcement bar"
       },
+     
       {
         "type": "range",
         "id": "announcement_font_scale",
@@ -1270,7 +1271,105 @@
 				"type": "product_list",
 				"id": "draawer_recommends",
 				"label": "Drawer recommends"
-			}
+			},
+       {
+        "type": "checkbox",
+        "id": "drawer_recommends_autoplay",
+        "label": "Auto-rotate slides",
+        "default": true
+      },
+			{
+				"type": "range",
+				"id": "drawer_recommends_autoplay_length",
+				"min": 3,
+				"max": 10,
+				"step": 1,
+				"unit": "s",
+				"label": "Change slides every",
+				"default": 5
+			},
+      {
+        "type": "header",
+        "content": "Announcement"
+      },
+       {
+        "type": "checkbox",
+        "id": "drawer_announ_autoplay",
+        "label": "Auto-rotate slides",
+        "default": true
+      },
+			{
+				"type": "range",
+				"id": "drawer_announ_autoplay_length",
+				"min": 3,
+				"max": 10,
+				"step": 1,
+				"unit": "s",
+				"label": "Change slides every",
+				"default": 5
+			},
+      {
+        "type": "text",
+        "id": "slide_text_1",
+        "label": "Slide 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "slide_icon_1",
+        "label": "Icon 1"
+      },
+      {
+        "type": "color",
+        "id": "slide_bg_1",
+        "label": "Background slide 1"
+      },
+      {
+        "type": "color",
+        "id": "slide_color_1",
+        "label": "Text color slide 1"
+      },
+
+      {
+        "type": "text",
+        "id": "slide_text_2",
+        "label": "Slide 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "slide_icon_2",
+        "label": "Icon 2"
+      },
+      {
+        "type": "color",
+        "id": "slide_bg_2",
+        "label": "Background slide 2"
+      },
+      {
+        "type": "color",
+        "id": "slide_color_2",
+        "label": "Text color slide 2"
+      },
+
+      {
+        "type": "text",
+        "id": "slide_text_3",
+        "label": "Slide 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "slide_icon_3",
+        "label": "Icon 3"
+      },
+      {
+        "type": "color",
+        "id": "slide_bg_3",
+        "label": "Background slide 3"
+      },
+      {
+        "type": "color",
+        "id": "slide_color_3",
+        "label": "Text color slide 3"
+      }
     ]
   },
   {

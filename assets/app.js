@@ -1043,57 +1043,129 @@ class CartDrawer {
 
 
 
-	class CartDrawerRecommends extends HTMLElement{
-		constructor() {
-			super();
 
-		}
+class CartDrawerRecommends extends HTMLElement {
+  constructor() {
+    super();
+  }
 
-		connectedCallback(){
-		
-			
-			 const drawerRecomends = new Swiper(this.querySelector('.cartdrawer-recommends-swiper'), {
+  connectedCallback() {
+
+ const drawerRecomends = new Swiper(this.querySelector('.cartdrawer-recommends-swiper'), {
+          slidesPerView: 1,
+          spaceBetween: 0,
+          loop: false,
+          speed:1000,
+          pagination: {
+            el: this.querySelector('.swiper-pagination'),
+            clickable: true,
+            renderBullet: function (index, className) {
+              // You can use an <img> tag, SVG icon, or a font icon here
+              return `<span class="${className} custom-timeout-dot dot" aria-label="${index}">
+                <svg width="20px" height="20px" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="thb-pagination-svg" preserveAspectRatio="none"><circle cx="10" cy="10" r="9" stroke="var(--color-text, #fff)" stroke-width="1.5px" stroke-linecap="round" stroke-linejoin="round"></circle></svg>
+              </span>`;
+            },
+          },
+           autoplay: this.dataset.autoplay,
+          autoplay: {
+            delay: Number(this.dataset.autoplaylength) || 5000,
+          },
+          breakpoints: {
+              0: {
                 slidesPerView: 1,
-                spaceBetween: 0,
-                loop: false,
-                speed:1000,
-                pagination: {
-                  el: this.querySelector('.swiper-pagination'),
-                  clickable: true,
-                  renderBullet: function (index, className) {
-                    // You can use an <img> tag, SVG icon, or a font icon here
-                    return `<span class="${className} custom-timeout-dot dot" aria-label="${index}">
-                      <svg width="20px" height="20px" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="thb-pagination-svg" preserveAspectRatio="none"><circle cx="10" cy="10" r="9" stroke="var(--color-text, #fff)" stroke-width="1.5px" stroke-linecap="round" stroke-linejoin="round"></circle></svg>
-                    </span>`;
-                  },
-                },
-              autoplay: {
-                  delay: 5000,
-                },
-                breakpoints: {
-                    0: {
-                     slidesPerView: 1,
-                    },
-                    500: {
-                        slidesPerView: 1,
-                    },
-                    870: {
-                        slidesPerView: 1,
-                    }
-                }
-            });
+              },
+              500: {
+                  slidesPerView: 1,
+              },
+              870: {
+                  slidesPerView: 1,
+              }
+          }
+      });
 
-			if(this.querySelectorAll('.swiper-slide').length === 0){
-				this.style.display = 'none'
-			}
-		}
+   
+    const productItems = this.querySelectorAll('.recommends-item');
 
-	} 
+ 
+    productItems.forEach(item => {
+     
+      const chooseButton = item.querySelector('.js-choose-select');
+      const selectElement = item.querySelector('select[name="id"]');
+      const addToCartButton = item.querySelector('.js-add-to-cart');
 
-	customElements.define("cartdrawer-recommends", CartDrawerRecommends);
+     
+      if (!chooseButton || !selectElement || !addToCartButton) {
+        return;
+      }
+
+     
+      chooseButton.addEventListener('click', (e) => {
+        e.preventDefault();
+        chooseButton.style.display = 'none';
+        selectElement.style.display = 'block';
+        addToCartButton.style.display = 'block';
+      });
+
+     
+      addToCartButton.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        if (addToCartButton.classList.contains('loading')) {
+          return;
+        }
+        
+    
+        const variantId = selectElement.value;
+
+        if (!variantId) {
+          console.warn('Варіант товару не вибрано.');
+          return;
+        }
+
+        addToCartButton.classList.add('loading');
+        addToCartButton.setAttribute('disabled', true);
+      
+        const formData = {
+          'items': [{
+            'id': variantId,
+            'quantity': 1
+          }]
+        };
+      
+        fetch('/cart/add.js', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(formData)
+        })
+        .then(response => response.json())
+        .then(data => {
+          dispatchCustomEvent('cart:refresh');
+          
+          document.body.classList.add('open-cc');
+          document.body.classList.add('open-cart');
+          const cartDrawer = document.getElementById('Cart-Drawer');
+          if (cartDrawer) {
+            cartDrawer.classList.add('active');
+          }
+        })
+        .catch((error) => {
+          console.error('Помилка при додаванні товару:', error);
+        })
+        .finally(() => {
+          addToCartButton.classList.remove('loading');
+          addToCartButton.removeAttribute('disabled');
+        });
+      });
+    });
+  }
+}
 
 
-
+if (!customElements.get('cartdrawer-recommends')) {
+  customElements.define("cartdrawer-recommends", CartDrawerRecommends);
+}
 
 /**
  *  @class
