@@ -1593,3 +1593,21 @@ a.mobile-link-caps img {
           padding: 40px 10px;
     }
 	}
+
+  /* Product PDP Gallery Image Height */
+  /* .template-product .thb-product-detail .product-single__media-image{
+    padding-bottom: 600px;
+  }
+  .template-product .thb-product-detail .product-single__media-image img{
+    object-fit: contain;
+  }
+  @media(max-width:1067px){
+  .template-product .thb-product-detail .product-single__media-image{
+      padding-bottom: 500px;
+    }
+  }
+    @media(max-width:500px){
+  .template-product .thb-product-detail .product-single__media-image{
+      padding-bottom: 300px;
+    }
+  } */
