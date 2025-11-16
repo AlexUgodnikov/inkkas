@@ -110,13 +110,10 @@
 						{%- endif -%}
 					{%- endif -%}
 					{%- if show_dots -%}
-						{%- assign num_pages = products_in_carousel | times: 1.0 | divided_by: columns_desktop | ceil -%}
 						<ol class="flickity-page-dots">
-							{%- for i in (1..num_pages) -%}
-							<li class="dot" aria-label="{{ forloop.index }}">
+							<template class="flickity-dot-svg-template">
 								{%- render 'svg-icons' with 'thb-pagination-dot' -%}
-							</li>
-							{%- endfor -%}
+							</template>
 						</ol>
 					{%- endif -%}
 				</{{ element }}>
