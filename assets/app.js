@@ -1051,7 +1051,7 @@ class CartDrawerRecommends extends HTMLElement {
 
   connectedCallback() {
 
- const drawerRecomends = new Swiper(this.querySelector('.cartdrawer-recommends-swiper'), {
+      const drawerRecomends = new Swiper(this.querySelector('.cartdrawer-recommends-swiper'), {
           slidesPerView: 1,
           spaceBetween: 0,
           loop: false,
@@ -1086,7 +1086,10 @@ class CartDrawerRecommends extends HTMLElement {
    
     const productItems = this.querySelectorAll('.recommends-item');
 
- 
+    if(productItems.length === 0){
+      this.style.display = 'none';
+      return
+    }
     productItems.forEach(item => {
      
       const chooseButton = item.querySelector('.js-choose-select');

@@ -1714,13 +1714,13 @@ a.mobile-link-caps img {
 /* Drawer Recommends */
 cartdrawer-recommends{
   display:block;
-   padding:20px;
+   padding:20px 20px 0 20px;
 }
 .cartdrawer-recommends-header{
   display:flex;
   align-items:center;
   justify-content: space-between;
-  margin-bottom:15px;
+  margin-bottom:5px;
 }
 .cartdrawer-recommends-title{
   margin-bottom:0;
