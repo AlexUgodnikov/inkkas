@@ -1121,7 +1121,7 @@ class CartDrawerRecommends extends HTMLElement {
         const variantId = selectElement.value;
 
         if (!variantId) {
-          console.warn('Варіант товару не вибрано.');
+       
           return;
         }
 
@@ -1154,7 +1154,7 @@ class CartDrawerRecommends extends HTMLElement {
           }
         })
         .catch((error) => {
-          console.error('Помилка при додаванні товару:', error);
+         
         })
         .finally(() => {
           addToCartButton.classList.remove('loading');

@@ -155,8 +155,11 @@
         "product_limit": 12,
         "columns_desktop": 4,
         "show_view_all": false,
-        "mobile_swipe": true,
+        "mobile_swipe": false,
         "show_progress_bar": false,
+        "show_dots": true,
+        "autoplay": false,
+        "autoplay_length": 5,
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
@@ -212,6 +215,9 @@
         "show_view_all": false,
         "mobile_swipe": true,
         "show_progress_bar": false,
+        "show_dots": true,
+        "autoplay": false,
+        "autoplay_length": 5,
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
@@ -664,7 +670,10 @@
         "overlay_color": "#000000",
         "overlay_opacity": 9,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "show_dots": true,
+        "autoplay": false,
+        "autoplay_length": 5
       }
     },
     "1759887391a1859dfc": {
@@ -1522,7 +1531,10 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "show_dots": true,
+        "autoplay": false,
+        "autoplay_length": 5
       }
     },
     "rich_text_Xj7jim": {

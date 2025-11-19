@@ -44,6 +44,18 @@
             "sizing_guide_page": ""
           }
         },
+        "inventory_level_BhJagd": {
+          "type": "inventory_level",
+          "settings": {
+            "show_inventory_notice": "always",
+            "show_inventory_count": "low",
+            "inventory_notice_pulse": true,
+            "inventory_notice_bar": false,
+            "inventory_notice_threshold": 10,
+            "inventory_notice_base": 20,
+            "custom_code": ""
+          }
+        },
         "side_panel_g4pmfR": {
           "type": "side_panel",
           "settings": {
@@ -59,18 +71,6 @@
             "side_panel_3_icon": "none",
             "side_panel_3_content": "",
             "side_panel_3_page": ""
-          }
-        },
-        "inventory_level_BhJagd": {
-          "type": "inventory_level",
-          "settings": {
-            "show_inventory_notice": "always",
-            "show_inventory_count": "low",
-            "inventory_notice_pulse": true,
-            "inventory_notice_bar": false,
-            "inventory_notice_threshold": 10,
-            "inventory_notice_base": 20,
-            "custom_code": ""
           }
         },
         "preorder_me_product_button_t8zPaL": {
@@ -517,8 +517,8 @@
         "okendo_star_rating_ULNtYz",
         "title",
         "variant_picker",
-        "side_panel_g4pmfR",
         "inventory_level_BhJagd",
+        "side_panel_g4pmfR",
         "preorder_me_product_button_t8zPaL",
         "buy_buttons",
         "image_QQ6AqP",
@@ -556,7 +556,8 @@
         "custom_liquid_Y3EYmc"
       ],
       "custom_css": [
-        ".product-price-container .htusb-ui-prod-boost-generic-pricing{display:none;}"
+        ".product-price-container .htusb-ui-prod-boost-generic-pricing {display: none;}",
+        ".product-popup-modal__opener {display: block; margin-bottom: 15px;}"
       ],
       "settings": {
         "bg_btn_color": "#151515",

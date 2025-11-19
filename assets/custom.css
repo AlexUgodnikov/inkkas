@@ -1539,6 +1539,9 @@ a.mobile-link-caps img {
 }
 .product-image-container .inventory-custom-code .product-card__tag-info{
   padding: 6px 16px;
+    font-size: 10px;
+    height: 23px;
+    text-transform: uppercase;
 }
 @media(max-width:550px){
   .inventory_level-wrp{

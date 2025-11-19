@@ -95,6 +95,7 @@
 					<div class="product-image-container">
              <div class="inventory-custom-code">
               {% render 'product-tags-label', product: product %}
+              {% render 'product-card-badge', product_card_product: product %}
             </div>
 						{% comment %}<div class="product-gallery-navigations">
 							<modal-opener class="view-all-images__wrapper product-popup-modal__opener no-js-hidden" data-modal="#ViewAllImagesModal" {{ block.shopify_attributes }}>
