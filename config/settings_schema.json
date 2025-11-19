@@ -1217,6 +1217,12 @@
         "label": "Free shipping minimum amount",
         "default": "250",
         "info": "Enter the value without a currency symbol and use a decimal to separate dollars and cents. Example: '100.00'"
+      },
+       {
+        "type": "checkbox",
+        "id": "show_inventory",
+        "label": "Show inventory",
+        "default": true
       }
     ]
   },

@@ -113,6 +113,7 @@
     "cart_recommendations": false,
     "free_shipping": true,
     "free_shipping_minimum": "150.00",
+    "show_inventory": false,
     "search_product_collection": "best-sellers",
     "lazy_loading": false,
     "show_dynamic_button": true,

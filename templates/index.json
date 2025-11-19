@@ -43,8 +43,8 @@
         "slide_rkw66J": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/BF-2025-BANNER-Bird-Desktop.gif",
-            "mobile_image": "shopify://shop_images/BF-2025-BANNER-Bird-Mobile.gif",
+            "image": "shopify://shop_images/BF-2025-BANNER-Bird-Desktop-ezgif.com-optiwebp.webp",
+            "mobile_image": "shopify://shop_images/BF-2025-BANNER-Bird-Mobile-ezgif.com-optiwebp.webp",
             "slide_link": "shopify://collections/best-sellers",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -465,7 +465,7 @@
             "slide_link": "shopify://collections/new-arrivals",
             "video_background": true,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "video_hosted": "shopify://files/videos/Mash Up-Essence Collection fall25-Reel.mp4",
+            "video_hosted": "shopify://files/videos/2346554546.mp4",
             "subheading": "Find Your Essence",
             "heading": "Shine Bright.\nWalk Boldly.",
             "heading_size": "h2",
@@ -710,6 +710,7 @@
       "block_order": [
         "vizup_shoppable_video_carousel_videos_block_xdkXJx"
       ],
+      "disabled": true,
       "settings": {}
     },
     "rich_text_PxDcMg": {
@@ -1640,6 +1641,7 @@
         "okendo_reviews_badge_btPWid",
         "okendo_reviews_carousel_wzLcNf"
       ],
+      "disabled": true,
       "settings": {}
     },
     "spacer_9PVUJE": {

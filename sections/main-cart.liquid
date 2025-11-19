@@ -70,6 +70,105 @@
 											 {%- endfor -%}
 										 </ul>
 										 {%- endif -%}
+										 {% if settings.show_inventory %}
+												<div class="cart-item-inventory" style="margin-top:2px;">
+									
+												
+													{%- liquid
+
+													assign threshold = 10 
+													
+													
+													assign inventory_base = 50
+													
+													
+													assign setting_show_notice = 'always' 
+													
+													
+													assign setting_show_count = 'low'
+													
+													
+													assign show_pulse = true
+													assign show_bar = true
+													
+													
+
+													assign current_variant = item.variant
+													assign inventory_quantity = current_variant.inventory_quantity
+													-%}
+
+													<div class="product-inventory-notice--wrapper">
+													
+													{% if current_variant != blank and current_variant.inventory_management == 'shopify' and inventory_quantity > 0 %}
+														
+													
+														{% if setting_show_notice == 'always' or inventory_quantity <= threshold %}
+															
+															{%- liquid
+															assign show_inventory_count = false
+															
+															
+															if setting_show_count == 'always'
+																assign show_inventory_count = true
+															endif
+															if setting_show_count == 'low' and inventory_quantity <= threshold
+																assign show_inventory_count = true
+															endif
+
+														
+															if show_inventory_count
+																if inventory_quantity <= threshold
+																assign notice = 'products.product.inventory.only_x_left' | t: quantity: inventory_quantity
+															
+																if notice contains 'translation missing'
+																	assign notice = 'Only ' | append: inventory_quantity | append: ' left'
+																endif
+																else
+																assign notice = 'products.product.inventory.x_units_available' | t: quantity: inventory_quantity
+																
+																if notice contains 'translation missing'
+																	assign notice = inventory_quantity | append: ' units available'
+																endif
+																endif
+															else
+																if inventory_quantity <= threshold
+																assign notice = 'products.product.inventory.low_stock' | t
+																
+																if notice contains 'translation missing'
+																	assign notice = 'Low stock'
+																endif
+																else
+																assign notice = 'products.product.inventory.in_stock' | t
+																
+																if notice contains 'translation missing'
+																	assign notice = 'In stock'
+																endif
+																endif
+															endif
+
+															
+															assign notice_percentage = 0.000 | plus: inventory_quantity | divided_by: inventory_base | at_most: 1 | at_least: 0
+															-%}
+
+													
+														<div class="product-inventory-notice product-inventory-notice--{% if inventory_quantity <= threshold %}low{% else %}normal{% endif %}">
+															<div class="product-inventory-notice--text">
+															{%- if show_pulse -%}
+																<div class="product-inventory-notice--pulse"></div>
+															{%- endif -%}
+															{{ notice }}
+															</div>
+															
+															{%- if show_bar -%}
+															<div class="product-inventory-notice--bar" style="--inventory-scale:{{ notice_percentage }}; display:none;"><span></span></div>
+															{%- endif %}
+														</div>
+														
+														{% endif %}
+													{% endif %}
+													</div>
+												</div>
+											{% endif %}
 										 <quantity-selector class="quantity cart-update cart-update-mobile small-qty" data-id="{{ item.key | escape }}">
 											<button class="minus" type="button" aria-label="{{ 'products.product.quantity.decrease' | t: product: item.product.title | escape }}">{% render 'svg-icons' with 'minus' %}</button>
 											<input
