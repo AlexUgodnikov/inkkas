@@ -55,10 +55,10 @@
               --image-align:center;
             ">
      {% if section.settings.image != blank %}
-				<img src="{{ section.settings.image | img_url : 'master' }}" alt="" class="banner-image-desc">
+				{%- render 'responsive-image', image: section.settings.image, sizes: '375x0,640x0,960x0,1280x0,1920x0', class: 'banner-image-desc' -%}
      {% endif %}
     {% if section.settings.mobile_image != blank %}
-    <img src="{{ section.settings.mobile_image | img_url : 'master' }}" alt=""  class="banner-image-mob">
+    {%- render 'responsive-image', image: section.settings.mobile_image, sizes: '375x0,640x0', class: 'banner-image-mob' -%}
     {% endif %}
  {% if section.settings.button_text != blank %}
     <div class="banner-text-wrp">

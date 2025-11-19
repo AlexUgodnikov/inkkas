@@ -83,7 +83,7 @@
 										assign class = 'slideshow-image--desktop'
 									endif
 								 -%}
-								 <img data-src="{{ image | image_url }}" class="lazyload {{ class }}{% unless settings.lazy_loading %} no-blur{% endunless %}" width="{{ image.src.width }}" height="{{ image.src.height }}" alt="{{ image.alt }}" />
+								 <img src="{{ image | img_url : 'x1000' }}" class="{{ class }}" width="{{ image.src.width }}" height="{{ image.src.height }}" alt="{{ image.alt }}" loading="{% if forloop.index == 1 %}eager{% else %}lazy{% endif %}" />
 							{%- else -%}
 								{%- assign index = forloop.index | modulo: 2 | plus: 1 -%}
 								{{ 'lifestyle-' | append: index | placeholder_svg_tag: 'placeholder_svg_tag' }}
@@ -94,11 +94,11 @@
 									assign master_width = image.src.width | append: 'x' | append: image.src.height
 									assign width = '375x' | append: mobile_image_height | append: ',' | append: master_width
 								 -%}
-								<img data-src="{{ image | image_url }}" class="lazyload slideshow-image--mobile{% unless settings.lazy_loading %} no-blur{% endunless %}" width="{{ image.src.width }}" height="{{ image.src.height }}" alt="{{ image.alt }}" />
+								<img src="{{ image | img_url : 'x500' }}" class="slideshow-image--mobile" width="{{ image.src.width }}" height="{{ image.src.height }}" alt="{{ image.alt }}" loading="{% if forloop.index == 1 %}eager{% else %}lazy{% endif %}" />
 							{%- endif -%}
 						</div>
 					{%- endif -%}
-					<div class="slideshow__slide-bg">
+					{% comment %} <div class="slideshow__slide-bg">
 						{%- if block.settings.image -%}
 							{%- liquid
 								assign image = block.settings.image
@@ -125,7 +125,7 @@
 							 -%}
 							{%- render 'responsive-image', image: image, sizes: width, class: 'slideshow-image--mobile', priority: priority -%}
 						{%- endif -%}
-					</div>
+					</div> {% endcomment %}
 					{%- if block.settings.video_background -%}
 						{%- if block.settings.video_hosted != blank -%}
 							{%- liquid

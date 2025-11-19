@@ -276,7 +276,7 @@
 								 	{%- if media.media_type == 'model' -%}
 										{% comment %}<div class="video-play-icon">{% render 'icon' with '3d-model' %}</div>{% endcomment %}
 									{%- endif -%}
-									<img src="{{ media.preview_image | product_img_url: '150x230' }}" alt="{{ media.preview_image.alt | escape }}">
+									<img src="{{ media.preview_image | product_img_url: '150x230' }}" alt="{{ media.preview_image.alt | escape }}" loading="lazy">
 
 								</div>
 								{%- endfor -%}

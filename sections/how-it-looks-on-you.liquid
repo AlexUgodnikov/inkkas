@@ -126,7 +126,7 @@ how-itlooks-o-nyou .swiper-pagination-bullet-active {
                           <div class="swiper-slide">
                             {% if block.settings[link_to_video_key] == blank %}
                               {% if block.settings[image_key] != blank %}
-                                <img src="{{block.settings[image_key] | img_url : '500x800', crop: 'center'}}" alt="">
+                                <img src="{{block.settings[image_key] | img_url : '500x800', crop: 'center'}}" alt="" loading="lazy">
                               {% endif %}
                             {% endif %}
 
