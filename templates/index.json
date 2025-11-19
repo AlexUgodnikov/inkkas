@@ -14,9 +14,37 @@
       "blocks": {
         "slide_jPXqc4": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/11-04-25-BF-early-access-DESKTOP-1.1.gif",
-            "mobile_image": "shopify://shop_images/11-04-25-BF-early-access-MOBILE-1.1.gif",
+            "image": "shopify://shop_images/BF_early_access_-2nd_-_DESKTOP.gif",
+            "mobile_image": "shopify://shop_images/BF_early_access_-2nd_-_MOBILE.gif",
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 10,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_rkw66J": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/BF-2025-BANNER-Bird-Desktop.gif",
+            "mobile_image": "shopify://shop_images/BF-2025-BANNER-Bird-Mobile.gif",
             "slide_link": "shopify://collections/best-sellers",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -126,6 +154,7 @@
       },
       "block_order": [
         "slide_jPXqc4",
+        "slide_rkw66J",
         "slide_pcPTXt",
         "slide_7KjMz4",
         "slide_xcXW4R"
@@ -203,7 +232,7 @@
       "settings": {
         "heading": "New Arrivals: AW25",
         "heading_left": false,
-        "description": "<p><em>Go someplace new in these head-turning styles blending unique artistry & premium comfort.</em></p>",
+        "description": "<p><em>Go someplace new in these head-turning styles that blend unique artistry & premium comfort.</em></p>",
         "full_width": true,
         "collection": "essence-collection",
         "display_type": "carousel",
