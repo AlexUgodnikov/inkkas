@@ -1050,7 +1050,7 @@ class CartDrawerRecommends extends HTMLElement {
   }
 
   connectedCallback() {
-
+    console.log(this.dataset.autoplay)
       const drawerRecomends = new Swiper(this.querySelector('.cartdrawer-recommends-swiper'), {
           slidesPerView: 1,
           spaceBetween: 0,
@@ -1066,9 +1066,9 @@ class CartDrawerRecommends extends HTMLElement {
               </span>`;
             },
           },
-           autoplay: this.dataset.autoplay,
+          
           autoplay: {
-            delay: Number(this.dataset.autoplaylength) || 5000,
+            delay: Number(this.dataset.autoplaylength) || 5000
           },
           breakpoints: {
               0: {
