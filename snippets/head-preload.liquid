@@ -1,4 +1,4 @@
-<link rel="preload" as="style" href="{{ 'app.css' | asset_url }}">
+
 {% if template contains 'product' -%}
 <link rel="preload" as="style" href="{{ 'product.css' | asset_url }}">
 {% liquid
@@ -21,9 +21,7 @@
 {% if settings.animations %}
 {{ 'animations.min.js' | asset_url | preload_tag: as: 'script' }}
 {% endif %}
-{{ 'vendor.min.js' | asset_url | preload_tag: as: 'script' }}
-{{ 'app.js' | asset_url | preload_tag: as: 'script' }}
-{{ 'slideshow.js' | asset_url | preload_tag: as: 'script' }}
+
 
 <script>
 window.lazySizesConfig = window.lazySizesConfig || {};

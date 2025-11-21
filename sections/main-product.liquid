@@ -15,6 +15,31 @@
 
   color:{{section.settings.text_btn_color_hover}}!important;
 } 
+.product__title + .okendo-star-rating,
+[data-okendo-star-rating] {
+    min-height: 24px; 
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+.sezzle-shopify-info-button,
+.sezzle-widget {
+    min-height: 40px; 
+    display: block;
+    margin-top: 10px;
+}
+
+
+.product__media-list {
+    min-height: 300px; 
+    background-color: #fafafa; 
+}
+@media (min-width: 750px) {
+    .product__media-list {
+        min-height: 600px;
+    }
+}
 
 
 
@@ -39,6 +64,9 @@
 
 {%  endstyle %}
 
+
+
+<img src="{{ product.featured_media | img_url : 'x500' }}" loading="eager" style="display:none;" alt="">
 
 
 {%- liquid
@@ -280,7 +308,7 @@
 								 	{%- if media.media_type == 'model' -%}
 										{% comment %}<div class="video-play-icon">{% render 'icon' with '3d-model' %}</div>{% endcomment %}
 									{%- endif -%}
-									<img src="{{ media.preview_image | product_img_url: '150x230' }}" alt="{{ media.preview_image.alt | escape }}">
+									<img src="{{ media.preview_image | product_img_url: '150x230' }}" alt="{{ media.preview_image.alt | escape }}" loading="lazy">
 
 								</div>
 								{%- endfor -%}

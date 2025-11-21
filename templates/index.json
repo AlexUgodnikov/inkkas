@@ -14,9 +14,37 @@
       "blocks": {
         "slide_jPXqc4": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/11-04-25-BF-early-access-DESKTOP-1.1.gif",
-            "mobile_image": "shopify://shop_images/11-04-25-BF-early-access-MOBILE-1.1.gif",
+            "image": "shopify://shop_images/BF_early_access_-2nd_-_DESKTOP.gif",
+            "mobile_image": "shopify://shop_images/BF_early_access_-2nd_-_MOBILE.gif",
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 10,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_rkw66J": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/BF2025BANNER-Bird-DESKTOP-ORIGINAL-ezgif.com-gif-to-webp-converter.webp",
+            "mobile_image": "shopify://shop_images/BF2025BANNER-Bird-Mobile-ORIGINAL-ezgif.com-gif-to-webp-converter.webp",
             "slide_link": "shopify://collections/best-sellers",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -126,6 +154,7 @@
       },
       "block_order": [
         "slide_jPXqc4",
+        "slide_rkw66J",
         "slide_pcPTXt",
         "slide_7KjMz4",
         "slide_xcXW4R"
@@ -206,7 +235,7 @@
       "settings": {
         "heading": "New Arrivals: AW25",
         "heading_left": false,
-        "description": "<p><em>Go someplace new in these head-turning styles blending unique artistry & premium comfort.</em></p>",
+        "description": "<p><em>Go someplace new in these head-turning styles that blend unique artistry & premium comfort.</em></p>",
         "full_width": true,
         "collection": "essence-collection",
         "display_type": "carousel",
@@ -442,7 +471,7 @@
             "slide_link": "shopify://collections/new-arrivals",
             "video_background": true,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "video_hosted": "shopify://files/videos/Mash Up-Essence Collection fall25-Reel.mp4",
+            "video_hosted": "shopify://files/videos/2346554546.mp4",
             "subheading": "Find Your Essence",
             "heading": "Shine Bright.\nWalk Boldly.",
             "heading_size": "h2",
@@ -468,9 +497,9 @@
       ],
       "name": "Slideshow",
       "settings": {
-        "desktop_height": "desktop-height-image",
+        "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-500",
-        "full_width": true,
+        "full_width": false,
         "autoplay": false,
         "autoplay_length": 3,
         "transition": "swipe",
@@ -726,6 +755,77 @@
         "color_links": "#151515",
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_t6kx3j": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_weGm9t": {
+          "type": "heading",
+          "settings": {
+            "text": "What You're Saying",
+            "size": "h3"
+          }
+        },
+        "text_nebbqX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rated '<strong>Excellent</strong>'<strong> </strong>★★★★★ <strong>4.8 </strong>out of 5</p>",
+            "custom_liquid": "",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_weGm9t",
+        "text_nebbqX"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1759579239f64a0794": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_badge_btPWid": {
+          "type": "shopify://apps/okendo/blocks/reviews-badge/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "disabled": true,
+          "settings": {
+            "horizontal_alignment": "center"
+          }
+        },
+        "okendo_reviews_carousel_wzLcNf": {
+          "type": "shopify://apps/okendo/blocks/reviews-carousel/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "show_heading": false,
+            "heading": "",
+            "badge_link": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_badge_btPWid",
+        "okendo_reviews_carousel_wzLcNf"
+      ],
+      "settings": {}
+    },
+    "spacer_9PVUJE": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 55,
+        "border_separator": true,
+        "border_separator_full": false
       }
     },
     "rich_text_WEbzAq": {
@@ -1561,78 +1661,8 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
-      }
-    },
-    "rich_text_t6kx3j": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_weGm9t": {
-          "type": "heading",
-          "settings": {
-            "text": "What You're Saying",
-            "size": "h3"
-          }
-        },
-        "text_nebbqX": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Rated '<strong>Excellent</strong>'<strong> </strong>★★★★★ <strong>4.8 </strong>out of 5</p>",
-            "custom_liquid": "",
-            "size": "text-size-small"
-          }
-        }
-      },
-      "block_order": [
-        "heading_weGm9t",
-        "text_nebbqX"
-      ],
-      "settings": {
-        "section_width": "full-width-row-full",
-        "text_width": "xlarge",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "1759579239f64a0794": {
-      "type": "apps",
-      "blocks": {
-        "okendo_reviews_badge_btPWid": {
-          "type": "shopify://apps/okendo/blocks/reviews-badge/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "horizontal_alignment": "center"
-          }
-        },
-        "okendo_reviews_carousel_wzLcNf": {
-          "type": "shopify://apps/okendo/blocks/reviews-carousel/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "show_heading": false,
-            "heading": "",
-            "badge_link": "",
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "okendo_reviews_badge_btPWid",
-        "okendo_reviews_carousel_wzLcNf"
-      ],
-      "settings": {}
-    },
-    "spacer_9PVUJE": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 35,
-        "spacer_desktop": 55,
-        "border_separator": true,
-        "border_separator_full": false
       }
     },
     "rich_text_TW6rM9": {
@@ -1816,12 +1846,12 @@
     "gallery_LmMtMY",
     "1759887391a1859dfc",
     "rich_text_PxDcMg",
-    "rich_text_WEbzAq",
-    "gallery_nUbVgE",
-    "rich_text_Xj7jim",
     "rich_text_t6kx3j",
     "1759579239f64a0794",
     "spacer_9PVUJE",
+    "rich_text_WEbzAq",
+    "gallery_nUbVgE",
+    "rich_text_Xj7jim",
     "rich_text_TW6rM9",
     "multicolumn_TW977r",
     "single_image_KYnHUq",

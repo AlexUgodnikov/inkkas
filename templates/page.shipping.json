@@ -71,7 +71,7 @@
           "settings": {
             "heading": "Do you offer Free Shipping?",
             "open": true,
-            "content": "<ul><li>Yes, we offer <strong>FREE shipping</strong> within the Continental U.S. on all orders of $175 or more! </li><li>Free shipping is automatically applied at checkout wherever eligible.</li><li>Free shipping is also available to Canada for orders of $200 or more. </li><li>Free shipping does not currently apply to Alaska, Hawaii and Puerto Rico. </li><li>Free shipping does not currently apply to international orders other than Canada.</li></ul>",
+            "content": "<ul><li>Yes, we offer <strong>FREE shipping</strong> within the Continental U.S. on all orders of $150 or more! </li><li>Free shipping is automatically applied at checkout wherever eligible.</li><li>Free shipping is also available to Canada for orders of $200 or more. </li><li>Free shipping does not currently apply to Alaska, Hawaii and Puerto Rico. </li><li>Free shipping does not currently apply to international orders other than Canada.</li></ul>",
             "page": ""
           }
         },

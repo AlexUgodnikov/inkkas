@@ -1,12 +1,4 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
+
 {
   "sections": {
     "breadcrumbs": {
@@ -83,14 +75,6 @@
             "show_quantity_selector": true,
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
-          }
-        },
-        "image_QQ6AqP": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Shipping_Returns_-_Product_Pages_1.png",
-            "position": "text-center"
           }
         },
         "essential_countdown_timer_app_block_L7YXF4": {
@@ -482,14 +466,6 @@
             "collection_id_enabled": false
           }
         },
-        "image_6idBVE": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/cpmecter.png",
-            "position": "text-center"
-          }
-        },
         "collapsible_tab_2_EG6eBL": {
           "type": "collapsible_tab_2",
           "disabled": true,
@@ -521,7 +497,6 @@
         "side_panel_g4pmfR",
         "preorder_me_product_button_t8zPaL",
         "buy_buttons",
-        "image_QQ6AqP",
         "essential_countdown_timer_app_block_L7YXF4",
         "essential_announcer_app_block_MeQTai",
         "custom_liquid_JfYWyP",
@@ -551,7 +526,6 @@
         "collapsible_tab_2_4Gkpjy",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
         "rebuy_personalization_engine_rebuy_widget_yGFFnB",
-        "image_6idBVE",
         "collapsible_tab_2_EG6eBL",
         "custom_liquid_Y3EYmc"
       ],
@@ -1126,17 +1100,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "spacer_ttC6U4": {
-      "type": "spacer",
-      "disabled": true,
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 50,
-        "spacer_desktop": 100,
-        "border_separator": true,
-        "border_separator_full": false
-      }
-    },
     "single_image_EGQtMA": {
       "type": "single-image",
       "name": "Single image",
@@ -1350,17 +1313,6 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
-    },
-    "single_image_44gN4U": {
-      "type": "single-image",
-      "disabled": true,
-      "name": "Single image",
-      "settings": {
-        "image": "shopify://shop_images/cpmecter.png",
-        "full_width": false,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
     }
   },
   "order": [
@@ -1375,12 +1327,7 @@
     "text_with_icons_MRQx4U",
     "product-recommendations",
     "recently_viewed_products_HPzhR7",
-    "spacer_ttC6U4",
     "single_image_EGQtMA",
-    "spacer_Mxe4UA",
-    "image_with_text_slideshow_KJjN8y",
-    "gallery_zNTQNR",
-    "collapsible_content_GTjkiJ",
-    "single_image_44gN4U"
+    "collapsible_content_GTjkiJ"
   ]
 }

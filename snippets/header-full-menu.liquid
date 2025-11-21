@@ -61,7 +61,7 @@
 
                     <span>{{ l.title }}</span>
                     {%- if collection_obj.metafields.custom.menu_image != blank -%}
-                      <img src="{{ collection_obj.metafields.custom.menu_image | image_url }}" alt="{{ l.title }}">
+                      <img src="{{ collection_obj.metafields.custom.menu_image | img_url : "x100" }}" alt="{{ l.title }}">
                     {%- endif -%}
                   {%- elsif link.title == 'MENS' -%}
                     {%- assign collection_handle = l.url | replace: '/collections/', '' | replace: '/mlanding', '' -%}
@@ -69,7 +69,7 @@
 
                     <span>{{ l.title }}</span>
                     {%- if collection_obj.metafields.custom.menu_image != blank -%}
-                      <img src="{{ collection_obj.metafields.custom.menu_image | image_url }}" alt="{{ l.title }}">
+                      <img src="{{ collection_obj.metafields.custom.menu_image | img_url : "x100"}}" alt="{{ l.title }}">
                     {%- endif -%}
                   {%- else -%}
                     {{- l.title -}}
