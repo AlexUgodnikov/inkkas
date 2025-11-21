@@ -93,6 +93,8 @@
     "color_txt_pdp_3": "#ffffff",
     "color_bg_pdp_3": "#d73917",
     "show_pdp_3": true,
+    "show_pdp_gallery_3": false,
+    "show_preview_3": false,
     "prd_tag4": "",
     "prd_text4": "",
     "color_txt4": "#d73917",
