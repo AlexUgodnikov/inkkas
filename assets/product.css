@@ -984,7 +984,7 @@
   right: 15px;
   width: calc(100% - 30px);
   max-width: 420px;
-  z-index: 91;
+  z-index: 52;
   background: var(--bg-body);
   padding: 18px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);

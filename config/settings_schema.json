@@ -1319,6 +1319,12 @@
         "label": "Icon 1"
       },
       {
+        "type": "number",
+        "id": "slide_text_size_1",
+        "default": 12,
+        "label": "Text size slide 1"
+      },
+      {
         "type": "color",
         "id": "slide_bg_1",
         "label": "Background slide 1"
@@ -1338,6 +1344,12 @@
         "type": "image_picker",
         "id": "slide_icon_2",
         "label": "Icon 2"
+      },
+        {
+        "type": "number",
+        "id": "slide_text_size_2",
+        "default": 12,
+        "label": "Text size slide 2"
       },
       {
         "type": "color",
@@ -1359,6 +1371,12 @@
         "type": "image_picker",
         "id": "slide_icon_3",
         "label": "Icon 3"
+      },
+        {
+        "type": "number",
+        "id": "slide_text_size_3",
+        "default": 16,
+        "label": "Text size slide 3"
       },
       {
         "type": "color",

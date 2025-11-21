@@ -1808,8 +1808,14 @@ cartdrawer-recommends{
 }
 .cartdrawer-recommends-swiper select[name="id"]{
   display: none;
-    width: 100%;
-        -webkit-appearance: auto;
-    -moz-appearance: auto;
-    appearance: auto;
+  width: 100%;
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+  appearance: auto;
+}
+@media(max-width:500px){
+  .cartdrawer-recommends-title{
+    font-size: 14px;
+    font-weight: 600;
+  }
 }

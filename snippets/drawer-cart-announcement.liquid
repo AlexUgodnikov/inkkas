@@ -8,13 +8,16 @@
         {%- assign slide_icon_id = 'slide_icon_' | append: i -%}
         {%- assign slide_bg_id = 'slide_bg_' | append: i -%}
         {%- assign slide_color_id = 'slide_color_' | append: i -%}
+        {%- assign slide_text_size = 'slide_text_size_' | append: i -%}   
+        
 
         {%- assign slide_text = settings[slide_text_id] -%}
         {%- assign slide_icon = settings[slide_icon_id] -%}
         {%- assign slide_bg = settings[slide_bg_id] -%}
         {%- assign slide_color = settings[slide_color_id] -%}
+        {%- assign slide_text_size_setting = settings[slide_text_size] -%}
 
-        <div class="swiper-slide" style="background-color: {{ slide_bg }}; color: {{ slide_color }};">
+        <div class="swiper-slide" style="background-color: {{ slide_bg }}; color: {{ slide_color }};font-size:{{slide_text_size_setting}}px;">
             {%- if slide_icon != blank -%}
                 <img src="{{ slide_icon | img_url: '100x' }}" alt="{{ slide_icon.alt | escape }}" class="slide-icon">
             {%- endif -%}
@@ -23,7 +26,7 @@
             {%- endif -%}
         </div>
         {%- endfor -%}
-    </div>
+    </div> 
     </swiper-container>
 
     <script>
@@ -36,7 +39,7 @@
         initSwiper() {
         const swiper = new Swiper(this, {
         
-            loop: true,
+            loop: false,
             slidesPerView: 1,
             spaceBetween: 10,
             speed:1000,

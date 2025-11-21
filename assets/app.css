@@ -2442,7 +2442,7 @@ h6,
       .thb-full-menu li.menu-item-has-children > a svg {
         position: absolute;
         top: 50%;
-        right: 0;
+        right: -9px;
         margin-top: -3px; }
     .thb-full-menu li.menu-item-has-children:focus-within {
       z-index: 2; }
@@ -2469,14 +2469,24 @@ h6,
     min-width: 190px;
     opacity: 0;
     visibility: hidden; }
+    .thb-full-menu > .menu-item-has-children:nth-child(1) .sub-menu,
+    .thb-full-menu > .menu-item-has-children:nth-child(2) .sub-menu,
+    .thb-full-menu > .menu-item-has-children:nth-child(3) .sub-menu{
+      right:auto;
+      left:0;
+    }
     .thb-full-menu .sub-menu a:not(.text-button):after {
       top: calc(100% - 3px); }
     .thb-full-menu .sub-menu ul {
-      line-height: inherit; }
+      line-height: inherit;min-width: 250px; }
     .thb-full-menu .sub-menu li a {
       display: inline-block;
       padding-top: 5px;
+       
       padding-bottom: 5px; }
+      .thb-full-menu .sub-menu ul li a{
+         white-space: normal; 
+      }
     .thb-full-menu .sub-menu .sub-menu {
       top: -22px;
       left: calc(100% + 35px); }

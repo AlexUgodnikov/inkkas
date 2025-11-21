@@ -856,12 +856,13 @@ if (!customElements.get('product-add-to-cart-sticky')) {
        this.setupToggle();
       //Start infinix button catcher
         const targetElement1 = document.querySelector('.product-information product-form .add_to_cart_holder');
+        const targetElement2 = document.querySelector('#footer');
 
     
-        if (targetElement1 && this) {
+        if (this) {
           let visibilityMap = new Map();
 
-          const observer = new IntersectionObserver((entries) => {
+          const observerStickuAddTOCart = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
               visibilityMap.set(entry.target, entry.isIntersecting);
             });
@@ -875,11 +876,16 @@ if (!customElements.get('product-add-to-cart-sticky')) {
             }
           });
 
-          visibilityMap.set(targetElement1, false);
-          
+          const targets = [targetElement1, targetElement2];
 
-          observer.observe(targetElement1);
-        
+          targets.forEach(el => {
+      
+              if (el) {
+                  visibilityMap.set(el, false); 
+                  observerStickuAddTOCart.observe(el);
+              }
+          });
+          
         }
 
 

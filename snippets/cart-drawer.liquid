@@ -345,7 +345,7 @@
 							{% endfor %}
 						</div>
 
-						<div class="slider-pagination-cartdrawer-recommends swiper-slider-pagination" style="--dot-speed:{{settings.drawer_recommends_autoplay_length }}s;">
+						<div class="slider-pagination-cartdrawer-recommends swiper-slider-pagination" {% if settings.drawer_recommends_autoplay %}style="--dot-speed:{{settings.drawer_recommends_autoplay_length }}s;"{% endif %}>
 							<div class="pagination-cartdrawer-recommends slider-pagination swiper-pagination"></div>
 						</div>
 						

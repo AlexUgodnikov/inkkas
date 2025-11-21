@@ -23,10 +23,12 @@
   grid-gap: 10px;
   margin: 10px auto; }
 
-.gallery-spacing--large .gallery__inner {
+.gallery__inner.swiper-wrapper {
+  grid-gap: 0!important;
+  margin: 30px auto; }
+.gallery__inner {
   grid-gap: 30px;
   margin: 30px auto; }
-
 .gallery__item figure {
   position: relative;
   width: 100%;
