@@ -1596,7 +1596,7 @@ a.mobile-link-caps img {
 
 
       /* Product PDP Gallery Image Height */
-  .template-product .thb-product-detail .product-single__media-image{
+  /* .template-product .thb-product-detail .product-single__media-image{
     padding-bottom: 600px;
   }
   .template-product .thb-product-detail .product-single__media.product-single__media-native-video video{
@@ -1623,4 +1623,4 @@ a.mobile-link-caps img {
     .template-product .thb-product-detail .product-single__media.product-single__media-native-video video{
     height:300px;
   }
-  }
+  } */

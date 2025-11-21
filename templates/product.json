@@ -44,6 +44,36 @@
             "sizing_guide_page": ""
           }
         },
+        "side_panel_g4pmfR": {
+          "type": "side_panel",
+          "settings": {
+            "side_panel_1_label": "Includes Free Returns & Exchanges",
+            "side_panel_1_icon": "return",
+            "side_panel_1_content": "<p><strong>Shop confidently</strong> — FREE returns & exchanges are included for a worry-free fit, as part of our 100% Happiness Guarantee. ✨  Love them or send them back. View our full return policy <a href=\"/pages/return-policy\" title=\"Returns & Exchanges\">here</a>. </p>",
+            "side_panel_1_page": "",
+            "side_panel_2_label": "Eligible for Free Shipping",
+            "side_panel_2_icon": "box",
+            "side_panel_2_content": "<p>FREE U.S. ground shipping on orders of $150 or more is automatically applied at checkout.</p>",
+            "side_panel_2_page": "",
+            "side_panel_3_label": "",
+            "side_panel_3_icon": "none",
+            "side_panel_3_content": "",
+            "side_panel_3_page": ""
+          }
+        },
+        "text_M9Q8aq": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "style_vendor"
+          }
+        },
+        "custom_liquid_LyBCHn": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "inventory_level_BhJagd": {
           "type": "inventory_level",
           "settings": {
@@ -54,29 +84,6 @@
             "inventory_notice_threshold": 10,
             "inventory_notice_base": 20,
             "custom_code": ""
-          }
-        },
-        "side_panel_g4pmfR": {
-          "type": "side_panel",
-          "settings": {
-            "side_panel_1_label": "Includes Free Returns & Exchanges",
-            "side_panel_1_icon": "return",
-            "side_panel_1_content": "<p><strong>Shop confidently</strong> — FREE returns & exchanges are included for a worry-free fit, as part of our 100% Happiness Guarantee. ✨  Love them or send them back. View our full return policy <a href=\"/pages/return-policy\" title=\"Returns & Exchanges\">here</a>. </p>",
-            "side_panel_1_page": "",
-            "side_panel_2_label": "Eligible for Free Shipping",
-            "side_panel_2_icon": "box",
-            "side_panel_2_content": "<p>FREE U.S. ground shipping on orders of $175 or more is automatically applied at checkout.</p>",
-            "side_panel_2_page": "",
-            "side_panel_3_label": "",
-            "side_panel_3_icon": "none",
-            "side_panel_3_content": "",
-            "side_panel_3_page": ""
-          }
-        },
-        "custom_liquid_LyBCHn": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
           }
         },
         "preorder_me_product_button_t8zPaL": {
@@ -121,7 +128,7 @@
           "type": "collapsible_tab_2",
           "settings": {
             "idname": "",
-            "open": false,
+            "open": true,
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
@@ -480,14 +487,6 @@
             "collection_id_enabled": false
           }
         },
-        "image_6idBVE": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/cpmecter.png",
-            "position": "text-center"
-          }
-        },
         "collapsible_tab_2_EG6eBL": {
           "type": "collapsible_tab_2",
           "disabled": true,
@@ -515,9 +514,10 @@
         "okendo_star_rating_ULNtYz",
         "title",
         "variant_picker",
-        "inventory_level_BhJagd",
         "side_panel_g4pmfR",
+        "text_M9Q8aq",
         "custom_liquid_LyBCHn",
+        "inventory_level_BhJagd",
         "preorder_me_product_button_t8zPaL",
         "buy_buttons",
         "essential_countdown_timer_app_block_L7YXF4",
@@ -549,7 +549,6 @@
         "collapsible_tab_2_4Gkpjy",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
         "rebuy_personalization_engine_rebuy_widget_yGFFnB",
-        "image_6idBVE",
         "collapsible_tab_2_EG6eBL",
         "custom_liquid_Y3EYmc"
       ],
@@ -1121,159 +1120,12 @@
         "disable_bottom_spacing": false
       }
     },
-    "spacer_ttC6U4": {
-      "type": "spacer",
-      "disabled": true,
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 50,
-        "spacer_desktop": 100,
-        "border_separator": true,
-        "border_separator_full": false
-      }
-    },
     "single_image_EGQtMA": {
       "type": "single-image",
       "name": "Single image",
       "settings": {
         "image": "shopify://shop_images/Tagline_3_Logos_for_Homepage_2.png",
         "full_width": false,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "spacer_Mxe4UA": {
-      "type": "spacer",
-      "disabled": true,
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 50,
-        "spacer_desktop": 100,
-        "border_separator": true,
-        "border_separator_full": false
-      }
-    },
-    "image_with_text_slideshow_KJjN8y": {
-      "type": "image-with-text-slideshow",
-      "blocks": {
-        "slide_Tb4RVK": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Andes-Wide.jpg",
-            "heading": "Inked by Artists, Designed for You",
-            "content": "We make one-of-a-kind, handcrafted, plush designs to bring you all day inspiration & comfort",
-            "button_text": "About Us",
-            "button_link": ""
-          }
-        },
-        "slide_f8xEMc": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Tree-Square-02.jpg",
-            "heading": "Planting Towards Carbon-Neutral",
-            "content": "We plant one tree for every purchase",
-            "button_text": "Learn More",
-            "button_link": ""
-          }
-        },
-        "slide_kAfRxn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/CALADIUM-JOGGER-SS200412-STUDIO-1.2.jpg",
-            "heading": "Good for the Sole",
-            "content": "Meet the artists, see the inspirations behind our designs, explore lookbooks, and more",
-            "button_text": "Check it out",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_Tb4RVK",
-        "slide_f8xEMc",
-        "slide_kAfRxn"
-      ],
-      "disabled": true,
-      "name": "Image with text slideshow",
-      "settings": {
-        "mobile_height": "mobile-height-350",
-        "desktop_height": "desktop-height-450",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "content_position": "text-left",
-        "full_width": false,
-        "autoplay": true,
-        "autoplay_length": 5,
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "gallery_zNTQNR": {
-      "type": "gallery",
-      "blocks": {
-        "image_NPXA9L": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Andes-Wide.jpg",
-            "subheading": "",
-            "title": "Inked by Artists ♥️",
-            "text": "We make one-of-a-kind, handcrafted, plush designs to bring you all-day joy & comfort",
-            "link_label": "About Inkkas",
-            "link": "shopify://pages/about",
-            "use_text_button": true,
-            "block_link": "shopify://pages/about",
-            "product_list": []
-          }
-        },
-        "image_VFNtiP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Tree-Square-02_0942744d-f211-46fa-9b7e-4ed5c53324c5.jpg",
-            "subheading": "445,000 trees & counting",
-            "title": "Planting towards carbon-neutral",
-            "text": "We plant one tree for every purchase",
-            "link_label": "Learn More",
-            "link": "shopify://pages/about",
-            "use_text_button": true,
-            "block_link": "shopify://pages/about",
-            "product_list": []
-          }
-        },
-        "image_BfVCnw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/CALADIUM-JOGGER-SS200412-STUDIO-1.2.jpg",
-            "subheading": "BLOG",
-            "title": "Good for the Sole",
-            "text": "Meet the artists, see the inspirations behind our designs, explore lookbooks, and more",
-            "link_label": "Check it out!",
-            "link": "shopify://blogs/blog",
-            "use_text_button": true,
-            "block_link": "shopify://blogs/blog",
-            "product_list": []
-          }
-        }
-      },
-      "block_order": [
-        "image_NPXA9L",
-        "image_VFNtiP",
-        "image_BfVCnw"
-      ],
-      "disabled": true,
-      "settings": {
-        "slider": false,
-        "columns_desktop": 3,
-        "section_width": "full-width-row",
-        "mobile_swipe": true,
-        "image_ratio": "portrait",
-        "content_position": "bottom-left",
-        "text_alignment": "left",
-        "column_spacing": "small",
-        "heading_size": "h3",
-        "overlay_color": "#000000",
-        "overlay_opacity": 15,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -1342,17 +1194,6 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
-    },
-    "single_image_44gN4U": {
-      "type": "single-image",
-      "disabled": true,
-      "name": "Single image",
-      "settings": {
-        "image": "shopify://shop_images/cpmecter.png",
-        "full_width": false,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
     }
   },
   "order": [
@@ -1367,12 +1208,7 @@
     "text_with_icons_MRQx4U",
     "product-recommendations",
     "recently_viewed_products_HPzhR7",
-    "spacer_ttC6U4",
     "single_image_EGQtMA",
-    "spacer_Mxe4UA",
-    "image_with_text_slideshow_KJjN8y",
-    "gallery_zNTQNR",
-    "collapsible_content_GTjkiJ",
-    "single_image_44gN4U"
+    "collapsible_content_GTjkiJ"
   ]
 }
