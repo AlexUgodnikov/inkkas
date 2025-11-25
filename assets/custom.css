@@ -2111,13 +2111,19 @@ cartdrawer-recommends {
 .cartdrawer-recommends-swiper .choose-select,
 .cartdrawer-recommends-swiper .addt-to-cart-drawer {
   position: absolute;
-  right: 7px;
+  right: 3px;
   top: 30%;
-  padding: 5px 20px !important;
+  padding: 5px 15px !important;
   color: #fff;
   min-height: 20px;
   height: 35px;
   transform: translateY(-50%);
+}
+
+.cartdrawer-recommends-swiper .addt-to-cart-drawer.sold-out {
+  padding: 0 4px !important;
+  height: 26px;
+
 }
 
 .cartdrawer-recommends-swiper .addt-to-cart-drawer[disabled] {
@@ -2151,6 +2157,10 @@ cartdrawer-recommends {
   .cartdrawer-recommends-title {
     font-size: 14px;
     font-weight: 600;
+  }
+
+  .cartdrawer-recommend-text {
+    max-width: 100px;
   }
 }
 

@@ -61,8 +61,8 @@
 						<div class="product-cart-item-info">
 							<a href="{{ item.url }}" title="{{ item.product.title | escape }}" class="cart-product-link">{{ item.product.title }}</a>
 							<span class="price">
-								{%- if item.original_line_price != item.final_line_price -%}
-								 <del><span class="amount">{{ item.original_line_price | money }}</span></del>
+								{%- if item.product.compare_at_price != item.final_line_price -%}
+								 <del><span class="amount">{{ item.product.compare_at_price | money }}</span></del>
 								 <ins><span class="amount">{{ item.final_line_price | money }}</span></ins>
 								{%- else -%}
 								 <ins><span class="amount">{{ item.original_line_price | money }}</span></ins>
@@ -337,7 +337,7 @@
 											{% if item.variants.size > 1 %}
 												<button class="button choose-select js-choose-select">Add</button>
 											{% endif %}
-												<button class="button addt-to-cart-drawer js-add-to-cart" {% if item.available %}{% else %}disabled{% endif %}>{% if item.available %}Add{% else %}Sold Out{% endif %}</button>
+												<button class="button addt-to-cart-drawer js-add-to-cart {% if item.available %}{% else %}sold-out{% endif %}" {% if item.available %}{% else %}disabled{% endif %}>{% if item.available %}Add{% else %}Sold Out{% endif %}</button>
 										
 										
 										</div>
