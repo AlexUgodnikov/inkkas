@@ -138,15 +138,20 @@
       </div>
     {%- when 'description' -%}
       <div class="product-short-description rte" {{ block.shopify_attributes }}>{{ product.description }}</div>
+    {%-  when 'label_block' -%}
+       <div class="inventory-custom-code">
+            {% render 'product-tags-label', product: product %}
+            
+          </div>
     {%- when 'inventory_level' -%}
       <div class="inventory_level-wrp">
         {% render 'product-inventory-notice', product: product, section: section, block: block %}
-       
+        {% if block.settings.hide_labels == false %}
           <div class="inventory-custom-code">
             {% render 'product-tags-label', product: product %}
             
           </div>
-        
+        {% endif %}
       </div>
       <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
           {% assign product_tags = product.tags | join: ' ' %}

@@ -439,233 +439,267 @@ if (!customElements.get('variant-selects')) {
 //    *  @class
 //    *  @function ProductSlider
 //    */
-  class ProductSlider extends HTMLElement {
-    constructor() {
-      super();
-      this.sectionId = this.getAttribute('data-section-id');
-    }
-    connectedCallback() {
-      document.querySelectorAll(`#MainProduct-${this.sectionId} .gallery-top`).forEach((item) => {
-        const sliderThumbs = new Swiper(item.nextElementSibling.firstElementChild, {
-          slidesPerView: 10,
-          spaceBetween: 10,
-          breakpoints: {
-            0: {
-              slidesPerView: 5,
-            },
-            576: {
-              slidesPerView: 7,
-            },
-            1068: {
-              slidesPerView: 10,
-            },
-          }
-        });
-        const sliderImages = new Swiper(item, {
-          slidesPerView: 1,
-          spaceBetween: 0,
-          speed: 500,
-          autoHeight: true,
-          grabCursor: true,
-          thumbs: {
-            swiper: sliderThumbs
+class ProductSlider extends HTMLElement {
+  constructor() {
+    super();
+    this.sectionId = this.getAttribute('data-section-id');
+  }
+  connectedCallback() {
+    document.querySelectorAll(`#MainProduct-${this.sectionId} .gallery-top`).forEach((item) => {
+      const sliderThumbs = new Swiper(item.nextElementSibling.firstElementChild, {
+        slidesPerView: 10,
+        spaceBetween: 10,
+        breakpoints: {
+          0: {
+            slidesPerView: 5,
           },
-          breakpoints: {
-            0: {
-              navigation: {
-                nextEl: document.querySelector(`#MainProduct-${this.sectionId} product-slider .slider-button--next`),
-                prevEl: document.querySelector(`#MainProduct-${this.sectionId} product-slider .slider-button--prev`),
-              },
-            },
-            1068: {
-              navigation: {
-                nextEl: document.querySelector(`#MainProduct-${this.sectionId} .product-image-container > .product-images-buttons .slider-button--next`),
-                prevEl: document.querySelector(`#MainProduct-${this.sectionId} .product-image-container > .product-images-buttons .slider-button--prev`),
-              },
-            },
-          }
-        });
+          576: {
+            slidesPerView: 7,
+          },
+          1068: {
+            slidesPerView: 10,
+          },
+        }
       });
-      // this.pagination = this.parentElement.querySelector('.product-images-buttons');
-      // this.sliderItems = this.querySelectorAll('[id^="Slide-"]');
-      //
-      // // Start Gallery
-      // let observer = new MutationObserver(() => {
-      //   this.setupProductGallery();
-      // });
-      //
-      // observer.observe(this, {
-      //   attributes: true,
-      //   attributeFilter: ['class'],
-      //   childList: true,
-      //   characterData: false
-      // });
-
-      this.setupProductGallery();
-
-      // // Start Pagination
-      // if (this.pagination) {
-      //   this.setupPagination();
-      //   this.resizeObserver = new ResizeObserver(entries => this.onPaginationResize());
-      //   this.resizeObserver.observe(this);
-      //   this.addEventListener('scroll', this.updatePagination.bind(this));
-      // }
-    }
-    setupProductGallery() {
-      if (!this.querySelectorAll('.product-single__media-zoom').length) {
-        return;
-      }
-
-      this.setEventListeners();
-    }
-    buildItems(activeImages) {
-      let images = activeImages.map((item) => {
-        let activelink = item.querySelector('.product-single__media-zoom');
-        return {
-          src: activelink.getAttribute('href'),
-          msrc: activelink.dataset.msrc,
-          w: activelink.dataset.w,
-          h: activelink.dataset.h,
-          title: activelink.getAttribute('title')
-        };
+      const sliderImages = new Swiper(item, {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        speed: 500,
+        autoHeight: true,
+        grabCursor: true,
+        thumbs: {
+          swiper: sliderThumbs
+        },
+        breakpoints: {
+          0: {
+            navigation: {
+              nextEl: document.querySelector(`#MainProduct-${this.sectionId} product-slider .slider-button--next`),
+              prevEl: document.querySelector(`#MainProduct-${this.sectionId} product-slider .slider-button--prev`),
+            },
+          },
+          1068: {
+            navigation: {
+              nextEl: document.querySelector(`#MainProduct-${this.sectionId} .product-image-container > .product-images-buttons .slider-button--next`),
+              prevEl: document.querySelector(`#MainProduct-${this.sectionId} .product-image-container > .product-images-buttons .slider-button--prev`),
+            },
+          },
+        }
       });
-      return images;
-    }
-    setEventListeners() {
-      let activeImages = Array.from(this.querySelectorAll('.product-images__slide--image')).filter(element => element.clientWidth > 0),
-        items = this.buildItems(activeImages),
-        captionEl = this.dataset.captions,
-        pswpElement = document.querySelectorAll('.pswp')[0],
-        options = {
-          maxSpreadZoom: 2,
-          loop: false,
-          allowPanToNext: false,
-          closeOnScroll: false,
-          showHideOpacity: false,
-          arrowKeys: true,
-          history: false,
-          captionEl: captionEl,
-          fullscreenEl: false,
-          zoomEl: false,
-          shareEl: false,
-          counterEl: true,
-          arrowEl: true,
-          preloaderEl: true
-        };
+    });
+    // this.pagination = this.parentElement.querySelector('.product-images-buttons');
+    // this.sliderItems = this.querySelectorAll('[id^="Slide-"]');
+    //
+    // // Start Gallery
+    // let observer = new MutationObserver(() => {
+    //   this.setupProductGallery();
+    // });
+    //
+    // observer.observe(this, {
+    //   attributes: true,
+    //   attributeFilter: ['class'],
+    //   childList: true,
+    //   characterData: false
+    // });
 
-      let openPswp = function (e, link, options, pswpElement, items) {
-        let parent = link.closest('.product-images__slide');
+    this.setupProductGallery();
+
+    // // Start Pagination
+    // if (this.pagination) {
+    //   this.setupPagination();
+    //   this.resizeObserver = new ResizeObserver(entries => this.onPaginationResize());
+    //   this.resizeObserver.observe(this);
+    //   this.addEventListener('scroll', this.updatePagination.bind(this));
+    // }
+  }
+  setupProductGallery() {
+    if (!this.querySelectorAll('.product-single__media-zoom').length) {
+      return;
+    }
+
+    this.setEventListeners();
+  }
+  buildItems(activeImages) {
+    let images = activeImages.map((item) => {
+      let activelink = item.querySelector('.product-single__media-zoom');
+      return {
+        src: activelink.getAttribute('href'),
+        msrc: activelink.dataset.msrc,
+        w: activelink.dataset.w,
+        h: activelink.dataset.h,
+        title: activelink.getAttribute('title')
+      };
+    });
+    return images;
+  }
+  setEventListeners() {
+    let activeImages = Array.from(this.querySelectorAll('.product-images__slide--image')).filter(element => element.clientWidth > 0),
+      items = this.buildItems(activeImages),
+      captionEl = this.dataset.captions,
+      pswpElement = document.querySelectorAll('.pswp')[0],
+      options = {
+        maxSpreadZoom: 2,
+        loop: false,
+        allowPanToNext: false,
+        closeOnScroll: false,
+        showHideOpacity: false,
+        arrowKeys: true,
+        history: false,
+        captionEl: captionEl,
+        fullscreenEl: false,
+        zoomEl: false,
+        shareEl: false,
+        counterEl: true,
+        arrowEl: true,
+        preloaderEl: true
+      };
+
+    let openPswp = function (e, link, options, pswpElement, items) {
+      let parent = link.closest('.product-images__slide');
+      if (parent) {
         let i = activeImages.indexOf(parent);
         options.index = parseInt(i, 10);
-        options.getThumbBoundsFn = () => {
-          const thumbnail = link.closest('.product-single__media'),
-            pageYScroll = window.scrollY || document.documentElement.scrollTop,
+      }
+      options.getThumbBoundsFn = () => {
+        let thumbnail = link.closest('.product-single__media');
+        if (!thumbnail && activeImages[options.index]) {
+          thumbnail = activeImages[options.index].querySelector('.product-single__media');
+        }
+        if (thumbnail) {
+          const pageYScroll = window.scrollY || document.documentElement.scrollTop,
             rect = thumbnail.getBoundingClientRect();
           return {
             x: rect.left,
             y: rect.top + pageYScroll,
             w: rect.width
           };
-        };
-        if (typeof PhotoSwipe !== 'undefined') {
-          let pswp = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-
-          pswp.listen('firstUpdate', () => {
-            pswp.listen('parseVerticalMargin', function (item) {
-              item.vGap = {
-                top: 50,
-                bottom: 50
-              };
-            });
-          });
-          pswp.init();
         }
-        e.preventDefault();
+        return {
+          x: 0,
+          y: 0,
+          w: 0
+        };
       };
-      this.querySelectorAll('.product-single__media-zoom').forEach(function (link) {
-        let thumbnail = link.closest('.product-single__media');
+      if (typeof PhotoSwipe !== 'undefined') {
+        let pswp = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+
+        pswp.listen('firstUpdate', () => {
+          pswp.listen('parseVerticalMargin', function (item) {
+            item.vGap = {
+              top: 50,
+              bottom: 50
+            };
+          });
+        });
+        pswp.init();
+      }
+      e.preventDefault();
+    };
+    this.querySelectorAll('.product-single__media-zoom').forEach((link) => {
+      let thumbnail = link.closest('.product-single__media');
+      if (thumbnail) {
         let clone = link.cloneNode(true);
         thumbnail.append(clone);
         link.remove();
         clone.addEventListener('click', (e) => openPswp(e, clone, options, pswpElement, items));
-      });
-
-    }
-    setupPagination() {
-      this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
-      if (this.sliderItemsToShow.length < 2) return;
-
-      this.sliderItemOffset = this.sliderItemsToShow[1].offsetLeft - this.sliderItemsToShow[0].offsetLeft;
-
-      this.currentPageElement = this.pagination.querySelector('.slider-counter--current');
-      this.pageTotalElement = this.pagination.querySelector('.slider-counter--total');
-
-      this.prevButton = this.pagination.querySelector('button[name="previous"]');
-      this.nextButton = this.pagination.querySelector('button[name="next"]');
-
-
-      this.prevButton.addEventListener('click', this.onPaginationButtonClick.bind(this));
-      this.nextButton.addEventListener('click', this.onPaginationButtonClick.bind(this));
-
-      this.updatePagination();
-    }
-    onPaginationResize() {
-      this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
-
-      if (this.sliderItemsToShow.length < 2) return;
-
-      this.sliderItemOffset = this.sliderItemsToShow[1].offsetLeft - this.sliderItemsToShow[0].offsetLeft;
-      this.updatePagination();
-    }
-    onPaginationButtonClick(event) {
-      event.preventDefault();
-      this.slideScrollPosition = event.currentTarget.name === 'next' ? this.scrollLeft + (1 * this.sliderItemOffset) : this.scrollLeft - (1 * this.sliderItemOffset);
-      this.scrollTo({
-        left: this.slideScrollPosition
-      });
-    }
-    updatePagination() {
-      if (!this.nextButton) return;
-
-      const previousPage = this.currentPage;
-      this.currentPage = Math.round(this.scrollLeft / this.sliderItemOffset) + 1;
-
-      if (this.currentPageElement) {
-        this.currentPageElement.textContent = this.currentPage;
-      }
-      if (this.pageTotalElement) {
-        this.pageTotalElement.textContent = this.sliderItemsToShow.length;
-      }
-
-      if (this.currentPage != previousPage) {
-        this.dispatchEvent(new CustomEvent('slideChanged', {
-          detail: {
-            currentPage: this.currentPage,
-            currentElement: this.sliderItemsToShow[this.currentPage - 1]
+      } else {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          if (link.classList.contains('single-zoom-image')) {
+            let href = link.getAttribute('href');
+            let index = items.findIndex(item => item.src === href);
+            if (index > -1) {
+              options.index = index;
+              openPswp(e, link, options, pswpElement, items);
+            }
+          } else {
+            let activeSlide = this.querySelector('.swiper-slide-active');
+            if (activeSlide) {
+              let activeSlideZoom = activeSlide.querySelector('.product-single__media-zoom');
+              if (activeSlideZoom) {
+                openPswp(e, activeSlideZoom, options, pswpElement, items);
+              }
+            }
           }
-        }));
+        });
       }
+    });
 
-      if (this.isSlideVisible(this.sliderItemsToShow[0]) && this.scrollLeft === 0) {
-        this.prevButton.setAttribute('disabled', 'disabled');
-      } else {
-        this.prevButton.removeAttribute('disabled');
-      }
+  }
+  setupPagination() {
+    this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
+    if (this.sliderItemsToShow.length < 2) return;
 
-      if (this.isSlideVisible(this.sliderItemsToShow[this.sliderItemsToShow.length - 1])) {
-        this.nextButton.setAttribute('disabled', 'disabled');
-      } else {
-        this.nextButton.removeAttribute('disabled');
-      }
+    this.sliderItemOffset = this.sliderItemsToShow[1].offsetLeft - this.sliderItemsToShow[0].offsetLeft;
+
+    this.currentPageElement = this.pagination.querySelector('.slider-counter--current');
+    this.pageTotalElement = this.pagination.querySelector('.slider-counter--total');
+
+    this.prevButton = this.pagination.querySelector('button[name="previous"]');
+    this.nextButton = this.pagination.querySelector('button[name="next"]');
+
+
+    this.prevButton.addEventListener('click', this.onPaginationButtonClick.bind(this));
+    this.nextButton.addEventListener('click', this.onPaginationButtonClick.bind(this));
+
+    this.updatePagination();
+  }
+  onPaginationResize() {
+    this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
+
+    if (this.sliderItemsToShow.length < 2) return;
+
+    this.sliderItemOffset = this.sliderItemsToShow[1].offsetLeft - this.sliderItemsToShow[0].offsetLeft;
+    this.updatePagination();
+  }
+  onPaginationButtonClick(event) {
+    event.preventDefault();
+    this.slideScrollPosition = event.currentTarget.name === 'next' ? this.scrollLeft + (1 * this.sliderItemOffset) : this.scrollLeft - (1 * this.sliderItemOffset);
+    this.scrollTo({
+      left: this.slideScrollPosition
+    });
+  }
+  updatePagination() {
+    if (!this.nextButton) return;
+
+    const previousPage = this.currentPage;
+    this.currentPage = Math.round(this.scrollLeft / this.sliderItemOffset) + 1;
+
+    if (this.currentPageElement) {
+      this.currentPageElement.textContent = this.currentPage;
     }
-    isSlideVisible(element, offset = 0) {
-      const lastVisibleSlide = this.clientWidth + this.scrollLeft - offset;
-      return (element.offsetLeft + element.clientWidth) <= lastVisibleSlide && element.offsetLeft >= this.scrollLeft;
+    if (this.pageTotalElement) {
+      this.pageTotalElement.textContent = this.sliderItemsToShow.length;
+    }
+
+    if (this.currentPage != previousPage) {
+      this.dispatchEvent(new CustomEvent('slideChanged', {
+        detail: {
+          currentPage: this.currentPage,
+          currentElement: this.sliderItemsToShow[this.currentPage - 1]
+        }
+      }));
+    }
+
+    if (this.isSlideVisible(this.sliderItemsToShow[0]) && this.scrollLeft === 0) {
+      this.prevButton.setAttribute('disabled', 'disabled');
+    } else {
+      this.prevButton.removeAttribute('disabled');
+    }
+
+    if (this.isSlideVisible(this.sliderItemsToShow[this.sliderItemsToShow.length - 1])) {
+      this.nextButton.setAttribute('disabled', 'disabled');
+    } else {
+      this.nextButton.removeAttribute('disabled');
     }
   }
-  window.addEventListener('load', () => {
-    customElements.define('product-slider', ProductSlider);
-  });
+  isSlideVisible(element, offset = 0) {
+    const lastVisibleSlide = this.clientWidth + this.scrollLeft - offset;
+    return (element.offsetLeft + element.clientWidth) <= lastVisibleSlide && element.offsetLeft >= this.scrollLeft;
+  }
+}
+window.addEventListener('load', () => {
+  customElements.define('product-slider', ProductSlider);
+});
 // }
 
 /**
@@ -849,62 +883,62 @@ if (!customElements.get('product-add-to-cart-sticky')) {
     constructor() {
       super();
 
-      
+
     }
     connectedCallback() {
-   
-       this.setupToggle();
+
+      this.setupToggle();
       //Start infinix button catcher
-        const targetElement1 = document.querySelector('.product-information product-form .add_to_cart_holder');
-        const targetElement2 = document.querySelector('#footer');
+      const targetElement1 = document.querySelector('.product-information product-form .add_to_cart_holder');
+      const targetElement2 = document.querySelector('#footer');
 
-    
-        if (this) {
-          let visibilityMap = new Map();
 
-          const observerStickuAddTOCart = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-              visibilityMap.set(entry.target, entry.isIntersecting);
-            });
+      if (this) {
+        let visibilityMap = new Map();
 
-            const anyVisible = Array.from(visibilityMap.values()).some(v => v === true);
-
-            if (anyVisible) {
-              this.classList.remove('sticky--visible');
-            } else {
-              this.classList.add('sticky--visible');
-            }
+        const observerStickuAddTOCart = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            visibilityMap.set(entry.target, entry.isIntersecting);
           });
 
-          const targets = [targetElement1, targetElement2];
+          const anyVisible = Array.from(visibilityMap.values()).some(v => v === true);
 
-          targets.forEach(el => {
-      
-              if (el) {
-                  visibilityMap.set(el, false); 
-                  observerStickuAddTOCart.observe(el);
-              }
-          });
-          
-        }
+          if (anyVisible) {
+            this.classList.remove('sticky--visible');
+          } else {
+            this.classList.add('sticky--visible');
+          }
+        });
+
+        const targets = [targetElement1, targetElement2];
+
+        targets.forEach(el => {
+
+          if (el) {
+            visibilityMap.set(el, false);
+            observerStickuAddTOCart.observe(el);
+          }
+        });
+
+      }
 
 
 
-     
-    
+
+
     }
     setupToggle() {
       const button = this.querySelector('.product-add-to-cart-sticky--inner'),
         content = this.querySelector('.product-add-to-cart-sticky--content');
 
-     
-        button.addEventListener('click', (e) => {
-          this.classList.toggle('active')
-          e.currentTarget.classList.toggle('active')
-          content.classList.toggle('active');
-          return false;
-        });
-      
+
+      button.addEventListener('click', (e) => {
+        this.classList.toggle('active')
+        e.currentTarget.classList.toggle('active')
+        content.classList.toggle('active');
+        return false;
+      });
+
 
 
     }

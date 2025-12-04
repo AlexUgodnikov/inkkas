@@ -125,6 +125,7 @@
               {% render 'product-tags-label', product: product %}
               {% render 'product-card-badge', product_card_product: product %}
             </div>
+           
 						{% comment %}<div class="product-gallery-navigations">
 							<modal-opener class="view-all-images__wrapper product-popup-modal__opener no-js-hidden" data-modal="#ViewAllImagesModal" {{ block.shopify_attributes }}>
 								<button id="productViewAllImages" class="view-all-images__button product-popup-modal__button link button outline" type="button" aria-haspopup="dialog">
@@ -134,7 +135,18 @@
 						</div>{% endcomment %}
 		        {% comment %}<product-slider data-section-id="{{ section.id }}" id="Product-Slider" class="swiper-container gallery-top product-images product-images--{{ media_layout }}" data-captions="{{ display_captions }}">{% endcomment %}
 		        <product-slider style="display: block;min-width: 100%;max-width: 100%;width: 400px;overflow: hidden;margin-bottom: 20px;position: relative;" data-section-id="{{ section.id }}" id="Product-Slider" class="swiper-container gallery-top" data-captions="{{ display_captions }}">
-		        	<div class="swiper-wrapper">
+		         <a
+              href="{{ product.images[0].src | image_url }}"
+              class="product-single__media-zoom single-zoom-image"
+              data-w="{{ product.images[0].width }}"
+              data-h="{{ product.images[0].height }}"
+              target="_blank"
+              data-msrc="{{ product.images[0].src | image_url: width: 20 }}"
+              aria-label="Zoom"
+            >
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="119.827px" height="122.88px" viewBox="0 0 119.827 122.88" enable-background="new 0 0 119.827 122.88" xml:space="preserve"><g><path d="M78.693,87.06c-0.221-0.22-0.406-0.46-0.561-0.715c-8.213,6.447-18.564,10.292-29.814,10.292 c-13.343,0-25.423-5.408-34.167-14.152C5.408,73.74,0,61.661,0,48.318s5.408-25.422,14.152-34.166C22.896,5.408,34.976,0,48.319,0 C61.662,0,73.74,5.408,82.484,14.152s14.152,20.823,14.152,34.166c0,12.808-4.984,24.451-13.117,33.099 c0.148,0.108,0.291,0.229,0.424,0.363l34.787,34.737c1.457,1.449,1.463,3.807,0.014,5.265c-1.449,1.457-3.807,1.464-5.264,0.015 L78.693,87.06L78.693,87.06z M29.458,52.052c-2.062,0-3.733-1.671-3.733-3.733c0-2.062,1.672-3.733,3.733-3.733h15.126V29.459 c0-2.062,1.671-3.733,3.733-3.733c2.062,0,3.733,1.672,3.733,3.733v15.126h15.126c2.063,0,3.732,1.672,3.732,3.733 c0,2.062-1.67,3.733-3.732,3.733H52.051v15.126c0,2.062-1.671,3.733-3.733,3.733c-2.062,0-3.733-1.672-3.733-3.733V52.052H29.458 L29.458,52.052z M77.082,19.555c-7.361-7.361-17.53-11.914-28.763-11.914c-11.233,0-21.403,4.553-28.764,11.914 S7.641,37.085,7.641,48.318s4.553,21.403,11.914,28.764c7.361,7.361,17.531,11.914,28.764,11.914 c11.233,0,21.402-4.553,28.763-11.914c7.361-7.36,11.914-17.53,11.914-28.764S84.443,26.916,77.082,19.555L77.082,19.555z"/></g></svg>
+            </a>	
+            <div class="swiper-wrapper">
 		        		{%- if featured_media != null -%}
 	              {%- liquid
 									assign image_index = image_index | plus: 1
@@ -155,7 +167,7 @@
 										{%- if section.settings.lightbox != blank -%}
 										<a
 											href="{{ featured_media.src | image_url }}"
-											class="product-single__media-zoom"
+											class="product-single__media-zoom "
 											data-msrc="{{- featured_media.src | image_url: width: 20 -}}"
 											data-h="{{ featured_media.height }}"
 											data-w="{{ featured_media.width }}"
@@ -166,7 +178,9 @@
 											{%- endif -%}
 											data-index="{{ image_index }}"
                       aria-label="Zoom"
-										>{% render 'svg-icons' with 'zoom' %}</a>
+										>
+                    {% comment %} {% render 'svg-icons' with 'zoom' %}</a> {% endcomment %}
+                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="119.827px" height="122.88px" viewBox="0 0 119.827 122.88" enable-background="new 0 0 119.827 122.88" xml:space="preserve"><g><path d="M78.693,87.06c-0.221-0.22-0.406-0.46-0.561-0.715c-8.213,6.447-18.564,10.292-29.814,10.292 c-13.343,0-25.423-5.408-34.167-14.152C5.408,73.74,0,61.661,0,48.318s5.408-25.422,14.152-34.166C22.896,5.408,34.976,0,48.319,0 C61.662,0,73.74,5.408,82.484,14.152s14.152,20.823,14.152,34.166c0,12.808-4.984,24.451-13.117,33.099 c0.148,0.108,0.291,0.229,0.424,0.363l34.787,34.737c1.457,1.449,1.463,3.807,0.014,5.265c-1.449,1.457-3.807,1.464-5.264,0.015 L78.693,87.06L78.693,87.06z M29.458,52.052c-2.062,0-3.733-1.671-3.733-3.733c0-2.062,1.672-3.733,3.733-3.733h15.126V29.459 c0-2.062,1.671-3.733,3.733-3.733c2.062,0,3.733,1.672,3.733,3.733v15.126h15.126c2.063,0,3.732,1.672,3.732,3.733 c0,2.062-1.67,3.733-3.732,3.733H52.051v15.126c0,2.062-1.671,3.733-3.733,3.733c-2.062,0-3.733-1.672-3.733-3.733V52.052H29.458 L29.458,52.052z M77.082,19.555c-7.361-7.361-17.53-11.914-28.763-11.914c-11.233,0-21.403,4.553-28.764,11.914 S7.641,37.085,7.641,48.318s4.553,21.403,11.914,28.764c7.361,7.361,17.531,11.914,28.764,11.914 c11.233,0,21.402-4.553,28.763-11.914c7.361-7.36,11.914-17.53,11.914-28.764S84.443,26.916,77.082,19.555L77.082,19.555z"/></g></svg>
 										{%- endif -%}
 										{%- render 'responsive-image', image: featured_media.preview_image, sizes: sizes, priority: 'high' -%}
 										{%- if alt != blank and display_captions -%}
@@ -230,7 +244,9 @@
 														{%- endif -%}
 														data-index="{{ image_index }}"
                             aria-label="Zoom"
-													>{% render 'svg-icons' with 'zoom' %}</a>
+													>
+                          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="119.827px" height="122.88px" viewBox="0 0 119.827 122.88" enable-background="new 0 0 119.827 122.88" xml:space="preserve"><g><path d="M78.693,87.06c-0.221-0.22-0.406-0.46-0.561-0.715c-8.213,6.447-18.564,10.292-29.814,10.292 c-13.343,0-25.423-5.408-34.167-14.152C5.408,73.74,0,61.661,0,48.318s5.408-25.422,14.152-34.166C22.896,5.408,34.976,0,48.319,0 C61.662,0,73.74,5.408,82.484,14.152s14.152,20.823,14.152,34.166c0,12.808-4.984,24.451-13.117,33.099 c0.148,0.108,0.291,0.229,0.424,0.363l34.787,34.737c1.457,1.449,1.463,3.807,0.014,5.265c-1.449,1.457-3.807,1.464-5.264,0.015 L78.693,87.06L78.693,87.06z M29.458,52.052c-2.062,0-3.733-1.671-3.733-3.733c0-2.062,1.672-3.733,3.733-3.733h15.126V29.459 c0-2.062,1.671-3.733,3.733-3.733c2.062,0,3.733,1.672,3.733,3.733v15.126h15.126c2.063,0,3.732,1.672,3.732,3.733 c0,2.062-1.67,3.733-3.732,3.733H52.051v15.126c0,2.062-1.671,3.733-3.733,3.733c-2.062,0-3.733-1.672-3.733-3.733V52.052H29.458 L29.458,52.052z M77.082,19.555c-7.361-7.361-17.53-11.914-28.763-11.914c-11.233,0-21.403,4.553-28.764,11.914 S7.641,37.085,7.641,48.318s4.553,21.403,11.914,28.764c7.361,7.361,17.531,11.914,28.764,11.914 c11.233,0,21.402-4.553,28.763-11.914c7.361-7.36,11.914-17.53,11.914-28.764S84.443,26.916,77.082,19.555L77.082,19.555z"/></g></svg>
+                          </a>
 													{%- endif -%}
 					                {%- render 'responsive-image', image: media.preview_image, sizes: sizes, priority: priority -%}
 													{%- if alt != blank and display_captions -%}
@@ -959,6 +975,12 @@ console.log('track')
 				}
 			]
     },
+    {
+      "type": "label_block",
+      "name": "Label block",
+      "limit": 1,
+      "settings": []
+    },
 		{
       "type": "inventory_level",
       "name": "Inventory level",
@@ -980,6 +1002,12 @@ console.log('track')
 					"default": "always",
 					"label": "Show inventory notice"
 				},
+         {
+              "type": "checkbox",
+              "id": "hide_labels",
+              "label": "Hide labels",
+              "default": false
+            } ,
         {
           "type": "select",
           "id": "show_inventory_count",

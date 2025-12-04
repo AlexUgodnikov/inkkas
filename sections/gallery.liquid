@@ -105,6 +105,15 @@
 			 <div class="slider-pagination-{{ section.id }} swiper-slider-pagination" style="--dot-speed: {{ autoplay | divided_by: 1000 | append: 's' }};">
                 <div class="pagination-{{ section.id }} slider-pagination swiper-pagination"></div>
               </div>
+			   <div class="slider-navigation-{{ section.id }} ">
+                <div class="{{ section.id }}-prev swiper-button-prev slider-nav-prev">
+           			 {%- render 'svg-icons' with 'carousel-prev' -%}
+                </div>
+                <div class="{{ section.id }}-next swiper-button-next slider-nav-next">
+           			 {%- render 'svg-icons' with 'carousel-next' -%}
+                </div>
+                {% comment %} <div class="{{ section.id }}-pagination slider-pagination swiper-pagination"></div> {% endcomment %}
+              </div>
 		</div>
 	</div>
 </div>
@@ -143,26 +152,32 @@
 						clickable: true,
 						renderBullet: function (index, className) {
 							// You can use an <img> tag, SVG icon, or a font icon here
-							if(window.innerWidth <= 600){
-								if(index > 12) {
+							if(window.innerWidth <= 600){}
+								if(index > 9) {
 									document.querySelector('.pagination-{{ section.id }}').style.overflowX = 'scroll';
 									document.querySelector('.pagination-{{ section.id }}').style.padding = '10px';
-									document.querySelector('.pagination-{{ section.id }}').style.maxWidth = '90%';
+									document.querySelector('.pagination-{{ section.id }}').style.maxWidth = '240px';
 									document.querySelector('.pagination-{{ section.id }}').style.justifyContent = 'flex-start';
 									document.querySelector('.pagination-{{ section.id }}').style.margin = 'auto';
 								}
-							}
+							
 							
 							return `<span class="${className} custom-timeout-dot dot" aria-label="${index}">
 								{%- render 'svg-icons' with 'thb-pagination-dot' -%}
 							</span>`;
 						},
 					},
+				
 					{% if section.settings.autoplay %}
 					 autoplay: {
 						delay: {{section.settings.autoplay_length | times: 1000}},
 					},
+
 					{% endif %}
+					navigation: {
+						nextEl: document.querySelector('.{{ section.id }}-next'),
+						prevEl: document.querySelector('.{{ section.id }}-prev'),
+					},
 					breakpoints: {
 						0: {
 							slidesPerView: 1,
@@ -185,7 +200,7 @@
 					},
 					on: {
 						slideChange: function () {
-							if (window.innerWidth <= 575) {
+							if (window.innerWidth <= 575) {}
 								const pagination = document.querySelector('.pagination-{{ section.id }}');
 								const activeBullet = pagination.querySelector('.swiper-pagination-bullet-active');
 								
@@ -202,7 +217,7 @@
 										behavior: 'smooth'
 									});
 								}
-							}
+							
 						}
 					}
 				});
