@@ -5112,7 +5112,7 @@ select.resize-select {
 }
 
 .cart-drawer-footer {
-  padding: 0 30px 80px 30px;
+  padding: 0 30px 20px 30px;
 }
 
 @media only screen and (min-width: 768px) {

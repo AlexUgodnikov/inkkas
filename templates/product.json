@@ -44,6 +44,11 @@
             "sizing_guide_page": ""
           }
         },
+        "label_block_gA7RjA": {
+          "type": "label_block",
+          "disabled": true,
+          "settings": {}
+        },
         "inventory_level_BhJagd": {
           "type": "inventory_level",
           "settings": {
@@ -517,6 +522,7 @@
         "okendo_star_rating_ULNtYz",
         "title",
         "variant_picker",
+        "label_block_gA7RjA",
         "inventory_level_BhJagd",
         "side_panel_g4pmfR",
         "preorder_me_product_button_t8zPaL",
@@ -622,7 +628,7 @@
       "type": "apps",
       "blocks": {
         "vizup_shoppable_video_carousel_stories_block_kVJzqN": {
-          "type": "shopify://apps/vizup-shoppable-video-carousel/blocks/stories-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
+          "type": "shopify://apps/vizup-videos/blocks/stories-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
           "disabled": true,
           "settings": {
             "sg_stories_wid_name": "",
@@ -630,7 +636,7 @@
           }
         },
         "vizup_shoppable_video_carousel_videos_block_GxgkYA": {
-          "type": "shopify://apps/vizup-shoppable-video-carousel/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
+          "type": "shopify://apps/vizup-videos/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
           "settings": {
             "videoc_widget_id": "",
             "custom_css": ""

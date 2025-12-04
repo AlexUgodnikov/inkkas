@@ -709,7 +709,7 @@
       "type": "apps",
       "blocks": {
         "vizup_shoppable_video_carousel_videos_block_xdkXJx": {
-          "type": "shopify://apps/vizup-shoppable-video-carousel/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
+          "type": "shopify://apps/vizup-videos/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
           "settings": {
             "videoc_widget_id": "",
             "custom_css": ""

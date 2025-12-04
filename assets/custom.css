@@ -2024,7 +2024,7 @@ a.mobile-link-caps img {
   height: 48px;
   margin-top: -24px;
   z-index: 30;
-  opacity: 0;
+  opacity: 0 !important;
   cursor: pointer;
   box-shadow: 0 2px 10px #00000026;
   transition: all 0.3s ease;
@@ -2046,7 +2046,7 @@ a.mobile-link-caps img {
 
 .swiper:hover .swiper-button-next,
 .swiper:hover .swiper-button-prev {
-  opacity: 1;
+  opacity: 1 !important;
   transition: opacity 0.3s ease;
 }
 
@@ -2311,6 +2311,12 @@ cartdrawer-recommends {
 .cart-drawer-dynamic-checkout-buttons {
   width: 100%;
   margin-top: 7px;
-  height: 45px;
+  height: 43px;
   overflow: hidden;
+
+}
+
+shopify-accelerated-checkout-cart {
+  --shopify-accelerated-checkout-button-block-size: 40px;
+  --shopify-accelerated-checkout-button-inline-size: 40px;
 }
