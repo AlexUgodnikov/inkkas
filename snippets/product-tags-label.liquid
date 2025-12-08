@@ -1,12 +1,9 @@
-
-
-
-
 {%- for i in (1..6) -%}
   {%- liquid
     assign prd_tag_key = 'prd_tag' | append: i
     assign prd_text_key = 'prd_text' | append: i
     assign show_pdp_key = 'show_pdp_' | append: i
+    assign show_pdp_in_gallery_key = 'show_pdp_gallery_' | append: i
     assign show_preview_key = 'show_preview_' | append: i
     assign color_bg_key = 'color_bg_pdp_' | append: i
 	assign color_text_pdp_key = 'color_txt_pdp_' | append: i
@@ -15,6 +12,7 @@
     assign prd_tag = settings[prd_tag_key]
     assign prd_text = settings[prd_text_key]
     assign show_pdp = settings[show_pdp_key]
+    assign show_pdp_in_gallery = settings[show_pdp_in_gallery_key]
     assign show_preview = settings[show_preview_key]
     assign color_bg = settings[color_bg_key]
 	 assign color_pdp = settings[color_text_pdp_key]
@@ -25,7 +23,7 @@
   {%- if product.tags contains prd_tag and prd_text != blank -%}
     {%- if show_pdp and template.name == 'product' -%}
       {%- comment -%} For product page {%- endcomment -%}
-      <span class="product-card__tag-info" style="color: {{ color_pdp }}; background-color: {{ color_bg }};">
+      <span class="product-card__tag-info {% if show_pdp_in_gallery %}show-in-gallery{% endif %}" style="color: {{ color_pdp }}; background-color: {{ color_bg }};">
         {{- prd_text -}}
       </span>
     {%- elsif show_preview and template.name != 'product' -%}
@@ -36,4 +34,3 @@
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
-
