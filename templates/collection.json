@@ -28,84 +28,103 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
-        "promotion_iE6HkP": {
+        "promotion_KNyrTM": {
           "type": "promotion",
-          "disabled": true,
-          "settings": {
-            "promotion_collection": "best-sellers",
-            "promotion_position": 3,
-            "promotion_width": "2",
-            "image": "shopify://shop_images/ANDES-CAMPING-BOOT-CB169916-GROUP-ROOSTER-CAMPING-BOOT-CB179802-GROUP-PhotoMay17_14154PM.jpg",
-            "title": "for discovery",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://products/andes-camping-boot",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "promotion_LAFKer": {
-          "type": "promotion",
-          "disabled": true,
+          "name": "HOLIDAY SHOP",
           "settings": {
             "promotion_collection": "best-sellers",
             "promotion_position": 7,
-            "promotion_width": "2",
-            "image": "shopify://shop_images/LUNDI-VEGAN-ACE-LOW-TOP-SS250207-MODEL-ZOOM-EPI_5629.jpg",
-            "title": "for all-day sunshine",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://products/lundi-vegan-ace-low-top",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
-          "type": "promotion",
-          "disabled": true,
-          "settings": {
-            "promotion_collection": "best-sellers",
-            "promotion_position": 11,
-            "promotion_width": "2",
-            "image": "shopify://shop_images/CYPRUS-TREKK-BOOT-UGC-_HAPPY.LILBIRD-1.png",
-            "title": "for going places",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://products/cyprus-trekk-boot",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "promotion_crfKdz": {
-          "type": "promotion",
-          "disabled": true,
-          "settings": {
-            "promotion_collection": "best-sellers",
-            "promotion_position": 21,
             "promotion_width": "1",
-            "image": "shopify://shop_images/Spirit_Bear_Vegan_Joggers-UGC-_thelifeofthreebeagles.png",
-            "title": "for expressing your true self",
+            "image": "shopify://shop_images/HOLIDAY_SHOP-PROMO_BLOCK-converter_9e78af42-6ac9-4f52-899f-853e146127e7.webp",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify://products/spirit-bear-vegan-jogger",
+            "block_link": "shopify://pages/holidayshop",
             "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_BKQBrN": {
+          "type": "promotion",
+          "name": "Womens Gift Guide",
+          "settings": {
+            "promotion_collection": "best-sellers",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MOBILE_BANNER_97d45c58-e94f-4283-835c-113ba2a6c6e7.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/gift-guide-womens",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_AfqfLA": {
+          "type": "promotion",
+          "name": "Mens Gift Guide",
+          "settings": {
+            "promotion_collection": "best-sellers",
+            "promotion_position": 19,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MOBILE_BANNER_d5ff7414-5a58-4043-bdac-9ebc50967a41.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/gift-guide-mens",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_aNMrqp": {
+          "type": "promotion",
+          "name": "Gift Cards",
+          "settings": {
+            "promotion_collection": "best-sellers",
+            "promotion_position": 24,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MOBILE_BANNER_9be0c6ba-808f-433e-ba41-80dbd09a959d.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://products/gift-card",
+            "use_text_button": true,
+            "block_link": "shopify://collections/e-gift-cards",
+            "overlay_color": "#151515",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_iE6HkP": {
+          "type": "promotion",
+          "name": "Kids Gift Guide",
+          "settings": {
+            "promotion_collection": "best-sellers",
+            "promotion_position": 24,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MOBILE_BANNER_2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/matching-sets",
+            "use_text_button": true,
+            "block_link": "shopify://collections/matching-sets",
+            "overlay_color": "#151515",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "promotion_iE6HkP",
-        "promotion_LAFKer",
-        "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9",
-        "promotion_crfKdz"
+        "promotion_KNyrTM",
+        "promotion_BKQBrN",
+        "promotion_AfqfLA",
+        "promotion_aNMrqp",
+        "promotion_iE6HkP"
       ],
       "settings": {
         "full_width": true,
@@ -128,17 +147,6 @@
         "border_separator_full": true
       }
     },
-    "single_image_3UWGVN": {
-      "type": "single-image",
-      "name": "Single image",
-      "settings": {
-        "image": "shopify://shop_images/DesertPolaroid15.jpg",
-        "image_mobile": "shopify://shop_images/Inkkas_Mobile_Banner_2_750_x_915_px_-_2_5bac755d-6f6f-4d27-b542-97c521070aa3.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
     "featured_collection_6RbLfp": {
       "type": "featured-collection",
       "settings": {
@@ -152,8 +160,66 @@
         "columns_desktop": 4,
         "show_view_all": false,
         "mobile_swipe": true,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "slideshow_xgDPBA": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_mHx6jB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/HOLIDAY_SHOP-converter.webp",
+            "mobile_image": "shopify://shop_images/HOLIDAY_SHOP-mobile-converter_997e664f-bdca-4d37-9a29-2e878ed316e3.webp",
+            "slide_link": "shopify://pages/holidayshop",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_mHx6jB"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_3UWGVN": {
+      "type": "single-image",
+      "disabled": true,
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/DesertPolaroid15.jpg",
+        "image_mobile": "shopify://shop_images/Inkkas_Mobile_Banner_2_750_x_915_px_-_2_5bac755d-6f6f-4d27-b542-97c521070aa3.png",
+        "full_width": true,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     }
@@ -163,7 +229,8 @@
     "collection_filters_button_777d3Q",
     "product-grid",
     "spacer_HDe43e",
-    "single_image_3UWGVN",
-    "featured_collection_6RbLfp"
+    "featured_collection_6RbLfp",
+    "slideshow_xgDPBA",
+    "single_image_3UWGVN"
   ]
 }

@@ -20,6 +20,7 @@
         },
         "essential_announcer_app_block_i6ArLd": {
           "type": "shopify://apps/essential-announcer/blocks/app-block/93b5429f-c8d6-4c33-ae14-250fd84f361b",
+          "disabled": true,
           "settings": {
             "id": "a3475db1-f62e-481b-a3b6-fa309674a1db"
           }
@@ -42,7 +43,7 @@
       "name": "Spacer",
       "settings": {
         "spacer_mobile": 0,
-        "spacer_desktop": 100,
+        "spacer_desktop": 0,
         "border_separator": true,
         "border_separator_full": false
       }

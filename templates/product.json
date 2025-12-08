@@ -29,6 +29,18 @@
             "show_products_rating": false
           }
         },
+        "inventory_level_BhJagd": {
+          "type": "inventory_level",
+          "settings": {
+            "show_inventory_notice": "always",
+            "show_inventory_count": "low",
+            "inventory_notice_pulse": true,
+            "inventory_notice_bar": false,
+            "inventory_notice_threshold": 10,
+            "inventory_notice_base": 20,
+            "custom_code": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -49,15 +61,15 @@
           "settings": {
             "side_panel_1_label": "Includes Free Returns & Exchanges",
             "side_panel_1_icon": "return",
-            "side_panel_1_content": "<p><strong>Shop confidently</strong> — FREE returns & exchanges are included for a worry-free fit, as part of our 100% Happiness Guarantee. ✨  Love them or send them back. View our full return policy <a href=\"/pages/return-policy\" title=\"Returns & Exchanges\">here</a>. </p>",
+            "side_panel_1_content": "<p>Shop confidently — FREE returns & exchanges are included for a worry-free fit, as part of our 100% Happiness Guarantee. ✨  View our full return policy <a href=\"/pages/return-policy\" title=\"Returns & Exchanges\">here</a>. </p>",
             "side_panel_1_page": "",
             "side_panel_2_label": "Eligible for Free Shipping",
-            "side_panel_2_icon": "box",
+            "side_panel_2_icon": "truck",
             "side_panel_2_content": "<p>FREE U.S. ground shipping on orders of $150 or more is automatically applied at checkout.</p>",
             "side_panel_2_page": "",
-            "side_panel_3_label": "",
-            "side_panel_3_icon": "none",
-            "side_panel_3_content": "",
+            "side_panel_3_label": "Purchase Plants a 🌳",
+            "side_panel_3_icon": "plant",
+            "side_panel_3_content": "<p>Every Inkkas purchase plants a tree through our <strong>OneShoeOneTree™</strong> program with Trees.org, supporting reforestation, biodiversity, and climate resilience.</p>",
             "side_panel_3_page": ""
           }
         },
@@ -72,18 +84,6 @@
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": ""
-          }
-        },
-        "inventory_level_BhJagd": {
-          "type": "inventory_level",
-          "settings": {
-            "show_inventory_notice": "always",
-            "show_inventory_count": "low",
-            "inventory_notice_pulse": true,
-            "inventory_notice_bar": false,
-            "inventory_notice_threshold": 10,
-            "inventory_notice_base": 20,
-            "custom_code": ""
           }
         },
         "preorder_me_product_button_t8zPaL": {
@@ -194,10 +194,10 @@
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
-            "heading": "OneShoeOneTree™",
+            "heading": "Ethical Impact 🌱",
             "show_description": false,
             "description_type": "full_description",
-            "content": "<p>For every Inkkas purchase, we plant one tree through our <strong>OneShoeOneTree™ </strong>program with trees.org— helping to restore forests, protect biodiversity, and fight climate change. Over the years, this has amounted to more than 489,000 trees planted!</p>",
+            "content": "<p>Our shoes are ethically handcrafted with responsible materials and made in small batches to reduce waste. Each purchase plants a tree through our <strong>OneShoeOneTree™</strong> program with Trees.org, supporting reforestation, biodiversity, and climate resilience.</p>",
             "page": ""
           }
         },
@@ -513,11 +513,11 @@
       "block_order": [
         "okendo_star_rating_ULNtYz",
         "title",
+        "inventory_level_BhJagd",
         "variant_picker",
         "side_panel_g4pmfR",
         "text_M9Q8aq",
         "custom_liquid_LyBCHn",
-        "inventory_level_BhJagd",
         "preorder_me_product_button_t8zPaL",
         "buy_buttons",
         "essential_countdown_timer_app_block_L7YXF4",
@@ -616,7 +616,7 @@
       "type": "apps",
       "blocks": {
         "vizup_shoppable_video_carousel_stories_block_kVJzqN": {
-          "type": "shopify://apps/vizup-shoppable-video-carousel/blocks/stories-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
+          "type": "shopify://apps/vizup-videos/blocks/stories-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
           "disabled": true,
           "settings": {
             "sg_stories_wid_name": "",
@@ -624,7 +624,7 @@
           }
         },
         "vizup_shoppable_video_carousel_videos_block_GxgkYA": {
-          "type": "shopify://apps/vizup-shoppable-video-carousel/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
+          "type": "shopify://apps/vizup-videos/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
           "settings": {
             "videoc_widget_id": "",
             "custom_css": ""
@@ -1105,7 +1105,7 @@
         "full_width": true,
         "mobile_swipe": true,
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "recently_viewed_products_HPzhR7": {
@@ -1194,6 +1194,52 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
+    },
+    "slideshow_8AcCPA": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_tLb7X9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/HOLIDAY_SHOP-converter.webp",
+            "mobile_image": "shopify://shop_images/HOLIDAY_SHOP-mobile-converter_997e664f-bdca-4d37-9a29-2e878ed316e3.webp",
+            "slide_link": "shopify://pages/holidayshop",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "transparent",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_tLb7X9"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
     }
   },
   "order": [
@@ -1209,6 +1255,7 @@
     "product-recommendations",
     "recently_viewed_products_HPzhR7",
     "single_image_EGQtMA",
-    "collapsible_content_GTjkiJ"
+    "collapsible_content_GTjkiJ",
+    "slideshow_8AcCPA"
   ]
 }

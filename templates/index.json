@@ -12,124 +12,12 @@
     "slideshow_CQXNHG": {
       "type": "slideshow",
       "blocks": {
-        "slide_jPXqc4": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/BF_early_access_-2nd_-_DESKTOP.gif",
-            "mobile_image": "shopify://shop_images/BF_early_access_-2nd_-_MOBILE.gif",
-            "slide_link": "shopify://collections/best-sellers",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h2",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 10,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
         "slide_rkw66J": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/BF2025BANNER-Bird-DESKTOP-ORIGINAL-ezgif.com-gif-to-webp-converter.webp",
-            "mobile_image": "shopify://shop_images/BF2025BANNER-Bird-Mobile-ORIGINAL-ezgif.com-gif-to-webp-converter.webp",
+            "image": "shopify://shop_images/HOLIDAY25SNOWblue2-desktop-converter.webp",
+            "mobile_image": "shopify://shop_images/HOLIDAY_25_SNOW_blue2-mobile.gif",
             "slide_link": "shopify://collections/best-sellers",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h2",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 10,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_pcPTXt": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/5-Star-Banner-DESKTOP.gif",
-            "mobile_image": "shopify://shop_images/5-Star-Banner-MOBILE.gif",
-            "slide_link": "shopify://collections/best-sellers",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h2",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 10,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_7KjMz4": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Quiz_Banner_with_25_Off_-_MOBILE_2.gif",
-            "mobile_image": "shopify://shop_images/Quiz_Banner_with_25_Off_-_MOBILE_3.gif",
-            "slide_link": "shopify://pages/quiz",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": true,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_xcXW4R": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/FALL_25_VIBES-BANNER-DESKTOP.jpg",
-            "mobile_image": "shopify://shop_images/FALL-25-VIBES-POLAROID-MOBILE-BANNER-2.gif",
-            "slide_link": "shopify://collections/fall-edit",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "",
@@ -153,11 +41,7 @@
         }
       },
       "block_order": [
-        "slide_jPXqc4",
-        "slide_rkw66J",
-        "slide_pcPTXt",
-        "slide_7KjMz4",
-        "slide_xcXW4R"
+        "slide_rkw66J"
       ],
       "name": "Slideshow",
       "settings": {
@@ -168,7 +52,18 @@
         "autoplay_length": 10,
         "transition": "swipe",
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_GgQxQx": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/HolidayHEADER-desktop-converter_63c75cf5-578a-41ac-b165-fddf56b732ba.webp",
+        "image_mobile": "shopify://shop_images/HolidayHEADER-mobile-converter_8fdabe49-517f-45a4-b64f-87a2a74a125b.webp",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "featured_collection_tJhHEP": {
@@ -187,7 +82,7 @@
         "mobile_swipe": true,
         "show_progress_bar": false,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "rich_text_KC4Kf7": {
@@ -222,7 +117,7 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
@@ -242,7 +137,7 @@
         "mobile_swipe": true,
         "show_progress_bar": false,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "rich_text_AUmbth": {
@@ -277,7 +172,7 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
@@ -446,6 +341,7 @@
     },
     "spacer_JLMGrN": {
       "type": "spacer",
+      "disabled": true,
       "name": "Spacer",
       "settings": {
         "spacer_mobile": 0,
@@ -457,16 +353,42 @@
     "slideshow_rcFRQA": {
       "type": "slideshow",
       "blocks": {
+        "slide_94RwbC": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/HOLIDAY_SHOP-converter.webp",
+            "mobile_image": "shopify://shop_images/HOLIDAY_SHOP-mobile-converter_997e664f-bdca-4d37-9a29-2e878ed316e3.webp",
+            "slide_link": "shopify://pages/holidayshop",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "slide_xeyrLq": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/LUZON-TENNIS-AW250213-MODEL-HORIZONTAL-EPI_0157.jpg",
-            "mobile_image": "shopify://shop_images/SARAS-CUSH-JOGGER-AW250401-MODEL-EPI_9736.jpg",
             "slide_link": "shopify://collections/new-arrivals",
             "video_background": true,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "video_hosted": "shopify://files/videos/2346554546.mp4",
-            "subheading": "Find Your Essence",
+            "subheading": "THE LATEST DROP",
             "heading": "Shine Bright.\nWalk Boldly.",
             "heading_size": "h2",
             "content": "",
@@ -477,7 +399,7 @@
             "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0,
             "overlay_gradient": "transparent",
-            "button_1_text": "SHOP NEW",
+            "button_1_text": "SHOP NEW & ON SALE",
             "button_1_link": "shopify://collections/new-arrivals",
             "button_1_outline": false,
             "button_2_text": "",
@@ -487,13 +409,14 @@
         }
       },
       "block_order": [
+        "slide_94RwbC",
         "slide_xeyrLq"
       ],
       "name": "Slideshow",
       "settings": {
-        "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-500",
-        "full_width": false,
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
         "autoplay": false,
         "autoplay_length": 3,
         "transition": "swipe",
@@ -700,7 +623,7 @@
       "type": "apps",
       "blocks": {
         "vizup_shoppable_video_carousel_videos_block_xdkXJx": {
-          "type": "shopify://apps/vizup-shoppable-video-carousel/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
+          "type": "shopify://apps/vizup-videos/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
           "settings": {
             "videoc_widget_id": "",
             "custom_css": ""
@@ -1702,7 +1625,7 @@
         "column_XnYGQ9": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/making_of_the_joggers.gif",
+            "image": "shopify://shop_images/making_of_the_joggers-ezgif.com-optiwebp.webp",
             "image_full_width": true,
             "retina": true,
             "title": "Feel the Love in Every Step",
@@ -1714,7 +1637,7 @@
         "column_f6TFFJ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Tree-Square-02_0942744d-f211-46fa-9b7e-4ed5c53324c5.jpg",
+            "image": "shopify://shop_images/Tree-square-update.jpg",
             "image_full_width": true,
             "retina": true,
             "title": "Ethically Handcrafted, with Purpose",
@@ -1821,6 +1744,7 @@
   },
   "order": [
     "slideshow_CQXNHG",
+    "single_image_GgQxQx",
     "featured_collection_tJhHEP",
     "rich_text_KC4Kf7",
     "featured_collection_mJPPbC",

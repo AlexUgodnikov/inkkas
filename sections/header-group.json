@@ -29,16 +29,33 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "text_VPtKeh": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "IT'S ON: ANNUAL 25% OFF HOLIDAY SALE",
+            "link": "shopify://collections/best-sellers"
+          }
+        },
+        "text_eMjWnp": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "YOU'RE INVITED: THE HOLIDAY SHOP ❄️",
+            "link": "shopify://pages/holidayshop"
+          }
+        },
         "text_xhDUtd": {
           "type": "text",
           "settings": {
             "icon": "return",
-            "text": "FREE RETURNS & EXCHANGES INCLUDED",
+            "text": "FREE EXTENDED RETURNS FOR PURCHASES MADE 12/4-12/25",
             "link": "shopify://pages/return-policy"
           }
         },
         "text_cQEaMB": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "text": "★★★★★ RATED 'EXCELLENT' BY THOUSANDS OF HAPPY CUSTOMERS",
@@ -47,6 +64,7 @@
         },
         "text_CmerAE": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "box",
             "text": "FREE SHIPPING FOR US ORDERS OVER $150",
@@ -55,6 +73,8 @@
         }
       },
       "block_order": [
+        "text_VPtKeh",
+        "text_eMjWnp",
         "text_xhDUtd",
         "text_cQEaMB",
         "text_CmerAE"

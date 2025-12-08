@@ -1,0 +1,752 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_yXUMRY": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_D7HgHm": {
+          "type": "subheading",
+          "settings": {
+            "text": "ON NOW: 25% OFF SITEWIDE"
+          }
+        },
+        "heading_Pajd6L": {
+          "type": "heading",
+          "settings": {
+            "text": "It's Our Annual Holiday Sale!",
+            "size": "h4"
+          }
+        },
+        "text_jwqpfT": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Jingle Jangle</em>... Get 25% Off All Handcrafted Shoes & Accessories. Prices as marked.</p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_wQrVdp": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_label": "SHOP ALL SALE",
+            "link": "shopify://collections/all-holiday-sale",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_D7HgHm",
+        "heading_Pajd6L",
+        "text_jwqpfT",
+        "button_wQrVdp"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "#fff7ed",
+        "color_text": "#ea5d20",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "slideshow_xHXNKU": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_FpnCCi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/HOLIDAY_SHOP-converter.webp",
+            "mobile_image": "shopify://shop_images/HOLIDAY_SHOP-mobile-converter.webp",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_FpnCCi"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_X7NMQ9": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/HolidayHEADER-desktop-converter_63c75cf5-578a-41ac-b165-fddf56b732ba.webp",
+        "image_mobile": "shopify://shop_images/HolidayHEADER-mobile-converter_8fdabe49-517f-45a4-b64f-87a2a74a125b.webp",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1663078050f10994d8": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 15,
+        "spacer_desktop": 25,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "featured_collection_zyGNVq": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "heading": "Pairs that Spark Joy",
+        "heading_left": false,
+        "description": "<p><em>A want, a need, a delight—all wrapped into  one.</em></p>",
+        "full_width": true,
+        "collection": "best-sellers",
+        "display_type": "carousel",
+        "product_limit": 12,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "16630772155e37ae49": {
+      "type": "rich-text",
+      "blocks": {
+        "35951206-974d-4e11-bb65-33eedc35a1ec": {
+          "type": "heading",
+          "settings": {
+            "text": "Explore Gift Guides",
+            "size": "h3"
+          }
+        },
+        "subheading_ebbTcq": {
+          "type": "subheading",
+          "settings": {
+            "text": "LOVE BEGINS IN THE SOLE ✨"
+          }
+        }
+      },
+      "block_order": [
+        "35951206-974d-4e11-bb65-33eedc35a1ec",
+        "subheading_ebbTcq"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_LETgty": {
+      "type": "gallery",
+      "blocks": {
+        "image_iXrQfA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MOBILE_BANNER_97d45c58-e94f-4283-835c-113ba2a6c6e7.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/gift-guide-womens",
+            "product_list": []
+          }
+        },
+        "image_7Dxbgm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MOBILE_BANNER_d5ff7414-5a58-4043-bdac-9ebc50967a41.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/gift-guide-mens",
+            "product_list": []
+          }
+        },
+        "image_BdUW6q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MOBILE_BANNER_2.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/matching-sets",
+            "product_list": []
+          }
+        }
+      },
+      "block_order": [
+        "image_iXrQfA",
+        "image_7Dxbgm",
+        "image_BdUW6q"
+      ],
+      "name": "Gallery",
+      "settings": {
+        "slider": false,
+        "columns_desktop": 3,
+        "section_width": "grid",
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "none",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16630838776c4f39cf": {
+      "type": "scrolling-text",
+      "blocks": {
+        "97ab70b8-6ff7-462d-a375-482d438801a3": {
+          "type": "text",
+          "settings": {
+            "text": "Handcrafted, with Love.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "704eea0d-90ba-4f99-814b-25b090c48933": {
+          "type": "text",
+          "settings": {
+            "text": "Good for the Sole.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "e174a347-7e0a-44c5-ba62-a78b06e07f60": {
+          "type": "text",
+          "settings": {
+            "text": "Handcrafted, with Love.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "946661f0-0edc-4ad8-b140-e8f17c482d70": {
+          "type": "text",
+          "settings": {
+            "text": "Good for the Sole.",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "97ab70b8-6ff7-462d-a375-482d438801a3",
+        "704eea0d-90ba-4f99-814b-25b090c48933",
+        "e174a347-7e0a-44c5-ba62-a78b06e07f60",
+        "946661f0-0edc-4ad8-b140-e8f17c482d70"
+      ],
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "text_size": 50,
+        "text_uppercase": false,
+        "image_size": "medium",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#df5000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_YYDtPM": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/HolidayHEADER-desktop-converter_63c75cf5-578a-41ac-b165-fddf56b732ba.webp",
+        "image_mobile": "shopify://shop_images/HolidayHEADER-mobile-converter_8fdabe49-517f-45a4-b64f-87a2a74a125b.webp",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_JECD4D": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "heading": "Stocking Stuffers",
+        "heading_left": false,
+        "description": "<p><em>One-of-a-kind and one-size-fits-all.</em></p>",
+        "full_width": true,
+        "collection": "accessories-2",
+        "display_type": "carousel",
+        "product_limit": 12,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "166308390046f36c62": {
+      "type": "multicolumn",
+      "blocks": {
+        "fa26dc89-b652-4dc6-b7a6-a0fbe382ce77": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "retina": true,
+            "title": "Happiness Guarantee ✨",
+            "text": "<p>Gift with confidence. Purchases made through Dec. 25 include <strong>FREE extended returns</strong> for a worry-free fit, along with our 30-day return and exchange policy.</p>",
+            "link_label": "",
+            "link": "shopify://pages/return-policy"
+          }
+        },
+        "column_Y3wfbw": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "retina": true,
+            "title": "Free Shipping Over $150 🚚",
+            "text": "<p>All U.S. Orders of $150 or more have FREE shipping automatically applied at checkout.</p>",
+            "link_label": "",
+            "link": "shopify://pages/shipping"
+          }
+        },
+        "cd92bd1f-0097-47c0-826b-cc974ec2d339": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "retina": true,
+            "title": "Every Purchase Plants a 🌳",
+            "text": "<p>Every pair helps reforest the planet. Your holiday gifts give back long after the season ends.</p>",
+            "link_label": "",
+            "link": "shopify://pages/about"
+          }
+        }
+      },
+      "block_order": [
+        "fa26dc89-b652-4dc6-b7a6-a0fbe382ce77",
+        "column_Y3wfbw",
+        "cd92bd1f-0097-47c0-826b-cc974ec2d339"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "text_alignment": "center",
+        "heading_size": "h5",
+        "mobile_swipe": false,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_wzKWF4": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/HolidayHEADER-desktop-converter_63c75cf5-578a-41ac-b165-fddf56b732ba.webp",
+        "image_mobile": "shopify://shop_images/HolidayHEADER-mobile-converter_8fdabe49-517f-45a4-b64f-87a2a74a125b.webp",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collection_tabs_ak6tJy": {
+      "type": "collection-tabs",
+      "blocks": {
+        "collection_86EEXr": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-shoes"
+          }
+        },
+        "collection_dVgxih": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-collection-all-shoes"
+          }
+        },
+        "collection_EmUYfd": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids"
+          }
+        }
+      },
+      "block_order": [
+        "collection_86EEXr",
+        "collection_dVgxih",
+        "collection_EmUYfd"
+      ],
+      "name": "Collection tabs",
+      "settings": {
+        "heading": "Shop by Size",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "product_limit": 6,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "collection_tabs_UxXkan": {
+      "type": "collection-tabs",
+      "blocks": {
+        "collection_8UUzhD": {
+          "type": "collection",
+          "settings": {
+            "collection": "under-100"
+          }
+        },
+        "collection_bthNiP": {
+          "type": "collection",
+          "settings": {
+            "collection": "clearance"
+          }
+        },
+        "collection_V7b38f": {
+          "type": "collection",
+          "settings": {
+            "collection": "under-50"
+          }
+        }
+      },
+      "block_order": [
+        "collection_8UUzhD",
+        "collection_bthNiP",
+        "collection_V7b38f"
+      ],
+      "name": "Collection tabs",
+      "settings": {
+        "heading": "Shop Deals",
+        "heading_left": false,
+        "description": "<p><em>Handcrafted treasures for every budget. </em></p>",
+        "full_width": true,
+        "product_limit": 16,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "single_image_r6b8xG": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/HolidayHEADER-desktop-converter_63c75cf5-578a-41ac-b165-fddf56b732ba.webp",
+        "image_mobile": "shopify://shop_images/HolidayHEADER-mobile-converter_8fdabe49-517f-45a4-b64f-87a2a74a125b.webp",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_NWwWCE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_i7Aak4": {
+          "type": "heading",
+          "settings": {
+            "text": "Shop by Inspiration",
+            "size": "h3"
+          }
+        },
+        "subheading_JRG8cq": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_i7Aak4",
+        "subheading_JRG8cq"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_list_amLP4b": {
+      "type": "featured-collection-list",
+      "blocks": {
+        "collection_fzPfdn": {
+          "type": "collection",
+          "settings": {
+            "collection": "art-lovers",
+            "image": "shopify://shop_images/Cyprus-ARTWORK-ezgif.com-optijpeg.jpg"
+          }
+        },
+        "collection_4A4jXn": {
+          "type": "collection",
+          "settings": {
+            "collection": "floral-designs",
+            "image": "shopify://shop_images/Luzon-ARTWORK-ezgif.com-optijpeg.jpg"
+          }
+        },
+        "collection_ViJUGG": {
+          "type": "collection",
+          "settings": {
+            "collection": "stellar",
+            "image": "shopify://shop_images/Loomi-ARTWORK-ezgif.com-optijpeg.jpg"
+          }
+        },
+        "collection_f9jwRm": {
+          "type": "collection",
+          "settings": {
+            "collection": "nature-lovers",
+            "image": "shopify://shop_images/Flutterby-ARTWORK-ezgif.com-optijpeg.jpg"
+          }
+        },
+        "collection_K9WVR3": {
+          "type": "collection",
+          "settings": {
+            "collection": "ocean-adventures",
+            "image": "shopify://shop_images/Apex-ARTWORK-ezgif.com-optijpeg.jpg"
+          }
+        },
+        "collection_DCjwUX": {
+          "type": "collection",
+          "settings": {
+            "collection": "travel-inspired"
+          }
+        }
+      },
+      "block_order": [
+        "collection_fzPfdn",
+        "collection_4A4jXn",
+        "collection_ViJUGG",
+        "collection_f9jwRm",
+        "collection_K9WVR3",
+        "collection_DCjwUX"
+      ],
+      "name": "Featured collection list",
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "content_position": "middle-center",
+        "heading_size": "h1",
+        "color_text": "#ffffff",
+        "overlay_color": "#151515",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_bxyNeb": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_hHWp9i": {
+          "type": "subheading",
+          "settings": {
+            "text": "FIND YOUR SOLEMATE"
+          }
+        },
+        "heading_ythGzq": {
+          "type": "heading",
+          "settings": {
+            "text": "TAKE THE QUIZ",
+            "heading_size": "h3"
+          }
+        },
+        "text_XX6wCX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Too many good options? Take this quiz to find the perfect match in 60 secs.</p>",
+            "description_size": "medium"
+          }
+        },
+        "button_tx8NDG": {
+          "type": "button",
+          "settings": {
+            "button_text": "TAKE THE QUIZ",
+            "button_link": "shopify://pages/quiz"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_hHWp9i",
+        "heading_ythGzq",
+        "text_XX6wCX",
+        "button_tx8NDG"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/shoe_finder-ezgif.com-optiwebp.webp",
+        "use_video": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "section_width": "grid",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "16630779500973e56a": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 65,
+        "spacer_desktop": 40,
+        "border_separator": true,
+        "border_separator_full": false
+      }
+    },
+    "multicolumn_p93QiB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4MfVTq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/making_of_the_joggers-ezgif.com-optiwebp.webp",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Feel the Love in Every Step.",
+            "text": "<p>We don’t just design shoes. We build experiences—for your feet and your soul. With artful designs and premium materials that are cushioned, lightweight, and mold to your movement, our shoes are made to move with you wherever the day takes you.</p>",
+            "link_label": "About Inkkas",
+            "link": "shopify://pages/about"
+          }
+        },
+        "column_GDqmpQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tree-square-update.jpg",
+            "image_full_width": false,
+            "retina": true,
+            "title": "Ethically Handcrafted, with Purpose.",
+            "text": "<p>We plant one tree for every purchase with trees.org, amounting to more than 489,000 trees planted as of 2025! To reduce waste, we also make collections in small batches using time-honored techniques that are better for people & the planet.</p>",
+            "link_label": "Learn More",
+            "link": "shopify://pages/about"
+          }
+        },
+        "column_jjQimq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
+            "image_full_width": false,
+            "retina": true,
+            "title": "Designed to Feel Good—Inside and Out.",
+            "text": "<p>Since 2012, we’ve been handcrafting shoes that don’t follow the crowd—because neither do you. Every design starts with original art inked by independent artists, inspired by nature around the world, crafted with bold colors and details you won’t find anywhere else.</p>",
+            "link_label": "Check out the Blog",
+            "link": "shopify://blogs/blog"
+          }
+        }
+      },
+      "block_order": [
+        "column_4MfVTq",
+        "column_GDqmpQ",
+        "column_jjQimq"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "heading": "WHY INKKAS",
+        "heading_left": false,
+        "description": "<h3>Independent. Handcrafted. One-of-a-kind.</h3>",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_yXUMRY",
+    "slideshow_xHXNKU",
+    "single_image_X7NMQ9",
+    "1663078050f10994d8",
+    "featured_collection_zyGNVq",
+    "16630772155e37ae49",
+    "gallery_LETgty",
+    "16630838776c4f39cf",
+    "single_image_YYDtPM",
+    "featured_collection_JECD4D",
+    "166308390046f36c62",
+    "single_image_wzKWF4",
+    "collection_tabs_ak6tJy",
+    "collection_tabs_UxXkan",
+    "single_image_r6b8xG",
+    "rich_text_NWwWCE",
+    "featured_collection_list_amLP4b",
+    "image_with_text_bxyNeb",
+    "16630779500973e56a",
+    "multicolumn_p93QiB"
+  ]
+}
