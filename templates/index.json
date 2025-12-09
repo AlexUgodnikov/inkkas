@@ -72,17 +72,17 @@
       "settings": {
         "heading": "Bestsellers",
         "heading_left": false,
-        "description": "<p><em>Bold design meets handcrafted comfort</em></p>",
+        "description": "<p><em>Pairs that spark joy and deliver handcrafted comfort.</em></p>",
         "full_width": true,
         "collection": "best-sellers",
         "display_type": "carousel",
         "product_limit": 12,
         "columns_desktop": 4,
-        "show_view_all": false,
+        "show_view_all": true,
         "mobile_swipe": true,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     },
     "rich_text_KC4Kf7": {
@@ -109,6 +109,7 @@
         "button_TLKyN4",
         "text_ynfXQ3"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "grid",
         "text_width": "grid",
@@ -127,17 +128,17 @@
       "settings": {
         "heading": "New Arrivals: AW25",
         "heading_left": false,
-        "description": "<p><em>Go someplace new in these head-turning styles that blend unique artistry & premium comfort.</em></p>",
+        "description": "<p><em>Unique artistry meets premium comfort.</em></p>",
         "full_width": true,
-        "collection": "essence-collection",
+        "collection": "new-arrivals",
         "display_type": "carousel",
         "product_limit": 12,
         "columns_desktop": 4,
-        "show_view_all": false,
+        "show_view_all": true,
         "mobile_swipe": true,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     },
     "rich_text_AUmbth": {
@@ -164,6 +165,7 @@
         "button_khEEE3",
         "text_kREVw6"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "full-width-row-full",
         "text_width": "xlarge",
@@ -677,7 +679,7 @@
         "heading_weGm9t": {
           "type": "heading",
           "settings": {
-            "text": "What You're Saying",
+            "text": "What You're Saying (Right Now)",
             "size": "h3"
           }
         },
@@ -1556,13 +1558,14 @@
           "settings": {
             "link_label": "Follow Us On Instagram",
             "link": "https://www.instagram.com/inkkasworldwear/",
-            "button_outline": false
+            "button_outline": true
           }
         }
       },
       "block_order": [
         "button_kbaedH"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "section_width": "full-width-row-full",
