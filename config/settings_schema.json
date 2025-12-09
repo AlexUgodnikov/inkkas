@@ -125,6 +125,12 @@
         "content": "Product card"
       },
       {
+        "type": "checkbox",
+        "id": "image_order",
+        "label": "First image - from product metafield",
+        "default": true
+      },
+      {
         "type": "range",
         "id": "product_title_font_scale",
         "min": 100,
@@ -811,7 +817,6 @@
         "id": "prd_text1",
         "label": "Label Text 1",
         "visible_if": "{{ settings.prd_tag1 != ''}}",
-
       },
       {
         "type": "color",
@@ -827,7 +832,7 @@
         "default": "#fff",
         "visible_if": "{{ settings.prd_tag1 != ''}}",
       },
-       {
+      {
         "type": "color",
         "id": "color_bg_pdp_1",
         "label": "Label Background for PDP 1",
@@ -840,6 +845,12 @@
         "label": "Show PDP",
         "default": true,
         "visible_if": "{{ settings.prd_tag1 != ''}}",
+      },
+      {
+        "type": "checkbox",
+        "id": "show_pdp_gallery_1",
+        "label": "Show PDP in Gallery",
+        "default": false
       },
       {
         "type": "checkbox",
@@ -862,7 +873,6 @@
         "id": "prd_text2",
         "label": "Label Text 2",
         "visible_if": "{{ settings.prd_tag2 != ''}}",
-
       },
       {
         "type": "color",
@@ -878,7 +888,7 @@
         "default": "#fff",
         "visible_if": "{{ settings.prd_tag2 != ''}}",
       },
-       {
+      {
         "type": "color",
         "id": "color_bg_pdp_2",
         "label": "Label Background for PDP 2",
@@ -891,6 +901,12 @@
         "label": "Show PDP",
         "default": true,
         "visible_if": "{{ settings.prd_tag2 != ''}}",
+      },
+      {
+        "type": "checkbox",
+        "id": "show_pdp_gallery_2",
+        "label": "Show PDP in Gallery",
+        "default": false
       },
       {
         "type": "checkbox",
@@ -913,7 +929,6 @@
         "id": "prd_text3",
         "label": "Label Text 3",
         "visible_if": "{{ settings.prd_tag3 != ''}}",
-
       },
       {
         "type": "color",
@@ -929,7 +944,7 @@
         "default": "#fff",
         "visible_if": "{{ settings.prd_tag3 != ''}}",
       },
-       {
+      {
         "type": "color",
         "id": "color_bg_pdp_3",
         "label": "Label Background for PDP 3",
@@ -945,12 +960,18 @@
       },
       {
         "type": "checkbox",
+        "id": "show_pdp_gallery_3",
+        "label": "Show PDP in Gallery",
+        "default": false
+      },
+      {
+        "type": "checkbox",
         "id": "show_preview_3",
         "label": "Show in Preview Card",
         "default": true,
         "visible_if": "{{ settings.prd_tag3 != ''}}",
       },
-       {
+      {
         "type": "header",
         "content": "Product label 4"
       },
@@ -964,7 +985,6 @@
         "id": "prd_text4",
         "label": "Label Text 4",
         "visible_if": "{{ settings.prd_tag4 != ''}}",
-
       },
       {
         "type": "color",
@@ -980,7 +1000,7 @@
         "default": "#fff",
         "visible_if": "{{ settings.prd_tag4 != ''}}",
       },
-       {
+      {
         "type": "color",
         "id": "color_bg_pdp_4",
         "label": "Label Background for PDP 4",
@@ -993,6 +1013,12 @@
         "label": "Show PDP",
         "default": true,
         "visible_if": "{{ settings.prd_tag4 != ''}}",
+      },
+      {
+        "type": "checkbox",
+        "id": "show_pdp_gallery_4",
+        "label": "Show PDP in Gallery",
+        "default": false
       },
       {
         "type": "checkbox",
@@ -1015,7 +1041,6 @@
         "id": "prd_text5",
         "label": "Label Text 5",
         "visible_if": "{{ settings.prd_tag5 != ''}}",
-
       },
       {
         "type": "color",
@@ -1031,7 +1056,7 @@
         "default": "#fff",
         "visible_if": "{{ settings.prd_tag5 != ''}}",
       },
-       {
+      {
         "type": "color",
         "id": "color_bg_pdp_5",
         "label": "Label Background for PDP 5",
@@ -1044,6 +1069,12 @@
         "label": "Show PDP",
         "default": true,
         "visible_if": "{{ settings.prd_tag5 != ''}}",
+      },
+      {
+        "type": "checkbox",
+        "id": "show_pdp_gallery_5",
+        "label": "Show PDP in Gallery",
+        "default": false
       },
       {
         "type": "checkbox",
@@ -1066,7 +1097,6 @@
         "id": "prd_text6",
         "label": "Label Text 6",
         "visible_if": "{{ settings.prd_tag6 != ''}}",
-
       },
       {
         "type": "color",
@@ -1082,7 +1112,7 @@
         "default": "#fff",
         "visible_if": "{{ settings.prd_tag6 != ''}}",
       },
-       {
+      {
         "type": "color",
         "id": "color_bg_pdp_6",
         "label": "Label Background for PDP 6",
@@ -1095,6 +1125,12 @@
         "label": "Show PDP",
         "default": true,
         "visible_if": "{{ settings.prd_tag6 != ''}}",
+      },
+      {
+        "type": "checkbox",
+        "id": "show_pdp_gallery_6",
+        "label": "Show PDP in Gallery",
+        "default": false
       },
       {
         "type": "checkbox",
@@ -1218,11 +1254,136 @@
         "default": "250",
         "info": "Enter the value without a currency symbol and use a decimal to separate dollars and cents. Example: '100.00'"
       },
-       {
+      {
         "type": "checkbox",
         "id": "show_inventory",
         "label": "Show inventory",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "recommends_title",
+        "label": "Recommends title",
+        "default": "Shop more customer favorites"
+      },
+      {
+        "type": "product_list",
+        "id": "draawer_recommends",
+        "label": "Drawer recommends"
+      },
+      {
+        "type": "checkbox",
+        "id": "drawer_recommends_autoplay",
+        "label": "Auto-rotate slides",
         "default": true
+      },
+      {
+        "type": "range",
+        "id": "drawer_recommends_autoplay_length",
+        "min": 3,
+        "max": 10,
+        "step": 1,
+        "unit": "s",
+        "label": "Change slides every",
+        "default": 5
+      },
+      {
+        "type": "header",
+        "content": "Announcement"
+      },
+      {
+        "type": "checkbox",
+        "id": "drawer_announ_autoplay",
+        "label": "Auto-rotate slides",
+        "default": true
+      },
+      {
+        "type": "range",
+        "id": "drawer_announ_autoplay_length",
+        "min": 3,
+        "max": 10,
+        "step": 1,
+        "unit": "s",
+        "label": "Change slides every",
+        "default": 5
+      },
+      {
+        "type": "text",
+        "id": "slide_text_1",
+        "label": "Slide 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "slide_icon_1",
+        "label": "Icon 1"
+      },
+      {
+        "type": "number",
+        "id": "slide_text_size_1",
+        "default": 12,
+        "label": "Text size slide 1"
+      },
+      {
+        "type": "color",
+        "id": "slide_bg_1",
+        "label": "Background slide 1"
+      },
+      {
+        "type": "color",
+        "id": "slide_color_1",
+        "label": "Text color slide 1"
+      },
+      {
+        "type": "text",
+        "id": "slide_text_2",
+        "label": "Slide 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "slide_icon_2",
+        "label": "Icon 2"
+      },
+      {
+        "type": "number",
+        "id": "slide_text_size_2",
+        "default": 12,
+        "label": "Text size slide 2"
+      },
+      {
+        "type": "color",
+        "id": "slide_bg_2",
+        "label": "Background slide 2"
+      },
+      {
+        "type": "color",
+        "id": "slide_color_2",
+        "label": "Text color slide 2"
+      },
+      {
+        "type": "text",
+        "id": "slide_text_3",
+        "label": "Slide 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "slide_icon_3",
+        "label": "Icon 3"
+      },
+      {
+        "type": "number",
+        "id": "slide_text_size_3",
+        "default": 16,
+        "label": "Text size slide 3"
+      },
+      {
+        "type": "color",
+        "id": "slide_bg_3",
+        "label": "Background slide 3"
+      },
+      {
+        "type": "color",
+        "id": "slide_color_3",
+        "label": "Text color slide 3"
       }
     ]
   },
@@ -1323,20 +1484,20 @@
   {
     "name": "Dynamic checkout button",
     "settings": [
-        {
-          "type": "checkbox",
-          "id" : "show_dynamic_button",
-          "default": false, 
-          "label": "Show dynamic checkout button"
-        }
-      ]
+      {
+        "type": "checkbox",
+        "id": "show_dynamic_button",
+        "default": false,
+        "label": "Show dynamic checkout button"
+      }
+    ]
   },
   {
     "name": "Quick view",
     "settings": [
       {
         "type": "checkbox",
-        "id" : "colors_swatches",
+        "id": "colors_swatches",
         "default": false,
         "label": "Enable Colors swatches"
       },

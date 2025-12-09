@@ -9,9 +9,7 @@
 {%- endcapture -%}
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ dir }}">
 <head>
-<!-- Start of Shoplift scripts -->
-{% render 'shoplift' %}
-<!-- End of Shoplift scripts -->
+
 
 
 <script>
@@ -40,37 +38,7 @@
   <link rel="canonical" href="{{ canonical_url }}">
   <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
-  <!-- ⚡ 1. JS BLOCKER: ⚡ -->
-  <script>
-    window.blockedKeywords = [
-      "okendo",  "gorgias", "smile", "vizup", "essential-apps", 
-      "fbevents", "gtag", "sezzle","navidium", "hotjar", 
-      "tiktok", "snapchat", "pinterest", "returngo",  
-      "ultimatesalesboost", "videougc", "swiperreels"
-    ];
-    window.whiteListScripts = ["jquery", "vendor", "app.js", "theme.js", "lazysizes", "trekkie", "shopify_common"];
-
-    function shouldBlock(src) {
-      if (!src) return false;
-      const lowerSrc = src.toLowerCase();
-      if (window.whiteListScripts.some(w => lowerSrc.includes(w))) return false;
-      return window.blockedKeywords.some(k => lowerSrc.includes(k));
-    }
-
-    const observerRunPaint = new MutationObserver(mutations => {
-      mutations.forEach(mutation => {
-        mutation.addedNodes.forEach(node => {
-          if (node.tagName === 'SCRIPT' && shouldBlock(node.src)) {
-            node.type = 'text/delayed-js';
-            node.dataset.src = node.src;
-            node.removeAttribute('src');
-            node.async = false; 
-          }
-        });
-      });
-    });
-    observerRunPaint.observe(document.documentElement, { childList: true, subtree: true });
-  </script>
+ 
 
   <!-- ⚡ 2. LCP PRELOAD ⚡ -->
  
@@ -89,7 +57,7 @@
   <!-- Non-Critical CSS (Async) -->
   <link rel="stylesheet" href="{{ 'fancy.css' | asset_url }}" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="{{ 'swiper-bundle.min.css' | asset_url }}" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}" >
 
   <!-- Fallback CSS -->
   <noscript>
@@ -117,38 +85,38 @@
   {% render 'social-meta-tags' %}
   {% render 'head-variables' %}
 
-  <script>
-    window.theme = window.theme || {};
-    theme = {
-      settings: {
-        money_with_currency_format: {{- shop.money_format | json -}},
-        cart_drawer: {{- settings.cart_drawer -}},
-        product_id: {% if product %}{{ product.id }}{% else %}false{% endif %},
-      },
-      routes: {
-        root_url: '{{ routes.root_url }}',
-        cart_url: '{{ routes.cart_url }}',
-        cart_add_url: '{{ routes.cart_add_url }}',
-        search_url: '{{ routes.search_url }}',
-        cart_change_url: '{{ routes.cart_change_url }}',
-        cart_update_url: '{{ routes.cart_update_url }}',
-        predictive_search_url: '{{ routes.predictive_search_url }}',
-      },
-      variantStrings: {
+	<script>
+		window.theme = window.theme || {};
+		theme = {
+			settings: {
+				money_with_currency_format: {{- shop.money_format | json -}},
+				cart_drawer: {{- settings.cart_drawer -}},
+				product_id: {% if product %}{{ product.id }}{% else %}false{% endif %},
+			},
+			routes: {
+				root_url: '{{ routes.root_url }}',
+				cart_url: '{{ routes.cart_url }}',
+				cart_add_url: '{{ routes.cart_add_url }}',
+				search_url: '{{ routes.search_url }}',
+				cart_change_url: '{{ routes.cart_change_url }}',
+				cart_update_url: '{{ routes.cart_update_url }}',
+				predictive_search_url: '{{ routes.predictive_search_url }}',
+			},
+			variantStrings: {
         addToCart: `{{ 'products.product.add_to_cart' | t }}`,
         soldOut: `{{ 'products.product.sold_out' | t }}`,
         unavailable: `{{ 'products.product.unavailable' | t }}`,
         preOrder: `{{ 'products.product.pre_order' | t }}`,
       },
-      strings: {
-        requiresTerms: `{{ 'sections.cart.terms_confirm' | t }}`,
-        shippingEstimatorNoResults: `{{ 'sections.cart.shipping_estimator.no_results' | t }}`,
-        shippingEstimatorOneResult: `{{ 'sections.cart.shipping_estimator.one_result' | t }}`,
-        shippingEstimatorMultipleResults: `{{ 'sections.cart.shipping_estimator.multiple_results' | t }}`,
-        shippingEstimatorError: `{{ 'sections.cart.shipping_estimator.error' | t }}`
-      }
-    };
-  </script>
+			strings: {
+				requiresTerms: `{{ 'sections.cart.terms_confirm' | t }}`,
+				shippingEstimatorNoResults: `{{ 'sections.cart.shipping_estimator.no_results' | t }}`,
+				shippingEstimatorOneResult: `{{ 'sections.cart.shipping_estimator.one_result' | t }}`,
+				shippingEstimatorMultipleResults: `{{ 'sections.cart.shipping_estimator.multiple_results' | t }}`,
+				shippingEstimatorError: `{{ 'sections.cart.shipping_estimator.error' | t }}`
+			}
+		};
+	</script>
 
   {{ content_for_header }} 
 
@@ -159,15 +127,17 @@
   <script src="{{ 'jquery.cookie.js' | asset_url }}" defer></script>
   <script src="{{ 'custom.js' | asset_url }}" defer></script>
   <script src="{{ 'swiper-bundle.min.js' | asset_url }}" async></script>
+  
 
-  <!-- Google tag (gtag.js) - DELAYED -->
-  <script type="text/delayed-js" data-src="https://www.googletagmanager.com/gtag/js?id=AW-310823859"></script>
-  <script type="text/delayed-js">
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-310823859');
-  </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-310823859"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-310823859');
+</script>
   
   <style>
     #INDmenu[aria-hidden="true"]{opacity:0;}
@@ -310,13 +280,14 @@
     })(document, document.head, document.body);
   </script>
 
-  <!-- Gorgias Chat -->
-  <script type="text/delayed-js" id="gorgias-chat-widget-install-v3" 
-      data-src="https://config.gorgias.chat/bundle-loader/01GYCC4NNYY0MX47GBRV6TNCTX?source=shopify1click">
-  </script>
-  <script type="text/delayed-js" id="gorgias-chat-shopify-install">!function(_){_.SHOPIFY_PERMANENT_DOMAIN="{{shop.permanent_domain}}",_.SHOPIFY_CUSTOMER_ID="{{customer.id}}",_.SHOPIFY_CUSTOMER_EMAIL="{{customer.email}}"}(window||{});
-  </script>
-  <script type="text/delayed-js">
+ <!--Gorgias Chat Widget Start-->
+<script id="gorgias-chat-widget-install-v3" 
+    src="https://config.gorgias.chat/bundle-loader/01GYCC4NNYY0MX47GBRV6TNCTX?source=shopify1click">
+</script>
+<script id="gorgias-chat-shopify-install">!function(_){_.SHOPIFY_PERMANENT_DOMAIN="{{shop.permanent_domain}}",_.SHOPIFY_CUSTOMER_ID="{{customer.id}}",_.SHOPIFY_CUSTOMER_EMAIL="{{customer.email}}"}(window||{});
+</script>
+<!--Gorgias Chat Widget End-->
+<script>
     const brandName = 'Inkkas'
     const privacyPolicyLink = 'https://inkkas.com/pages/privacy-policy'
     const termsOfUseLink = 'https://inkkas.com/pages/terms-conditions'
@@ -325,70 +296,28 @@
 
     const introMessage = ` Many questions can first be answered in our  <a href="${pageFAQLink}" target="_blank">FAQ page<a>. Please note, by using this Chat you consent to our <a href="${privacyPolicyLink}" target="_blank">Privacy Policy<a> and our <a href="${termsOfUseLink}" target="_blank">Terms of Use<a>. If you don't want to consent to these terms, please do not use or interact with this Chat.`
     
-    try {
-      GorgiasChat.init().then((GorgiasChat) => {
-        GorgiasChat.updateTexts({
-          "requireEmailCaptureIntro": "Hello! " + introMessage,
-          "contactFormIntro": "Hello! " + introMessage,
-          "contactFormSSPUnsuccessfulAskAdditionalMessage": "Hello! " + introMessage,
-          "waitTimeLongNoEmail": introMessage,
-          "waitTimeMediumNoEmail": introMessage,
-          "waitTimeShortNoEmail": introMessage
-        })
-
-        GorgiasChat.updateSSPTexts({
-          "sorryToHearThatEmailRequired": introMessage
-        })
+    GorgiasChat.init().then((GorgiasChat) => {
+      GorgiasChat.updateTexts({
+        //"contactFormAskMessage": introMessage,
+        //"howCanWeHelpToday": introMessage,
+        "requireEmailCaptureIntro": "Hello! " + introMessage,
+        "contactFormIntro": "Hello! " + introMessage,
+        "contactFormSSPUnsuccessfulAskAdditionalMessage": "Hello! " + introMessage,
+        "waitTimeLongNoEmail": introMessage,
+        "waitTimeMediumNoEmail": introMessage,
+        "waitTimeShortNoEmail": introMessage
       })
-    } catch(e) {}
-  </script>
-  
-  <!-- Sezzle -->
-  <script type="text/delayed-js" data-src="https://widget.sezzle.com/v1/javascript/price-widget?uuid=6b1667fc-dcbe-487a-8722-6887d5ae418c"></script>
 
+      GorgiasChat.updateSSPTexts({
+        "sorryToHearThatEmailRequired": introMessage
+      })
+    })
+  </script>
+  <script src="https://widget.sezzle.com/v1/javascript/price-widget?uuid=6b1667fc-dcbe-487a-8722-6887d5ae418c"></script>
   <!-- Navidium -->
   {% comment %} {% render "navidium-scripts" %} {% endcomment %}
 
   
-  <script id="optimization-manager">
-  (function() {
-    const events = ["mouseover", "keydown", "touchmove", "touchstart", "wheel"];
-    let triggered = false;
-
-    function loadScripts() {
-      if (triggered) return;
-      triggered = true;
-      
-      // Stop Observer
-      if (typeof observerRunPaint !== 'undefined') observerRunPaint.disconnect();
-
-      console.log("🚀 Interaction detected. Loading apps...");
-
-      const delayedScripts = document.querySelectorAll('script[type="text/delayed-js"]');
-      
-      delayedScripts.forEach((script) => {
-          const newScript = document.createElement("script");
-          Array.from(script.attributes).forEach(attr => {
-              if (attr.name !== "type" && attr.name !== "src") {
-                  newScript.setAttribute(attr.name, attr.value);
-              }
-          });
-          if (script.dataset.src || script.getAttribute("data-src")) {
-              newScript.src = script.dataset.src || script.getAttribute("data-src");
-              newScript.async = false; 
-          } else {
-              newScript.innerHTML = script.innerHTML;
-          }
-          newScript.type = "text/javascript";
-          script.parentNode.replaceChild(newScript, script);
-      });
-      events.forEach(e => window.removeEventListener(e, loadScripts, {passive: true}));
-    }
-
-    events.forEach(e => window.addEventListener(e, loadScripts, {passive: true}));
-    setTimeout(loadScripts, 6000);
-  })();
-  </script>
 
 </body>
 </html>

@@ -29,6 +29,10 @@
             "show_products_rating": false
           }
         },
+        "label_block_wdhrVD": {
+          "type": "label_block",
+          "settings": {}
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -42,6 +46,19 @@
             "sizing_guide_text": "SIZE GUIDE",
             "sizing_guide_icon": "ruler",
             "sizing_guide_page": ""
+          }
+        },
+        "inventory_level_BhJagd": {
+          "type": "inventory_level",
+          "settings": {
+            "show_inventory_notice": "always",
+            "hide_labels": true,
+            "show_inventory_count": "low",
+            "inventory_notice_pulse": true,
+            "inventory_notice_bar": false,
+            "inventory_notice_threshold": 10,
+            "inventory_notice_base": 20,
+            "custom_code": ""
           }
         },
         "side_panel_g4pmfR": {
@@ -77,18 +94,6 @@
         "preorder_me_product_button_t8zPaL": {
           "type": "shopify://apps/preorder-me/blocks/product-button/d3a9a307-3c62-4d7b-8a5b-7ae9b6e399ce",
           "settings": {}
-        },
-        "inventory_level_BhJagd": {
-          "type": "inventory_level",
-          "settings": {
-            "show_inventory_notice": "always",
-            "show_inventory_count": "low",
-            "inventory_notice_pulse": true,
-            "inventory_notice_bar": false,
-            "inventory_notice_threshold": 10,
-            "inventory_notice_base": 20,
-            "custom_code": ""
-          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -513,12 +518,13 @@
       "block_order": [
         "okendo_star_rating_ULNtYz",
         "title",
+        "label_block_wdhrVD",
         "variant_picker",
+        "inventory_level_BhJagd",
         "side_panel_g4pmfR",
         "text_M9Q8aq",
         "custom_liquid_LyBCHn",
         "preorder_me_product_button_t8zPaL",
-        "inventory_level_BhJagd",
         "buy_buttons",
         "essential_countdown_timer_app_block_L7YXF4",
         "essential_announcer_app_block_MeQTai",

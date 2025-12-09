@@ -15,6 +15,7 @@
 		<div class="side-panel-content">
 			{%- if cart != empty -%}
 				<div class="product-cart-item--container">
+					{% render 'drawer-cart-announcement' %}
 					{%- if free_shipping and settings.free_shipping_minimum != blank -%}
 						<aside class="free-shipping" data-cart-total="{{ total }}" data-minimum="{{ free_shipping_minimum }}">
 							<div class="free-shipping--text">
@@ -30,7 +31,16 @@
 							</div>
 						</aside>
 					{%- endif -%}
+
+						{% assign cartItemsId = '' %}
 					{% for item in cart.items %}
+
+						{% if forloop.first %}
+										{% assign cartItemsId = item.id %}
+									{% else %}
+										{% assign cartItemsId = cartItemsId | append: ',' | append: item.id %}
+									{% endif %}
+
 					<div class="product-cart-item" id="CartDrawerItem-{{ item.index | plus: 1 }}">
 						<div class="product-cart-item-image">
 							{% if item.image %}
@@ -268,6 +278,80 @@
 					</product-recommendations>
 				</div>
 			{%- endif -%}
+			{% if settings.draawer_recommends != blank  %}
+		
+				<cartdrawer-recommends data-autoplay="{{settings.drawer_recommends_autoplay}}" data-autoplaylength="{{settings.drawer_recommends_autoplay_length | times: 1000}}">
+					<div class="cartdrawer-recommends-swiper">
+						<div class="cartdrawer-recommends-header">
+							{% if settings.recommends_title != blank %}
+								<div class="cartdrawer-recommends-header">
+			
+									<div class="cartdrawer-recommends-title h6">{{settings.recommends_title}}</div>
+								
+								</div>
+							{% endif %}
+							
+						</div>
+						<div class="swiper-wrapper">
+							{% for item in settings.draawer_recommends %}
+								{% if cartItemsId contains item.selected_or_first_available_variant.id %}
+								{% else %}
+									<div class="swiper-slide">
+										<div class="slider__cards recommends-item">
+											<div class="cartdrawer-recommend-img">
+									
+	         									 {%- render 'responsive-image', class: '', image: item.images[0], sizes: '375x375', priority: 'low' -%}
+		   
+											</div>
+											<div class="cartdrawer-recommend-text">
+												<div class="cartdrawer-recommend-title">{{item.title}}</div>
+												<div class="cartdrawer-recommend-title">
+													{% render 'product-price', product: item %}
+												</div>
+											</div> 
+
+											{% if item.variants.size > 1 %}
+											<select name="id">
+													{% for variant in item.variants %}
+														<option 
+														value="{{ variant.id }}"
+													{% if variant.available %}{% else %}disabled{% endif %}
+														{% if variant == item.selected_or_first_available_variant %}selected="selected"{% endif %}
+														>
+														{{ variant.title }} - {{ variant.price | money }}
+														</option>
+													{% endfor %}
+													</select>
+											{% else %}
+											<select name="id">
+													<option 
+														value="{{item.selected_or_first_available_variant.id}}"
+													selected="selected"
+														>
+														{{item.selected_or_first_available_variant.title }} - {{ item.selected_or_first_available_variant.price | money }}
+														</option>
+													</select>
+
+											{% endif %}
+											
+												<button class="button choose-select js-choose-select">Add</button>
+										
+												<button class="button addt-to-cart-drawer js-add-to-cart {% if item.available %}{% else %}sold-out{% endif %}" {% if item.available %}{% else %}disabled{% endif %}>{% if item.available %}Add{% else %}Sold Out{% endif %}</button>
+										
+										
+										</div>
+									</div>
+								{% endif %}
+							{% endfor %}
+						</div>
+
+						<div class="slider-pagination-cartdrawer-recommends swiper-slider-pagination" {% if settings.drawer_recommends_autoplay %}style="--dot-speed:{{settings.drawer_recommends_autoplay_length }}s;"{% endif %}>
+							<div class="pagination-cartdrawer-recommends custom-pagination-dots slider-pagination swiper-pagination"></div>
+						</div>
+						
+					</div>
+				</cartdrawer-recommends>
+			{% endif %}
 		</div>
 		{%- if cart != empty -%}
 			<div class="side-panel-footer">
@@ -319,6 +403,11 @@
 							<button type="submit" class="button full checkout" name="checkout" title="{{ 'general.cart_drawer.checkout' | t | escape }}"><span>{{ 'general.cart_drawer.checkout' | t }} <b>•</b> {% if settings.currency_code_enabled %}{{ cart.total_price | money_with_currency }}{% else %}{{ cart.total_price | money }}{% endif %}</span></button>
 						</form>
 						{%- endif -%}
+						 {%- if additional_checkout_buttons -%}
+							<div class="cart-drawer-dynamic-checkout-buttons">
+								{{ content_for_additional_checkout_buttons }}
+							</div>
+							{%- endif -%}
 						{%- if settings.cart_drawer_cart_button -%}
 						<a href="{{ routes.cart_url }}" class="text-button" title="{{ 'general.cart_drawer.view_cart' | t | escape }}">{{ 'general.cart_drawer.view_cart' | t }}</a>
 						{%- endif -%}

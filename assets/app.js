@@ -1041,6 +1041,134 @@ class CartDrawer {
   }
 }
 
+
+class CartDrawerRecommends extends HTMLElement {
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    const autoPlaySlider = this.dataset.autoplay === 'true' ? { delay: Number(this.dataset.autoplaylength) } : false;
+
+    const drawerRecomends = new Swiper(this.querySelector('.cartdrawer-recommends-swiper'), {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: false,
+      speed: 1000,
+      pagination: {
+        el: this.querySelector('.swiper-pagination'),
+        clickable: true,
+        renderBullet: function (index, className) {
+          // You can use an <img> tag, SVG icon, or a font icon here
+          return `<span class="${className} custom-timeout-dot dot" aria-label="${index}">
+                <svg width="20px" height="20px" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="thb-pagination-svg" preserveAspectRatio="none"><circle cx="10" cy="10" r="9" stroke="var(--color-text, #fff)" stroke-width="1.5px" stroke-linecap="round" stroke-linejoin="round"></circle></svg>
+              </span>`;
+        },
+      },
+      autoplay: autoPlaySlider,
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        500: {
+          slidesPerView: 1,
+        },
+        870: {
+          slidesPerView: 1,
+        }
+      }
+    });
+
+
+    const productItems = this.querySelectorAll('.recommends-item');
+
+    if (productItems.length === 0) {
+      this.style.display = 'none';
+      return
+    }
+    productItems.forEach(item => {
+
+      const chooseButton = item.querySelector('.js-choose-select');
+      const selectElement = item.querySelector('select[name="id"]');
+
+      const addToCartButton = item.querySelector('.js-add-to-cart');
+
+
+      if (!chooseButton || !selectElement || !addToCartButton) {
+        return;
+      }
+
+
+      chooseButton.addEventListener('click', (e) => {
+        e.preventDefault();
+        chooseButton.style.display = 'none';
+        selectElement.style.display = 'block';
+        addToCartButton.style.display = 'block';
+      });
+
+
+      addToCartButton.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        if (addToCartButton.classList.contains('loading')) {
+          return;
+        }
+
+
+        const variantId = selectElement.value;
+
+
+        if (!variantId) {
+
+          return;
+        }
+
+        addToCartButton.classList.add('loading');
+        addToCartButton.setAttribute('disabled', true);
+
+        const formData = {
+          'items': [{
+            'id': variantId,
+            'quantity': 1
+          }]
+        };
+
+        fetch('/cart/add.js', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(formData)
+        })
+          .then(response => response.json())
+          .then(data => {
+            dispatchCustomEvent('cart:refresh');
+
+            document.body.classList.add('open-cc');
+            document.body.classList.add('open-cart');
+            const cartDrawer = document.getElementById('Cart-Drawer');
+            if (cartDrawer) {
+              cartDrawer.classList.add('active');
+            }
+          })
+          .catch((error) => {
+
+          })
+          .finally(() => {
+            addToCartButton.classList.remove('loading');
+            addToCartButton.removeAttribute('disabled');
+          });
+      });
+    });
+  }
+}
+
+
+if (!customElements.get('cartdrawer-recommends')) {
+  customElements.define("cartdrawer-recommends", CartDrawerRecommends);
+}
+
+
 /**
  *  @class
  *  @function Localization
@@ -1208,42 +1336,42 @@ if (!customElements.get('quick-view')) {
           productHandle: productHandle
         });
         addIdToRecentlyViewed(productHandle);
-        jQuery(function($) {
+        jQuery(function ($) {
           $("#Product-Drawer .tab_variants .danns").on("click", function (event) {
             $('#Product-Drawer .tab_variants .danns').removeClass('active');
             $(this).addClass('active');
-            var type=$(this).data('type');
+            var type = $(this).data('type');
             $('#Product-Drawer .show_variants').removeClass('active');
-            $('#Product-Drawer #'+type+'_type').addClass('active');
+            $('#Product-Drawer #' + type + '_type').addClass('active');
             $.cookie('inkasstype', type, { expires: 31, path: '/' });
           })
 
           if ($('#Product-Drawer .tab_variants').length > 0) {
-            if ( $.cookie('inkasstype') != undefined ) {
+            if ($.cookie('inkasstype') != undefined) {
               console.log($.cookie('inkasstype'));
-              var type=$.cookie('inkasstype');
-              if ($('#Product-Drawer #tab_type_'+type).length > 0) {
+              var type = $.cookie('inkasstype');
+              if ($('#Product-Drawer #tab_type_' + type).length > 0) {
                 $('#Product-Drawer .tab_variants .danns').removeClass('active');
-                $('#Product-Drawer #tab_type_'+type).addClass('active');
+                $('#Product-Drawer #tab_type_' + type).addClass('active');
 
                 $('#Product-Drawer .show_variants').removeClass('active');
-                $('#Product-Drawer #'+type+'_type').addClass('active');
+                $('#Product-Drawer #' + type + '_type').addClass('active');
               }
             }
           }
         });
 
-        jQuery(function($) {
+        jQuery(function ($) {
           jQuery("#Product-Drawer .product-form__input_dann label").on("click", function (event) {
 
-            var var_id=$(this).data('variantid');
-            var title=$(this).data('title');
-            var titleshort=$(this).data('titleshort');
+            var var_id = $(this).data('variantid');
+            var title = $(this).data('title');
+            var titleshort = $(this).data('titleshort');
             //$('#Product-Drawer .product-form form input[name="id"]').val(var_id);
-            history.pushState({}, null, '?variant='+var_id);
-            console.log(titleshort+'==titleshort');
-            $('#Product-Drawer .main_prod_'+titleshort+'').click();
-            $('#Product-Drawer .product_'+titleshort+'').click();
+            history.pushState({}, null, '?variant=' + var_id);
+            console.log(titleshort + '==titleshort');
+            $('#Product-Drawer .main_prod_' + titleshort + '').click();
+            $('#Product-Drawer .product_' + titleshort + '').click();
             // $('[data-inputshort="'+titleshort+'"]').attr('checked', true);
 
 

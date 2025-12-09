@@ -29,6 +29,17 @@
             "variant_is_disabled": true
           }
         },
+        "inventory_level_enNhEX": {
+          "type": "inventory_level",
+          "settings": {
+            "show_inventory_notice": "always",
+            "show_inventory_count": "never",
+            "inventory_notice_pulse": true,
+            "inventory_notice_bar": false,
+            "inventory_notice_threshold": 10,
+            "inventory_notice_base": 20
+          }
+        },
         "product_link_AWWaAk": {
           "type": "product_link",
           "settings": {}
@@ -48,6 +59,7 @@
       "block_order": [
         "title",
         "variant_picker",
+        "inventory_level_enNhEX",
         "product_link_AWWaAk",
         "preorder_me_product_button_GDFezM",
         "buy_buttons"
