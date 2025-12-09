@@ -95,6 +95,18 @@
           "type": "shopify://apps/preorder-me/blocks/product-button/d3a9a307-3c62-4d7b-8a5b-7ae9b6e399ce",
           "settings": {}
         },
+        "inventory_level_BhJagd": {
+          "type": "inventory_level",
+          "settings": {
+            "show_inventory_notice": "always",
+            "show_inventory_count": "low",
+            "inventory_notice_pulse": true,
+            "inventory_notice_bar": false,
+            "inventory_notice_threshold": 10,
+            "inventory_notice_base": 20,
+            "custom_code": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -525,6 +537,7 @@
         "text_M9Q8aq",
         "custom_liquid_LyBCHn",
         "preorder_me_product_button_t8zPaL",
+        "inventory_level_BhJagd",
         "buy_buttons",
         "essential_countdown_timer_app_block_L7YXF4",
         "essential_announcer_app_block_MeQTai",
@@ -1056,6 +1069,65 @@
       ],
       "settings": {}
     },
+    "multicolumn_rJ4iLi": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YGmKeN": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "retina": true,
+            "title": "Happiness Guarantee ✨",
+            "text": "<p>Purchases made through Dec. 25 include <strong>FREE extended returns</strong> for a worry-free fit, along with our 30-day return and exchange policy.</p>",
+            "link_label": "",
+            "link": "shopify://pages/return-policy"
+          }
+        },
+        "column_f3qJC3": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "retina": true,
+            "title": "Free Shipping Over $150 🚚",
+            "text": "<p>All U.S. Orders of $150 or more have FREE shipping automatically applied at checkout.</p>",
+            "link_label": "",
+            "link": "shopify://pages/shipping"
+          }
+        },
+        "column_eYpHmE": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "retina": true,
+            "title": "Every Purchase Plants a 🌳",
+            "text": "<p>Every pair helps reforest the planet. Your holiday gifts give back long after the season ends.</p>",
+            "link_label": "",
+            "link": "shopify://pages/about"
+          }
+        }
+      },
+      "block_order": [
+        "column_YGmKeN",
+        "column_f3qJC3",
+        "column_eYpHmE"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "mobile_swipe": false,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
     "text_with_icons_MRQx4U": {
       "type": "text-with-icons",
       "blocks": {
@@ -1257,6 +1329,7 @@
     "how_it_looks_on_you_wEwKFG",
     "custom_liquid_qqHfLi",
     "17443016606c46dac5",
+    "multicolumn_rJ4iLi",
     "text_with_icons_MRQx4U",
     "product-recommendations",
     "recently_viewed_products_HPzhR7",
