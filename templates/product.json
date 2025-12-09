@@ -95,18 +95,6 @@
           "type": "shopify://apps/preorder-me/blocks/product-button/d3a9a307-3c62-4d7b-8a5b-7ae9b6e399ce",
           "settings": {}
         },
-        "inventory_level_BhJagd": {
-          "type": "inventory_level",
-          "settings": {
-            "show_inventory_notice": "always",
-            "show_inventory_count": "low",
-            "inventory_notice_pulse": true,
-            "inventory_notice_bar": false,
-            "inventory_notice_threshold": 10,
-            "inventory_notice_base": 20,
-            "custom_code": ""
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -537,7 +525,6 @@
         "text_M9Q8aq",
         "custom_liquid_LyBCHn",
         "preorder_me_product_button_t8zPaL",
-        "inventory_level_BhJagd",
         "buy_buttons",
         "essential_countdown_timer_app_block_L7YXF4",
         "essential_announcer_app_block_MeQTai",
