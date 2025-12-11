@@ -114,11 +114,12 @@
 							</ul>
 							{%- endif -%}
 							{% if settings.show_inventory %}
+								{% comment %} current_variant.inventory_quantity {% endcomment %}
 								<div class="cart-item-inventory" style="margin-top:2px;">
 					
 								
 									{%- liquid
-
+									assign hideStockInfoCart = false
 									assign threshold = 10 
 									
 									
@@ -137,7 +138,7 @@
 									
 
 									assign current_variant = item.variant
-									assign inventory_quantity = current_variant.inventory_quantity
+									assign inventory_quantity = item.variant.inventory_quantity
 									-%}
 
 									<div class="product-inventory-notice--wrapper">
@@ -148,6 +149,7 @@
 										{% if setting_show_notice == 'always' or inventory_quantity <= threshold %}
 											
 											{%- liquid
+											
 											assign show_inventory_count = false
 											
 											
@@ -161,13 +163,13 @@
 										
 											if show_inventory_count
 												if inventory_quantity <= threshold
-												assign notice = 'products.product.inventory.only_x_left' | t: quantity: inventory_quantity
+												assign notice = 'Low stock'
 											
 												if notice contains 'translation missing'
-													assign notice = 'Only ' | append: inventory_quantity | append: ' left'
+													assign notice = 'Low stock'
 												endif
 												else
-												assign notice = 'products.product.inventory.x_units_available' | t: quantity: inventory_quantity
+												assign notice = 'Low stock'
 												
 												if notice contains 'translation missing'
 													assign notice = inventory_quantity | append: ' units available'
@@ -181,11 +183,7 @@
 													assign notice = 'Low stock'
 												endif
 												else
-												assign notice = 'products.product.inventory.in_stock' | t
-												
-												if notice contains 'translation missing'
-													assign notice = 'In stock'
-												endif
+													assign hideStockInfoCart = true
 												endif
 											endif
 
@@ -193,20 +191,20 @@
 											assign notice_percentage = 0.000 | plus: inventory_quantity | divided_by: inventory_base | at_most: 1 | at_least: 0
 											-%}
 
-									
-										<div class="product-inventory-notice product-inventory-notice--{% if inventory_quantity <= threshold %}low{% else %}normal{% endif %}">
-											<div class="product-inventory-notice--text">
-											{%- if show_pulse -%}
-												<div class="product-inventory-notice--pulse"></div>
-											{%- endif -%}
-											{{ notice }}
+											{% if hideStockInfoCart == false %}
+											<div class="product-inventory-notice product-inventory-notice--{% if inventory_quantity <= threshold %}low{% else %}normal{% endif %}">
+												<div class="product-inventory-notice--text">
+												{%- if show_pulse -%}
+													<div class="product-inventory-notice--pulse"></div>
+												{%- endif -%}
+												{{ notice }}
+												</div>
+												
+												{%- if show_bar -%}
+												<div class="product-inventory-notice--bar" style="--inventory-scale:{{ notice_percentage }}; display:none;"><span></span></div>
+												{%- endif %}
 											</div>
-											
-											{%- if show_bar -%}
-											<div class="product-inventory-notice--bar" style="--inventory-scale:{{ notice_percentage }}; display:none;"><span></span></div>
-											{%- endif %}
-										</div>
-										
+											{% endif %}
 										{% endif %}
 									{% endif %}
 									</div>
