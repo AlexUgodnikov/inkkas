@@ -68,8 +68,8 @@
         "slide_FpnCCi": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/HOLIDAY_SHOP-converter.webp",
-            "mobile_image": "shopify://shop_images/HOLIDAY_SHOP-mobile-converter.webp",
+            "image": "shopify://shop_images/HOLIDAY_SHOP2-converter.webp",
+            "mobile_image": "shopify://shop_images/HOLIDAY_SHOP2-mobile-converter.webp",
             "slide_link": "",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -439,7 +439,7 @@
         "heading_left": false,
         "description": "",
         "full_width": true,
-        "product_limit": 6,
+        "product_limit": 12,
         "columns_desktop": 4,
         "show_view_all": true,
         "show_progress_bar": true,
@@ -480,7 +480,7 @@
         "heading_left": false,
         "description": "<p><em>Handcrafted treasures for every budget. </em></p>",
         "full_width": true,
-        "product_limit": 16,
+        "product_limit": 12,
         "columns_desktop": 4,
         "show_view_all": true,
         "show_progress_bar": true,
@@ -695,7 +695,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
-            "image_full_width": false,
+            "image_full_width": true,
             "retina": true,
             "title": "Designed to Feel Good—Inside and Out.",
             "text": "<p>Since 2012, we’ve been handcrafting shoes that don’t follow the crowd—because neither do you. Every design starts with original art inked by independent artists, inspired by nature around the world, crafted with bold colors and details you won’t find anywhere else.</p>",

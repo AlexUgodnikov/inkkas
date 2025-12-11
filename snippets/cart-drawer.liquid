@@ -234,11 +234,12 @@
 							</quantity-selector>
 							<a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" class="remove" data-index="{{ item.index | plus: 1 }}">{% render 'svg-icons' with 'trash' %}</a>
 						</div>
-						<div class="product-cart-item-price">
+	<div class="product-cart-item-price">
 							<span class="price">
-							{%- if item.original_line_price != item.final_line_price -%}
-							 <del><span class="amount"><div class="pn-total-line-item" data-id="{{ item.key }}">{{ item.original_line_price | money }}</div></span></del>
-							 <ins><span class="amount">{{ item.final_line_price | money }}</span></ins>
+							{%- if item.product.compare_at_price != blank -%}
+								<ins><span class="amount amount-sale">{{ item.final_line_price | money }}</span></ins>
+							 <del><span class="amount"><div class="pn-total-line-item" data-id="{{ item.key }}">{{ item.product.compare_at_price | money }}</div></span></del>
+							 
 							{%- else -%}
 							 <ins><span class="amount"><div class="pn-total-line-item" data-id="{{ item.key }}">{{ item.original_line_price | money }}</div></span></ins>
 							{%- endif -%}

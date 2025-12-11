@@ -2248,6 +2248,25 @@ shopify-accelerated-checkout-cart {
   --shopify-accelerated-checkout-button-inline-size: 40px;
 }
 
+ /* Drawer cart price */
+  .side-panel-inner .product-cart-item{
+    position:relative;
+  }
+    .side-panel-inner .product-cart-item-price .price{
+      display:block;
+    gap: 7px;
+ 
+  }
+    .side-panel-inner .product-cart-item-info .price{
+    display:none!important;
+  }
+   .side-panel-inner .product-cart-item-price .price ins .amount-sale{
+    color:#ff0000;
+   }
+  .side-panel-inner .product-cart-item-price  .price del .amount{
+    opacity:1;
+   }
+
 
 /* side-panel */
 .side-panel.product-drawer .product-title-container {
