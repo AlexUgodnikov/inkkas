@@ -1,40 +1,40 @@
 {%- assign badge_position = settings.badge_position -%}
 {% comment %}
-{%- unless product_card_product.available -%}
-	<span class="badge out-of-stock {{ badge_position }}">{{ 'products.product.sold_out' | t }}</span>
-{%- endunless -%}
-{%- if product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
-	{%- if settings.sale_badge_type == 'save_amount' -%}
-		{%- capture saved_amount -%}{{ product_card_product.compare_at_price | minus: product_card_product.price | money }}{%- endcapture -%}
-	{%- elsif settings.sale_badge_type == 'save_percentage' -%}
-		{%- capture saved_amount -%}{{ product_card_product.compare_at_price | minus: product_card_product.price | times: 100.0 | divided_by: product_card_product.compare_at_price | round }}%{%- endcapture -%}
-	{%- endif -%}
-	<span class="badge onsale {{ badge_position }}">
-		{%- if settings.sale_badge_type == 'sale' -%}
-		{{ 'products.product.on_sale' | t }}
-		{%- else -%}
-		{{ 'products.product.save_html' | t: saved_amount: saved_amount }}
-		{%- endif -%}
-	</span>
-{%- endif -%}
-{%- if product_card_product.metafields.theme.preorder and product_card_product.available -%}
-<span class="badge pre-order {{ badge_position }}">
-	{{ 'products.product.pre_order' | t }}
-</span>
-{%- endif -%}
+  {%- unless product_card_product.available -%}
+  <span class="badge out-of-stock {{ badge_position }}">{{ 'products.product.sold_out' | t }}</span>
+  {%- endunless -%}
+  {%- if product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}
+  {%- if settings.sale_badge_type == 'save_amount' -%}
+  {%- capture saved_amount -%}{{ product_card_product.compare_at_price | minus: product_card_product.price | money }}{%- endcapture -%}
+  {%- elsif settings.sale_badge_type == 'save_percentage' -%}
+  {%- capture saved_amount -%}{{ product_card_product.compare_at_price | minus: product_card_product.price | times: 100.0 | divided_by: product_card_product.compare_at_price | round }}%{%- endcapture -%}
+  {%- endif -%}
+  <span class="badge onsale {{ badge_position }}">
+  {%- if settings.sale_badge_type == 'sale' -%}
+  {{ 'products.product.on_sale' | t }}
+  {%- else -%}
+  {{ 'products.product.save_html' | t: saved_amount: saved_amount }}
+  {%- endif -%}
+  </span>
+  {%- endif -%}
+  {%- if product_card_product.metafields.theme.preorder and product_card_product.available -%}
+  <span class="badge pre-order {{ badge_position }}">
+  {{ 'products.product.pre_order' | t }}
+  </span>
+  {%- endif -%}
 {% endcomment %}
 {% comment %} {%- if product_card_product.available == false -%}
-	<span class="badge out-of-stock {{ badge_position }}" style="color: {{ settings.sold_out_badge_color_text }};background-color: {{ settings.sold_out_badge_color }};" aria-hidden="true">{{ settings.sold_out_badge }}</span>
-{% else %}
-	{%- if product_card_product.metafields.custom.best_sellers_label -%}
-		<span class="badge {{ badge_position }}" style="color: {{ settings.best_sellers_badge_color_text }};background-color: {{ settings.best_sellers_badge_color }}" aria-hidden="true">{{ settings.best_sellers_badge }}</span>
-	{% elsif  product_card_product.metafields.custom.sale_label or product_card_product.compare_at_price > product_card_product.price and product_card_product.available %}
-		<span class="badge onsale {{ badge_position }}" style="color: {{ settings.sale_badge_color_text }};background-color: {{ settings.sale_badge_color }}" aria-hidden="true">{{ settings.sale_badge }}</span>
-	{% elsif product_card_product.metafields.custom.new_arrivals_label %}
-		<span class="badge {{ badge_position }}" style="color: {{ settings.new_arrivals_badge_color_text }};background-color: {{ settings.new_arrivals_badge_color }}" aria-hidden="true">{{ settings.new_arrivals_badge }}</span>
-	{% elsif product_card_product.metafields.custom.final_sale_badge %}
-		<span class="badge {{ badge_position }}" style="color: {{ settings.final_sale_badge_color_text }};background-color: {{ settings.final_sale_badge_color }}" aria-hidden="true">{{ settings.final_sale_badge }}</span>
-	{% endif %}  
+  	<span class="badge out-of-stock {{ badge_position }}" style="color: {{ settings.sold_out_badge_color_text }};background-color: {{ settings.sold_out_badge_color }};" aria-hidden="true">{{ settings.sold_out_badge }}</span>
+  {% else %}
+  	{%- if product_card_product.metafields.custom.best_sellers_label -%}
+  		<span class="badge {{ badge_position }}" style="color: {{ settings.best_sellers_badge_color_text }};background-color: {{ settings.best_sellers_badge_color }}" aria-hidden="true">{{ settings.best_sellers_badge }}</span>
+  	{% elsif  product_card_product.metafields.custom.sale_label or product_card_product.compare_at_price > product_card_product.price and product_card_product.available %}
+  		<span class="badge onsale {{ badge_position }}" style="color: {{ settings.sale_badge_color_text }};background-color: {{ settings.sale_badge_color }}" aria-hidden="true">{{ settings.sale_badge }}</span>
+  	{% elsif product_card_product.metafields.custom.new_arrivals_label %}
+  		<span class="badge {{ badge_position }}" style="color: {{ settings.new_arrivals_badge_color_text }};background-color: {{ settings.new_arrivals_badge_color }}" aria-hidden="true">{{ settings.new_arrivals_badge }}</span>
+  	{% elsif product_card_product.metafields.custom.final_sale_badge %}
+  		<span class="badge {{ badge_position }}" style="color: {{ settings.final_sale_badge_color_text }};background-color: {{ settings.final_sale_badge_color }}" aria-hidden="true">{{ settings.final_sale_badge }}</span>
+  	{% endif %}  
 {%- endif -%} {% endcomment %}
 
 
@@ -42,7 +42,10 @@
 
 {%- if product_card_product.available == false -%}
 
-  <span class="badge out-of-stock {{ badge_position }}" style="color: {{ settings.sold_out_badge_color_text }};background-color: {{ settings.sold_out_badge_color }};" aria-hidden="true">{{ settings.sold_out_badge }}</span>
+  <span
+    class="badge out-of-stock {{ badge_position }}"
+    style="color: {{ settings.sold_out_badge_color_text }};background-color: {{ settings.sold_out_badge_color }};"
+    aria-hidden="true">{{ settings.sold_out_badge }}</span>
 
 {%- elsif product_card_product.metafields.theme.preorder and product_card_product.available -%}
 
@@ -52,18 +55,30 @@
 
 {%- elsif product_card_product.metafields.custom.best_sellers_label -%}
 
-  <span class="badge {{ badge_position }}" style="color: {{ settings.best_sellers_badge_color_text }};background-color: {{ settings.best_sellers_badge_color }}" aria-hidden="true">{{ settings.best_sellers_badge }}</span>
+  <span
+    class="badge {{ badge_position }}"
+    style="color: {{ settings.best_sellers_badge_color_text }};background-color: {{ settings.best_sellers_badge_color }}"
+    aria-hidden="true">{{ settings.best_sellers_badge }}</span>
 
 {%- elsif product_card_product.metafields.custom.sale_label or product_card_product.compare_at_price > product_card_product.price -%}
 
-  <span class="badge onsale {{ badge_position }}" style="color: {{ settings.sale_badge_color_text }};background-color: {{ settings.sale_badge_color }}" aria-hidden="true">{{ settings.sale_badge }}</span>
+  <span
+    class="badge onsale {{ badge_position }}"
+    style="color: {{ settings.sale_badge_color_text }};background-color: {{ settings.sale_badge_color }}"
+    aria-hidden="true">{{ settings.sale_badge }}</span>
 
 {%- elsif product_card_product.metafields.custom.new_arrivals_label -%}
- 
-  <span class="badge {{ badge_position }}" style="color: {{ settings.new_arrivals_badge_color_text }};background-color: {{ settings.new_arrivals_badge_color }}" aria-hidden="true">{{ settings.new_arrivals_badge }}</span>
+
+  <span
+    class="badge {{ badge_position }}"
+    style="color: {{ settings.new_arrivals_badge_color_text }};background-color: {{ settings.new_arrivals_badge_color }}"
+    aria-hidden="true">{{ settings.new_arrivals_badge }}</span>
 
 {%- elsif product_card_product.metafields.custom.final_sale_badge -%}
-  
-  <span class="badge {{ badge_position }}" style="color: {{ settings.final_sale_badge_color_text }};background-color: {{ settings.final_sale_badge_color }}" aria-hidden="true">{{ settings.final_sale_badge }}</span>
+
+  <span
+    class="badge {{ badge_position }}"
+    style="color: {{ settings.final_sale_badge_color_text }};background-color: {{ settings.final_sale_badge_color }}"
+    aria-hidden="true">{{ settings.final_sale_badge }}</span>
 
 {%- endif -%}
