@@ -933,6 +933,21 @@ if (!customElements.get('side-panel-links')) {
     }
     connectedCallback() {
       this.setupObservers();
+
+      if (this.classList.contains('has-tooltip')) {
+        this.tooltipWrapper = this.querySelector('.side-panel-tooltip-wrapper');
+
+       
+        this.tooltipWrapper.addEventListener('click', (e) => {
+          e.stopPropagation(); 
+          this.tooltipWrapper.classList.toggle('active');
+        });
+
+      
+        document.addEventListener('click', () => {
+          this.tooltipWrapper.classList.remove('active');
+        });
+      }
     }
     disconnectedCallback() {
 

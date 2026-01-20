@@ -2556,7 +2556,7 @@ margin-right: 7px;
   justify-content: center;
   margin:0;
 }
-.side-panel-tooltip-wrapper:hover .side-panel-tooltip-links{
+.side-panel-tooltip-wrapper.active .side-panel-tooltip-links{
   display:flex;
   flex-direction: column;
   gap:10px;
@@ -2652,8 +2652,8 @@ background: #F4F4F4;
 .product-variant-tabs-wrp .product-form__input_dann input[type=radio]+label{
   margin:0;
 }
- 
-.side-panel-content .add_to_cart_holder{
+  
+product-form .add_to_cart_holder{
   margin-bottom: 5px;
 }
 
