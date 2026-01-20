@@ -202,8 +202,8 @@
             "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
             "image_full_width": false,
             "retina": true,
-            "title": "1. The Art That Starts It All",
-            "text": "<p>Every pair of Inkkas begins as a hand-drawn work of art — created to spark joy, connection, and inspiration. Our collections draw from the colors, textures, and patterns of our planet to celebrate beauty everywhere. But that’s just where the journey begins.</p>",
+            "title": "1. It All Starts with Art.",
+            "text": "<p>Every pair of <em><strong>inkkas</strong></em> begins as a hand-<em><strong>inked</strong></em> work of art — created to spark joy, connection, and inspiration. Our collections draw from the colors, textures, and patterns of our planet to celebrate beauty everywhere. But that’s just where the journey begins.</p>",
             "link_label": "",
             "link": ""
           }
@@ -214,7 +214,7 @@
             "image": "shopify://shop_images/5W1A8149.jpg",
             "image_full_width": false,
             "retina": true,
-            "title": "2. Beauty Meets Function",
+            "title": "2. Beauty Meets Function.",
             "text": "<p>Each sketch is carefully transformed into a handcrafted shoe — where artistry meets engineering. Using high-quality, responsible materials and time-honored techniques, we build comfort into every detail: cushioned insoles, supportive soles, and a fit that feels like it was made just for you.</p>",
             "link_label": "",
             "link": ""
@@ -223,11 +223,11 @@
         "column_aK6FzF": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/making_of_the_joggers.gif",
+            "image": "shopify://shop_images/making_of_the_joggers-ezgif.com-optiwebp.webp",
             "image_full_width": true,
             "retina": true,
-            "title": "3. Made to be Loved",
-            "text": "<p>Then comes the best part — you. When you step into a pair of Inkkas, you’re not just wearing shoes; you’re carrying art that moves with you. Expect smiles, compliments, and that unmistakable feel-good confidence that comes from walking in something truly one-of-a-kind.</p>",
+            "title": "3. Made to be Loved.",
+            "text": "<p>Then comes the best part — you! Then comes the best part — you. When you step into a pair of Inkkas, expect that unmistakable confidence that comes from walking in something one-of-a-kind. Shoes that feel good for the soul (and the sole), good for the planet, and guaranteed to spark smiles and compliments along the way.</p>",
             "link_label": "",
             "link": ""
           }
@@ -281,15 +281,15 @@
         "text_aPJiCC": {
           "type": "text",
           "settings": {
-            "text": "<p>For every purchase, we plant one tree through our <em><strong>OneShoeOneTree</strong></em>™ program with trees.org — helping to restore forests, protect biodiversity, and fight climate change. </p><p>In addition to tree planting, we:</p><ul><li>ensure fair and ethical practices across our supply chain</li><li>make our collections in small batches & allow pre-order to limit overproduction and waste</li><li>donate worn pairs to our partner Soles4Souls for refurbishment to those in need.</li></ul><p>Thank you for your support!</p>",
+            "text": "<p>For every purchase, we plant one tree through our <em><strong>OneShoeOneTree</strong></em>™ program with trees.org — supporting reforestation, biodiversity, and climate resilience. </p><p>In addition to tree planting, we:</p><ul><li>ensure fair and ethical practices across our supply chain</li><li>make our collections in small batches & allow pre-order to limit overproduction and waste</li><li>donate worn pairs to our partner Soles4Souls for refurbishment to those in need.</li></ul><p>Thank you for your support!</p>",
             "description_size": "small"
           }
         },
         "image_HwfPeP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Total_Thanks_-_Trees_Planted_GIF_1.gif",
-            "retina": true
+            "image": "shopify://shop_images/Tree-Number-12.2025-curved.gif",
+            "retina": false
           }
         }
       },
@@ -432,16 +432,6 @@
         "overlay_opacity": 0,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
-      }
-    },
-    "16623736356fb1e92f": {
-      "type": "spacer",
-      "disabled": true,
-      "settings": {
-        "spacer_mobile": 0,
-        "spacer_desktop": 25,
-        "border_separator": false,
-        "border_separator_full": false
       }
     },
     "1661619131dc23111f": {
@@ -590,6 +580,15 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
+    },
+    "16623736356fb1e92f": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
     }
   },
   "order": [
@@ -604,10 +603,10 @@
     "16618593470c5f63bd",
     "16623735222f31e80e",
     "166161906436c7d4d0",
-    "16623736356fb1e92f",
     "1661619131dc23111f",
     "image_banner_contain_NNhdmA",
     "featured_blog_X8TVad",
-    "1661619177029ffd60"
+    "1661619177029ffd60",
+    "16623736356fb1e92f"
   ]
 }

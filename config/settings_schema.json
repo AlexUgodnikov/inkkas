@@ -507,6 +507,64 @@
   {
     "name": "Product card",
     "settings": [
+       {
+        "type": "header",
+        "content": "Reviews widget styles"
+      },
+       {
+        "type": "checkbox",
+        "id": "reviews_stars_show",
+        "label": "Reviews stars show",
+        "default": true
+      },
+      {
+        "type": "number",
+        "id": "reviews_font_size",
+        "label": "Reviews Font size",
+        "default": 14,
+        "visible_if": "{{ settings.reviews_stars_show == true }}"
+      },
+      {
+        "type": "number",
+        "id": "reviews_margin_top",
+        "label": "Reviews spacing top",
+        "default": 10,
+        "visible_if": "{{ settings.reviews_stars_show == true }}"
+      },
+       {
+        "type": "number",
+        "id": "reviews_margin_bottom",
+        "label": "Reviews spacing bottom",
+        "default": 10,
+        "visible_if": "{{ settings.reviews_stars_show == true }}"
+      },
+       {
+        "type": "color",
+        "id": "reviews_stars_color",
+        "label": "Stars color",
+        "visible_if": "{{ settings.reviews_stars_show == true }}"
+      },
+      {
+        "type": "number",
+        "id": "reviews_height",
+        "label": "Reviews stars height",
+        "default": 13,
+        "visible_if": "{{ settings.reviews_stars_show == true }}"
+      },
+      {
+        "type": "checkbox",
+        "id": "reviews_one_star",
+        "label": "Reviews one star",
+        "default": false,
+        "visible_if": "{{ settings.reviews_stars_show == true }}"
+      },
+       {
+        "type": "number",
+        "id": "reviews_width",
+        "label": "Reviews stars width",
+        "default": 15,
+        "visible_if": "{{ settings.reviews_one_star == true }}"
+      },
       {
         "type": "paragraph",
         "content": "We suggest using 770px wide images for product cards. Height depends on the image ratio selected."
@@ -1138,7 +1196,235 @@
         "label": "Show in Preview Card",
         "default": true,
         "visible_if": "{{ settings.prd_tag6 != ''}}",
+      },
+      {
+        "type": "header",
+        "content": "Product label 7"
+      },
+      {
+        "type": "text",
+        "id": "prd_tag7",
+        "label": "Product Tag 7"
+      },
+      {
+        "type": "liquid",
+        "id": "prd_text7",
+        "label": "Label Text 7",
+        "visible_if": "{{ settings.prd_tag7 != ''}}",
+      },
+      {
+        "type": "color",
+        "id": "color_txt7",
+        "label": "Label Color 7",
+        "default": "#e32e02",
+        "visible_if": "{{ settings.prd_tag7 != ''}}",
+      },
+      {
+        "type": "color",
+        "id": "color_txt_pdp_7",
+        "label": "Label Color for PDP 7",
+        "default": "#fff",
+        "visible_if": "{{ settings.prd_tag7 != ''}}",
+      },
+      {
+        "type": "color",
+        "id": "color_bg_pdp_7",
+        "label": "Label Background for PDP 7",
+        "default": "#000",
+        "visible_if": "{{ settings.prd_tag7 != ''}}",
+      },
+      {
+        "type": "checkbox",
+        "id": "show_pdp_7",
+        "label": "Show PDP",
+        "default": true,
+        "visible_if": "{{ settings.prd_tag7 != ''}}",
+      },
+      {
+        "type": "checkbox",
+        "id": "show_pdp_gallery_7",
+        "label": "Show PDP in Gallery",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "show_preview_7",
+        "label": "Show in Preview Card",
+        "default": true,
+        "visible_if": "{{ settings.prd_tag7 != ''}}",
+      },
+
+      {
+        "type": "header",
+        "content": "Product label 8"
+      },
+      {
+        "type": "text",
+        "id": "prd_tag8",
+        "label": "Product Tag 8"
+      },
+      {
+        "type": "liquid",
+        "id": "prd_text8",
+        "label": "Label Text 8",
+        "visible_if": "{{ settings.prd_tag8 != ''}}",
+      },
+      {
+        "type": "color",
+        "id": "color_txt8",
+        "label": "Label Color 8",
+        "default": "#e32e02",
+        "visible_if": "{{ settings.prd_tag8 != ''}}",
+      },
+      {
+        "type": "color",
+        "id": "color_txt_pdp_8",
+        "label": "Label Color for PDP 8",
+        "default": "#fff",
+        "visible_if": "{{ settings.prd_tag8 != ''}}",
+      },
+      {
+        "type": "color",
+        "id": "color_bg_pdp_8",
+        "label": "Label Background for PDP 8",
+        "default": "#000",
+        "visible_if": "{{ settings.prd_tag8 != ''}}",
+      },
+      {
+        "type": "checkbox",
+        "id": "show_pdp_8",
+        "label": "Show PDP",
+        "default": true,
+        "visible_if": "{{ settings.prd_tag8 != ''}}",
+      },
+      {
+        "type": "checkbox",
+        "id": "show_pdp_gallery_8",
+        "label": "Show PDP in Gallery",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "show_preview_8",
+        "label": "Show in Preview Card",
+        "default": true,
+        "visible_if": "{{ settings.prd_tag8 != ''}}",
+      },
+
+      {
+        "type": "header",
+        "content": "Product label 9"
+      },
+      {
+        "type": "text",
+        "id": "prd_tag9",
+        "label": "Product Tag 9"
+      },
+      {
+        "type": "liquid",
+        "id": "prd_text9",
+        "label": "Label Text 9",
+        "visible_if": "{{ settings.prd_tag9 != ''}}",
+      },
+      {
+        "type": "color",
+        "id": "color_txt9",
+        "label": "Label Color 9",
+        "default": "#e32e02",
+        "visible_if": "{{ settings.prd_tag9 != ''}}",
+      },
+      {
+        "type": "color",
+        "id": "color_txt_pdp_9",
+        "label": "Label Color for PDP 9",
+        "default": "#fff",
+        "visible_if": "{{ settings.prd_tag9 != ''}}",
+      },
+      {
+        "type": "color",
+        "id": "color_bg_pdp_9",
+        "label": "Label Background for PDP 9",
+        "default": "#000",
+        "visible_if": "{{ settings.prd_tag9 != ''}}",
+      },
+      {
+        "type": "checkbox",
+        "id": "show_pdp_9",
+        "label": "Show PDP",
+        "default": true,
+        "visible_if": "{{ settings.prd_tag9 != ''}}",
+      },
+      {
+        "type": "checkbox",
+        "id": "show_pdp_gallery_9",
+        "label": "Show PDP in Gallery",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "show_preview_9",
+        "label": "Show in Preview Card",
+        "default": true,
+        "visible_if": "{{ settings.prd_tag9 != ''}}",
+      },
+
+      {
+        "type": "header",
+        "content": "Product label 10"
+      },
+      {
+        "type": "text",
+        "id": "prd_tag10",
+        "label": "Product Tag 10"
+      },
+      {
+        "type": "liquid",
+        "id": "prd_text10",
+        "label": "Label Text 10",
+        "visible_if": "{{ settings.prd_tag10 != ''}}",
+      },
+      {
+        "type": "color",
+        "id": "color_txt10",
+        "label": "Label Color 10",
+        "default": "#e32e02",
+        "visible_if": "{{ settings.prd_tag10 != ''}}",
+      },
+      {
+        "type": "color",
+        "id": "color_txt_pdp_10",
+        "label": "Label Color for PDP 10",
+        "default": "#fff",
+        "visible_if": "{{ settings.prd_tag10 != ''}}",
+      },
+      {
+        "type": "color",
+        "id": "color_bg_pdp_10",
+        "label": "Label Background for PDP 10",
+        "default": "#000",
+        "visible_if": "{{ settings.prd_tag10 != ''}}",
+      },
+      {
+        "type": "checkbox",
+        "id": "show_pdp_10",
+        "label": "Show PDP",
+        "default": true,
+        "visible_if": "{{ settings.prd_tag10 != ''}}",
+      },
+      {
+        "type": "checkbox",
+        "id": "show_pdp_gallery_10",
+        "label": "Show PDP in Gallery",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "show_preview_10",
+        "label": "Show in Preview Card",
+        "default": true,
+        "visible_if": "{{ settings.prd_tag10 != ''}}",
       }
+
     ]
   },
   {

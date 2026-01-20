@@ -11,6 +11,84 @@
   "type": "header",
   "name": "Footer group",
   "sections": {
+    "scrolling_text_BxiVDL": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_QVHqpQ": {
+          "type": "text",
+          "settings": {
+            "text": "Free U.S. Shipping Over $150",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_cKQnFJ": {
+          "type": "text",
+          "settings": {
+            "text": "✦",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_zpCUaW": {
+          "type": "text",
+          "settings": {
+            "text": "Free Returns & Exchanges",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_6JtfdK": {
+          "type": "text",
+          "settings": {
+            "text": "✦",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_h7gYdx": {
+          "type": "text",
+          "settings": {
+            "text": "✨ Happiness Guarantee: Try Them On Risk-Free",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_kifLkL": {
+          "type": "text",
+          "settings": {
+            "text": "✦",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_QVHqpQ",
+        "text_cKQnFJ",
+        "text_zpCUaW",
+        "text_6JtfdK",
+        "text_h7gYdx",
+        "text_kifLkL"
+      ],
+      "disabled": true,
+      "name": "Scrolling text",
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "text_size": 18,
+        "text_uppercase": false,
+        "image_size": "large",
+        "color_bg": "#f5f3ef",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "173998895283371412": {
       "type": "apps",
       "blocks": {
@@ -34,7 +112,7 @@
           "settings": {
             "column_size": "large",
             "title": "",
-            "text": "<p>For over a decade, Inkkas has been creating artful, handcrafted footwear loved by travelers, artists, and adventurers around the world. Discover your next favorite pair—from bold sneakers and cozy slip-ons to versatile boots and sandals. Every design is hand-drawn, ethically made, and tree-planting–powered, combining comfort, craft, and conscience in every step. ♥️</p>",
+            "text": "<p>For over a decade, Inkkas has been creating artful, handcrafted footwear rooted in nature and brought to life by artists. Loved by travelers, creatives, and curious souls around the world, our one-of-a-kind shoe collections include bold sneakers and breezy slip-ons, versatile boots and comfy sandals. Every design begins as hand-drawn art, is ethically made in small batches, and is tree-planting powered—combining comfort, craft, and conscience in every step.</p>",
             "text_size": "small",
             "button_text": "",
             "button_link": "",
@@ -104,6 +182,7 @@
     }
   },
   "order": [
+    "scrolling_text_BxiVDL",
     "173998895283371412",
     "footer"
   ]

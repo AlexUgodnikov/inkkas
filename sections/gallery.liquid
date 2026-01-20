@@ -13,6 +13,55 @@
 	assign disable_top_spacing = section.settings.disable_top_spacing
 	assign disable_bottom_spacing = section.settings.disable_bottom_spacing
 -%}
+{% style %}
+	/* #gallery-{{ section.id }}{
+		padding-bottom:25px;
+	}
+	.slider-pagination-{{ section.id }}{
+		padding-top:0;
+	}
+	.pagination-{{ section.id }}{
+		position:static;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		gap: 0 10px;
+	} */
+#gallery-{{ section.id }} .swiper-button-next, #gallery-{{ section.id }} .swiper-button-prev {
+    display: flex;
+    background: var(--bg-body, #fff);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: -24px;
+    z-index: 30;
+    opacity: 0 !important;
+    cursor: pointer;
+    box-shadow: 0 2px 10px #00000026;
+    transition: all .3s ease;
+}
+#gallery-{{ section.id }}.swiper:hover .swiper-button-next, #gallery-{{ section.id }}.swiper:hover .swiper-button-prev {
+    opacity: 1 !important;
+    transition: opacity .3s ease;
+}
+#gallery-{{ section.id }}.swiper .swiper-button-next:after, #gallery-{{ section.id }}.swiper .swiper-button-prev:after {
+    display:none!important;
+}
+#gallery-{{ section.id }}.swiper-button-next svg, #gallery-{{ section.id }} .swiper-button-prev svg {
+    transform: scale(1);
+    pointer-events: none;
+    transition: transform .3s ease;
+}
+@media(max-width:600px){
+	#gallery-{{ section.id }} .swiper-button-next, #gallery-{{ section.id }} .swiper-button-prev {
+		display:none!important;
+	}
+}
+{% endstyle %}
 <div class="row {{ section_width }}">
 	<div class="small-12 columns">
 		<div id="gallery-{{ section.id }}" class="{% if section.settings.slider %}swiper {% endif %}gallery gallery-spacing--{{ column_spacing }} text-{{ text_alignment }}{% if mobile_swipe and section.settings.slider != true %} swipe-on-mobile{% endif %} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}" style="--gallery-columns: {{ columns_desktop }};--overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}">
@@ -72,6 +121,15 @@
 					</div>
 				{%- endfor -%}
 			</div>
+			 <div class="slider-navigation-{{ section.id }} ">
+                <div class="{{ section.id }}-prev swiper-button-prev slider-nav-prev">
+           			 {%- render 'svg-icons' with 'carousel-prev' -%}
+                </div>
+                <div class="{{ section.id }}-next swiper-button-next slider-nav-next">
+           			 {%- render 'svg-icons' with 'carousel-next' -%}
+                </div>
+                {% comment %} <div class="{{ section.id }}-pagination slider-pagination swiper-pagination"></div> {% endcomment %}
+              </div>
 		</div>
 	</div>
 </div>
@@ -103,6 +161,10 @@
 				const sliderGallery = new Swiper('#gallery-{{ section.id }}', {
 					spaceBetween: 0,
 					slidesPerView: 4.3,
+					navigation: {
+						nextEl: document.querySelector('.{{ section.id }}-next'),
+						prevEl: document.querySelector('.{{ section.id }}-prev'),
+					},
 					breakpoints: {
 						0: {
 							slidesPerView: 1.2,

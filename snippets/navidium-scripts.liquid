@@ -1,4 +1,4 @@
-<!-- navidium script start -->
+{% comment %} <!-- navidium script start -->
 		<script>
 		const nvdShop = 'phuyupata.myshopify.com';
 		const nvdShopCurrency = '{{ shop.money_format | strip_html }}';
@@ -65,4 +65,164 @@ document.addEventListener('rebuy:smartcart.show', (event) => {
   .nvd-mini.w-nvd-100 {
     margin-top: -28px !important;
 }
+</style> {% endcomment %}
+
+
+<script>window.nvdStopRedirect = true</script>
+
+
+<script>
+document.addEventListener('rebuy:smartcart.ready', (event) => {
+    setTimeout(nvd_init,300)
+});
+document.addEventListener('rebuy:smartcart.show', (event) => {
+    setTimeout(nvd_init,300)
+});
+</script>
+
+
+<style>
+	div#nvd-standard-widget-container {
+    min-width: 100%;
+    padding: 0 !important;
+}
+
+button#nvd-without-checkout-btn {
+    text-decoration: unset !important;
+    padding: 9px !important;
+    border: solid 2px black !important;
+}
+div#nvdLearnMorePopupOverlay {
+    z-index: 999999999999999;
+}
+.nvd-learnmore-popup-content {
+    z-index: 999999999999999999999;
+}
+#rebuy-cart .rebuy-cart__flyout {
+    z-index: 9999999;
+}
+.rebuy-cart__background {
+    z-index: -10;
+}
+.nvd-main-content-area {
+    position: relative;
+}
+
+p.nvd-title span {
+    position: absolute;
+    right: 0;
+}
+
+.nvd-secondary-content {
+    position: absolute;
+    /* width: 100%; */
+    top: 3px;
+    left: 43%;
+    right: 47%;
+}
+
+a.nvd-learn-more svg {
+    font-size: 15px;
+}
+button#nvd-with-checkout-btn {
+    padding: 20px 0px !important;
+    border: 2px solid black !important;
+    font-size: 16px !important;
+}
+
+button#nvd-without-checkout-btn {
+    padding: 20px 0 !important;
+}
+/* Extra large phones / small tablets */
+@media (max-width: 767px) {
+    .nvd-secondary-content {
+        left: 60%;
+        right: 0;
+    }
+}
+
+/* Large phones (e.g., iPhone 12 Pro Max) */
+@media (max-width: 720px) {
+    .nvd-secondary-content {
+        left: 61%;
+        right: 0;
+    }
+}
+
+/* Medium-large phones */
+@media (max-width: 667px) {
+    .nvd-secondary-content {
+        left: 55%;
+        right: 0;
+    }
+}
+
+/* Medium phones (e.g., iPhone X, 12, 13) */
+@media (max-width: 414px) {
+.nvd-secondary-content {
+    left: 57%;
+    right: 0;
+}
+}
+
+/* Slightly smaller phones */
+@media (max-width: 400px) {
+    .nvd-secondary-content {
+        left: 65%;
+        right: 0;
+    }
+}
+
+/* Small phones */
+@media (max-width: 390px) {
+    .nvd-secondary-content {
+        left: 66%;
+        right: 0;
+    }
+}
+
+/* Extra small phones (e.g., iPhone SE 2nd Gen) */
+@media (max-width: 374px) {
+    .nvd-secondary-content {
+        left: 67%;
+        right: 0;
+    }
+}
+
+/* Very small phones */
+@media (max-width: 360px) {
+    .nvd-secondary-content {
+        left: 68%;
+        right: 0;
+    }
+}
+
+/* Ultra small phones */
+@media (max-width: 340px) {
+    .nvd-secondary-content {
+        left: 69%;
+        right: 0;
+    }
+}
+
+/* Tiny phones */
+@media (max-width: 320px) {
+    .nvd-secondary-content {
+        left: 70%;
+        right: 0;
+    }
+}
+
+
 </style>
+
+
+
+<script>
+document.addEventListener('rebuy:smartcart.ready', (event) => {
+    setTimeout(nvd_init,300)
+});
+document.addEventListener('rebuy:smartcart.show', (event) => {
+    setTimeout(nvd_init,300)
+});
+</script>

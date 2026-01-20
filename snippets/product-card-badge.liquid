@@ -54,6 +54,11 @@
 
   <span class="badge {{ badge_position }}" style="color: {{ settings.best_sellers_badge_color_text }};background-color: {{ settings.best_sellers_badge_color }}" aria-hidden="true">{{ settings.best_sellers_badge }}</span>
 
+{%- elsif product_card_product.metafields.custom.final_sale_badge -%}
+  
+  <span class="badge {{ badge_position }}" style="color: {{ settings.final_sale_badge_color_text }};background-color: {{ settings.final_sale_badge_color }}" aria-hidden="true">{{ settings.final_sale_badge }}</span>
+
+
 {%- elsif product_card_product.metafields.custom.sale_label or product_card_product.compare_at_price > product_card_product.price -%}
 
   <span class="badge onsale {{ badge_position }}" style="color: {{ settings.sale_badge_color_text }};background-color: {{ settings.sale_badge_color }}" aria-hidden="true">{{ settings.sale_badge }}</span>
@@ -62,8 +67,5 @@
  
   <span class="badge {{ badge_position }}" style="color: {{ settings.new_arrivals_badge_color_text }};background-color: {{ settings.new_arrivals_badge_color }}" aria-hidden="true">{{ settings.new_arrivals_badge }}</span>
 
-{%- elsif product_card_product.metafields.custom.final_sale_badge -%}
-  
-  <span class="badge {{ badge_position }}" style="color: {{ settings.final_sale_badge_color_text }};background-color: {{ settings.final_sale_badge_color }}" aria-hidden="true">{{ settings.final_sale_badge }}</span>
 
 {%- endif -%}

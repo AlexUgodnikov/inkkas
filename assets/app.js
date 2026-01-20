@@ -1055,6 +1055,7 @@ class CartDrawerRecommends extends HTMLElement {
       spaceBetween: 0,
       loop: false,
       speed: 1000,
+      simulateTouch: false,
       pagination: {
         el: this.querySelector('.swiper-pagination'),
         clickable: true,
@@ -1069,9 +1070,11 @@ class CartDrawerRecommends extends HTMLElement {
       breakpoints: {
         0: {
           slidesPerView: 1,
+          simulateTouch: true,
         },
         500: {
           slidesPerView: 1,
+          simulateTouch: true,
         },
         870: {
           slidesPerView: 1,

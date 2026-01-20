@@ -54,8 +54,13 @@
   flex: 1;
 }
 
-.add_to_cart_holder .button[name="add"] {
+.add_to_cart_holder .button[name="add"], .add_to_cart_holder .button[name="add"] + .klaviyo-bis-trigger {
   height: 65px;
+}
+.add_to_cart_holder .button[name="add"] + .klaviyo-bis-trigger{
+  margin-left:2px;
+  height:63px;
+  line-height: 1;
 }
 
 .add_to_cart_holder .swym-button-bar {

@@ -112,7 +112,17 @@
 				</quick-view>
 			{%- endif -%}
 		</div>
-    	{% render 'product-price', product: product_card_product %}
+    	<div class="product-card-stars-price"  {%  if settings.reviews_stars_color != blank %}
+					style="--oke-stars-foregroundColor: {{settings.reviews_stars_color}}!important;"
+					{% endif %}>
+    		{% if settings.reviews_stars_show %}
+				<div data-oke-star-rating data-oke-reviews-product-id="shopify-{{ product_card_product.id }}">
+					{{ product_card_product.metafields.okendo.StarRatingSnippet }}
+				</div>
+			{% endif %}
+			{% render 'product-price', product: product_card_product %}
+			
+		</div>
 		{% render 'product-tags-label', product: product_card_product %}
 		{% render 'product-card-swatch', product: product_card_product, sizes: sizes %}
 		{%- if settings.show_products_rating and product_card_product.metafields.reviews.rating.value != blank -%}

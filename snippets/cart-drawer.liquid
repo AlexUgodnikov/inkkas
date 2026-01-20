@@ -12,10 +12,11 @@
 				<side-panel-close class="side-panel-close">{%- render 'svg-icons' with 'close' -%}</side-panel-close>
 			</div>
 		</div>
+		{% render 'drawer-cart-announcement' %}
 		<div class="side-panel-content">
 			{%- if cart != empty -%}
 				<div class="product-cart-item--container">
-					{% render 'drawer-cart-announcement' %}
+					
 					{%- if free_shipping and settings.free_shipping_minimum != blank -%}
 						<aside class="free-shipping" data-cart-total="{{ total }}" data-minimum="{{ free_shipping_minimum }}">
 							<div class="free-shipping--text">
@@ -114,12 +115,13 @@
 							</ul>
 							{%- endif -%}
 							{% if settings.show_inventory %}
+								{% comment %} current_variant.inventory_quantity {% endcomment %}
 								<div class="cart-item-inventory" style="margin-top:2px;">
-					
+					 
 								
 									{%- liquid
-
-									assign threshold = 10 
+									assign hideStockInfoCart = false
+									assign threshold = 20 
 									
 									
 									assign inventory_base = 50
@@ -131,13 +133,13 @@
 									assign setting_show_count = 'low'
 									
 									
-									assign show_pulse = true
-									assign show_bar = true
+									assign show_pulse = false
+									assign show_bar = false
 									
 									
 
 									assign current_variant = item.variant
-									assign inventory_quantity = current_variant.inventory_quantity
+									assign inventory_quantity = item.variant.inventory_quantity
 									-%}
 
 									<div class="product-inventory-notice--wrapper">
@@ -148,6 +150,7 @@
 										{% if setting_show_notice == 'always' or inventory_quantity <= threshold %}
 											
 											{%- liquid
+											
 											assign show_inventory_count = false
 											
 											
@@ -161,13 +164,13 @@
 										
 											if show_inventory_count
 												if inventory_quantity <= threshold
-												assign notice = 'products.product.inventory.only_x_left' | t: quantity: inventory_quantity
+												assign notice = 'Limited Quantities Left'
 											
 												if notice contains 'translation missing'
-													assign notice = 'Only ' | append: inventory_quantity | append: ' left'
+													assign notice = 'Limited Quantities Left'
 												endif
 												else
-												assign notice = 'products.product.inventory.x_units_available' | t: quantity: inventory_quantity
+												assign notice = 'Limited Quantities Left'
 												
 												if notice contains 'translation missing'
 													assign notice = inventory_quantity | append: ' units available'
@@ -178,14 +181,10 @@
 												assign notice = 'products.product.inventory.low_stock' | t
 												
 												if notice contains 'translation missing'
-													assign notice = 'Low stock'
+													assign notice = 'Limited Quantities Left'
 												endif
 												else
-												assign notice = 'products.product.inventory.in_stock' | t
-												
-												if notice contains 'translation missing'
-													assign notice = 'In stock'
-												endif
+													assign hideStockInfoCart = true
 												endif
 											endif
 
@@ -193,51 +192,77 @@
 											assign notice_percentage = 0.000 | plus: inventory_quantity | divided_by: inventory_base | at_most: 1 | at_least: 0
 											-%}
 
-									
-										<div class="product-inventory-notice product-inventory-notice--{% if inventory_quantity <= threshold %}low{% else %}normal{% endif %}">
-											<div class="product-inventory-notice--text">
-											{%- if show_pulse -%}
-												<div class="product-inventory-notice--pulse"></div>
-											{%- endif -%}
-											{{ notice }}
+											{% if hideStockInfoCart == false %}
+											<div class="product-inventory-notice product-inventory-notice--{% if inventory_quantity <= threshold %}low{% else %}normal{% endif %}">
+												<div class="product-inventory-notice--text">
+												{%- if show_pulse -%}
+													<div class="product-inventory-notice--pulse"></div>
+												{%- endif -%}
+												{{ notice }}
+												</div>
+												
+												{%- if show_bar -%}
+												<div class="product-inventory-notice--bar" style="--inventory-scale:{{ notice_percentage }}; display:none;"><span></span></div>
+												{%- endif %}
 											</div>
-											
-											{%- if show_bar -%}
-											<div class="product-inventory-notice--bar" style="--inventory-scale:{{ notice_percentage }}; display:none;"><span></span></div>
-											{%- endif %}
-										</div>
-										
+											{% endif %}
 										{% endif %}
 									{% endif %}
 									</div>
 								</div>
 							{% endif %}
-							<quantity-selector class="quantity cart-update small-qty" data-id="{{ item.key | escape }}">
-							 <button class="minus" type="button" aria-label="{{ 'products.product.quantity.decrease' | t: product: item.product.title | escape }}">{% render 'svg-icons' with 'minus' %}</button>
-								<input
-								type="number"
-								name="updates[]"
-								id="updates_{{ item.key }}"
-								value="{{ item.quantity }}"
-								min="{{ item.variant.quantity_rule.min }}"
-								{% if item.variant.quantity_rule.max != null %}
-			          	max="{{ item.variant.quantity_rule.max }}"
-								{% elsif item.variant.inventory_management != null and item.variant.inventory_quantity > 0 %}
-									max="{{ item.variant.inventory_quantity }}"
-			          {% endif %}
-								step="{{ item.variant.quantity_rule.increment }}"
-								class="qty"
-								data-index="{{ item.index | plus: 1 }}"
-								aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
-								>
-							 <button class="plus" type="button" aria-label="{{ 'products.product.quantity.increase' | t: product: item.product.title | escape }}">{% render 'svg-icons' with 'plus' %}</button>
-							</quantity-selector>
-							<a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" class="remove" data-index="{{ item.index | plus: 1 }}">{% render 'svg-icons' with 'trash' %}</a>
+							<div class="product-cart-price-quantity">
+								<div class="product-cart-price-quantity-wrp">
+									<quantity-selector class="quantity cart-update small-qty" data-id="{{ item.key | escape }}">
+									<button class="minus" type="button" aria-label="{{ 'products.product.quantity.decrease' | t: product: item.product.title | escape }}">{% render 'svg-icons' with 'minus' %}</button>
+										<input
+										type="number"
+										name="updates[]"
+										id="updates_{{ item.key }}"
+										value="{{ item.quantity }}"
+										min="{{ item.variant.quantity_rule.min }}"
+										{% if item.variant.quantity_rule.max != null %}
+								max="{{ item.variant.quantity_rule.max }}"
+										{% elsif item.variant.inventory_management != null and item.variant.inventory_quantity > 0 %}
+											max="{{ item.variant.inventory_quantity }}"
+							{% endif %}
+										step="{{ item.variant.quantity_rule.increment }}"
+										class="qty"
+										data-index="{{ item.index | plus: 1 }}"
+										aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
+										>
+									<button class="plus" type="button" aria-label="{{ 'products.product.quantity.increase' | t: product: item.product.title | escape }}">{% render 'svg-icons' with 'plus' %}</button>
+									</quantity-selector>
+									<a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" class="remove" data-index="{{ item.index | plus: 1 }}">{% render 'svg-icons' with 'trash' %}</a>
+								</div>
+								<div class="product-cart-price-wrp">
+										<span class="price">
+									{%- if item.product.compare_at_price != blank and item.product.compare_at_price != item.final_price -%}
+										<ins><span class="amount amount-sale">{{ item.final_price | money }}</span></ins>
+									<del><span class="amount"><div class="pn-total-line-item" data-id="{{ item.key }}">{{ item.product.compare_at_price | money }}</div></span></del>
+									
+									{%- else -%}
+									<ins><span class="amount"><div class="pn-total-line-item" data-id="{{ item.key }}">{{ item.original_line_price | money }}</div></span></ins>
+									{%- endif -%}
+									{%- if item.variant.available and item.unit_price_measurement -%}
+										<small class="unit-price">
+											{{ item.variant.unit_price | money }}
+											<span class="unit-price-separator">/</span>
+											{%- if item.variant.unit_price_measurement.reference_value != 1 -%}
+											{{- item.variant.unit_price_measurement.reference_value -}}
+											{%- endif -%}
+											{{ item.variant.unit_price_measurement.reference_unit }}
+										</small>
+									{%- endif -%}
+									</span>
+								</div>
+							</div>
+
 						</div>
-	<div class="product-cart-item-price">
-							<span class="price">
+						{% comment %} <div class="product-cart-item-price">
+								<span class="price">
 							{%- if item.product.compare_at_price != blank -%}
-								<ins><span class="amount amount-sale">{{ item.final_line_price | money }}</span></ins>
+								<ins><span class="amount amount-sale">{{ item.final_price | money }}</span></ins>
 							 <del><span class="amount"><div class="pn-total-line-item" data-id="{{ item.key }}">{{ item.product.compare_at_price | money }}</div></span></del>
 							 
 							{%- else -%}
@@ -254,7 +279,7 @@
 								</small>
 							{%- endif -%}
 							</span>
-						</div>
+						</div> {% endcomment %}
 					</div>
 					{% endfor %}
 				</div>
@@ -335,9 +360,12 @@
 
 											{% endif %}
 											
-												<button class="button choose-select js-choose-select">Add</button>
+											
+												<button class="button choose-select js-choose-select" >Add</button>
 										
-												<button class="button addt-to-cart-drawer js-add-to-cart {% if item.available %}{% else %}sold-out{% endif %}" {% if item.available %}{% else %}disabled{% endif %}>{% if item.available %}Add{% else %}Sold Out{% endif %}</button>
+												<button class="button addt-to-cart-drawer js-add-to-cart {% if item.available %}{% else %}sold-out{% endif %}" {% if item.available %}{% else %}disabled{% endif %}
+												{% if item.variants.size == 1 %}style="display:block;"{%  endif %}
+												>{% if item.available %}Add{% else %}Sold Out{% endif %}</button>
 										
 										
 										</div>
@@ -376,6 +404,68 @@
 					{%- endif -%}
 
 					<div class="cart-drawer-buttons">
+
+
+
+
+					{% assign total_compare_at_sum = 0 %}
+				
+					{% for item in cart.items %}
+						
+					
+					{% assign real_item_price = item.original_price %}
+					
+					{% if item.variant.compare_at_price > item.original_price %}
+						{% assign real_item_price = item.variant.compare_at_price %}
+					{% endif %}
+
+
+					{% assign line_compare_at = real_item_price | times: item.quantity %}
+					
+					
+					{% assign total_compare_at_sum = total_compare_at_sum | plus: line_compare_at %}
+					{% endfor %}
+
+
+
+					{% assign total_savings = total_compare_at_sum | minus: cart.total_price %}
+						<div class="cart-summary-totals" >
+
+
+						{% if total_savings > 0 %}
+							<div class="cart-row">
+								<span class="subtotal-label">Savings</span>
+								<span class="subtotal-value">
+									-{{ total_savings | money }}
+								</span>
+							</div>
+						{% endif %}
+
+
+						<div class="cart-row" >
+							<span class="subtotal-label">Subtotal (Items {{cart.item_count }})</span>
+							
+							<div class="cart-price-block">
+							
+							
+							{% if total_savings > 0 %}
+								<s class="subtotal-value">
+								{{ total_compare_at_sum | money }}
+								</s>
+							{% endif %}
+							
+							
+							<span class="subtotal-value">
+								{{ cart.total_price | money }}
+							</span>
+							
+							</div>
+						</div>
+
+					</div>
+
+
+
 						<p class="cart-policy-text">
 							{%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
 								{{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
@@ -401,14 +491,17 @@
 	          {% endif %}
 						{%- if settings.cart_drawer_checkout_button -%}
 						<form action="{{ routes.cart_url }}" method="post" novalidate>
-							<button type="submit" class="button full checkout" name="checkout" title="{{ 'general.cart_drawer.checkout' | t | escape }}"><span>{{ 'general.cart_drawer.checkout' | t }} <b>•</b> {% if settings.currency_code_enabled %}{{ cart.total_price | money_with_currency }}{% else %}{{ cart.total_price | money }}{% endif %}</span></button>
+							<button type="submit" class="button full checkout" name="checkout" title="{{ 'general.cart_drawer.checkout' | t | escape }}">
+								<span>{{ 'general.cart_drawer.checkout' | t }} 
+									{% comment %} <b>•</b> {% if settings.currency_code_enabled %}{{ cart.total_price | money_with_currency }}{% else %}{{ cart.total_price | money }}{% endif %}</span> {% endcomment %}
+								</button>
 						</form>
 						{%- endif -%}
-						 {%- if additional_checkout_buttons -%}
+						{% comment %} {%- if additional_checkout_buttons -%}
 							<div class="cart-drawer-dynamic-checkout-buttons">
 								{{ content_for_additional_checkout_buttons }}
 							</div>
-							{%- endif -%}
+						{%- endif -%} {% endcomment %}
 						{%- if settings.cart_drawer_cart_button -%}
 						<a href="{{ routes.cart_url }}" class="text-button" title="{{ 'general.cart_drawer.view_cart' | t | escape }}">{{ 'general.cart_drawer.view_cart' | t }}</a>
 						{%- endif -%}
