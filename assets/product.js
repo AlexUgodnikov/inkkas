@@ -955,7 +955,7 @@ if (typeof addIdToRecentlyViewed !== "undefined") {
   addIdToRecentlyViewed();
 }
 
-
+ 
 
 function initProductRatingMover() {
    

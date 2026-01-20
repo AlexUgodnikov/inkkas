@@ -1,0 +1,57 @@
+ {% assign product_tags_list = product.tags | join: ' ' %}
+{% assign styleName = '' %}
+
+{% if product_tags_list contains 'bootie-size-chart' %}
+  {% assign styleName = 'Booties' %}
+{% elsif product_tags_list contains 'boots-size-chart' %}
+  {% assign styleName = 'Camping' %}
+{% elsif product_tags_list contains 'high-top-size-chart' %}
+  {% assign styleName = 'High' %}
+{% elsif product_tags_list contains 'jogger-size-chart' %}
+  {% assign styleName = 'Joggers' %}
+{% elsif product_tags_list contains 'low-top-size-chart' %}
+  {% assign styleName = 'Low Tops' %}
+{% elsif product_tags_list contains 'kids-size-chart' %}
+  {% assign styleName = 'Kids' %}
+{% elsif product_tags_list contains 'runner-size-chart' %}
+  {% assign styleName = 'Runners' %}
+{% elsif product_tags_list contains 'slide-size-chart' %}
+  {% assign styleName = 'Slides' %}
+{% elsif product_tags_list contains 'slip-on-size-chart' %}
+  {% assign styleName = 'Slip Ons' %}
+{% elsif product_tags_list contains 'size-guide-buckle-sandals' %}
+  {% assign styleName = 'Buckle sandals' %}
+{% elsif product_tags_list contains 'size-guide-trekks' %}
+  {% assign styleName = 'Trekk Boots' %}
+{% elsif product_tags_list contains 'western-size-chart' %}
+  {% assign styleName = 'Western Boots' %}
+{% elsif product_tags_list contains 'coverups-size-chart' %}
+  {% assign styleName = 'Cover Ups' %}
+{% elsif product_tags_list contains 'tennis-size-chart' %}
+  {% assign styleName = 'Runs' %}
+{% elsif product_tags_list contains 'trainer-size-chart' %}
+  {% assign styleName = 'Trainers' %}
+{% endif %}
+<ul>
+<li>{{styleName}} run true to size.</li>
+<li>If between sizes, use our easy <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant><strong>Size Guide</strong></a> to see whether to size up or down.</li>
+{% if styleName contains 'Joggers' or styleName contains 'Slip Ons' %}
+<li>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+  <g clip-path="url(#clip0_552_365)">
+    <path d="M19 9.5C19 9.77559 18.7481 10 18.4388 10H0.561163C0.25186 10 0 9.77559 0 9.5C0 9.22441 0.25186 9 0.561163 9H18.4388C18.7481 9 19 9.22441 19 9.5Z" fill="black"/>
+    <path d="M18.9357 5.00175C18.865 5.16434 18.7413 5.28497 18.5954 5.33741C15.577 6.44406 12.5145 7 9.5005 7C6.48653 7 3.42395 6.43881 0.405557 5.33741C0.259719 5.28497 0.135979 5.16434 0.0652698 5.00175C-0.00543916 4.83916 -0.0186971 4.65035 0.025496 4.47727C0.105044 4.18881 0.330428 4 0.573491 4C0.630942 4 0.683973 4.01049 0.741424 4.03147C6.55282 6.15035 12.4438 6.15035 18.2507 4.03147C18.5512 3.92133 18.8739 4.12063 18.9711 4.47727C19.0197 4.65035 19.0064 4.83916 18.9357 5.00175Z" fill="black"/>
+    <path d="M18.9745 14.5237C18.8773 14.8805 18.5548 15.0798 18.2543 14.9697C15.3515 13.9098 12.4265 13.3799 9.50157 13.3799C6.57663 13.3799 3.65168 13.9098 0.748831 14.9697C0.448383 15.0798 0.125844 14.8805 0.0286404 14.5237C-0.0199615 14.3505 -0.00670643 14.1617 0.0684055 13.999C0.139099 13.8364 0.262813 13.7157 0.408618 13.6632C3.42635 12.5562 6.48826 12 9.50157 12C12.5149 12 15.5768 12.5614 18.5945 13.6632C18.7403 13.7157 18.864 13.8364 18.9347 13.999C19.0054 14.1617 19.0187 14.3505 18.9745 14.5237Z" fill="black"/>
+    <path d="M11 1.45989L9.5 3L8 1.45989H8.63131C8.77778 1.45989 8.89899 1.36364 8.89899 1.24733V0H10.096V1.24733C10.096 1.36364 10.2172 1.45989 10.3636 1.45989H11Z" fill="black"/>
+    <path d="M11 17.5401H10.3676C10.2209 17.5401 10.0995 17.6364 10.0995 17.7527V19H8.90051V17.7527C8.90051 17.6364 8.77909 17.5401 8.63238 17.5401H8L9.50253 16L11 17.5401Z" fill="black"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_552_365">
+      <rect width="20" height="20" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
+<strong>Flexible Fit</strong> -︎ This style features a roomier, more flexible fit that comfortably accommodates wider feet.</li>
+{% endif %}
+<li><strong>Standard Fit</strong> - Designed for a comfortable, everyday fit that works well for most foot shapes. </li>
+</ul>
