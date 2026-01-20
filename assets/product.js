@@ -956,3 +956,51 @@ if (typeof addIdToRecentlyViewed !== "undefined") {
 }
 
 
+
+function initProductRatingMover() {
+   
+    const TARGET_SEL = '.product-information div[data-oke-star-rating]';
+    const DESTINATION_SEL = '.product-grid-container';
+    const mobileQuery = window.matchMedia('(max-width: 767px)');
+
+    const handlePlacement = () => {
+        const widget = document.querySelector(TARGET_SEL);
+        const container = document.querySelector(DESTINATION_SEL);
+
+        if (widget && container && mobileQuery.matches) {
+            
+            if (container.firstChild !== widget) {
+                container.prepend(widget);
+            }
+        }
+    };
+
+  
+    const observer = new MutationObserver((mutations, obs) => {
+        const widget = document.querySelector(TARGET_SEL);
+        if (widget) {
+            handlePlacement();
+           
+            obs.disconnect();
+        }
+    });
+
+   
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
+
+    
+    mobileQuery.addEventListener('change', handlePlacement);
+
+  
+    handlePlacement();
+}
+
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initProductRatingMover);
+} else {
+    initProductRatingMover();
+}

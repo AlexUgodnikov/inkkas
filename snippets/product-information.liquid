@@ -17,7 +17,7 @@
         <h1 class="product-title uppercase--{{ block.settings.uppercase }}">{{ product.title }}</h1>
         <div class="product-price-container">
           <div class="no-js-hidden" id="price-{{ section.id }}">
-            {% render 'product-price', product: product, use_variant: true, show_badges: true %}
+            {% render 'product-price', product: product, use_variant: true, show_badges: false %}
           </div>
           {%- if section.settings.show_taxes_included != blank -%}
             {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
@@ -944,7 +944,7 @@
               {% render 'icon-minus' %}
             </summary>
             <div id="custom-field--value{{ block.id }}" class="custom-field--value collapsible__content accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
-              {%- if block.settings.show_description -%}
+             {%- if block.settings.show_description -%}
                 {% if block.settings.description_type == 'show_before_ul' or block.settings.description_type == 'show_ul' %}
                   <script>
                     (function() {
@@ -970,6 +970,7 @@
               {%- elsif block.settings.show_okendo_reviews -%}
                 {% render 'okendo-reviews-widget', product: product %}
               {% else %}
+                {{ block.settings.custom_liquid }}
                 {{ block.settings.content }}
                 {{ block.settings.page.content }}
               {%- endif -%}

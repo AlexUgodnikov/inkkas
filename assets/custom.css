@@ -116,7 +116,7 @@ left: 1px;
   margin: 0 !important;
   border-top: 0.1rem solid rgba(0, 0, 0, 0.08);
   border-bottom: 0.1rem solid rgba(0, 0, 0, 0.08);
-  padding: 10px 0;
+  padding: 11px 0;
 }
 
 .collapsible-tab-2 .custom-field--title {
@@ -1808,7 +1808,7 @@ a.mobile-link-caps img {
 
 .inventory-custom-code .product-card__tag-info {
   display: block;
-  line-height: 1.1;
+  line-height: 1.05;
   max-width: 200px;
   text-align: center;
   padding: 10px 20px;
@@ -1841,11 +1841,12 @@ a.mobile-link-caps img {
 .product-image-container .inventory-custom-code {
   position: absolute;
   left: 15%;
-  top: 15px;
+  top: 25px;
   z-index: 3;
   display: flex;
   gap: 3px;
   flex-wrap: wrap;
+  padding:0;
 }
 
 .product-image-container .inventory-custom-code .product-card__tag-info {
@@ -1864,7 +1865,7 @@ a.mobile-link-caps img {
 
   .product-image-container .inventory-custom-code {
     left: 15px;
-    top: 15px;
+    top: 25px;
   }
 
   .product-image-container .inventory-custom-code .product-card__tag-info {
@@ -2422,4 +2423,56 @@ shopify-accelerated-checkout-cart {
 
 .side-panel.product-drawer .view-product-details {
   margin-top: 0;
+}
+
+/* Product modification new css  */
+.thb-product-detail .product-information .okeReviews.oke-sr{
+  padding-top: 0;
+}
+.product-grid-container > div[data-oke-star-rating]:first-child{
+  display: none;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #DEDEDE;
+}
+@media(max-width:767px){
+  .thb-product-detail .product-information div[data-oke-star-rating]{
+    display: none;
+  }
+  .product-grid-container > div[data-oke-star-rating]:first-child{
+    display: block;
+  }
+}
+
+
+
+.thb-product-detail .product-information .product-title{
+  margin-bottom: 0;
+}
+.thb-product-detail .product-price-container .price{
+  margin-bottom: 3px;
+  order:1;
+}
+.product-price-container .no-js-hidden{
+  display: flex;
+  flex-direction: column;
+}
+.product-price-container .htusb-ui-prod-boost-generic-pricing{
+  order:3;
+}
+.thb-product-detail .htusb-ui-prod-boost-generic-pricing .htusb-static-message{
+  margin:0;
+  color:#151515!important;
+}
+.thb-product-detail .sezzle-shopify-info-button {
+  margin:0!important;
+  min-height:auto;
+  order:2;
+}
+
+.product-information .inventory-custom-code{
+  padding-top:14px;
+  padding-bottom: 6px;
+}
+.product-information .inventory-custom-code .product-card__tag-info:not(:last-child){
+  margin-bottom: 6px;
 }
