@@ -235,7 +235,7 @@
 	<div class="product-cart-item-price">
 							<span class="price">
 							{%- if item.product.compare_at_price != blank -%}
-								<ins><span class="amount amount-sale">{{ item.final_line_price | money }}</span></ins>
+								<ins><span class="amount amount-sale">{{ item.final_price | money }}</span></ins>
 							 <del><span class="amount"><div class="pn-total-line-item" data-id="{{ item.key }}">{{ item.product.compare_at_price | money }}</div></span></del>
 							 
 							{%- else -%}
@@ -374,6 +374,68 @@
 					{%- endif -%}
 
 					<div class="cart-drawer-buttons">
+
+
+
+
+					{% assign total_compare_at_sum = 0 %}
+
+					{% for item in cart.items %}
+
+					
+					{% assign real_item_price = item.original_price %}
+					
+					{% if item.variant.compare_at_price > item.original_price %}
+						{% assign real_item_price = item.variant.compare_at_price %}
+					{% endif %}
+
+
+					{% assign line_compare_at = real_item_price | times: item.quantity %}
+					
+					
+					{% assign total_compare_at_sum = total_compare_at_sum | plus: line_compare_at %}
+					{% endfor %}
+
+
+
+					{% assign total_savings = total_compare_at_sum | minus: cart.total_price %}
+						<div class="cart-summary-totals" >
+
+
+						{% if total_savings > 0 %}
+							<div class="cart-row">
+							<span class="subtotal-label">Saving</span>
+							<span class="subtotal-value">
+								-{{ total_savings | money }}
+							</span>
+							</div>
+						{% endif %}
+
+
+						<div class="cart-row" style="display: flex; justify-content: space-between; align-items: center; font-size: 18px;">
+							<span class="subtotal-label">Subtotal</span>
+							
+							<div class="cart-price-block">
+							
+							
+							{% if total_savings > 0 %}
+								<s class="subtotal-value">
+								{{ total_compare_at_sum | money }}
+								</s>
+							{% endif %}
+							
+							
+							<span class="subtotal-value">
+								{{ cart.total_price | money }}
+							</span>
+							
+							</div>
+						</div>
+
+					</div>
+
+
+
 						<p class="cart-policy-text">
 							{%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
 								{{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}

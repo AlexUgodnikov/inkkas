@@ -110,7 +110,7 @@
                               assign inventory_quantity = current_variant.inventory_quantity
                             -%}
 
-                            <div class="product-inventory-notice--wrapper">
+                            <div class="cart-item-inventory">
 
                               {% if current_variant != blank and current_variant.inventory_management == 'shopify' and inventory_quantity > 0 %}
 
@@ -302,6 +302,62 @@
                   <a href="{{ routes.all_products_collection_url }}" class="back_to_shop text-button">{{ 'general.continue_shopping' | t }}</a>
                 </td>
                 <td class="thb-cart-form--cart-collaterals" colspan="2">
+
+
+                  {% assign total_compare_at_sum = 0 %}
+
+                  {% for item in cart.items %}
+
+
+                    {% assign real_item_price = item.original_price %}
+
+                    {% if item.variant.compare_at_price > item.original_price %}
+                      {% assign real_item_price = item.variant.compare_at_price %}
+                    {% endif %}
+
+
+                    {% assign line_compare_at = real_item_price | times: item.quantity %}
+
+
+                    {% assign total_compare_at_sum = total_compare_at_sum | plus: line_compare_at %}
+                  {% endfor %}
+
+
+                  {% assign total_savings = total_compare_at_sum | minus: cart.total_price %}
+                  <div class="cart-summary-totals">
+
+
+                    {% if total_savings > 0 %}
+                      <div class="cart-row">
+                        <span class="subtotal-label">Saving</span>
+                        <span class="subtotal-value">
+                          -{{ total_savings | money }}</span>
+                      </div>
+                    {% endif %}
+
+
+                    <div class="cart-row" style="display: flex; justify-content: space-between; align-items: center; font-size: 18px;">
+                      <span class="subtotal-label">Subtotal</span>
+
+                      <div class="cart-price-block">
+
+
+                        {% if total_savings > 0 %}
+                          <s class="subtotal-value">
+                            {{ total_compare_at_sum | money }}
+                          </s>
+                        {% endif %}
+
+
+                        <span class="subtotal-value">
+                          {{ cart.total_price | money }}
+                        </span>
+
+                      </div>
+                    </div>
+
+                  </div>
+
                   {% if section.settings.cart_notes_enable %}
                     <collapsible-row class="accordion">
                       <details class="cart-notes">
@@ -340,6 +396,8 @@
                   {%- endif -%}
                   {% if settings.cart_terms_conditions_enable %}
                     <div class="thb-cart-form--cart-collaterals-terms">
+
+
                       <input
                         type="checkbox"
                         id="CartTerms"

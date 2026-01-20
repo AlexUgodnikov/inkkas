@@ -2110,6 +2110,16 @@ cartdrawer-recommends {
   font-weight: var(--font-body-medium-weight, 500);
 }
 
+.cartdrawer-recommend-title del .amount {
+  color: #000;
+  opacity: 1;
+}
+
+.cartdrawer-recommend-title ins .amount {
+  color: #ff0000;
+
+}
+
 .cartdrawer-recommends-swiper .slider__cards button[name="add"],
 .cartdrawer-recommends-swiper .choose-select,
 .cartdrawer-recommends-swiper .addt-to-cart-drawer {
@@ -2282,6 +2292,11 @@ shopify-accelerated-checkout-cart {
   font-size: 12px;
 }
 
+.cart-items .product-inventory-notice--wrapper,
+.side-panel-content .product-inventory-notice--wrapper {
+  display: inline-flex;
+}
+
 @media(max-width:768px) {
 
   .side-panel-content .product-inventory-notice .product-inventory-notice--text,
@@ -2290,6 +2305,37 @@ shopify-accelerated-checkout-cart {
     padding: 5px 3px;
   }
 }
+
+/* Cart drawer summery totla  */
+
+.cart-summary-totals {
+  width: 100%;
+}
+
+.cart-summary-totals .cart-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.cart-summary-totals .subtotal-value {
+  color: #22a401;
+}
+
+.cart-summary-totals .cart-price-block {
+  display: flex;
+  gap: 10px;
+}
+
+.cart-summary-totals .cart-price-block .subtotal-value {
+  color: #000;
+}
+
+.cart-summary-totals .cart-price-block s.subtotal-value {
+  color: #acacac;
+}
+
 
 /* side-panel */
 .side-panel.product-drawer .product-title-container {
