@@ -61,19 +61,6 @@
             "custom_code": ""
           }
         },
-        "text_M9Q8aq": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "style_vendor"
-          }
-        },
-        "custom_liquid_LyBCHn": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          }
-        },
         "side_panel_g4pmfR": {
           "type": "side_panel",
           "settings": {
@@ -528,8 +515,6 @@
         "label_block_wdhrVD",
         "variant_picker",
         "inventory_level_BhJagd",
-        "text_M9Q8aq",
-        "custom_liquid_LyBCHn",
         "side_panel_g4pmfR",
         "preorder_me_product_button_t8zPaL",
         "buy_buttons",
