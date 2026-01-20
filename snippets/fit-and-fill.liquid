@@ -32,7 +32,7 @@
 {% elsif product_tags_list contains 'trainer-size-chart' %}
   {% assign styleName = 'Trainers' %}
 {% endif %}
-<ul>
+<ul class="fit-andfill-list">
 <li>{{styleName}} run true to size.</li>
 <li>If between sizes, use our easy <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant><strong>Size Guide</strong></a> to see whether to size up or down.</li>
 {% if styleName contains 'Joggers' or styleName contains 'Slip Ons' %}
