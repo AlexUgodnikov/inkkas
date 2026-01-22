@@ -2435,7 +2435,7 @@ shopify-accelerated-checkout-cart {
   margin-bottom: 15px;
   border-bottom: 1px solid #DEDEDE;
 }
-@media(max-width:767px){
+@media(max-width:1067px){
   .thb-product-detail .product-information div[data-oke-star-rating]{
     display: none;
   }

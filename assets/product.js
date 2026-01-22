@@ -976,7 +976,7 @@ function initProductRatingMover() {
    
     const TARGET_SEL = '.product-information div[data-oke-star-rating]';
     const DESTINATION_SEL = '.product-grid-container';
-    const mobileQuery = window.matchMedia('(max-width: 767px)');
+    const mobileQuery = window.matchMedia('(max-width: 1067px)');
 
     const handlePlacement = () => {
         const widget = document.querySelector(TARGET_SEL);
