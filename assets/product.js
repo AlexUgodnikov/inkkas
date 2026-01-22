@@ -1023,6 +1023,7 @@ if (document.readyState === 'loading') {
 
 
 
+
 if (!customElements.get('product-variant-manager')) {
   class ProductVariantManager extends HTMLElement {
     constructor() {
@@ -1030,24 +1031,25 @@ if (!customElements.get('product-variant-manager')) {
     }
 
     connectedCallback() {
-      
       this.initTabsFromCookie();
       this.setupEventListeners();
-      this.updateProductLabel();
+    
+      setTimeout(() => this.updateProductLabel(), 100);
     }
 
     setupEventListeners() {
-     
       this.addEventListener('click', (event) => {
         const target = event.target;
 
        
         const tab = target.closest('.js-custom-tab');
         if (tab) {
+          event.preventDefault();
           this.handleTabClick(tab);
+          return;
         }
 
-      
+       
         const label = target.closest('.product-form__input_dann label');
         if (label) {
           this.handleVariantClick(label);
@@ -1056,9 +1058,9 @@ if (!customElements.get('product-variant-manager')) {
     }
 
     handleTabClick(tab) {
+      const type = tab.dataset.type;
       const allTabs = this.querySelectorAll('.js-custom-tab');
       const allPanes = this.querySelectorAll('.show_variants');
-      const type = tab.dataset.type;
 
       allTabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
@@ -1067,7 +1069,7 @@ if (!customElements.get('product-variant-manager')) {
       const activePane = this.querySelector(`#${type}_type`);
       if (activePane) activePane.classList.add('active');
 
-      
+     
       document.cookie = `inkasstype=${type}; expires=${new Date(Date.now() + 31 * 864e5).toUTCString()}; path=/`;
 
       this.updateProductLabel();
@@ -1078,38 +1080,52 @@ if (!customElements.get('product-variant-manager')) {
       const titleshort = label.dataset.titleshort;
 
      
+      const allMatchingInputs = this.querySelectorAll(`label[data-titleshort="${titleshort}"]`);
+      
+      allMatchingInputs.forEach(matchingLabel => {
+        const inputId = matchingLabel.getAttribute('for');
+        const input = document.getElementById(inputId);
+        if (input) {
+          input.checked = true; 
+        }
+      });
+
+     
       history.pushState({}, null, `?variant=${var_id}`);
 
-
+     
       const mainProd = document.querySelector(`.main_prod_${titleshort}`);
       const productThumb = document.querySelector(`.product_${titleshort}`);
       if (mainProd) mainProd.click();
       if (productThumb) productThumb.click();
 
-      
+     
       const variantSelects = document.querySelector('variant-selects');
       if (variantSelects) {
-        variantSelects.dispatchEvent(new Event('change'));
+        variantSelects.dispatchEvent(new Event('change', { bubbles: true }));
       }
 
      
-      const submitButton = document.querySelector('.product-form__submit');
-      if (submitButton) {
-        if (label.classList.contains('available_true')) {
-          submitButton.textContent = 'Add to cart';
-          submitButton.disabled = false;
-        } else if (label.classList.contains('available_false')) {
-          submitButton.textContent = 'Sold out';
-          submitButton.disabled = true;
-        }
-      }
+      this.updateSubmitButton(label);
 
-  
-      setTimeout(() => this.updateProductLabel(), 20);
+    
+      setTimeout(() => this.updateProductLabel(), 50);
+    }
+
+    updateSubmitButton(label) {
+      const submitButton = document.querySelector('.product-form__submit');
+      if (!submitButton) return;
+
+      if (label.classList.contains('available_true')) {
+        submitButton.textContent = 'Add to cart';
+        submitButton.disabled = false;
+      } else if (label.classList.contains('available_false')) {
+        submitButton.textContent = 'Sold out';
+        submitButton.disabled = true;
+      }
     }
 
     initTabsFromCookie() {
-    
       const getCookie = (name) => {
         let value = `; ${document.cookie}`;
         let parts = value.split(`; ${name}=`);
@@ -1118,7 +1134,7 @@ if (!customElements.get('product-variant-manager')) {
 
       const type = getCookie('inkasstype');
       if (type) {
-        const targetTab = this.querySelector(`#tab_type_${type}`);
+        const targetTab = this.querySelector(`#tab_type_${type}`) || this.querySelector(`[data-type="${type}"]`);
         if (targetTab) {
           this.handleTabClick(targetTab);
         }
@@ -1129,22 +1145,25 @@ if (!customElements.get('product-variant-manager')) {
       const labelValueContainer = document.querySelector('.js-product-label-dm-value');
       if (!labelValueContainer) return;
 
-  
       const activeTab = this.querySelector('.js-custom-tab.active');
-      const activeTabText = activeTab ? activeTab.innerText.trim() : '';
+      const activeTabText = activeTab ? activeTab.innerText.trim().toLowerCase() : '';
 
-      
       const activePane = this.querySelector('.show_variants.active');
       let variantText = '';
       
       if (activePane) {
-        const checkedInputLabel = activePane.querySelector('.product-form__input_dann input:checked + label');
-        if (checkedInputLabel) {
-          variantText = checkedInputLabel.innerText.trim().split(/\s+/)[0];
+       
+        const checkedInput = activePane.querySelector('input:checked');
+        if (checkedInput) {
+          const associatedLabel = activePane.querySelector(`label[for="${checkedInput.id}"]`);
+          if (associatedLabel) {
+            variantText = associatedLabel.innerText.trim().split(/\s+/)[0];
+           
+          }
         }
+      
       }
 
-      
       const finalString = `${activeTabText} ${variantText}`.trim();
       labelValueContainer.textContent = finalString;
     }
@@ -1152,4 +1171,3 @@ if (!customElements.get('product-variant-manager')) {
 
   customElements.define('product-variant-manager', ProductVariantManager);
 }
-        
