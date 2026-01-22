@@ -2428,7 +2428,7 @@ shopify-accelerated-checkout-cart {
 /* Product modification new css  */
 .thb-product-detail .product-information .okeReviews.oke-sr{
   padding-top: 0;
-}
+} 
 .product-grid-container > div[data-oke-star-rating]:first-child{
   display: none;
   padding-bottom: 8px;
