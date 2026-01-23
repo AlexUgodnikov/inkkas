@@ -2275,9 +2275,9 @@ cartdrawer-recommends {
   background-color: #f3f3f3;
 }
 
-.product-card .product-featured-image-link img {
+.product-card .product-featured-image-link .product-primary-image {
   mix-blend-mode: multiply;
-}
+} 
 
 /* Cart drawer dynamic checkout buttons */
 .cart-drawer-dynamic-checkout-buttons {
