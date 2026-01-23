@@ -877,7 +877,7 @@ collapsible-row+.share-article {
   }
 
   .product-title-container {
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 }
 
@@ -2427,21 +2427,21 @@ shopify-accelerated-checkout-cart {
 
 /* Product modification new css  */
 .thb-product-detail .product-information .okeReviews.oke-sr{
-  padding-top: 0;
+  /* padding-top: 0; */
 } 
 .product-grid-container > div[data-oke-star-rating]:first-child{
-  display: none;
+  /* display: none;
   padding-bottom: 8px;
   margin-bottom: 15px;
-  border-bottom: 1px solid #DEDEDE;
+  border-bottom: 1px solid #DEDEDE; */
 }
 @media(max-width:1067px){
-  .thb-product-detail .product-information div[data-oke-star-rating]{
+  /* .thb-product-detail .product-information div[data-oke-star-rating]{
     display: none;
   }
   .product-grid-container > div[data-oke-star-rating]:first-child{
     display: block;
-  }
+  } */
 }
 
 
@@ -2513,7 +2513,7 @@ shopify-accelerated-checkout-cart {
   margin-right: 10px;
 }
 .inventory_size-chart-wrp .product-inventory-notice .product-inventory-notice--text{
-  color: #EA2100;
+  /* color: #EA2100; */
   font-size: 18px;
   font-weight: 500;
   text-transform: capitalize;
@@ -2551,7 +2551,7 @@ margin-right: 7px;
 .side-panel-links.has-tooltip .tooltip-label{
   text-align: center;
   cursor: pointer;
-  font-weight: 600;
+
 }
 .side-panel-tooltip-links{
   display:none;
@@ -2604,9 +2604,7 @@ margin-right: 7px;
   text-align: right;
 }
 .product-variant-label-dm__fit, .product-variant-label-dm__label{
-  font-size: 18px;
   font-weight: 600;
-  line-height: 28px;
 }
 .product-variant-label-dm__label span{
   text-transform: capitalize;
@@ -2616,11 +2614,10 @@ margin-right: 7px;
   display:flex;
   align-items: center;
   gap:10px;
-  font-weight: 600;
 }
 .product-variant-label-dm__true-to-size svg{
   display:flex;
-  width:50px;
+  width:60px;
   height:auto;
   position: relative;
     top: 1px;
@@ -2684,6 +2681,9 @@ product-form .add_to_cart_holder{
   }
   .product-variant-tabs-wrp .product-form__input_dann{
     gap:7px;
+  }
+  .product-variant-label-dm__true-to-size, .side-panel-links.has-tooltip .tooltip-label, .product-variant-label-dm__fit, .product-variant-label-dm__label{
+    font-size: 15px;
   }
 }
 @media(max-width:374px){
