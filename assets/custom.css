@@ -2422,7 +2422,8 @@ shopify-accelerated-checkout-cart {
 }
 
 .side-panel.product-drawer .view-product-details {
-  margin-top: 0;
+margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* Product modification new css  */
