@@ -164,6 +164,7 @@
 }
 
 .shopify-payment-button .shopify-payment-button__more-options {
+  display: none;
   text-decoration: none;
   margin: 1em auto 0;
   width: auto;

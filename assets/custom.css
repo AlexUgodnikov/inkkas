@@ -2545,11 +2545,13 @@ margin-right: 7px;
     display: flex;
     justify-content: center;
     margin-bottom: 0;
-    margin-top: 18px;
+    margin-top: 22px;
+    margin-bottom: 15px;
 }
 .side-panel-links.has-tooltip .tooltip-label{
   text-align: center;
   cursor: pointer;
+  font-weight: 600;
 }
 .side-panel-tooltip-links{
   display:none;
@@ -2614,11 +2616,14 @@ margin-right: 7px;
   display:flex;
   align-items: center;
   gap:10px;
-  font-size: 14px;
+  font-weight: 600;
 }
 .product-variant-label-dm__true-to-size svg{
   display:flex;
- 
+  width:50px;
+  height:auto;
+  position: relative;
+    top: 1px;
 }
 .product-variant-tabs-wrp .tab_variants{
   width: 100%;
@@ -2675,10 +2680,10 @@ product-form .add_to_cart_holder{
       font-size: 15px;
   }
   .product-variant-tabs-wrp .show_variants{
-    padding: 16px;
+    padding: 12px;
   }
   .product-variant-tabs-wrp .product-form__input_dann{
-    gap:13px;
+    gap:7px;
   }
 }
 @media(max-width:374px){
