@@ -2600,6 +2600,7 @@ margin-right: 7px;
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 10px;
+  margin-top: 5px;
 }
 .product-variant-label-dm__link{
   text-align: right;
@@ -2684,7 +2685,7 @@ product-form .add_to_cart_holder{
   .product-variant-tabs-wrp .product-form__input_dann{
     gap:7px;
   }
-  .product-variant-label-dm__true-to-size, .side-panel-links.has-tooltip .tooltip-label, .product-variant-label-dm__fit, .product-variant-label-dm__label{
+  .product-variant-label-dm__true-to-size, .side-panel-links.has-tooltip .tooltip-label, .product-variant-label-dm__fit{
     font-size: 15px;
   }
 }
