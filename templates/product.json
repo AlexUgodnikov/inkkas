@@ -1131,262 +1131,136 @@
         "disable_bottom_spacing": true
       }
     },
-    "gallery_EytwCn": {
+    "gallery_jabGP6": {
       "type": "gallery",
       "blocks": {
-        "image_QMUV6G": {
+        "image_7ndmM4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Brown_Leather_Bootie-UGC-_this_thrifted_wardrobe.png",
+            "image": "shopify://shop_images/BROWN-LEATHER-CAMPING-BOOTS-UGC-SUBURBANWORMS-converter.webp",
             "subheading": "",
             "title": "",
-            "text": "@this.thrifted.wardrobe",
-            "link_label": "SHOP",
-            "link": "shopify://products/brown-leather-bootie",
-            "use_text_button": false,
-            "block_link": "shopify://products/brown-leather-bootie",
-            "product_list": []
-          }
-        },
-        "image_bT9KMd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Blake-Slip_Ons-UGC-_koshiatthepark-CAT-1.png",
-            "subheading": "",
-            "title": "",
-            "text": "@koshiatthepark",
+            "text": "@SUBURBANWORMS",
             "link_label": "shop",
-            "link": "shopify://products/blake-slip-on",
+            "link": "shopify://products/brown-leather-camping-boot",
             "use_text_button": false,
             "block_link": "",
             "product_list": []
           }
         },
-        "image_Uih8gf": {
+        "image_xtiwVn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-08-07_at_10.39.17_AM.png",
+            "image": "shopify://shop_images/ChanterelleVeganTrekkBoot-Hike-UGC-SilverFallsStateParkOregon-cockeyed.cailou-converter.webp",
             "subheading": "",
             "title": "",
-            "text": "@charxciii",
-            "link_label": "SHOP",
-            "link": "shopify://products/spirit-bear-trekk-boot",
-            "use_text_button": true,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_AJdT9f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Andes_Jogger-INFLUENCER-TEACHER-_lifeskills_2_learn-image1.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "@lifeskills_2_learn",
-            "link_label": "SHOP",
-            "link": "shopify://products/andes-jogger",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_qf3WGA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChanterelleVeganJogger-UGC-Sedona-tatumason-FBKellyDeSanta-2-ezgif.com-png-to-webp-converter.webp",
-            "subheading": "",
-            "title": "",
-            "text": "@tatumason",
+            "text": "@cockeyed.cailou",
             "link_label": "shop",
-            "link": "shopify://products/chanterelle-vegan-jogger",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_9XWePM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Popinjay_Trekk_boots-INFLUENCER-DOG-_canineantics.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "@canineantics",
-            "link_label": "SHOP",
-            "link": "shopify://products/popinjay-trekk-boot",
-            "use_text_button": false,
-            "block_link": "shopify://products/mohave-trekk-boot",
-            "product_list": []
-          }
-        },
-        "image_dTCXkW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Chanterelle_Vegan_Trekk_Boot-UGC-HIKE-DOG-_vegstina-2.png",
-            "subheading": "",
-            "title": "",
-            "text": "@vegstina",
-            "link_label": "SHOP",
             "link": "shopify://products/chanterelle-vegan-trekk-boot",
             "use_text_button": false,
-            "block_link": "shopify://products/prickly-camping-boot",
+            "block_link": "",
             "product_list": []
           }
         },
-        "image_yJQEUz": {
+        "image_zKHNA9": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Desert_Buckle_Sandal-INFLUENCER-_jessicayekin-1.jpg",
+            "image": "shopify://shop_images/CyptusTrekkBoot-UGC-HIKE-HEART-SNOW-kerribrooks-2-converter_c74ef946-bb6c-4ad1-869a-3e0044129368.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@kerribrooks",
+            "link_label": "shop",
+            "link": "shopify://products/cyprus-trekk-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_9crtXw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TAN-SUEDE-CAMPING-BOOT-150402-UGC-wishfornatureandtravel-converter_0ab57944-9b7e-42eb-a7a6-2f52d803913b.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@wishfornatureandtravel",
+            "link_label": "shop",
+            "link": "shopify://products/tan-suede-camping-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_adqbzi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CyprusTrekkBoot-Hike-UGC-SilverFallsStateParkOregon-youngjefejones-713-converter.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@youngjefejones",
+            "link_label": "shop",
+            "link": "shopify://products/cyprus-trekk-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_aYiTpq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CyprusSlide-UGC-mibloodnhoney86-converter_42855dff-7057-4102-b9f2-df2876f152db.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@mibloodnhoney86",
+            "link_label": "shop",
+            "link": "shopify://products/cyprus-slide",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_YQixmQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FLUTTERBYTREKKBOOT-UGC-HIKE-art_blongs-1-converter.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@art_blongs",
+            "link_label": "shop",
+            "link": "shopify://products/flutterby-trekk-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_cQ8E3m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MohaveTrekkBoot-AlpineTrekkBoot-UGC-seashelladdict-2-converter.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@seashelladdict",
+            "link_label": "shop",
+            "link": "shopify://products/mohave-trekk-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_TD9Kpy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MohaveTrekkBoot-UGC-HIKE-jessicayekin-8-converter.webp",
             "subheading": "",
             "title": "",
             "text": "@jessicayekin",
-            "link_label": "SHOP",
-            "link": "shopify://products/desert-buckle-sandal",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_QkaGhG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Popinjay_Trekk_Boot-UGC-HIKE-_where.in.the.world.is_jo_f45a2220-a121-4a20-9d35-c9abf783a0a6.png",
-            "subheading": "",
-            "title": "",
-            "text": "@where.in.the.world.is_jo",
             "link_label": "shop",
-            "link": "shopify://products/popinjay-trekk-boot",
+            "link": "shopify://products/mohave-trekk-boot",
             "use_text_button": false,
             "block_link": "",
             "product_list": []
           }
         },
-        "image_EkezEr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Andes_Jogger-UGC-Travel-Machu_Picchu-_jennymvaughn-2_49705c74-fae3-4d7b-9bd8-b209167dc6cb.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "@jennymvaughn",
-            "link_label": "SHOP",
-            "link": "shopify://products/andes-jogger",
-            "use_text_button": false,
-            "block_link": "shopify://products/brown-leather-camping-boot",
-            "product_list": []
-          }
-        },
-        "image_yAfeTa": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sokoke_Camping_Boot-UGC-HIKE-_jolenebrandyulibarri.png",
-            "subheading": "",
-            "title": "",
-            "text": "@jolenebrandyulibarri",
-            "link_label": "SHOP",
-            "link": "shopify://products/sokoke-camping-boot",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_FbGNEg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-07-29_at_2.16.38_PM.png",
-            "subheading": "",
-            "title": "",
-            "text": "@julieasperry",
-            "link_label": "SHOP",
-            "link": "shopify://products/popinjay-trekk-boot",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_7z6iWy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Monterey_Vegan_Trekk_Boot-UGC-HIKE-FALL-_camillereicherter.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "@camillereicherter",
-            "link_label": "SHOP",
-            "link": "shopify://products/monterey-vegan-trekk-boot",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_aitqpW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Brisbane_Camping_Boot-UGC-Hike-Flowers-_alybradio.png",
-            "subheading": "",
-            "title": "",
-            "text": "@alybradio",
-            "link_label": "SHOP",
-            "link": "shopify://products/brisbane-camping-boot",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_myTJmT": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/CYPRUS-HIGH-TOP-CYPRUS-KIDS-HIGH-TOP-UGC-MATCHING-_CCMACKEY65.png",
-            "subheading": "",
-            "title": "",
-            "text": "@ccmackey65",
-            "link_label": "SHOP FAMILY",
-            "link": "shopify://collections/matching-sets",
-            "use_text_button": true,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_QYcmjK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Samadhi_Western_Boot-INFLUENCER-FLOWERS-_miss_t_garnier.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "@miss_t_garnier",
-            "link_label": "SHOP",
-            "link": "shopify://products/samadhi-western-boot",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_XATDdX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-07-29_at_2.13.04_PM.png",
-            "subheading": "",
-            "title": "",
-            "text": "@see_az_with_bre",
-            "link_label": "shop",
-            "link": "shopify://products/caladium-jogger",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_iBJLbK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Grey_Andes_Joggers-INFLUENCER-dog-_crystal_pelka-1_b9fc897b-d8b6-4ba3-a618-89887f76a0cb.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "@crystal_pelka",
-            "link_label": "SHOP",
-            "link": "shopify://products/andes-grey-jogger",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_nwiPRd": {
+        "image_VJbzne": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Spirit_Bear_Trekk_Boot-Alpine_Trekk_Boot-GROUP-UGC-HIKE-_charxciii-2.png",
@@ -1400,7 +1274,273 @@
             "product_list": []
           }
         },
-        "image_mxYMFn": {
+        "image_pcYXfh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChanterelleVeganJogger-UGC-Sedona-tatumason-FBKellyDeSanta-2-ezgif.com-png-to-webp-converter.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@tatumason",
+            "link_label": "shop",
+            "link": "shopify://products/chanterelle-vegan-jogger",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_DRbCzE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Blake-Slip_Ons-UGC-_koshiatthepark-CAT-1.png",
+            "subheading": "",
+            "title": "",
+            "text": "@koshiatthepark",
+            "link_label": "shop",
+            "link": "shopify://products/blake-slip-on",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_ErteBn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-07_at_10.39.17_AM.png",
+            "subheading": "",
+            "title": "",
+            "text": "@charxciii",
+            "link_label": "SHOP",
+            "link": "shopify://products/spirit-bear-trekk-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_kbFafz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Andes_Jogger-INFLUENCER-TEACHER-_lifeskills_2_learn-image1.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "@lifeskills_2_learn",
+            "link_label": "SHOP",
+            "link": "shopify://products/andes-jogger",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_rL3wym": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Popinjay_Trekk_boots-INFLUENCER-DOG-_canineantics.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "@canineantics",
+            "link_label": "SHOP",
+            "link": "shopify://products/popinjay-trekk-boot",
+            "use_text_button": false,
+            "block_link": "shopify://products/mohave-trekk-boot",
+            "product_list": []
+          }
+        },
+        "image_Ra43ja": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Chanterelle_Vegan_Trekk_Boot-UGC-HIKE-DOG-_vegstina-2.png",
+            "subheading": "",
+            "title": "",
+            "text": "@vegstina",
+            "link_label": "SHOP",
+            "link": "shopify://products/chanterelle-vegan-trekk-boot",
+            "use_text_button": false,
+            "block_link": "shopify://products/prickly-camping-boot",
+            "product_list": []
+          }
+        },
+        "image_JzmwVn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AlpineTrekkBoot-UGC-seashelladdict-converter.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@seashelladdict",
+            "link_label": "shop",
+            "link": "shopify://products/alpine-trekk-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_iU397E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desert_Buckle_Sandal-INFLUENCER-_jessicayekin-1.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "@jessicayekin",
+            "link_label": "SHOP",
+            "link": "shopify://products/desert-buckle-sandal",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_jqhiLQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Samadhi_Western_Boot-INFLUENCER-FLOWERS-_miss_t_garnier.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "@miss_t_garnier",
+            "link_label": "SHOP",
+            "link": "shopify://products/samadhi-western-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_hyhgzr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Andes_Jogger-UGC-Travel-Machu_Picchu-_jennymvaughn-2_49705c74-fae3-4d7b-9bd8-b209167dc6cb.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "@jennymvaughn",
+            "link_label": "SHOP",
+            "link": "shopify://products/andes-jogger",
+            "use_text_button": false,
+            "block_link": "shopify://products/brown-leather-camping-boot",
+            "product_list": []
+          }
+        },
+        "image_F4b7Bq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sokoke_Camping_Boot-UGC-HIKE-_jolenebrandyulibarri.png",
+            "subheading": "",
+            "title": "",
+            "text": "@jolenebrandyulibarri",
+            "link_label": "SHOP",
+            "link": "shopify://products/sokoke-camping-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_N77RUE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-29_at_2.16.38_PM.png",
+            "subheading": "",
+            "title": "",
+            "text": "@julieasperry",
+            "link_label": "SHOP",
+            "link": "shopify://products/popinjay-trekk-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_bCnigT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CYPRUS-HIGH-TOP-CYPRUS-KIDS-HIGH-TOP-UGC-MATCHING-_CCMACKEY65.png",
+            "subheading": "",
+            "title": "",
+            "text": "@ccmackey65",
+            "link_label": "SHOP FAMILY",
+            "link": "shopify://collections/matching-sets",
+            "use_text_button": true,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_hUmzxM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Monterey_Vegan_Trekk_Boot-UGC-HIKE-FALL-_camillereicherter.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "@camillereicherter",
+            "link_label": "SHOP",
+            "link": "shopify://products/monterey-vegan-trekk-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_JeMtJq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Brisbane_Camping_Boot-UGC-Hike-Flowers-_alybradio.png",
+            "subheading": "",
+            "title": "",
+            "text": "@alybradio",
+            "link_label": "SHOP",
+            "link": "shopify://products/brisbane-camping-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_39gNMD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-29_at_2.13.04_PM.png",
+            "subheading": "",
+            "title": "",
+            "text": "@see_az_with_bre",
+            "link_label": "shop",
+            "link": "shopify://products/caladium-jogger",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_bNc3Wk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Grey_Andes_Joggers-INFLUENCER-dog-_crystal_pelka-1_b9fc897b-d8b6-4ba3-a618-89887f76a0cb.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "@crystal_pelka",
+            "link_label": "SHOP",
+            "link": "shopify://products/andes-grey-jogger",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_cemYHF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CYPRUS-BACKPACK-UGC-BLUELOTUS303-converter.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@BLUELOTUS303",
+            "link_label": "shop",
+            "link": "shopify://products/cyprus-backpack",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_UC6RK7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Popinjay_Trekk_Boot-UGC-HIKE-_where.in.the.world.is_jo_f45a2220-a121-4a20-9d35-c9abf783a0a6.png",
+            "subheading": "",
+            "title": "",
+            "text": "@where.in.the.world.is_jo",
+            "link_label": "shop",
+            "link": "shopify://products/popinjay-trekk-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_Qpbgbb": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Monterey_Black_Camping_Boot-INFLUENCER-HIKE-Bryce_Canyon_National_Park-_shefali928.jpg",
@@ -1414,7 +1554,7 @@
             "product_list": []
           }
         },
-        "image_GXCFgd": {
+        "image_hVfd9L": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Screen_Shot_2025-04-09_at_12.27.50_PM_8055a621-2f82-446b-ba9a-f04e9b0436df.png",
@@ -1428,7 +1568,7 @@
             "product_list": []
           }
         },
-        "image_7ECyVd": {
+        "image_TTBpdV": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/IMG_8376.jpg",
@@ -1442,7 +1582,7 @@
             "product_list": []
           }
         },
-        "image_xfjrYA": {
+        "image_e4ehCc": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/ROOSTER-TREKK-AW211014-UGC-Passang_Dawa_Sherpa-Nepal-5.jpg",
@@ -1456,7 +1596,21 @@
             "product_list": []
           }
         },
-        "image_pBhnwA": {
+        "image_f3DwB3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Brown_Leather_Bootie-UGC-_this_thrifted_wardrobe.png",
+            "subheading": "",
+            "title": "",
+            "text": "@this.thrifted.wardrobe",
+            "link_label": "SHOP",
+            "link": "shopify://products/brown-leather-bootie",
+            "use_text_button": false,
+            "block_link": "shopify://products/brown-leather-bootie",
+            "product_list": []
+          }
+        },
+        "image_cYMFVH": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Joey_Vegan_Joggers-Alpine_Joggers-Yuuki_Joggers-INFLUENCER-GROUP-NURSE-_wirebackcandles_74d535fc-bfe0-4385-b9ec-faf49326c82b.jpg",
@@ -1470,7 +1624,7 @@
             "product_list": []
           }
         },
-        "image_BJhhjg": {
+        "image_Qfyfzi": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/CYPRUS-TREKK-AW211015-INFLUENCER-UGC-_brandy__marie_7.jpg",
@@ -1484,7 +1638,7 @@
             "product_list": []
           }
         },
-        "image_jKyknH": {
+        "image_nBYKPF": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Brown_Leather_Bootie-UGC-_lelemariecreates.png",
@@ -1498,7 +1652,7 @@
             "product_list": []
           }
         },
-        "image_Q3TdkJ": {
+        "image_T7XWfU": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/BRISBANE-TREKK-AW211017-INFLUENCER-_amyyconte-6.jpg",
@@ -1512,7 +1666,7 @@
             "product_list": []
           }
         },
-        "image_TQCE89": {
+        "image_hnTbRY": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Cyprus_Trekk_Boot-UGC-_margaretemilygraham-_betweenthepine-2.png",
@@ -1526,7 +1680,7 @@
             "product_list": []
           }
         },
-        "image_yjHTf6": {
+        "image_karycX": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/CYPRUS-HIGH-TOP-SS200108-UGC-_eriicisiiah.png",
@@ -1540,7 +1694,7 @@
             "product_list": []
           }
         },
-        "image_tVDiep": {
+        "image_GY7Gp8": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Cyprus_Trekk_Boot-UGC-_texansoverland_96977c76-3008-4b43-bb55-d29ca1928f2e.png",
@@ -1554,7 +1708,7 @@
             "product_list": []
           }
         },
-        "image_z3B99g": {
+        "image_EPHtKL": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Spirit_Bear_Runners-UGC-_liv_stew7.png",
@@ -1568,7 +1722,7 @@
             "product_list": []
           }
         },
-        "image_4KXNLp": {
+        "image_UtWhUY": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Spirit_Bear_Vegan_Joggers-UGC-_thelifeofthreebeagles.png",
@@ -1582,7 +1736,7 @@
             "product_list": []
           }
         },
-        "image_i8UcjY": {
+        "image_4iKi6X": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Sokoke-Slip_Ons-UGC-_doctor.mom.entrepreneur-DOG-Love_my_Inkkas_they_liven_up_my_wearfigs_scrubs.png",
@@ -1596,7 +1750,7 @@
             "product_list": []
           }
         },
-        "image_3QkyLe": {
+        "image_HjXihi": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Socorro_Jogger-INFLUENCER-HIKE-_iamoneness11-1.jpg",
@@ -1610,7 +1764,7 @@
             "product_list": []
           }
         },
-        "image_Ax6CFi": {
+        "image_Ca7kJV": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/TREK-SLIP-ON-SS200306-UGC-_katiegent.png",
@@ -1624,7 +1778,7 @@
             "product_list": []
           }
         },
-        "image_9W4BFq": {
+        "image_TWLBTq": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Prickly_Camping_Boot-UGC-_jamie_adventurelover-3.png",
@@ -1638,7 +1792,7 @@
             "product_list": []
           }
         },
-        "image_NjVjLF": {
+        "image_hymwgR": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Monterey_Trekk_Boot-UGC-_nursebarbie518.png",
@@ -1652,7 +1806,7 @@
             "product_list": []
           }
         },
-        "image_PiKpLD": {
+        "image_CxKeXf": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Mohave_Trekk_Boot-UGC-HIKE-_jessicayekin-4.jpg",
@@ -1666,7 +1820,7 @@
             "product_list": []
           }
         },
-        "image_NTyWzH": {
+        "image_QMiDQU": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Mohave_Trekk_Boot-_smile_outloud-UGC-2.png",
@@ -1680,7 +1834,7 @@
             "product_list": []
           }
         },
-        "image_daLfyd": {
+        "image_yfCDND": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/SOCORRO-SLIP-ON-AW210306-INFLUENCER-_projecthxr-32ECDF.jpg",
@@ -1694,7 +1848,7 @@
             "product_list": []
           }
         },
-        "image_LRkVdE": {
+        "image_N73zx8": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Chanterelle_Vegan_Trekk_Boot-UGC-LAKE-Paulina_Lake-_a.corabelle.thornton-3.png",
@@ -1708,7 +1862,7 @@
             "product_list": []
           }
         },
-        "image_PLMTcg": {
+        "image_ydjREY": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Spectrum_Low_Tops-Influencer-_sewbonita-3_c49bfe85-23fb-4534-babd-4cd269cde41d.jpg",
@@ -1722,7 +1876,7 @@
             "product_list": []
           }
         },
-        "image_7jhjHK": {
+        "image_gGDDUp": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Blake_Slip_On-UGC-_just.jo8.png",
@@ -1736,7 +1890,7 @@
             "product_list": []
           }
         },
-        "image_irLgzb": {
+        "image_KynXzr": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Monterey_Vegan_Trekk_Boot-UGC-yoga-hike-_sarahdoesyoga_1e312012-ca20-4d05-ba96-d7726b33f7c8.png",
@@ -1750,7 +1904,7 @@
             "product_list": []
           }
         },
-        "image_VWxjQg": {
+        "image_hj4bVp": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/ROOSTER-TREKK-AW211014-UGC-_brandy__marie-0401.jpg",
@@ -1764,7 +1918,7 @@
             "product_list": []
           }
         },
-        "image_9tGqqW": {
+        "image_mybrhE": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Tan_Suede_Camping_Boots-UGC-_val.zetti.png",
@@ -1778,7 +1932,7 @@
             "product_list": []
           }
         },
-        "image_G9R9re": {
+        "image_8Q8aEz": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/BADASS-BLACK-SLIP-ON-AW200307-UGC-BALD-EAGLE-HIGH-TOP-KIDS-SS19K024-UGC-MATCH-ROLLIN_RYVER1886.jpg",
@@ -1792,7 +1946,7 @@
             "product_list": []
           }
         },
-        "image_3tg4hK": {
+        "image_Hr7aHa": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Monterey_Trekk_Boot-_UGC-_peachystitches.png",
@@ -1806,7 +1960,7 @@
             "product_list": []
           }
         },
-        "image_k9DYdn": {
+        "image_qNMhxV": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Trek_Slip_On-UGC-_stitch_and_roe.png",
@@ -1820,7 +1974,7 @@
             "product_list": []
           }
         },
-        "image_wnTdYp": {
+        "image_RmKfrJ": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Socorro_Slip_On-INFLUENCER-wedding-_crystal_pelka.jpg",
@@ -1836,61 +1990,72 @@
         }
       },
       "block_order": [
-        "image_QMUV6G",
-        "image_bT9KMd",
-        "image_Uih8gf",
-        "image_AJdT9f",
-        "image_qf3WGA",
-        "image_9XWePM",
-        "image_dTCXkW",
-        "image_yJQEUz",
-        "image_QkaGhG",
-        "image_EkezEr",
-        "image_yAfeTa",
-        "image_FbGNEg",
-        "image_7z6iWy",
-        "image_aitqpW",
-        "image_myTJmT",
-        "image_QYcmjK",
-        "image_XATDdX",
-        "image_iBJLbK",
-        "image_nwiPRd",
-        "image_mxYMFn",
-        "image_GXCFgd",
-        "image_7ECyVd",
-        "image_xfjrYA",
-        "image_pBhnwA",
-        "image_BJhhjg",
-        "image_jKyknH",
-        "image_Q3TdkJ",
-        "image_TQCE89",
-        "image_yjHTf6",
-        "image_tVDiep",
-        "image_z3B99g",
-        "image_4KXNLp",
-        "image_i8UcjY",
-        "image_3QkyLe",
-        "image_Ax6CFi",
-        "image_9W4BFq",
-        "image_NjVjLF",
-        "image_PiKpLD",
-        "image_NTyWzH",
-        "image_daLfyd",
-        "image_LRkVdE",
-        "image_PLMTcg",
-        "image_7jhjHK",
-        "image_irLgzb",
-        "image_VWxjQg",
-        "image_9tGqqW",
-        "image_G9R9re",
-        "image_3tg4hK",
-        "image_k9DYdn",
-        "image_wnTdYp"
+        "image_7ndmM4",
+        "image_xtiwVn",
+        "image_zKHNA9",
+        "image_9crtXw",
+        "image_adqbzi",
+        "image_aYiTpq",
+        "image_YQixmQ",
+        "image_cQ8E3m",
+        "image_TD9Kpy",
+        "image_VJbzne",
+        "image_pcYXfh",
+        "image_DRbCzE",
+        "image_ErteBn",
+        "image_kbFafz",
+        "image_rL3wym",
+        "image_Ra43ja",
+        "image_JzmwVn",
+        "image_iU397E",
+        "image_jqhiLQ",
+        "image_hyhgzr",
+        "image_F4b7Bq",
+        "image_N77RUE",
+        "image_bCnigT",
+        "image_hUmzxM",
+        "image_JeMtJq",
+        "image_39gNMD",
+        "image_bNc3Wk",
+        "image_cemYHF",
+        "image_UC6RK7",
+        "image_Qpbgbb",
+        "image_hVfd9L",
+        "image_TTBpdV",
+        "image_e4ehCc",
+        "image_f3DwB3",
+        "image_cYMFVH",
+        "image_Qfyfzi",
+        "image_nBYKPF",
+        "image_T7XWfU",
+        "image_hnTbRY",
+        "image_karycX",
+        "image_GY7Gp8",
+        "image_EPHtKL",
+        "image_UtWhUY",
+        "image_4iKi6X",
+        "image_HjXihi",
+        "image_Ca7kJV",
+        "image_TWLBTq",
+        "image_hymwgR",
+        "image_CxKeXf",
+        "image_QMiDQU",
+        "image_yfCDND",
+        "image_N73zx8",
+        "image_ydjREY",
+        "image_gGDDUp",
+        "image_KynXzr",
+        "image_hj4bVp",
+        "image_mybrhE",
+        "image_8Q8aEz",
+        "image_Hr7aHa",
+        "image_qNMhxV",
+        "image_RmKfrJ"
       ],
       "settings": {
         "slider": true,
         "columns_desktop": 4,
-        "section_width": "full-width-row",
+        "section_width": "full-width-row-full",
         "mobile_swipe": true,
         "image_ratio": "portrait",
         "content_position": "bottom-left",
@@ -1900,15 +2065,14 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     },
     "spacer_9fKWyb": {
       "type": "spacer",
-      "disabled": true,
       "name": "Spacer",
       "settings": {
-        "spacer_mobile": 50,
+        "spacer_mobile": 10,
         "spacer_desktop": 0,
         "border_separator": false,
         "border_separator_full": false
@@ -1920,7 +2084,7 @@
       "settings": {
         "image": "shopify://shop_images/Tagline_3_Logos_for_Homepage_2.png",
         "full_width": false,
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     },
@@ -2176,7 +2340,7 @@
     "recently_viewed_products_HPzhR7",
     "spacer_w3ALq3",
     "rich_text_Ypwzrb",
-    "gallery_EytwCn",
+    "gallery_jabGP6",
     "spacer_9fKWyb",
     "single_image_EGQtMA",
     "multicolumn_bYkJ39",
