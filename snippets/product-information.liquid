@@ -144,7 +144,8 @@
             
           </div>
     {%- when 'inventory_level' -%}
-        <div class="inventory_size-chart-wrp">
+    
+        <div class="inventory_size-chart-wrp {% if product.tags contains 'slip-on-size-chart' %}slip-on-size-inw-wrp{% endif %}">
           <div class="inventory_level-wrp">
             {% render 'product-inventory-notice', product: product, section: section, block: block %}
             {% if block.settings.hide_labels == false %}
@@ -155,8 +156,8 @@
             {% endif %}
           </div>
           <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
-            {% assign product_tags = product.tags | join: ' ' %}
-           
+            
+             {% assign product_tags = product.tags | join: ' ' %}
             <div class="product_size-chart">
               {% if product_tags contains 'bootie-size-chart' %}
                 {% for tag in product.tags %}
@@ -236,7 +237,7 @@
               {% elsif product_tags contains 'slip-on-size-chart' %}
                 {% for tag in product.tags %}
                   {% if tag contains 'slip-on-size-chart' %}
-                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size? <span>Size Guide</span></a>
+                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size Not Listed? <span>Size Guide</span></a>
                     <small class="size-chart-subtitle"><strong>Fit:</strong> Slip Ons run true to size. If we don’t carry your half size, see the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
                     {% render 'slipon-popup-size-chart', product_id: product.id, product: product %}
                   {% endif %}
