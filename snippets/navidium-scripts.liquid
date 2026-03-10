@@ -99,10 +99,7 @@ div#nvdLearnMorePopupOverlay {
     z-index: 999999999999999999999;
 }
 #rebuy-cart .rebuy-cart__flyout {
-    z-index: 9999999;
-}
-.rebuy-cart__background {
-    z-index: -10;
+    z-index: 2147483641;
 }
 .nvd-main-content-area {
     position: relative;
@@ -225,4 +222,14 @@ document.addEventListener('rebuy:smartcart.ready', (event) => {
 document.addEventListener('rebuy:smartcart.show', (event) => {
     setTimeout(nvd_init,300)
 });
+</script>
+
+
+<script>
+window.addEventListener('nvd_cart_changed', (e) => {
+  if (e.detail?.added?.length != 0 || e?.detail?.removed?.length != 0) {
+    console.log('Cart changed::', e.detail)
+    setTimeout(nvd_init,1500)
+  }
+})
 </script>

@@ -144,159 +144,164 @@
             
           </div>
     {%- when 'inventory_level' -%}
-        <div class="inventory_level-wrp">
-        {% render 'product-inventory-notice', product: product, section: section, block: block %}
-        {% if block.settings.hide_labels == false %}
-          <div class="inventory-custom-code">
-            {% render 'product-tags-label', product: product %}
-            
-          </div>
-        {% endif %}
-        </div>
-        <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
-          {% assign product_tags = product.tags | join: ' ' %}
-          <div class="product_size-chart">
-            {% if product_tags contains 'bootie-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'bootie-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> Booties run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'bootie-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'boots-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'boots-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> Camping Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'boots-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'high-top-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'high-top-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> High Tops run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'hightop-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'jogger-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'jogger-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> Joggers run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'jogger-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-
-            {% elsif product_tags contains 'low-top-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'low-top-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> Low Tops run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'lowtop-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'kids-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'kids-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> Kids true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'popup-kids-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-
-            {% elsif product_tags contains 'runner-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'runner-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> Runners run slightly narrow. For half sizes, size up. For more details on fit, <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>see the Size Guide</a></small>
-                  {% render 'runner-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'slide-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'slide-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> Slides run true to size. Half size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'slide-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'slip-on-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'slip-on-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> Slip Ons run true to size. If we don’t carry your half size, see the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'slipon-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'size-guide-buckle-sandals' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'size-guide-buckle-sandals' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> Buckle sandals run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'size-guide-buckle-sandals', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'size-guide-trekks' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'size-guide-trekks' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> Trekk Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'trekks-size-guide', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-            {% elsif product_tags contains 'western-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'western-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> Western Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'western-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'coverups-size-chart' %}
-                          {% for tag in product.tags %}
-                            {% if tag contains 'coverups-size-chart' %}
-                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> Cover Ups. See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'coverups-size-chart', product_id: product.id, product: product %}
-                            {% endif %}
-                          {% endfor %}
-
-            {% elsif product_tags contains 'tennis-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'tennis-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> Runs true to size. Half size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'tennis-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
-
-            {% elsif product_tags contains 'trainer-size-chart' %}
-              {% for tag in product.tags %}
-                {% if tag contains 'trainer-size-chart' %}
-                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                  <small class="size-chart-subtitle"><strong>Fit:</strong> Trainers run true to size. Half-size? see the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
-                  {% render 'trainer-popup-size-chart', product_id: product.id, product: product %}
-                {% endif %}
-              {% endfor %}
+    
+        <div class="inventory_size-chart-wrp {% if product.tags contains 'slip-on-size-chart' %}slip-on-size-inw-wrp{% endif %}">
+          <div class="inventory_level-wrp">
+            {% render 'product-inventory-notice', product: product, section: section, block: block %}
+            {% if block.settings.hide_labels == false %}
+              <div class="inventory-custom-code">
+                {% render 'product-tags-label', product: product %}
+                
+              </div>
             {% endif %}
-
           </div>
-          <!--<button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
-                          {% render 'svg-icons-inline', icon: block.settings.sizing_guide_icon %}<span>{{ block.settings.sizing_guide_text }}</span></button>-->
-        </modal-opener>
+          <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
+            
+             {% assign product_tags = product.tags | join: ' ' %}
+            <div class="product_size-chart">
+              {% if product_tags contains 'bootie-size-chart' %}
+                {% for tag in product.tags %}
+                  {% if tag contains 'bootie-size-chart' %}
+                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size? <span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> Booties run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                    {% render 'bootie-popup-size-chart', product_id: product.id, product: product %}
+                    
+                  {% endif %}
+                {% endfor %}
+
+              {% elsif product_tags contains 'boots-size-chart' %}
+                {% for tag in product.tags %}
+                  {% if tag contains 'boots-size-chart' %}
+                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size? <span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> Camping Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                    {% render 'boots-popup-size-chart', product_id: product.id, product: product %}
+                  {% endif %}
+                {% endfor %}
+
+              {% elsif product_tags contains 'high-top-size-chart' %}
+                {% for tag in product.tags %}
+                  {% if tag contains 'high-top-size-chart' %}
+                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size? <span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> High Tops run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                    {% render 'hightop-popup-size-chart', product_id: product.id, product: product %}
+                  {% endif %}
+                {% endfor %}
+
+              {% elsif product_tags contains 'jogger-size-chart' %}
+                {% for tag in product.tags %}
+                  {% if tag contains 'jogger-size-chart' %}
+                  <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size? <span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> Joggers run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                    {% render 'jogger-popup-size-chart', product_id: product.id, product: product %}
+                  {% endif %}
+                {% endfor %}
+
+
+              {% elsif product_tags contains 'low-top-size-chart' %}
+                {% for tag in product.tags %}
+                  {% if tag contains 'low-top-size-chart' %}
+                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size? <span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> Low Tops run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                    {% render 'lowtop-popup-size-chart', product_id: product.id, product: product %}
+                  {% endif %}
+                {% endfor %}
+
+              {% elsif product_tags contains 'kids-size-chart' %}
+                {% for tag in product.tags %}
+                  {% if tag contains 'kids-size-chart' %}
+                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size? <span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> Kids true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                    {% render 'popup-kids-size-chart', product_id: product.id, product: product %}
+                  {% endif %}
+                {% endfor %}
+
+
+              {% elsif product_tags contains 'runner-size-chart' %}
+                {% for tag in product.tags %}
+                  {% if tag contains 'runner-size-chart' %}
+                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size? <span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> Runners run slightly narrow. For half sizes, size up. For more details on fit, <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>see the Size Guide</a></small>
+                    {% render 'runner-popup-size-chart', product_id: product.id, product: product %}
+                  {% endif %}
+                {% endfor %}
+
+              {% elsif product_tags contains 'slide-size-chart' %}
+                {% for tag in product.tags %}
+                  {% if tag contains 'slide-size-chart' %}
+                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> Slides run true to size. Half size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                    {% render 'slide-popup-size-chart', product_id: product.id, product: product %}
+                  {% endif %}
+                {% endfor %}
+
+              {% elsif product_tags contains 'slip-on-size-chart' %}
+                {% for tag in product.tags %}
+                  {% if tag contains 'slip-on-size-chart' %}
+                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size Not Listed? <span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> Slip Ons run true to size. If we don’t carry your half size, see the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                    {% render 'slipon-popup-size-chart', product_id: product.id, product: product %}
+                  {% endif %}
+                {% endfor %}
+
+              {% elsif product_tags contains 'size-guide-buckle-sandals' %}
+                {% for tag in product.tags %}
+                  {% if tag contains 'size-guide-buckle-sandals' %}
+                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size? <span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> Buckle sandals run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                    {% render 'size-guide-buckle-sandals', product_id: product.id, product: product %}
+                  {% endif %}
+                {% endfor %}
+
+              {% elsif product_tags contains 'size-guide-trekks' %}
+                {% for tag in product.tags %}
+                  {% if tag contains 'size-guide-trekks' %}
+                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size? <span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> Trekk Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                    {% render 'trekks-size-guide', product_id: product.id, product: product %}
+                  {% endif %}
+                {% endfor %}
+              {% elsif product_tags contains 'western-size-chart' %}
+                {% for tag in product.tags %}
+                  {% if tag contains 'western-size-chart' %}
+                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size? <span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> Western Boots run true to size. Half-size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                    {% render 'western-popup-size-chart', product_id: product.id, product: product %}
+                  {% endif %}
+                {% endfor %}
+
+              {% elsif product_tags contains 'coverups-size-chart' %}
+                            {% for tag in product.tags %}
+                              {% if tag contains 'coverups-size-chart' %}
+                                <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size? <span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> Cover Ups. See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                    {% render 'coverups-size-chart', product_id: product.id, product: product %}
+                              {% endif %}
+                            {% endfor %}
+
+              {% elsif product_tags contains 'tennis-size-chart' %}
+                {% for tag in product.tags %}
+                  {% if tag contains 'tennis-size-chart' %}
+                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size? <span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> Runs true to size. Half size? See the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                    {% render 'tennis-size-chart', product_id: product.id, product: product %}
+                  {% endif %}
+                {% endfor %}
+
+              {% elsif product_tags contains 'trainer-size-chart' %}
+                {% for tag in product.tags %}
+                  {% if tag contains 'trainer-size-chart' %}
+                    <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Half Size?<span>Size Guide</span></a>
+                    <small class="size-chart-subtitle"><strong>Fit:</strong> Trainers run true to size. Half-size? see the<a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide</a></small>
+                    {% render 'trainer-popup-size-chart', product_id: product.id, product: product %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+
+            </div>
+            <!--<button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
+                            {% render 'svg-icons-inline', icon: block.settings.sizing_guide_icon %}<span>{{ block.settings.sizing_guide_text }}</span></button>-->
+          </modal-opener>
+        </div>
     {%- when 'variant_picker' -%}
       
       {% if product.metafields.custom.metaobject_colors != blank and block.settings.show_color_metaobject %}
@@ -579,252 +584,305 @@
         </script>
       </variant-selects>
       <div class="product-custom-variants">
-        {% assign men = 0 %}
-        {% assign women = 0 %}
-        {% assign kids = 0 %}
-        {% assign eur = 0 %}
-        {%- for option in product.options_with_values -%}
-          {%- for value in option.values -%}
-            {% assign value_search = value | downcase  %}
-            {% if value_search contains 'us men' %}
-              {% assign men = men | plus: 1 %}
-            {% endif %}
-            {% if value_search contains 'us women' %}
-              {% assign women = women | plus: 1 %}
-            {% endif %}
-            {% if value_search contains 'eur' %}
-              {% assign eur = eur | plus: 1 %}
-            {% endif %}
-            {% if value_search contains 'us kids' %}
-              {% assign kids = kids | plus: 1 %}
-            {% endif %}
-          {% endfor %}
-        {% endfor %}
-        {% assign active_tab = '' %}
-        {% assign count_tab = 0 %}
-        {% if women > 0 %}
-          {% assign active_tab = 'women' %}
-          {% assign count_tab = count_tab | plus: 1 %}
-        {% elsif  men > 0 %}
-          {% assign active_tab = 'men' %}
-          {% assign count_tab = count_tab | plus: 1 %}
-        {% elsif  kids > 0 %}
-          {% assign active_tab = 'kids' %}
-          {% assign count_tab = count_tab | plus: 1 %}
-        {% elsif  eur > 0 %}
-          {% assign active_tab = 'eur' %}
-          {% assign count_tab = count_tab | plus: 1 %}
-        {% endif %}
+        <div class="product-variant-label-dm">
+          <div class="product-variant-label-dm__label">
+            Size: <span class="js-product-label-dm-value"></span>
+          </div>
+          {% if product.tags contains 'PRODUCT TYPE: FOOTWEAR [Do Not Remove]' %}
+          <div class="product-variant-label-dm__link">
+            {% assign product_tags_listVariants = product.tags | join: ' ' %}
+            {% assign styleNameVariants = '' %}
 
-        {% if count_tab > 0 %}
-          <div class="form__label custom-product-form__label">
-            <div class="tab_variants row_flex align-items-center">
-              <div class="col-auto titles">Size:</div>
-              {% if women > 0 %}
-                <div class="col-auto danns js-custom-tab {%  if active_tab == 'women' %} active {% endif %}" data-type="women" id="tab_type_women">US Women</div>
-              {% endif %}
-              {% if men > 0 %}
-                <div class="col-auto danns js-custom-tab {%  if active_tab == 'men' %} active {% endif %}" data-type="men" id="tab_type_men">US Men</div>
-              {% endif %}
-              {% if kids > 0 %}
-                <div class="col-auto danns js-custom-tab {%  if active_tab == 'kids' %} active {% endif %}" data-type="kids" id="tab_type_kids">US Kids</div>
-              {% endif %}
-              {% if eur > 0 %}
-                <div class="col-auto danns js-custom-tab {%  if active_tab == 'eur' %} active {% endif %}" data-type="eur" id="tab_type_eur">Eur</div>
-              {% endif %}
+            {% if product_tags_listVariants contains 'bootie-size-chart' %}
+              {% assign styleNameVariants = 'Booties' %}
+            {% elsif product_tags_listVariants contains 'boots-size-chart' %}
+              {% assign styleNameVariants = 'Camping' %}
+            {% elsif product_tags_listVariants contains 'high-top-size-chart' %}
+              {% assign styleNameVariants = 'High' %}
+            {% elsif product_tags_listVariants contains 'jogger-size-chart' %}
+              {% assign styleNameVariants = 'Joggers' %}
+            {% elsif product_tags_listVariants contains 'low-top-size-chart' %}
+              {% assign styleNameVariants = 'Low Tops' %}
+            {% elsif product_tags_listVariants contains 'kids-size-chart' %}
+              {% assign styleNameVariants = 'Kids' %}
+            {% elsif product_tags_listVariants contains 'runner-size-chart' %}
+              {% assign styleNameVariants = 'Runners' %}
+            {% elsif product_tags_listVariants contains 'slide-size-chart' %}
+              {% assign styleNameVariants = 'Slides' %}
+            {% elsif product_tags_listVariants contains 'slip-on-size-chart' %}
+              {% assign styleNameVariants = 'Slip Ons' %}
+            {% elsif product_tags_listVariants contains 'size-guide-buckle-sandals' %}
+              {% assign styleNameVariants = 'Buckle sandals' %}
+            {% elsif product_tags_listVariants contains 'size-guide-trekks' %}
+              {% assign styleNameVariants = 'Trekk Boots' %}
+            {% elsif product_tags_listVariants contains 'western-size-chart' %}
+              {% assign styleNameVariants = 'Western Boots' %}
+            {% elsif product_tags_listVariants contains 'coverups-size-chart' %}
+              {% assign styleNameVariants = 'Cover Ups' %}
+            {% elsif product_tags_listVariants contains 'tennis-size-chart' %}
+              {% assign styleNameVariants = 'Runs' %}
+            {% elsif product_tags_listVariants contains 'trainer-size-chart' %}
+              {% assign styleNameVariants = 'Trainers' %}
+            {% endif %}
+            {% comment %} <div class="product-variant-label-dm__fit">{{styleNameVariants}} Fit</div> {% endcomment %}
+            <div class="product-variant-label-dm__true-to-size">
+              Fit: True to size
+              <img src="https://cdn.shopify.com/s/files/1/0162/1490/files/size-ruler.png?v=1769602105" alt="">
+
             </div>
           </div>
-          {% assign currentVariant = product.selected_or_first_available_variant %}
-
-          {%- for option in product.options_with_values -%}
-            {% assign optionName = option.name | downcase | escape %}
-            {% if optionName == 'size' %}
-              {% if women > 0 %}
-
-                <div class="show_variants {%  if active_tab == 'women' %} active {% endif %}" id="women_type">
-                  <fieldset class="js product-form__input_dann">
-                    {%- for value in option.values -%}
-                      {% assign value_search = value | downcase  %}
-                      {% if value_search contains 'us women' %}
-                        {% assign new_title_arr = value | split: "/" %}
-                        {% assign new_title = value %}
-                        {% for val in new_title_arr %}
-                          {% assign newval = val | downcase %}
-                          {% if newval contains 'us women' %}
-                            {% assign new_title = val %}
-                          {% endif %}
-                        {% endfor %}
-
-                        {% for variant in product.variants %}
-                          {% if variant.title contains value %}
-                            {% assign valueVariant = variant %}
-                          {% endif %}
-                        {% endfor %}
-
-                        <input type="radio" id="{{ section.id }}-Size-Women-{{ forloop.index0 }}"
-                               name="SizeWomen"
-                               value="{{ value | escape }}"
-                               form="product-form-{{ section.id }}"
-                               {% if option.selected_value == value %}checked{% endif %}
-                               data-inputshort="{{ value | downcase |handleize }}"
-                               class="product_{{ value | downcase | handleize }}"
-                        >
-                        <label for="{{ section.id }}-Size-Women-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
-                          {{ new_title | split: ' ' | last }}
-                        </label>
-                      {% endif %}
-                    {%- endfor -%}
-                  </fieldset>
-                </div>
-              {% endif %}
-
-
-              {% if men > 0 %}
-                <div class="show_variants {%  if active_tab == 'men' %} active {% endif %}" id="men_type">
-                  <fieldset class="js product-form__input_dann">
-                    {%- for value in option.values -%}
-                      {% assign value_search = value | downcase  %}
-                      {% if value_search contains 'us men' %}
-                        {% assign new_title_arr = value | split: "/" %}
-                        {% assign new_title = value %}
-                        {% for val in new_title_arr %}
-                          {% assign newval = val | downcase %}
-                          {% if newval contains 'us men' %}
-                            {% assign new_title = val %}
-                          {% endif %}
-                        {% endfor %}
-
-                        {% for variant in product.variants %}
-                          {% if variant.title contains value %}
-                            {% assign valueVariant = variant %}
-                          {% endif %}
-                        {% endfor %}
-
-                        <input type="radio" id="{{ section.id }}-Size-Men-{{ forloop.index0 }}"
-                               name="SizeMen"
-                               value="{{ value | escape }}"
-                               form="product-form-{{ section.id }}"
-                               {% if option.selected_value == value %}checked{% endif %}
-                               data-inputshort="{{ value | downcase |handleize }}"
-                               class="product_{{ value | downcase | handleize }}"
-                        >
-                        <label for="{{ section.id }}-Size-Men-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
-                          {{ new_title | split: ' ' | last }}
-                        </label>
-                      {% endif %}
-                    {%- endfor -%}
-                  </fieldset>
-                </div>
-              {% endif %}
-
-              {% if kids > 0 %}
-                <div class="show_variants {%  if active_tab == 'kids' %} active {% endif %}" id="kids_type">
-                  <fieldset class="product-form__input_dann">
-                    {%- for value in option.values -%}
-                      {% assign value_search = value | downcase  %}
-                      {% if value_search contains 'us kids' %}
-                        {% assign new_title_arr = value | split: " / " %}
-                        {% assign new_title = value %}
-                        {% for val in new_title_arr %}
-                          {% assign newval = val | downcase %}
-                          {% if newval contains 'us kids' %}
-                            {% assign new_title = val %}
-                          {% endif %}
-                        {% endfor %}
-
-                        {% for variant in product.variants %}
-                          {% if variant.title contains value %}
-                            {% assign valueVariant = variant %}
-                          {% endif %}
-                        {% endfor %}
-
-                        <input type="radio" id="{{ section.id }}-Size-Kids-{{ forloop.index0 }}"
-                               name="SizeKids"
-                               value="{{ value | escape }}"
-                               form="product-form-{{ section.id }}"
-                               {% if option.selected_value == value %}checked{% endif %}
-                               data-inputshort="{{ value | downcase |handleize }}"
-                               class="product_{{ value | downcase | handleize }}"
-                        >
-                        <label for="{{ section.id }}-Size-Kids-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label" data-variantid="{{ variant.id }}" data-title="{{ value }}" data-titleshort="{{ value | downcase |handleize }}">
-                          {{ new_title }}
-                        </label>
-                      {% endif %}
-                    {%- endfor -%}
-                  </fieldset>
-                </div>
-              {% endif %}
-
-
-              {% if eur > 0 %}
-                <div class="show_variants  {%  if active_tab == 'eur' %} active {% endif %}" id="eur_type">
-                  <fieldset class="product-form__input_dann">
-                    {%- for value in option.values -%}
-                      {% assign value_search = value | downcase  %}
-                      {% if value_search contains 'eur' %}
-                        {% assign new_title_arr = value | split: " / " %}
-                        {% assign new_title = value %}
-                        {% for val in new_title_arr %}
-                          {% assign newval = val | downcase %}
-                          {% if newval contains 'eur' %}
-                            {% assign new_title = val %}
-                          {% endif %}
-                        {% endfor %}
-
-                        {% for variant in product.variants %}
-                          {% if variant.title contains value %}
-                            {% assign valueVariant = variant %}
-                          {% endif %}
-                        {% endfor %}
-
-                        <input type="radio" id="{{ section.id }}-Size-Eur-{{ forloop.index0 }}"
-                               name="SizeEur"
-                               value="{{ value | escape }}"
-                               form="product-form-{{ section.id }}"
-                               {% if option.selected_value == value %}checked{% endif %}
-                               data-inputshort="{{ value | downcase |handleize }}"
-                               class="product_{{ value | downcase | handleize }}"
-                        >
-                        <label for="{{ section.id }}-Size-Eur-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"  data-titleshort="{{ value | downcase | handleize }}">
-                          {{ new_title | split: ' ' | last }}
-                        </label>
-                      {% endif %}
-                    {%- endfor -%}
-                  </fieldset>
-                </div>
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-        {% else %}
-          {% assign currentVariant = product.selected_or_first_available_variant %}
-          {%- for option in product.options_with_values -%}
-            <fieldset class="js product-form__input_dann">
-               
-               {% for value in option.values %}  
-
-                 {% for variant in product.variants %}
-                  {% if variant.title contains value %}
-                    {% assign valueVariant = variant %}
-                  {% endif %}
-                {% endfor %}
-                <input type="radio" id="{{ section.id }}-Dann-{{ forloop.index0 }}"
-                      name="dann"
-                      value="{{ value | escape }}"
-                      form="product-form-{{ section.id }}"
-                      {% if option.selected_value == value %}checked{% endif %}
-                 data-inputshort="{{ value | downcase |handleize }}"
-                 class="product_{{ value | downcase | handleize }}"
-                >
-                <label for="{{ section.id }}-Dann-{{ forloop.index0 }}"  class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"  data-titleshort="{{ value | downcase | handleize }}">
-                  {{ value | split: ' ' | last }}
-                </label>
-              {%- endfor -%}
-            </fieldset>
-          {%- endfor -%}
         {% endif %}
         </div>
+        <product-variant-manager>
+        <div class="product-variant-tabs-wrp {% if product.variants.size == 1 or product.handle == 'gift-card' %}one-size{% endif %}" >
+          {% assign men = 0 %}
+          {% assign women = 0 %}
+          {% assign kids = 0 %}
+          {% assign eur = 0 %}
+          {%- for option in product.options_with_values -%}
+            {%- for value in option.values -%}
+              {% assign value_search = value | downcase  %}
+              {% if value_search contains 'us men' %}
+                {% assign men = men | plus: 1 %}
+              {% endif %}
+              {% if value_search contains 'us women' %}
+                {% assign women = women | plus: 1 %}
+              {% endif %}
+              {% if value_search contains 'eur' %}
+                {% assign eur = eur | plus: 1 %}
+              {% endif %}
+              {% if value_search contains 'us kids' %}
+                {% assign kids = kids | plus: 1 %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+          {% assign active_tab = '' %}
+          {% assign count_tab = 0 %}
+          {% if women > 0 %}
+            {% assign active_tab = 'women' %}
+            {% assign count_tab = count_tab | plus: 1 %}
+          {% elsif  men > 0 %}
+            {% assign active_tab = 'men' %}
+            {% assign count_tab = count_tab | plus: 1 %}
+          {% elsif  kids > 0 %}
+            {% assign active_tab = 'kids' %}
+            {% assign count_tab = count_tab | plus: 1 %}
+          {% elsif  eur > 0 %}
+            {% assign active_tab = 'eur' %}
+            {% assign count_tab = count_tab | plus: 1 %}
+          {% endif %}
 
-        <script>
+          {% if count_tab > 0 %}
+            <div class="form__label custom-product-form__label">
+              <div class="tab_variants row_flex align-items-center">
+                {% comment %} <div class="col-auto titles">Size:</div> {% endcomment %}
+                {% if women > 0 %}
+                  <div class="col-auto danns js-custom-tab {%  if active_tab == 'women' %} active {% endif %}" data-type="women" id="tab_type_women">Women</div>
+                {% endif %}
+                {% if men > 0 %}
+                  <div class="col-auto danns js-custom-tab {%  if active_tab == 'men' %} active {% endif %}" data-type="men" id="tab_type_men">Men</div>
+                {% endif %}
+                {% if kids > 0 %}
+                  <div class="col-auto danns js-custom-tab {%  if active_tab == 'kids' %} active {% endif %}" data-type="kids" id="tab_type_kids">Kids</div>
+                {% endif %}
+                {% if eur > 0 %}
+                  <div class="col-auto danns js-custom-tab {%  if active_tab == 'eur' %} active {% endif %}" data-type="eur" id="tab_type_eur">Eur</div>
+                {% endif %}
+              </div>
+            </div>
+            {% assign currentVariant = product.selected_or_first_available_variant %}
+
+            {%- for option in product.options_with_values -%}
+              {% assign optionName = option.name | downcase | escape %}
+              {% if optionName == 'size' %}
+                {% if women > 0 %}
+
+                  <div class="show_variants {%  if active_tab == 'women' %} active {% endif %}" id="women_type">
+                    <fieldset class="js product-form__input_dann">
+                      {%- for value in option.values -%}
+                        {% assign value_search = value | downcase  %}
+                        {% if value_search contains 'us women' %}
+                          {% assign new_title_arr = value | split: "/" %}
+                          {% assign new_title = value %}
+                          {% for val in new_title_arr %}
+                            {% assign newval = val | downcase %}
+                            {% if newval contains 'us women' %}
+                              {% assign new_title = val %}
+                            {% endif %}
+                          {% endfor %}
+
+                          {% for variant in product.variants %}
+                            {% if variant.title contains value %}
+                              {% assign valueVariant = variant %}
+                            {% endif %}
+                          {% endfor %}
+
+                          <input type="radio" id="{{ section.id }}-Size-Women-{{ forloop.index0 }}"
+                                name="SizeWomen"
+                                value="{{ value | escape }}"
+                                form="product-form-{{ section.id }}"
+                                {% if option.selected_value == value %}checked{% endif %}
+                                data-inputshort="{{ value | downcase |handleize }}"
+                                class="product_{{ value | downcase | handleize }}"
+                          >
+                          <label for="{{ section.id }}-Size-Women-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
+                            {{ new_title | split: ' ' | last }}
+                          </label>
+                        {% endif %}
+                      {%- endfor -%}
+                    </fieldset>
+                  </div>
+                {% endif %}
+
+
+                {% if men > 0 %}
+                  <div class="show_variants {%  if active_tab == 'men' %} active {% endif %}" id="men_type">
+                    <fieldset class="js product-form__input_dann">
+                      {%- for value in option.values -%}
+                        {% assign value_search = value | downcase  %}
+                        {% if value_search contains 'us men' %}
+                          {% assign new_title_arr = value | split: "/" %}
+                          {% assign new_title = value %}
+                          {% for val in new_title_arr %}
+                            {% assign newval = val | downcase %}
+                            {% if newval contains 'us men' %}
+                              {% assign new_title = val %}
+                            {% endif %}
+                          {% endfor %}
+
+                          {% for variant in product.variants %}
+                            {% if variant.title contains value %}
+                              {% assign valueVariant = variant %}
+                            {% endif %}
+                          {% endfor %}
+
+                          <input type="radio" id="{{ section.id }}-Size-Men-{{ forloop.index0 }}"
+                                name="SizeMen"
+                                value="{{ value | escape }}"
+                                form="product-form-{{ section.id }}"
+                                {% if option.selected_value == value %}checked{% endif %}
+                                data-inputshort="{{ value | downcase |handleize }}"
+                                class="product_{{ value | downcase | handleize }}"
+                          >
+                          <label for="{{ section.id }}-Size-Men-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"   data-titleshort="{{ value | downcase |handleize }}">
+                            {{ new_title | split: ' ' | last }}
+                          </label>
+                        {% endif %}
+                      {%- endfor -%}
+                    </fieldset>
+                  </div>
+                {% endif %}
+
+                {% if kids > 0 %}
+                  <div class="show_variants {%  if active_tab == 'kids' %} active {% endif %}" id="kids_type">
+                    <fieldset class="product-form__input_dann">
+                      {%- for value in option.values -%}
+                        {% assign value_search = value | downcase  %}
+                        {% if value_search contains 'us kids' %}
+                          {% assign new_title_arr = value | split: " / " %}
+                          {% assign new_title = value %}
+                          {% for val in new_title_arr %}
+                            {% assign newval = val | downcase %}
+                            {% if newval contains 'us kids' %}
+                              {% assign new_title = val %}
+                            {% endif %}
+                          {% endfor %}
+
+                          {% for variant in product.variants %}
+                            {% if variant.title contains value %}
+                              {% assign valueVariant = variant %}
+                            {% endif %}
+                          {% endfor %}
+
+                          <input type="radio" id="{{ section.id }}-Size-Kids-{{ forloop.index0 }}"
+                                name="SizeKids"
+                                value="{{ value | escape }}"
+                                form="product-form-{{ section.id }}"
+                                {% if option.selected_value == value %}checked{% endif %}
+                                data-inputshort="{{ value | downcase |handleize }}"
+                                class="product_{{ value | downcase | handleize }}"
+                          >
+                          <label for="{{ section.id }}-Size-Kids-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label" data-variantid="{{ variant.id }}" data-title="{{ value }}" data-titleshort="{{ value | downcase |handleize }}">
+                            {{ new_title }}
+                          </label>
+                        {% endif %}
+                      {%- endfor -%}
+                    </fieldset>
+                  </div>
+                {% endif %}
+
+
+                {% if eur > 0 %}
+                  <div class="show_variants  {%  if active_tab == 'eur' %} active {% endif %}" id="eur_type">
+                    <fieldset class="product-form__input_dann">
+                      {%- for value in option.values -%}
+                        {% assign value_search = value | downcase  %}
+                        {% if value_search contains 'eur' %}
+                          {% assign new_title_arr = value | split: " / " %}
+                          {% assign new_title = value %}
+                          {% for val in new_title_arr %}
+                            {% assign newval = val | downcase %}
+                            {% if newval contains 'eur' %}
+                              {% assign new_title = val %}
+                            {% endif %}
+                          {% endfor %}
+
+                          {% for variant in product.variants %}
+                            {% if variant.title contains value %}
+                              {% assign valueVariant = variant %}
+                            {% endif %}
+                          {% endfor %}
+
+                          <input type="radio" id="{{ section.id }}-Size-Eur-{{ forloop.index0 }}"
+                                name="SizeEur"
+                                value="{{ value | escape }}"
+                                form="product-form-{{ section.id }}"
+                                {% if option.selected_value == value %}checked{% endif %}
+                                data-inputshort="{{ value | downcase |handleize }}"
+                                class="product_{{ value | downcase | handleize }}"
+                          >
+                          <label for="{{ section.id }}-Size-Eur-{{ forloop.index0 }}" class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"  data-titleshort="{{ value | downcase | handleize }}">
+                            {{ new_title | split: ' ' | last }}
+                          </label>
+                        {% endif %}
+                      {%- endfor -%}
+                    </fieldset>
+                  </div>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          {% else %}
+            {% assign currentVariant = product.selected_or_first_available_variant %}
+            {%- for option in product.options_with_values -%}
+              <fieldset class="js product-form__input_dann">
+                
+                {% for value in option.values %}  
+
+                  {% for variant in product.variants %}
+                    {% if variant.title contains value %}
+                      {% assign valueVariant = variant %}
+                    {% endif %}
+                  {% endfor %}
+                  <input type="radio" id="{{ section.id }}-Dann-{{ forloop.index0 }}"
+                        name="dann"
+                        value="{{ value | escape }}"
+                        form="product-form-{{ section.id }}"
+                        {% if option.selected_value == value %}checked{% endif %}
+                  data-inputshort="{{ value | downcase |handleize }}"
+                  class="product_{{ value | downcase | handleize }}"
+                  >
+                  <label for="{{ section.id }}-Dann-{{ forloop.index0 }}"  class="available_{% if valueVariant and valueVariant.available %}true{% else %}false{% endif %}{{ variant.available }} variant-label"  data-variantid="{{ variant.id }}" data-title="{{ value }}"  data-titleshort="{{ value | downcase | handleize }}">
+                    {{ value | split: ' ' | last }}
+                  </label>
+                {%- endfor -%}
+              </fieldset>
+            {%- endfor -%}
+          {% endif %}
+          </div>
+        </div>
+          </product-variant-manager>
+
+      <!--script>
           document.addEventListener('DOMContentLoaded', function() {
 
             jQuery(function($) {
@@ -882,8 +940,7 @@
               })
             })
           });
-        </script>
-     
+        </script-->
         
       {%- endunless -%}
       <noscript class="product-form__noscript-wrapper-{{ section.id }}">
@@ -906,16 +963,27 @@
         </div>
       </noscript>
     {%- when 'side_panel' -%}
-      <side-panel-links class="side-panel-links">
-        {%- if block.settings.side_panel_1_label != '' -%}
-        <button class="side-panel-links--link no-js-hidden" data-id="1">{% render 'svg-icons-inline', icon: block.settings.side_panel_1_icon %}<span class="text-button">{{ block.settings.side_panel_1_label }}</span></button>
-        {%- endif -%}
-        {%- if block.settings.side_panel_2_label != '' -%}
-        <button class="side-panel-links--link no-js-hidden" data-id="2">{% render 'svg-icons-inline', icon: block.settings.side_panel_2_icon %}<span class="text-button">{{ block.settings.side_panel_2_label }}</span></button>
-        {%- endif -%}
-        {%- if block.settings.side_panel_3_label != '' -%}
-        <button class="side-panel-links--link no-js-hidden" data-id="3">{% render 'svg-icons-inline', icon: block.settings.side_panel_3_icon %}<span class="text-button">{{ block.settings.side_panel_3_label }}</span></button>
-        {%- endif -%}
+      <side-panel-links class="side-panel-links {% if block.settings.side_panel_tooltip_label != '' %}has-tooltip{% endif %}">
+        {% if block.settings.side_panel_tooltip_label != '' %}
+          <div class="side-panel-tooltip-wrapper">
+            <div class="tooltip-label">{{ block.settings.side_panel_tooltip_label }}</div>
+        {% endif %}
+          {% if block.settings.side_panel_tooltip_label != '' %}
+            <div class="side-panel-tooltip-links">
+          {% endif %}
+          {%- if block.settings.side_panel_1_label != '' -%}
+            <button class="side-panel-links--link no-js-hidden" data-id="1">{% render 'svg-icons-inline', icon: block.settings.side_panel_1_icon %}<span class="text-button">{{ block.settings.side_panel_1_label }}</span></button>
+          {%- endif -%}
+          {%- if block.settings.side_panel_2_label != '' -%}
+            <button class="side-panel-links--link no-js-hidden" data-id="2">{% render 'svg-icons-inline', icon: block.settings.side_panel_2_icon %}<span class="text-button">{{ block.settings.side_panel_2_label }}</span></button>
+          {%- endif -%}
+          {%- if block.settings.side_panel_3_label != '' -%}
+            <button class="side-panel-links--link no-js-hidden" data-id="3">{% render 'svg-icons-inline', icon: block.settings.side_panel_3_icon %}<span class="text-button">{{ block.settings.side_panel_3_label }}</span></button>
+          {%- endif -%}
+          {% if block.settings.side_panel_tooltip_label != '' %}
+            </div>
+           </div>
+          {% endif %}
       </side-panel-links>
     {%- when 'buy_buttons' -%}
         {% render 'product-add-to-cart', product: product, form: form, product_form_id: product_form_id, block: block, pickup: pickup %}
@@ -944,7 +1012,7 @@
               {% render 'icon-minus' %}
             </summary>
             <div id="custom-field--value{{ block.id }}" class="custom-field--value collapsible__content accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
-              {%- if block.settings.show_description -%}
+             {%- if block.settings.show_description -%}
                 {% if block.settings.description_type == 'show_before_ul' or block.settings.description_type == 'show_ul' %}
                   <script>
                     (function() {
@@ -964,12 +1032,13 @@
                       {% endif %}
                     })();
                   </script>
-                {%- else -%}
+                {%- else -%} 
                   {{ product.description }}
                 {%- endif -%}
               {%- elsif block.settings.show_okendo_reviews -%}
                 {% render 'okendo-reviews-widget', product: product %}
               {% else %}
+                {{ block.settings.custom_liquid }}
                 {{ block.settings.content }}
                 {{ block.settings.page.content }}
               {%- endif -%}

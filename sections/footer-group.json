@@ -16,6 +16,7 @@
       "blocks": {
         "text_QVHqpQ": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Free U.S. Shipping Over $150",
             "link": "",
@@ -24,6 +25,7 @@
         },
         "text_cKQnFJ": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "✦",
             "link": "",
@@ -32,6 +34,7 @@
         },
         "text_zpCUaW": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Free Returns & Exchanges",
             "link": "",
@@ -40,6 +43,7 @@
         },
         "text_6JtfdK": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "✦",
             "link": "",
@@ -48,6 +52,7 @@
         },
         "text_h7gYdx": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "✨ Happiness Guarantee: Try Them On Risk-Free",
             "link": "",
@@ -56,6 +61,7 @@
         },
         "text_kifLkL": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "✦",
             "link": "",

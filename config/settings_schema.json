@@ -1557,11 +1557,18 @@
         "id": "draawer_recommends",
         "label": "Drawer recommends"
       },
-      {
+        {
+        "type": "checkbox",
+        "id": "drawer_slider_off",
+        "label": "Slider off",
+        "default": false
+      },
+       {
         "type": "checkbox",
         "id": "drawer_recommends_autoplay",
         "label": "Auto-rotate slides",
-        "default": true
+        "default": true,
+        "visible_if": "{{ settings.drawer_slider_off == false}}",
       },
       {
         "type": "range",
@@ -1571,7 +1578,8 @@
         "step": 1,
         "unit": "s",
         "label": "Change slides every",
-        "default": 5
+        "default": 5,
+        "visible_if": "{{ settings.drawer_slider_off == false}}",
       },
       {
         "type": "header",

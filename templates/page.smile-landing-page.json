@@ -21,13 +21,13 @@
           "settings": {
             "primary_colour": "#333333",
             "secondary_colour": "#ffffff",
-            "background_image": "shopify://shop_images/TUAMOTU-CAMPING-BOOT-AW250514-HOLD-HORIZONTAL-EPI_1328.jpg",
-            "title_text": "Join InkPass®",
-            "description_text": "Most shoes are boring.\nOurs are bold, colorful—and come with perks.\n\nJoin for free to earn points on every purchase.\nEnjoy FREE SHIPPING today, plus perks and exclusive discounts on your next order.",
-            "join_button_text": "Join for free",
-            "login_button_text": "Login",
-            "is_previewing_logged_in_state": true,
-            "discover_button_text": "Join for free"
+            "background_image": "shopify://shop_images/Luzon-ARTWORK-ezgif.com-optijpeg.jpg",
+            "title_text": "InkPass®",
+            "description_text": "Most shoes are boring.\nOurs are bold, colorful—and come with perks!\nEnjoy your FREE SHIPPING reward just for joining. Earn points on every purchase. Earn $15 for every referral. Let's go.",
+            "join_button_text": "JOIN FOR FREE",
+            "login_button_text": "LOGIN",
+            "is_previewing_logged_in_state": false,
+            "discover_button_text": "JOIN FOR FREE"
           }
         },
         "smile_io_smile_landing_page_how_it_works_7WygGF": {
@@ -36,23 +36,12 @@
             "primary_colour": "#333333",
             "secondary_colour": "#ffffff",
             "title_text": "",
-            "step1_heading_text": "Join",
-            "step1_description_text": "Sign up or login to start earning now.",
-            "step2_heading_text": "Earn",
-            "step2_description_text": "Earn your FREE SHIPPING reward upon sign up. Plus earn points for every dollar spent.",
-            "step3_heading_text": "Redeem",
-            "step3_description_text": "Redeem points for discounts on your next purchase."
-          }
-        },
-        "smile_io_smile_landing_page_redeeming_rule_highlight_jPwipt": {
-          "type": "shopify://apps/smile-io/blocks/smile-landing-page-redeeming-rule-highlight/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
-          "settings": {
-            "primary_colour": "#333333",
-            "secondary_colour": "#ffffff",
-            "image": "shopify://shop_images/LUZON-TENNIS-AW250213-MODEL-HORIZONTAL-EPI_0157.jpg",
-            "title_text": "Enjoy Free Shipping (No Minimums)",
-            "description_text": "Enjoy free shipping today, just for signing up (U.S. customers only).",
-            "button_text": "How to Redeem"
+            "step1_heading_text": "JOIN",
+            "step1_description_text": "Sign up or login to start earning now. If you made a purchase before joining, no problem! Just login with the email account you used for your order and you'll see your rewards.",
+            "step2_heading_text": "EARN",
+            "step2_description_text": "Earn points for every dollar spent. Earn $15 for every referral. Plus, earn your FREE U.S. SHIPPING reward upon sign up.",
+            "step3_heading_text": "REDEEM",
+            "step3_description_text": "Redeem your points easily at checkout. Every 10 points = $1 to spend."
           }
         },
         "smile_io_smile_landing_page_earning_rule_highlight_Jcx9w9": {
@@ -61,17 +50,29 @@
             "primary_colour": "#333333",
             "secondary_colour": "#ffffff",
             "image": "shopify://shop_images/Screen_Shot_2025-09-22_at_11.23.02_AM.png",
-            "title_text": "",
-            "description_text": "",
+            "title_text": "Give $15, Get $15",
+            "description_text": "You found us — now share the secret. For every referral, your friend gets $15 off and you earn $15 in your InkPass account.",
             "button_text": "Ways to Earn Rewards"
+          }
+        },
+        "smile_io_smile_landing_page_redeeming_rule_highlight_jPwipt": {
+          "type": "shopify://apps/smile-io/blocks/smile-landing-page-redeeming-rule-highlight/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+          "disabled": true,
+          "settings": {
+            "primary_colour": "#333333",
+            "secondary_colour": "#ffffff",
+            "image": "shopify://shop_images/LUZON-TENNIS-AW250213-MODEL-HORIZONTAL-EPI_0157.jpg",
+            "title_text": "How to Redeem",
+            "description_text": "",
+            "button_text": "How to Redeem Rewards"
           }
         }
       },
       "block_order": [
         "smile_io_smile_landing_page_header_9NVX8d",
         "smile_io_smile_landing_page_how_it_works_7WygGF",
-        "smile_io_smile_landing_page_redeeming_rule_highlight_jPwipt",
-        "smile_io_smile_landing_page_earning_rule_highlight_Jcx9w9"
+        "smile_io_smile_landing_page_earning_rule_highlight_Jcx9w9",
+        "smile_io_smile_landing_page_redeeming_rule_highlight_jPwipt"
       ],
       "settings": {}
     }

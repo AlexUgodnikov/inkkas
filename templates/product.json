@@ -61,13 +61,6 @@
             "custom_code": ""
           }
         },
-        "text_M9Q8aq": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "style_vendor"
-          }
-        },
         "custom_liquid_LyBCHn": {
           "type": "custom_liquid",
           "settings": {
@@ -77,6 +70,7 @@
         "side_panel_g4pmfR": {
           "type": "side_panel",
           "settings": {
+            "side_panel_tooltip_label": "✓ Free Shipping &amp; Returns  •  Plants a Tree 🌱",
             "side_panel_1_label": "Includes Free Returns & Exchanges",
             "side_panel_1_icon": "return",
             "side_panel_1_content": "<p>Shop confidently — FREE returns & exchanges are included for a worry-free fit, as part of our 100% Happiness Guarantee. ✨  View our full return policy <a href=\"/pages/return-policy\" title=\"Returns & Exchanges\">here</a>.</p>",
@@ -109,7 +103,7 @@
             "id": "cmga7k33o007gz09fa0dmitfj"
           }
         },
-        "text_C36JcK": {
+        "text_eay9iD": {
           "type": "text",
           "settings": {
             "text": "",
@@ -134,7 +128,7 @@
           "type": "collapsible_tab_2",
           "settings": {
             "idname": "",
-            "open": true,
+            "open": false,
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
@@ -142,6 +136,7 @@
             "show_description": true,
             "description_type": "show_before_ul",
             "content": "",
+            "custom_liquid": "",
             "page": ""
           }
         },
@@ -157,6 +152,23 @@
             "show_description": true,
             "description_type": "show_ul",
             "content": "",
+            "custom_liquid": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_2_88rhJx": {
+          "type": "collapsible_tab_2",
+          "settings": {
+            "idname": "",
+            "open": false,
+            "show_okendo_reviews": false,
+            "show_only_with_tag": true,
+            "product_tag": "PRODUCT TYPE: FOOTWEAR [Do Not Remove]",
+            "heading": "Fit & Feel",
+            "show_description": false,
+            "description_type": "show_ul",
+            "content": "",
+            "custom_liquid": "{% render 'fit-and-fill' %}",
             "page": ""
           }
         },
@@ -172,6 +184,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "<p>Inkkas products are ethically handcrafted with responsible materials and made in small batches to reduce waste. Your purchase plants a tree through our <em><strong>OneShoeOneTree</strong></em><strong>™</strong> program with Trees.org, supporting reforestation, biodiversity, and climate resilience. </p>",
+            "custom_liquid": "",
             "page": ""
           }
         },
@@ -188,6 +201,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "care-instructions-trainer"
           }
         },
@@ -204,6 +218,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "<p>Because we make collections in small batches, we also make certain products available for pre-order. We do our best to project accurate shipping dates for pre-orders on the product page; however, please note that these dates could change.</p>",
+            "custom_liquid": "",
             "page": ""
           }
         },
@@ -219,6 +234,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "instructions"
           }
         },
@@ -234,6 +250,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "instructions"
           }
         },
@@ -249,6 +266,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "instructions"
           }
         },
@@ -264,6 +282,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "instructions"
           }
         },
@@ -279,6 +298,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "care-instructions-2"
           }
         },
@@ -294,6 +314,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "care-instructions-2"
           }
         },
@@ -309,6 +330,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "care-instructions-1"
           }
         },
@@ -324,6 +346,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "care-instructions-runners"
           }
         },
@@ -339,6 +362,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "care-instructions-ht"
           }
         },
@@ -354,6 +378,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "care-instructions-slipons-slides"
           }
         },
@@ -369,6 +394,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "care-instructions"
           }
         },
@@ -384,6 +410,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "care-instructions-joggers"
           }
         },
@@ -399,6 +426,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "copy-of-care-instructions"
           }
         },
@@ -414,6 +442,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "care-instructions-2"
           }
         },
@@ -429,6 +458,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": "care-instructions-2"
           }
         },
@@ -445,21 +475,14 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "<p>✉️ love@inkkas.com</p>",
+            "custom_liquid": "",
             "page": ""
           }
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
+          "disabled": true,
           "settings": {}
-        },
-        "rebuy_personalization_engine_rebuy_widget_yGFFnB": {
-          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
-          "settings": {
-            "enabled": true,
-            "id": "248045",
-            "product_id_enabled": true,
-            "collection_id_enabled": false
-          }
         },
         "collapsible_tab_2_EG6eBL": {
           "type": "collapsible_tab_2",
@@ -474,6 +497,7 @@
             "show_description": false,
             "description_type": "full_description",
             "content": "",
+            "custom_liquid": "",
             "page": ""
           }
         },
@@ -481,6 +505,16 @@
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<style>\n.product-6767518154849 .shipping__returns,\n.product-10422074057 .shipping__returns{\ndisplay:none;\n}\n</style>"
+          }
+        },
+        "rebuy_personalization_engine_rebuy_widget_N4KbNw": {
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "disabled": true,
+          "settings": {
+            "enabled": true,
+            "id": "248045",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
           }
         }
       },
@@ -490,17 +524,17 @@
         "label_block_wdhrVD",
         "variant_picker",
         "inventory_level_BhJagd",
-        "text_M9Q8aq",
         "custom_liquid_LyBCHn",
         "side_panel_g4pmfR",
         "preorder_me_product_button_t8zPaL",
         "buy_buttons",
         "essential_countdown_timer_app_block_L7YXF4",
-        "text_C36JcK",
+        "text_eay9iD",
         "custom_liquid_JfYWyP",
         "custom_liquid_Ydcihg",
         "collapsible_tab_2_hxiDMm",
         "collapsible_tab_2_UkAjaq",
+        "collapsible_tab_2_88rhJx",
         "collapsible_tab_2_J3DBXz",
         "collapsible_tab_2_9zwncR2",
         "collapsible_tab_2_zVrH6p",
@@ -521,9 +555,9 @@
         "collapsible_tab_2_x3xKnb",
         "collapsible_tab_2_4Gkpjy",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
-        "rebuy_personalization_engine_rebuy_widget_yGFFnB",
         "collapsible_tab_2_EG6eBL",
-        "custom_liquid_Y3EYmc"
+        "custom_liquid_Y3EYmc",
+        "rebuy_personalization_engine_rebuy_widget_N4KbNw"
       ],
       "custom_css": [],
       "settings": {
@@ -550,14 +584,6 @@
     "1759942147eebe6aa6": {
       "type": "apps",
       "blocks": {
-        "vizup_shoppable_video_carousel_stories_block_kVJzqN": {
-          "type": "shopify://apps/vizup-videos/blocks/stories-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
-          "disabled": true,
-          "settings": {
-            "sg_stories_wid_name": "",
-            "custom_css": ""
-          }
-        },
         "vizup_shoppable_video_carousel_videos_block_GxgkYA": {
           "type": "shopify://apps/vizup-videos/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
           "settings": {
@@ -567,8 +593,25 @@
         }
       },
       "block_order": [
-        "vizup_shoppable_video_carousel_stories_block_kVJzqN",
         "vizup_shoppable_video_carousel_videos_block_GxgkYA"
+      ],
+      "settings": {}
+    },
+    "1773082700c1a314f4": {
+      "type": "apps",
+      "blocks": {
+        "rebuy_personalization_engine_rebuy_widget_hUdA8a": {
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "248045",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "rebuy_personalization_engine_rebuy_widget_hUdA8a"
       ],
       "settings": {}
     },
@@ -1065,7 +1108,6 @@
     },
     "recently_viewed_products_HPzhR7": {
       "type": "recently-viewed-products",
-      "disabled": true,
       "settings": {
         "heading": "Recently Viewed",
         "heading_left": true,
@@ -2150,17 +2192,6 @@
         "disable_bottom_spacing": true
       }
     },
-    "spacer_pAh47z": {
-      "type": "spacer",
-      "disabled": true,
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 35,
-        "spacer_desktop": 50,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
     "scrolling_text_TQnEk3": {
       "type": "scrolling-text",
       "blocks": {
@@ -2191,7 +2222,7 @@
         "text_8JLEJJ": {
           "type": "text",
           "settings": {
-            "text": "Made to Go Places.",
+            "text": "Made to Move You.",
             "link": "",
             "outline_text": true
           }
@@ -2334,6 +2365,7 @@
     "how_it_looks_on_you_wEwKFG",
     "custom_liquid_qqHfLi",
     "17443016606c46dac5",
+    "1773082700c1a314f4",
     "text_with_icons_MRQx4U",
     "spacer_pXifQw",
     "product-recommendations",
@@ -2344,7 +2376,6 @@
     "spacer_9fKWyb",
     "single_image_EGQtMA",
     "multicolumn_bYkJ39",
-    "spacer_pAh47z",
     "scrolling_text_TQnEk3",
     "spacer_EepTjM",
     "spacer_dxzD98",

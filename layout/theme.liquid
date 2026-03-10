@@ -244,7 +244,7 @@
 {% include 'smile-initializer' %}
 
   <!-- Klaviyo -->
-  <script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
+  {% comment %} <script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
 	<script>
 		var klaviyo = klaviyo || [];
 		klaviyo.init({
@@ -279,7 +279,7 @@
 				success_text_color: "#1B9500"
 			}
 		});
-	</script>
+	</script> {% endcomment %}
   
   <!-- Accessibility - inkkas.com -->
   <script> 

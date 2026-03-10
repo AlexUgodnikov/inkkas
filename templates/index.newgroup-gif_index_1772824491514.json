@@ -96,6 +96,119 @@
             "button_2_outline": false
           }
         },
+        "slide_qnyD3Q": {
+          "type": "slide",
+          "name": "Spring Clearance Banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/02-28-26-Spring-Clearance-Sale-2.5-ezgif.com-gif-to-webp-converter.webp",
+            "mobile_image": "shopify://shop_images/02-28-26-Spring-Clearance-Sale-MOBILE-1.5-ezgif.com-optimize.gif",
+            "slide_link": "shopify://collections/clearance",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "left",
+            "content_size": "large",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_j9YRd4": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/New_Year_26_Winter-desktop4.jpg",
+            "mobile_image": "shopify://shop_images/New_Year_26_Winter-mobile5.jpg",
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-left",
+            "text_alignment": "left",
+            "content_size": "large",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 15,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_h6BEni": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/New_Year_26_Winter-desktop7.jpg",
+            "mobile_image": "shopify://shop_images/New_Year_26_Winter-mobile8_625b64a3-07f2-41b8-b1a5-a8eea66f0a75.jpg",
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_3VN7ay": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/New_Year_26_Winter-desktop4.jpg",
+            "mobile_image": "shopify://shop_images/New_Year_26_Winter-mobile5.jpg",
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "slide_4QVrzJ": {
           "type": "slide",
           "disabled": true,
@@ -105,12 +218,12 @@
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "video_hosted": "shopify://files/videos/BROWN-LEATHER-CAMPINGBOOT-140402-GIF-S.mp4",
             "subheading": "handcrafted for",
-            "heading": "Movement\nNature\nJoy ❤︎",
+            "heading": "Movement\nNature\nConnection\nJoy ❤︎",
             "heading_size": "h2",
             "content": "",
             "description_size": "medium",
             "content_position": "middle-center",
-            "text_alignment": "center",
+            "text_alignment": "left",
             "content_size": "large",
             "overlay_color": "rgba(0,0,0,0)",
             "overlay_opacity": 0,
@@ -129,7 +242,7 @@
           "settings": {
             "image": "shopify://shop_images/02-03-26RestockCHANTERELLEVEGANTENNIS-canva-ezgif.com-jpg-to-webp-converter.webp",
             "mobile_image": "shopify://shop_images/02-03-26RestockCHANTERELLEVEGANTENNISmobile-canva-ezgif.com-jpg-to-webp-converter.webp",
-            "slide_link": "shopify://collections/best-sellers",
+            "slide_link": "shopify://products/chanterelle-vegan-tennis",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "",
@@ -156,6 +269,10 @@
         "slide_7m7QVj",
         "slide_hWCHkV",
         "slide_C3eUEf",
+        "slide_qnyD3Q",
+        "slide_j9YRd4",
+        "slide_h6BEni",
+        "slide_3VN7ay",
         "slide_4QVrzJ",
         "slide_pzAG9M"
       ],
@@ -176,8 +293,8 @@
       "name": "Featured collection",
       "settings": {
         "heading": "Bestsellers",
-        "heading_left": true,
-        "description": "<p><em>Bold artistry meets handcrafted comfort.</em></p>",
+        "heading_left": false,
+        "description": "<p><em>Bold design meets handcrafted comfort.</em></p>",
         "full_width": true,
         "collection": "best-sellers",
         "display_type": "carousel",
@@ -190,208 +307,163 @@
         "disable_bottom_spacing": false
       }
     },
-    "rich_text_mdRPdC": {
-      "type": "rich-text",
-      "blocks": {
-        "text_JzdRjm": {
-          "type": "text",
-          "settings": {
-            "text": "<h2><strong>Shop</strong></h2>",
-            "custom_liquid": "",
-            "size": "text-size-large"
-          }
-        }
-      },
-      "block_order": [
-        "text_JzdRjm"
-      ],
-      "name": "Rich text",
+    "featured_collection_yta7W3": {
+      "type": "featured-collection",
+      "name": "Featured collection",
       "settings": {
-        "section_width": "full-width-row",
-        "text_width": "large",
-        "text_position": "left",
-        "text_alignment": "left",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "gallery_LmMtMY": {
-      "type": "gallery",
-      "blocks": {
-        "image_rbX3aW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/LUZON-TENNIS-AW250213-MODEL-ZOOM-EPI_0136.jpg",
-            "subheading": "",
-            "title": "TENNIS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/low-top",
-            "product_list": []
-          }
-        },
-        "image_tGmTPi": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ScreenShot2021-12-16at4.29.39PM.png",
-            "subheading": "",
-            "title": "JOGGERS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/joggers",
-            "product_list": []
-          }
-        },
-        "image_L6Q7D6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/DesertBuckleSandal-Flat-Heart-kimberlyreynoldsphotography-IMG_7832-converter.webp",
-            "subheading": "",
-            "title": "SANDALS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/sandals",
-            "product_list": []
-          }
-        },
-        "image_jLTRdM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WANYAMA-TREKKBOOT-AW251018-HOLD-RTSS1921-EDIT.jpg",
-            "subheading": "",
-            "title": "TREKK BOOTS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/trekk-boots",
-            "product_list": []
-          }
-        },
-        "image_NKFG9i": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BROWN-LEATHER-CAMPING-BOOT-140402-HOLD-_1.jpg",
-            "subheading": "",
-            "title": "CAMPING BOOTS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/camping-boots",
-            "product_list": []
-          }
-        },
-        "image_ACn7jM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/MOHAVE-SLIPON-SS230301-HOLD-4Q2A3983_678cacc9-d4f6-4766-9b62-13e5965d280a.jpg",
-            "subheading": "",
-            "title": "SLIP ONS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/slip-ons",
-            "product_list": []
-          }
-        },
-        "image_KCAph3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/CYPRUS-WESTERNBOOT-SS231124-MODELZOOM-4Q2A0330.jpg",
-            "subheading": "",
-            "title": "WESTERN BOOTS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/western-boots",
-            "product_list": []
-          }
-        },
-        "image_XKeeUz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/SARAS-BOOTIE-AW250805-MODELZOOM-RTSS3604.jpg",
-            "subheading": "",
-            "title": "BOOTIES",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/booties",
-            "product_list": []
-          }
-        },
-        "image_d9xjHc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BUSSI-TRAINER-AW250609-MODELZOOM-RTSS1035.jpg",
-            "subheading": "",
-            "title": "RUNNERS & TRAINERS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/runners",
-            "product_list": []
-          }
-        }
-      },
-      "block_order": [
-        "image_rbX3aW",
-        "image_tGmTPi",
-        "image_L6Q7D6",
-        "image_jLTRdM",
-        "image_NKFG9i",
-        "image_ACn7jM",
-        "image_KCAph3",
-        "image_XKeeUz",
-        "image_d9xjHc"
-      ],
-      "name": "Gallery",
-      "settings": {
-        "slider": true,
+        "heading": "Shop Up to 60% Off",
+        "heading_left": false,
+        "description": "<p><em>Take an additional 20% off markdown prices with code: EXTRA20</em></p>",
+        "full_width": true,
+        "collection": "clearance",
+        "display_type": "carousel",
+        "product_limit": 12,
         "columns_desktop": 4,
-        "section_width": "full-width-row",
+        "show_view_all": true,
         "mobile_swipe": true,
-        "image_ratio": "portrait",
-        "content_position": "middle-center",
-        "text_alignment": "center",
-        "column_spacing": "medium",
-        "heading_size": "h3",
-        "overlay_color": "#000000",
-        "overlay_opacity": 9,
+        "show_progress_bar": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     },
-    "rich_text_ba8NeN": {
-      "type": "rich-text",
+    "collection_tabs_XaFwAj": {
+      "type": "collection-tabs",
       "blocks": {
-        "subheading_wzxUdV": {
-          "type": "subheading",
+        "collection_qcdbdF": {
+          "type": "collection",
+          "disabled": true,
           "settings": {
-            "text": "as seen in"
+            "collection": "womens-collection-all-shoes"
+          }
+        },
+        "collection_UUWFVM": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "mens-shoes"
           }
         }
       },
       "block_order": [
-        "subheading_wzxUdV"
+        "collection_qcdbdF",
+        "collection_UUWFVM"
       ],
+      "disabled": true,
+      "name": "Collection tabs",
+      "settings": {
+        "heading": "Shop by Size",
+        "heading_left": false,
+        "description": "",
+        "full_width": false,
+        "product_limit": 16,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "show_progress_bar": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "slideshow_xjXNNN": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_88RM4A": {
+          "type": "slide",
+          "settings": {
+            "slide_link": "shopify://pages/shoe-art-contest",
+            "video_background": true,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify://files/videos/2026 Shoe Art Contest-Artist-Dani VonShweetz-@northsoulstudios-KNOCKONWOOD Reel.mov",
+            "subheading": "6th annual shoe art contest",
+            "heading": "Now Open!",
+            "heading_size": "h1-xlarge",
+            "content": "No purchase necessary to enter.",
+            "description_size": "small",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Blank Canvas Pairs",
+            "button_1_link": "shopify://collections/shoe-art-contest",
+            "button_1_outline": true,
+            "button_2_text": "Enter the Contest",
+            "button_2_link": "shopify://pages/shoe-art-contest",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_88RM4A"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "desktop_height": "desktop-height-full",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "transition": "swipe",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "background_video_MebyjY": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-750",
+        "mobile_height": "mobile-height-500",
+        "full_width": false,
+        "subheading": "Inkkas' 6th Annual Shoe Art Contest",
+        "heading": "Now Open!",
+        "text": "No purchase necessary to participate.",
+        "lightbox_button": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_hosted": "shopify://files/videos/2026 Shoe Art Contest-Artist-Dani VonShweetz-@northsoulstudios-KNOCKONWOOD Reel.mov",
+        "overlay_opacity": 15,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_rgA4JJ": {
+      "type": "rich-text",
+      "blocks": {
+        "button_daUjKc": {
+          "type": "button",
+          "settings": {
+            "link_label": "Enter the Contest",
+            "link": "shopify://pages/shoe-art-contest",
+            "button_outline": false
+          }
+        },
+        "text_XKqwBg": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p></p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_MyetKr": {
+          "type": "button",
+          "settings": {
+            "link_label": "Blank Canvas Pairs",
+            "link": "shopify://collections/shoe-art-contest",
+            "button_outline": true
+          }
+        }
+      },
+      "block_order": [
+        "button_daUjKc",
+        "text_XKqwBg",
+        "button_MyetKr"
+      ],
+      "disabled": true,
+      "name": "Rich text",
       "settings": {
         "section_width": "grid",
-        "text_width": "grid",
+        "text_width": "medium",
         "text_position": "center",
         "text_alignment": "center",
         "color_bg": "rgba(0,0,0,0)",
@@ -399,160 +471,6 @@
         "color_links": "#151515",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
-      }
-    },
-    "scrolling_text_CXQtRH": {
-      "type": "scrolling-text",
-      "blocks": {
-        "text_TUqR43": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoELLE.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_AjXrd4": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logo5update.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_PhCpDF": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoGLAMOUR_43a9bbff-3be5-46d8-aeff-f4e990da8681.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_abCPWg": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoPEOPLE_ca9d198d-a31f-49b8-a157-724d0d969a17.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_MpD46i": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoWAPOST.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_6gw9k6": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoNORDSTROM.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        }
-      },
-      "block_order": [
-        "text_TUqR43",
-        "text_AjXrd4",
-        "text_PhCpDF",
-        "text_abCPWg",
-        "text_MpD46i",
-        "text_6gw9k6"
-      ],
-      "custom_css": [],
-      "settings": {
-        "height": "height-auto",
-        "full_width": true,
-        "direction": "left",
-        "speed": "20s",
-        "text_size": 16,
-        "text_uppercase": true,
-        "image_size": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "1759887391a1859dfc": {
-      "type": "apps",
-      "blocks": {
-        "vizup_shoppable_video_carousel_videos_block_xdkXJx": {
-          "type": "shopify://apps/vizup-videos/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
-          "settings": {
-            "videoc_widget_id": "",
-            "custom_css": ""
-          }
-        }
-      },
-      "block_order": [
-        "vizup_shoppable_video_carousel_videos_block_xdkXJx"
-      ],
-      "settings": {}
-    },
-    "testimonials_zhUtgi": {
-      "type": "testimonials",
-      "blocks": {
-        "quote_CiTr6X": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "\"I feel like a celebrity in these comfy joggers. People stop me to compliment them daily and I just love them. They bring me joy in some weird shoe way.\"",
-            "author": "Crimson"
-          }
-        },
-        "quote_3Pe4wC": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "\"I’m in love. Comfortable, ridiculously stylish. Why I only bought neutral shoes and accessories now baffles me.\"",
-            "author": "Laura M."
-          }
-        },
-        "quote_CyaMfC": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "\"I call these my 'happy shoes.' They are so fun and I get smiles and compliments everywhere. Super comfy and certainly want another pair! True to size as well!\"",
-            "author": "Kelsi C. "
-          }
-        },
-        "quote_FmHYhn": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "\"These are phenomenal. Not only are they functional, but they are super cute! I am officially inspired to go hiking and exploring way more!\"",
-            "author": "Carly B."
-          }
-        }
-      },
-      "block_order": [
-        "quote_CiTr6X",
-        "quote_3Pe4wC",
-        "quote_CyaMfC",
-        "quote_FmHYhn"
-      ],
-      "name": "Testimonials",
-      "settings": {
-        "full_width": false,
-        "text_size": "small",
-        "pagination": "dots",
-        "autoplay": true,
-        "autoplay_length": 5,
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
       }
     },
     "rich_text_XFeHRp": {
@@ -586,7 +504,6 @@
         "text_iKRTVp",
         "text_kBA3bM"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "section_width": "full-width-row-full",
@@ -600,23 +517,35 @@
         "disable_bottom_spacing": true
       }
     },
+    "rich_text_3HUqXb": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_pFbWPd": {
+          "type": "subheading",
+          "settings": {
+            "text": "SHOP #INKKAS"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_pFbWPd"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "grid",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
     "gallery_nUbVgE": {
       "type": "gallery",
       "blocks": {
-        "image_YQ6dDr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BROWN-LEATHER-CAMPING-BOOTS-UGC-SUBURBANWORMS-converter.webp",
-            "subheading": "",
-            "title": "",
-            "text": "@SUBURBANWORMS",
-            "link_label": "shop",
-            "link": "shopify://products/brown-leather-camping-boot",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
         "image_6pkxFr": {
           "type": "image",
           "settings": {
@@ -626,6 +555,20 @@
             "text": "@cockeyed.cailou",
             "link_label": "shop",
             "link": "shopify://products/chanterelle-vegan-trekk-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_YQ6dDr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BROWN-LEATHER-CAMPING-BOOTS-UGC-SUBURBANWORMS-converter.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@SUBURBANWORMS",
+            "link_label": "shop",
+            "link": "shopify://products/brown-leather-camping-boot",
             "use_text_button": false,
             "block_link": "",
             "product_list": []
@@ -1516,8 +1459,8 @@
         }
       },
       "block_order": [
-        "image_YQ6dDr",
         "image_6pkxFr",
+        "image_YQ6dDr",
         "image_rEUKxF",
         "image_Ahf7XU",
         "image_apJiPJ",
@@ -1582,7 +1525,6 @@
         "image_Vxztb6",
         "image_anpFYC"
       ],
-      "disabled": true,
       "settings": {
         "slider": true,
         "columns_desktop": 4,
@@ -1599,66 +1541,181 @@
         "disable_bottom_spacing": false
       }
     },
-    "slideshow_xjXNNN": {
-      "type": "slideshow",
+    "spacer_tC8CzD": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 25,
+        "spacer_desktop": 0,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "rich_text_ba8NeN": {
+      "type": "rich-text",
       "blocks": {
-        "slide_88RM4A": {
-          "type": "slide",
+        "subheading_wzxUdV": {
+          "type": "subheading",
           "settings": {
-            "slide_link": "shopify://pages/shoe-art-contest",
-            "video_background": true,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "video_hosted": "shopify://files/videos/2026 Shoe Art Contest-Artist-Dani VonShweetz-@northsoulstudios-KNOCKONWOOD Reel.mov",
-            "subheading": "6th annual shoe art contest",
-            "heading": "Now Open!",
-            "heading_size": "h1-xlarge",
-            "content": "No purchase necessary to enter.",
-            "description_size": "small",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "Blank Canvas Pairs",
-            "button_1_link": "shopify://collections/shoe-art-contest",
-            "button_1_outline": true,
-            "button_2_text": "Enter the Contest",
-            "button_2_link": "shopify://pages/shoe-art-contest",
-            "button_2_outline": false
+            "text": "as seen in"
           }
         }
       },
       "block_order": [
-        "slide_88RM4A"
+        "subheading_wzxUdV"
       ],
-      "disabled": true,
-      "name": "Slideshow",
       "settings": {
-        "desktop_height": "desktop-height-full",
-        "mobile_height": "mobile-height-image",
-        "full_width": true,
-        "autoplay": false,
-        "autoplay_length": 5,
-        "transition": "swipe",
-        "disable_top_spacing": false,
+        "section_width": "grid",
+        "text_width": "grid",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
-    "spacer_tC8CzD": {
-      "type": "spacer",
-      "disabled": true,
-      "name": "Spacer",
+    "scrolling_text_CXQtRH": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_TUqR43": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/logoELLE.png",
+            "text": "",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_AjXrd4": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/logo5update.png",
+            "text": "",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_PhCpDF": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/logoGLAMOUR_43a9bbff-3be5-46d8-aeff-f4e990da8681.png",
+            "text": "",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_abCPWg": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/logoPEOPLE_ca9d198d-a31f-49b8-a157-724d0d969a17.png",
+            "text": "",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_MpD46i": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/logoWAPOST.png",
+            "text": "",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_6gw9k6": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/logoNORDSTROM.png",
+            "text": "",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_TUqR43",
+        "text_AjXrd4",
+        "text_PhCpDF",
+        "text_abCPWg",
+        "text_MpD46i",
+        "text_6gw9k6"
+      ],
+      "custom_css": [],
       "settings": {
-        "spacer_mobile": 25,
-        "spacer_desktop": 0,
-        "border_separator": false,
-        "border_separator_full": false
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "text_size": 16,
+        "text_uppercase": true,
+        "image_size": "medium",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "testimonials_zhUtgi": {
+      "type": "testimonials",
+      "blocks": {
+        "quote_CiTr6X": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "\"I feel like a celebrity in these comfy joggers. People stop me to compliment them daily and I just love them. They bring me joy in some weird shoe way.\"",
+            "author": "Crimson"
+          }
+        },
+        "quote_3Pe4wC": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "\"I’m in love. Comfortable, ridiculously stylish. Why I only bought neutral shoes and accessories now baffles me.\"",
+            "author": "Laura M."
+          }
+        },
+        "quote_CyaMfC": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "\"I call these my 'happy shoes.' They are so fun and I get smiles and compliments everywhere. Super comfy and certainly want another pair! True to size as well!\"",
+            "author": "Kelsi C. "
+          }
+        },
+        "quote_FmHYhn": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "\"These are phenomenal. Not only are they functional, but they are super cute! I am officially inspired to go hiking and exploring way more!\"",
+            "author": "Carly B."
+          }
+        }
+      },
+      "block_order": [
+        "quote_CiTr6X",
+        "quote_3Pe4wC",
+        "quote_CyaMfC",
+        "quote_FmHYhn"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": false,
+        "text_size": "small",
+        "pagination": "dots",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
       }
     },
     "spacer_BTPRyj": {
       "type": "spacer",
-      "disabled": true,
       "name": "Spacer",
       "settings": {
         "spacer_mobile": 25,
@@ -1666,6 +1723,217 @@
         "border_separator": false,
         "border_separator_full": false
       }
+    },
+    "rich_text_mdRPdC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nymHVr": {
+          "type": "heading",
+          "settings": {
+            "text": "Explore Our Footwear Collections",
+            "size": "h3"
+          }
+        },
+        "text_JzdRjm": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><em>Discover handcrafted shoes designed for every season. From rugged Trekk Boots to lightweight Slip Ons, every pair blends cushy comfort & unique artistry.</em></p>",
+            "custom_liquid": "",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nymHVr",
+        "text_JzdRjm"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_LmMtMY": {
+      "type": "gallery",
+      "blocks": {
+        "image_jLTRdM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WANYAMA-TREKKBOOT-AW251018-HOLD-RTSS1921-EDIT.jpg",
+            "subheading": "",
+            "title": "TREKK BOOTS",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/trekk-boots",
+            "product_list": []
+          }
+        },
+        "image_NKFG9i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BROWN-LEATHER-CAMPING-BOOT-140402-HOLD-_1.jpg",
+            "subheading": "",
+            "title": "CAMPING BOOTS",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/camping-boots",
+            "product_list": []
+          }
+        },
+        "image_rbX3aW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LUZON-TENNIS-AW250213-MODEL-ZOOM-EPI_0136.jpg",
+            "subheading": "",
+            "title": "TENNIS",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/low-top",
+            "product_list": []
+          }
+        },
+        "image_tGmTPi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ScreenShot2021-12-16at4.29.39PM.png",
+            "subheading": "",
+            "title": "JOGGERS",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/joggers",
+            "product_list": []
+          }
+        },
+        "image_ACn7jM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MOHAVE-SLIPON-SS230301-HOLD-4Q2A3983_678cacc9-d4f6-4766-9b62-13e5965d280a.jpg",
+            "subheading": "",
+            "title": "SLIP ONS",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/slip-ons",
+            "product_list": []
+          }
+        },
+        "image_KCAph3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CYPRUS-WESTERNBOOT-SS231124-MODELZOOM-4Q2A0330.jpg",
+            "subheading": "",
+            "title": "WESTERN BOOTS",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/western-boots",
+            "product_list": []
+          }
+        },
+        "image_XKeeUz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SARAS-BOOTIE-AW250805-MODELZOOM-RTSS3604.jpg",
+            "subheading": "",
+            "title": "BOOTIES",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/booties",
+            "product_list": []
+          }
+        },
+        "image_d9xjHc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BUSSI-TRAINER-AW250609-MODELZOOM-RTSS1035.jpg",
+            "subheading": "",
+            "title": "RUNNERS & TRAINERS",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/runners",
+            "product_list": []
+          }
+        },
+        "image_L6Q7D6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LUNDI-VEGAN-ACELOWTOP-SS250207-HOLD-HORIZONTAL-4Q2A9758.jpg",
+            "subheading": "",
+            "title": "LOW TOPS & HIGH TOPS",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/high-tops-and-low-tops",
+            "product_list": []
+          }
+        }
+      },
+      "block_order": [
+        "image_jLTRdM",
+        "image_NKFG9i",
+        "image_rbX3aW",
+        "image_tGmTPi",
+        "image_ACn7jM",
+        "image_KCAph3",
+        "image_XKeeUz",
+        "image_d9xjHc",
+        "image_L6Q7D6"
+      ],
+      "name": "Gallery",
+      "settings": {
+        "slider": true,
+        "columns_desktop": 4,
+        "section_width": "full-width-row",
+        "mobile_swipe": true,
+        "image_ratio": "portrait",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "column_spacing": "medium",
+        "heading_size": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 9,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1759887391a1859dfc": {
+      "type": "apps",
+      "blocks": {
+        "vizup_shoppable_video_carousel_videos_block_xdkXJx": {
+          "type": "shopify://apps/vizup-videos/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
+          "settings": {
+            "videoc_widget_id": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "vizup_shoppable_video_carousel_videos_block_xdkXJx"
+      ],
+      "settings": {}
     },
     "rich_text_t6kx3j": {
       "type": "rich-text",
@@ -1680,7 +1948,7 @@
         "text_nebbqX": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Thousands</strong> of Reviews Rated <strong>'Excellent' 4.8 </strong>out of <strong>5 </strong></p>",
+            "text": "<p><strong>8,200</strong> Reviews Rated <strong>'Excellent' 4.8 </strong>out of <strong>5 </strong></p>",
             "custom_liquid": "",
             "size": "text-size-small"
           }
@@ -1958,64 +2226,33 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "collection_tabs_XaFwAj": {
-      "type": "collection-tabs",
-      "blocks": {
-        "collection_qcdbdF": {
-          "type": "collection",
-          "settings": {
-            "collection": "womens-collection-all-shoes"
-          }
-        },
-        "collection_UUWFVM": {
-          "type": "collection",
-          "settings": {
-            "collection": "mens-shoes"
-          }
-        }
-      },
-      "block_order": [
-        "collection_qcdbdF",
-        "collection_UUWFVM"
-      ],
-      "disabled": true,
-      "name": "Collection tabs",
-      "settings": {
-        "heading": "Shop by Size",
-        "heading_left": false,
-        "description": "",
-        "full_width": false,
-        "product_limit": 16,
-        "columns_desktop": 4,
-        "show_view_all": false,
-        "show_progress_bar": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
     }
   },
   "order": [
     "slideshow_CQXNHG",
     "featured_collection_d6J7aT",
-    "rich_text_mdRPdC",
-    "gallery_LmMtMY",
+    "featured_collection_yta7W3",
+    "collection_tabs_XaFwAj",
+    "slideshow_xjXNNN",
+    "background_video_MebyjY",
+    "rich_text_rgA4JJ",
+    "rich_text_XFeHRp",
+    "rich_text_3HUqXb",
+    "gallery_nUbVgE",
+    "spacer_tC8CzD",
     "rich_text_ba8NeN",
     "scrolling_text_CXQtRH",
-    "1759887391a1859dfc",
     "testimonials_zhUtgi",
-    "rich_text_XFeHRp",
-    "gallery_nUbVgE",
-    "slideshow_xjXNNN",
-    "spacer_tC8CzD",
     "spacer_BTPRyj",
+    "rich_text_mdRPdC",
+    "gallery_LmMtMY",
+    "1759887391a1859dfc",
     "rich_text_t6kx3j",
     "1759579239f64a0794",
     "spacer_9PVUJE",
     "rich_text_DnVqLi",
     "featured_collection_list_MbNpKJ",
     "image_with_text_MrXTBh",
-    "multicolumn_TW977r",
-    "collection_tabs_XaFwAj"
+    "multicolumn_TW977r"
   ]
 }

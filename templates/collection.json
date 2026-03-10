@@ -31,16 +31,15 @@
         "promotion_aNMrqp": {
           "type": "promotion",
           "name": "Gift Cards",
-          "disabled": true,
           "settings": {
             "promotion_collection": "best-sellers",
-            "promotion_position": 5,
+            "promotion_position": 13,
             "promotion_width": "2",
-            "image": "shopify://shop_images/Banner-Tennis-MOBILE.png",
+            "image": "shopify://shop_images/CLASSICS-Corozal-Low-Top-1.gif",
             "title": "",
             "text": "",
-            "link_label": "Shop New Winter",
-            "link": "shopify://collections/new-arrivals",
+            "link_label": "Shop Cushy Sneakers",
+            "link": "shopify://collections/all-sneakers",
             "use_text_button": true,
             "block_link": "shopify://collections/new-arrivals",
             "overlay_color": "#151515",
@@ -56,7 +55,7 @@
             "image": "shopify://shop_images/SARAS-CUSH-JOGGER-AW250401-MODEL-EPI_9736.jpg",
             "title": "",
             "text": "",
-            "link_label": "Shop New Winter",
+            "link_label": "Shop New Arrivals",
             "link": "shopify://collections/new-arrivals",
             "use_text_button": true,
             "block_link": "shopify://collections/new-arrivals",
@@ -68,7 +67,7 @@
           "type": "promotion",
           "settings": {
             "promotion_collection": "best-sellers",
-            "promotion_position": 13,
+            "promotion_position": 16,
             "promotion_width": "2",
             "image": "shopify://shop_images/ROOSTER-TREKK-2-GIF-ezgif.com-video-to-webp-converter.webp",
             "title": "",
@@ -83,6 +82,7 @@
         },
         "promotion_i6Gp6E": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "best-sellers",
             "promotion_position": 21,

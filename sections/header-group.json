@@ -14,21 +14,30 @@
     "17537418499196266c": {
       "type": "apps",
       "blocks": {
-        "essential_announcer_app_block_iUFiMH": {
-          "type": "shopify://apps/essential-announcer/blocks/app-block/93b5429f-c8d6-4c33-ae14-250fd84f361b",
+        "essential_countdown_timer_app_block_cX6m8L": {
+          "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
-            "id": "a450ffd0-e8d5-44be-9494-8fb5720145f4"
+            "id": "cmliq6efm0034vwq08znd4sc8"
           }
         }
       },
       "block_order": [
-        "essential_announcer_app_block_iUFiMH"
+        "essential_countdown_timer_app_block_cX6m8L"
       ],
       "settings": {}
     },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "text_W3JWrc": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "shoe",
+            "text": "6TH ANNUAL SHOE ART CONTEST IS OPEN",
+            "link": "shopify://pages/shoe-art-contest"
+          }
+        },
         "text_xhDUtd": {
           "type": "text",
           "settings": {
@@ -37,39 +46,29 @@
             "link": "shopify://pages/return-policy"
           }
         },
-        "text_CmerAE": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "icon": "box",
-            "text": "FREE SHIPPING FOR US ORDERS OVER $150",
-            "link": "shopify://pages/shipping"
-          }
-        },
-        "text_3phbkU": {
-          "type": "text",
-          "settings": {
-            "icon": "plant",
-            "text": "OVER HALF A MILLION TREES PLANTED (& COUNTING)",
-            "link": "shopify://pages/about"
-          }
-        },
         "text_UjATph": {
           "type": "text",
           "settings": {
             "icon": "star",
-            "text": "JOIN INKPASS® TO ENJOY FREE SHIPPING + EARN REWARDS TODAY",
+            "text": "JOIN INKPASS® TO ENJOY FREE U.S. SHIPPING (NO MINIMUMS)",
             "link": "shopify://pages/inkkas-rewards"
+          }
+        },
+        "text_CmerAE": {
+          "type": "text",
+          "settings": {
+            "icon": "box",
+            "text": "FREE U.S. SHIPPING FOR ORDERS $150+",
+            "link": "shopify://pages/shipping"
           }
         }
       },
       "block_order": [
+        "text_W3JWrc",
         "text_xhDUtd",
-        "text_CmerAE",
-        "text_3phbkU",
-        "text_UjATph"
+        "text_UjATph",
+        "text_CmerAE"
       ],
-      "disabled": true,
       "settings": {
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,

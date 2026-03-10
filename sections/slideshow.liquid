@@ -83,7 +83,7 @@
 										assign class = 'slideshow-image--desktop'
 									endif
 								 -%}
-								 <img src="{{ image | img_url : 'x1000' }}" class="{{ class }}" width="{{ image.src.width }}" height="{{ image.src.height }}" alt="{{ image.alt }}" loading="{% if forloop.index == 1 %}eager{% else %}lazy{% endif %}" />
+								 <img src="{{ image | img_url : 'x1000' }}" class="{{ class }}" {% if forloop.index == 1 %}fetchpriority="high"{% endif %} width="{{ image.src.width }}" height="{{ image.src.height }}" alt="{{ image.alt }}" loading="{% if forloop.index == 1 %}eager{% else %}lazy{% endif %}" />
 							{%- else -%}
 								{%- assign index = forloop.index | modulo: 2 | plus: 1 -%}
 								{{ 'lifestyle-' | append: index | placeholder_svg_tag: 'placeholder_svg_tag' }}
@@ -94,7 +94,7 @@
 									assign master_width = image.src.width | append: 'x' | append: image.src.height
 									assign width = '375x' | append: mobile_image_height | append: ',' | append: master_width
 								 -%}
-								<img src="{{ image | img_url : 'x500' }}" class="slideshow-image--mobile" width="{{ image.src.width }}" height="{{ image.src.height }}" alt="{{ image.alt }}" loading="{% if forloop.index == 1 %}eager{% else %}lazy{% endif %}" />
+								<img src="{{ image | img_url : 'x500' }}" class="slideshow-image--mobile" {% if forloop.index == 1 %}fetchpriority="high"{% endif %} width="{{ image.src.width }}" height="{{ image.src.height }}" alt="{{ image.alt }}" loading="{% if forloop.index == 1 %}eager{% else %}lazy{% endif %}" />
 							{%- endif -%}
 						</div>
 					{%- endif -%}

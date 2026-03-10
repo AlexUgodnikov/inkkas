@@ -57,6 +57,8 @@
 						</div>
 						<div class="product-cart-item-info">
 							<a href="{{ item.url }}" title="{{ item.product.title | escape }}" class="cart-product-link">{{ item.product.title }}</a>
+							
+							
 							<span class="price">
 								{%- if item.original_line_price != item.final_line_price -%}
 								 <del><span class="amount">{{ item.original_line_price | money }}</span></del>
@@ -75,6 +77,7 @@
 									</small>
 								{%- endif -%}
 							</span>
+
 							{% if item.selling_plan_allocation %}
 							<div class="properties">
 								<span class="selling-plan">{{ item.selling_plan_allocation.selling_plan.name }}</span>
@@ -104,11 +107,20 @@
 								{%- endif -%}
 							{%- endfor -%}
 
+							{% if item.discount_allocations.size > 0 and item.discounts == blank %}
+							{% for allocation in item.discount_allocations  %}
+											<p class="global-discount-item-label">
+											{{ allocation.discount_application.title }}
+											</p>
+										{% endfor %}
+									{% endif %}		
 							{%- if item.discounts != blank -%}
 							<ul class="discounts" role="list">
 								{%- for discount in item.discounts -%}
 									<li class="discounts__discount">
-										{%- render 'svg-icons' with 'discount' -%}
+										<svg width="12" height="12" aria-hidden="true" focusable="false" role="presentation" class="icon icon-discount" viewBox="0 0 12 12">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M7 0h3a2 2 0 012 2v3a1 1 0 01-.3.7l-6 6a1 1 0 01-1.4 0l-4-4a1 1 0 010-1.4l6-6A1 1 0 017 0zm2 2a1 1 0 102 0 1 1 0 00-2 0z" fill="currentColor">
+										</path></svg>
 										{{ discount.title }} (-{{ discount.amount | money }})
 									</li>
 								{%- endfor -%}
@@ -236,25 +248,55 @@
 									<a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" class="remove" data-index="{{ item.index | plus: 1 }}">{% render 'svg-icons' with 'trash' %}</a>
 								</div>
 								<div class="product-cart-price-wrp">
-										<span class="price">
-									{%- if item.product.compare_at_price != blank and item.product.compare_at_price != item.final_price -%}
-										<ins><span class="amount amount-sale">{{ item.final_price | money }}</span></ins>
-									<del><span class="amount"><div class="pn-total-line-item" data-id="{{ item.key }}">{{ item.product.compare_at_price | money }}</div></span></del>
 									
-									{%- else -%}
-									<ins><span class="amount"><div class="pn-total-line-item" data-id="{{ item.key }}">{{ item.original_line_price | money }}</div></span></ins>
-									{%- endif -%}
-									{%- if item.variant.available and item.unit_price_measurement -%}
-										<small class="unit-price">
-											{{ item.variant.unit_price | money }}
-											<span class="unit-price-separator">/</span>
-											{%- if item.variant.unit_price_measurement.reference_value != 1 -%}
-											{{- item.variant.unit_price_measurement.reference_value -}}
-											{%- endif -%}
-											{{ item.variant.unit_price_measurement.reference_unit }}
-										</small>
-									{%- endif -%}
-									</span>
+									{% if item.discount_allocations.size > 0 %}
+	
+	
+										{% assign dsciall = 0 %}
+										{% for allocation in item.discount_allocations %}
+										
+											{%  assign dsciall = allocation.amount %}
+										{% endfor %}
+
+				
+											<span class="price">
+												
+												<ins><span class="amount amount-sale">
+													{{ item.final_price | minus: dsciall | money }}
+												</span></ins>
+												<del><span class="amount"><div class="pn-total-line-item" ">
+													{{ item.final_price | money }}
+												</div></span></del>
+												
+												
+												</span>
+
+										{% else %}
+
+												<span class="price">
+												{%- if item.product.compare_at_price != blank and item.product.compare_at_price != item.final_price -%}
+													<ins><span class="amount amount-sale">{{ item.final_price | money }}</span></ins>
+												<del><span class="amount"><div class="pn-total-line-item" data-id="{{ item.key }}">{{ item.product.compare_at_price | money }}</div></span></del>
+												
+												{%- else -%}
+												<ins><span class="amount"><div class="pn-total-line-item" data-id="{{ item.key }}">{{ item.original_line_price | money }}</div></span></ins>
+												{%- endif -%}
+												{%- if item.variant.available and item.unit_price_measurement -%}
+													<small class="unit-price">
+														{{ item.variant.unit_price | money }}
+														<span class="unit-price-separator">/</span>
+														{%- if item.variant.unit_price_measurement.reference_value != 1 -%}
+														{{- item.variant.unit_price_measurement.reference_value -}}
+														{%- endif -%}
+														{{ item.variant.unit_price_measurement.reference_unit }}
+													</small>
+												{%- endif -%}
+												</span>
+											
+									{% endif %}
+
+										
+									
 								</div>
 							</div>
 
@@ -306,8 +348,8 @@
 			{%- endif -%}
 			{% if settings.draawer_recommends != blank  %}
 		
-				<cartdrawer-recommends data-autoplay="{{settings.drawer_recommends_autoplay}}" data-autoplaylength="{{settings.drawer_recommends_autoplay_length | times: 1000}}">
-					<div class="cartdrawer-recommends-swiper">
+				<cartdrawer-recommends data-slider="{{settings.drawer_slider_off}}" data-autoplay="{{settings.drawer_recommends_autoplay}}" data-autoplaylength="{{settings.drawer_recommends_autoplay_length | times: 1000}}">
+					<div class="{% if settings.drawer_slider_off %}cartdrawer-recommends-grid{% else %}cartdrawer-recommends-grid cartdrawer-recommends-swiper{% endif %}">
 						<div class="cartdrawer-recommends-header">
 							{% if settings.recommends_title != blank %}
 								<div class="cartdrawer-recommends-header">
@@ -318,11 +360,11 @@
 							{% endif %}
 							
 						</div>
-						<div class="swiper-wrapper">
+						<div class="{% if settings.drawer_slider_off %}cartdrawer-recommends-wrp{% else %}swiper-wrapper{% endif %}">
 							{% for item in settings.draawer_recommends %}
 								{% if cartItemsId contains item.selected_or_first_available_variant.id %}
 								{% else %}
-									<div class="swiper-slide">
+									<div class="{% if settings.drawer_slider_off %}cartdrawer-recommends-item{% else %}swiper-slide{% endif %}">
 										<div class="slider__cards recommends-item">
 											<div class="cartdrawer-recommend-img">
 									
@@ -331,6 +373,9 @@
 											</div>
 											<div class="cartdrawer-recommend-text">
 												<div class="cartdrawer-recommend-title">{{item.title}}</div>
+												<div data-oke-star-rating data-oke-reviews-product-id="shopify-{{ item.id }}">
+													{{ item.metafields.okendo.StarRatingSnippet }}
+												</div>
 												<div class="cartdrawer-recommend-title">
 													{% render 'product-price', product: item %}
 												</div>
@@ -396,7 +441,7 @@
 				<div class="cart-drawer-footer">
 					{%- if cart.cart_level_discount_applications.size > 0 -%}
 						{%- for discount in cart.cart_level_discount_applications -%}
-							<div class="mini-cart__row mini-cart__discount">
+							<div class="mini-cart__row mini-cart__discount" style="display:none;">
 								<div class="mini-cart__label">{{ discount.title }}</div>
 								<span>(-{{ discount.total_allocated_amount | money }})</span>
 							</div>

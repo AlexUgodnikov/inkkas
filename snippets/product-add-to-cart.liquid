@@ -81,9 +81,10 @@
 				</button>
 				
 				{% unless product.selected_or_first_available_variant.available %}
-					<a class="klaviyo-bis-trigger button outline" href="#" style="flex: 1;margin-top: 0;">
+					<div class="klaviyo-bis-trigger"></div>
+					{% comment %} <a class="klaviyo-bis-trigger button outline" href="#" style="flex: 1;margin-top: 0;">
 						<span>Notify Me When Available</span>
-					</a>
+					</a> {% endcomment %}
 				{% endunless %}
 		  </div>
 		  {%- if settings.show_dynamic_button -%}   

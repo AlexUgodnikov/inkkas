@@ -1048,6 +1048,9 @@ class CartDrawerRecommends extends HTMLElement {
   }
 
   connectedCallback() {
+
+      setTimeout(() => {
+    
     const autoPlaySlider = this.dataset.autoplay === 'true' ? { delay: Number(this.dataset.autoplaylength) } : false;
 
     const drawerRecomends = new Swiper(this.querySelector('.cartdrawer-recommends-swiper'), {
@@ -1163,6 +1166,11 @@ class CartDrawerRecommends extends HTMLElement {
           });
       });
     });
+    
+
+     }, 300);
+
+
   }
 }
 

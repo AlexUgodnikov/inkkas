@@ -9,78 +9,52 @@
  */
 {
   "sections": {
-    "16616191162185f622": {
-      "type": "rich-text",
+    "image_with_text_8r7xar": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_HDEMGe": {
+        "heading_E8iHpm": {
           "type": "heading",
           "settings": {
-            "text": "About Us",
-            "size": "h3"
+            "text": "ABOUT US",
+            "heading_size": "h1"
           }
         },
-        "subheading_7pmD8M": {
+        "subheading_wUGJ7p": {
           "type": "subheading",
           "settings": {
-            "text": "inked by artists, designed for you ♥️"
+            "text": "INKED BY ARTISTS, MADE TO MOVE YOU ♥️"
           }
         },
-        "text_gdYyhJ": {
+        "text_YxUDrp": {
           "type": "text",
           "settings": {
-            "text": "<p>Inkkas is a nature-inspired, independent footwear brand where every design begins as a hand-drawn work of art. Every shoe is brought to life through thoughtful design and handcrafted production, blending art with adventure in every step. Born from a love of travel and deep respect for tradition, our collections are (literally) woven with stories -- from the Andes to the Sahara, from hand-inked sketches to bold soles built for exploration. We believe in craftsmanship that matters, creativity that connects, and products that are as unique as the people who wear them. Whether you're chasing city streets or forest trails, Inkkas are made to move you -- and move with you.</p>",
-            "custom_liquid": "",
-            "size": "text-size-regular"
+            "text": "<p>Inkkas is an independent footwear brand where every design begins as a hand-drawn work of art. Our collections are brought to life through thoughtful design and handcrafted production, blending art with adventure in every step. Each shoe is woven with stories from the Andes to the Sahara and built with soles designed for all-season exploration.</p><p>We invite you to step into one-of-a-kind, ultra-comfy shoes that let you express yourself, move freely, and feel connected to the world around you.</p><p>Inkkas is run by a small family team based in Takoma Park, Maryland. Our shoes are 100% handmade in Latin America using authentic textiles sourced globally. What began as a creative shoe idea in 2012 has grown into a worldwide community of artists and customers who value art, adventure, and conscious design. We remain proudly independent, building thoughtfully and staying closely connected. Thank you for being here.</p>",
+            "description_size": "medium"
           }
         }
       },
       "block_order": [
-        "heading_HDEMGe",
-        "subheading_7pmD8M",
-        "text_gdYyhJ"
+        "heading_E8iHpm",
+        "subheading_wUGJ7p",
+        "text_YxUDrp"
       ],
+      "name": "Image with text",
       "settings": {
-        "section_width": "full-width-row",
-        "text_width": "xlarge",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "video_cGLXP6": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "heading": "",
-        "heading_left": false,
-        "description": "",
-        "section_width": "grid",
+        "use_video": true,
         "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_hosted": "shopify://files/videos/MASHUP-UGC-7-2025.mp4",
         "video_autoplay": true,
-        "aspect_ratio": "3-4",
+        "video_controls": false,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "section_width": "full-width-row",
+        "layout": "text_first",
+        "content_position": "text-center",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "video_HXbYpW": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_left": false,
-        "description": "",
-        "section_width": "grid",
-        "video": "",
-        "video_hosted": "shopify://files/videos/BRAND VIDEO-Inkkas (12.3) - YT No VO.mp4",
-        "video_autoplay": true,
-        "aspect_ratio": "16-9",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "rich_text_GnLaUf": {
@@ -89,7 +63,7 @@
         "button_G8Aczt": {
           "type": "button",
           "settings": {
-            "link_label": "CHECK OUT THE BLOG!",
+            "link_label": "EXPLORE THE BLOG",
             "link": "shopify://blogs/blog",
             "button_outline": false
           }
@@ -215,7 +189,7 @@
             "image_full_width": false,
             "retina": true,
             "title": "2. Beauty Meets Function.",
-            "text": "<p>Each sketch is carefully transformed into a handcrafted shoe — where artistry meets engineering. Using high-quality, responsible materials and time-honored techniques, we build comfort into every detail: cushioned insoles, supportive soles, and a fit that feels like it was made just for you.</p>",
+            "text": "<p>Each sketch is carefully transformed into a handcrafted shoe: where artistry meets engineering. Using high-quality, responsible materials and time-honored techniques, we build comfort into every detail: cushioned insoles, supportive soles, and a fit that feels like it was made just for you.</p>",
             "link_label": "",
             "link": ""
           }
@@ -227,7 +201,7 @@
             "image_full_width": true,
             "retina": true,
             "title": "3. Made to be Loved.",
-            "text": "<p>Then comes the best part — you! Then comes the best part — you. When you step into a pair of Inkkas, expect that unmistakable confidence that comes from walking in something one-of-a-kind. Shoes that feel good for the soul (and the sole), good for the planet, and guaranteed to spark smiles and compliments along the way.</p>",
+            "text": "<p>Then comes the best part — you! When you step into a pair of Inkkas, expect that unmistakable confidence that comes from walking in something one-of-a-kind. Shoes that feel good for the soul (and the sole), good for the planet, and worthy of your next adventure.</p>",
             "link_label": "",
             "link": ""
           }
@@ -281,7 +255,7 @@
         "text_aPJiCC": {
           "type": "text",
           "settings": {
-            "text": "<p>For every purchase, we plant one tree through our <em><strong>OneShoeOneTree</strong></em>™ program with trees.org — supporting reforestation, biodiversity, and climate resilience. </p><p>In addition to tree planting, we:</p><ul><li>ensure fair and ethical practices across our supply chain</li><li>make our collections in small batches & allow pre-order to limit overproduction and waste</li><li>donate worn pairs to our partner Soles4Souls for refurbishment to those in need.</li></ul><p>Thank you for your support!</p>",
+            "text": "<p>For every purchase, we plant one tree through our <em><strong>OneShoeOneTree</strong></em>™ program with trees.org — supporting reforestation, biodiversity, and climate resilience. </p><p>In addition to tree planting, we:</p><ul><li>ensure fair and ethical practices across our supply chain</li><li>make our collections in small batches and allow pre-order to limit overproduction and waste</li><li>donate worn pairs to our partner Soles4Souls for refurbishment to those in need</li></ul><p>Thank you for walking with us — every step, every story, every adventure.</p>",
             "description_size": "small"
           }
         },
@@ -592,9 +566,7 @@
     }
   },
   "order": [
-    "16616191162185f622",
-    "video_cGLXP6",
-    "video_HXbYpW",
+    "image_with_text_8r7xar",
     "rich_text_GnLaUf",
     "scrolling_text_3jYpcV",
     "scrolling_text_XQmKrT",
