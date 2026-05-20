@@ -1,0 +1,1856 @@
+
+<style>
+  #main-content{
+    overflow: hidden!important;
+  }
+  .post-title,
+  .essential_annoucement_bar_wrapper,
+.shopify-section.shopify-section-group-header-group, 
+.announcement-bar-section, .shopify-section.shopify-section-group-footer-group{
+    display: none!important;
+}
+.small-12.columns{
+  padding:0!important;
+}
+.section-spacing{
+  margin: 0!important;
+}
+.blog-post-deta, .row, .page-content-width, .blog-post-detail{
+  max-width: 100%!important;
+   padding:0!important;
+}
+</style>
+
+<!-- =============================================
+     SECTION 1: Announcement Bar
+     ============================================= -->
+<style>
+  .lp-announcement-bar {
+    background-color: #151515 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    padding: 11px 16px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    font-size: 12.5px !important;
+    letter-spacing: 0.6px !important;
+    text-transform: uppercase !important;
+    white-space: nowrap !important;
+    line-height: 20px !important;
+  }
+
+  .lp-announcement-bar__text {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 600 !important;
+  }
+
+  .lp-announcement-bar__link {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    text-decoration: underline !important;
+    text-underline-offset: 2px !important;
+    transition: opacity 0.2s ease !important;
+  }
+
+  .lp-announcement-bar__link:hover {
+    opacity: 0.8 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-announcement-bar {
+      font-size: 10px !important;
+      letter-spacing: 0.4px !important;
+      padding: 9px 12px !important;
+      gap: 6px !important;
+      white-space: normal !important;
+      flex-wrap: wrap !important;
+    }
+  }
+</style>
+
+<div class="lp-announcement-bar">
+  <span class="lp-announcement-bar__text">One tree planted with every pair</span>
+  <a class="lp-announcement-bar__link" href="/products/brown-leather-camping-boot?_pos=1&_sid=5b64aee6d&_ss=r&variant=19373694853">Shop the Camping Boot &rarr;</a>
+</div>
+
+
+<!-- =============================================
+     SECTION 2: Hero — "Boots that show up."
+     ============================================= -->
+<style>
+  .lp-hero {
+    background-color: #ffffff !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 72px 16px 0 !important;
+  }
+
+  .lp-hero__inner {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 18px !important;
+    width: 100% !important;
+    max-width: 920px !important;
+  }
+
+  .lp-hero__overline {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 11px !important;
+    letter-spacing: 2.4px !important;
+    text-transform: uppercase !important;
+    color: #878787 !important;
+    text-align: center !important;
+    margin-bottom: 0 !important;
+  }
+
+  .lp-hero__heading {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 68px !important;
+    line-height: 1.02 !important;
+    letter-spacing: -2.04px !important;
+    color: #151515 !important;
+    text-align: center !important;
+    max-width: 720px !important;
+    margin: 0 !important;
+  }
+
+  .lp-hero__subheading {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 19px !important;
+    line-height: 1.5 !important;
+    color: #878787 !important;
+    text-align: center !important;
+    max-width: 560px !important;
+    margin: 0 !important;
+  }
+
+  .lp-hero__pricing {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    font-size: 15px !important;
+    letter-spacing: 0.3px !important;
+    padding-top: 12px !important;
+  }
+
+  .lp-hero__price-bold {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 700 !important;
+    color: #151515 !important;
+  }
+
+  .lp-hero__price-sep {
+    color: #878787 !important;
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 500 !important;
+  }
+
+  .lp-hero__price-text {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 500 !important;
+    color: #151515 !important;
+  }
+
+  .lp-hero__compare {
+    width: 100% !important;
+    max-width: 560px !important;
+    border-top: 1px solid #e5e0d7 !important;
+    border-bottom: 1px solid #e5e0d7 !important;
+    padding: 27px 0 33px !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .lp-hero__compare-row {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 16px !important;
+    padding: 10px 0 11px !important;
+    border-bottom: 1px solid #e5e0d7 !important;
+  }
+
+  .lp-hero__compare-row:last-child {
+    border-bottom: none !important;
+    padding-bottom: 10px !important;
+  }
+
+  .lp-hero__compare-pro {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-size: 14.5px !important;
+    line-height: 1.6 !important;
+    color: #151515 !important;
+  }
+
+  .lp-hero__compare-pro .check {
+    color: #1f6b43 !important;
+    font-weight: 700 !important;
+  }
+
+  .lp-hero__compare-pro .label {
+    font-weight: 600 !important;
+  }
+
+  .lp-hero__compare-con {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 14.5px !important;
+    line-height: 1.6 !important;
+    color: #878787 !important;
+  }
+
+  .lp-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #151515 !important;
+    border: 1px solid #151515 !important;
+    border-radius: 5px !important;
+    padding: 16.5px 39px !important;
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    letter-spacing: 0.6px !important;
+    text-transform: uppercase !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    margin-top: 4px !important;
+    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease !important;
+    cursor: pointer !important;
+  }
+
+  .lp-btn:hover {
+    background-color: #ffffff !important;
+    border-color: #151515 !important;
+    color: #151515 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-hero {
+      padding: 20px 16px 0 !important;
+    }
+
+    .lp-hero__inner {
+      gap: 14px !important;
+    }
+
+    .lp-hero__overline {
+      font-size: 10px !important;
+      letter-spacing: 1.8px !important;
+    }
+
+    .lp-hero__heading {
+      font-size: 36px !important;
+      letter-spacing: -0.8px !important;
+      line-height: 1.05 !important;
+    }
+
+    .lp-hero__subheading {
+      font-size: 16px !important;
+    }
+
+    .lp-hero__pricing {
+      flex-wrap: wrap !important;
+      justify-content: center !important;
+      gap: 6px !important;
+      font-size: 13px !important;
+    }
+
+    .lp-hero__compare {
+      max-width: 100% !important;
+      padding: 20px 0 24px !important;
+    }
+
+    .lp-hero__compare-row {
+      grid-template-columns: 1fr !important;
+      gap: 4px !important;
+      padding: 8px 0 !important;
+    }
+
+    .lp-hero__compare-pro,
+    .lp-hero__compare-con {
+      font-size: 13px !important;
+    }
+
+    .lp-btn {
+      padding: 14px 28px !important;
+      font-size: 13px !important;
+      width: 100% !important;
+      text-align: center !important;
+    }
+  }
+</style>
+
+<section class="lp-hero">
+  <div class="lp-hero__inner">
+
+    <p class="lp-hero__overline">Inkkas Bestseller &middot; 4.7&#9733; / 900+ Customer Reviews</p>
+
+    <h1 class="lp-hero__heading">Boots that show up.</h1>
+
+    <p class="lp-hero__subheading">5 reasons the Inkkas Camping Boot outlasts your other boots, year after year.</p>
+
+    <div class="lp-hero__pricing">
+      <span class="lp-hero__price-bold js-current-price" data-url="/products/brown-leather-camping-boot">$149</span>
+      <span class="lp-hero__price-sep">|</span>
+      <span class="lp-hero__price-text">5 payments of $29.80</span>
+      <span class="lp-hero__price-sep">|</span>
+      <span class="lp-hero__price-text">Free U.S. shipping &amp; returns</span>
+    </div>
+
+    <div class="lp-hero__compare">
+      <div class="lp-hero__compare-row">
+        <div class="lp-hero__compare-pro"><span class="check">&#10003; </span><span class="label">Comfortable on day one</span></div>
+        <div class="lp-hero__compare-con">&#10005; 2 to 4 weekends of break-in</div>
+      </div>
+      <div class="lp-hero__compare-row">
+        <div class="lp-hero__compare-pro"><span class="check">&#10003; </span><span class="label">Trail, city, travel, dinner</span></div>
+        <div class="lp-hero__compare-con">&#10005; Looks wrong off the trail</div>
+      </div>
+      <div class="lp-hero__compare-row">
+        <div class="lp-hero__compare-pro"><span class="check">&#10003; </span><span class="label">Same pair, 5 to 13 years</span></div>
+        <div class="lp-hero__compare-con">&#10005; Replaced every 1 to 3 seasons</div>
+      </div>
+    </div>
+
+    <a class="lp-btn" href="/products/brown-leather-camping-boot?_pos=1&_sid=5b64aee6d&_ss=r&variant=19373694853">Shop the Camping Boot &rarr;</a>
+
+  </div>
+</section>
+
+
+
+<!-- =============================================
+     SECTION 3: Quote text
+     ============================================= -->
+<style>
+  .lp-quote {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 56px 16px !important;
+    background-color: #ffffff !important;
+  }
+
+  .lp-quote__text {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 26px !important;
+    line-height: 1.35 !important;
+    letter-spacing: -0.26px !important;
+    color: #151515 !important;
+    text-align: center !important;
+    max-width: 680px !important;
+    margin: 0 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-quote {
+      padding: 40px 20px !important;
+    }
+
+    .lp-quote__text {
+      font-size: 19px !important;
+      letter-spacing: -0.1px !important;
+    }
+  }
+</style>
+
+<section class="lp-quote">
+  <p class="lp-quote__text">No break-in pain. No single-purpose boot. Just a leather pair you wear on the trail, on the plane, and in your friend's kitchen 13 years later.</p>
+</section>
+
+
+
+<!-- =============================================
+     SECTION 4: Blockquote
+     ============================================= -->
+<style>
+  .lp-blockquote {
+    background-color: #f6f2ec !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 19px !important;
+    padding: 55px 44px 56px !important;
+  }
+
+  .lp-blockquote__text {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 500 !important;
+    font-style: italic !important;
+    font-size: 22px !important;
+    line-height: 1.4 !important;
+    color: #151515 !important;
+    text-align: center !important;
+    max-width: 620px !important;
+    margin: 0 !important;
+    padding:0!important;
+  }
+   .lp-blockquote__text::before{
+    display: none!important;
+   }
+
+  .lp-blockquote__cite {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 1.6 !important;
+    letter-spacing: 1.8px !important;
+    text-transform: uppercase !important;
+    color: #878787 !important;
+    text-align: center !important;
+    font-style: normal !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-blockquote {
+      padding: 40px 24px !important;
+      gap: 14px !important;
+    }
+
+    .lp-blockquote__text {
+      font-size: 18px !important;
+    }
+
+    .lp-blockquote__cite {
+      font-size: 11px !important;
+      letter-spacing: 1.4px !important;
+    }
+  }
+</style>
+
+<section class="lp-blockquote">
+  <blockquote class="lp-blockquote__text">
+    &ldquo;A great pair of shoes can take you everywhere, last for years, and leave the world a little better behind you. Every Camping Boot plants a tree.&rdquo;
+  </blockquote>
+  <cite class="lp-blockquote__cite">Inkkas &middot; Global Footwear, Founded 2012</cite>
+</section>
+
+
+<!-- =============================================
+     SECTION 5: Section heading — "5 reasons"
+     ============================================= -->
+<style>
+  .lp-section-heading {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 10px !important;
+    padding: 56px 16px 8px !important;
+    background-color: #ffffff !important;
+  }
+
+  .lp-section-heading__title {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 32px !important;
+    line-height: 1.25 !important;
+    letter-spacing: -0.64px !important;
+    color: #151515 !important;
+    text-align: center !important;
+    max-width: 620px !important;
+    margin: 0 !important;
+  }
+
+  .lp-section-heading__sub {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+    letter-spacing: 0.3px !important;
+    color: #878787 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-section-heading {
+      padding: 40px 20px 8px !important;
+    }
+
+    .lp-section-heading__title {
+      font-size: 24px !important;
+      letter-spacing: -0.3px !important;
+    }
+
+    .lp-section-heading__sub {
+      font-size: 14px !important;
+    }
+  }
+</style>
+
+<section class="lp-section-heading">
+  <h2 class="lp-section-heading__title">5 reasons customers keep coming back, a decade in the same pair.</h2>
+  <p class="lp-section-heading__sub">Keep reading. The reviews tell the story.</p>
+</section>
+
+
+<!-- =============================================
+     SECTION 6: 5 Reasons — feature rows
+     ============================================= -->
+<style>
+  .lp-reasons {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 16px 15px 80px !important;
+    background-color: #ffffff !important;
+    max-width: 900px;
+    margin: 0 auto !important; 
+  }
+
+  /* ---- Feature row ---- */
+  .lp-reasons__row {
+    display: grid !important;
+    grid-template-columns: 320px 1fr !important;
+    gap: 56px !important;
+    align-items: center !important;
+    padding: 64px 0 65px !important;
+    border-bottom: 1px solid #e5e0d7 !important;
+  }
+
+  .lp-reasons__row--reverse {
+    grid-template-columns: 1fr 320px !important;
+  }
+
+  .lp-reasons__row--reverse .lp-reasons__img-wrap {
+    order: 2 !important;
+  }
+
+  .lp-reasons__row--reverse .lp-reasons__content {
+    order: 1 !important;
+  }
+
+  /* ---- Image ---- */
+  .lp-reasons__img-wrap {
+    width: 100% !important;
+    aspect-ratio: 320 / 400 !important;
+    overflow: hidden !important;
+    background-color: #f6f2ec !important;
+    flex-shrink: 0 !important;
+  }
+
+  .lp-reasons__img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+  }
+
+  /* ---- Content ---- */
+  .lp-reasons__content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 13px !important;
+  }
+
+  .lp-reasons__category {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 16.5px !important;
+    letter-spacing: 2.4px !important;
+    text-transform: uppercase !important;
+    color: #151515 !important;
+    margin: 0 !important;
+  }
+
+
+
+  .lp-reasons__number {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 36px !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.9px !important;
+    color: #878787 !important;
+    flex-shrink: 0 !important;
+    margin: 0 !important;
+  }
+
+  .lp-reasons__title {
+    display: inline !important;
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 36px !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.9px !important;
+    color: #151515 !important;
+    margin: 0 !important;
+  }
+
+  .lp-reasons__body {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 16.5px !important;
+    line-height: 1.55 !important;
+    color: #151515 !important;
+    margin: 0 !important;
+  }
+
+  .lp-reasons__quote {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 500 !important;
+    font-style: italic !important;
+    font-size: 14.5px !important;
+    line-height: 1.45 !important;
+    color: #151515 !important;
+    border-top: 1px solid #e5e0d7 !important;
+    padding-top: 19px !important;
+    margin: 6px 0 0 !important;
+  }
+
+  /* ---- Specs table (section 05) ---- */
+  .lp-reasons__specs {
+    border-top: 1px solid #e5e0d7 !important;
+    padding-top: 19px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 6px !important;
+  }
+
+  .lp-reasons__spec-row {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 10px 0 !important;
+    border-bottom: 1px solid #e5e0d7 !important;
+  }
+
+  .lp-reasons__spec-row:last-child {
+    border-bottom: none !important;
+  }
+
+  .lp-reasons__spec-label {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 15.5px !important;
+    color: #151515 !important;
+    margin: 0 !important;
+  }
+
+  .lp-reasons__spec-value {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 11.5px !important;
+    letter-spacing: 1.4px !important;
+    text-transform: uppercase !important;
+    color: #878787 !important;
+    margin: 0 !important;
+  }
+
+  /* ---- CTA bar ---- */
+  .lp-reasons__cta-bar {
+    background-color: #f6f2ec !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 32px 36px !important;
+  }
+
+  .lp-reasons__cta-text {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    color: #151515 !important;
+    margin: 0 !important;
+    max-width: 540px !important;
+  }
+
+  /* ---- Mobile ---- */
+  @media (max-width: 768px) {
+    .lp-reasons {
+      padding: 8px 0 48px !important;
+    }
+
+    .lp-reasons__row,
+    .lp-reasons__row--reverse {
+      grid-template-columns: 1fr !important;
+      gap: 24px !important;
+      padding: 40px 20px !important;
+    }
+
+    .lp-reasons__row--reverse .lp-reasons__img-wrap {
+      order: -1 !important;
+    }
+
+    .lp-reasons__img-wrap {
+      aspect-ratio: 4 / 3 !important;
+    }
+
+    .lp-reasons__number,
+    .lp-reasons__title {
+      font-size: 26px !important;
+    }
+
+    .lp-reasons__body {
+      font-size: 15px !important;
+    }
+
+    .lp-reasons__category {
+      font-size: 13px !important;
+    }
+
+    .lp-reasons__cta-bar {
+      flex-direction: column !important;
+      gap: 16px !important;
+      padding: 24px 20px !important;
+      text-align: center !important;
+    }
+
+    .lp-reasons__cta-text {
+      font-size: 15px !important;
+    }
+
+    .lp-btn {
+      width: 100% !important;
+    }
+  }
+</style>
+
+<div class="lp-reasons">
+
+  <!-- 01 Comfort -->
+  <div class="lp-reasons__row">
+    <div class="lp-reasons__img-wrap">
+      <img class="lp-reasons__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/32445546.png?v=1779284638&width=800" alt="Camping Boot — Comfort">
+    </div>
+    <div class="lp-reasons__content">
+      <p class="lp-reasons__category">Comfort</p>
+      <div class="lp-reasons__title-wrap">
+        <span class="lp-reasons__number">01</span>
+        <h3 class="lp-reasons__title">Comfortable on day one. Zero break-in.</h3>
+      </div>
+      <p class="lp-reasons__body">The phrase that shows up most across 900+ reviews is some version of &ldquo;right out of the box.&rdquo; Customers wear the Camping Boot to Red Rocks, to Japan, to overseas flights, on day one, no blisters.</p>
+      <p class="lp-reasons__body">Soft leather upper. Foot-shaped last. You skip the two-weekend break-in pain that most boots in this category demand.</p>
+      <p class="lp-reasons__quote">Deborah S. walked 88 miles in 8 days across Japan, city sidewalks and hiking trails, zero blisters.</p>
+    </div>
+  </div>
+
+  <!-- 02 Versatility -->
+  <div class="lp-reasons__row lp-reasons__row--reverse">
+    <div class="lp-reasons__img-wrap">
+      <img class="lp-reasons__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/reason-02-versatility.png?v=1779283939&width=800" alt="Camping Boot — Versatility">
+    </div>
+    <div class="lp-reasons__content">
+      <p class="lp-reasons__category">Versatility</p>
+      <div class="lp-reasons__title-wrap">
+        <span class="lp-reasons__number">02</span>
+        <h3 class="lp-reasons__title">One boot for the trail, the city, and every season.</h3>
+      </div>
+      <p class="lp-reasons__body">Most boots earn one job. Hiking boots look ridiculous at brunch. Fashion boots fall apart on a real trail. Customers say the Camping Boot is the rare pair that handles both, plus the airport and the dog walk.</p>
+      <p class="lp-reasons__body">One customer ran for a flight, hiked Carmel Valley, walked the beach, and chased her dog, same pair. Another wore them at Red Rocks and back home on city sidewalks the next day.</p>
+      <p class="lp-reasons__quote">Customers wear them for hiking, dancing, dog walking, travel, work, weddings. One pair, many lives.</p>
+    </div>
+  </div>
+
+  <!-- CTA bar 1 -->
+  <div class="lp-reasons__cta-bar">
+    <p class="lp-reasons__cta-text">One boot, every terrain, zero break-in.</p>
+    <a class="lp-btn" href="/products/brown-leather-camping-boot?_pos=1&_sid=5b64aee6d&_ss=r&variant=19373694853">Shop the Camping Boot &rarr;</a>
+  </div>
+
+  <!-- 03 Longevity -->
+  <div class="lp-reasons__row lp-reasons__row--reverse">
+    <div class="lp-reasons__img-wrap">
+      <img class="lp-reasons__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/reason-03-longevity.png?v=1779283937&width=800" alt="Camping Boot — Longevity">
+    </div>
+    <div class="lp-reasons__content">
+      <p class="lp-reasons__category">Longevity</p>
+      <div class="lp-reasons__title-wrap">
+        <span class="lp-reasons__number">03</span>
+        <h3 class="lp-reasons__title">Five, eight, thirteen years of wear.</h3>
+      </div>
+      <p class="lp-reasons__body">One customer wrote in 2026 that his 2013 pair is still mostly intact after countless hikes across multiple countries. Another bought hers in 2018 as a full-time travel shoe and said eight years later the traction is still there.</p>
+      <p class="lp-reasons__body">The current Camping Boot is the same boot customers have been wearing since 2013. Most repeat buyers grab a second pair only because they fear the style might disappear.</p>
+      <p class="lp-reasons__quote">&ldquo;Bought my first pair in 2018. Eight years later, still keeping the traction in the action.&rdquo;</p>
+    </div>
+  </div>
+
+  <!-- 04 Aesthetic -->
+  <div class="lp-reasons__row">
+    <div class="lp-reasons__img-wrap">
+      <img class="lp-reasons__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/reason-04-aesthetic.png?v=1779283934&width=800" alt="Camping Boot — Aesthetic">
+    </div>
+    <div class="lp-reasons__content">
+      <p class="lp-reasons__category">Aesthetic</p>
+      <div class="lp-reasons__title-wrap">
+        <span class="lp-reasons__number">04</span>
+        <h3 class="lp-reasons__title">The pair strangers stop you to ask about.</h3>
+      </div>
+      <p class="lp-reasons__body">Every long-form review mentions the same thing. People stop them on the street. Patients ask their nurses. Coworkers ask in meetings. The woven textile detail catches the eye in a way a plain leather boot never will.</p>
+      <p class="lp-reasons__body">One customer said &ldquo;a day doesn&rsquo;t go by&rdquo; without someone asking what brand they are. Another said the design is &ldquo;untouchable.&rdquo;</p>
+      <p class="lp-reasons__quote">&ldquo;Great grip and frequently catch peoples&rsquo; eyes for a compliment.&rdquo; Michael C., 13-year owner.</p>
+    </div>
+  </div>
+
+  <!-- CTA bar 2 -->
+  <div class="lp-reasons__cta-bar">
+    <p class="lp-reasons__cta-text">Stitched outsole. Premium leather upper. Built to outlast a decade of trips.</p>
+    <a class="lp-btn" href="/products/brown-leather-camping-boot?_pos=1&_sid=5b64aee6d&_ss=r&variant=19373694853">Shop the Camping Boot &rarr;</a>
+  </div>
+
+  <!-- 05 Fit -->
+  <div class="lp-reasons__row">
+    <div class="lp-reasons__img-wrap">
+      <img class="lp-reasons__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/reason-05-fit.png?v=1779283937&width=800" alt="Camping Boot — Fit">
+    </div>
+    <div class="lp-reasons__content">
+      <p class="lp-reasons__category">Fit</p>
+      <div class="lp-reasons__title-wrap">
+        <span class="lp-reasons__number">05</span>
+        <h3 class="lp-reasons__title">True to size. Made for your orthotics.</h3>
+      </div>
+      <p class="lp-reasons__body">Fits true to size, half sizes available. The premium insole pops out, so custom orthotics drop right in. Customers with orthotics and thick hiking socks report comfort from the first wear.</p>
+      <div class="lp-reasons__specs">
+        <div class="lp-reasons__spec-row">
+          <span class="lp-reasons__spec-label">Sizing</span>
+          <span class="lp-reasons__spec-value">True to size, half sizes</span>
+        </div>
+        <div class="lp-reasons__spec-row">
+          <span class="lp-reasons__spec-label">Width</span>
+          <span class="lp-reasons__spec-value">Medium only</span>
+        </div>
+        <div class="lp-reasons__spec-row">
+          <span class="lp-reasons__spec-label">Insole</span>
+          <span class="lp-reasons__spec-value">Removable for orthotics</span>
+        </div>
+        <div class="lp-reasons__spec-row">
+          <span class="lp-reasons__spec-label">Returns</span>
+          <span class="lp-reasons__spec-value">30 days, free exchanges</span>
+        </div>
+        <div class="lp-reasons__spec-row">
+          <span class="lp-reasons__spec-label">Shipping</span>
+          <span class="lp-reasons__spec-value">Free U.S. shipping &amp; returns</span>
+        </div>
+      </div>
+      <p class="lp-reasons__quote">&ldquo;100% comfort with custom orthotics and light wool socks. Did not want to take them off.&rdquo; Melinda J. H.</p>
+    </div>
+  </div>
+
+  <!-- CTA bar 3 -->
+  <div class="lp-reasons__cta-bar">
+    <p class="lp-reasons__cta-text">Plants a tree with every pair. Free exchanges. 100% Happiness Guarantee.</p>
+    <a class="lp-btn" href="/products/brown-leather-camping-boot?_pos=1&_sid=5b64aee6d&_ss=r&variant=19373694853">Find your fit &rarr;</a>
+  </div>
+
+</div>
+
+
+<!-- =============================================
+     SECTION 7: Product card — comparison table
+     ============================================= -->
+<style>
+  .lp-product-card {
+    background-color: #ffffff !important;
+    border: 1px solid #e5e0d7 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 14px !important;
+    padding: 56px 49px 57px !important;
+    max-width: 900px !important;
+    margin: 0 auto !important;
+  }
+
+  .lp-product-card__overline {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 11px !important;
+    letter-spacing: 2.4px !important;
+    text-transform: uppercase !important;
+    color: #878787 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-product-card__title {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 40px !important;
+    letter-spacing: -1px !important;
+    line-height: 1.1 !important;
+    color: #151515 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-product-card__desc {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 1.55 !important;
+    color: #878787 !important;
+    text-align: center !important;
+    max-width: 540px !important;
+    margin: 0 !important;
+  }
+
+  .lp-product-card__img-wrap {
+    width: 100% !important;
+    overflow: hidden !important;
+    background-color: #f6f2ec !important;
+    aspect-ratio: 16 / 9 !important;
+  }
+
+  .lp-product-card__img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+  }
+
+  /* --- Comparison table --- */
+  .lp-product-card__table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin-top: 4px !important;
+    font-size: 14.5px !important;
+  }
+
+  .lp-product-card__table th {
+    background-color: #151515 !important;
+    color: #ffffff !important;
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 11.5px !important;
+    letter-spacing: 1.2px !important;
+    text-transform: uppercase !important;
+    padding: 14px 16px !important;
+    text-align: left !important;
+  }
+
+  .lp-product-card__table td {
+    padding: 13px 16px 14px !important;
+    border-bottom: 1px solid #e5e0d7 !important;
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-size: 14.5px !important;
+    line-height: 1.4 !important;
+    vertical-align: top !important;
+  }
+
+  .lp-product-card__table td:first-child {
+    background-color: #f6f2ec !important;
+    font-weight: 600 !important;
+    color: #151515 !important;
+    width: 28% !important;
+  }
+
+  .lp-product-card__table td:nth-child(2) {
+    width: 42% !important;
+  }
+
+  .lp-product-card__table td:nth-child(3) {
+    width: 30% !important;
+  }
+
+  .lp-product-card__pro {
+    color: #1f6b43 !important;
+    font-weight: 700 !important;
+  }
+
+  .lp-product-card__pro span {
+    color: #151515 !important;
+    font-weight: 500 !important;
+  }
+
+  .lp-product-card__con {
+    color: #878787 !important;
+    font-weight: 400 !important;
+  }
+
+  /* --- Features grid --- */
+  .lp-product-card__features {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0 28px !important;
+    width: 100% !important;
+    max-width: 640px !important;
+    padding-top: 18px !important;
+  }
+
+  .lp-product-card__feature {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    padding: 10px 0 11px !important;
+    border-bottom: 1px solid #e5e0d7 !important;
+  }
+
+  .lp-product-card__feature-plus {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: #151515 !important;
+    flex-shrink: 0 !important;
+    line-height: 1 !important;
+  }
+
+  .lp-product-card__feature-text {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 14.5px !important;
+    color: #151515 !important;
+    line-height: 1.6 !important;
+  }
+
+  /* --- Price block --- */
+  .lp-product-card__price-wrap {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 5px !important;
+    padding: 18px 0 10px !important;
+  }
+
+  .lp-product-card__price {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 36px !important;
+    letter-spacing: -0.72px !important;
+    color: #151515 !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+  }
+
+  .lp-product-card__price-sub {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 13.5px !important;
+    color: #878787 !important;
+    margin: 0 !important;
+  }
+
+  .lp-product-card__trust {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 12.5px !important;
+    letter-spacing: 0.25px !important;
+    color: #878787 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-product-card {
+      padding: 0px 15px !important;
+      gap: 12px !important;
+      border: none !important;
+    }
+
+    .lp-product-card__title {
+      font-size: 28px !important;
+      letter-spacing: -0.5px !important;
+    }
+
+    .lp-product-card__desc {
+      font-size: 15px !important;
+    }
+
+    .lp-product-card__img-wrap {
+      aspect-ratio: 4 / 3 !important;
+    }
+
+    .lp-product-card__table {
+      font-size: 12px !important;
+      display: block !important;
+      overflow-x: auto !important;
+      margin-bottom: 0;
+    }
+
+    .lp-product-card__features {
+      grid-template-columns: 1fr !important;
+      max-width: 100% !important;
+    }
+
+    .lp-product-card__price {
+      font-size: 28px !important;
+    }
+  }
+</style>
+
+<div class="lp-product-card">
+
+  <p class="lp-product-card__overline">#1 Bestseller &middot; 4.7&#9733; / 900+ Reviews</p>
+  <h3 class="lp-product-card__title">Inkkas Camping Boot</h3>
+  <p class="lp-product-card__desc">Brown leather upper. Woven textile detail. Grippy lug sole. Engineered for the trail, the city, and the next decade of your life.</p>
+
+  <div class="lp-product-card__img-wrap">
+    <img class="lp-product-card__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/product-card-boot.png?v=1779283938&width=800" alt="Inkkas Camping Boot">
+  </div>
+
+  <table class="lp-product-card__table">
+    <thead>
+      <tr>
+        <th>What matters</th>
+        <th>Inkkas Camping Boot</th>
+        <th>Mass-market hiking boots</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Day-one comfort</td>
+        <td><span class="lp-product-card__pro">&#10003; <span>Comfortable out of the box</span></span></td>
+        <td><span class="lp-product-card__con">&#10005; 2 to 4 weekends of break-in</span></td>
+      </tr>
+      <tr>
+        <td>Where you wear them</td>
+        <td><span class="lp-product-card__pro">&#10003; <span>Trail, city, travel, dinner out</span></span></td>
+        <td><span class="lp-product-card__con">&#10005; Looks wrong off the trail</span></td>
+      </tr>
+      <tr>
+        <td>Real-world lifespan</td>
+        <td><span class="lp-product-card__pro">&#10003; <span>5 to 13 years, same pair</span></span></td>
+        <td><span class="lp-product-card__con">&#10005; Replaced every 1 to 3 seasons</span></td>
+      </tr>
+      <tr>
+        <td>Construction</td>
+        <td><span class="lp-product-card__pro">&#10003; <span>Leather, stitched outsole, brass eyelets</span></span></td>
+        <td><span class="lp-product-card__con">&#10005; Synthetic upper, glued sole</span></td>
+      </tr>
+      <tr>
+        <td>Returns</td>
+        <td><span class="lp-product-card__pro">&#10003; <span>30-day free exchanges, 100% Happiness Guarantee</span></span></td>
+        <td><span class="lp-product-card__con">&#10005; Restocking fees, you pay shipping</span></td>
+      </tr>
+      <tr>
+        <td>Planet</td>
+        <td><span class="lp-product-card__pro">&#10003; <span>One tree planted per pair</span></span></td>
+        <td><span class="lp-product-card__con">&#10005; No reforestation commitment</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="lp-product-card__features">
+    <div class="lp-product-card__feature"><span class="lp-product-card__feature-plus">+</span><span class="lp-product-card__feature-text">Genuine leather upper</span></div>
+    <div class="lp-product-card__feature"><span class="lp-product-card__feature-plus">+</span><span class="lp-product-card__feature-text">Woven textile panel</span></div>
+    <div class="lp-product-card__feature"><span class="lp-product-card__feature-plus">+</span><span class="lp-product-card__feature-text">Grippy lugged outsole</span></div>
+    <div class="lp-product-card__feature"><span class="lp-product-card__feature-plus">+</span><span class="lp-product-card__feature-text">True to size, half sizes</span></div>
+    <div class="lp-product-card__feature"><span class="lp-product-card__feature-plus">+</span><span class="lp-product-card__feature-text">Free U.S. shipping &amp; returns</span></div>
+    <div class="lp-product-card__feature"><span class="lp-product-card__feature-plus">+</span><span class="lp-product-card__feature-text">30-day free exchanges</span></div>
+    <div class="lp-product-card__feature"><span class="lp-product-card__feature-plus">+</span><span class="lp-product-card__feature-text">5 payments of $29.80</span></div>
+    <div class="lp-product-card__feature"><span class="lp-product-card__feature-plus">+</span><span class="lp-product-card__feature-text">One tree planted per pair</span></div>
+  </div>
+
+  <div class="lp-product-card__price-wrap">
+    <p class="lp-product-card__price js-current-price" data-url="/products/brown-leather-camping-boot">$149</p>
+    <p class="lp-product-card__price-sub">or 5 payments of $29.80 at checkout</p>
+  </div>
+
+  <a class="lp-btn" href="/products/brown-leather-camping-boot?_pos=1&_sid=5b64aee6d&_ss=r&variant=19373694853">Shop the Camping Boot &rarr;</a>
+
+  <p class="lp-product-card__trust">Free shipping &amp; returns &middot; 100% Happiness Guarantee &middot; Plants 1 tree per pair</p>
+
+</div>
+
+
+<!-- =============================================
+     SECTION 8: Reviews grid
+     ============================================= -->
+<style>
+  .lp-reviews {
+    background-color: #f6f2ec !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 9px !important;
+    padding: 88px 24px !important;
+  }
+
+  .lp-reviews__title {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 38px !important;
+    letter-spacing: -0.95px !important;
+    line-height: 1.6 !important;
+    color: #151515 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-reviews__rating {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    letter-spacing: 1.4px !important;
+    text-transform: uppercase !important;
+    color: #878787 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-reviews__grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 24px !important;
+    max-width: 1100px !important;
+    width: 100% !important;
+    margin-top: 39px !important;
+  }
+
+  .lp-review-card {
+    background-color: #ffffff !important;
+    border: 1px solid #e5e0d7 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 3px !important;
+    padding: 33px 29px !important;
+  }
+
+  .lp-review-card__stars {
+    font-size: 14px !important;
+    letter-spacing: 3px !important;
+    color: #ffb715 !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+  }
+
+  .lp-review-card__title {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    letter-spacing: -0.15px !important;
+    line-height: 1.6 !important;
+    color: #151515 !important;
+    margin: 11px 0 0 !important;
+  }
+
+  .lp-review-card__text {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 1.55 !important;
+    color: #151515 !important;
+    margin: 9px 0 0 !important;
+  }
+
+  .lp-review-card__author {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 13.5px !important;
+    line-height: 1.6 !important;
+    color: #151515 !important;
+    margin: 14px 0 0 !important;
+  }
+
+  .lp-review-card__badge {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    letter-spacing: 1.4px !important;
+    text-transform: uppercase !important;
+    color: #878787 !important;
+    margin: 0 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-reviews {
+      padding: 56px 16px !important;
+    }
+
+    .lp-reviews__title {
+      font-size: 26px !important;
+      letter-spacing: -0.5px !important;
+    }
+
+    .lp-reviews__grid {
+      grid-template-columns: 1fr !important;
+      margin-top: 24px !important;
+    }
+  }
+</style>
+<br><br>
+<section class="lp-reviews">
+  <h2 class="lp-reviews__title">What real customers are saying</h2>
+  <p class="lp-reviews__rating">Rated 4.7 of 5 &middot; 900+ verified reviews</p>
+
+  <div class="lp-reviews__grid">
+
+    <div class="lp-review-card">
+      <p class="lp-review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+      <p class="lp-review-card__title">Best shoes to date</p>
+      <p class="lp-review-card__text">&ldquo;Bought my first pair in 2018 as my full-time travel shoe. Hike, run, dance, these shoes step up when duty calls. Eight years later, still keeping the traction in the action.&rdquo;</p>
+      <p class="lp-review-card__author">Travel Buyer</p>
+      <p class="lp-review-card__badge">Verified, 8-year owner</p>
+    </div>
+
+    <div class="lp-review-card">
+      <p class="lp-review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+      <p class="lp-review-card__title">Absolutely adore</p>
+      <p class="lp-review-card__text">&ldquo;These shoes are top notch, hands down. They do not need to be broken in, fit perfectly the first time wearing them, and it was for the mountains. So comfortable it is unreal.&rdquo;</p>
+      <p class="lp-review-card__author">Alexis B.</p>
+      <p class="lp-review-card__badge">Verified customer</p>
+    </div>
+
+    <div class="lp-review-card">
+      <p class="lp-review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+      <p class="lp-review-card__title">Great walking shoes</p>
+      <p class="lp-review-card__text">&ldquo;Got these right before a trip to Japan, where we walked 88 miles in 8 days on city sidewalks and hiking trails. Comfortable from the get-go, not one blister.&rdquo;</p>
+      <p class="lp-review-card__author">Deborah S.</p>
+      <p class="lp-review-card__badge">Verified customer</p>
+    </div>
+
+    <div class="lp-review-card">
+      <p class="lp-review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+      <p class="lp-review-card__title">Perfect right out of the box</p>
+      <p class="lp-review-card__text">&ldquo;From running to catch a flight, to hiking Carmel Valley, exploring beach rocks and walking the dogs, they were 100% comfort. Did not want to take them off.&rdquo;</p>
+      <p class="lp-review-card__author">Melinda J. H.</p>
+      <p class="lp-review-card__badge">Verified customer</p>
+    </div>
+
+    <div class="lp-review-card">
+      <p class="lp-review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+      <p class="lp-review-card__title">Love them already</p>
+      <p class="lp-review-card__text">&ldquo;Super comfy right out of the box. Just the right amount of thick while still being breathable. Big fan of the grippy tread.&rdquo;</p>
+      <p class="lp-review-card__author">Amanda H.</p>
+      <p class="lp-review-card__badge">Verified customer</p>
+    </div>
+
+    <div class="lp-review-card">
+      <p class="lp-review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+      <p class="lp-review-card__title">Cute, comfy, durable</p>
+      <p class="lp-review-card__text">&ldquo;Great for indoor and outdoor wear and can be used as hiking boots or dressed up. So unique.&rdquo;</p>
+      <p class="lp-review-card__author">Katie O.</p>
+      <p class="lp-review-card__badge">Verified customer</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =============================================
+     SECTION 9: Final CTA — "One pair. Every season."
+     ============================================= -->
+<style>
+  .lp-final-cta {
+    background-color: #ffffff !important;
+    border-top: 1px solid #e5e0d7 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 89px 24px 88px !important;
+  }
+
+  .lp-final-cta__inner {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 18px !important;
+    max-width: 680px !important;
+    width: 100% !important;
+  }
+
+  .lp-final-cta__title {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 48px !important;
+    letter-spacing: -1.44px !important;
+    line-height: 1.05 !important;
+    color: #151515 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-final-cta__sub {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    color: #878787 !important;
+    text-align: center !important;
+    max-width: 520px !important;
+    margin: 0 !important;
+  }
+
+  .lp-final-cta__btn-wrap {
+    padding-top: 14px !important;
+  }
+
+  .lp-final-cta__badges {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0 32px !important;
+    padding-top: 12px !important;
+  }
+
+  .lp-final-cta__badge {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    letter-spacing: 1.4px !important;
+    text-transform: uppercase !important;
+    color: #878787 !important;
+    white-space: nowrap !important;
+  }
+
+  .lp-final-cta__badge .check {
+    color: #1f6b43 !important;
+    font-weight: 700 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-final-cta {
+      padding: 56px 20px !important;
+    }
+
+    .lp-final-cta__title {
+      font-size: 32px !important;
+      letter-spacing: -0.8px !important;
+    }
+
+    .lp-final-cta__sub {
+      font-size: 15px !important;
+    }
+
+    .lp-final-cta__badges {
+      gap: 10px 24px !important;
+    }
+
+    .lp-final-cta__btn-wrap .lp-btn {
+      width: 100% !important;
+      text-align: center !important;
+    }
+  }
+</style>
+
+<section class="lp-final-cta">
+  <div class="lp-final-cta__inner">
+
+    <h2 class="lp-final-cta__title">One pair. Every season.</h2>
+    <p class="lp-final-cta__sub">Brown leather. Woven textile. Lug sole. 4.7 stars across 900+ customer reviews.</p>
+
+    <div class="lp-final-cta__btn-wrap">
+      <a class="lp-btn" href="/products/brown-leather-camping-boot?_pos=1&_sid=5b64aee6d&_ss=r&variant=19373694853">Shop the Camping Boot &rarr;</a>
+    </div>
+
+    <div class="lp-final-cta__badges">
+      <span class="lp-final-cta__badge"><span class="check">&#10003;</span> 100% Happiness Guarantee</span>
+      <span class="lp-final-cta__badge"><span class="check">&#10003;</span> 30-day free returns</span>
+      <span class="lp-final-cta__badge"><span class="check">&#10003;</span> 1 tree planted per pair</span>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =============================================
+     SECTION 10: Product mini-card — "One more chance"
+     ============================================= -->
+<style>
+  .lp-mini-card {
+    background-color: #ffffff !important;
+    border: 1px solid #e5e0d7 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 9px !important;
+    padding: 48px 37px 49px !important;
+    max-width: 620px !important;
+    margin: 0 auto !important;
+  }
+
+  .lp-mini-card__overline {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 11px !important;
+    letter-spacing: 2.4px !important;
+    text-transform: uppercase !important;
+    color: #878787 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-mini-card__title {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 32px !important;
+    letter-spacing: -0.8px !important;
+    line-height: 1.6 !important;
+    color: #151515 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-mini-card__img-wrap {
+    width: 100% !important;
+    overflow: hidden !important;
+    background-color: #f6f2ec !important;
+    aspect-ratio: 16 / 9 !important;
+  }
+
+  .lp-mini-card__img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+  }
+
+  .lp-mini-card__price-wrap {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 5px !important;
+    padding: 17px 0 16px !important;
+  }
+
+  .lp-mini-card__price {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 36px !important;
+    letter-spacing: -0.72px !important;
+    line-height: 1.6 !important;
+    color: #151515 !important;
+    margin: 0 !important;
+  }
+
+  .lp-mini-card__price-sub {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 13.5px !important;
+    line-height: 1.6 !important;
+    color: #878787 !important;
+    margin: 0 !important;
+  }
+
+  .lp-mini-card__trust {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 12.5px !important;
+    letter-spacing: 0.25px !important;
+    color: #878787 !important;
+    text-align: center !important;
+    margin: 11px 0 0 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-mini-card {
+      padding: 36px 20px 40px !important;
+      margin: 0 16px !important;
+    }
+
+    .lp-mini-card__title {
+      font-size: 24px !important;
+      letter-spacing: -0.4px !important;
+    }
+
+    .lp-mini-card__price {
+      font-size: 28px !important;
+    }
+
+    .lp-mini-card .lp-btn {
+      width: 100% !important;
+    }
+  }
+</style>
+
+<div class="lp-mini-card">
+  <p class="lp-mini-card__overline">One more chance</p>
+  <h3 class="lp-mini-card__title">Inkkas Camping Boot</h3>
+
+  <div class="lp-mini-card__img-wrap">
+    <img class="lp-mini-card__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/product-mini-card.png?v=1779283932&width=800" alt="Inkkas Camping Boot">
+  </div>
+
+  <div class="lp-mini-card__price-wrap">
+    <p class="lp-mini-card__price js-current-price" data-url="/products/brown-leather-camping-boot">$149</p>
+    <p class="lp-mini-card__price-sub">or 5 payments of $29.80 at checkout</p>
+  </div>
+
+  <a class="lp-btn" href="/products/brown-leather-camping-boot?_pos=1&_sid=5b64aee6d&_ss=r&variant=19373694853">Shop the Camping Boot &rarr;</a>
+
+  <p class="lp-mini-card__trust">Free shipping &amp; returns &middot; Plants 1 tree per pair &middot; 100% Happiness Guarantee</p>
+</div>
+
+<br><br>
+<!-- =============================================
+     SECTION 11: Footer
+     ============================================= -->
+<style>
+  .lp-footer {
+    background-color: #151515 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 48px 24px !important;
+  }
+
+  .lp-footer__inner {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 4px !important;
+    max-width: 680px !important;
+    width: 100% !important;
+  }
+
+  .lp-footer__brand {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    letter-spacing: 4px !important;
+    text-transform: uppercase !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-footer__tagline {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 12.5px !important;
+    line-height: 1.6 !important;
+    color: #9a9388 !important;
+    text-align: center !important;
+    margin: 4px 0 0 !important;
+  }
+
+  .lp-footer__copy {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 12.5px !important;
+    line-height: 1.6 !important;
+    color: #9a9388 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-footer__links {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0 28px !important;
+    padding-top: 14px !important;
+  }
+
+  .lp-footer__link {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 12.5px !important;
+    letter-spacing: 1.2px !important;
+    text-transform: uppercase !important;
+    color: #c9c4ba !important;
+    text-decoration: none !important;
+    line-height: 1.6 !important;
+    transition: color 0.2s ease !important;
+  }
+
+  .lp-footer__link:hover {
+    color: #ffffff !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-footer {
+      padding: 40px 20px !important;
+    }
+
+    .lp-footer__links {
+      gap: 8px 20px !important;
+    }
+  }
+</style>
+
+<footer class="lp-footer">
+  <div class="lp-footer__inner">
+    <p class="lp-footer__brand">Inkkas</p>
+    <p class="lp-footer__tagline">Global footwear built for the trail, the city, and a planet worth protecting.</p>
+    <p class="lp-footer__copy">&copy; 2026 Inkkas. All rights reserved.</p>
+    <nav class="lp-footer__links">
+      <a class="lp-footer__link" href="/policies/privacy-policy">Privacy</a>
+      <a class="lp-footer__link" href="/policies/terms-of-service">Terms</a>
+      <a class="lp-footer__link" href="/collections/bestsellers">Bestsellers</a>
+    </nav>
+  </div>
+</footer>
+
+
+
+
+
+<script>
+(function () {
+  /* Collect unique URLs across both price element types */
+  var urls = {};
+  document.querySelectorAll('.js-current-price, .js-compare-price').forEach(function (el) {
+    var url = el.getAttribute('data-url');
+    if (url) urls[url] = true;
+  });
+
+  Object.keys(urls).forEach(function (url) {
+    fetch(url + '.json')
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        var variant = data.product && data.product.variants && data.product.variants[0];
+        if (!variant) return;
+
+        var price       = variant.price ? '$' + parseFloat(variant.price).toFixed(2) : null;
+        var comparePrice = variant.compare_at_price ? '$' + parseFloat(variant.compare_at_price).toFixed(2) : null;
+
+        document.querySelectorAll('.js-current-price[data-url="' + url + '"]').forEach(function (el) {
+          if (price) el.textContent = price;
+        });
+        document.querySelectorAll('.js-compare-price[data-url="' + url + '"]').forEach(function (el) {
+          if (comparePrice) el.textContent = comparePrice;
+          else el.style.display = 'none';
+        });
+      })
+      .catch(function () {});
+  });
+})();
+</script>
+
+<!-- =============================================
+     GSAP — Premium scroll animations
+     ============================================= -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script>
+(function () {
+  if (typeof gsap === 'undefined') return;
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  /* ── Respect reduced motion ─────────────────── */
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduced) return;
+
+  /* ── Helpers ─────────────────────────────────── */
+  var E = 'power3.out';
+  var E2 = 'power2.out';
+
+  function scrollIn(targets, vars, triggerEl) {
+    var el = triggerEl || (typeof targets === 'string' ? document.querySelector(targets) : targets[0]);
+    if (!el) return;
+    gsap.fromTo(targets,
+      { autoAlpha: 0, y: vars.y || 28 },
+      Object.assign({
+        autoAlpha: 1, y: 0,
+        duration: 0.75, ease: E,
+        scrollTrigger: { trigger: el, start: 'top 88%', once: true }
+      }, vars)
+    );
+  }
+
+  function staggerIn(targets, staggerVal, triggerEl, extraVars) {
+    var nodes = document.querySelectorAll(targets);
+    if (!nodes.length) return;
+    var el = triggerEl ? document.querySelector(triggerEl) : nodes[0];
+    gsap.fromTo(nodes,
+      { autoAlpha: 0, y: 26 },
+      Object.assign({
+        autoAlpha: 1, y: 0,
+        duration: 0.7, ease: E,
+        stagger: staggerVal || 0.1,
+        scrollTrigger: { trigger: el, start: 'top 88%', once: true }
+      }, extraVars || {})
+    );
+  }
+
+  /* ── Set initial state for hero (above fold) ── */
+  gsap.set([
+    '.lp-hero__overline',
+    '.lp-hero__heading',
+    '.lp-hero__subheading',
+    '.lp-hero__pricing',
+    '.lp-hero__compare-row',
+  ], { autoAlpha: 0, y: 24 });
+
+  /* ── HERO — load timeline ─────────────────────── */
+  var hero = gsap.timeline({ delay: 0.1, defaults: { ease: E } });
+  hero
+    .to('.lp-hero__overline',     { autoAlpha: 1, y: 0, duration: 0.6 })
+    .to('.lp-hero__heading',      { autoAlpha: 1, y: 0, duration: 0.75 }, '-=0.35')
+    .to('.lp-hero__subheading',   { autoAlpha: 1, y: 0, duration: 0.6  }, '-=0.45')
+    .to('.lp-hero__pricing',      { autoAlpha: 1, y: 0, duration: 0.55 }, '-=0.35')
+    .to('.lp-hero__compare-row',  { autoAlpha: 1, y: 0, duration: 0.55, stagger: 0.1 }, '-=0.3')
+
+  /* ── BLOCKQUOTE ──────────────────────────────── */
+  var bq = document.querySelector('.lp-blockquote');
+  if (bq) {
+    gsap.fromTo(
+      [bq.querySelector('.lp-blockquote__text'), bq.querySelector('.lp-blockquote__cite')],
+      { autoAlpha: 0, y: 22 },
+      { autoAlpha: 1, y: 0, duration: 0.7, ease: E, stagger: 0.15,
+        scrollTrigger: { trigger: bq, start: 'top 86%', once: true } }
+    );
+  }
+
+  /* ── SECTION HEADING ─────────────────────────── */
+  staggerIn('.lp-section-heading__title, .lp-section-heading__sub', 0.12, '.lp-section-heading');
+
+  /* ── REASONS — each row ──────────────────────── */
+  document.querySelectorAll('.lp-reasons__row').forEach(function (row) {
+    var isReverse = row.classList.contains('lp-reasons__row--reverse');
+    var img = row.querySelector('.lp-reasons__img-wrap');
+    var contentEls = row.querySelectorAll('.lp-reasons__category, .lp-reasons__title-wrap, .lp-reasons__body, .lp-reasons__quote, .lp-reasons__specs');
+
+    if (img) {
+      gsap.fromTo(img,
+        { autoAlpha: 0, x: isReverse ? 50 : -50 },
+        { autoAlpha: 1, x: 0, duration: 0.9, ease: E,
+          scrollTrigger: { trigger: row, start: 'top 85%', once: true } }
+      );
+    }
+    if (contentEls.length) {
+      gsap.fromTo(contentEls,
+        { autoAlpha: 0, y: 22 },
+        { autoAlpha: 1, y: 0, duration: 0.65, ease: E, stagger: 0.1,
+          scrollTrigger: { trigger: row, start: 'top 85%', once: true, delay: 0.15 } }
+      );
+    }
+  });
+
+  /* ── REASONS CTA BARS ────────────────────────── */
+  document.querySelectorAll('.lp-reasons__cta-bar').forEach(function (bar) {
+    gsap.fromTo(
+      bar.querySelector('.lp-reasons__cta-text'),
+      { autoAlpha: 0, y: 16 },
+      { autoAlpha: 1, y: 0, duration: 0.6, ease: E2, stagger: 0.12,
+        scrollTrigger: { trigger: bar, start: 'top 90%', once: true } }
+    );
+  });
+
+
+  /* ── REVIEWS ─────────────────────────────────── */
+  var cards = document.querySelectorAll('.lp-review-card');
+  if (cards.length) {
+    gsap.fromTo(cards,
+      { autoAlpha: 0, y: 30 },
+      { autoAlpha: 1, y: 0, duration: 0.65, ease: E, stagger: { amount: 0.45 },
+        scrollTrigger: { trigger: '.lp-reviews__grid', start: 'top 88%', once: true } }
+    );
+  }
+
+
+  /* ── MINI CARD ───────────────────────────────── */
+  var mc = document.querySelector('.lp-mini-card');
+  if (mc) {
+    gsap.fromTo(mc,
+      { autoAlpha: 0, y: 36, scale: 0.97 },
+      { autoAlpha: 1, y: 0, scale: 1, duration: 0.8, ease: E,
+        scrollTrigger: { trigger: mc, start: 'top 88%', once: true } }
+    );
+  }
+
+  /* ── FOOTER ──────────────────────────────────── */
+  var ft = document.querySelector('.lp-footer__inner');
+  if (ft) {
+    gsap.fromTo(ft.children,
+      { autoAlpha: 0, y: 16 },
+      { autoAlpha: 1, y: 0, duration: 0.55, ease: E2, stagger: 0.1,
+        scrollTrigger: { trigger: ft, start: 'top 95%', once: true } }
+    );
+  }
+
+})();
+</script>
