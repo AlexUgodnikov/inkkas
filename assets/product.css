@@ -594,11 +594,12 @@
 }
 
 .product-images-buttons .slider-button {
-  width: 34px;
-  height: 34px;
+  width: 48px!important;
+  height: 48px!important;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  transform: translateY(-50%) !important;
 }
 
 .product-images-buttons .slider-button[disabled] {

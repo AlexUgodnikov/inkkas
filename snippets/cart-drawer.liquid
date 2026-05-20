@@ -522,6 +522,9 @@
 								{{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
 							{%- endif -%}
 						</p>
+
+
+
 						{% if settings.cart_terms_conditions_enable %}
 	            <div class="cart-drawer-terms">
 	              <input type="checkbox" id="CartDrawerTerms" required>
@@ -533,6 +536,10 @@
 	                {% endif %}
 	              </label>
 	            </div>
+
+
+
+
 	          {% endif %}
 						{%- if settings.cart_drawer_checkout_button -%}
 						<form action="{{ routes.cart_url }}" method="post" novalidate>
@@ -550,10 +557,252 @@
 						{%- if settings.cart_drawer_cart_button -%}
 						<a href="{{ routes.cart_url }}" class="text-button" title="{{ 'general.cart_drawer.view_cart' | t | escape }}">{{ 'general.cart_drawer.view_cart' | t }}</a>
 						{%- endif -%}
+
+
+						<custom-shop-pay-button></custom-shop-pay-button>
 					</div>
 				</div>
+
+
+
+
+
+
 			</div>
 		{%- endif -%}
+		
+
+
+
+
 	</div>
 </div>
+
+
+
+
+
+<script>
+class CustomShopPayButton extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({ mode: 'open' });
+    this.isLoading = false;
+  }
+
+  connectedCallback() {
+    this.render();
+    this.shadowRoot.querySelector('button').addEventListener('click', (e) => this.handleClick(e));
+  }
+
+  async handleClick(e) {
+    e.preventDefault();
+    
+    if (this.isLoading) return;
+    this.setLoading(true);
+
+    try {
+      const cart = await this.fetchCart();
+      
+      if (!cart || !cart.items || cart.items.length === 0) {
+        this.showError('Your cart is empty');
+        this.setLoading(false);
+        return;
+      }
+
+      const checkoutUrl = this.buildCheckoutUrl(cart);
+      
+      if (checkoutUrl) {
+        window.location.href = checkoutUrl;
+      } else {
+        this.showError('Could not create checkout');
+        this.setLoading(false);
+      }
+    } catch (error) {
+      console.error('Shop Pay checkout error:', error);
+      this.showError('Something went wrong');
+      this.setLoading(false);
+    }
+  }
+
+  async fetchCart() {
+    const response = await fetch('/cart.js', {
+      headers: { 'Accept': 'application/json' }
+    });
+    
+    if (!response.ok) {
+      throw new Error(`Cart fetch failed: ${response.status}`);
+    }
+    
+    return await response.json();
+  }
+
+  buildCheckoutUrl(cart) {
+    const itemsString = cart.items
+      .map(item => `${item.variant_id}:${item.quantity}`)
+      .join(',');
+
+    const shopDomain = window.Shopify?.shop || window.location.hostname;
+    
+    
+    const discountParam = cart.discount_codes?.length > 0
+      ? `&discount=${encodeURIComponent(cart.discount_codes[0].code)}`
+      : '';
+    
+    
+    const noteParam = cart.note 
+      ? `&note=${encodeURIComponent(cart.note)}` 
+      : '';
+
+    return `https://${shopDomain}/cart/${itemsString}?payment=shop_pay${discountParam}${noteParam}`;
+  }
+
+  setLoading(loading) {
+    this.isLoading = loading;
+    const button = this.shadowRoot.querySelector('button');
+    
+    if (loading) {
+      button.classList.add('is-loading');
+      button.disabled = true;
+    } else {
+      button.classList.remove('is-loading');
+      button.disabled = false;
+    }
+  }
+
+  showError(message) {
+    const errorEl = this.shadowRoot.querySelector('.error-message');
+    errorEl.textContent = message;
+    errorEl.classList.add('is-visible');
+    
+    setTimeout(() => {
+      errorEl.classList.remove('is-visible');
+    }, 3000);
+  }
+
+  render() {
+    this.shadowRoot.innerHTML = `
+      <style>
+        :host {
+          display: block;
+          width: 100%;
+        }
+       
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          width: 100%;
+          padding: 14px 24px;
+          background: #5a31f4;
+          color: #ffffff;
+          border: none;
+          border-radius: 4px;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          font-size: 16px;
+          font-weight: 600;
+          cursor: pointer;
+          transition: background 0.15s ease, opacity 0.15s ease;
+          position: relative;
+        }
+        @media(max-width:600px){
+			button {
+				padding: 9px 24px;
+			}
+		}
+        button:hover:not(:disabled) {
+          background: #4a28d4;
+        }
+        
+        button:active:not(:disabled) {
+          background: #3d20bd;
+        }
+        
+        button:disabled {
+          cursor: not-allowed;
+          opacity: 0.7;
+        }
+        
+        button.is-loading .button-content {
+          opacity: 0;
+        }
+        
+        button.is-loading::after {
+          content: '';
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          border: 2px solid rgba(255, 255, 255, 0.3);
+          border-top-color: #ffffff;
+          border-radius: 50%;
+          animation: spin 0.7s linear infinite;
+        }
+        
+        @keyframes spin {
+          to { transform: rotate(360deg); }
+        }
+        
+        .button-content {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          transition: opacity 0.15s ease;
+        }
+        
+        .shop-pay-logo {
+          height: 20px;
+        }
+        
+        .error-message {
+          margin-top: 8px;
+          padding: 8px 12px;
+          background: #fee;
+          color: #c00;
+          border-radius: 4px;
+          font-size: 14px;
+          font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+          opacity: 0;
+          max-height: 0;
+          overflow: hidden;
+          transition: opacity 0.2s ease, max-height 0.2s ease, margin-top 0.2s ease;
+        }
+        
+        .error-message.is-visible {
+          opacity: 1;
+          max-height: 50px;
+          margin-top: 8px;
+        }
+      </style>
+      
+      <button type="button" aria-label="Buy now with Shop Pay">
+        <span class="button-content">
+          <svg width="80" height="30" fill="none" viewBox="0 0 4317 1037" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#a)" fill="#fff">
+            <path d="m1106 326.19c-34.62-72.633-100.26-119.55-199.17-119.55-30.36 0.529-60.193 8.026-87.198 21.908-27.003 13.884-50.46 33.785-68.555 58.168l-3.61 4.398v-284.67c0-1.6452-0.653-3.2229-1.817-4.3862-1.163-1.1633-2.742-1.817-4.387-1.817h-139.85c-1.625 0.029561-3.173 0.69609-4.312 1.8562-1.14 1.1601-1.778 2.7211-1.778 4.3469v816.56c0 1.615 0.643 3.163 1.785 4.305 1.142 1.143 2.69 1.785 4.305 1.785h149.78c1.626 0 3.187-0.637 4.347-1.778 1.16-1.139 1.826-2.687 1.856-4.312v-348.16c0-67.67 45.113-115.6 117.3-115.6 78.949 0 98.912 64.964 98.912 131.17v332.6c0 1.615 0.641 3.163 1.783 4.305 1.142 1.143 2.692 1.785 4.307 1.785h149.44c1.63 0 3.19-0.637 4.35-1.778 1.16-1.139 1.83-2.687 1.86-4.312v-352.45c0-12.068 0-23.911-1.58-35.414-2.57-37.698-11.97-74.616-27.75-108.95z"></path><path d="m358.09 447.21s-76.242-17.933-104.32-25.151c-28.084-7.218-77.145-22.557-77.145-59.663s39.587-48.949 79.739-48.949c40.151 0 84.814 9.7 88.31 54.25 0.141 1.606 0.88 3.098 2.07 4.186 1.191 1.086 2.746 1.684 4.358 1.679l147.63-0.564c0.869 2e-3 1.729-0.175 2.526-0.52s1.514-0.851 2.107-1.487c0.593-0.634 1.049-1.385 1.338-2.204 0.289-0.82 0.408-1.69 0.345-2.557-9.135-142.56-134.21-193.54-249.59-193.54-136.81 0-236.85 90.227-236.85 189.7 0 72.633 20.527 140.76 181.92 188.12 28.309 8.233 66.769 18.947 100.38 28.309 40.376 11.279 62.143 28.309 62.143 55.151 0 31.128-45.113 52.782-89.437 52.782-64.174 0-109.74-23.797-113.46-66.543-0.194-1.563-0.955-3.003-2.141-4.043-1.185-1.04-2.711-1.608-4.288-1.596l-147.3 0.677c-0.86355 0-1.7182 0.173-2.5133 0.511-0.79503 0.337-1.514 0.83-2.114 1.452-0.6 0.62-1.0688 1.356-1.3783 2.162-0.30948 0.807-0.45331 1.667-0.42301 2.53 6.767 134.55 136.69 207.07 257.83 207.07 180.45 0 262-101.5 262-196.58 0.226-44.663-10.038-146.39-161.73-185.19z"></path>
+            <path d="m2257.4 206.41c-74.99 0-137.82 41.504-178.31 91.582v-85.717c0-1.596-0.63-3.129-1.75-4.267-1.1-1.139-2.63-1.794-4.23-1.822h-140.07c-1.61 0-3.17 0.64-4.31 1.782-1.14 1.143-1.79 2.693-1.79 4.307v800.77c0.04 1.59 0.7 3.12 1.84 4.23 1.14 1.12 2.67 1.75 4.26 1.75h149.89c1.58 0 3.1-0.63 4.22-1.75s1.75-2.65 1.75-4.23v-263.24h2.26c23.79 36.315 88.87 79.851 173.92 79.851 159.91 0 293.23-132.63 293.23-311.85 0.12-172-132.52-311.4-300.91-311.4zm-13.87 470.65c-31.56 0.784-62.67-7.857-89.3-24.819-26.63-16.964-47.62-41.479-60.27-70.418-12.64-28.94-16.38-60.991-10.72-92.063 5.64-31.072 20.43-59.755 42.45-82.388 22.03-22.636 50.3-38.194 81.21-44.69 30.9-6.496 63.04-3.637 92.31 8.214 29.28 11.85 54.35 32.155 72.04 58.322 17.68 26.168 27.16 57.009 27.25 88.591 0.32 20.643-3.44 41.149-11.05 60.339s-18.95 36.686-33.35 51.483c-14.39 14.797-31.57 26.604-50.56 34.743-18.97 8.14-39.36 12.45-60.01 12.686z"></path>
+            <path d="m1483.3 171.23c-139.74 0-209.44 47.482-265.39 85.491l-1.69 1.127c-2.88 1.974-4.91 4.966-5.69 8.374-0.77 3.409-0.23 6.983 1.52 10.01l55.26 95.188c1.04 1.782 2.46 3.313 4.15 4.482 1.7 1.17 3.63 1.951 5.67 2.286 1.99 0.359 4.03 0.272 5.98-0.255s3.76-1.478 5.3-2.791l4.39-3.608c28.76-24.136 74.89-56.393 186.55-65.19 62.14-4.961 115.83 11.279 155.41 48.272 43.54 40.152 69.6 105 69.6 173.46 0 125.98-74.22 205.15-193.43 206.73-98.24-0.564-164.22-51.768-164.22-127.45 0-40.152 18.16-66.317 53.58-92.483 2.7-1.934 4.61-4.781 5.38-8.015s0.34-6.637-1.21-9.579l-49.63-93.837c-0.91-1.679-2.15-3.161-3.64-4.361s-3.2-2.094-5.04-2.631c-1.88-0.559-3.85-0.717-5.79-0.466-1.95 0.253-3.82 0.911-5.49 1.933-55.71 33.045-124.06 93.497-120.34 209.66 4.51 147.86 127.45 260.76 287.26 265.38h18.95c189.92-6.204 327.07-147.18 327.07-338.35 0-175.49-127.9-363.39-364.51-363.39z"></path>
+            <path d="m3148.9 261.46h-95.2c-2.22 0.029-4.36 0.93-5.94 2.509-1.59 1.58-2.49 3.715-2.5 5.95v199.74c0.01 2.225 0.92 4.346 2.51 5.908 1.58 1.562 3.71 2.439 5.93 2.439h95.2c57.97 0 100.72-45.678 100.72-108.27s-42.75-108.27-100.72-108.27z"></path>
+            <path d="m3441.4 614.8c0 28.985 24.47 45.113 67.1 45.113 57.97 0 92.25-31.354 92.25-86.957v-16.014l-86.83 4.511c-45.8 2.255-72.52 21.317-72.52 53.347z"></path>
+            <path d="m4146.3 2.0498h-1279c-20.97-2e-5 -41.76 4.1346-61.13 12.167-19.39 8.0328-37 19.806-51.82 34.648-14.84 14.842-26.6 32.46-34.62 51.85-8.03 19.389-12.14 40.168-12.12 61.15v700.16c0 42.366 16.82 82.999 46.77 112.97 29.95 29.968 70.57 46.818 112.92 46.848h1279c21.01 0.06 41.83-4.02 61.26-12.01 19.42-7.99 37.08-19.737 51.97-34.557 14.87-14.823 26.7-32.434 34.78-51.828 8.07-19.393 12.23-40.187 12.27-61.193v-700.16c0.03-21.048-4.08-41.898-12.12-61.35-8.04-19.452-19.85-37.122-34.74-51.995-14.89-14.873-32.58-26.655-52.04-34.668-19.46-8.0136-40.32-12.101-61.38-12.026zm-992.5 554.56h-100.6c-2.24 0-4.38 0.89-5.98 2.476-1.58 1.587-2.48 3.739-2.48 5.983v143.23c0 2.243-0.89 4.395-2.47 5.981-1.59 1.587-3.74 2.478-5.98 2.478h-70.84c-2.22-0.029-4.37-0.93-5.95-2.511-1.58-1.578-2.46-3.713-2.5-5.948v-516.66c0-2.242 0.89-4.394 2.49-5.981 1.58-1.586 3.72-2.477 5.96-2.477h188.35c106.7 0 183.05 77.708 183.05 186.77s-75.79 186.88-182.47 186.88l-0.58-0.224zm530.09 151.58c0.02 1.12-0.18 2.231-0.61 3.271-0.42 1.039-1.04 1.986-1.82 2.783-0.8 0.797-1.73 1.431-2.77 1.863-1.02 0.431-2.14 0.654-3.26 0.654h-66.88c-1.12 0-2.23-0.223-3.26-0.654-1.04-0.432-1.98-1.066-2.76-1.863s-1.41-1.744-1.82-2.783c-0.42-1.04-0.63-2.151-0.61-3.271v-15.451c0.1-1.357-0.22-2.713-0.95-3.865-0.71-1.154-1.78-2.045-3.06-2.54-1.26-0.494-2.65-0.565-3.96-0.203-1.33 0.36-2.48 1.135-3.31 2.209-19.97 21.767-52.45 37.556-104.22 37.556-76.23 0-126.66-39.699-126.66-108.27-0.73-16.72 2.72-33.359 10.05-48.408 7.32-15.046 18.3-28.026 31.92-37.758 27.51-20.64 70.14-31.354
+            133.41-33.836l67.1-2.255v-19.626c0-39.587-26.61-56.391-69.36-56.391-42.74 0-69.7 15.113-76 39.813-0.51 1.744-1.58 3.27-3.06 4.333-1.46 1.064-3.25 1.602-5.07 1.531h-66.2c-1.22 0.031-2.43-0.207-3.55-0.693-1.1-0.488-2.11-1.214-2.92-2.128-0.8-0.915-1.4-1.992-1.74-3.162-0.35-1.169-0.44-2.398-0.25-3.603 9.93-58.648 58.42-103.2 161.85-103.2 109.85 0 149.43 51.092 149.43 148.65l0.34 207.3zm416.63-335.2-148.87 397.11c-33.84 92.256-93.06 115.94-157.91 115.94-12.21 0.298-24.41-1.184-36.2-4.398-1.84-0.495-3.45-1.579-4.63-3.089-1.15-1.507-1.78-3.355-1.8-5.258v-60.34c0-1.262 0.27-2.51 0.8-3.654 0.54-1.144 1.31-2.157 2.28-2.964 0.98-0.809 2.11-1.392 3.33-1.71s2.5-0.363 3.74-0.131c10.23 1.94 20.61 2.922 31.02 2.934 17.93 0.899 35.65-4.247 50.32-14.615 14.65-10.368 25.41-25.358 30.54-42.567l4.41-13.873c0.68-1.856 0.68-3.894 0-5.752l-139.19-357.52c-0.42-1.278-0.54-2.64-0.34-3.972 0.21-1.333 0.72-2.6 1.48-3.698 0.79-1.098 1.82-1.997 3.01-2.625 1.19-0.627 2.52-0.965 3.86-0.984h67.68c1.73 0.017 3.41 0.551 4.84 1.537 1.43 0.984 2.53 2.374 3.16 3.99l94.52 252.18c0.63 1.647 1.73 3.066 3.18 4.067 1.46 1.003 3.17 1.538 4.94 1.538 1.75 0 3.49-0.535 4.93-1.538 1.45-1.001 2.57-2.42 3.18-4.067l82.01-251.51c0.54-1.715 1.63-3.209 3.09-4.264 1.46-1.056 3.21-1.617 5.01-1.601h69.38c1.33-6e-3 2.65 0.306 3.86 0.904 1.19 0.6 2.24 1.472 3.04 2.547s1.33 2.322 1.56 3.643c0.24 1.319 0.16 2.675-0.23 3.958v-0.226z"></path>
+        </g>
+        <defs>
+            <clipPath id="a"><rect transform="translate(0 .24023)" width="4317" height="1036.8" fill="#fff"></rect></clipPath>
+        </defs>
+    </svg>
+        </span>
+      </button>
+      
+      <div class="error-message" role="alert"></div>
+    `;
+  }
+}
+
+if (!customElements.get('custom-shop-pay-button')) {
+  customElements.define('custom-shop-pay-button', CustomShopPayButton);
+}
+</script>
+
+
 {%- endif -%}

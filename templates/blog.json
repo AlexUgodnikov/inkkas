@@ -9,24 +9,12 @@
  */
 {
   "sections": {
-    "1663670702acb57791": {
-      "type": "spacer",
-      "disabled": true,
+    "main-blog-header": {
+      "type": "main-blog-header",
       "settings": {
-        "spacer_mobile": 20,
-        "spacer_desktop": 60,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "single_image_ccfGcF": {
-      "type": "single-image",
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/ScreenShot2024-04-08at2.53.03PM.png",
-        "full_width": false,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "heading": "Inkkas Journal",
+        "description": "<p><em>Explore our </em><em><strong>wednesday walk</strong></em><em> series, see Inkkas in real life, meet the artists behind the designs, and more!</em></p>",
+        "show_category_list": false
       }
     },
     "rich_text_mTEqAV": {
@@ -37,116 +25,46 @@
           "settings": {
             "text": "GOOD FOR THE SOLE"
           }
-        },
-        "heading_tFHCPi": {
-          "type": "heading",
-          "settings": {
-            "text": "the Inkkas Journal",
-            "size": "h2"
-          }
-        },
-        "text_QQ8r8a": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Explore our collection lookbooks, meet the artists behind the designs and more!</em></p>",
-            "custom_liquid": "",
-            "size": "text-size-regular"
-          }
-        },
-        "button_qi4TpW": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "link_label": "Learn More",
-            "link": "",
-            "button_outline": false
-          }
         }
       },
       "block_order": [
-        "subheading_WaGfaA",
-        "heading_tFHCPi",
-        "text_QQ8r8a",
-        "button_qi4TpW"
+        "subheading_WaGfaA"
       ],
       "settings": {
-        "section_width": "grid",
+        "section_width": "full-width-row-full",
         "text_width": "medium",
         "text_position": "center",
         "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
+        "color_bg": "#f5f3ef",
         "color_text": "#151515",
         "color_links": "#151515",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
-    "layered_images_with_text_pckyfW": {
-      "type": "layered-images-with-text",
-      "blocks": {
-        "heading_J7Q7CJ": {
-          "type": "heading",
-          "settings": {
-            "text": "the Inkkas Journal",
-            "heading_size": "h3"
-          }
-        },
-        "subheading_GyQdpf": {
-          "type": "subheading",
-          "settings": {
-            "text": "GOOD FOR THE SOLE"
-          }
-        },
-        "text_9Ejx4y": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Explore our collection lookbooks, design inspirations, travel diaries, and more!</em></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_J7Q7CJ",
-        "subheading_GyQdpf",
-        "text_9Ejx4y"
-      ],
-      "disabled": true,
+    "spacer_xXmwgc": {
+      "type": "spacer",
+      "name": "Spacer",
       "settings": {
-        "image": "shopify://shop_images/ScreenShot2024-04-08at2.53.03PM.png",
-        "image_ratio": "adapt",
-        "image_ratio_2": "adapt",
-        "image_ratio_3": "portrait",
-        "full_width": false,
-        "layout": "text_first",
-        "content_alignment": "text-center",
-        "content_position": "middle",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "main-blog-header": {
-      "type": "main-blog-header",
-      "disabled": true,
-      "settings": {
-        "heading": "Inkkas Journal",
-        "description": "<p>Explore our collection lookbooks, design inspirations, travel diaries & more. </p>",
-        "show_category_list": false
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
       }
     },
     "main-blog": {
       "type": "main-blog",
       "settings": {
-        "image_ratio": "landscape",
-        "show_date": false,
+        "image_ratio": "adapt",
+        "show_date": true,
         "show_excerpt": true
       }
     }
   },
   "order": [
-    "1663670702acb57791",
-    "single_image_ccfGcF",
-    "rich_text_mTEqAV",
-    "layered_images_with_text_pckyfW",
     "main-blog-header",
+    "rich_text_mTEqAV",
+    "spacer_xXmwgc",
     "main-blog"
   ]
 }

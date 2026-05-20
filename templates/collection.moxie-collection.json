@@ -1,0 +1,579 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "scrolling_text_eDxme7": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_YU3JH9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "NEW SPRING '26",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_RdMtRE": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "NEW SPRING '26",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_YU3JH9",
+        "text_RdMtRE"
+      ],
+      "settings": {
+        "bg_image": "shopify://shop_images/Joya-White-ARTWORK-resize-ezgif.com-jpg-to-webp-converter.webp",
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "right",
+        "speed": "20s",
+        "text_size": 40,
+        "text_uppercase": true,
+        "image_size": "medium",
+        "color_bg": "#f5f3ef",
+        "color_text": "#dd4d50",
+        "overlay_color": "#dedede",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": true,
+        "show_subcollections": false,
+        "make_heading_uppercase": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "promotion_j3iwmt": {
+          "type": "promotion",
+          "name": "Monterey Tennis",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 2,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MONTEREY-TENNIS-SS260204-MODEL-6066-ezgif.com-jpg-to-webp-converter.webp",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP MONTEREY",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify://products/monterey-tennis",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_mfJxtY": {
+          "type": "promotion",
+          "name": "Bussi Tennis - NA",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 3,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/BUSSI-TENNIS-SS260205-MODEL-IMG_0829.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP BUSSI",
+            "link": "shopify://products/bussi-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_AE7VTx": {
+          "type": "promotion",
+          "name": "LUZON V3",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 4,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/LUZON-RUNNERV.3-SS260614-MODEL-EPI_8729-ezgif.com-jpg-to-webp-converter_e1e3a783-b8f6-4376-905f-ed50af6ea0b8.webp",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP LUZON V.3",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify://products/luzon-runner-v-3",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_JhaaJr": {
+          "type": "promotion",
+          "name": "ANDES V3",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 5,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/ANDES-RUNNER-V.3-SS260615-MODEL-ZOOM-EPI_4854.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP ANDES V3",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify://products/andes-runner-v-3",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_fBn9kk": {
+          "type": "promotion",
+          "name": "Naia Slip - NA",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 6,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/Naia_Slip_On_GIF.gif",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP NAIA",
+            "link": "shopify://products/naia-slip-on",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 2
+          }
+        },
+        "promotion_JYCBLf": {
+          "type": "promotion",
+          "name": "Rana Slip - NA",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 7,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/RANA-SLIPON-SS260307-HOLD-IMG_1120.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP RANA",
+            "link": "shopify://products/rana-slip-on",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_V3c8UY": {
+          "type": "promotion",
+          "name": "Rana trekk",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 8,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/RANA-TREKKBOOT-SS261024-MODEL-IMG_1319-Edit.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP RANA",
+            "link": "shopify://products/rana-trekk-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_hhDDjg": {
+          "type": "promotion",
+          "name": "Joya trekk",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 9,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/Joya_Trekk_Boot-GIF.gif",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP JOYA",
+            "link": "shopify://products/rana-trekk-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_xkf8iq": {
+          "type": "promotion",
+          "name": "Lily Buckle - New Arrivals",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 10,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/LILY-BUCKLESANDAL-SS261218-HOLD-IMG_1290.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP LILY",
+            "link": "shopify://products/lily-buckle-sandal",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_YBG8n6": {
+          "type": "promotion",
+          "name": "Silvan Buckle - NA",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 11,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/SILVAN-BUCKLE-SANDAL-SS261216-MODEL-ZOOM-EPI_6822-crop.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP SILVAN",
+            "link": "shopify://products/silvan-buckle-sandal",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_n7q9hT": {
+          "type": "promotion",
+          "name": "Silvan Tennis NA",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 12,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/SILVAN-TENNIS-SS260203-MODEL-IMG_1161.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP SILVAN",
+            "link": "shopify://products/silvan-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_BRnBeg": {
+          "type": "promotion",
+          "name": "Silvan Trek",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 13,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/SILVAN-TREKKBOOT-SS261023-MODEL-IMG_0898.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP SILVAN",
+            "link": "shopify://products/silvan-trekk-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_KA869r": {
+          "type": "promotion",
+          "name": "LUZON ULTRA",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 14,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/LUZON-BUCKLESANDAL-ULTRACOMFORT-SS261219-MODEL-EPI_6922.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP LUZON",
+            "link": "shopify://products/luzon-buckle-sandal-ultra-comfort",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_H9NrRy": {
+          "type": "promotion",
+          "name": "DESERT ULTRA",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/DESERT-BUCKLE-SANDAL-ULTRA-COMFORT-SS261220-MODEL-EPI_7175-ezgif.com-jpg-to-webp-converter.webp",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP DESERT",
+            "link": "shopify://products/desert-buckle-sandal-ultra-comfort",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_YjHL8f": {
+          "type": "promotion",
+          "name": "Agave Slip",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 16,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/AGAVE-SLIP-ON-SS260309-MODEL-EPI_6617-ezgif.com-jpg-to-webp-converter.webp",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP AGAVE",
+            "link": "shopify://products/agave-slip-on",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_pD7x9g": {
+          "type": "promotion",
+          "name": "Agave Cush - NA",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 17,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/AGAVE-CUSH-JOGGER-SS260411-MODEL-EPI_8055-ezgif.com-jpg-to-webp-converter.webp",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP AGAVE CUSH",
+            "link": "shopify://products/agave-cush-jogger",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_MVLEjP": {
+          "type": "promotion",
+          "name": "Joya Jogger",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 18,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/JOYA-JOGGER-SS260410-MODEL-EPI_7682-ezgif.com-jpg-to-webp-converter.webp",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP JOYA",
+            "link": "shopify://products/joya-vegan-trekk-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_kQQqqU": {
+          "type": "promotion",
+          "name": "Joya Ace Low",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 19,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/JOYA-ACE-LOW-TOP-SS260206-MODEL-EPI_6310-ezgif.com-jpg-to-webp-converter.webp",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP JOYA",
+            "link": "shopify://products/joya-ace-low-top",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_ergFNW": {
+          "type": "promotion",
+          "name": "Rana trainer",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 20,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/RANA-TRAINER-SS260612-MODEL-HORIZONTAL-EPI_9806.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP RANA",
+            "link": "shopify://products/rana-trainer",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_aLm3kf": {
+          "type": "promotion",
+          "name": "Naia Trainer",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 21,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/NAIA-TRAINER-SS260613-MODEL-EPI_9640-ezgif.com-jpg-to-webp-converter.webp",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP NAIA",
+            "link": "shopify://products/naia-trainer",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_f6fPVh": {
+          "type": "promotion",
+          "name": "Agave Tennis - NA",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 22,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/AGAVE-TENNIS-SS260202-MODEL-IMG_0711.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP AGAVE",
+            "link": "shopify://products/agave-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_tHHJjj": {
+          "type": "promotion",
+          "name": "Joya Tennis",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 23,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/JOYA-VEGAN-TENNIS-SS260201-HOLD-EPI_6016-ezgif.com-jpg-to-webp-converter.webp",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP JOYA",
+            "link": "shopify://products/joya-vegan-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_gpWWCy": {
+          "type": "promotion",
+          "name": "Naia Buckle - NA",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 24,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/NAIA-BUCKLE-SANDAL-SS261217-MODEL-EPI_8185-ezgif.com-jpg-to-webp-converter.webp",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP NAIA",
+            "link": "shopify://products/naia-buckle-sandal",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 7
+          }
+        },
+        "promotion_J46KEP": {
+          "type": "promotion",
+          "name": "BLACKBIRD ULTRA",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 24,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/BLACKBIRD-BUCKLESANDAL-ULTRA-COMFORT-SS261221-MODEL-EPI_7024-ezgif.com-jpg-to-webp-converter.webp",
+            "title": "",
+            "text": "",
+            "link_label": "SHOP BLACKBIRD",
+            "link": "shopify://products/blackbird-buckle-sandal-ultra-comfort",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "promotion_j3iwmt",
+        "promotion_mfJxtY",
+        "promotion_AE7VTx",
+        "promotion_JhaaJr",
+        "promotion_fBn9kk",
+        "promotion_JYCBLf",
+        "promotion_V3c8UY",
+        "promotion_hhDDjg",
+        "promotion_xkf8iq",
+        "promotion_YBG8n6",
+        "promotion_n7q9hT",
+        "promotion_BRnBeg",
+        "promotion_KA869r",
+        "promotion_H9NrRy",
+        "promotion_YjHL8f",
+        "promotion_pD7x9g",
+        "promotion_MVLEjP",
+        "promotion_kQQqqU",
+        "promotion_ergFNW",
+        "promotion_aLm3kf",
+        "promotion_f6fPVh",
+        "promotion_tHHJjj",
+        "promotion_gpWWCy",
+        "promotion_J46KEP"
+      ],
+      "settings": {
+        "full_width": true,
+        "products_per_page": 48,
+        "columns_desktop": 4,
+        "pagination_type": "infinite",
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "show_counts": false,
+        "filter_color_swatches": true,
+        "facets_desktop": "drawer"
+      }
+    },
+    "spacer_b6FMbf": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": true,
+        "border_separator_full": false
+      }
+    },
+    "single_image_4emjKU": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/Tagline_3_Logos_for_Homepage_2.png",
+        "full_width": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_hqciKa": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/DesertPolaroid15.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    }
+  },
+  "order": [
+    "scrolling_text_eDxme7",
+    "main-collection-banner",
+    "product-grid",
+    "spacer_b6FMbf",
+    "single_image_4emjKU",
+    "single_image_hqciKa"
+  ]
+}

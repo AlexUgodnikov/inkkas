@@ -97,10 +97,16 @@
             "show_gift_card_recipient": false
           }
         },
+        "essential_announcer_app_block_kRiMDb": {
+          "type": "shopify://apps/essential-announcer/blocks/app-block/93b5429f-c8d6-4c33-ae14-250fd84f361b",
+          "settings": {
+            "id": "747e4b41-f426-4bb0-a264-a3ef3ca928de"
+          }
+        },
         "essential_countdown_timer_app_block_L7YXF4": {
           "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
-            "id": "cmga7k33o007gz09fa0dmitfj"
+            "id": "cmnfg67lq0068pkgl13bu9h5y"
           }
         },
         "text_eay9iD": {
@@ -128,7 +134,7 @@
           "type": "collapsible_tab_2",
           "settings": {
             "idname": "",
-            "open": false,
+            "open": true,
             "show_okendo_reviews": false,
             "show_only_with_tag": false,
             "product_tag": "",
@@ -528,6 +534,7 @@
         "side_panel_g4pmfR",
         "preorder_me_product_button_t8zPaL",
         "buy_buttons",
+        "essential_announcer_app_block_kRiMDb",
         "essential_countdown_timer_app_block_L7YXF4",
         "text_eay9iD",
         "custom_liquid_JfYWyP",
@@ -594,24 +601,6 @@
       },
       "block_order": [
         "vizup_shoppable_video_carousel_videos_block_GxgkYA"
-      ],
-      "settings": {}
-    },
-    "1773082700c1a314f4": {
-      "type": "apps",
-      "blocks": {
-        "rebuy_personalization_engine_rebuy_widget_hUdA8a": {
-          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
-          "settings": {
-            "enabled": true,
-            "id": "248045",
-            "product_id_enabled": true,
-            "collection_id_enabled": false
-          }
-        }
-      },
-      "block_order": [
-        "rebuy_personalization_engine_rebuy_widget_hUdA8a"
       ],
       "settings": {}
     },
@@ -1028,6 +1017,24 @@
       ],
       "settings": {}
     },
+    "1773082700c1a314f4": {
+      "type": "apps",
+      "blocks": {
+        "rebuy_personalization_engine_rebuy_widget_hUdA8a": {
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "248045",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "rebuy_personalization_engine_rebuy_widget_hUdA8a"
+      ],
+      "settings": {}
+    },
     "text_with_icons_MRQx4U": {
       "type": "text-with-icons",
       "blocks": {
@@ -1134,7 +1141,7 @@
         "text_zLGJCJ": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>Shop #inkkas in real life</strong></h3>",
+            "text": "<h3><strong>#inkkas in Real Life</strong></h3>",
             "custom_liquid": "",
             "size": "text-size-large"
           }

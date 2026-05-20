@@ -43,6 +43,7 @@
         "text_YU3JH9",
         "text_jgr8qQ"
       ],
+      "disabled": true,
       "settings": {
         "height": "height-auto",
         "full_width": true,
@@ -70,16 +71,6 @@
         "overlay_opacity": 40
       }
     },
-    "13c1fa9b-e669-46a9-8040-f6f0e85ee079": {
-      "type": "spacer",
-      "disabled": true,
-      "settings": {
-        "spacer_mobile": 25,
-        "spacer_desktop": 30,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -102,6 +93,7 @@
         },
         "promotion_JYCBLf": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 1,
@@ -136,6 +128,7 @@
         },
         "promotion_YjHL8f": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 3,
@@ -170,6 +163,7 @@
         },
         "promotion_JcxqRq": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 3,
@@ -204,6 +198,7 @@
         },
         "promotion_fBn9kk": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 5,
@@ -238,6 +233,7 @@
         },
         "promotion_YBG8n6": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 5,
@@ -272,6 +268,7 @@
         },
         "promotion_gpWWCy": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 7,
@@ -306,6 +303,7 @@
         },
         "promotion_xkf8iq": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 7,
@@ -340,6 +338,7 @@
         },
         "promotion_ergFNW": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 9,
@@ -374,6 +373,7 @@
         },
         "promotion_aLm3kf": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 9,
@@ -408,6 +408,7 @@
         },
         "promotion_pCXmgX": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 11,
@@ -442,6 +443,7 @@
         },
         "promotion_pD7x9g": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 11,
@@ -476,6 +478,7 @@
         },
         "promotion_kQjcTC": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 13,
@@ -510,6 +513,7 @@
         },
         "promotion_f6fPVh": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 13,
@@ -544,6 +548,7 @@
         },
         "promotion_kQQqqU": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 15,
@@ -578,6 +583,7 @@
         },
         "promotion_n7q9hT": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 15,
@@ -612,6 +618,7 @@
         },
         "promotion_mfJxtY": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 17,
@@ -646,6 +653,7 @@
         },
         "promotion_ccknfG": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 17,
@@ -680,6 +688,7 @@
         },
         "promotion_hhDDjg": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "promotion_collection": "new-arrivals",
             "promotion_position": 18,
@@ -780,7 +789,6 @@
   "order": [
     "scrolling_text_eDxme7",
     "main-collection-banner",
-    "13c1fa9b-e669-46a9-8040-f6f0e85ee079",
     "product-grid",
     "spacer_b6FMbf",
     "single_image_4emjKU",

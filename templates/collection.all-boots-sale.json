@@ -39,47 +39,6 @@
         "facets_desktop": "drawer"
       }
     },
-    "scrolling_text_MGTnMF": {
-      "type": "scrolling-text",
-      "blocks": {
-        "text_qtPPHE": {
-          "type": "text",
-          "settings": {
-            "text": "Use code: BOOT50 for $50 OFF Every Pair",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_YJYQip": {
-          "type": "text",
-          "settings": {
-            "text": "Only During Our 48 Hour Prime Sale",
-            "link": "",
-            "outline_text": true
-          }
-        }
-      },
-      "block_order": [
-        "text_qtPPHE",
-        "text_YJYQip"
-      ],
-      "name": "Scrolling text",
-      "settings": {
-        "height": "height-auto",
-        "full_width": true,
-        "direction": "right",
-        "speed": "20s",
-        "text_size": 24,
-        "text_uppercase": true,
-        "image_size": "small",
-        "color_bg": "#c3d4b6",
-        "color_text": "#151515",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
     "spacer_HDe43e": {
       "type": "spacer",
       "disabled": true,
@@ -124,7 +83,6 @@
     "main-collection-banner",
     "collection_filters_button_777d3Q",
     "product-grid",
-    "scrolling_text_MGTnMF",
     "spacer_HDe43e",
     "single_image_3UWGVN",
     "featured_collection_6RbLfp"

@@ -18,8 +18,41 @@
         "disable_bottom_spacing": false
       }
     },
+    "1775059618a83d5faa": {
+      "type": "apps",
+      "blocks": {
+        "octane_ai_advanced_quiz_maker_octaneai_section_XhpC6t": {
+          "type": "shopify://apps/octane-ai-advanced-quiz-maker/blocks/octaneai_section/db2513a5-c9b0-40fd-9058-42c28e6e6502",
+          "settings": {
+            "octane_id": "ywu7yb4i2l1ah89a:UHxf9p5KXig0Cref:quiz",
+            "embed_type": "fullpage",
+            "enable_loading": false,
+            "stroke_color": "#000000",
+            "mobile_height": "match_browser",
+            "mobile_custom_height_px": 600,
+            "desktop_height": "match_browser",
+            "desktop_custom_height_px": 600
+          }
+        }
+      },
+      "block_order": [
+        "octane_ai_advanced_quiz_maker_octaneai_section_XhpC6t"
+      ],
+      "settings": {}
+    },
+    "spacer_BbYiFV": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 10,
+        "spacer_desktop": 15,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
     "custom_liquid_mpf9Nz": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom liquid",
       "settings": {
         "custom_liquid": "<div class=\"octane-ai-quiz \" data-abtest-id=\"998873e5\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\" >\n    \n</div>\n<script src=\"https://app.octaneai.com/ywu7yb4i2l1ah89a/quiz.js\" defer></script>"
@@ -77,6 +110,8 @@
   },
   "order": [
     "main",
+    "1775059618a83d5faa",
+    "spacer_BbYiFV",
     "custom_liquid_mpf9Nz",
     "17519203299e40f6e0",
     "page_jtPX6Y"

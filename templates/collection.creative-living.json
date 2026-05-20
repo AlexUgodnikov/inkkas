@@ -11,6 +11,7 @@
   "sections": {
     "main-collection-banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_image": false,
         "show_collection_description": true,
@@ -20,10 +21,87 @@
         "overlay_opacity": 0
       }
     },
+    "image_with_text_overlay_dbFb4r": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_BGMCpq": {
+          "type": "subheading",
+          "settings": {
+            "text": "not for standing still"
+          }
+        },
+        "heading_AGXXwC": {
+          "type": "heading",
+          "settings": {
+            "text": "Made for Everyday Movement",
+            "heading_size": "h1-large"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_BGMCpq",
+        "heading_AGXXwC"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify://shop_images/RANA-SLIP-ON-SS260307-HOLD-HORIZONTAL-EPI_7922-ezgif.com-jpg-to-webp-converter.webp",
+        "mobile_image": "shopify://shop_images/RANA-TRAINER-SS260612-MODEL-HORIZONTAL-EPI_9806_bff19aa2-f515-40f0-996b-eb680f0aabfe.jpg",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_width": "small",
+        "content_position": "middle-left",
+        "text_alignment": "left",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "collection_filters_button_777d3Q": {
       "type": "collection-filters-button",
+      "disabled": true,
       "name": "Filters chips",
       "settings": {}
+    },
+    "spacer_dce9gn": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "featured_collection_GjiCFi": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "heading": "Creative Living",
+        "heading_left": true,
+        "description": "<p><em>The pairs you live in. Move in. Travel in. Create in.</em></p><p><strong>Start Here </strong>↓</p>",
+        "full_width": true,
+        "collection": "creative-living-copy",
+        "display_type": "carousel",
+        "product_limit": 4,
+        "columns_desktop": 3,
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_DmtN9q": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 30,
+        "spacer_desktop": 55,
+        "border_separator": true,
+        "border_separator_full": true
+      }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
@@ -31,55 +109,52 @@
         "promotion_HMNfCL": {
           "type": "promotion",
           "name": "New Arrivals",
-          "disabled": true,
           "settings": {
-            "promotion_collection": "best-sellers",
-            "promotion_position": 8,
+            "promotion_collection": "creative-living",
+            "promotion_position": 6,
             "promotion_width": "1",
             "image": "shopify://shop_images/MONTEREY-TENNIS-SS260204-MODEL-ZOOM-6115-ezgif.com-jpg-to-webp-converter.webp",
             "title": "",
             "text": "",
-            "link_label": "Shop New Arrivals",
-            "link": "shopify://collections/new-arrivals",
+            "link_label": "",
+            "link": "",
             "use_text_button": true,
-            "block_link": "shopify://collections/new-arrivals",
+            "block_link": "",
             "overlay_color": "#000000",
-            "overlay_opacity": 17
+            "overlay_opacity": 0
           }
         },
         "promotion_aNMrqp": {
           "type": "promotion",
           "name": "Low Tops GIF",
-          "disabled": true,
           "settings": {
-            "promotion_collection": "best-sellers",
-            "promotion_position": 16,
-            "promotion_width": "2",
-            "image": "shopify://shop_images/CLASSICS-Corozal-Low-Top-1.gif",
+            "promotion_collection": "creative-living",
+            "promotion_position": 12,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/Naia_Slip_On_GIF.gif",
             "title": "",
             "text": "",
-            "link_label": "Shop Cushy Sneakers",
-            "link": "shopify://collections/all-sneakers",
+            "link_label": "",
+            "link": "",
             "use_text_button": true,
-            "block_link": "shopify://collections/new-arrivals",
+            "block_link": "",
             "overlay_color": "#151515",
             "overlay_opacity": 0
           }
         },
         "promotion_V9xkyg": {
           "type": "promotion",
-          "disabled": true,
           "settings": {
-            "promotion_collection": "best-sellers",
-            "promotion_position": 22,
-            "promotion_width": "2",
-            "image": "shopify://shop_images/ROOSTER-TREKK-2-GIF-ezgif.com-video-to-webp-converter.webp",
+            "promotion_collection": "creative-living",
+            "promotion_position": 24,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/JOYA-VEGAN-TENNIS-SS260201-MODEL-EPI_5875-ezgif.com-jpg-to-webp-converter.webp",
             "title": "",
             "text": "",
-            "link_label": "Shop Water-Resistant Trekk Boots",
-            "link": "shopify://collections/trekk-boots",
+            "link_label": "",
+            "link": "",
             "use_text_button": true,
-            "block_link": "shopify://collections/trekk-boots",
+            "block_link": "",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -96,7 +171,7 @@
         "columns_desktop": 4,
         "pagination_type": "infinite",
         "enable_filtering": true,
-        "enable_sorting": true,
+        "enable_sorting": false,
         "show_counts": false,
         "filter_color_swatches": true,
         "facets_desktop": "drawer"
@@ -1117,7 +1192,11 @@
   },
   "order": [
     "main-collection-banner",
+    "image_with_text_overlay_dbFb4r",
     "collection_filters_button_777d3Q",
+    "spacer_dce9gn",
+    "featured_collection_GjiCFi",
+    "spacer_DmtN9q",
     "product-grid",
     "spacer_HDe43e",
     "featured_collection_6RbLfp",

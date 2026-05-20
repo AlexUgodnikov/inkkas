@@ -9,20 +9,11 @@
  */
 {
   "sections": {
-    "background_video_H8XwQL": {
-      "type": "background-video",
-      "disabled": true,
+    "single_image_kPmai8": {
+      "type": "single-image",
       "settings": {
-        "desktop_height": "desktop-height-full",
-        "mobile_height": "mobile-height-500",
+        "image": "shopify://shop_images/Shoe-Art-Contest-25-page-title2.jpg",
         "full_width": true,
-        "subheading": "Inkkas' 6th Annual Shoe Art Contest",
-        "heading": "Now Open!",
-        "text": "",
-        "lightbox_button": false,
-        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "video_hosted": "shopify://files/videos/2026 Shoe Art Contest-Artist-Dani VonShweetz-@northsoulstudios-KNOCKONWOOD Reel.mov",
-        "overlay_opacity": 15,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
@@ -33,8 +24,8 @@
         "slide_mTURk3": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/02-18-26-6th-shoe-art-contest-converter.webp",
-            "mobile_image": "shopify://shop_images/02-18-26-6th-shoe-art-contest-mobile-converter.webp",
+            "image": "shopify://shop_images/02-18-266thshoeartcontest-DESKTOP-submission1-converter-GIF.webp",
+            "mobile_image": "shopify://shop_images/02-18-266thshoeartcontest-MOBILE-submission1-converter-GIF.webp",
             "slide_link": "",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -69,15 +60,6 @@
         "autoplay": true,
         "autoplay_length": 5,
         "transition": "swipe",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "single_image_kPmai8": {
-      "type": "single-image",
-      "settings": {
-        "image": "shopify://shop_images/Shoe-Art-Contest-25-page-title2.jpg",
-        "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
@@ -251,9 +233,9 @@
             "image_full_width": false,
             "retina": true,
             "title": "Step 2: Choose Blank Canvas",
-            "text": "<ul><li>Use a plain white or black shoe without any design.</li><li>Use both the left and the right shoe.</li><li>No purchase is necessary to participate, but you are welcome to purchase our blank canvas pairs.</li></ul>",
-            "link_label": "Shop Blank Canvas Pairs",
-            "link": "shopify://collections/shoe-art-contest"
+            "text": "<ul><li>Use both the left and the right shoe.</li><li>No purchase is necessary to participate.</li></ul>",
+            "link_label": "",
+            "link": ""
           }
         },
         "column_r8HDzP": {
@@ -712,9 +694,8 @@
     }
   },
   "order": [
-    "background_video_H8XwQL",
-    "slideshow_zhXHVJ",
     "single_image_kPmai8",
+    "slideshow_zhXHVJ",
     "rich_text_gnVwR4",
     "image_with_text_slideshow_KNGQMy",
     "rich_text_8KWqMn",

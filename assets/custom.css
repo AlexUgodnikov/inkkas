@@ -985,8 +985,8 @@ product-form>form>.product-form__buttons>p {
 }
 
 .preorder-me-button {
-  background-color: #fb9e5b !important;
-  border-color: #fd9a52 !important;
+  background-color: #151515 !important;
+  border-color: #151515 !important;
   color: #fff !important;
   width: 100%;
 }
@@ -994,9 +994,12 @@ product-form>form>.product-form__buttons>p {
 .preorder-me-button:hover {
   color: #fff !important;
 }
-
+.preorder-me-button #label{
+  opacity:1;
+  color:#fff;
+}
 .preorder-me-button:before {
-  background: #f9822c !important;
+  background: #151515 !important;
 }
 
 preorder-me-button p {
@@ -1274,7 +1277,7 @@ preorder-me-button {
 
 .product-add-to-cart-sticky--content .single-add-to-cart-button.preorpder:before,
 .product-add-to-cart-sticky--content .single-add-to-cart-button.preorpder {
-  background: #f9822c !important;
+  background: #151515 !important;
   border: none;
 }
 
@@ -2084,6 +2087,9 @@ cartdrawer-recommends {
 .cartdrawer-recommends-wrp:not(.cartdrawer-recommends-swiper) .cartdrawer-recommends-item{
   margin-bottom:5px;
 }
+.cartdrawer-recommends-wrp:not(.cartdrawer-recommends-swiper) .cartdrawer-recommends-item:last-child{
+  margin-bottom:20px;
+}
 .drawer-recommend-product {
   display: grid;
   grid-template-columns: 150px 1fr;
@@ -2764,4 +2770,23 @@ product-form .add_to_cart_holder{
   .inventory_size-chart-wrp .product_size-chart .size_chart, .inventory_size-chart-wrp .product_size-chart .size_chart span {
       font-size: 14px;
   }
+}
+
+/* Theme drawer cart */
+.cart-drawer-footer{
+  padding-bottom:10px;
+}
+@media(max-width:600px){
+  .cart-drawer-footer{
+    padding: 0 15px 0px 15px;
+  }
+.side-panel-content {
+    padding: 10px 15px;
+}
+.side-panel-header{
+          padding: 15px 15px;
+        height: auto;
+}
+
+ 
 }
