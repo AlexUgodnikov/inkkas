@@ -1,0 +1,75 @@
+
+<div class="block-advantages-icons">
+  {% for i in (1..3) %}
+    {% assign icon_key = 'icon_' | append: i %}
+    {% assign link_key = 'link_' | append: i %}
+    {% assign icon_img  = block.settings[icon_key] %}
+    {% assign icon_link = block.settings[link_key] %}
+
+    {% if icon_img %}
+      <div class="block-advantages-icons__item">
+        {% if icon_link != blank %}
+          <a href="{{ icon_link }}" class="block-advantages-icons__link">
+        {% endif %}
+
+        {{ icon_img | image_url: width: '300x'
+            | image_tag:
+                width: '300x',
+                loading: 'lazy',
+                class: 'block-advantages-icons__img',
+                alt: icon_img.alt | default: '' }}
+
+        {% if icon_link != blank %}
+          </a>
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{%  style  %}  
+  .block-advantages-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: {{ block.settings.icon_gap }}px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+  }
+
+  .block-advantages-icons__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .block-advantages-icons__link {
+    display: block;
+    line-height: 0;
+  }
+
+  .block-advantages-icons__img {
+    max-width: {{ block.settings.icon_width }}px;
+    height: auto;
+    display: block;
+  }
+
+  @media (max-width: 1024px) {
+    .block-advantages-icons {
+      gap:10px;
+    }
+
+    .block-advantages-icons__img {
+      width: calc({{ block.settings.icon_width }}px * 0.85);
+    }
+  }
+    @media (max-width: 450px) {
+    .block-advantages-icons {
+      gap:5px;
+    }
+
+    /* .block-advantages-icons__img {
+      width: calc({{ block.settings.icon_width }}px * 0.75);
+    } */
+  }
+{% endstyle %}
