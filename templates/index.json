@@ -467,9 +467,38 @@
         "slide_jNBMkb": {
           "type": "slide",
           "name": "Moxie: Mexico",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Moxie_SS26_Collection_Banner3-Desktop.jpg",
             "mobile_image": "shopify://shop_images/Moxie_SS26_Collection_Banner3-Mobile.jpg",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_A7GEVn": {
+          "type": "slide",
+          "name": "Moxie: Mexico",
+          "settings": {
+            "image": "shopify://shop_images/Inkkas_Homepage_-_May_2026-summer_dreams-desktop.jpg",
+            "mobile_image": "shopify://shop_images/Inkkas_Homepage_-_May_2026-summer_dreams-mobile.webp",
             "slide_link": "shopify://collections/new-arrivals",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -611,6 +640,7 @@
       },
       "block_order": [
         "slide_jNBMkb",
+        "slide_A7GEVn",
         "slide_kH8mc4",
         "slide_e7ViL7",
         "slide_AXkbMV",
