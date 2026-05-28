@@ -990,6 +990,24 @@
       "disabled": true,
       "settings": {}
     },
+    "1773082700c1a314f4": {
+      "type": "apps",
+      "blocks": {
+        "rebuy_personalization_engine_rebuy_widget_hUdA8a": {
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "248045",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "rebuy_personalization_engine_rebuy_widget_hUdA8a"
+      ],
+      "settings": {}
+    },
     "custom_liquid_qqHfLi": {
       "type": "custom-liquid",
       "custom_css": [],
@@ -1016,80 +1034,6 @@
         "@media (max-width: 768px) {.okeReviews-widget-holder {padding: 0 15px; } .okeReviews .okeReviews-reviewsWidget {padding-top: 0; }}"
       ],
       "settings": {}
-    },
-    "1773082700c1a314f4": {
-      "type": "apps",
-      "blocks": {
-        "rebuy_personalization_engine_rebuy_widget_hUdA8a": {
-          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
-          "settings": {
-            "enabled": true,
-            "id": "248045",
-            "product_id_enabled": true,
-            "collection_id_enabled": false
-          }
-        }
-      },
-      "block_order": [
-        "rebuy_personalization_engine_rebuy_widget_hUdA8a"
-      ],
-      "settings": {}
-    },
-    "text_with_icons_MRQx4U": {
-      "type": "text-with-icons",
-      "blocks": {
-        "icon_ctNqqJ": {
-          "type": "icon",
-          "settings": {
-            "icon": "star",
-            "heading": "INKPASS® REWARDS",
-            "text": "<p><a href=\"/pages/inkkas-rewards\" target=\"_blank\" title=\"Inkkas Rewards\">Join for free to enjoy FREE shipping today + earn points & exclusive rewards every time you shop.</a></p>"
-          }
-        },
-        "icon_QyAWpD": {
-          "type": "icon",
-          "disabled": true,
-          "settings": {
-            "icon": "plant",
-            "heading": "HALF A MILLION TREES PLANTED",
-            "text": "<p>Every Inkkas purchase plants a tree through our <strong>OneShoeOneTree™</strong> program with Trees.org, supporting reforestation, biodiversity, and climate resilience.</p>"
-          }
-        },
-        "icon_8gn4BM": {
-          "type": "icon",
-          "settings": {
-            "icon": "return",
-            "heading": "FREE RETURNS & EXCHANGES",
-            "text": "<p><a href=\"/pages/return-policy\" target=\"_blank\" title=\"Returns & Exchanges\">Love them or send them back — free returns & exchanges are included in your order.</a></p>"
-          }
-        },
-        "icon_8fyykF": {
-          "type": "icon",
-          "settings": {
-            "icon": "chat_bubble",
-            "heading": "NEED HELP?",
-            "text": "<p>Send us an email at love@inkkas.com.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "icon_ctNqqJ",
-        "icon_QyAWpD",
-        "icon_8gn4BM",
-        "icon_8fyykF"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "icon_position": "top",
-        "icon_size": "large",
-        "heading_size": "medium",
-        "mobile_swipe": false,
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#151515",
-        "color_text": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
     },
     "spacer_pXifQw": {
       "type": "spacer",
@@ -1130,6 +1074,242 @@
       "name": "Spacer",
       "settings": {
         "spacer_mobile": 30,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "single_image_EGQtMA": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/Tagline_3_Logos_for_Homepage_2.png",
+        "full_width": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_9fKWyb": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 10,
+        "spacer_desktop": 0,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "collapsible_content_GTjkiJ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_4ApEeR": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do your shoes run true to size?",
+            "open": false,
+            "content": "<p>Yes. Most customers find Inkkas run true to size. If you’re between sizes, refer to the size guide for a recommendation on sizing up or down.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_i4V6bM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Are they comfortable enough for all-day wear?",
+            "open": false,
+            "content": "<p>Yes! Our shoes are designed for everyday movement, with cushioned insoles and flexible construction that feel good from morning to night.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Qfn3QY": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What if they don't work for me?",
+            "open": false,
+            "content": "<p>No worries. We want you to love your order. If you don't, as part of our ✨ <strong>100%</strong> <strong>Happiness Guarantee</strong>, you have 30 days to return or exchange your order for a full refund. This applies to all products not marked final sale.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_QXe46Y": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How are Inkkas made?",
+            "open": false,
+            "content": "<p>Inkkas is an independent brand. Our products are responsibly handcrafted in small batches to honor craft and reduce waste. Plus, every purchase supports global reforestation through our <strong>OneShoeOneTree™ </strong>program with trees.org.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_7QUaTz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "When will my order ship?",
+            "open": false,
+            "content": "<p>Shipping options and delivery timing are shown at checkout based on your location. Express shipping is offered wherever available. Orders are processed the next business day after order placement.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_AzfaB7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Don't see the answer you're looking for?",
+            "open": false,
+            "content": "<p>Read all our <a href=\"/pages/faq\" title=\"FAQ\">FAQs</a> or send us an email at love@inkkas.com. </p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_4ApEeR",
+        "collapsible_tab_i4V6bM",
+        "collapsible_tab_Qfn3QY",
+        "collapsible_tab_QXe46Y",
+        "collapsible_tab_7QUaTz",
+        "collapsible_tab_AzfaB7"
+      ],
+      "name": "Collapsible content",
+      "settings": {
+        "heading": "F.A.Q.",
+        "description": "",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_EepTjM": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "multicolumn_bYkJ39": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Wdjrxc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "1. Art with Roots 🌿",
+            "text": "<p>Every pair of <em><strong>Inkkas</strong></em> begins as a hand-<em><strong>inked</strong></em> work of art—created to spark joy, connection, and inspiration. Each design is inspired by the natural world, drawing from its colors, textures, and rhythms—florals, landscapes, animals, and organic patterns that naturally draw us in. But that’s just where the journey begins.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ebwFtG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/making_of_the_joggers-ezgif.com-optiwebp.webp",
+            "image_full_width": true,
+            "retina": true,
+            "title": "2. Beauty Meets Function",
+            "text": "<p>Each sketch is carefully transformed into a handcrafted shoe — where artistry meets engineering. Using high-quality, responsible materials and time-honored techniques, we build comfort into every detail: cushioned insoles, supportive soles, and a fit that feels like it was made just for you.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dxeGPD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/5W1A8149.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "3. Made to Move You",
+            "text": "<p>Then comes the best part — you! When you step into a pair of Inkkas, expect that unmistakable confidence that comes from walking in something one-of-a-kind. Shoes that feel good for the soul (and the sole), good for the planet, and guaranteed to spark smiles and compliments along the way.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Wdjrxc",
+        "column_ebwFtG",
+        "column_dxeGPD"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "heading": "From Sketch to Step — The Inkkas Journey",
+        "heading_left": false,
+        "description": "<p><em>A look inside how every pair comes to life.</em></p>",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "scrolling_text_TQnEk3": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_gHzRKt": {
+          "type": "text",
+          "settings": {
+            "text": "Handcrafted, with Love.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_7a7LqC": {
+          "type": "text",
+          "settings": {
+            "text": "Good for the Sole.",
+            "link": "",
+            "outline_text": true
+          }
+        },
+        "text_MEct3V": {
+          "type": "text",
+          "settings": {
+            "text": "Comes with free foot hugs.",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_8JLEJJ": {
+          "type": "text",
+          "settings": {
+            "text": "Made to Move You.",
+            "link": "",
+            "outline_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_gHzRKt",
+        "text_7a7LqC",
+        "text_MEct3V",
+        "text_8JLEJJ"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "text_size": 48,
+        "text_uppercase": false,
+        "image_size": "large",
+        "color_bg": "#ffffff",
+        "color_text": "#ffb715",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_dxzD98": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 35,
         "spacer_desktop": 50,
         "border_separator": false,
         "border_separator_full": false
@@ -2117,241 +2297,60 @@
         "disable_bottom_spacing": false
       }
     },
-    "spacer_9fKWyb": {
-      "type": "spacer",
-      "name": "Spacer",
+    "text_with_icons_MRQx4U": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_ctNqqJ": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "heading": "INKPASS® REWARDS",
+            "text": "<p><a href=\"/pages/inkkas-rewards\" target=\"_blank\" title=\"Inkkas Rewards\">Join for free to enjoy FREE shipping today + earn points & exclusive rewards every time you shop.</a></p>"
+          }
+        },
+        "icon_QyAWpD": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "plant",
+            "heading": "HALF A MILLION TREES PLANTED",
+            "text": "<p>Every Inkkas purchase plants a tree through our <strong>OneShoeOneTree™</strong> program with Trees.org, supporting reforestation, biodiversity, and climate resilience.</p>"
+          }
+        },
+        "icon_8gn4BM": {
+          "type": "icon",
+          "settings": {
+            "icon": "return",
+            "heading": "FREE RETURNS & EXCHANGES",
+            "text": "<p><a href=\"/pages/return-policy\" target=\"_blank\" title=\"Returns & Exchanges\">Love them or send them back — free returns & exchanges are included in your order.</a></p>"
+          }
+        },
+        "icon_8fyykF": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "NEED HELP?",
+            "text": "<p>Send us an email at love@inkkas.com.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_ctNqqJ",
+        "icon_QyAWpD",
+        "icon_8gn4BM",
+        "icon_8fyykF"
+      ],
       "settings": {
-        "spacer_mobile": 10,
-        "spacer_desktop": 0,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "single_image_EGQtMA": {
-      "type": "single-image",
-      "name": "Single image",
-      "settings": {
-        "image": "shopify://shop_images/Tagline_3_Logos_for_Homepage_2.png",
-        "full_width": false,
-        "disable_top_spacing": true,
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "medium",
+        "mobile_swipe": false,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#151515",
+        "color_text": "#151515",
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
-      }
-    },
-    "multicolumn_bYkJ39": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_Wdjrxc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
-            "image_full_width": true,
-            "retina": true,
-            "title": "1. Art with Roots 🌿",
-            "text": "<p>Every pair of <em><strong>Inkkas</strong></em> begins as a hand-<em><strong>inked</strong></em> work of art—created to spark joy, connection, and inspiration. Each design is inspired by the natural world, drawing from its colors, textures, and rhythms—florals, landscapes, animals, and organic patterns that naturally draw us in. But that’s just where the journey begins.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_ebwFtG": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/making_of_the_joggers-ezgif.com-optiwebp.webp",
-            "image_full_width": true,
-            "retina": true,
-            "title": "2. Beauty Meets Function",
-            "text": "<p>Each sketch is carefully transformed into a handcrafted shoe — where artistry meets engineering. Using high-quality, responsible materials and time-honored techniques, we build comfort into every detail: cushioned insoles, supportive soles, and a fit that feels like it was made just for you.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_dxeGPD": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/5W1A8149.jpg",
-            "image_full_width": true,
-            "retina": true,
-            "title": "3. Made to Move You",
-            "text": "<p>Then comes the best part — you! When you step into a pair of Inkkas, expect that unmistakable confidence that comes from walking in something one-of-a-kind. Shoes that feel good for the soul (and the sole), good for the planet, and guaranteed to spark smiles and compliments along the way.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_Wdjrxc",
-        "column_ebwFtG",
-        "column_dxeGPD"
-      ],
-      "name": "Multicolumn",
-      "settings": {
-        "heading": "From Sketch to Step — The Inkkas Journey",
-        "heading_left": false,
-        "description": "<p><em>A look inside how every pair comes to life.</em></p>",
-        "full_width": true,
-        "display_type": "grid",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "text_alignment": "left",
-        "heading_size": "h5",
-        "mobile_swipe": true,
-        "show_progress_bar": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "scrolling_text_TQnEk3": {
-      "type": "scrolling-text",
-      "blocks": {
-        "text_gHzRKt": {
-          "type": "text",
-          "settings": {
-            "text": "Handcrafted, with Love.",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_7a7LqC": {
-          "type": "text",
-          "settings": {
-            "text": "Good for the Sole.",
-            "link": "",
-            "outline_text": true
-          }
-        },
-        "text_MEct3V": {
-          "type": "text",
-          "settings": {
-            "text": "Comes with free foot hugs.",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_8JLEJJ": {
-          "type": "text",
-          "settings": {
-            "text": "Made to Move You.",
-            "link": "",
-            "outline_text": true
-          }
-        }
-      },
-      "block_order": [
-        "text_gHzRKt",
-        "text_7a7LqC",
-        "text_MEct3V",
-        "text_8JLEJJ"
-      ],
-      "name": "Scrolling text",
-      "settings": {
-        "height": "height-auto",
-        "full_width": true,
-        "direction": "left",
-        "speed": "20s",
-        "text_size": 48,
-        "text_uppercase": false,
-        "image_size": "large",
-        "color_bg": "#ffffff",
-        "color_text": "#ffb715",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "spacer_EepTjM": {
-      "type": "spacer",
-      "disabled": true,
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 35,
-        "spacer_desktop": 50,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "spacer_dxzD98": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 35,
-        "spacer_desktop": 50,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "collapsible_content_GTjkiJ": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_tab_4ApEeR": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Do your shoes run true to size?",
-            "open": false,
-            "content": "<p>Yes. Most customers find Inkkas run true to size. If you’re between sizes, refer to the size guide for a recommendation on sizing up or down.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_i4V6bM": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Are they comfortable enough for all-day wear?",
-            "open": false,
-            "content": "<p>Yes! Our shoes are designed for everyday movement, with cushioned insoles and flexible construction that feel good from morning to night.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_Qfn3QY": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "What if they don't work for me?",
-            "open": false,
-            "content": "<p>No worries. We want you to love your order. If you don't, as part of our ✨ <strong>100%</strong> <strong>Happiness Guarantee</strong>, you have 30 days to return or exchange your order for a full refund. This applies to all products not marked final sale.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_QXe46Y": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How are Inkkas made?",
-            "open": false,
-            "content": "<p>Inkkas is an independent brand. Our products are responsibly handcrafted in small batches to honor craft and reduce waste. Plus, every purchase supports global reforestation through our <strong>OneShoeOneTree™ </strong>program with trees.org.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_7QUaTz": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "When will my order ship?",
-            "open": false,
-            "content": "<p>Shipping options and delivery timing are shown at checkout based on your location. Express shipping is offered wherever available. Orders are processed the next business day after order placement.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_AzfaB7": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Don't see the answer you're looking for?",
-            "open": false,
-            "content": "<p>Read all our <a href=\"/pages/faq\" title=\"FAQ\">FAQs</a> or send us an email at love@inkkas.com. </p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_tab_4ApEeR",
-        "collapsible_tab_i4V6bM",
-        "collapsible_tab_Qfn3QY",
-        "collapsible_tab_QXe46Y",
-        "collapsible_tab_7QUaTz",
-        "collapsible_tab_AzfaB7"
-      ],
-      "name": "Collapsible content",
-      "settings": {
-        "heading": "F.A.Q.",
-        "description": "",
-        "uppercase_heading": false,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
       }
     },
     "spacer_bKJPmP": {
@@ -2370,23 +2369,23 @@
     "main-product",
     "1759942147eebe6aa6",
     "how_it_looks_on_you_wEwKFG",
+    "1773082700c1a314f4",
     "custom_liquid_qqHfLi",
     "17443016606c46dac5",
-    "1773082700c1a314f4",
-    "text_with_icons_MRQx4U",
     "spacer_pXifQw",
     "product-recommendations",
     "recently_viewed_products_HPzhR7",
     "spacer_w3ALq3",
-    "rich_text_Ypwzrb",
-    "gallery_jabGP6",
-    "spacer_9fKWyb",
     "single_image_EGQtMA",
+    "spacer_9fKWyb",
+    "collapsible_content_GTjkiJ",
+    "spacer_EepTjM",
     "multicolumn_bYkJ39",
     "scrolling_text_TQnEk3",
-    "spacer_EepTjM",
     "spacer_dxzD98",
-    "collapsible_content_GTjkiJ",
+    "rich_text_Ypwzrb",
+    "gallery_jabGP6",
+    "text_with_icons_MRQx4U",
     "spacer_bKJPmP"
   ]
 }

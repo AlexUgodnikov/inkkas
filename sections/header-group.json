@@ -38,7 +38,6 @@
       "blocks": {
         "text_XLX6VA": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "icon": "none",
             "text": "SHOP NEW MOXIE COLLECTION",
@@ -47,7 +46,6 @@
         },
         "text_xhDUtd": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "icon": "return",
             "text": "FREE RETURNS & EXCHANGES",
@@ -56,7 +54,6 @@
         },
         "text_UjATph": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "icon": "star",
             "text": "JOIN INKPASS® TO UNLOCK FREE U.S. SHIPPING (NO MINIMUM)",
@@ -70,22 +67,13 @@
             "text": "FREE SHIPPING ON ALL U.S. ORDERS $150+",
             "link": "shopify://pages/shipping"
           }
-        },
-        "text_KY3xGy": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "IT'S ON: 25% OFF SITEWIDE MEMORIAL DAY SALE. Cannot be combined with other discounts.",
-            "link": "shopify://collections/best-sellers"
-          }
         }
       },
       "block_order": [
         "text_XLX6VA",
         "text_xhDUtd",
         "text_UjATph",
-        "text_CmerAE",
-        "text_KY3xGy"
+        "text_CmerAE"
       ],
       "settings": {
         "announcement_bar": true,
