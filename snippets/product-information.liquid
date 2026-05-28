@@ -143,6 +143,8 @@
             {% render 'product-tags-label', product: product %}
             
           </div>
+    {%- when 'advantages_icons' -%}
+      {% render 'product-advantages-icons', block: block %}
     {%- when 'inventory_level' -%}
     
         <div class="inventory_size-chart-wrp {% if product.tags contains 'slip-on-size-chart' %}slip-on-size-inw-wrp{% endif %}">
