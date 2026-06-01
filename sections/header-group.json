@@ -38,10 +38,11 @@
       "blocks": {
         "text_XLX6VA": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "none",
-            "text": "SHOP NEW MOXIE COLLECTION",
-            "link": "shopify://collections/new-arrivals"
+            "text": "Enjoy 20% OFF Your Shoes Today ☀️ Use code: SUMMER20",
+            "link": "shopify://collections/best-sellers"
           }
         },
         "text_xhDUtd": {
@@ -118,7 +119,7 @@
         "logo_height_range_mobile": 30,
         "style": "style1",
         "header_shadow": "header--shadow-small",
-        "menu": "new-menu_67c2666a-af45-44e7-a485-8f38330ea3b6",
+        "menu": "primary-menu-inkkas-reformation-05-28-26-test",
         "transparent_header": false,
         "show_language_switcher": false,
         "show_currency_switcher": false,

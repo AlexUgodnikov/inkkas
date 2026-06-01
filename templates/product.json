@@ -102,11 +102,11 @@
           "settings": {
             "icon_width": 120,
             "icon_gap": 10,
-            "icon_1": "shopify://shop_images/1_7dd16dbc-0cc5-43e4-ae3b-39e994f009bb.png",
+            "icon_1": "shopify://shop_images/1_1.png",
             "link_1": "",
-            "icon_2": "shopify://shop_images/234456456.png",
+            "icon_2": "shopify://shop_images/2_1.png",
             "link_2": "",
-            "icon_3": "shopify://shop_images/2345.png",
+            "icon_3": "shopify://shop_images/3_1.png",
             "link_3": ""
           }
         },

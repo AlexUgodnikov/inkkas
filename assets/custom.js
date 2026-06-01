@@ -195,3 +195,16 @@ function rebayBundlesCustomVarinats(){
 
 }
 rebayBundlesCustomVarinats()
+
+//cart opener
+document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+
+  if (params.get('cart') == 'true') {
+    setTimeout(()=>{
+      if(document.querySelectorAll('#cart-drawer-toggle').length > 0){
+        document.querySelector('#cart-drawer-toggle').click()
+      }
+    },3000)
+  }
+})

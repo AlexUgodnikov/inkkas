@@ -12,22 +12,82 @@
     "gallery_dJpr7W": {
       "type": "gallery",
       "blocks": {
-        "image_8WtNRX": {
+        "image_nJgd6H": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_25.jpg",
+            "image": "shopify://shop_images/Mobile_Banner_33.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify://collections/best-sellers",
+            "block_link": "shopify://collections/womens-collection-all-shoes",
+            "product_list": []
+          }
+        },
+        "image_P3dyTX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_28.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/mens-shoes",
+            "product_list": []
+          }
+        },
+        "image_mQDJ6L": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Inkkas_Mobile_Size_Homepage_-_May_2026_1.gif",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/mens-shoes",
+            "product_list": []
+          }
+        },
+        "image_VyDUqh": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_34.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/new-arrivals",
+            "product_list": []
+          }
+        },
+        "image_z69wQ3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Inkkas_Homepage_-_May_2026-summer_dreams-mobile.webp",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/new-arrivals",
             "product_list": []
           }
         },
         "image_emmzx8": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/InkkasHomepage-May2026-secondarybanner-mobile.webp",
             "subheading": "",
@@ -37,6 +97,21 @@
             "link": "",
             "use_text_button": false,
             "block_link": "shopify://collections/new-arrivals",
+            "product_list": []
+          }
+        },
+        "image_8WtNRX": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_31.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/best-sellers",
             "product_list": []
           }
         },
@@ -69,47 +144,19 @@
             "block_link": "shopify://products/rana-trekk-boot",
             "product_list": []
           }
-        },
-        "image_fK3YCL": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner.png",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/mens-shoes",
-            "product_list": []
-          }
-        },
-        "image_mQDJ6L": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Inkkas_Mobile_Size_Homepage_-_May_2026_1.gif",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/mens-shoes",
-            "product_list": []
-          }
         }
       },
       "block_order": [
-        "image_8WtNRX",
+        "image_nJgd6H",
+        "image_P3dyTX",
+        "image_mQDJ6L",
+        "image_VyDUqh",
+        "image_z69wQ3",
         "image_emmzx8",
+        "image_8WtNRX",
         "image_KwBFgd",
-        "image_P3tbnx",
-        "image_fK3YCL",
-        "image_mQDJ6L"
+        "image_P3tbnx"
       ],
-      "disabled": true,
       "name": "Gallery",
       "settings": {
         "slider": false,
@@ -130,13 +177,71 @@
     "slideshow_xjXNNN": {
       "type": "slideshow",
       "blocks": {
+        "slide_Yxt9XW": {
+          "type": "slide",
+          "name": "Moxie: Mexico",
+          "settings": {
+            "image": "shopify://shop_images/Inkkas_Homepage_-_May_2026-summer_dreams-desktop.jpg",
+            "mobile_image": "shopify://shop_images/Inkkas_Homepage_-_May_2026-summer_dreams-mobile.webp",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "slide_FMwGj7": {
           "type": "slide",
           "name": "Moxie: GIF",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/InkkasHomepage-May2026-desktop.webp",
-            "mobile_image": "shopify://shop_images/InkkasHomepage-May2026-mobile.webp",
+            "mobile_image": "shopify://shop_images/InkkasHomepage-May2026-mobile_3_slides-canva.webp",
             "slide_link": "shopify://collections/best-sellers",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_gR8cCJ": {
+          "type": "slide",
+          "name": "Moxie: GIF",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/MoxieSS26CollectionBanner1.2-Desktop-converter.webp",
+            "mobile_image": "shopify://shop_images/MoxieSS26CollectionBanner1-Mobile-converter.webp",
+            "slide_link": "shopify://collections/new-arrivals",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "",
@@ -187,6 +292,34 @@
             "button_2_outline": false
           }
         },
+        "slide_cFdncj": {
+          "type": "slide",
+          "name": "Moxie: Mexico",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/2025.png",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
         "slide_imFCda": {
           "type": "slide",
           "disabled": true,
@@ -214,13 +347,77 @@
             "button_2_link": "",
             "button_2_outline": false
           }
+        },
+        "slide_wwDYtk": {
+          "type": "slide",
+          "name": "original review banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/OLD-5-StarsBanner-DESKTOP-converter.webp",
+            "mobile_image": "shopify://shop_images/OLD-5-StarsBanner-MOBILE-converter.webp",
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "left",
+            "content_size": "large",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_xmXPRC": {
+          "type": "slide",
+          "name": "Dreams Do Come True (Moxie)",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/InkkasHomepage-May2026-secondarybanner-desktop.webp",
+            "mobile_image": "shopify://shop_images/InkkasHomepage-May2026-secondarybanner-mobile.webp",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
         }
       },
       "block_order": [
+        "slide_Yxt9XW",
         "slide_FMwGj7",
+        "slide_gR8cCJ",
         "slide_yEAkC7",
-        "slide_imFCda"
+        "slide_cFdncj",
+        "slide_imFCda",
+        "slide_wwDYtk",
+        "slide_xmXPRC"
       ],
+      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "desktop_height": "desktop-height-image",
@@ -233,12 +430,22 @@
         "disable_bottom_spacing": true
       }
     },
+    "spacer_nhn7fD": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 15,
+        "spacer_desktop": 30,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
     "featured_collection_KpRGkz": {
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
         "heading": "Bestsellers",
-        "heading_left": false,
+        "heading_left": true,
         "description": "<p><em>Bold, joyful artistry meets handcrafted comfort.</em></p>",
         "full_width": true,
         "collection": "best-sellers",
@@ -248,43 +455,329 @@
         "show_view_all": true,
         "mobile_swipe": true,
         "show_progress_bar": true,
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     },
-    "rich_text_XFeHRp": {
+    "featured_collection_d6J7aT": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "heading": "New Arrivals",
+        "heading_left": true,
+        "description": "<p><em>Make it bold, colorful & feeling good from the ground up.</em></p>",
+        "full_width": true,
+        "collection": "new-arrivals",
+        "display_type": "carousel",
+        "product_limit": 12,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_TPQApM": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/Final_-_Inkkas_Brand_Icons_-_Top_of_Homepage_-_5.29.26_2.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_ba8NeN": {
       "type": "rich-text",
       "blocks": {
-        "subheading_gkQqQq": {
+        "subheading_wzxUdV": {
           "type": "subheading",
           "settings": {
-            "text": "OVER 10,000 5-STAR REVIEWS"
-          }
-        },
-        "text_iKRTVp": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<h3><strong>\"The most interesting shoes in my closet.\"</strong></h3>",
-            "custom_liquid": "",
-            "size": "text-size-large"
+            "text": "as seen in"
           }
         }
       },
       "block_order": [
-        "subheading_gkQqQq",
-        "text_iKRTVp"
+        "subheading_wzxUdV"
       ],
-      "name": "Rich text",
       "settings": {
-        "section_width": "full-width-row-full",
-        "text_width": "xlarge",
+        "section_width": "grid",
+        "text_width": "grid",
         "text_position": "center",
         "text_alignment": "center",
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "scrolling_text_CXQtRH": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_TUqR43": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/logoELLE.png",
+            "text": "",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_AjXrd4": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/logo5update.png",
+            "text": "",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_PhCpDF": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/logoGLAMOUR_43a9bbff-3be5-46d8-aeff-f4e990da8681.png",
+            "text": "",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_abCPWg": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/logoPEOPLE_ca9d198d-a31f-49b8-a157-724d0d969a17.png",
+            "text": "",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_MpD46i": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/logoWAPOST.png",
+            "text": "",
+            "link": "",
+            "outline_text": false
+          }
+        },
+        "text_6gw9k6": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/logoNORDSTROM.png",
+            "text": "",
+            "link": "",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_TUqR43",
+        "text_AjXrd4",
+        "text_PhCpDF",
+        "text_abCPWg",
+        "text_MpD46i",
+        "text_6gw9k6"
+      ],
+      "custom_css": [],
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "text_size": 16,
+        "text_uppercase": true,
+        "image_size": "small",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_HemHeh": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "spacer_GdTKb7": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "gallery_UP44r6": {
+      "type": "gallery",
+      "blocks": {
+        "image_tjkq6C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_35.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/best-sellers",
+            "product_list": []
+          }
+        },
+        "image_VjNTXk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Inkkas_Homepage_-_May_2026-summer_dreams-mobile.webp",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/new-arrivals",
+            "product_list": []
+          }
+        },
+        "image_GceA3t": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_33.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/womens-collection-all-shoes",
+            "product_list": []
+          }
+        },
+        "image_8F3gtt": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_28.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/mens-shoes",
+            "product_list": []
+          }
+        },
+        "image_DtnGgT": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_24.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/mens-shoes",
+            "product_list": []
+          }
+        },
+        "image_RViynC": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_6446abd3-5d78-495d-b81d-ad94bfd073b1.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://products/rana-trekk-boot",
+            "product_list": []
+          }
+        },
+        "image_8tbDWh": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/InkkasHomepage-May2026-secondarybanner-mobile.webp",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/new-arrivals",
+            "product_list": []
+          }
+        },
+        "image_RpiPwg": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_2_7ada0e73-e2c6-46cb-aada-37f3adb84d24.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://products/rana-trekk-boot",
+            "product_list": []
+          }
+        },
+        "image_VFqR67": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Inkkas_Mobile_Size_Homepage_-_May_2026_1.gif",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/mens-shoes",
+            "product_list": []
+          }
+        }
+      },
+      "block_order": [
+        "image_tjkq6C",
+        "image_VjNTXk",
+        "image_GceA3t",
+        "image_8F3gtt",
+        "image_DtnGgT",
+        "image_RViynC",
+        "image_8tbDWh",
+        "image_RpiPwg",
+        "image_VFqR67"
+      ],
+      "name": "Gallery",
+      "settings": {
+        "slider": false,
+        "columns_desktop": 2,
+        "section_width": "full-width-row-full",
+        "mobile_swipe": true,
+        "image_ratio": "adapt",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "column_spacing": "none",
+        "heading_size": "h1",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
@@ -339,340 +832,6 @@
         "autoplay_length": 5,
         "color_bg": "#ffffff",
         "color_text": "#151515",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
-    "gallery_UP44r6": {
-      "type": "gallery",
-      "blocks": {
-        "image_8tbDWh": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/InkkasHomepage-May2026-secondarybanner-mobile.webp",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/new-arrivals",
-            "product_list": []
-          }
-        },
-        "image_RViynC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_6446abd3-5d78-495d-b81d-ad94bfd073b1.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://products/rana-trekk-boot",
-            "product_list": []
-          }
-        },
-        "image_RpiPwg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_2_7ada0e73-e2c6-46cb-aada-37f3adb84d24.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://products/rana-trekk-boot",
-            "product_list": []
-          }
-        },
-        "image_GceA3t": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_23.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/womens-collection-all-shoes",
-            "product_list": []
-          }
-        },
-        "image_8F3gtt": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_24.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/mens-shoes",
-            "product_list": []
-          }
-        },
-        "image_VFqR67": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Inkkas_Mobile_Size_Homepage_-_May_2026_1.gif",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/mens-shoes",
-            "product_list": []
-          }
-        }
-      },
-      "block_order": [
-        "image_8tbDWh",
-        "image_RViynC",
-        "image_RpiPwg",
-        "image_GceA3t",
-        "image_8F3gtt",
-        "image_VFqR67"
-      ],
-      "disabled": true,
-      "name": "Gallery",
-      "settings": {
-        "slider": false,
-        "columns_desktop": 2,
-        "section_width": "full-width-row-full",
-        "mobile_swipe": true,
-        "image_ratio": "adapt",
-        "content_position": "bottom-center",
-        "text_alignment": "center",
-        "column_spacing": "none",
-        "heading_size": "h1",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "slideshow_CQXNHG": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_jNBMkb": {
-          "type": "slide",
-          "name": "Moxie: Mexico",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Moxie_SS26_Collection_Banner3-Desktop.jpg",
-            "mobile_image": "shopify://shop_images/Moxie_SS26_Collection_Banner3-Mobile.jpg",
-            "slide_link": "shopify://collections/new-arrivals",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_A7GEVn": {
-          "type": "slide",
-          "name": "Moxie: Mexico",
-          "settings": {
-            "image": "shopify://shop_images/Inkkas_Homepage_-_May_2026-summer_dreams-desktop.jpg",
-            "mobile_image": "shopify://shop_images/Inkkas_Homepage_-_May_2026-summer_dreams-mobile.webp",
-            "slide_link": "shopify://collections/new-arrivals",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_kH8mc4": {
-          "type": "slide",
-          "name": "Dreams Do Come True (Moxie)",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/InkkasHomepage-May2026-secondarybanner-desktop.webp",
-            "mobile_image": "shopify://shop_images/InkkasHomepage-May2026-secondarybanner-mobile.webp",
-            "slide_link": "shopify://collections/new-arrivals",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_e7ViL7": {
-          "type": "slide",
-          "name": "Moxie: Mexico",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2025.png",
-            "mobile_image": "shopify://shop_images/Inkkas_Mobile_Size_Homepage_-_May_2026_Gallery_Sizing.gif",
-            "slide_link": "shopify://collections/new-arrivals",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_AXkbMV": {
-          "type": "slide",
-          "name": "Moxie: GIF",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/MoxieSS26CollectionBanner1.2-Desktop-converter.webp",
-            "mobile_image": "shopify://shop_images/MoxieSS26CollectionBanner1-Mobile-converter.webp",
-            "slide_link": "shopify://collections/new-arrivals",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1-xlarge",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        },
-        "slide_C3eUEf": {
-          "type": "slide",
-          "name": "original review banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/OLD-5-StarsBanner-DESKTOP-converter.webp",
-            "mobile_image": "shopify://shop_images/OLD-5-StarsBanner-MOBILE-converter.webp",
-            "slide_link": "shopify://collections/best-sellers",
-            "video_background": false,
-            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h2",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "left",
-            "content_size": "large",
-            "overlay_color": "rgba(0,0,0,0)",
-            "overlay_opacity": 0,
-            "overlay_gradient": "transparent",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_outline": false,
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_outline": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_jNBMkb",
-        "slide_A7GEVn",
-        "slide_kH8mc4",
-        "slide_e7ViL7",
-        "slide_AXkbMV",
-        "slide_C3eUEf"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "desktop_height": "desktop-height-image",
-        "mobile_height": "mobile-height-image",
-        "full_width": true,
-        "autoplay": true,
-        "autoplay_length": 6,
-        "transition": "swipe",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "featured_collection_d6J7aT": {
-      "type": "featured-collection",
-      "name": "Featured collection",
-      "settings": {
-        "heading": "Shop New Arrivals",
-        "heading_left": false,
-        "description": "<p><em>Explore our latest drop for Summer '26</em></p>",
-        "full_width": true,
-        "collection": "new-arrivals",
-        "display_type": "carousel",
-        "product_limit": 12,
-        "columns_desktop": 4,
-        "show_view_all": true,
-        "mobile_swipe": true,
-        "show_progress_bar": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -701,7 +860,7 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#151515",
         "color_links": "#151515",
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
@@ -863,120 +1022,12 @@
         "disable_bottom_spacing": false
       }
     },
-    "rich_text_ba8NeN": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_wzxUdV": {
-          "type": "subheading",
-          "settings": {
-            "text": "as seen in"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_wzxUdV"
-      ],
-      "settings": {
-        "section_width": "grid",
-        "text_width": "grid",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "scrolling_text_CXQtRH": {
-      "type": "scrolling-text",
-      "blocks": {
-        "text_TUqR43": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoELLE.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_AjXrd4": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logo5update.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_PhCpDF": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoGLAMOUR_43a9bbff-3be5-46d8-aeff-f4e990da8681.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_abCPWg": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoPEOPLE_ca9d198d-a31f-49b8-a157-724d0d969a17.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_MpD46i": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoWAPOST.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_6gw9k6": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoNORDSTROM.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        }
-      },
-      "block_order": [
-        "text_TUqR43",
-        "text_AjXrd4",
-        "text_PhCpDF",
-        "text_abCPWg",
-        "text_MpD46i",
-        "text_6gw9k6"
-      ],
-      "custom_css": [],
-      "settings": {
-        "height": "height-auto",
-        "full_width": true,
-        "direction": "left",
-        "speed": "20s",
-        "text_size": 16,
-        "text_uppercase": true,
-        "image_size": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
     "spacer_bF66Ng": {
       "type": "spacer",
       "name": "Spacer",
       "settings": {
         "spacer_mobile": 35,
-        "spacer_desktop": 55,
+        "spacer_desktop": 0,
         "border_separator": true,
         "border_separator_full": false
       }
@@ -997,13 +1048,13 @@
       ],
       "settings": {}
     },
-    "spacer_WpXUzT": {
+    "spacer_WmWKiM": {
       "type": "spacer",
       "name": "Spacer",
       "settings": {
-        "spacer_mobile": 55,
-        "spacer_desktop": 55,
-        "border_separator": true,
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
         "border_separator_full": false
       }
     },
@@ -1064,17 +1115,6 @@
         "disable_bottom_spacing": true
       }
     },
-    "spacer_aypkkb": {
-      "type": "spacer",
-      "disabled": true,
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 55,
-        "spacer_desktop": 55,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
     "rich_text_t6kx3j": {
       "type": "rich-text",
       "blocks": {
@@ -1087,6 +1127,7 @@
         },
         "subheading_d7ByrG": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "10,000+ Reviews Rated 'Excellent' 4.8 out of 5"
           }
@@ -1144,7 +1185,7 @@
       ],
       "settings": {}
     },
-    "spacer_B33TGf": {
+    "spacer_HRnN6a": {
       "type": "spacer",
       "name": "Spacer",
       "settings": {
@@ -1154,21 +1195,19 @@
         "border_separator_full": false
       }
     },
+    "single_image_Dqxpzi": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/Final_-_Inkkas_Brand_Icons_-_Bottom_of_Homepage_-_5.29.26_3.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "multicolumn_TW977r": {
       "type": "multicolumn",
       "blocks": {
-        "column_mwd9nj": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
-            "image_full_width": true,
-            "retina": true,
-            "title": "Good for the Sole",
-            "text": "<p>Since 2012, we’ve been designing shoes that don’t follow the crowd—because neither do you. Every design starts with original art <em><strong>inked</strong></em> by independent artists, inspired by nature around the world, crafted with bold colors and details you won’t find anywhere else. </p>",
-            "link_label": "About Inkkas",
-            "link": "shopify://pages/about"
-          }
-        },
         "column_XnYGQ9": {
           "type": "column",
           "settings": {
@@ -1179,6 +1218,18 @@
             "text": "<p>More than just a pair of shoes, we build experiences—for your feet and your soul. With artful designs and premium materials that are cushioned, lightweight, and mold to your movement, our shoes are made to move with you wherever the day takes you.</p>",
             "link_label": "Check Out The Blog",
             "link": "shopify://blogs/blog"
+          }
+        },
+        "column_mwd9nj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Good for the Sole",
+            "text": "<p>Since 2012, we’ve been designing shoes that don’t follow the crowd—because neither do you. Every design starts with original art <em><strong>inked</strong></em> by independent artists, inspired by nature around the world, crafted with bold colors and details you won’t find anywhere else. </p>",
+            "link_label": "About Inkkas",
+            "link": "shopify://pages/about"
           }
         },
         "column_f6TFFJ": {
@@ -1195,13 +1246,13 @@
         }
       },
       "block_order": [
-        "column_mwd9nj",
         "column_XnYGQ9",
+        "column_mwd9nj",
         "column_f6TFFJ"
       ],
       "name": "Multicolumn",
       "settings": {
-        "heading": "WHY INKKAS",
+        "heading": "",
         "heading_left": false,
         "description": "<h3>Handcrafted. Independent. One-of-a-kind.</h3>",
         "full_width": false,
@@ -1214,68 +1265,6 @@
         "show_progress_bar": false,
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
-      }
-    },
-    "collection_tabs_XaFwAj": {
-      "type": "collection-tabs",
-      "blocks": {
-        "collection_qcdbdF": {
-          "type": "collection",
-          "settings": {
-            "collection": "womens-collection-all-shoes"
-          }
-        },
-        "collection_UUWFVM": {
-          "type": "collection",
-          "settings": {
-            "collection": "mens-shoes"
-          }
-        }
-      },
-      "block_order": [
-        "collection_qcdbdF",
-        "collection_UUWFVM"
-      ],
-      "disabled": true,
-      "name": "Collection tabs",
-      "settings": {
-        "heading": "Shop by Size",
-        "heading_left": false,
-        "description": "",
-        "full_width": false,
-        "product_limit": 16,
-        "columns_desktop": 4,
-        "show_view_all": false,
-        "show_progress_bar": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "rich_text_DnVqLi": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_7eRd3N": {
-          "type": "heading",
-          "settings": {
-            "text": "Find Your Style",
-            "size": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "heading_7eRd3N"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_width": "grid",
-        "text_width": "large",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
       }
     },
     "featured_collection_list_MbNpKJ": {
@@ -1357,27 +1346,27 @@
   "order": [
     "gallery_dJpr7W",
     "slideshow_xjXNNN",
+    "spacer_nhn7fD",
     "featured_collection_KpRGkz",
-    "rich_text_XFeHRp",
-    "testimonials_zhUtgi",
-    "gallery_UP44r6",
-    "slideshow_CQXNHG",
     "featured_collection_d6J7aT",
-    "rich_text_mdRPdC",
-    "gallery_LmMtMY",
+    "spacer_GdTKb7",
+    "single_image_TPQApM",
     "rich_text_ba8NeN",
     "scrolling_text_CXQtRH",
+    "spacer_HemHeh",
+    "gallery_UP44r6",
+    "testimonials_zhUtgi",
+    "rich_text_mdRPdC",
+    "gallery_LmMtMY",
     "spacer_bF66Ng",
     "1759887391a1859dfc",
-    "spacer_WpXUzT",
+    "spacer_WmWKiM",
     "image_with_text_MrXTBh",
-    "spacer_aypkkb",
     "rich_text_t6kx3j",
     "1759579239f64a0794",
-    "spacer_B33TGf",
+    "spacer_HRnN6a",
+    "single_image_Dqxpzi",
     "multicolumn_TW977r",
-    "collection_tabs_XaFwAj",
-    "rich_text_DnVqLi",
     "featured_collection_list_MbNpKJ"
   ]
 }

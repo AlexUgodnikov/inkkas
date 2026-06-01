@@ -22,7 +22,7 @@
     "color_accent": "#151515",
     "color_border": "#dedede",
     "color_announcement_bar_text": "#151515",
-    "color_announcement_bar_bg": "#fff282",
+    "color_announcement_bar_bg": "#f5f3ef",
     "color_header_bg": "#ffffff",
     "color_header_text": "#151515",
     "color_header_links": "#151515",
@@ -168,22 +168,20 @@
     "recommends_title": "More Bestsellers to Love",
     "draawer_recommends": [
       "nikwax-fabric-leather-proof-spray",
-      "nikwax-fabric-leather-proof-duo-pack-spray-2-x-125ml",
       "prism-mosaic-bangle",
       "luzon-tennis",
       "brown-leather-camping-boot",
-      "mohave-slip-on",
-      "cyprus-ace-low-top"
+      "blackbird-buckle-sandal"
     ],
     "drawer_slider_off": true,
     "drawer_recommends_autoplay": false,
-    "drawer_announ_autoplay": true,
+    "drawer_announ_autoplay": false,
     "drawer_announ_autoplay_length": 3,
-    "slide_text_1": "FREE RETURNS & EXCHANGES",
+    "slide_text_1": "HELLO JUNE: USE CODE SUMMER20 FOR 20% OFF AT CHECKOUT",
     "slide_icon_1": "shopify://shop_images/BLANK-CANVAS-ACE-LOW-TOP-SA240220-3_410e2a41-bc2e-4b15-a46b-d2efdfaac2fb.jpg",
-    "slide_bg_1": "#151515",
-    "slide_color_1": "#ffffff",
-    "slide_text_2": "OVER 10,000 5-STAR REVIEWS",
+    "slide_bg_1": "#ffec8e",
+    "slide_color_1": "#151515",
+    "slide_text_2": "OVER 10,000 ★★★★★ REVIEWS",
     "slide_bg_2": "#151515",
     "slide_color_2": "#ffffff",
     "slide_text_3": "FREE SHIPPING ON US ORDERS $150+",
@@ -401,11 +399,6 @@
         "disabled": false,
         "settings": {}
       },
-      "8857984110089213392": {
-        "type": "shopify://apps/hextom-sales-boost/blocks/usb-embeded-block/00e81c42-8ae7-4b0b-b43d-99393b885fc4",
-        "disabled": true,
-        "settings": {}
-      },
       "2567389343055140935": {
         "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
         "disabled": false,
@@ -430,6 +423,11 @@
           "store_checkout_button": "#checkout-button",
           "custom_css": ""
         }
+      },
+      "8857984110089213392": {
+        "type": "shopify://apps/hextom-sales-boost/blocks/usb-embeded-block/00e81c42-8ae7-4b0b-b43d-99393b885fc4",
+        "disabled": true,
+        "settings": {}
       }
     }
   },

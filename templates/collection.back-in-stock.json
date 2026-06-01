@@ -21,48 +21,79 @@
         "overlay_opacity": 0
       }
     },
-    "image_with_text_overlay_dbFb4r": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_BGMCpq": {
-          "type": "subheading",
-          "settings": {
-            "text": "not for standing still"
-          }
-        },
-        "heading_AGXXwC": {
-          "type": "heading",
-          "settings": {
-            "text": "Made for Everyday Movement",
-            "heading_size": "h1-large"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_BGMCpq",
-        "heading_AGXXwC"
-      ],
-      "name": "Image with text overlay",
-      "settings": {
-        "section_width": "full-width-row-full",
-        "image": "shopify://shop_images/RANA-SLIP-ON-SS260307-HOLD-HORIZONTAL-EPI_7922-ezgif.com-jpg-to-webp-converter.webp",
-        "mobile_image": "shopify://shop_images/RANA-TRAINER-SS260612-MODEL-HORIZONTAL-EPI_9806_bff19aa2-f515-40f0-996b-eb680f0aabfe.jpg",
-        "image_parallax": false,
-        "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-500",
-        "content_width": "small",
-        "content_position": "middle-left",
-        "text_alignment": "left",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
     "collection_filters_button_777d3Q": {
       "type": "collection-filters-button",
       "disabled": true,
       "name": "Filters chips",
       "settings": {}
+    },
+    "gallery_Ciw3xK": {
+      "type": "gallery",
+      "blocks": {
+        "image_iYMzrf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Inkkas_Homepage_-_May_2026-back_in_stock-mobile1-1.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://products/rana-trekk-boot",
+            "product_list": []
+          }
+        },
+        "image_y8HFyG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Inkkas_Homepage_-_May_2026-back_in_stock-mobile1-3.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://products/agave-slip-on",
+            "product_list": []
+          }
+        },
+        "image_geEqQ3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_2_a94fe98c-a498-411a-b8f7-6a01420964b2.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://products/blackbird-buckle-sandal-ultra-comfort",
+            "product_list": []
+          }
+        }
+      },
+      "block_order": [
+        "image_iYMzrf",
+        "image_y8HFyG",
+        "image_geEqQ3"
+      ],
+      "name": "Gallery",
+      "settings": {
+        "slider": false,
+        "columns_desktop": 3,
+        "section_width": "full-width-row-full",
+        "mobile_swipe": true,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "none",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
     },
     "spacer_dce9gn": {
       "type": "spacer",
@@ -78,13 +109,13 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "heading": "Creative Living",
+        "heading": "Restocked & Ready to Ship",
         "heading_left": true,
-        "description": "<p><em>The pairs you live in. Move in. Travel in. Create in.</em></p><p><strong>Start Here </strong>↓</p>",
+        "description": "<p><em>Small batch collections means pairs sell quickly. Lucky for you, these pairs are currently back in-stock (for now). </em></p><p><strong>JUST ARRIVED + SELLING FAST</strong>↓</p>",
         "full_width": true,
-        "collection": "creative-living-copy",
+        "collection": "back-in-stock-ready-to-ship-copy",
         "display_type": "carousel",
-        "product_limit": 4,
+        "product_limit": 3,
         "columns_desktop": 3,
         "show_view_all": false,
         "mobile_swipe": true,
@@ -101,6 +132,44 @@
         "spacer_desktop": 55,
         "border_separator": true,
         "border_separator_full": true
+      }
+    },
+    "spacer_Mh3i7A": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "rich_text_wBQkNX": {
+      "type": "rich-text",
+      "blocks": {
+        "text_8an9R9": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>All Back in Stock</strong></h2>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_8an9R9"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "large",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "transparent",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "product-grid": {
@@ -1192,11 +1261,13 @@
   },
   "order": [
     "main-collection-banner",
-    "image_with_text_overlay_dbFb4r",
     "collection_filters_button_777d3Q",
+    "gallery_Ciw3xK",
     "spacer_dce9gn",
     "featured_collection_GjiCFi",
     "spacer_DmtN9q",
+    "spacer_Mh3i7A",
+    "rich_text_wBQkNX",
     "product-grid",
     "spacer_HDe43e",
     "featured_collection_6RbLfp",
