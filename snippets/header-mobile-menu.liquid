@@ -31,6 +31,18 @@
                 assign menu_badge_index = forloop.index0
               endif
             endfor
+
+             assign link_in_icons = false
+        assign link_title_lower = link.title | downcase | replace: '&amp;', '&'
+        if items_icons != blank
+          assign icons_parents = items_icons | split: ','
+          for icon_parent in icons_parents
+            assign stripped_parent = icon_parent | strip | downcase | replace: '&amp;', '&'
+            if link_title_lower == stripped_parent
+              assign link_in_icons = true
+            endif
+          endfor
+        endif
           -%}
           <li>
             {%- if has_sub_menu == true or has_mega_menu == true -%}
@@ -57,8 +69,10 @@
                     -%}
                     <li>
                       {%- if has_sub_menu -%}
+                     
                         <details class="link-container">
                           <summary class="{% if link.title == 'WOMENS' or link.title == 'MENS' %}summary-women{% endif %}">
+                          
 
                             {%- if link.title == 'WOMENS' -%}
                                 {%- assign collection_handle = l.url | replace: '/collections/', '' -%}
@@ -86,7 +100,7 @@
                                 {{ l.title -}}
                                 <span>{%- render 'svg-icons' with 'thb-mobile-menu-forward' -%}</span>
                             {%- endif -%}
-                            
+                          
                             
                           </summary>
                           <ul class="sub-menu" tabindex="-1">
@@ -112,6 +126,26 @@
                           </ul>
                         </details>
                       {%- else -%}
+                       {%- if items_icons != blank -%}
+ 
+                    {%- if link_in_icons -%}
+                    
+                      {%- assign collection_handle = l.url | replace: '/collections/', '' -%}
+                      {%- assign collection_obj = collections[collection_handle] -%}
+                    <a href="{{ l.url }}" title="{{ l.title | escape }}" class="mobile-link-caps">
+                            <span>{{ l.title }}</span>
+                            {%- if collection_obj.metafields.custom.menu_image != blank -%}
+                              <img
+                                src="{{ collection_obj.metafields.custom.menu_image | image_url }}"
+                                alt="{{ l.title }}"
+                              >
+                            {%- endif -%}
+                          </a>
+                    {%- else -%}
+                      {{- l.title -}}
+                      {%- if has_sub_menu -%}{%- render 'svg-icons' with 'thb-dropdown-right' -%}{%- endif -%}
+                    {%- endif -%}
+                  {%- else -%}
                         {%- if link.title == 'WOMENS' -%}
                           {%- assign collection_handle = l.url | replace: '/collections/', '' -%}
                           {%- assign collection_obj = collections[collection_handle] -%}
@@ -143,6 +177,7 @@
                           <a href="{{ l.url }}" title="{{ l.title | escape }}">{{ l.title }}</a>
                         {%- endif -%}
                       {%- endif -%}
+                       {%- endif -%}
                     </li>
                   {%- endfor -%}
 

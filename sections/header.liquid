@@ -15,7 +15,7 @@
 		<div class="small-12 columns">
 			{%- case style -%}
 			{%- when 'style1' -%}
-				{% render 'header-style1', blocks: section.blocks, header_settings: section.settings %}
+				{% render 'header-style1', blocks: section.blocks, iconsitems: section.settings.items_icons, header_settings: section.settings %}
 			{%- when 'style2' -%}
 				{% render 'header-style2', blocks: section.blocks, header_settings: section.settings %}
 			{%- when 'style3' -%}
@@ -87,6 +87,11 @@
 			"id": "sticky_header",
 			"label": "Enable sticky header",
 			"default": true
+		},
+			{
+			"type": "html",
+			"id": "items_icons",
+			"label": "Items icons"
 		},
 		{
 			"type": "image_picker",
