@@ -26,21 +26,6 @@
             "product_list": []
           }
         },
-        "image_gRfqgf": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/InkkasHomepage-May2026-mobile_3_slides-canva.webp",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/womens-collection-all-shoes",
-            "product_list": []
-          }
-        },
         "image_P3dyTX": {
           "type": "image",
           "settings": {
@@ -67,6 +52,21 @@
             "link": "",
             "use_text_button": false,
             "block_link": "shopify://collections/mens-shoes",
+            "product_list": []
+          }
+        },
+        "image_VyDUqh": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_34.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/new-arrivals",
             "product_list": []
           }
         },
@@ -100,6 +100,21 @@
             "product_list": []
           }
         },
+        "image_8WtNRX": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_31.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/best-sellers",
+            "product_list": []
+          }
+        },
         "image_KwBFgd": {
           "type": "image",
           "disabled": true,
@@ -114,16 +129,33 @@
             "block_link": "shopify://collections/womens-collection-all-shoes",
             "product_list": []
           }
+        },
+        "image_P3tbnx": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_6446abd3-5d78-495d-b81d-ad94bfd073b1.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://products/rana-trekk-boot",
+            "product_list": []
+          }
         }
       },
       "block_order": [
         "image_nJgd6H",
-        "image_gRfqgf",
         "image_P3dyTX",
         "image_mQDJ6L",
+        "image_VyDUqh",
         "image_z69wQ3",
         "image_emmzx8",
-        "image_KwBFgd"
+        "image_8WtNRX",
+        "image_KwBFgd",
+        "image_P3tbnx"
       ],
       "name": "Gallery",
       "settings": {
@@ -446,16 +478,6 @@
         "disable_bottom_spacing": true
       }
     },
-    "spacer_GdTKb7": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 20,
-        "spacer_desktop": 40,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
     "single_image_TPQApM": {
       "type": "single-image",
       "name": "Single image",
@@ -575,6 +597,16 @@
       }
     },
     "spacer_HemHeh": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "spacer_GdTKb7": {
       "type": "spacer",
       "name": "Spacer",
       "settings": {
