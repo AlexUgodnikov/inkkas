@@ -1631,12 +1631,19 @@ a.mobile-link-caps {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
-
+a.mobile-link-caps:not(.no-image) {
+  padding: 0;
+}
+a.mobile-link-caps.no-image {
+  padding:12px 0;
+}
 a.mobile-link-caps img {
-  max-width: 60px;
-  height: auto;
+max-width: 50px;
+    height: auto;
+    height: 50px;
+    object-fit: contain;
 }
 
 #mobile-menu .mobile-menu>li>details>summary,
@@ -2812,4 +2819,4 @@ body.open-cart{
 }
 .thb-full-menu .sub-menu li a img{
   max-width: 50px;
-}
+} 

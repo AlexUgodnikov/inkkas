@@ -132,7 +132,11 @@
                     
                       {%- assign collection_handle = l.url | replace: '/collections/', '' -%}
                       {%- assign collection_obj = collections[collection_handle] -%}
-                    <a href="{{ l.url }}" title="{{ l.title | escape }}" class="mobile-link-caps">
+                    <a href="{{ l.url }}" title="{{ l.title | escape }}" class=" 
+                      {%- if collection_obj.metafields.custom.menu_image == blank -%} no-image{% endif %}
+                    
+                        mobile-link-caps
+                      ">
                             <span>{{ l.title }}</span>
                             {%- if collection_obj.metafields.custom.menu_image != blank -%}
                               <img
