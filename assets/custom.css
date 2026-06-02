@@ -1631,7 +1631,7 @@ a.mobile-link-caps {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 a.mobile-link-caps:not(.no-image) {
   padding: 0;
@@ -1648,7 +1648,7 @@ max-width: 50px;
 
 #mobile-menu .mobile-menu>li>details>summary,
 #mobile-menu .mobile-menu>li>a {
-  font-size: 18px;
+  font-size: 21px;
   padding: 15px 0;
   font-style: normal;
   font-weight: 400;
@@ -1658,7 +1658,7 @@ max-width: 50px;
 #mobile-menu .mobile-menu .sub-menu>li button,
 #mobile-menu .mobile-menu .sub-menu>li a,
 #mobile-menu .mobile-menu .sub-menu>li>details>summary {
-  font-size: 18px;
+  font-size: 21px;
   line-height: 180%;
 
 }
