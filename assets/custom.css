@@ -1633,15 +1633,22 @@ a.mobile-link-caps {
   justify-content: space-between;
   text-transform: uppercase;
 }
-
+a.mobile-link-caps:not(.no-image) {
+  padding: 0;
+}
+a.mobile-link-caps.no-image {
+  padding:12px 0;
+}
 a.mobile-link-caps img {
-  max-width: 60px;
-  height: auto;
+max-width: 50px;
+    height: auto;
+    height: 50px;
+    object-fit: contain;
 }
 
 #mobile-menu .mobile-menu>li>details>summary,
 #mobile-menu .mobile-menu>li>a {
-  font-size: 21px;
+  font-size: 18px;
   padding: 15px 0;
   font-style: normal;
   font-weight: 400;
@@ -1651,7 +1658,7 @@ a.mobile-link-caps img {
 #mobile-menu .mobile-menu .sub-menu>li button,
 #mobile-menu .mobile-menu .sub-menu>li a,
 #mobile-menu .mobile-menu .sub-menu>li>details>summary {
-  font-size: 21px;
+  font-size: 18px;
   line-height: 180%;
 
 }
@@ -2812,4 +2819,4 @@ body.open-cart{
 }
 .thb-full-menu .sub-menu li a img{
   max-width: 50px;
-}
+} 
