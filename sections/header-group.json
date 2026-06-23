@@ -16,8 +16,9 @@
       "blocks": {
         "essential_announcer_app_block_RJCMgH": {
           "type": "shopify://apps/essential-announcer/blocks/app-block/93b5429f-c8d6-4c33-ae14-250fd84f361b",
+          "disabled": true,
           "settings": {
-            "id": "a450ffd0-e8d5-44be-9494-8fb5720145f4"
+            "id": "e62726de-e1d3-443f-9328-be036c4ce9fb"
           }
         },
         "essential_countdown_timer_app_block_cX6m8L": {
@@ -36,45 +37,57 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "text_XLX6VA": {
+        "text_CmerAE": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "icon": "none",
-            "text": "Enjoy 20% OFF Your Shoes Today ☀️ Use code: SUMMER20",
-            "link": "shopify://collections/best-sellers"
+            "text": "FREE SHIPPING ON ALL U.S. ORDERS $120+",
+            "link": "shopify://pages/shipping"
           }
         },
         "text_xhDUtd": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "icon": "return",
+            "icon": "none",
             "text": "FREE RETURNS & EXCHANGES",
             "link": "shopify://pages/return-policy"
           }
         },
+        "text_DByWNV": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "SUMMER ADVENTURES THIS WAY →",
+            "link": "shopify://collections/moxie-collection"
+          }
+        },
+        "text_rak9aA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "ORDER BY 6/14 FOR FATHER'S DAY DELIVERY",
+            "link": "shopify://collections/gift-guide-mens"
+          }
+        },
         "text_UjATph": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "star",
             "text": "JOIN INKPASS® TO UNLOCK FREE U.S. SHIPPING (NO MINIMUM)",
             "link": "shopify://pages/inkkas-rewards"
           }
-        },
-        "text_CmerAE": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "FREE SHIPPING ON ALL U.S. ORDERS $150+",
-            "link": "shopify://pages/shipping"
-          }
         }
       },
       "block_order": [
-        "text_XLX6VA",
+        "text_CmerAE",
         "text_xhDUtd",
-        "text_UjATph",
-        "text_CmerAE"
+        "text_DByWNV",
+        "text_rak9aA",
+        "text_UjATph"
       ],
       "settings": {
         "announcement_bar": true,

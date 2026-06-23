@@ -16,7 +16,15 @@
 		<div class="side-panel-content">
 			{%- if cart != empty -%}
 				<div class="product-cart-item--container">
-					
+
+					{%- comment -%} Intelligems free shipping threshold test — progress bar rendered by Intelligems JS {%- endcomment -%}
+					<ig-progress-bar></ig-progress-bar>
+
+					{%- comment -%}
+						Native free shipping bar commented out for the Intelligems shipping-threshold test
+						to avoid showing two competing progress bars. Restore the block below to revert.
+						{%- endcomment -%}
+
 					{%- if free_shipping and settings.free_shipping_minimum != blank -%}
 						<aside class="free-shipping" data-cart-total="{{ total }}" data-minimum="{{ free_shipping_minimum }}">
 							<div class="free-shipping--text">
@@ -32,6 +40,7 @@
 							</div>
 						</aside>
 					{%- endif -%}
+					
 
 						{% assign cartItemsId = '' %}
 					{% for item in cart.items %}
@@ -252,23 +261,9 @@
 									{% if item.discount_allocations.size > 0 %}
 	
 	
-										{% assign dsciall = 0 %}
-										{% for allocation in item.discount_allocations %}
-										
-											{%  assign dsciall = allocation.amount %}
-										{% endfor %}
-
-				
 											<span class="price">
-												
-												<ins><span class="amount amount-sale">
-													{{ item.final_price | minus: dsciall | money }}
-												</span></ins>
-												<del><span class="amount"><div class="pn-total-line-item" ">
-													{{ item.final_price | money }}
-												</div></span></del>
-												
-												
+												<ins><span class="amount amount-sale">{{ item.final_line_price | money }}</span></ins>
+												<del><span class="amount">{{ item.original_line_price | money }}</span></del>
 												</span>
 
 										{% else %}

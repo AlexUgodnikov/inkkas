@@ -12,6 +12,21 @@
     "gallery_dJpr7W": {
       "type": "gallery",
       "blocks": {
+        "image_nJgd6H": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_33.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/womens-collection-all-shoes",
+            "product_list": []
+          }
+        },
         "image_gRfqgf": {
           "type": "image",
           "settings": {
@@ -37,66 +52,6 @@
             "link": "",
             "use_text_button": false,
             "block_link": "shopify://collections/mens-shoes",
-            "product_list": []
-          }
-        },
-        "image_FxNmzq": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2026_Rad_Dad_Sale.webp",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/gift-guide-mens",
-            "product_list": []
-          }
-        },
-        "image_nJgd6H": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_33.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/womens-collection-all-shoes",
-            "product_list": []
-          }
-        },
-        "image_KwBFgd": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_23.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/womens-collection-all-shoes",
-            "product_list": []
-          }
-        },
-        "image_rAYUqc": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/InkkasHomepage-May2026-mobile_3_slides-canva.webp",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/womens-collection-all-shoes",
             "product_list": []
           }
         },
@@ -144,20 +99,32 @@
             "block_link": "shopify://collections/new-arrivals",
             "product_list": []
           }
+        },
+        "image_KwBFgd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Mobile_Banner_23.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/womens-collection-all-shoes",
+            "product_list": []
+          }
         }
       },
       "block_order": [
+        "image_nJgd6H",
         "image_gRfqgf",
         "image_P3dyTX",
-        "image_FxNmzq",
-        "image_nJgd6H",
-        "image_KwBFgd",
-        "image_rAYUqc",
         "image_mQDJ6L",
         "image_z69wQ3",
-        "image_emmzx8"
+        "image_emmzx8",
+        "image_KwBFgd"
       ],
-      "disabled": true,
       "name": "Gallery",
       "settings": {
         "slider": false,
@@ -175,159 +142,258 @@
         "disable_bottom_spacing": true
       }
     },
-    "gallery_iKbjEV": {
-      "type": "gallery",
+    "slideshow_xjXNNN": {
+      "type": "slideshow",
       "blocks": {
-        "image_DQqiaB": {
-          "type": "image",
-          "name": "Prime-boots-left",
+        "slide_Yxt9XW": {
+          "type": "slide",
+          "name": "Moxie: Mexico",
           "settings": {
-            "image": "shopify://shop_images/Summer_2026_Prime_Sale-LEFT_SIDE_897d52d6-49bf-476c-80a0-7c3f9ae3d3fa.webp",
+            "image": "shopify://shop_images/Inkkas_Homepage_-_May_2026-summer_dreams-desktop.jpg",
+            "mobile_image": "shopify://shop_images/Inkkas_Homepage_-_May_2026-summer_dreams-mobile.webp",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/all-boots",
-            "product_list": []
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
           }
         },
-        "image_6MXGcq": {
-          "type": "image",
-          "name": "Prime-boots-right",
-          "settings": {
-            "image": "shopify://shop_images/Summer_2026_Prime_Sale-RIGHT_SIDE_bf846f1e-1f39-4379-a3ef-301e6bd13210.gif",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/all-boots",
-            "product_list": []
-          }
-        },
-        "image_gdenzr": {
-          "type": "image",
-          "name": "Prime-Trekk-left",
+        "slide_FMwGj7": {
+          "type": "slide",
+          "name": "Moxie: GIF",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Summer_2026_Prime_Sale-Joya-LEFT_SIDE.jpg",
+            "image": "shopify://shop_images/InkkasHomepage-May2026-desktop.webp",
+            "mobile_image": "shopify://shop_images/InkkasHomepage-May2026-mobile_3_slides-canva.webp",
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/all-boots",
-            "product_list": []
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
           }
         },
-        "image_H7ggjA": {
-          "type": "image",
-          "name": "Prime-Trekk-right",
+        "slide_gR8cCJ": {
+          "type": "slide",
+          "name": "Moxie: GIF",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Summer_2026_Prime_Sale-Joya-RIGHT_SIDE.jpg",
+            "image": "shopify://shop_images/MoxieSS26CollectionBanner1.2-Desktop-converter.webp",
+            "mobile_image": "shopify://shop_images/MoxieSS26CollectionBanner1-Mobile-converter.webp",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/best-sellers",
-            "product_list": []
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
           }
         },
-        "image_VcBfcX": {
-          "type": "image",
-          "name": "4th july-jump-left",
+        "slide_yEAkC7": {
+          "type": "slide",
+          "name": "Moxie: Mexico",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/2026_4th_of_July-jump-left.gif",
+            "image": "shopify://shop_images/Moxie_SS26_Collection_Banner3-Desktop.jpg",
+            "mobile_image": "shopify://shop_images/Moxie_SS26_Collection_Banner3-Mobile.jpg",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/best-sellers",
-            "product_list": []
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
           }
         },
-        "image_kiVTDz": {
-          "type": "image",
-          "name": "4th july-jump-right",
+        "slide_cFdncj": {
+          "type": "slide",
+          "name": "Moxie: Mexico",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/2026_4th_of_July-jump-right.gif",
+            "image": "shopify://shop_images/2025.png",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/best-sellers",
-            "product_list": []
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
           }
         },
-        "image_8eaHhf": {
-          "type": "image",
-          "name": "4th july-left",
+        "slide_imFCda": {
+          "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/4thofJuly-left_5f4d3d9a-0dea-49a7-b73c-a5e048367a95.webp",
+            "image": "shopify://shop_images/MoxieSS26CollectionBanner1.2-Desktop-converter.webp",
+            "mobile_image": "shopify://shop_images/Moxie-SS26-Collection-Banner-MOBILE-test-1.6mb.webp",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/best-sellers",
-            "product_list": []
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
           }
         },
-        "image_CeaQEB": {
-          "type": "image",
-          "name": "4th july-right",
+        "slide_wwDYtk": {
+          "type": "slide",
+          "name": "original review banner",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/4thofJuly-right.webp",
+            "image": "shopify://shop_images/OLD-5-StarsBanner-DESKTOP-converter.webp",
+            "mobile_image": "shopify://shop_images/OLD-5-StarsBanner-MOBILE-converter.webp",
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/best-sellers",
-            "product_list": []
+            "heading": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "left",
+            "content_size": "large",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_xmXPRC": {
+          "type": "slide",
+          "name": "Dreams Do Come True (Moxie)",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/InkkasHomepage-May2026-secondarybanner-desktop.webp",
+            "mobile_image": "shopify://shop_images/InkkasHomepage-May2026-secondarybanner-mobile.webp",
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
           }
         }
       },
       "block_order": [
-        "image_DQqiaB",
-        "image_6MXGcq",
-        "image_gdenzr",
-        "image_H7ggjA",
-        "image_VcBfcX",
-        "image_kiVTDz",
-        "image_8eaHhf",
-        "image_CeaQEB"
+        "slide_Yxt9XW",
+        "slide_FMwGj7",
+        "slide_gR8cCJ",
+        "slide_yEAkC7",
+        "slide_cFdncj",
+        "slide_imFCda",
+        "slide_wwDYtk",
+        "slide_xmXPRC"
       ],
-      "name": "Gallery-test ",
+      "disabled": true,
+      "name": "Slideshow",
       "settings": {
-        "slider": false,
-        "columns_desktop": 2,
-        "section_width": "full-width-row-full",
-        "mobile_swipe": true,
-        "image_ratio": "adapt",
-        "content_position": "bottom-center",
-        "text_alignment": "center",
-        "column_spacing": "none",
-        "heading_size": "h1",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "transition": "swipe",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
@@ -344,26 +410,6 @@
     },
     "featured_collection_KpRGkz": {
       "type": "featured-collection",
-      "name": "Featured collection",
-      "settings": {
-        "heading": "⚡ Flash Boot Sale",
-        "heading_left": true,
-        "description": "<p><em>For 4 days only, save </em><em><strong>$50 on any pair of boots</strong></em><em> with code </em><em><strong>BOOT50</strong></em><em>. </em></p>",
-        "full_width": true,
-        "collection": "all-boots",
-        "display_type": "carousel",
-        "product_limit": 12,
-        "columns_desktop": 4,
-        "show_view_all": true,
-        "mobile_swipe": true,
-        "show_progress_bar": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
-    "featured_collection_zwp4pM": {
-      "type": "featured-collection",
-      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "heading": "Bestsellers",
@@ -1267,10 +1313,9 @@
   },
   "order": [
     "gallery_dJpr7W",
-    "gallery_iKbjEV",
+    "slideshow_xjXNNN",
     "spacer_nhn7fD",
     "featured_collection_KpRGkz",
-    "featured_collection_zwp4pM",
     "featured_collection_d6J7aT",
     "spacer_GdTKb7",
     "single_image_TPQApM",
