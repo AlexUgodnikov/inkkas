@@ -1,0 +1,2628 @@
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+
+<style>
+    body{
+        padding:0;        margin:0;
+    }
+
+  [class*="lp-"],
+  [class*="lp-"] * {
+    font-family: 'Liberation Sans', 'Arimo', Arial, sans-serif !important;
+  }
+  #main-content{
+    overflow: hidden!important;
+  }
+  .post-title,
+  .essential_annoucement_bar_wrapper,
+.shopify-section.shopify-section-group-header-group, 
+.announcement-bar-section, .shopify-section.shopify-section-group-footer-group{
+    display: none!important;
+}
+.small-12.columns{
+  padding:0!important;
+}
+.section-spacing{
+  margin: 0!important;
+}
+.blog-post-deta, .row, .page-content-width, .blog-post-detail{
+  max-width: 100%!important;
+   padding:0!important;
+}
+</style>
+
+<!-- =============================================
+     SECTION 1: Announcement Bar
+     ============================================= -->
+<style>
+  .lp-announcement-bar {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background-color: #131313 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 9px 16px 10px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    overflow-x: hidden !important;
+  }
+
+  .lp-announcement-bar__text {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    line-height: 1.55 !important;
+    letter-spacing: 0.13px !important;
+    margin: 0 !important;
+  }
+
+  .lp-announcement-bar__sep {
+    color: #ffffff !important;
+    margin: 0 6px !important;
+  }
+
+  .lp-announcement-bar__link {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #ffd25a !important;
+    text-decoration: none !important;
+    transition: opacity 0.2s ease !important;
+  }
+
+  .lp-announcement-bar__link:hover {
+    opacity: 0.8 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-announcement-bar {
+      padding: 9px 12px 10px !important;
+    }
+
+    .lp-announcement-bar__text {
+      font-size: 11px !important;
+    }
+
+    .lp-announcement-bar__sep {
+      margin: 0 4px !important;
+    }
+  }
+</style>
+
+<div class="lp-announcement-bar">
+  <p class="lp-announcement-bar__text">Summer Sale: 20% off the Luzon, auto-applied · our #1 sandal sells out every season<span class="lp-announcement-bar__sep">|</span><a class="lp-announcement-bar__link" href="/products/luzon-buckle-sandal">SHOP NOW →</a></p>
+</div>
+
+
+<!-- =============================================
+     SECTION 2: Hero — "Boots that show up."
+     ============================================= -->
+<style>
+  .lp-hero {
+    background-color: #f5f3ef !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .lp-hero__inner {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: stretch !important;
+    width: 100% !important;
+    max-width: 2440px !important;
+  }
+
+  .lp-hero__content {
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    flex: 1 0 0 !important;
+    min-width: 0 !important;
+    padding: 150px 70px !important;
+  }
+
+  .lp-hero__head {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 13px !important;
+    width: 100% !important;
+  }
+
+  .lp-hero__image {
+    flex: 1 0 0 !important;
+    min-width: 0 !important;
+    position: relative !important;
+    overflow: hidden !important;
+  }
+
+  .lp-hero__img {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+    max-width: none !important;
+    pointer-events: none !important;
+  }
+
+  .lp-hero__overline {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 15.5px !important;
+    letter-spacing: 1.55px !important;
+    line-height: 1.55 !important;
+    text-transform: uppercase !important;
+    color: #131313 !important;
+    text-align: left !important;
+    margin: 0 !important;
+  }
+
+  .lp-hero__heading {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 42px !important;
+    line-height: 1.18 !important;
+    letter-spacing: -0.42px !important;
+    color: #131313 !important;
+    text-align: left !important;
+    margin: 0 !important;
+  }
+
+  .lp-hero__subheading {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 1.55 !important;
+    color: #6b6b6b !important;
+    text-align: left !important;
+    max-width: 560px !important;
+    margin: 0 !important;
+  }
+
+  .lp-hero__stats {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 12px !important;
+    width: 100% !important;
+    padding-top: 4px !important;
+  }
+
+  .lp-hero__stat {
+    box-sizing: border-box !important;
+    background-color: #ffffff !important;
+    border: 1px solid #ece4d8 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.03) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2px !important;
+    padding: 12px 17px 13px !important;
+  }
+
+  .lp-hero__stat-value {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 1.35 !important;
+    color: #fe7029 !important;
+  }
+
+  .lp-hero__stat-label {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    letter-spacing: 0.69px !important;
+    line-height: 1.48 !important;
+    text-transform: uppercase !important;
+    color: #131313 !important;
+  }
+
+  .lp-hero__actions {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+    align-items: flex-start !important;
+  }
+
+  .lp-hero__btn {
+    box-sizing: border-box !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 240px !important;
+    max-width: 100% !important;
+    background-color: #ffb715 !important;
+    border-radius: 5px !important;
+    padding: 17.5px 40px !important;
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    color: #131313 !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    transition: filter 0.2s ease !important;
+    cursor: pointer !important;
+  }
+
+  .lp-hero__btn:hover {
+    filter: brightness(0.94) !important;
+  }
+
+  .lp-hero__microcopy {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 1.38 !important;
+    color: #6b6b6b !important;
+    margin: 0 !important;
+  }
+
+  .lp-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #151515 !important;
+    border: 1px solid #151515 !important;
+    border-radius: 5px !important;
+    padding: 16.5px 39px !important;
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    letter-spacing: 0.6px !important;
+    text-transform: uppercase !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    margin-top: 4px !important;
+    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease !important;
+    cursor: pointer !important;
+  }
+
+  .lp-btn:hover {
+    background-color: #ffffff !important;
+    border-color: #151515 !important;
+    color: #151515 !important;
+  }
+
+  @media (max-width: 1024px) {
+    .lp-hero__content {
+      padding: 40px 32px !important;
+      gap: 24px !important;
+    }
+
+    .lp-hero__heading {
+      font-size: 34px !important;
+    }
+
+    .lp-hero__subheading {
+      font-size: 18px !important;
+    }
+
+    .lp-hero__stats {
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .lp-hero__inner {
+      flex-direction: column !important;
+    }
+
+    .lp-hero__image {
+      width: 100% !important;
+      aspect-ratio: 4 / 3 !important;
+      min-height: 300px !important;
+      position: relative !important;
+      order: -1 !important;
+    }
+
+    .lp-hero__img {
+      position: absolute !important;
+    }
+
+    .lp-hero__content {
+      padding: 32px 16px !important;
+      gap: 22px !important;
+    }
+
+    .lp-hero__overline {
+      font-size: 13px !important;
+      letter-spacing: 1.2px !important;
+    }
+
+    .lp-hero__heading {
+      font-size: 30px !important;
+      line-height: 1.15 !important;
+    }
+
+    .lp-hero__subheading {
+      font-size: 16px !important;
+    }
+
+    .lp-hero__stats {
+      gap: 8px !important;
+    }
+
+    .lp-hero__stat {
+      padding: 10px 12px 11px !important;
+    }
+
+    .lp-hero__stat-value {
+      font-size: 20px !important;
+    }
+
+    .lp-hero__actions {
+      width: 100% !important;
+      align-items: stretch !important;
+    }
+
+    .lp-hero__btn {
+      width: 100% !important;
+    }
+
+    .lp-hero__microcopy {
+      text-align: center !important;
+    }
+  }
+</style>
+
+<section class="lp-hero">
+  <div class="lp-hero__inner">
+
+    <div class="lp-hero__content">
+      <div class="lp-hero__head">
+        <p class="lp-hero__overline">Artful, travel-inspired • handcrafted in small batches • 500K+ trees planted</p>
+        <h1 class="lp-hero__heading">The One Sandal You'll Live in All Summer</h1>
+        <p class="lp-hero__subheading">8 reasons the Luzon Buckle Sandal earns a permanent spot by your door.</p>
+
+        <div class="lp-hero__stats">
+          <div class="lp-hero__stat">
+            <span class="lp-hero__stat-value">4.7★</span>
+            <span class="lp-hero__stat-label">250+ Reviews</span>
+          </div>
+          <div class="lp-hero__stat">
+            <span class="lp-hero__stat-value">Free</span>
+            <span class="lp-hero__stat-label">Returns &amp; Exchanges</span>
+          </div>
+          <div class="lp-hero__stat">
+            <span class="lp-hero__stat-value">100%</span>
+            <span class="lp-hero__stat-label">Vegan</span>
+          </div>
+          <div class="lp-hero__stat">
+            <span class="lp-hero__stat-value">1 Tree</span>
+            <span class="lp-hero__stat-label">Planted Per Pair</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lp-hero__actions">
+        <a class="lp-hero__btn" href="/products/luzon-buckle-sandal">Shop the Luzon →</a>
+        <p class="lp-hero__microcopy">20% off this week, auto-applied. Free U.S. shipping for orders $120+. Free returns &amp; exchanges. In stock and ready to ship.</p>
+      </div> 
+    </div>
+
+    <div class="lp-hero__image">
+      <img class="lp-hero__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/image_9.png?v=1782202418&amp;width=1000" alt="Inkkas Luzon Buckle Sandal">
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =============================================
+     SECTION 3: Scarcity Banner
+     ============================================= -->
+<style>
+  .lp-scarcity-banner {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background-color: #131313 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px !important;
+    padding: 14px 24px !important;
+    text-align: center !important;
+    overflow-x: hidden !important;
+  }
+
+  .lp-scarcity-banner__dot {
+    flex-shrink: 0 !important;
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 4px !important;
+    background-color: #ffb715 !important;
+  }
+
+  .lp-scarcity-banner__text {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 1.36 !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+  }
+
+  .lp-scarcity-banner__highlight {
+    color: #ffb715 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-scarcity-banner {
+      gap: 8px !important;
+      padding: 12px 16px !important;
+    }
+
+    .lp-scarcity-banner__text {
+      font-size: 13px !important;
+    }
+  }
+</style>
+
+<div class="lp-scarcity-banner">
+  <span class="lp-scarcity-banner__dot"></span>
+  <p class="lp-scarcity-banner__text"><span class="lp-scarcity-banner__highlight">Sold out three summers running.</span> A limited restock just landed, get your size before it's gone again.</p>
+</div>
+
+
+<!-- =============================================
+     SECTION 4: Hook text
+     ============================================= -->
+<style>
+  .lp-hook {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 50px 24px !important;
+    background-color: #ffffff !important;
+    overflow-x: hidden !important;
+  }
+
+  .lp-hook__text {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    font-size: 21px !important;
+    line-height: 1.55 !important;
+    color: #131313 !important;
+    text-align: center !important;
+    max-width: 760px !important;
+    margin: 0 !important;
+    overflow-wrap: break-word !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-hook {
+      padding: 36px 20px !important;
+    }
+
+    .lp-hook__text {
+      font-size: 17px !important;
+    }
+  }
+</style>
+
+<section class="lp-hook">
+  <p class="lp-hook__text">No break-in period. No plastic-y foam that wrecks after one beach trip. No animal leather. Just an adjustable, cushioned, artist-designed sandal built for the season you actually wear it. Here is why it sells out every summer.</p>
+</section>
+
+
+<!-- =============================================
+     SECTION 5: Founder quote
+     ============================================= -->
+<style>
+  .lp-founder {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 0 16px 0 16px !important;
+    background-color: #ffffff !important;
+    overflow-x: hidden !important;
+  }
+
+  .lp-founder__card {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 940px !important;
+    background-color: #131313 !important;
+    border-radius: 8px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 17px !important;
+    padding: 37px 32px 38px !important;
+  }
+
+  .lp-founder__quote {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    font-size: 22px !important;
+    line-height: 1.45 !important;
+    color: #f2eee7 !important;
+    text-align: center !important;
+    max-width: 820px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .lp-founder__quote::before {
+    display: none !important;
+  }
+
+  .lp-founder__cite {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    font-size: 12.5px !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    color: #ffb715 !important;
+    text-align: center !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-founder {
+      padding: 0 16px 0 16px !important;
+    }
+
+    .lp-founder__card {
+      padding: 28px 22px 30px !important;
+      gap: 14px !important;
+    }
+
+    .lp-founder__quote {
+      font-size: 17px !important;
+    }
+
+    .lp-founder__cite {
+      font-size: 11.5px !important;
+    }
+  }
+</style>
+
+<section class="lp-founder">
+  <div class="lp-founder__card">
+    <blockquote class="lp-founder__quote">"We started Inkkas with one idea: footwear should carry a story and leave the world better than we found it. Every pair is ethically handcrafted with responsible materials, and every order plants a tree. The art on your feet means something, and so does where it came from."</blockquote>
+    <cite class="lp-founder__cite">The Inkkas Team</cite>
+  </div>
+</section>
+
+
+<!-- =============================================
+     SECTION 6: TL;DR callout
+     ============================================= -->
+<style>
+  .lp-tldr {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 50px 16px !important;
+    background-color: #ffffff !important;
+    overflow-x: hidden !important;
+  }
+
+  .lp-tldr__card {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 940px !important;
+    background-color: #f5f3ef !important;
+    border-left: 4px solid #fe7029 !important;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 7px !important;
+    padding: 23px 28px 24px 32px !important;
+  }
+
+  .lp-tldr__title {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 26px !important;
+    line-height: 1.18 !important;
+    letter-spacing: -0.26px !important;
+    color: #131313 !important;
+    margin: 0 !important;
+  }
+
+  .lp-tldr__highlight {
+    color: #fe7029 !important;
+  }
+
+  .lp-tldr__sub {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 1.55 !important;
+    color: #fe7029 !important;
+    margin: 0 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-tldr {
+      padding: 36px 16px 0 16px !important;
+    }
+
+    .lp-tldr__card {
+      padding: 20px 20px 22px 24px !important;
+    }
+
+    .lp-tldr__title {
+      font-size: 21px !important;
+    }
+
+    .lp-tldr__sub {
+      font-size: 15px !important;
+    }
+  }
+</style>
+
+<section class="lp-tldr">
+  <div class="lp-tldr__card">
+    <h2 class="lp-tldr__title">
+<span class="lp-tldr__highlight">8 reasons</span> the Luzon will be the only sandal you reach for this summer &amp; beyond.</h2>
+    <p class="lp-tldr__sub">Keep reading. We'll prove it.</p>
+  </div>
+</section>
+
+
+<!-- =============================================
+     SECTION 7: Reasons — feature rows
+     ============================================= -->
+<style>
+  .lp-reasons {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 990px !important;
+    margin: 0 auto !important;
+    padding: 0 24px !important;
+    overflow-x: hidden !important;
+  }
+
+  .lp-reason {
+    display: grid !important;
+    grid-template-columns: 320px 1fr !important;
+    gap: 36px !important;
+    align-items: center !important;
+    padding: 47px 0 49px !important;
+    border-bottom: 1px solid #ece4d8 !important;
+  }
+
+  .lp-reason--reverse {
+    grid-template-columns: 1fr 320px !important;
+  }
+
+  .lp-reason--reverse .lp-reason__media {
+    order: 2 !important;
+  }
+
+  .lp-reason--reverse .lp-reason__content {
+    order: 1 !important;
+  }
+
+  .lp-reason__media {
+    width: 100% !important;
+    height: 400px !important;
+    overflow: hidden !important;
+    background-color: #f5f3ef !important;
+    flex-shrink: 0 !important;
+  }
+
+  .lp-reason__img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: bottom !important;
+    display: block !important;
+  }
+
+  .lp-reason__content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 11px !important;
+    min-width: 0 !important;
+  }
+
+  .lp-reason__category {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 15.5px !important;
+    letter-spacing: 1.55px !important;
+    line-height: 1.55 !important;
+    text-transform: uppercase !important;
+    color: #fe7029 !important;
+    margin: 0 !important;
+  }
+
+  .lp-reason__title {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 25px !important;
+    line-height: 1.18 !important;
+    letter-spacing: -0.25px !important;
+    color: #131313 !important;
+    margin: 0 !important;
+  }
+
+  .lp-reason__num {
+    color: #fe7029 !important;
+  }
+
+  .lp-reason__body {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    color: #131313 !important;
+    margin: 0 !important;
+  }
+
+  .lp-reason__callout {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    background-color: #f5f3ef !important;
+    border-left: 3px solid #fe7029 !important;
+    border-top-right-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+    padding: 13px 16px 12px 19px !important;
+    margin-top: 2px !important;
+  }
+
+  .lp-reason__callout-text {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    color: #131313 !important;
+    margin: 0 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-reasons {
+      padding: 0 16px !important;
+    }
+
+    .lp-reason,
+    .lp-reason--reverse {
+      grid-template-columns: 1fr !important;
+      gap: 22px !important;
+      padding: 36px 0 !important;
+    }
+
+    .lp-reason--reverse .lp-reason__media {
+      order: -1 !important;
+    }
+
+    .lp-reason__media {
+      height: auto !important;
+      aspect-ratio: 1 / 1.3 !important;
+    }
+
+    .lp-reason__title {
+      font-size: 22px !important;
+    }
+  }
+</style>
+
+<section class="lp-reasons">
+
+  <!-- 01 Built for the Season -->
+  <div class="lp-reason">
+    <div class="lp-reason__media">
+      <img class="lp-reason__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/23423234.png?v=1782203918&amp;width=800" alt="Inkkas Luzon Buckle Sandal — built for the season">
+    </div>
+    <div class="lp-reason__content">
+      <p class="lp-reason__category">Built for the Season</p>
+      <h2 class="lp-reason__title">
+<span class="lp-reason__num">1.</span> Made for the Summer You Actually Live</h2>
+      <p class="lp-reason__body">Beach mornings, patio nights, errands in the heat, the airport security line. The Luzon handles all of it. Slip them on, buckle once, and they stay comfortable from your first iced coffee to your last sunset walk.</p>
+      <p class="lp-reason__body">This is the warm-weather sandal that disappears on your foot. No socks, no fuss, no second-guessing the forecast.</p>
+      <div class="lp-reason__callout">
+        <p class="lp-reason__callout-text">One sandal that covers beach, town, and travel all summer long.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 02 Comfort -->
+  <div class="lp-reason lp-reason--reverse">
+    <div class="lp-reason__media">
+      <img class="lp-reason__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/1233455.png?v=1782203918&amp;width=800" alt="Inkkas Luzon Buckle Sandal — cushioned comfort">
+    </div>
+    <div class="lp-reason__content">
+      <p class="lp-reason__category">Comfort</p>
+      <h2 class="lp-reason__title">
+<span class="lp-reason__num">2.</span> Cushioned Insoles That Feel Good Morning to Night</h2>
+      <p class="lp-reason__body">Most summer sandals trade comfort for looks. The Luzon is built with a cushioned insole and flexible, supportive construction so you can walk all day without that flat, achy footbed feeling by hour three.</p>
+      <p class="lp-reason__body">Here's the honest part: the footbed starts supportive and firm, then molds to your foot over the first few wears. That is structured support that holds up all season.</p>
+      <div class="lp-reason__callout">
+        <p class="lp-reason__callout-text">Reviewers rave about the long-lasting, all-day comfort once the footbed breaks in.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- =============================================
+     SECTION 8: Inline CTA
+     ============================================= -->
+<style>
+  .lp-inline-cta {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 990px !important;
+    margin: 0 auto !important;
+    padding: 0 24px !important;
+    overflow-x: hidden !important;
+  }
+
+  .lp-inline-cta__card {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    background-color: #131313 !important;
+    border-radius: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 24px !important;
+    padding: 18px 26px !important;
+  }
+
+  .lp-inline-cta__text {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    line-height: 1.55 !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+  }
+
+  .lp-inline-cta__btn {
+    box-sizing: border-box !important;
+    flex-shrink: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 240px !important;
+    max-width: 100% !important;
+    height: 55px !important;
+    background-color: #ffb715 !important;
+    border-radius: 5px !important;
+    padding: 17.5px 40px !important;
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    color: #131313 !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    transition: filter 0.2s ease !important;
+    cursor: pointer !important;
+  }
+
+  .lp-inline-cta__btn:hover {
+    filter: brightness(0.94) !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-inline-cta {
+      padding: 0 16px !important;
+    }
+
+    .lp-inline-cta__card {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+      gap: 16px !important;
+      padding: 20px !important;
+    }
+
+    .lp-inline-cta__text {
+      font-size: 14px !important;
+    }
+
+    .lp-inline-cta__btn {
+      width: 100% !important;
+    }
+  }
+</style>
+
+<section class="lp-inline-cta">
+  <div class="lp-inline-cta__card">
+    <p class="lp-inline-cta__text">Summer's almost here. The Luzon is in stock and ready to ship today.</p>
+    <a class="lp-inline-cta__btn" href="/products/luzon-buckle-sandal">GET THE LUZON →</a>
+  </div>
+</section>
+
+
+<section class="lp-reasons">
+
+  <!-- 03 Fit -->
+  <div class="lp-reason">
+    <div class="lp-reason__media">
+      <img class="lp-reason__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/123345345.png?v=1782203918&amp;width=800" alt="Inkkas Luzon Buckle Sandal — adjustable fit">
+    </div>
+    <div class="lp-reason__content">
+      <p class="lp-reason__category">Fit</p>
+      <h2 class="lp-reason__title">
+<span class="lp-reason__num">3.</span> Adjustable Straps That Fit Your Foot, Not the Average Foot</h2>
+      <p class="lp-reason__body">The Luzon runs true to size, and tends to sit slightly wide, which is good news if you've ever felt squeezed by a fixed strap. The adjustable buckles dial your exact fit in seconds, narrow, wide, or in between, then stays put all day.</p>
+      <p class="lp-reason__body">Between sizes? Size up. Wider feet, you're covered. And with free returns and exchanges, getting your perfect fit costs you nothing.</p>
+      <div class="lp-reason__callout">
+        <p class="lp-reason__callout-text">True to size, runs slightly wide, adjustable buckle. Free returns &amp; exchanges if it's not the perfect fit.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 04 Design -->
+  <div class="lp-reason lp-reason--reverse">
+    <div class="lp-reason__media">
+      <img class="lp-reason__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/23434543532.png?v=1782203918&amp;width=800" alt="Inkkas Luzon Buckle Sandal — wearable art print">
+    </div>
+    <div class="lp-reason__content">
+      <p class="lp-reason__category">Design</p>
+      <h2 class="lp-reason__title">
+<span class="lp-reason__num">4.</span> Wearable Art, Not Another Plain Slide</h2>
+      <p class="lp-reason__body">The Luzon print is inspired by a Southeast Asian rainforest: radiant birds taking flight across tropical flowers and blue skies. It is the kind of detail strangers stop to ask about, and the kind you won't see on every other foot at the pool.</p>
+      <p class="lp-reason__body">You get a sandal that pairs with denim, dresses, and swimwear, and still stands out. Summer style with an actual story behind it.</p>
+      <div class="lp-reason__callout">
+        <p class="lp-reason__callout-text">An original artist-designed print you won't find on a mass-market slide.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="lp-inline-cta">
+  <div class="lp-inline-cta__card">
+    <p class="lp-inline-cta__text">Best-selling summer print. Lock in your size before the season runs hot.</p>
+    <a class="lp-inline-cta__btn" href="/products/luzon-buckle-sandal">GET THE LUZON →</a>
+  </div>
+</section>
+
+
+<section class="lp-reasons">
+
+  <!-- 05 Versatility -->
+  <div class="lp-reason">
+    <div class="lp-reason__media">
+      <img class="lp-reason__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/123354545.png?v=1782203918&amp;width=800" alt="Inkkas Luzon Buckle Sandal — versatile summer rotation">
+    </div>
+    <div class="lp-reason__content">
+      <p class="lp-reason__category">Versatility</p>
+      <h2 class="lp-reason__title">
+<span class="lp-reason__num">5.</span> One Pair That Replaces Three</h2>
+      <p class="lp-reason__body">Dressy enough for dinner, easy enough for the farmers market, tough enough for a long travel day on your feet. The Luzon does the job of a beach flip-flop, an everyday slide, and a going-out sandal in a single buckle, so it earns its place in a carry-on.</p>
+      <p class="lp-reason__body">That is the quiet math of a great summer sandal: fewer pairs cluttering the closet, one pair you genuinely reach for every day.</p>
+      <div class="lp-reason__callout">
+        <p class="lp-reason__callout-text">Beach to dinner to a 20,000-step travel day, the Luzon covers your whole summer rotation.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- =============================================
+     SECTION 9: Mid-page buy box
+     ============================================= -->
+<style>
+  .lp-buybox {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background-color: #f5f3ef !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px !important;
+    padding: 40px 24px 52px !important;
+    overflow-x: hidden !important;
+  }
+
+  .lp-buybox__overline {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 15.5px !important;
+    letter-spacing: 1.55px !important;
+    line-height: 1.55 !important;
+    text-transform: uppercase !important;
+    color: #fe7029 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-buybox__title {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 30px !important;
+    line-height: 1.18 !important;
+    letter-spacing: -0.3px !important;
+    color: #131313 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-buybox__desc {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 600px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 10px !important;
+    text-align: center !important;
+    border: none;
+  }
+
+  .lp-buybox__desc-text,
+  .lp-buybox__fit {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    color: #131313 !important;
+    margin: 0 !important;
+  }
+
+  .lp-buybox__desc-text {
+    font-weight: 400 !important;
+  }
+
+  .lp-buybox__fit {
+    font-weight: 700 !important;
+  }
+
+  .lp-buybox__fit-label {
+    color: #fe7029 !important;
+  }
+
+  .lp-buybox__media {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 900px !important;
+    aspect-ratio: 900 / 469 !important;
+    overflow: hidden !important;
+    background-color: #ece4d8 !important;
+  }
+
+  .lp-buybox__img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+  }
+
+  .lp-buybox__table-wrap {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 900px !important;
+    overflow-x: auto !important;
+    border-radius: 8px !important;
+  }
+
+  .lp-buybox__table {
+    width: 100% !important;
+    min-width: 600px !important;
+    border-collapse: collapse !important;
+    table-layout: fixed !important;
+    margin-bottom: 5px!important;
+  }
+
+  .lp-buybox__table th {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    letter-spacing: 0.26px !important;
+    line-height: 1.26 !important;
+    color: #ffffff !important;
+    text-align: left !important;
+    padding: 11px 14px 12px !important;
+    background-color: #131313 !important;
+    border:none;
+  }
+
+  .lp-buybox__table th.lp-buybox__th--highlight {
+    background-color: #fe7029 !important;
+  }
+
+  .lp-buybox__table td {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    padding: 11px 16px 12px !important;
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #ece4d8 !important;
+    vertical-align: middle !important;
+  }
+
+  .lp-buybox__table tr:last-child td {
+    border-bottom: none !important;
+  }
+
+  .lp-buybox__table td.lp-buybox__td--label {
+    font-weight: 400 !important;
+    color: #131313 !important;
+  }
+
+  .lp-buybox__table td.lp-buybox__td--ours {
+    font-weight: 700 !important;
+    color: #131313 !important;
+    border-left: 1px solid #ece4d8 !important;
+  }
+
+  .lp-buybox__table td.lp-buybox__td--theirs {
+    font-weight: 400 !important;
+    color: #6b6b6b !important;
+    border-left: 1px solid #ece4d8 !important;
+  }
+
+  .lp-buybox__features {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 600px !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 10px 22px !important;
+  }
+
+  .lp-buybox__feature {
+    position: relative !important;
+    padding-left: 24px !important;
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    color: #131313 !important;
+    margin: 0 !important;
+  }
+
+  .lp-buybox__feature::before {
+    content: "✓" !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    color: #fe7029 !important;
+    font-weight: 700 !important;
+  }
+
+  .lp-buybox__price {
+    width: 100% !important;
+    max-width: 900px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 4px !important;
+  }
+
+  .lp-buybox__price-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 16px !important;
+  }
+
+  .lp-buybox__price-old {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 19px !important;
+    color: #6b6b6b !important;
+    text-decoration: line-through !important;
+  }
+
+  .lp-buybox__price-save {
+    background-color: #fe7029 !important;
+    color: #ffffff !important;
+    border-radius: 50px !important;
+    padding: 3px 11px 4px !important;
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 12.5px !important;
+    letter-spacing: 0.25px !important;
+    line-height: 1.55 !important;
+  }
+
+  .lp-buybox__price-now {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 32px !important;
+    line-height: 1.4 !important;
+    color: #131313 !important;
+  }
+
+  .lp-buybox__price-note {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 1.3 !important;
+    color: #131313 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-buybox__sizes {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 900px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 11px !important;
+    padding: 14px 0 16px !important;
+  }
+
+  .lp-buybox__sizes-label {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.3 !important;
+    color: #131313 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-buybox__sizes-label b {
+    font-weight: 700 !important;
+  }
+
+  .lp-buybox__sizes-label span {
+    font-weight: 400 !important;
+    color: #6b6b6b !important;
+  }
+
+  .lp-buybox__sizes-row {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 9px !important;
+
+    justify-content: center !important;
+    padding: 20px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+  } 
+
+  .lp-buybox__size {
+    box-sizing: border-box !important;
+    /* flex: 1 0 0 !important; */
+    min-width: 0 !important;
+    background-color: #ffffff !important;
+    border: 1px solid #ece4d8 !important;
+    border-radius: 8px !important;
+    padding: 13px 8px !important;
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: #131313 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    opacity: 1 !important;
+    cursor: pointer !important; 
+  }
+
+  .lp-buybox__size--active {
+    border: 2px solid #fe7029 !important;
+    opacity: 1 !important;
+  }
+
+  .lp-buybox__sizes-note {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 1.38 !important;
+    color: #131313 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-buybox__btn {
+    box-sizing: border-box !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 241px !important;
+    max-width: 100% !important;
+    height: 55px !important;
+    background-color: #ffb715 !important;
+    border-radius: 5px !important;
+    padding: 17.5px 40px !important;
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    color: #131313 !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    transition: filter 0.2s ease !important;
+    cursor: pointer !important;
+  }
+
+  .lp-buybox__btn:hover {
+    filter: brightness(0.94) !important;
+  }
+
+  .lp-buybox__trust {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 1.38 !important;
+    color: #131313 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-buybox {
+      padding: 32px 16px 40px !important;
+    }
+
+    .lp-buybox__title {
+      font-size: 24px !important;
+    }
+
+    .lp-buybox__features {
+      grid-template-columns: 1fr !important;
+    }
+
+    .lp-buybox__price-now {
+      font-size: 28px !important;
+    }
+
+    .lp-buybox__sizes-row {
+     padding:10px 10px;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .lp-buybox__size {
+      flex: 1 0 calc(33.333% - 6px) !important;
+      padding: 11px 4px !important;
+      font-size: 12px !important;
+    }
+
+    .lp-buybox__btn {
+      width: 100% !important;
+    }
+      .lp-buybox__table td.lp-buybox__td--ours {
+    font-weight: 600 !important;
+  
+  }
+  .lp-buybox__table td{
+    font-size: 14px!important;
+        padding: 5px 10px 7px !important;
+  }
+  .lp-buybox__table th{
+     font-size: 14px!important;
+  }
+  }
+
+  @media (max-width: 500px) {
+    .lp-buybox__size {
+      flex: 1 0 calc(50% - 5px) !important;
+    }
+      .lp-buybox__size {
+
+      font-size: 9px !important;
+    }
+  }
+</style>
+
+<section class="lp-buybox">
+  <p class="lp-buybox__overline">Summer Best Seller · Limited Restock</p>
+  <h3 class="lp-buybox__title">Luzon Buckle Sandal</h3>
+
+  <div class="lp-buybox__desc">
+    <p class="lp-buybox__desc-text">Artist-designed rainforest print, cushioned insole, and an adjustable buckle strap. 100% vegan, ethically handcrafted, and a tree planted with every pair.</p>
+    <p class="lp-buybox__fit"><span class="lp-buybox__fit-label">Fit tip:</span> Runs true to size and slightly wide. If you're between sizes, size up. Free exchanges if you need to swap.</p>
+  </div>
+
+  <div class="lp-buybox__media">
+    <img class="lp-buybox__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/Inkkas_Camping_Boot.png?v=1782204666&amp;width=1000" alt="Luzon Buckle Sandal">
+  </div>
+
+  <div class="lp-buybox__table-wrap">
+    <table class="lp-buybox__table">
+      <thead>
+        <tr>
+          <th>What Matters in Summer</th>
+          <th class="lp-buybox__th--highlight">Luzon Buckle Sandal</th>
+          <th>The Average Slide</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="lp-buybox__td--label">Fit</td>
+          <td class="lp-buybox__td--ours">Adjustable buckle, true to size</td>
+          <td class="lp-buybox__td--theirs">Fixed, one-size strap</td>
+        </tr>
+        <tr>
+          <td class="lp-buybox__td--label">Comfort</td>
+          <td class="lp-buybox__td--ours">Cushioned, all-day insole</td>
+          <td class="lp-buybox__td--theirs">Flat foam, breaks down fast</td>
+        </tr>
+        <tr>
+          <td class="lp-buybox__td--label">Materials</td>
+          <td class="lp-buybox__td--ours">100% vegan, responsibly made</td>
+          <td class="lp-buybox__td--theirs">Mixed synthetics</td>
+        </tr>
+        <tr>
+          <td class="lp-buybox__td--label">Design</td>
+          <td class="lp-buybox__td--ours">Original rainforest art print</td>
+          <td class="lp-buybox__td--theirs">Plain, everywhere</td>
+        </tr>
+        <tr>
+          <td class="lp-buybox__td--label">Impact</td>
+          <td class="lp-buybox__td--ours">Plants a tree per pair</td>
+          <td class="lp-buybox__td--theirs">None</td>
+        </tr>
+        <tr>
+          <td class="lp-buybox__td--label">Risk</td>
+          <td class="lp-buybox__td--ours">30-day Happiness Guarantee</td>
+          <td class="lp-buybox__td--theirs">Final sale</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="lp-buybox__features">
+    <p class="lp-buybox__feature">100% vegan materials</p>
+    <p class="lp-buybox__feature">Cushioned, supportive insole</p>
+    <p class="lp-buybox__feature">Adjustable buckle strap</p>
+    <p class="lp-buybox__feature">True-to-size fit</p>
+    <p class="lp-buybox__feature">Free U.S. shipping for orders $120+</p>
+    <p class="lp-buybox__feature">Plants a tree with every pair</p>
+    <p class="lp-buybox__feature">Ethically handcrafted</p>
+    <p class="lp-buybox__feature">30-day Happiness Guarantee</p>
+  </div>
+
+  <div class="lp-buybox__price">
+    <div class="lp-buybox__price-row">
+      <span class="lp-buybox__price-now js-current-price" data-url="/products/luzon-buckle-sandal" style="text-decoration: line-through; color: #6b6b6b; font-size: 20px;">$64.50</span>
+      <span class="lp-buybox__price-save js-discount">Save $12.90</span>
+      <span class="lp-buybox__price-discounted js-discount-price" style="font-family: 'Liberation Sans', 'Arimo', Arial, sans-serif !important; font-weight: 700 !important; font-size: 32px !important; line-height: 1.4 !important; color: #fe7029 !important;">$51.60</span>
+    </div>
+    <p class="lp-buybox__price-note">20% off automatically applied with code SUMMER20. Discount shows at checkout.</p>
+  </div>
+
+  <div class="lp-buybox__sizes">
+    <p class="lp-buybox__sizes-label"><b>Select your size</b> <span>(US Women / EUR)</span></p>
+    <div class="lp-buybox__sizes-row">
+      <button type="button" class="lp-buybox__size" data-id="41593501614177">W6 / EUR 37</button>
+      <button type="button" class="lp-buybox__size lp-buybox__size--active" data-id="41593501646945">W7 / EUR 38</button>
+      <button type="button" class="lp-buybox__size" data-id="41593501679713">W8 / EUR 39</button>
+      <button type="button" class="lp-buybox__size" data-id="41593501712481">W9 / EUR 40</button>
+      <button type="button" class="lp-buybox__size" data-id="41593501745249">W10 / EUR 41</button>
+      <button type="button" class="lp-buybox__size" data-id="42260521812065">W11 / EUR 42</button>
+    </div>
+    <p class="lp-buybox__sizes-note">Runs true to size, slightly wide. Order your usual size.</p>
+  </div>
+
+  <a class="lp-buybox__btn" href="/cart/41593501646945:1?discount=SUMMER20">Buy the Luzon →</a>
+
+  <p class="lp-buybox__trust">Free U.S. shipping for orders $120+. Free returns &amp; exchanges. In stock and ready to ship. 30-day Happiness Guarantee.</p>
+</section>
+
+<script>
+(function () {
+  var box = document.querySelector('.lp-buybox');
+  if (!box) return;
+
+  var sizesRow = box.querySelector('.lp-buybox__sizes-row');
+  var btn = box.querySelector('.lp-buybox__btn');
+  if (!sizesRow || !btn) return;
+
+  var href = btn.getAttribute('href') || '';
+  var baseUrl = '/products/luzon-buckle-sandal';
+  var match = href.match(/(?:variant=|\/cart\/)(\d+)/);
+  var initialVariantId = match ? match[1] : null;
+
+  fetch(baseUrl + '.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var variants = data.product && data.product.variants;
+      if (!variants || !variants.length) return;
+
+      sizesRow.innerHTML = '';
+      var hasActive = false;
+
+      variants.forEach(function (variant) {
+        var btnEl = document.createElement('button');
+        btnEl.type = 'button';
+        btnEl.className = 'lp-buybox__size';
+        btnEl.setAttribute('data-id', variant.id);
+        btnEl.textContent = variant.title;
+
+        var isActive = initialVariantId ? (String(variant.id) === String(initialVariantId)) : false;
+        if (isActive) {
+          btnEl.classList.add('lp-buybox__size--active');
+          btn.setAttribute('href', '/cart/' + variant.id + ':1?discount=SUMMER20');
+          hasActive = true;
+        }
+
+        btnEl.addEventListener('click', function () {
+          sizesRow.querySelectorAll('.lp-buybox__size').forEach(function (s) {
+            s.classList.remove('lp-buybox__size--active');
+          });
+          btnEl.classList.add('lp-buybox__size--active');
+          btn.setAttribute('href', '/cart/' + variant.id + ':1?discount=SUMMER20');
+        });
+
+        sizesRow.appendChild(btnEl);
+      });
+
+      if (!hasActive && variants.length > 0) {
+        var firstBtn = sizesRow.querySelector('.lp-buybox__size');
+        if (firstBtn) {
+          firstBtn.classList.add('lp-buybox__size--active');
+          btn.setAttribute('href', '/cart/' + variants[0].id + ':1?discount=SUMMER20');
+        }
+      }
+    })
+    .catch(function (err) {
+      console.error('Error loading variants:', err);
+    });
+})();
+</script>
+
+
+<section class="lp-reasons">
+
+  <!-- 06 Materials -->
+  <div class="lp-reason lp-reason--reverse">
+    <div class="lp-reason__media">
+      <img class="lp-reason__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/2344564566.png?v=1782205020&amp;width=800" alt="Inkkas Luzon Buckle Sandal — vegan materials">
+    </div>
+    <div class="lp-reason__content">
+      <p class="lp-reason__category">Materials</p>
+      <h2 class="lp-reason__title">
+<span class="lp-reason__num">6.</span> 100% Vegan, Made the Right Way</h2>
+      <p class="lp-reason__body">The Luzon is 100% vegan and ethically handcrafted with responsible materials. No animal leather, no shortcuts, no factory you'd be embarrassed to read about.</p>
+      <p class="lp-reason__body">It is a sandal you can feel good wearing all summer, on your foot and on your conscience.</p>
+      <div class="lp-reason__callout">
+        <p class="lp-reason__callout-text">100% vegan and ethically handcrafted with responsible materials.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 07 Impact -->
+  <div class="lp-reason">
+    <div class="lp-reason__media">
+      <img class="lp-reason__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/2345662.png?v=1782205021&amp;width=800" alt="Inkkas Luzon Buckle Sandal — plants a tree">
+    </div>
+    <div class="lp-reason__content">
+      <p class="lp-reason__category">Impact</p>
+      <h2 class="lp-reason__title">
+<span class="lp-reason__num">7.</span> Every Pair Plants a Tree</h2>
+      <p class="lp-reason__body">Your summer sandal does something for the planet, not just your outfit. Through the Inkkas OneShoeOneTree program with trees.org, every pair plants a tree, so the rainforest that inspired the Luzon print gets a little support in return.</p>
+      <p class="lp-reason__body">It is a small thing that adds up, and it is built into the price you already pay. No add-ons, no upsell.</p>
+      <div class="lp-reason__callout">
+        <p class="lp-reason__callout-text">One tree planted for every pair you buy. Style with a footprint that gives back.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 08 Risk-Free -->
+  <div class="lp-reason lp-reason--reverse">
+    <div class="lp-reason__media">
+      <img class="lp-reason__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/2345646546.png?v=1782205021&amp;width=800" alt="Inkkas Luzon Buckle Sandal — 30-day guarantee">
+    </div>
+    <div class="lp-reason__content">
+      <p class="lp-reason__category">Risk-Free</p>
+      <h2 class="lp-reason__title">
+<span class="lp-reason__num">8.</span> Try Them Risk-Free for 30 Days</h2>
+      <p class="lp-reason__body">We want you to love your order. If the Luzon isn't right, the 100% Happiness Guarantee gives you 30 days to make it right, with free returns and exchanges included.</p>
+      <p class="lp-reason__body">Order your size, wear them around, see how they feel in real summer conditions. There is nothing to lose but a duller sandal.</p>
+      <div class="lp-reason__callout">
+        <p class="lp-reason__callout-text">30-day Happiness Guarantee with free returns and exchanges, no risk to you.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="lp-inline-cta">
+  <div class="lp-inline-cta__card">
+    <p class="lp-inline-cta__text">8 reasons down. The only thing left is picking your size.</p>
+    <a class="lp-inline-cta__btn" href="/products/luzon-buckle-sandal">GET THE LUZON →</a>
+  </div>
+</section>
+
+
+<!-- =============================================
+     SECTION 11: UGC video row
+     ============================================= -->
+<style>
+  .lp-ugc {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background-color: #ffffff !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 7px !important;
+    padding: 48px 20px 8px !important;
+    overflow-x: hidden !important;
+  }
+
+  .lp-ugc__title {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 28px !important;
+    line-height: 1.18 !important;
+    letter-spacing: -0.28px !important;
+    color: #131313 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-ugc__sub {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 1.55 !important;
+    color: #6b6b6b !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-ugc__grid {
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 18px !important;
+    justify-content: center !important;
+    max-width: 960px !important;
+    width: 100% !important;
+    padding-top: 23px !important;
+  }
+
+  .lp-ugc__card {
+    position: relative !important;
+    width: 242px !important;
+    max-width: 100% !important;
+    aspect-ratio: 242 / 427 !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    background-color: #000000 !important;
+    cursor: pointer !important;
+  }
+
+  .lp-ugc__video {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+  }
+
+  .lp-ugc__play {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 52px !important;
+    height: 52px !important;
+    border: none !important;
+    border-radius: 26px !important;
+    background-color: rgba(28, 27, 34, 0.82) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    padding: 0 !important;
+  }
+
+  .lp-ugc__play::before {
+    content: "" !important;
+    display: block !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin-left: 4px !important;
+    border-style: solid !important;
+    border-width: 10px 0 10px 16px !important;
+    border-color: transparent transparent transparent #ffffff !important;
+  }
+
+  .lp-ugc__badge {
+    display: none;
+    position: absolute !important;
+    bottom: 11px !important;
+    left: 11px !important;
+    background-color: rgba(28, 27, 34, 0.78) !important;
+    border-radius: 50px !important;
+    padding: 4px 9px !important;
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 11.5px !important;
+    line-height: 1.55 !important;
+    color: #ffffff !important;
+  }
+
+  .lp-ugc__card.is-playing .lp-ugc__play,
+  .lp-ugc__card.is-playing .lp-ugc__badge {
+    display: none !important;
+  }
+</style>
+
+<section class="lp-ugc">
+  <h2 class="lp-ugc__title">See the Luzon in the Wild</h2>
+  <p class="lp-ugc__sub">Real customers, real summers. Tap to play.</p>
+
+  <div class="lp-ugc__grid">
+
+    <div class="lp-ugc__card">
+      <video class="lp-ugc__video" preload="none" poster="https://cdn.shopify.com/s/files/1/0162/1490/files/Screenshot_2026-06-22_at_20.24.27_1.png?v=1782226437">
+        <source src="https://cdn.shopify.com/videos/c/o/v/e7cdd28faf1b4127a9cff0ee7baa1747.mp4" type="video/mp4"></video>
+      <button type="button" class="lp-ugc__play" aria-label="Play video"></button>
+      <span class="lp-ugc__badge">@creator</span>
+    </div>
+
+    <div class="lp-ugc__card">
+      <video class="lp-ugc__video" preload="none" poster="https://cdn.shopify.com/s/files/1/0162/1490/files/Screenshot_2026-06-22_at_20.24.39_1.png?v=1782226437">
+        <source src="https://cdn.shopify.com/videos/c/o/v/0379592ead754d579f54428bda759478.mp4" type="video/mp4"></video>
+      <button type="button" class="lp-ugc__play" aria-label="Play video"></button>
+      <span class="lp-ugc__badge">@creator</span>
+    </div>
+
+    <div class="lp-ugc__card">
+      <video class="lp-ugc__video" preload="none" poster="https://cdn.shopify.com/s/files/1/0162/1490/files/Screenshot_2026-06-22_at_20.24.53_1.png?v=1782226437">
+        <source src="https://videomedia.vizupcommerce.com/phuyupata.myshopify.com/generated_gif/snip-dv-ce112e07132b479cbdcae18ef52fe18f_h264vizup.mp4" type="video/mp4"></video>
+      <button type="button" class="lp-ugc__play" aria-label="Play video"></button>
+      <span class="lp-ugc__badge">@creator</span>
+    </div>
+
+  </div>
+</section>
+
+<script>
+(function () {
+  document.querySelectorAll('.lp-ugc__card').forEach(function (card) {
+    var video = card.querySelector('.lp-ugc__video');
+    if (!video) return;
+
+    function play() {
+      if (card.classList.contains('is-playing')) return;
+      card.classList.add('is-playing');
+      video.setAttribute('controls', '');
+      video.play();
+      /* iOS: open the native fullscreen player */
+      if (typeof video.webkitEnterFullscreen === 'function') {
+        video.webkitEnterFullscreen();
+      }
+    }
+
+    card.addEventListener('click', function (e) {
+      if (card.classList.contains('is-playing')) return;
+      e.preventDefault();
+      play();
+    });
+
+    video.addEventListener('pause', function () {
+      if (video.currentTime === 0 || video.ended) {
+        card.classList.remove('is-playing');
+        video.removeAttribute('controls');
+      }
+    });
+  });
+})();
+</script>
+
+
+<!-- =============================================
+     SECTION 12: Reviews
+     ============================================= -->
+<style>
+  .lp-rev {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background-color: #ffffff !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 30px !important;
+    padding: 48px 20px !important;
+    overflow-x: hidden !important;
+  }
+
+  .lp-rev__head {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 7px !important;
+    width: 100% !important;
+  }
+
+  .lp-rev__title {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 28px !important;
+    line-height: 1.18 !important;
+    letter-spacing: -0.28px !important;
+    color: #131313 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-rev__sub {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 1.55 !important;
+    color: #131313 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-rev__grid {
+    box-sizing: border-box !important;
+    display: flex !important;
+    gap: 24px !important;
+    align-items: stretch !important;
+    width: 100% !important;
+    max-width: 980px !important;
+  }
+
+  .lp-rev__card {
+    box-sizing: border-box !important;
+    flex: 1 0 0 !important;
+    min-width: 0 !important;
+    background-color: #f5f3ef !important;
+    border-radius: 10px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 22px !important;
+  }
+
+  .lp-rev__stars {
+    font-family: "Arial", sans-serif !important;
+    font-size: 15px !important;
+    letter-spacing: 2px !important;
+    line-height: 1.55 !important;
+    color: #fe7029 !important;
+    margin: 0 !important;
+  }
+
+  .lp-rev__stars .star--empty {
+    color: #c4c4c4 !important;
+  }
+
+  .lp-rev__text {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 1.45 !important;
+    color: #131313 !important;
+    margin: 8px 0 0 !important;
+  }
+
+  .lp-rev__author {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 13.5px !important;
+    line-height: 1.55 !important;
+    color: #131313 !important;
+    margin: 12px 0 0 !important;
+  }
+
+  .lp-rev__badge {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 11.5px !important;
+    letter-spacing: 0.69px !important;
+    line-height: 1.55 !important;
+    text-transform: uppercase !important;
+    color: #fe7029 !important;
+    margin: 2px 0 0 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-rev__grid {
+      flex-direction: column !important;
+      max-width: 460px !important;
+    }
+
+    .lp-rev__title {
+      font-size: 24px !important;
+    }
+  }
+</style>
+
+<section class="lp-rev">
+  <div class="lp-rev__head">
+    <h2 class="lp-rev__title">What Real Customers Are Saying</h2>
+    <p class="lp-rev__sub">4.7 out of 5 stars across 250+ reviews · 92% would recommend</p>
+  </div>
+
+  <div class="lp-rev__grid">
+
+    <div class="lp-rev__card">
+      <p class="lp-rev__stars">★★★★★</p>
+      <p class="lp-rev__text">These are my "happy" shoes! They are so bright and colorful (with all my favorite colors). They were a bit wide, but adjusting the strap fixed that. And, a bit stiff, but a couple of days of breaking them in and we are off and running! I'm HAPPY!</p>
+      <p class="lp-rev__author">Myrle C.</p>
+      <p class="lp-rev__badge">Verified Buyer</p>
+    </div>
+
+    <div class="lp-rev__card">
+      <p class="lp-rev__stars">★★★★<span class="star--empty">★</span></p>
+      <p class="lp-rev__text">I love the Luzon Buckle Sandals but one of my little toes doesn't fit comfortably under the strap. It has to be my foot because the other sandal fits perfectly! I'm going to keep the sandals and hope, with wear, the strap is able to accommodate my little toe!</p>
+      <p class="lp-rev__author">Joyce P.</p>
+      <p class="lp-rev__badge">Verified Buyer</p>
+    </div>
+
+    <div class="lp-rev__card">
+      <p class="lp-rev__stars">★★★★★</p>
+      <p class="lp-rev__text">These are sturdy, the color is bold and vibrant and will not fade from what I can see, feels luxurious like berks but way more creative. The straps are set a little bit more toward to toes which I like, buckles look high end.</p>
+      <p class="lp-rev__author">Angela B.</p>
+      <p class="lp-rev__badge">Verified Buyer</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =============================================
+     SECTION 13: Closing CTA
+     ============================================= -->
+<style>
+  .lp-closing {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background-color: #131313 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 20px !important;
+    padding: 62px 24px 74px !important;
+    overflow-x: hidden !important;
+  }
+
+  .lp-closing__head {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+
+  .lp-closing__title {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 34px !important;
+    line-height: 1.18 !important;
+    letter-spacing: -0.34px !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-closing__sub {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    max-width: 540px !important;
+    margin: 0 !important;
+  }
+
+  .lp-closing__pills {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+    justify-content: center !important;
+    max-width: 900px !important;
+  }
+
+  .lp-closing__pill {
+    box-sizing: border-box !important;
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    border-radius: 50px !important;
+    padding: 7px 17px 8px !important;
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 1.45 !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+  }
+
+  .lp-closing__btn {
+    box-sizing: border-box !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 240px !important;
+    max-width: 100% !important;
+    height: 55px !important;
+    margin-top: 15px !important;
+    background-color: #ffb715 !important;
+    border-radius: 5px !important;
+    padding: 17.5px 40px !important;
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    color: #131313 !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    transition: filter 0.2s ease !important;
+    cursor: pointer !important;
+  }
+
+  .lp-closing__btn:hover {
+    filter: brightness(0.94) !important;
+  }
+
+  .lp-closing__trust {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 1.38 !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    margin: 4px 0 0 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-closing {
+      padding: 48px 16px 52px !important;
+    }
+
+    .lp-closing__title {
+      font-size: 26px !important;
+    }
+
+    .lp-closing__btn {
+      width: 100% !important;
+    }
+  }
+</style>
+
+<section class="lp-closing">
+  <div class="lp-closing__head">
+    <h2 class="lp-closing__title">This Summer, Reach for One Sandal.</h2>
+    <p class="lp-closing__sub">Adjustable buckle, cushioned insole, original rainforest art, 100% vegan, and a tree planted with every pair.</p>
+  </div>
+
+  <div class="lp-closing__pills">
+    <span class="lp-closing__pill">US Women 6-11</span>
+    <span class="lp-closing__pill">EUR 37-42</span>
+    <span class="lp-closing__pill">Runs slightly wide</span>
+    <span class="lp-closing__pill">In stock now</span>
+    <span class="lp-closing__pill">Ready to ship</span>
+  </div>
+
+  <a class="lp-closing__btn" href="/products/luzon-buckle-sandal">Shop the Luzon Now →</a>
+
+  <p class="lp-closing__trust">Free U.S. shipping for orders $120+  |  Plants a tree per pair  |  30-day Happiness Guarantee</p>
+</section>
+
+
+<!-- =============================================
+     SECTION 14: Bottom buy box
+     ============================================= -->
+<style>
+  .lp-finalbuy {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background-color: #f5f3ef !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 48px 24px !important;
+    overflow-x: hidden !important;
+  }
+
+  .lp-finalbuy__card {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 560px !important;
+    background-color: #ede9e2 !important;
+    border: 1px solid #ece4d8 !important;
+    border-radius: 14px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 7px !important;
+    padding: 35px 29px 47px !important;
+  }
+
+  .lp-finalbuy__overline {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 15.5px !important;
+    letter-spacing: 1.55px !important;
+    line-height: 1.55 !important;
+    text-transform: uppercase !important;
+    color: #fe7029 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-finalbuy__title {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 1.18 !important;
+    letter-spacing: -0.24px !important;
+    color: #131313 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-finalbuy__media {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    height: 365px !important;
+    overflow: hidden !important;
+    background-color: #f5f3ef !important;
+    margin-top: 4px !important;
+  }
+
+  .lp-finalbuy__img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+  }
+
+  .lp-finalbuy__price-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 12px !important;
+    margin-top: 14px !important;
+  }
+
+  .lp-finalbuy__price-old {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 19px !important;
+    color: #6b6b6b !important;
+    text-decoration: line-through !important;
+  }
+
+  .lp-finalbuy__price-now {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 32px !important;
+    line-height: 1.4 !important;
+    color: #131313 !important;
+  }
+
+  .lp-finalbuy__price-save {
+    background-color: #fe7029 !important;
+    color: #ffffff !important;
+    border-radius: 50px !important;
+    padding: 3px 11px 4px !important;
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    letter-spacing: 0.25px !important;
+    line-height: 1.38 !important;
+  }
+
+  .lp-finalbuy__note {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 1.3 !important;
+    color: #151515 !important;
+    text-align: center !important;
+    margin: 6px 0 0 !important;
+  }
+
+  .lp-finalbuy__btn {
+    box-sizing: border-box !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 240px !important;
+    max-width: 100% !important;
+    height: 55px !important;
+    margin-top: 8px !important;
+    background-color: #ffb715 !important;
+    border-radius: 5px !important;
+    padding: 17.5px 40px !important;
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    color: #131313 !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    transition: filter 0.2s ease !important;
+    cursor: pointer !important;
+  }
+
+  .lp-finalbuy__btn:hover {
+    filter: brightness(0.94) !important;
+  }
+
+  .lp-finalbuy__trust {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 1.38 !important;
+    color: #000000 !important;
+    text-align: center !important;
+    margin: 6px 0 0 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-finalbuy {
+      padding: 36px 16px !important;
+    }
+
+    .lp-finalbuy__card {
+      padding: 28px 20px 36px !important;
+    }
+
+    .lp-finalbuy__media {
+      height: auto !important;
+      aspect-ratio: 1 / 1 !important;
+    }
+
+    .lp-finalbuy__btn {
+      width: 100% !important;
+    }
+  }
+</style>
+
+<section class="lp-finalbuy">
+  <div class="lp-finalbuy__card">
+    <p class="lp-finalbuy__overline">One More Look</p>
+    <h3 class="lp-finalbuy__title">Luzon Buckle Sandal</h3>
+
+    <div class="lp-finalbuy__media">
+      <img class="lp-finalbuy__img" src="https://cdn.shopify.com/s/files/1/0162/1490/files/234456546465.png?v=1782205997&amp;width=800" alt="Luzon Buckle Sandal">
+    </div>
+
+    <div class="lp-finalbuy__price-row">
+      <span class="lp-finalbuy__price-now js-current-price" data-url="/products/luzon-buckle-sandal" style="text-decoration: line-through; color: #6b6b6b; font-size: 20px;">$64.50</span>
+      <span class="lp-finalbuy__price-save js-discount">Save $12.90</span>
+      <span class="lp-finalbuy__price-discounted js-discount-price" style="font-family: 'Liberation Sans', 'Arimo', Arial, sans-serif !important; font-weight: 700 !important; font-size: 32px !important; line-height: 1.4 !important; color: #131313 !important;">$51.60</span>
+    </div>
+
+    <p class="lp-finalbuy__note">20% off automatically applied with code SUMMER20.</p>
+
+    <a class="lp-finalbuy__btn" href="/products/luzon-buckle-sandal">Shop the Luzon →</a>
+
+    <p class="lp-finalbuy__trust">Free U.S. shipping for orders $120+. Free returns &amp; exchanges. 30-day Happiness Guarantee.</p>
+  </div>
+</section>
+
+
+<!-- =============================================
+     SECTION 15: Footer
+     ============================================= -->
+<style>
+  .lp-foot {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background-color: #ffffff !important;
+    border-top: 1px solid #ece4d8 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 40px 24px 56px !important;
+    overflow-x: hidden !important;
+  }
+
+  .lp-foot__inner {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1px !important;
+    width: 100% !important;
+    max-width: 680px !important;
+  }
+
+  .lp-foot__brand {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    letter-spacing: 0.72px !important;
+    line-height: 1.55 !important;
+    color: #131313 !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-foot__tagline,
+  .lp-foot__copy {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 1.38 !important;
+    color: #6b6b6b !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .lp-foot__tagline {
+    margin-top: 4px !important;
+  }
+
+  .lp-foot__links {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 12px 40px !important;
+    padding-top: 13px !important;
+  }
+
+  .lp-foot__link {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 1.38 !important;
+    color: #fe7029 !important;
+    text-decoration: none !important;
+    transition: opacity 0.2s ease !important;
+  }
+
+  .lp-foot__link:hover {
+    opacity: 0.8 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-foot {
+      padding: 32px 20px 44px !important;
+    }
+  }
+</style>
+
+<footer class="lp-foot">
+  <div class="lp-foot__inner">
+    <p class="lp-foot__brand">INKKAS</p>
+    <p class="lp-foot__tagline">Artful, travel-inspired footwear made for everyday adventures.</p>
+    <p class="lp-foot__copy">© 2026 Inkkas. All Rights Reserved.</p>
+    <nav class="lp-foot__links">
+      <a class="lp-foot__link" href="/policies/refund-policy">Returns &amp; Exchanges</a>
+      <a class="lp-foot__link" href="/policies/shipping-policy">Shipping</a>
+      <a class="lp-foot__link" href="/collections/sandals">Shop All Sandals</a>
+    </nav>
+  </div>
+</footer>
+
+<!-- =============================================
+     Sticky buy bar
+     ============================================= -->
+<style>
+  .lp-sticky-bar {
+    position: fixed !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    z-index: 9999 !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 -5px 19px rgba(0, 0, 0, 0.25) !important;
+    padding: 8px 16px 16px !important;
+    transform: translateY(0) !important;
+    transition: transform 0.35s ease, opacity 0.35s ease !important;
+  }
+
+  .lp-sticky-bar.is-hidden {
+    transform: translateY(110%) !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  .lp-sticky-bar__inner {
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 24px !important;
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+  }
+
+  .lp-sticky-bar__info {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 12px !important;
+  }
+
+  .lp-sticky-bar__price {
+    font-family: 'Figtree', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 28px !important;
+    letter-spacing: -0.72px !important;
+    line-height: 1.2 !important;
+    color: #151515 !important;
+  }
+
+  .lp-sticky-bar__rating {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    line-height: 1.25 !important;
+    color: #878787 !important;
+    text-align: left !important;
+  }
+
+  .lp-sticky-bar__rating .stars {
+    letter-spacing: 1px !important;
+  }
+
+  .lp-sticky-bar__btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #151515 !important;
+    border: 1px solid #151515 !important;
+    border-radius: 5px !important;
+    padding: 15px 29px !important;
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    letter-spacing: 0.6px !important;
+    text-transform: uppercase !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    transition: background-color 0.25s ease, color 0.25s ease !important;
+    cursor: pointer !important;
+  }
+
+  .lp-sticky-bar__btn:hover {
+    background-color: #ffffff !important;
+    color: #151515 !important;
+  }
+
+  @media (max-width: 768px) {
+    .lp-sticky-bar__inner {
+      flex-direction: column !important;
+      gap: 4px !important;
+    }
+
+    .lp-sticky-bar__btn {
+      width: 100% !important;
+      padding: 14px 20px !important;
+      margin-top: 4px !important;
+    }
+  }
+</style>
+
+<div class="lp-sticky-bar">
+  <div class="lp-sticky-bar__inner">
+    <div class="lp-sticky-bar__info">
+      <span class="lp-sticky-bar__price js-discount-price" data-url="/products/luzon-buckle-sandal">$51.60</span>
+      <span class="lp-sticky-bar__price-old js-current-price" data-url="/products/luzon-buckle-sandal" style="text-decoration: line-through; font-size: 16px; color: #878787; margin-left: 8px;">$64.50</span>
+      <span class="lp-sticky-bar__rating"><span class="stars">★★★★★</span>  4.7<br>250+ verified reviews</span>
+    </div>
+    <a class="lp-sticky-bar__btn" href="/products/luzon-buckle-sandal">Shop the Luzon Buckle Sandal →</a>
+  </div>
+</div>
+
+<script>
+(function () {
+  var bar = document.querySelector('.lp-sticky-bar');
+  if (!bar || !('IntersectionObserver' in window)) return;
+
+  var watch = document.querySelectorAll('.lp-product-card__price-wrap, .lp-hero__content, .lp-buybox__price');
+  if (!watch.length) return;
+
+  var visible = new Set();
+
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        visible.add(entry.target);
+      } else {
+        visible.delete(entry.target);
+      }
+    });
+    bar.classList.toggle('is-hidden', visible.size > 0);
+  }, { threshold: 0 });
+
+  watch.forEach(function (el) { observer.observe(el); });
+})();
+</script>
+
+
+<script>
+(function () {
+  /* Collect unique URLs across both price element types */
+  var urls = {};
+  document.querySelectorAll('.js-current-price, .js-compare-price, .js-discount-price').forEach(function (el) {
+    var url = el.getAttribute('data-url');
+    if (url) urls[url] = true;
+  });
+
+  Object.keys(urls).forEach(function (url) {
+    fetch(url + '.json')
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        var variant = data.product && data.product.variants && data.product.variants[0];
+        if (!variant) return;
+
+        var price       = variant.price ? '$' + parseFloat(variant.price).toFixed(2) : null;
+        var comparePrice = variant.compare_at_price ? '$' + parseFloat(variant.compare_at_price).toFixed(2) : null;
+
+        document.querySelectorAll('.js-current-price[data-url="' + url + '"]').forEach(function (el) {
+          if (price) {
+            el.textContent = price;
+
+            // Calculate and display discount and discounted price (20%)
+            var numPrice = parseFloat(variant.price);
+            if (!isNaN(numPrice)) {
+              var discountPercent = 0.20; // Hardcoded 20%
+              var savedAmount = numPrice * discountPercent;
+              var discountedPrice = numPrice - savedAmount;
+
+              var parent = el.parentElement;
+              if (parent) {
+                var discountEl = parent.querySelector('.js-discount');
+                if (discountEl) {
+                  discountEl.textContent = 'Save $' + savedAmount.toFixed(2);
+                }
+                var discountPriceEl = parent.querySelector('.js-discount-price');
+                if (discountPriceEl) {
+                  discountPriceEl.textContent = '$' + discountedPrice.toFixed(2);
+                }
+              }
+            }
+          }
+        });
+        document.querySelectorAll('.js-compare-price[data-url="' + url + '"]').forEach(function (el) {
+          if (comparePrice) el.textContent = comparePrice;
+          else el.style.display = 'none';
+        });
+      })
+      .catch(function () {});
+  });
+})();
+</script>
+
+<script>
+(function () {
+  
+  var linkSelectors = '.lp-sticky-bar__btn,.lp-hero__btn, .lp-inline-cta__btn, .lp-finalbuy__btn,.lp-announcement-bar__link, .lp-closing__btn';
+
+  var target = document.querySelector('.lp-buybox__price');
+  if (!target) return;
+
+  document.querySelectorAll(linkSelectors).forEach(function (el) {
+    el.addEventListener('click', function (e) {
+      e.preventDefault();
+      var top = target.getBoundingClientRect().top + window.pageYOffset;
+      window.scrollTo({ top: top, behavior: 'smooth' });
+    });
+  });
+})();
+</script>
+
