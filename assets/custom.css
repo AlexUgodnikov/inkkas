@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+  --font-space-mono:'Space Mono', monospace;
+}
+
 .product__custom-colors .product__custom-color {
   background-repeat: no-repeat;
   background-size: cover;
@@ -2120,9 +2126,10 @@ cartdrawer-recommends {
 .cartdrawer-recommends-grid .slider__cards {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
   gap: 15px;
+  padding-right: 70px;
 }
 
 .cartdrawer-recommend-img {
@@ -2151,7 +2158,7 @@ cartdrawer-recommends {
 }
 
 .cartdrawer-recommend-title {
-  font-size: calc(var(--font-product-title-scale, 1) * .9375rem);
+  font-size: calc(var(--font-product-title-scale, 1) * .85rem);
   line-height: calc(var(--font-product-title-line-height-scale, 1) * 1.5);
   font-weight: var(--font-body-medium-weight, 500);
 }
@@ -2820,3 +2827,22 @@ body.open-cart{
 .thb-full-menu .sub-menu li a img{
   max-width: 50px;
 } 
+
+/* Custom font accents only: prices, 
+eyebrows/section labels, 
+PDP badges (New/Sale/etc.), 
+size + color specs, 
+and the "one tree planted per pair" tags. 
+Not body copy. */
+product-card .price,
+.section-header--content .rte,
+.product-variant-label-dm__label,
+.product__custom-colors-title,
+.product-price-container .price,
+.product-variant-label-dm__true-to-size,
+.product-variant-tabs-wrp,
+.product_size-chart,
+.custom-field--title,
+.product-image-container, .product-image-container {
+  font-family: var(--font-space-mono);
+}

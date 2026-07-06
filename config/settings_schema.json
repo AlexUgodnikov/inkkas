@@ -292,6 +292,28 @@
         "label": "Outline button label",
         "default": "#151515"
       },
+        {
+        "type": "header",
+        "content": "Quick add drawer"
+      },
+       {
+        "type": "color",
+        "id": "quick_add_solid_button_background",
+        "label": "Solid button background",
+        "default": "#151515"
+      },
+      {
+        "type": "color",
+        "id": "quick_add_solid_button_label",
+        "label": "Solid button label",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "quick_add_outline_button_label",
+        "label": "Outline button label",
+        "default": "#151515"
+      },
       {
         "type": "header",
         "content": "Products"
