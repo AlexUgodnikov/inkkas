@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "heading_font": "figtree_n4",
+    "heading_font": "manrope_n7",
     "heading_font_scale": 110,
-    "body_font": "archivo_narrow_n4",
+    "body_font": "manrope_n4",
     "announcement_font_scale": 100,
     "navigation_font_scale": 100,
     "navigation_uppercase": false,
