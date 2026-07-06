@@ -91,6 +91,7 @@
       margin: 0 4px !important;
     }
   }
+
 </style>
 
 <div class="lp-announcement-bar">
@@ -382,7 +383,7 @@
 
     <div class="lp-hero__content">
       <div class="lp-hero__head">
-        <p class="lp-hero__overline">Artful, travel-inspired • handcrafted in small batches • 500K+ trees planted</p>
+        <p class="lp-hero__overline">Artful • handcrafted in small batches • 500K+ trees planted</p>
         <h1 class="lp-hero__heading">The One Sandal You'll Live in All Summer</h1>
         <p class="lp-hero__subheading">8 reasons the Luzon Buckle Sandal earns a permanent spot by your door.</p>
 
@@ -1411,15 +1412,50 @@
   .lp-buybox__table th{
      font-size: 14px!important;
   }
+
+    .lp-buybox__table-wrap {
+      overflow-x: auto !important;
+    }
+
+    .lp-buybox__table {
+      min-width: 460px !important;
+      table-layout: fixed !important;
+    }
+
+    /* Narrow the first two columns so the third stays visible */
+    .lp-buybox__table th:nth-child(1),
+    .lp-buybox__table td.lp-buybox__td--label {
+      width: 21% !important;
+    }
+
+    .lp-buybox__table th:nth-child(2),
+    .lp-buybox__table td.lp-buybox__td--ours {
+      width: 33% !important;
+    }
+
+    .lp-buybox__table th:nth-child(3),
+    .lp-buybox__table td.lp-buybox__td--theirs {
+      width: 32% !important;
+    }
+
+    .lp-buybox__table th,
+    .lp-buybox__table td {
+      white-space: normal !important;
+      word-break: break-word !important;
+    }
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 440px) {
     .lp-buybox__size {
       flex: 1 0 calc(50% - 5px) !important;
     }
       .lp-buybox__size {
 
-      font-size: 9px !important;
+      font-size: 11px !important;
+    }
+      .lp-buybox__sizes-row {
+     padding:10px 10px;
+    grid-template-columns: 1fr;
     }
   }
 </style>
@@ -1769,22 +1805,22 @@
   <div class="lp-ugc__grid">
 
     <div class="lp-ugc__card">
-      <video class="lp-ugc__video" preload="none" poster="https://cdn.shopify.com/s/files/1/0162/1490/files/Screenshot_2026-06-22_at_20.24.27_1.png?v=1782226437">
-        <source src="https://cdn.shopify.com/videos/c/o/v/e7cdd28faf1b4127a9cff0ee7baa1747.mp4" type="video/mp4"></video>
+      <video class="lp-ugc__video" preload="none" playsinline webkit-playsinline poster="https://cdn.shopify.com/s/files/1/0162/1490/files/Screenshot_2026-06-22_at_20.24.27_1.png?v=1782226437">
+        <source src="https://cdn.shopify.com/videos/c/o/v/516ced5fc2e046b396c0cd789b78f03d.mp4" type="video/mp4"></video>
       <button type="button" class="lp-ugc__play" aria-label="Play video"></button>
       <span class="lp-ugc__badge">@creator</span>
     </div>
 
     <div class="lp-ugc__card">
-      <video class="lp-ugc__video" preload="none" poster="https://cdn.shopify.com/s/files/1/0162/1490/files/Screenshot_2026-06-22_at_20.24.39_1.png?v=1782226437">
-        <source src="https://cdn.shopify.com/videos/c/o/v/0379592ead754d579f54428bda759478.mp4" type="video/mp4"></video>
+      <video class="lp-ugc__video" preload="none" playsinline webkit-playsinline poster="https://cdn.shopify.com/s/files/1/0162/1490/files/Screenshot_2026-06-22_at_20.24.39_1.png?v=1782226437">
+        <source src="https://cdn.shopify.com/videos/c/o/v/fbaecdb38b2d4dc09212f0bf96d5abcf.mp4" type="video/mp4"></video>
       <button type="button" class="lp-ugc__play" aria-label="Play video"></button>
       <span class="lp-ugc__badge">@creator</span>
     </div>
 
     <div class="lp-ugc__card">
-      <video class="lp-ugc__video" preload="none" poster="https://cdn.shopify.com/s/files/1/0162/1490/files/Screenshot_2026-06-22_at_20.24.53_1.png?v=1782226437">
-        <source src="https://videomedia.vizupcommerce.com/phuyupata.myshopify.com/generated_gif/snip-dv-ce112e07132b479cbdcae18ef52fe18f_h264vizup.mp4" type="video/mp4"></video>
+      <video class="lp-ugc__video" preload="none" playsinline webkit-playsinline poster="https://cdn.shopify.com/s/files/1/0162/1490/files/Screenshot_2026-06-22_at_20.24.53_1.png?v=1782226437">
+        <source src="https://cdn.shopify.com/videos/c/o/v/4b58e23c0bc84284bba2e4cba0694879.mp4" type="video/mp4"></video>
       <button type="button" class="lp-ugc__play" aria-label="Play video"></button>
       <span class="lp-ugc__badge">@creator</span>
     </div>
@@ -1803,10 +1839,6 @@
       card.classList.add('is-playing');
       video.setAttribute('controls', '');
       video.play();
-      /* iOS: open the native fullscreen player */
-      if (typeof video.webkitEnterFullscreen === 'function') {
-        video.webkitEnterFullscreen();
-      }
     }
 
     card.addEventListener('click', function (e) {
@@ -1872,25 +1904,56 @@
     margin: 0 !important;
   }
 
-  .lp-rev__grid {
+  .lp-rev__swiper {
     box-sizing: border-box !important;
-    display: flex !important;
-    gap: 24px !important;
-    align-items: stretch !important;
     width: 100% !important;
     max-width: 980px !important;
+    padding-bottom: 42px !important;
+    overflow: hidden !important;
+  }
+
+  .lp-rev__swiper .swiper-wrapper {
+    align-items: stretch !important;
+  }
+
+  .lp-rev__swiper .swiper-slide {
+    height: auto !important;
+    box-sizing: border-box !important;
   }
 
   .lp-rev__card {
     box-sizing: border-box !important;
-    flex: 1 0 0 !important;
-    min-width: 0 !important;
+    height: 100% !important;
     background-color: #f5f3ef !important;
     border-radius: 10px !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: flex-start !important;
     padding: 22px !important;
+  }
+
+  .lp-rev__rtitle {
+    font-family: "Liberation Sans", "Arimo", Arial, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 1.3 !important;
+    color: #131313 !important;
+    margin: 10px 0 0 !important;
+  }
+
+  .lp-rev__swiper .swiper-pagination {
+    bottom: 0 !important;
+  }
+
+  .lp-rev__swiper .swiper-pagination-bullet {
+    width: 8px !important;
+    height: 8px !important;
+    background: #c4c4c4 !important;
+    opacity: 1 !important;
+  }
+
+  .lp-rev__swiper .swiper-pagination-bullet-active {
+    background: #fe7029 !important;
   }
 
   .lp-rev__stars {
@@ -1936,11 +1999,6 @@
   }
 
   @media (max-width: 768px) {
-    .lp-rev__grid {
-      flex-direction: column !important;
-      max-width: 460px !important;
-    }
-
     .lp-rev__title {
       font-size: 24px !important;
     }
@@ -1953,31 +2011,130 @@
     <p class="lp-rev__sub">4.7 out of 5 stars across 250+ reviews · 92% would recommend</p>
   </div>
 
-  <div class="lp-rev__grid">
+  <div class="swiper lp-rev__swiper">
+    <div class="swiper-wrapper">
 
-    <div class="lp-rev__card">
-      <p class="lp-rev__stars">★★★★★</p>
-      <p class="lp-rev__text">These are my "happy" shoes! They are so bright and colorful (with all my favorite colors). They were a bit wide, but adjusting the strap fixed that. And, a bit stiff, but a couple of days of breaking them in and we are off and running! I'm HAPPY!</p>
-      <p class="lp-rev__author">Myrle C.</p>
-      <p class="lp-rev__badge">Verified Buyer</p>
+      <div class="swiper-slide">
+        <div class="lp-rev__card">
+          <p class="lp-rev__stars">★★★★★</p>
+          <p class="lp-rev__rtitle">OMG just gorgeous</p>
+          <p class="lp-rev__text">Truly love these sandals very very comfortable, very bright and fun and have gotten many compliments. They especially our great with bright toenail polish during the summer, but could brighten up the winter and would be a great transition into the fall with all of the colors. I plan to order more from this company. It was the first time I tried them and I am so impressed. I can’t wait to get the boots for winter. They’re also a really great statement shoe for yoga and on the beach</p>
+          <p class="lp-rev__author">Aryn H.</p>
+          <p class="lp-rev__badge">Verified Buyer</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="lp-rev__card">
+          <p class="lp-rev__stars">★★★★★</p>
+          <p class="lp-rev__rtitle">Adorable Sandals</p>
+          <p class="lp-rev__text">Omgosh!! I’ve gotten so many compliments on my new Inkkas Sandals. Not only are they super cute but very comfortable. Highly recommend. My daughter loved them so much, I’m getting her a paid. Thank you so much Inkkas for making great quality and cute shoes, boots & sandals.</p>
+          <p class="lp-rev__author">Tamara L.</p>
+          <p class="lp-rev__badge">Verified Buyer</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="lp-rev__card">
+          <p class="lp-rev__stars">★★★★★</p>
+          <p class="lp-rev__rtitle">LUZON Sandals</p>
+          <p class="lp-rev__text">These are the most beautiful sandals I have ever worn! My husband bought them for me for my birthday (today) and I am thrilled. They are so comfortable and VERY stylish! These are my new favorite shoes!!!</p>
+          <p class="lp-rev__author">Cheryl</p>
+          <p class="lp-rev__badge">Verified Buyer</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="lp-rev__card">
+          <p class="lp-rev__stars">★★★★★</p>
+          <p class="lp-rev__rtitle">Beautiful</p>
+          <p class="lp-rev__text">These may be the most beautiful print sandals I have ever owned. They are amazing. They will get so much use in FL. I am a pretty standard 8.5 and ordered the smaller size and they fit great. I was worried the bigger size would have been to loose across the top.</p>
+          <p class="lp-rev__author">Danielle G.</p>
+          <p class="lp-rev__badge">Verified Buyer</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="lp-rev__card">
+          <p class="lp-rev__stars">★★★★★</p>
+          <p class="lp-rev__rtitle">Love everything about them</p>
+          <p class="lp-rev__text">These go with everything, they're comfortable, they're fun, quirky - they check all the boxes for me! Get tons of compliments every time I wear them, and they're made really well. I want more designs!</p>
+          <p class="lp-rev__author">Christina</p>
+          <p class="lp-rev__badge">Verified Buyer</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="lp-rev__card">
+          <p class="lp-rev__stars">★★★★★</p>
+          <p class="lp-rev__rtitle">5 Stars</p>
+          <p class="lp-rev__text">These go with everything, they're comfortable, they're fun, quirky - they check all the boxes for me! Get tons of compliments every time I wear them, and they're made really well. I want more designs!</p>
+          <p class="lp-rev__author">Jacqueline</p>
+          <p class="lp-rev__badge">Verified Buyer</p>
+        </div>
+      </div>
+ 
+      <div class="swiper-slide">
+        <div class="lp-rev__card">
+          <p class="lp-rev__stars">★★★★★</p>
+          <p class="lp-rev__rtitle">Love these!!</p>
+          <p class="lp-rev__text">Tropical and comfortable!! Just what I needed!</p>
+          <p class="lp-rev__author">Rita K.</p>
+          <p class="lp-rev__badge">Verified Buyer</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="lp-rev__card">
+          <p class="lp-rev__stars">★★★★★</p>
+          <p class="lp-rev__rtitle">Luzon Buckle Sandal</p>
+          <p class="lp-rev__text">I recently purchased these sandals and as well being beautiful, they are extremely comfortable right out of the box. I’m sure that I will be wearing them a lot this summer and I might purchase a second pair in a different color.</p>
+          <p class="lp-rev__author">Donna L.</p>
+          <p class="lp-rev__badge">Verified Buyer</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="lp-rev__card">
+          <p class="lp-rev__stars">★★★★★</p>
+          <p class="lp-rev__rtitle">Comfy &amp; Pretty</p>
+          <p class="lp-rev__text">These sandals are the bees knees . They will mold to your foot and are so comfortable and stylish too. Love them!</p>
+          <p class="lp-rev__author">Linda M.</p>
+          <p class="lp-rev__badge">Verified Buyer</p>
+        </div>
+      </div>
+
     </div>
-
-    <div class="lp-rev__card">
-      <p class="lp-rev__stars">★★★★<span class="star--empty">★</span></p>
-      <p class="lp-rev__text">I love the Luzon Buckle Sandals but one of my little toes doesn't fit comfortably under the strap. It has to be my foot because the other sandal fits perfectly! I'm going to keep the sandals and hope, with wear, the strap is able to accommodate my little toe!</p>
-      <p class="lp-rev__author">Joyce P.</p>
-      <p class="lp-rev__badge">Verified Buyer</p>
-    </div>
-
-    <div class="lp-rev__card">
-      <p class="lp-rev__stars">★★★★★</p>
-      <p class="lp-rev__text">These are sturdy, the color is bold and vibrant and will not fade from what I can see, feels luxurious like berks but way more creative. The straps are set a little bit more toward to toes which I like, buckles look high end.</p>
-      <p class="lp-rev__author">Angela B.</p>
-      <p class="lp-rev__badge">Verified Buyer</p>
-    </div>
-
+    <div class="swiper-pagination"></div>
   </div>
 </section>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+(function () {
+  function initRevSwiper() {
+    if (typeof Swiper === 'undefined') { setTimeout(initRevSwiper, 100); return; }
+    new Swiper('.lp-rev__swiper', {
+      slidesPerView: 1,
+      spaceBetween: 16,
+      autoHeight: true,
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true
+      },
+      pagination: { el: '.lp-rev__swiper .swiper-pagination', clickable: true },
+      breakpoints: {
+        640:  { slidesPerView: 2, spaceBetween: 20 },
+        1024: { slidesPerView: 3, spaceBetween: 24 }
+      }
+    });
+  }
+  initRevSwiper();
+})();
+</script>
 
 
 <!-- =============================================
