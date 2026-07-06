@@ -45,6 +45,15 @@
             "link": "shopify://pages/shipping"
           }
         },
+        "text_UjATph": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "star",
+            "text": "JOIN INKPASS® TO UNLOCK FREE U.S. SHIPPING (NO MINIMUM)",
+            "link": "shopify://pages/inkkas-rewards"
+          }
+        },
         "text_xhDUtd": {
           "type": "text",
           "disabled": true,
@@ -59,35 +68,16 @@
           "disabled": true,
           "settings": {
             "icon": "none",
-            "text": "SUMMER ADVENTURES THIS WAY →",
-            "link": "shopify://collections/moxie-collection"
-          }
-        },
-        "text_rak9aA": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "text": "ORDER BY 6/14 FOR FATHER'S DAY DELIVERY",
-            "link": "shopify://collections/gift-guide-mens"
-          }
-        },
-        "text_UjATph": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "icon": "star",
-            "text": "JOIN INKPASS® TO UNLOCK FREE U.S. SHIPPING (NO MINIMUM)",
-            "link": "shopify://pages/inkkas-rewards"
+            "text": "SAVE 25-30% ON YOUR SUMMER BUNDLE →",
+            "link": "shopify://pages/bundle-builder"
           }
         }
       },
       "block_order": [
         "text_CmerAE",
+        "text_UjATph",
         "text_xhDUtd",
-        "text_DByWNV",
-        "text_rak9aA",
-        "text_UjATph"
+        "text_DByWNV"
       ],
       "settings": {
         "announcement_bar": true,
@@ -128,8 +118,8 @@
       "settings": {
         "sticky_header": true,
         "items_icons": "SANDALS, SNEAKERS, BOOTS, BAGS &amp; MORE, FEATURED",
-        "logo": "shopify://shop_images/inkkasblack_9292de40-7bd9-493f-8c9e-6d4eece2cd1c.png",
-        "logo_height_range": 30,
+        "logo": "shopify://shop_images/Inkkas_bca4022c-3d7c-4895-b33f-551bedaec592.png",
+        "logo_height_range": 35,
         "logo_height_range_mobile": 30,
         "style": "style1",
         "header_shadow": "header--shadow-small",

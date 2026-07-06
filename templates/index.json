@@ -14,6 +14,7 @@
       "blocks": {
         "image_gRfqgf": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/InkkasHomepage-May2026-mobile_3_slides-canva.webp",
             "subheading": "",
@@ -28,6 +29,7 @@
         },
         "image_P3dyTX": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Mobile_Banner_28.jpg",
             "subheading": "",
@@ -37,21 +39,6 @@
             "link": "",
             "use_text_button": false,
             "block_link": "shopify://collections/mens-shoes",
-            "product_list": []
-          }
-        },
-        "image_FxNmzq": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2026_Rad_Dad_Sale.webp",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/gift-guide-mens",
             "product_list": []
           }
         },
@@ -75,21 +62,6 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Mobile_Banner_23.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/womens-collection-all-shoes",
-            "product_list": []
-          }
-        },
-        "image_rAYUqc": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/InkkasHomepage-May2026-mobile_3_slides-canva.webp",
             "subheading": "",
             "title": "",
             "text": "",
@@ -149,10 +121,8 @@
       "block_order": [
         "image_gRfqgf",
         "image_P3dyTX",
-        "image_FxNmzq",
         "image_nJgd6H",
         "image_KwBFgd",
-        "image_rAYUqc",
         "image_mQDJ6L",
         "image_z69wQ3",
         "image_emmzx8"
@@ -178,74 +148,11 @@
     "gallery_iKbjEV": {
       "type": "gallery",
       "blocks": {
-        "image_DQqiaB": {
-          "type": "image",
-          "name": "Prime-boots-left",
-          "settings": {
-            "image": "shopify://shop_images/Summer_2026_Prime_Sale-LEFT_SIDE_897d52d6-49bf-476c-80a0-7c3f9ae3d3fa.webp",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/all-boots",
-            "product_list": []
-          }
-        },
-        "image_6MXGcq": {
-          "type": "image",
-          "name": "Prime-boots-right",
-          "settings": {
-            "image": "shopify://shop_images/Summer_2026_Prime_Sale-RIGHT_SIDE_bf846f1e-1f39-4379-a3ef-301e6bd13210.gif",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/all-boots",
-            "product_list": []
-          }
-        },
-        "image_gdenzr": {
-          "type": "image",
-          "name": "Prime-Trekk-left",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Summer_2026_Prime_Sale-Joya-LEFT_SIDE.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/all-boots",
-            "product_list": []
-          }
-        },
-        "image_H7ggjA": {
-          "type": "image",
-          "name": "Prime-Trekk-right",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Summer_2026_Prime_Sale-Joya-RIGHT_SIDE.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/best-sellers",
-            "product_list": []
-          }
-        },
         "image_VcBfcX": {
           "type": "image",
           "name": "4th july-jump-left",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/2026_4th_of_July-jump-left.gif",
+            "image": "shopify://shop_images/2026_4th_of_July-jump1-left_d55b65fe-8d4f-49ee-82b6-9ce9b42f92da.webp",
             "subheading": "",
             "title": "",
             "text": "",
@@ -259,9 +166,8 @@
         "image_kiVTDz": {
           "type": "image",
           "name": "4th july-jump-right",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/2026_4th_of_July-jump-right.gif",
+            "image": "shopify://shop_images/2026_4th_of_July-jump1-right.jpg",
             "subheading": "",
             "title": "",
             "text": "",
@@ -277,7 +183,7 @@
           "name": "4th july-left",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/4thofJuly-left_5f4d3d9a-0dea-49a7-b73c-a5e048367a95.webp",
+            "image": "shopify://shop_images/2026_4th_of_July-jump2-left_1c0576cf-bd3e-4eea-9242-489e1729865e.webp",
             "subheading": "",
             "title": "",
             "text": "",
@@ -293,7 +199,39 @@
           "name": "4th july-right",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/4thofJuly-right.webp",
+            "image": "shopify://shop_images/2026_4th_of_July-jump2-right_a75089d8-73fd-4cc8-babd-aabfe8b6c85c.webp",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/best-sellers",
+            "product_list": []
+          }
+        },
+        "image_MraBLy": {
+          "type": "image",
+          "name": "4th july-joya-left",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/2026_4th_of_July-Joya-Left_a72df89e-116b-4c92-9b57-175bf0198b96.webp",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/best-sellers",
+            "product_list": []
+          }
+        },
+        "image_tTmUHj": {
+          "type": "image",
+          "name": "4th july-joya-right",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/2026_4th_of_July-Joya-Right.webp",
             "subheading": "",
             "title": "",
             "text": "",
@@ -306,14 +244,12 @@
         }
       },
       "block_order": [
-        "image_DQqiaB",
-        "image_6MXGcq",
-        "image_gdenzr",
-        "image_H7ggjA",
         "image_VcBfcX",
         "image_kiVTDz",
         "image_8eaHhf",
-        "image_CeaQEB"
+        "image_CeaQEB",
+        "image_MraBLy",
+        "image_tTmUHj"
       ],
       "name": "Gallery-test ",
       "settings": {
@@ -344,11 +280,12 @@
     },
     "featured_collection_KpRGkz": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
-        "heading": "⚡ Flash Boot Sale",
+        "heading": "Prime Flash Sale",
         "heading_left": true,
-        "description": "<p><em>For 4 days only, save </em><em><strong>$50 on any pair of boots</strong></em><em> with code </em><em><strong>BOOT50</strong></em><em>. </em></p>",
+        "description": "<p><em>Take </em><em><strong>$50 off</strong></em><em> all-season, handcrafted boots with code </em><em><strong>BOOT50. </strong></em><em>While sizes last.</em></p>",
         "full_width": true,
         "collection": "all-boots",
         "display_type": "carousel",
@@ -363,7 +300,6 @@
     },
     "featured_collection_zwp4pM": {
       "type": "featured-collection",
-      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "heading": "Bestsellers",
@@ -414,7 +350,7 @@
       "type": "single-image",
       "name": "Single image",
       "settings": {
-        "image": "shopify://shop_images/Final_-_Inkkas_Brand_Icons_-_Top_of_Homepage_-_5.29.26_2.png",
+        "image": "shopify://shop_images/Homepage_Tagline_with_Icons_-_6.26.26.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -993,7 +929,7 @@
         "text_DAh89t": {
           "type": "text",
           "settings": {
-            "text": "<p>Answer 5 quick questions and we'll match you to your Inkkas solemate.</p>",
+            "text": "<p>Answer 5 quick questions and we'll find the best pair for you.</p>",
             "description_size": "medium"
           }
         },
@@ -1030,8 +966,8 @@
         "section_width": "full-width-row-full",
         "layout": "image_first",
         "content_position": "text-center",
-        "color_bg": "#fff282",
-        "color_text": "#151515",
+        "color_bg": "#ffec8e",
+        "color_text": "#050505",
         "color_border": "#e2e2e2",
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
@@ -1121,7 +1057,7 @@
       "type": "single-image",
       "name": "Single image",
       "settings": {
-        "image": "shopify://shop_images/Final_-_Inkkas_Brand_Icons_-_Bottom_of_Homepage_-_5.29.26_3.png",
+        "image": "shopify://shop_images/Why_Inkkas_Homepage_Icons_-_06.26.26.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -1176,7 +1112,7 @@
       "settings": {
         "heading": "",
         "heading_left": false,
-        "description": "<h3>Handcrafted. Independent. One-of-a-kind.</h3>",
+        "description": "<h3><strong>Handcrafted. Hand-inked. 500K+ trees planted.</strong></h3>",
         "full_width": false,
         "display_type": "grid",
         "image_ratio": "square",

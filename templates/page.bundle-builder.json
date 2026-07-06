@@ -22,11 +22,55 @@
       "type": "single-image",
       "name": "Single image",
       "settings": {
-        "image": "shopify://shop_images/Bundle_-_Summer25_1.png",
-        "image_mobile": "shopify://shop_images/Bundle_-_Summer25_2.png",
+        "image": "shopify://shop_images/Summer_Bundle_Background.jpg",
+        "image_mobile": "shopify://shop_images/Summer_Bundle_Background_2026_2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_Ep4kkh": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_eKHDFT": {
+          "type": "subheading",
+          "settings": {
+            "text": "BUILD YOUR BUNDLE"
+          }
+        },
+        "heading_7M6eNJ": {
+          "type": "heading",
+          "settings": {
+            "text": "BUILD YOUR BUNDLE",
+            "size": "h4"
+          }
+        },
+        "text_gCrTJw": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Save 25% When You Choose 2. Save 30% When You Choose 3.</strong></p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_eKHDFT",
+        "heading_7M6eNJ",
+        "text_gCrTJw"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "17519203299e40f6e0": {
@@ -61,6 +105,7 @@
   "order": [
     "main",
     "single_image_hnaMrG",
+    "rich_text_Ep4kkh",
     "17519203299e40f6e0",
     "page_jtPX6Y"
   ]
