@@ -582,9 +582,9 @@
       ],
       "custom_css": [],
       "settings": {
-        "bg_btn_color": "#FFB715",
+        "bg_btn_color": "#ffb715",
         "text_btn_color": "#151515",
-        "bg_btn_color_hover": "#FFB715",
+        "bg_btn_color_hover": "#151515",
         "text_btn_color_hover": "#FFFFFF",
         "full_width": true,
         "enable_sticky_info": true,
