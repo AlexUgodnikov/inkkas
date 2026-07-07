@@ -2049,3 +2049,8 @@ shopify-accelerated-checkout {
   --shopify-accelerated-checkout-button-block-size: 48px;
   --shopify-accelerated-checkout-button-border-radius: var(--button-border-radius, 0px);
 }
+
+/* Klaviyo custom button */
+.product-add-to-cart-container #klaviyo-bis-button-container button{
+  height: 63px!important;
+}
