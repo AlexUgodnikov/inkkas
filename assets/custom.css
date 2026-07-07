@@ -1207,8 +1207,11 @@ preorder-me-button {
 .product-add-to-cart-sticky .product-add-to-cart-sticky--inner,
 .product-add-to-cart-sticky .product-add-to-cart-sticky--inner:focus,
 .product-add-to-cart-sticky .product-add-to-cart-sticky--inner:active {
-  background: #151515;
-  color: #ffffff;
+  /* background: #151515; */
+  background-color:#ffb715;
+  border-color: #ffb715;
+  color:#151515;
+
   padding: 7px 30px;
   height: 65px;
 }
@@ -2842,7 +2845,8 @@ product-card .price,
 .product-variant-label-dm__true-to-size,
 .product-variant-tabs-wrp,
 .product_size-chart,
-.custom-field--title,
+.inventory-custom-code .product-card__tag-info,
 .product-image-container, .product-image-container {
   font-family: var(--font-space-mono);
 }
+ 
