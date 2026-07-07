@@ -1199,14 +1199,15 @@ preorder-me-button {
 }
 
 .product-add-to-cart-sticky .product-add-to-cart-sticky--inner,
-.product-add-to-cart-sticky .product-add-to-cart-sticky--inner:focus,
 .product-add-to-cart-sticky .product-add-to-cart-sticky--inner:active {
-  background: #151515;
-  color: #ffffff;
+ 
   padding: 7px 30px;
   height: 65px;
 }
-
+.product-add-to-cart-sticky--inner.button.active{
+  background: #fff!important;
+  color: #151515!important; 
+} 
 .product-add-to-cart-sticky--inner.active .single-add-to-cart-button--text,
 .product-add-to-cart-sticky--inner.sticky-open .single-add-to-cart-button--text {
   display: none;

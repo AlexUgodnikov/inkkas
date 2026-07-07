@@ -1,5 +1,6 @@
 {{ 'product.css' | asset_url | stylesheet_tag }}
 
+
 {%- liquid
 	assign media_aspect_ratio = section.settings.media_aspect_ratio
 	assign first_3d_model = product.media | where: "media_type", "model" | first

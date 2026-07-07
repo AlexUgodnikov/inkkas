@@ -4,6 +4,33 @@
 	assign free_shipping_minimum = settings.free_shipping_minimum | times: 100
 	assign total = cart.total_price
 -%}
+
+{% style %}
+		cartdrawer-recommends .addt-to-cart-drawer {
+			background:{{settings.add_button_background}}!important;
+			color:{{settings.add_button_label}}!important;
+			border-color:{{settings.add_button_background}}!important;
+		}
+		cartdrawer-recommends .addt-to-cart-drawer:hover{
+			background:{{settings.add_hover_button_background}}!important;
+border-color:{{settings.add_hover_button_background}}!important;
+			color:{{settings.add_hover_button_label}}!important;
+		}
+
+.cart-drawer-footer #nvd-with-checkout-btn{
+	background:{{settings.checkout_button_background}}!important;
+	border-color:{{settings.checkout_button_background}}!important;
+	color:{{settings.checkout_button_label}}!important;
+}
+.cart-drawer-footer #nvd-with-checkout-btn:hover{
+	background:{{settings.checkout_hover_button_background}}!important;
+	border-color:{{settings.checkout_hover_button_background}}!important;
+	color:{{settings.checkout_hover_button_label}}!important;
+	transition:all .3s;
+}
+{% endstyle %}
+
+
 <div class="side-panel cart-drawer" id="Cart-Drawer" tabindex="-1">
 	<div class="side-panel-inner">
 		<div class="side-panel-header">
