@@ -292,6 +292,50 @@
         "label": "Outline button label",
         "default": "#151515"
       },
+       {
+        "type": "header",
+        "content": "Cart Drawer Buttons"
+      },
+       {
+        "type": "color",
+        "id": "add_button_background",
+        "label": "Add button background",
+        "default": "#151515"
+      },
+      {
+        "type": "color",
+        "id": "add_button_label",
+        "label": "Add button label",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "add_outline_button_label",
+        "label": "Add Outline button label",
+        "default": "#151515"
+      },
+      {
+        "type": "header",
+        "content": "Cart Drawer Checkout button"
+      },
+        {
+        "type": "color",
+        "id": "checkout_button_background",
+        "label": "Checkout button background",
+        "default": "#151515"
+      },
+      {
+        "type": "color",
+        "id": "checkout_button_label",
+        "label": "Checkout button label",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "checkout_outline_button_label",
+        "label": "Checkout Outline button label",
+        "default": "#151515"
+      },
       {
         "type": "header",
         "content": "Products"
