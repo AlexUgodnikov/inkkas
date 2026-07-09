@@ -11,6 +11,30 @@
   "type": "header",
   "name": "Header group",
   "sections": {
+    "1783430632572e766a": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_Ctedep": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "name": "Klaviyo Embedded Form: A/B (New Visitors)",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-Rc9yqw\"></div>"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_a9PVmg": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "name": "Klaviyo Embedded: Bundle (Returning)",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-Y2sfXt\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_Ctedep",
+        "klaviyo_email_marketing_sms_form_embed_block_a9PVmg"
+      ],
+      "settings": {}
+    },
     "17537418499196266c": {
       "type": "apps",
       "blocks": {
@@ -32,6 +56,7 @@
         "essential_announcer_app_block_RJCMgH",
         "essential_countdown_timer_app_block_cX6m8L"
       ],
+      "disabled": true,
       "settings": {}
     },
     "announcement-bar": {
@@ -41,17 +66,8 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "FREE SHIPPING ON ALL U.S. ORDERS $120+",
+            "text": "FREE U.S. Shipping on Orders $120+",
             "link": "shopify://pages/shipping"
-          }
-        },
-        "text_UjATph": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "icon": "star",
-            "text": "JOIN INKPASS® TO UNLOCK FREE U.S. SHIPPING (NO MINIMUM)",
-            "link": "shopify://pages/inkkas-rewards"
           }
         },
         "text_xhDUtd": {
@@ -59,25 +75,23 @@
           "disabled": true,
           "settings": {
             "icon": "none",
-            "text": "FREE RETURNS & EXCHANGES",
+            "text": "FREE U.S. Returns & Exchanges",
             "link": "shopify://pages/return-policy"
           }
         },
-        "text_DByWNV": {
+        "text_UjATph": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "icon": "none",
-            "text": "SAVE 25-30% ON YOUR SUMMER BUNDLE →",
-            "link": "shopify://pages/bundle-builder"
+            "text": "Join INKPASS® → Unlock FREE U.S. Shipping (No Minimum) & Rewards",
+            "link": "shopify://pages/inkkas-rewards"
           }
         }
       },
       "block_order": [
         "text_CmerAE",
-        "text_UjATph",
         "text_xhDUtd",
-        "text_DByWNV"
+        "text_UjATph"
       ],
       "settings": {
         "announcement_bar": true,
@@ -135,6 +149,7 @@
     }
   },
   "order": [
+    "1783430632572e766a",
     "17537418499196266c",
     "announcement-bar",
     "header"

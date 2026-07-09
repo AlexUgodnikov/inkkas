@@ -1377,6 +1377,20 @@
     "gallery_jabGP6": {
       "type": "gallery",
       "blocks": {
+        "image_39gNMD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desert_Buckle_Sandal-UGC-_lizzylemonseed_7fc2c3db-f94f-41f9-8fbd-2539506eef5d.png",
+            "subheading": "",
+            "title": "",
+            "text": "@lizzylemonseed",
+            "link_label": "shop",
+            "link": "shopify://products/desert-buckle-sandal",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
         "image_Qpbgbb": {
           "type": "image",
           "settings": {
@@ -1414,6 +1428,34 @@
             "text": "@alaceyrose",
             "link_label": "SHOP",
             "link": "shopify://products/saola-vegan-jogger",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_EPHtKL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Chanterelle_Vegan_Trekk_Boot-Hike-UGC-_jillmwar-3.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "@jillmwar",
+            "link_label": "SHOP",
+            "link": "shopify://products/chanterelle-vegan-trekk-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_CxKeXf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Luzon_Tennis-UGC-_bearcla16realtor.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "@bearcla16realtor",
+            "link_label": "shop",
+            "link": "shopify://products/luzon-tennis",
             "use_text_button": false,
             "block_link": "",
             "product_list": []
@@ -1615,6 +1657,20 @@
             "product_list": []
           }
         },
+        "image_hVfd9L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2025-04-09_at_12.27.50_PM_8055a621-2f82-446b-ba9a-f04e9b0436df.png",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "shop",
+            "link": "shopify://products/samadhi-buckle-sandal",
+            "use_text_button": false,
+            "block_link": "shopify://products/samadhi-buckle-sandal",
+            "product_list": []
+          }
+        },
         "image_DRbCzE": {
           "type": "image",
           "settings": {
@@ -1727,20 +1783,6 @@
             "product_list": []
           }
         },
-        "image_hVfd9L": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2025-04-09_at_12.27.50_PM_8055a621-2f82-446b-ba9a-f04e9b0436df.png",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "shop",
-            "link": "shopify://products/samadhi-buckle-sandal",
-            "use_text_button": false,
-            "block_link": "shopify://products/samadhi-buckle-sandal",
-            "product_list": []
-          }
-        },
         "image_F4b7Bq": {
           "type": "image",
           "settings": {
@@ -1792,20 +1834,6 @@
             "text": "@alybradio",
             "link_label": "SHOP",
             "link": "shopify://products/brisbane-camping-boot",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_39gNMD": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-07-29_at_2.13.04_PM.png",
-            "subheading": "",
-            "title": "",
-            "text": "@see_az_with_bre",
-            "link_label": "shop",
-            "link": "shopify://products/caladium-jogger",
             "use_text_button": false,
             "block_link": "",
             "product_list": []
@@ -1979,20 +2007,6 @@
             "product_list": []
           }
         },
-        "image_EPHtKL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Spirit_Bear_Runners-UGC-_liv_stew7.png",
-            "subheading": "",
-            "title": "",
-            "text": "@liv_stew7",
-            "link_label": "SHOP",
-            "link": "shopify://products/spirit-bear-runner-v-2",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
         "image_UtWhUY": {
           "type": "image",
           "settings": {
@@ -2044,20 +2058,6 @@
             "text": "@nursebarbie518",
             "link_label": "shop",
             "link": "shopify://products/monterey-vegan-trekk-boot",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_CxKeXf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Mohave_Trekk_Boot-UGC-HIKE-_jessicayekin-4.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "@jessicayekin",
-            "link_label": "shop",
-            "link": "shopify://products/mohave-trekk-boot",
             "use_text_button": false,
             "block_link": "",
             "product_list": []
@@ -2233,9 +2233,12 @@
         }
       },
       "block_order": [
+        "image_39gNMD",
         "image_Qpbgbb",
         "image_7ndmM4",
         "image_Qfyfzi",
+        "image_EPHtKL",
+        "image_CxKeXf",
         "image_JzmwVn",
         "image_N77RUE",
         "image_Ca7kJV",
@@ -2250,6 +2253,7 @@
         "image_TD9Kpy",
         "image_VJbzne",
         "image_pcYXfh",
+        "image_hVfd9L",
         "image_DRbCzE",
         "image_ErteBn",
         "image_kbFafz",
@@ -2258,12 +2262,10 @@
         "image_iU397E",
         "image_jqhiLQ",
         "image_hyhgzr",
-        "image_hVfd9L",
         "image_F4b7Bq",
         "image_bCnigT",
         "image_hUmzxM",
         "image_JeMtJq",
-        "image_39gNMD",
         "image_bNc3Wk",
         "image_cemYHF",
         "image_UC6RK7",
@@ -2276,12 +2278,10 @@
         "image_hnTbRY",
         "image_karycX",
         "image_GY7Gp8",
-        "image_EPHtKL",
         "image_UtWhUY",
         "image_4iKi6X",
         "image_TWLBTq",
         "image_hymwgR",
-        "image_CxKeXf",
         "image_QMiDQU",
         "image_yfCDND",
         "image_N73zx8",

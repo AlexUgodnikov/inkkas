@@ -2128,6 +2128,7 @@ cartdrawer-recommends {
 .cartdrawer-recommend-img {
   max-width: 90px;
   background-color: #fff;
+  width:100%;
 }
 /* .cartdrawer-recommends-wrp:not(.cartdrawer-recommends-swiper) .cartdrawer-recommend-img{
   max-width: 65px;
