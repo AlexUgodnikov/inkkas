@@ -97,6 +97,13 @@
             "show_gift_card_recipient": false
           }
         },
+        "klaviyo_email_marketing_sms_form_embed_block_pDPnKg": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "name": "Klaviyo PDP 20% Off",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-VPtkgv\"></div>"
+          }
+        },
         "advantages_icons_UpLWjm": {
           "type": "advantages_icons",
           "settings": {
@@ -112,12 +119,14 @@
         },
         "essential_announcer_app_block_kRiMDb": {
           "type": "shopify://apps/essential-announcer/blocks/app-block/93b5429f-c8d6-4c33-ae14-250fd84f361b",
+          "disabled": true,
           "settings": {
             "id": "747e4b41-f426-4bb0-a264-a3ef3ca928de"
           }
         },
         "essential_countdown_timer_app_block_L7YXF4": {
           "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+          "disabled": true,
           "settings": {
             "id": "cmnfg67lq0068pkgl13bu9h5y"
           }
@@ -547,6 +556,7 @@
         "side_panel_g4pmfR",
         "preorder_me_product_button_t8zPaL",
         "buy_buttons",
+        "klaviyo_email_marketing_sms_form_embed_block_pDPnKg",
         "advantages_icons_UpLWjm",
         "essential_announcer_app_block_kRiMDb",
         "essential_countdown_timer_app_block_L7YXF4",
