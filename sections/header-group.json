@@ -16,14 +16,14 @@
       "blocks": {
         "klaviyo_email_marketing_sms_form_embed_block_Ctedep": {
           "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
-          "name": "Klaviyo Embedded Form: A/B (New Visitors)",
+          "name": "Klaviyo: 20% Off Inkkas20 (Non Klaviyo Profilestors Only)",
           "settings": {
-            "formId": "<div class=\"klaviyo-form-Rc9yqw\"></div>"
+            "formId": "<div class=\"klaviyo-form-XFjebd\"></div>"
           }
         },
         "klaviyo_email_marketing_sms_form_embed_block_a9PVmg": {
           "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
-          "name": "Klaviyo Embedded: Bundle (Returning)",
+          "name": "Klaviyo: Free Shipping (Klaviyo Profiles Only))",
           "settings": {
             "formId": "<div class=\"klaviyo-form-Y2sfXt\"></div>"
           }
@@ -56,7 +56,6 @@
         "essential_announcer_app_block_RJCMgH",
         "essential_countdown_timer_app_block_cX6m8L"
       ],
-      "disabled": true,
       "settings": {}
     },
     "announcement-bar": {
@@ -93,6 +92,7 @@
         "text_xhDUtd",
         "text_UjATph"
       ],
+      "disabled": true,
       "settings": {
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
