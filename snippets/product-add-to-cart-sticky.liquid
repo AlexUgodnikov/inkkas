@@ -366,15 +366,14 @@
 	</div>
   </div>
 </product-add-to-cart-sticky>
-
+ 
 <script>
 
  document.addEventListener('DOMContentLoaded', function() {
 
             jQuery(function($) {
-              /* Sync sticky size selection to the main product form, keep scroll position */
-              $("product-add-to-cart-sticky").on("change", 'input[type="radio"]', function () {
-                var short = $(this).data('inputshort');
+              /* Apply a sticky size to the main product form (keep scroll position) */
+              function syncStickyToMain(short) {
                 if (!short) return;
                 var mainLabel = document.querySelector('product-variant-manager .product-form__input_dann label[data-titleshort="' + short + '"]');
                 if (!mainLabel) return;
@@ -382,6 +381,34 @@
                 mainLabel.click();
                 window.scrollTo(0, y);
                 requestAnimationFrame(function () { window.scrollTo(0, y); });
+              }
+
+              /* Live sync on size tap (label click fires even when re-selecting the
+                 already-checked size, unlike change). Updates price/media too. */
+              $("product-add-to-cart-sticky").on("click", ".product-form__input_dann label", function () {
+                syncStickyToMain($(this).data('titleshort'));
+              });
+
+              /* Guaranteed sync at add time: take whatever size is currently selected
+                 in the sticky and apply it to the main form, even if the user never
+                 tapped a sticky size (main/sticky out of sync). Re-enable the button
+                 right after, because syncing disables .single-add-to-cart-button and
+                 a disabled submit button would cancel the form submit. */
+              $("product-add-to-cart-sticky").on("click", "#AddToCartSticky", function () {
+                var checked = document.querySelector('product-add-to-cart-sticky .show_variants.active input[type="radio"]:checked')
+                           || document.querySelector('product-add-to-cart-sticky input[name="dann"]:checked')
+                           || document.querySelector('product-add-to-cart-sticky input[type="radio"]:checked');
+                if (!checked) return;
+                syncStickyToMain(checked.getAttribute('data-inputshort'));
+
+                /* only re-enable for an available size, so sold-out can't be added */
+                var checkedLabel = document.querySelector('product-add-to-cart-sticky label[for="' + checked.id + '"]');
+                if (checkedLabel && checkedLabel.classList.contains('available_false')) return;
+
+                document.querySelectorAll('.single-add-to-cart-button').forEach(function (btn) {
+                  btn.removeAttribute('disabled');
+                  btn.removeAttribute('aria-disabled');
+                });
               });
 
               $("product-add-to-cart-sticky .tab_variants .js-sticky-tab").on("click", function (event) {
