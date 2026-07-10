@@ -7,6 +7,10 @@
 	assign full_width = section.settings.full_width
 	assign display_type = section.settings.display_type
 	assign columns_desktop = section.settings.columns_desktop
+	assign columns_mobile = section.settings.columns_mobile
+	assign heading_color = section.settings.heading_color
+	assign heading_size = section.settings.heading_size
+	assign heading_size_mobile = section.settings.heading_size_mobile
 	assign featured_collection = section.settings.collection
 	assign show_view_all = section.settings.show_view_all
 	assign product_limit = section.settings.product_limit
@@ -38,6 +42,43 @@
 		assign element = 'div'
 	endif
 -%}
+{%- if columns_mobile -%}
+	{%- style -%}
+		@media (max-width: 767px) {
+			/* Swipe-on-mobile grid: width is controlled by the grid tracks */
+			#product-grid-{{ section.id }}.products.row {
+				grid-auto-columns: minmax(calc(100% / {{ columns_mobile }}), 1fr) !important;
+				grid-template-columns: repeat(auto-fill, minmax(calc(100% / {{ columns_mobile }}), 1fr)) !important;
+			}
+			/* Static grid: direct column children */
+			#product-grid-{{ section.id }} > .columns {
+				width: calc(100% / {{ columns_mobile }}) !important;
+				flex: 0 0 calc(100% / {{ columns_mobile }}) !important;
+				max-width: none !important;
+			}
+			/* Carousel: Flickity nests slides inside .flickity-slider */
+			#product-grid-{{ section.id }} .carousel__slide {
+				width: calc(100% / {{ columns_mobile }}) !important;
+				max-width: none !important;
+			}
+		}
+	{%- endstyle -%}
+{%- endif -%}
+{%- if heading_color != blank or heading_size != blank or heading_size_mobile != blank -%}
+	{%- style -%}
+		#shopify-section-{{ section.id }} .section-header--content h2 {
+			{%- if heading_color != blank %} color: {{ heading_color }} !important;{% endif -%}
+			{%- if heading_size != blank %} font-size: {{ heading_size }}px !important;{% endif -%}
+		}
+		{%- if heading_size_mobile != blank -%}
+			@media (max-width: 767px) {
+				#shopify-section-{{ section.id }} .section-header--content h2 {
+					font-size: {{ heading_size_mobile }}px !important;
+				}
+			}
+		{%- endif -%}
+	{%- endstyle -%}
+{%- endif -%}
 <div class="featured-collection{% if mobile_swipe %} swipe-on-mobile{% endif %} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
 	<div class="row{% if full_width %} full-width-row{% endif %}">
 		<div class="small-12 columns">
@@ -73,6 +114,29 @@
 	</div>
 </div>
 
+{%- if display_type == 'carousel' and columns_mobile -%}
+	<script>
+		(function () {
+			var grid = document.getElementById('product-grid-{{ section.id }}');
+			if (!grid) return;
+
+			function resizeFlkty() {
+				if (window.Flickity && Flickity.data) {
+					var f = Flickity.data(grid);
+					if (f) f.resize();
+				}
+			}
+
+			if (document.readyState === 'complete') {
+				setTimeout(resizeFlkty, 150);
+			} else {
+				window.addEventListener('load', function () { setTimeout(resizeFlkty, 150); });
+			}
+			window.addEventListener('resize', resizeFlkty);
+		})();
+	</script>
+{%- endif -%}
+
 {% schema %}
 {
   "name": "Featured collection",
@@ -89,6 +153,23 @@
 			"id": "heading_left",
 			"default": false,
 			"label": "Left align heading"
+		},
+		{
+			"type": "color",
+			"id": "heading_color",
+			"label": "Heading color"
+		},
+		{
+			"type": "number",
+			"id": "heading_size",
+			"label": "Heading size (desktop, px)",
+			"default": 34
+		},
+		{
+			"type": "number",
+			"id": "heading_size_mobile",
+			"label": "Heading size (mobile, px)",
+			"default": 24
 		},
     {
       "type": "richtext",
@@ -144,6 +225,20 @@
 			"step": 1,
 			"default": 4,
 			"label": "Number of columns on desktop"
+		},
+		{
+			"type": "select",
+			"id": "columns_mobile",
+			"options": [
+				{ "value": "1", "label": "1" },
+				{ "value": "1.5", "label": "1.5" },
+				{ "value": "2", "label": "2" },
+				{ "value": "2.5", "label": "2.5" },
+				{ "value": "3", "label": "3" }
+			],
+			"default": "2",
+			"label": "Number of columns on mobile",
+			"info": "Use a fractional value (e.g. 1.5) to peek the next product."
 		},
 		{
 			"type": "checkbox",
