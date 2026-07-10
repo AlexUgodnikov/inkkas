@@ -372,6 +372,18 @@
  document.addEventListener('DOMContentLoaded', function() {
 
             jQuery(function($) {
+              /* Sync sticky size selection to the main product form, keep scroll position */
+              $("product-add-to-cart-sticky").on("change", 'input[type="radio"]', function () {
+                var short = $(this).data('inputshort');
+                if (!short) return;
+                var mainLabel = document.querySelector('product-variant-manager .product-form__input_dann label[data-titleshort="' + short + '"]');
+                if (!mainLabel) return;
+                var y = window.scrollY || window.pageYOffset;
+                mainLabel.click();
+                window.scrollTo(0, y);
+                requestAnimationFrame(function () { window.scrollTo(0, y); });
+              });
+
               $("product-add-to-cart-sticky .tab_variants .js-sticky-tab").on("click", function (event) {
 
                 $('product-add-to-cart-sticky .tab_variants .js-sticky-tab').removeClass('active');
@@ -396,7 +408,7 @@
               }
 
 
-            });
+            }); 
 
           const observerPreorder = new MutationObserver(function (mutations) {
               let isInitialized = false;

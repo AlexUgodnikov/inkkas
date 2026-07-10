@@ -1209,3 +1209,136 @@ if (!customElements.get('product-variant-manager')) {
 
   customElements.define('product-variant-manager', ProductVariantManager);
 }
+
+
+
+/* =========================================================================
+   Rebuy widget -> open the theme cart drawer (#Cart-Drawer) on add to cart
+   -------------------------------------------------------------------------
+   Logic:
+   1. Observe the DOM until a `.rebuy-widget.widget-type-product` appears.
+   2. Once present, watch for clicks on its add button.
+   3. After a click, listen for the Shopify add-to-cart request (/cart/add).
+   4. When the add succeeds, fetch fresh cart sections, re-render the
+      standard cart drawer content and open it (product already inside).
+   ========================================================================= */
+(function () {
+  var WIDGET_SELECTOR = '.rebuy-widget.widget-type-product';
+  var initialized = false;
+  var awaitingAdd = false;
+  var awaitTimer = null;
+
+  function getSectionInnerHTML(html, selector) {
+    return new DOMParser()
+      .parseFromString(html, 'text/html')
+      .querySelector(selector).innerHTML;
+  }
+
+  /* Re-render the standard cart drawer with the latest cart and open it */
+  function refreshAndOpenCartDrawer() {
+    var drawer = document.getElementById('Cart-Drawer');
+    if (!drawer) return;
+
+    fetch(window.location.pathname + '?sections=cart-drawer,cart-bubble')
+      .then(function (response) { return response.json(); })
+      .then(function (data) {
+        if (data['cart-drawer']) {
+          var drawerContent = drawer.querySelector('.cart-drawer') || drawer;
+          drawerContent.innerHTML = getSectionInnerHTML(data['cart-drawer'], '.cart-drawer');
+          if (typeof CartDrawer !== 'undefined') {
+            new CartDrawer();
+          }
+        }
+
+        var bubble = document.getElementById('cart-drawer-toggle');
+        if (bubble && data['cart-bubble']) {
+          var bubbleContent = bubble.querySelector('.thb-item-count') || bubble;
+          bubbleContent.innerHTML = getSectionInnerHTML(data['cart-bubble'], '.thb-item-count');
+        }
+
+        document.body.classList.add('open-cc', 'open-cart');
+        drawer.classList.add('active');
+
+        var recommends = drawer.querySelector('.product-recommendations--full');
+        if (recommends) recommends.classList.add('active');
+
+        if (typeof dispatchCustomEvent === 'function') {
+          dispatchCustomEvent('cart-drawer:open');
+        }
+      })
+      .catch(function (e) { console.error('[rebuy-cart-drawer]', e); });
+  }
+
+  /* Arm the add-to-cart watcher for a short window after a widget click */
+  function armAddWatcher() {
+    awaitingAdd = true;
+    clearTimeout(awaitTimer);
+    awaitTimer = setTimeout(function () { awaitingAdd = false; }, 6000);
+  }
+
+  /* Called once a /cart/add request is confirmed after a widget click */
+  function onAddDetected() {
+    if (!awaitingAdd) return;
+    awaitingAdd = false;
+    clearTimeout(awaitTimer);
+    /* small delay so Rebuy finishes its own cart mutation first */
+    setTimeout(refreshAndOpenCartDrawer, 300);
+  }
+
+  /* Intercept the Shopify add-to-cart request (fetch) */
+  var originalFetch = window.fetch;
+  window.fetch = function () {
+    var input = arguments[0];
+    var url = (input && input.url) ? input.url : input;
+    var result = originalFetch.apply(this, arguments);
+    if (awaitingAdd && typeof url === 'string' && url.indexOf('/cart/add') !== -1) {
+      result.then(function (r) { if (r && r.ok) onAddDetected(); }).catch(function () {});
+    }
+    return result;
+  };
+
+  /* Intercept the Shopify add-to-cart request (XHR fallback) */
+  var originalOpen = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function (method, url) {
+    this._rebuyUrl = url;
+    return originalOpen.apply(this, arguments);
+  };
+  var originalSend = XMLHttpRequest.prototype.send;
+  XMLHttpRequest.prototype.send = function () {
+    var xhr = this;
+    if (awaitingAdd && typeof xhr._rebuyUrl === 'string' && xhr._rebuyUrl.indexOf('/cart/add') !== -1) {
+      xhr.addEventListener('load', function () {
+        if (xhr.status >= 200 && xhr.status < 300) onAddDetected();
+      });
+    }
+    return originalSend.apply(this, arguments);
+  };
+
+  /* Delegate clicks on the widget's add button (set up once) */
+  function setup() {
+    if (initialized) return;
+    initialized = true;
+
+    document.addEventListener('click', function (event) {
+      var widget = event.target.closest(WIDGET_SELECTOR);
+      if (!widget) return;
+      var button = event.target.closest('button, a, .rebuy-button, [data-rebuy-add-to-cart]');
+      if (!button) return;
+      armAddWatcher();
+    });
+  }
+
+  /* Observe the page until the Rebuy widget shows up */
+  if (document.querySelector(WIDGET_SELECTOR)) {
+    setup();
+  } else {
+    var observer = new MutationObserver(function () {
+      if (document.querySelector(WIDGET_SELECTOR)) {
+        setup();
+        observer.disconnect();
+      }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
+})();
+/* ===================== End Rebuy cart drawer integration ================== */
