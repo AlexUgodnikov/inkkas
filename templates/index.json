@@ -1242,22 +1242,6 @@
     },
     "17132060531886ffe4": {
       "type": "apps",
-      "blocks": {
-        "instafeed_app_block_TFUALm": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "alignment": "center",
-            "background_color": "",
-            "feed_id": "",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_TFUALm"
-      ],
       "custom_css": [
         "#insta-feed {margin-top: 0; margin-bottom: 30px;}"
       ],
@@ -1328,7 +1312,7 @@
             "title": "Good for the Sole",
             "text": "Learn more about the global inspirations behind our hand-drawn designs, explore lookbooks, and more!",
             "link_label": "Check It Out!",
-            "link": "shopify://blogs/blog",
+            "link": "shopify://blogs/inkkas-journal",
             "use_text_button": true,
             "block_link": "",
             "product_list": []
