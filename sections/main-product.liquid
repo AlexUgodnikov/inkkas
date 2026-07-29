@@ -247,7 +247,27 @@
 												</div>
 											{% when 'video' %}
 												<div class="product-single__media product-single__media-native-video" data-media-id="{{ media.id }}" style="--aspect-ratio: {{ media.aspect_ratio }}" id="Media-Thumbnails-{{ section.id }}-{{ media.id }}">
+													{%- comment -%}
 													{{ media | video_tag: controls: true, loading: "lazy", autoplay: section.settings.video_autoplay, loop: section.settings.enable_video_looping, image_size: '960x' }}
+													{%- endcomment -%}
+													<video
+														class="product-single__media-video"
+														controls
+														playsinline
+														loading="lazy"
+														preload="none"
+														{%- if media.preview_image %}
+														width="{{ media.preview_image.width }}"
+														height="{{ media.preview_image.height }}"
+														poster="{{ media.preview_image | image_url: width: 960 }}"
+														{%- endif %}
+														{%- if section.settings.video_autoplay %} autoplay muted{% endif %}
+														{%- if section.settings.enable_video_looping %} loop{% endif %}
+													>
+														{%- for source in media.sources -%}
+															<source src="{{ source.url }}" type="{{ source.mime_type }}">
+														{%- endfor -%}
+													</video>
 												</div>
 											{% when 'model' %}
 												<product-model class="product-single__media product-single__media-model" style="padding-top: 100%" data-media-id="{{ media.id }}" id="Media-Thumbnails-{{ section.id }}-{{ media.id }}">
