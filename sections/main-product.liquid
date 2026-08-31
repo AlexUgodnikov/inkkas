@@ -609,12 +609,19 @@
     {%- if product.tags != blank %}
       "keywords": {{ product.tags | join: ', ' | json }},
     {%- endif %}
-    {%- if product.metafields.reviews.rating.value != blank and product.metafields.reviews.rating_count.value != blank %}
+    {%- if product.metafields.okendo.summaryData.reviewCount > 0 %}
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": {{ product.metafields.reviews.rating.value.rating | json }},
-        "bestRating": {{ product.metafields.reviews.rating.value.scale_max | json }},
-        "ratingCount": {{ product.metafields.reviews.rating_count.value | json }}
+        "ratingValue": {{ product.metafields.okendo.summaryData.reviewAverageValue | json }},
+        "bestRating": 5,
+        "ratingCount": {{ product.metafields.okendo.summaryData.reviewCount | json }}
+      },
+    {%- elsif product.metafields.okendo.ReviewCount > 0 %}
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": {{ product.metafields.okendo.ReviewAverageValue | json }},
+        "bestRating": 5,
+        "ratingCount": {{ product.metafields.okendo.ReviewCount | json }}
       },
     {%- endif %}
     "offers": [
