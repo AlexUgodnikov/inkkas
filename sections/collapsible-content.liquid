@@ -33,7 +33,25 @@
 </div>
 
 {%- if template.suffix  == 'faq-3' -%}
-	<h1>Hola</h1>
+	<!-- FAQ structured data (JSON-LD) for search engines and AI assistants -->
+{%- capture faq_entities -%}
+  {%- assign faq_sep = '' -%}
+  {%- for block in section.blocks -%}
+    {%- if  block.settings.heading != blank and block.settings.content != blank -%}
+      {{- faq_sep -}}{"@type":"Question","name":{{ block.settings.title | strip_html | strip | json }},"acceptedAnswer":{"@type":"Answer","text":{{ block.settings.text | strip_html | strip_newlines | strip | json }}}}
+      {%- assign faq_sep = ',' -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- if faq_entities != blank -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{{ faq_entities }}]
+    }
+  </script>
+{%- endif -%}
 {%- endif -%}
 {% schema %}
   {
