@@ -579,7 +579,7 @@
 
   <script src="{{ 'product-model.js' | asset_url }}" defer></script>
 {%- endif -%}
-
+  {%- assign ai_jdgm_html = pproduct.metafields.okendo.widget | append: '' -%}
 
 <script type="application/ld+json">
   {
