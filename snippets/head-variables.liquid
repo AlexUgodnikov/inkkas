@@ -94,6 +94,12 @@
 	.heading-font,
 	.h1-xlarge,
 	.h1-large,
+	.section-header__title,
+	.thb-product-title,
+	.product-title,
+	.thb-product-detail .product-title,
+	.product-card-title,
+	.card__heading,
 	.customer-addresses .my-address .address-index {
 		font-style: {{ heading_font.style }};
 		font-weight: {{ heading_font.weight }};
@@ -101,7 +107,7 @@
 	}
 	body,
 	.body-font,
-	.thb-product-detail .product-title {
+	button, input, select, textarea {
 		font-style: {{ body_font.style }};
 		font-weight: {{ body_font.weight }};
 		font-family: {{ body_font.family }}, {{ body_font.fallback_families }};

@@ -53,6 +53,20 @@
 		}
 		{% endif %}
 {% endstyle %}
+{%- comment -%} LCP hero preload — dynamic. Reads whatever image is set on the first slide of the
+  first slideshow section, so it stays correct whenever the hero image is swapped. Matches the exact
+  img_url sizes the <img> below requests (x1000 desktop / x500 mobile) so the browser reuses the fetch. {%- endcomment -%}
+{%- if preload -%}
+	{%- assign hero_block = section.blocks.first -%}
+	{%- if hero_block.settings.image != blank -%}
+		{%- if hero_block.settings.mobile_image != blank -%}
+			<link rel="preload" as="image" fetchpriority="high" media="(min-width: 750px)" href="{{ hero_block.settings.image | img_url: 'x1000' }}">
+			<link rel="preload" as="image" fetchpriority="high" media="(max-width: 749px)" href="{{ hero_block.settings.mobile_image | img_url: 'x500' }}">
+		{%- else -%}
+			<link rel="preload" as="image" fetchpriority="high" href="{{ hero_block.settings.image | img_url: 'x1000' }}">
+		{%- endif -%}
+	{%- endif -%}
+{%- endif -%}
 <div class="row{% if full_width %} full-width-row{% endif %}">
 	<div class="small-12 columns">
 		<slide-show class="slideshow main-slideshow carousel custom-dots {{ mobile_height }} {{ desktop_height }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %} transition--{{ transition }}" data-dots="{{ dots }}" data-autoplay="{{ autoplay }}" data-fade="{{ fade }}" data-transition="{{ transition }}" style="--dot-speed: {{ autoplay | divided_by: 1000 | append: 's' }};--color-text: #fff;">
@@ -162,19 +176,19 @@
 								<p class="subheading">{{ block.settings.subheading }}</p>
 							{% endif %}
 							{% if block.settings.heading != blank %}
-								<h1 class="split-text {{ block.settings.heading_size }}">{{ block.settings.heading | newline_to_br }}</h1>
+								<h1 class="split-text {{ block.settings.heading_size }}" style="{% if block.settings.heading_color != blank %}color:{{ block.settings.heading_color }} !important{% endif %}">{{ block.settings.heading | newline_to_br }}</h1>
 							{% endif %}
 							{% if block.settings.content != blank %}
 							<p class="split-text description-size--{{ block.settings.description_size }}">{{ block.settings.content | newline_to_br }}</p>
 							{% endif %}
 							{% if block.settings.button_1_text != blank %}
 							<div class="button-overflow-container">
-								<a class="button white{% if block.settings.button_1_outline %} outline{%- endif %}" href="{{ block.settings.button_1_link }}" role="button" title="{{ block.settings.button_1_text | escape }}"><span>{{ block.settings.button_1_text }}</span></a>
+								<a class="button white{% if block.settings.button_1_outline %} outline{%- endif %}" href="{{ block.settings.button_1_link }}" role="button" title="{{ block.settings.button_1_text | escape }}" style="{% if block.settings.button_1_bg != blank %}background:{{ block.settings.button_1_bg }} !important;border-color:{{ block.settings.button_1_bg }} !important;{% endif %}{% if block.settings.button_1_text_color != blank %}color:{{ block.settings.button_1_text_color }} !important;{% endif %}"><span style="{% if block.settings.button_1_text_color != blank %}color:{{ block.settings.button_1_text_color }} !important;{% endif %}">{{ block.settings.button_1_text }}</span></a>
 							</div>
 			        {% endif %}
 							{% if block.settings.button_2_text != blank %}
 							<div class="button-overflow-container">
-								<a class="button white{% if block.settings.button_2_outline %} outline{%- endif %}" href="{{ block.settings.button_2_link }}" role="button" title="{{ block.settings.button_2_text | escape }}"><span>{{ block.settings.button_2_text }}</span></a>
+								<a class="button white{% if block.settings.button_2_outline %} outline{%- endif %}" href="{{ block.settings.button_2_link }}" role="button" title="{{ block.settings.button_2_text | escape }}" style="{% if block.settings.button_2_bg != blank %}background:{{ block.settings.button_2_bg }} !important;border-color:{{ block.settings.button_2_bg }} !important;{% endif %}{% if block.settings.button_2_text_color != blank %}color:{{ block.settings.button_2_text_color }} !important;{% endif %}"><span style="{% if block.settings.button_2_text_color != blank %}color:{{ block.settings.button_2_text_color }} !important;{% endif %}">{{ block.settings.button_2_text }}</span></a>
 							</div>
 			        {% endif %}
 							{% if block.settings.slide_link != blank %}
@@ -393,6 +407,11 @@
             "label": "Heading",
             "default": "Slide Heading"
           },
+          {
+            "type": "color",
+            "id": "heading_color",
+            "label": "Heading text color (blank = default)"
+          },
 					{
 						"type": "select",
 						"id": "heading_size",
@@ -542,6 +561,16 @@
 		        "default": true
 		      },
 					{
+			      "type": "color",
+			      "id": "button_1_bg",
+			      "label": "Button 1 color (blank = default yellow)"
+			    },
+					{
+			      "type": "color",
+			      "id": "button_1_text_color",
+			      "label": "Button 1 text color (blank = default)"
+			    },
+					{
 			      "type": "header",
 			      "content": "Button 2"
 			    },
@@ -562,7 +591,17 @@
 		        "id": "button_2_outline",
 		        "label": "Use outline button style",
 		        "default": false
-		      }
+		      },
+					{
+			      "type": "color",
+			      "id": "button_2_bg",
+			      "label": "Button 2 color (blank = default)"
+			    },
+					{
+			      "type": "color",
+			      "id": "button_2_text_color",
+			      "label": "Button 2 text color (blank = default)"
+			    }
         ]
       }
     ],

@@ -1,0 +1,156 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_KiHiML": {
+      "type": "custom-liquid",
+      "name": "Custom liquid",
+      "settings": {
+        "custom_liquid": "<style>\n@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400&family=Manrope:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');\n.oc-root{position:relative}.oc-root>header,.oc-root>section{width:100vw;margin-left:calc(50% - 50vw)}\n.oc-root{--ink-oat:#FAF6EE; --ink-ivory:#FFFCF6;\n    --ink-green:#5E8A4C; --ink-green-deep:#33502F; --ink-green-soft:#E7EEDB;\n    --ink-coral:#DE8862; --ink-coral-deep:#9A5738; --ink-coral-soft:#F7E3D8;\n    --ink-yellow:#FFB715;\n    --ink-charcoal:#3A3A2F; --ink-soft:#575349; --ink-line:#E1D9C7;\n    --btn-radius:4px;}.oc-root *{box-sizing:border-box;margin:0;padding:0}.oc-root{font-family:'Manrope',system-ui,sans-serif;color:var(--ink-charcoal);background:var(--ink-ivory);line-height:1.6;-webkit-font-smoothing:antialiased}.oc-root h1,.oc-root h2,.oc-root h3{font-family:'Fraunces',Georgia,serif;font-weight:500;letter-spacing:-.01em;line-height:1.08}.oc-root .eyebrow{font-family:'Space Mono',monospace;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-green)}.oc-root .wrap{max-width:1180px;margin:0 auto;padding:0 24px}.oc-root .btn{display:inline-block;background:var(--ink-yellow);color:#40320A;font-family:'Manrope';font-weight:700;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;padding:14px 30px;border-radius:var(--btn-radius);text-decoration:none;transition:transform .15s ease,filter .15s ease}.oc-root .btn:hover{filter:brightness(1.04);transform:translateY(-1px)}.oc-root .btn--ghost{background:transparent;border:1.5px solid var(--ink-charcoal);color:var(--ink-charcoal)}.oc-root .btn--ghost-light{background:transparent;border:1.5px solid var(--ink-oat);color:var(--ink-oat)}.oc-root .ph{position:relative;background:linear-gradient(135deg,var(--ink-green-soft),#cfe0bf);border-radius:6px;overflow:hidden;display:flex;align-items:center;justify-content:center}.oc-root .ph::after{content:attr(data-label);position:absolute;font-family:'Space Mono',monospace;font-size:.7rem;letter-spacing:.08em;color:rgba(51,80,47,.6);text-align:center;padding:0 16px;text-transform:uppercase}.oc-root .ph--dark{background:linear-gradient(135deg,#3f5c39,#2b4526)}.oc-root .ph--dark::after{color:rgba(255,252,246,.55)}.oc-root .ph img,.oc-root .ph video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;border-radius:inherit}.oc-root .mockbar{background:var(--ink-charcoal);color:var(--ink-oat);font-family:'Space Mono',monospace;font-size:.68rem;letter-spacing:.1em;text-align:center;padding:7px;text-transform:uppercase}.oc-root .pagenav{background:var(--ink-ivory);border-bottom:1px solid var(--ink-line);text-align:center;padding:12px}.oc-root .pagenav a{font-family:'Space Mono',monospace;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;color:var(--ink-soft);margin:0 14px}.oc-root .pagenav a.on{color:var(--ink-charcoal);border-bottom:2px solid var(--ink-green)}.oc-root .hero{background:var(--ink-green-deep);color:var(--ink-oat)}.oc-root .hero__grid{display:grid;grid-template-columns:1fr 1fr;min-height:76vh}.oc-root .hero__text{display:flex;flex-direction:column;justify-content:center;padding:72px 60px}.oc-root .hero .eyebrow{color:#DDE7CE;margin-bottom:20px}.oc-root .hero h1{font-size:clamp(2.6rem,4.8vw,4.3rem);margin-bottom:10px;color:#fff}.oc-root .hero h1 em{font-style:italic;color:#CFE6B8}.oc-root .hero .stat{font-family:'Fraunces',serif;font-size:clamp(3.2rem,7vw,5.6rem);line-height:1;color:#CFE6B8;margin:14px 0 2px}.oc-root .hero .stat-label{font-family:'Space Mono',monospace;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#DDE7CE;margin-bottom:30px}.oc-root .hero__cta{display:flex;gap:14px;flex-wrap:wrap}.oc-root .hero__media .ph{min-height:100%;border-radius:0}.oc-root section{padding:92px 0}.oc-root .sec-head{text-align:center;max-width:660px;margin:0 auto 56px}.oc-root .sec-head .eyebrow{display:block;margin-bottom:14px}.oc-root .sec-head h2{font-size:clamp(2rem,3.4vw,2.9rem)}.oc-root .sec-head p{color:var(--ink-soft);margin-top:14px;font-size:1.05rem}.oc-root .feat{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;margin-bottom:0}.oc-root .feat__img{aspect-ratio:5/4}.oc-root .feat h2{font-size:clamp(1.8rem,2.9vw,2.5rem);margin-bottom:16px}.oc-root .feat p{color:var(--ink-charcoal);font-size:1.06rem;margin-bottom:16px;max-width:46ch}.oc-root .feat .eyebrow{display:block;margin-bottom:12px}.oc-root .feat--rev .feat__img{order:2}.oc-root .s4s{max-width:660px;margin:0 auto;text-align:center}.oc-root .s4s .eyebrow{display:block;margin-bottom:12px}.oc-root .s4s h2{font-size:clamp(1.8rem,2.9vw,2.5rem);margin-bottom:16px}.oc-root .s4s p{color:var(--ink-charcoal);font-size:1.06rem;max-width:52ch;margin:0 auto 18px}.oc-root .s4s .pills{justify-content:center}.oc-root .onetree{background:var(--ink-green-soft)}.oc-root .s4s-band{background:#ffec8e}.oc-root .stats{background:var(--ink-ivory);text-align:center}.oc-root .statgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;margin-top:20px}.oc-root .statgrid .n{font-family:'Fraunces',serif;font-size:clamp(2.6rem,5vw,3.6rem);color:var(--ink-green);line-height:1}.oc-root .statgrid .l{font-family:'Space Mono',monospace;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-top:8px}.oc-root .pills{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}.oc-root .pill{font-family:'Space Mono',monospace;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--ink-line);border-radius:100px;padding:7px 14px;color:var(--ink-soft)}.oc-root .teaser{background:var(--ink-coral-soft)}.oc-root .teaser .wrap{display:flex;align-items:center;justify-content:space-between;gap:28px;padding-top:46px;padding-bottom:46px;flex-wrap:wrap}.oc-root .teaser .eyebrow{color:var(--ink-coral-deep);display:block;margin-bottom:8px}.oc-root .teaser h3{font-size:clamp(1.5rem,2.6vw,2.1rem);max-width:24ch}.oc-root .shop{background:var(--ink-green-deep)}.oc-root .shop .sec-head h2{color:#fff}.oc-root .shop .sec-head .eyebrow{color:#DDE7CE}.oc-root .shop__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}.oc-root .shopcard{position:relative;aspect-ratio:4/5;border-radius:6px;overflow:hidden;display:flex;align-items:flex-end;padding:24px}.oc-root .shopcard .ph{position:absolute;inset:0;border-radius:0}.oc-root .shopcard span{position:relative;z-index:2;font-family:'Fraunces',serif;font-size:1.5rem;color:#fff;text-shadow:0 1px 12px rgba(0,0,0,.4)}.oc-root .shopcard a{position:absolute;inset:0;z-index:3}.oc-root .polaroids{background:#fff;text-align:center}.oc-root .polaroids .single-polaroid{margin-top:44px}.oc-root .polaroids .single-polaroid img{width:100%;height:auto;border-radius:4px;display:block}.oc-root .polaroids .row{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:44px}.oc-root .polaroid{background:#fff;padding:12px 12px 34px;box-shadow:0 8px 24px rgba(51,80,47,.12);border-radius:2px}.oc-root .polaroid:nth-child(odd){transform:rotate(-2deg)}.oc-root .polaroid:nth-child(even){transform:rotate(1.8deg)}.oc-root .polaroid .ph{aspect-ratio:3/4;border-radius:0}.oc-root footer{background:var(--ink-charcoal);color:var(--ink-oat);text-align:center;padding:40px 24px;font-family:'Space Mono',monospace;font-size:.72rem;letter-spacing:.08em}@media(max-width:860px){.oc-root .hero__grid,.oc-root .feat{grid-template-columns:1fr}.oc-root .feat{gap:28px;margin-bottom:8px}.oc-root .feat--rev .feat__img{order:0}.oc-root .hero__media{min-height:46vh}.oc-root .hero__text{padding:56px 28px}.oc-root .statgrid,.oc-root .shop__grid{grid-template-columns:1fr}.oc-root .polaroids .row{grid-template-columns:1fr 1fr;gap:14px}.oc-root section{padding:64px 0}}\n</style>\n<div class=\"oc-root\">\n<header class=\"hero\">\n  <div class=\"hero__grid\">\n    <div class=\"hero__text\">\n      <span class=\"eyebrow\">One Shoe · One Tree™</span>\n      <h1>Every pair <em>plants a tree.</em></h1>\n      <div class=\"stat\">500,000+</div>\n      <div class=\"stat-label\">Trees planted &amp; counting</div>\n      <div class=\"hero__cta\">\n        <a class=\"btn\" href=\"/collections/vegan-products\">Shop &amp; plant a tree</a>\n        <a class=\"btn btn--ghost-light\" href=\"#tree\">How it works</a>\n      </div>\n    </div>\n    <div class=\"hero__media\"><div class=\"ph ph--dark\" data-label=\"tree planting\"><img src=\"https://inkkas.com/cdn/shop/files/Planting-trees_690x460_crop_center.jpg?v=1614373072\" alt=\"Tree planting\"></div></div>\n  </div>\n</header>\n\n\n<section class=\"onetree\" id=\"tree\">\n  <div class=\"wrap\">\n    <div class=\"feat\">\n      <div class=\"ph feat__img\" data-label=\"tree counter\" style=\"aspect-ratio:1100/526;background:var(--ink-green-soft)\"><img src=\"https://inkkas.com/cdn/shop/files/Tree-Number-12.2025-curved_1100x526_crop_center.gif?v=1766515934\" alt=\"Trees planted counter\" style=\"object-fit:contain\"></div>\n      <div>\n        <span class=\"eyebrow\">Reforestation</span>\n        <h2>One shoe, one tree — for every single purchase.</h2>\n        <p>For every purchase, we plant one tree through our OneShoeOneTree™ program with trees.org — supporting reforestation, biodiversity, and climate resilience.</p>\n        <div class=\"pills\"><span class=\"pill\">Reforestation</span><span class=\"pill\">Biodiversity</span><span class=\"pill\">Climate resilience</span></div>\n      </div>\n    </div>\n  </div>\n</section>\n\n\n<section>\n  <div class=\"wrap\">\n    <div class=\"feat feat--rev\">\n      <div class=\"ph feat__img\" data-label=\"making\"><img src=\"https://inkkas.com/cdn/shop/files/making_of_the_joggers-ezgif.com-optiwebp.webp?v=1764878270\" alt=\"Small-batch making\"></div>\n      <div>\n        <span class=\"eyebrow\">Made the right way</span>\n        <h2>Handcrafted, small-batch, ethically made.</h2>\n        <p>Our shoes are 100% handmade in Latin America using authentic textiles sourced globally — produced in small batches through a fair supply chain, not a factory line.</p>\n        <p>Staying independent lets us keep those standards — and keep the families who craft our shoes, and the people behind the brand, supported and at the center of everything we do.</p>\n      </div>\n    </div>\n  </div>\n</section>\n\n\n<section class=\"s4s-band\">\n  <div class=\"wrap\">\n    <div class=\"s4s\">\n      <span class=\"eyebrow\">Second Life</span>\n      <h2>Shoes that keep going.</h2>\n      <p>We partner with Soles4Souls to refurbish and redistribute shoes — keeping them out of landfills and on the feet of people who need them.</p>\n      <div class=\"pills\"><span class=\"pill\">Refurbish</span><span class=\"pill\">Donate</span><span class=\"pill\">Divert waste</span></div>\n    </div>\n  </div>\n</section>\n\n\n<section class=\"stats\">\n  <div class=\"wrap\">\n    <div class=\"sec-head\"><span class=\"eyebrow\">The Receipts</span><h2>Impact by the numbers</h2></div>\n    <div class=\"statgrid\">\n      <div><div class=\"n\">500K+</div><div class=\"l\">Trees planted</div></div>\n      <div><div class=\"n\">1 : 1</div><div class=\"l\">Tree per purchase</div></div>\n      <div><div class=\"n\">2012</div><div class=\"l\">Handcrafting since</div></div>\n    </div>\n  </div>\n</section>\n\n\n<section class=\"teaser\">\n  <div class=\"wrap\">\n    <div>\n      <span class=\"eyebrow\">Where it starts</span>\n      <h3>Every tree begins with a hand-inked work of art — and every work of art begins with nature.</h3>\n    </div>\n    <a class=\"btn btn--ghost\" href=\"/pages/about\">← See Our Craft</a>\n  </div>\n</section>\n\n\n<section class=\"shop\">\n  <div class=\"wrap\">\n    <div class=\"sec-head\"><span class=\"eyebrow\">Do good, look good</span><h2>Shop &amp; plant a tree</h2></div>\n    <div class=\"shop__grid\">\n      <div class=\"shopcard\"><div class=\"ph ph--dark\"><img src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/SARAS-VEGAN-TREKKBOOT-AW251017-FLAT-RTSS1175_5caf08fb-6041-45f0-8694-d4c3383c19cc-ezgif.com-jpg-to-webp-converter.webp?v=1784081964\" alt=\"Vegan\"></div><span>100% Vegan</span><a href=\"/collections/vegan-products\" aria-label=\"Shop Vegan\"></a></div>\n      <div class=\"shopcard\"><div class=\"ph ph--dark\"><img src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/GIF-JOYA_VEGAN_TREKK_BOOT-WALK.webp?v=1783627766\" alt=\"Women's\"></div><span>Women's</span><a href=\"/collections/womens-collection-all-shoes\" aria-label=\"Shop Women's\"></a></div>\n      <div class=\"shopcard\"><div class=\"ph ph--dark\"><img src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/ScreenShot2024-04-08at2.13.04PM.png?v=1759884243\" alt=\"Bestsellers\"></div><span>Bestsellers</span><a href=\"/collections/best-sellers\" aria-label=\"Shop Bestsellers\"></a></div>\n    </div>\n  </div>\n</section>\n\n\n<section class=\"polaroids\">\n  <div class=\"wrap\">\n    <div class=\"sec-head\"><span class=\"eyebrow\">Out in the world</span><h2>Made for adventure.</h2></div>\n    <div class=\"single-polaroid\"><img src=\"https://inkkas.com/cdn/shop/files/DesertPolaroid15_1440x554_crop_center.jpg?v=1779983624\" alt=\"Inkkas out in the world\"></div>\n  </div>\n</section>\n</div>"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "text_with_icons_MxG7Gn": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_wGfBgc": {
+          "type": "icon",
+          "settings": {
+            "icon": "shoe",
+            "heading": "EARN POINTS",
+            "text": "<p><strong>Earn 1 point for every $1 you spend.</strong> </p><p>You must be logged into your customer account at checkout to collect points.</p>"
+          }
+        },
+        "icon_bUjkjH": {
+          "type": "icon",
+          "settings": {
+            "icon": "price_tag",
+            "heading": "REDEEM POINTS",
+            "text": "<p><strong>Every 100 points earned equals $10 off.</strong></p><p>Note that rewards points cannot be combined with other discounts or promotions. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_wGfBgc",
+        "icon_bUjkjH"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "medium",
+        "mobile_swipe": false,
+        "color_bg": "#e9e3e0",
+        "color_heading": "#151515",
+        "color_text": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_rw9fNx": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_iEVmgN": {
+          "type": "subheading",
+          "settings": {
+            "text": "MORE WAYS TO EARN POINTS"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_iEVmgN"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#c95137",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "text_with_icons_UbC9Pz": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_BViw7W": {
+          "type": "icon",
+          "settings": {
+            "icon": "clipboard",
+            "heading": "LEAVE A PRODUCT REVIEW",
+            "text": "<p>Earns 20 points</p>"
+          }
+        },
+        "icon_xVrUFU": {
+          "type": "icon",
+          "settings": {
+            "icon": "check_mark",
+            "heading": "FOLLOW OUR INSTAGRAM OR FACEBOOK",
+            "text": "<p>Earns 20 points</p>"
+          }
+        },
+        "icon_BVEAzd": {
+          "type": "icon",
+          "settings": {
+            "icon": "heart",
+            "heading": "CELEBRATE YOUR BIRTHDAY",
+            "text": "<p>Earns 20 points</p>"
+          }
+        },
+        "icon_wjkUep": {
+          "type": "icon",
+          "settings": {
+            "icon": "lightning_bolt",
+            "heading": "TAG US IN A POST ON INSTAGRAM OR FACEBOOK",
+            "text": "<p>Earns 20 points</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_BViw7W",
+        "icon_xVrUFU",
+        "icon_BVEAzd",
+        "icon_wjkUep"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "medium",
+        "heading_size": "medium",
+        "mobile_swipe": false,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#151515",
+        "color_text": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_KiHiML",
+    "main",
+    "text_with_icons_MxG7Gn",
+    "rich_text_rw9fNx",
+    "text_with_icons_UbC9Pz"
+  ]
+}

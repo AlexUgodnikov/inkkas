@@ -131,13 +131,13 @@
 
                                     if show_inventory_count
                                       if inventory_quantity <= threshold
-                                        assign notice = 'Limited Quantities Left'
+                                        assign notice = 'Final Few'
 
                                         if notice contains 'translation missing'
-                                          assign notice = 'Limited Quantities Left'
+                                          assign notice = 'Final Few'
                                         endif
                                       else
-                                        assign notice = 'Limited Quantities Left'
+                                        assign notice = 'Final Few'
 
                                         if notice contains 'translation missing'
                                           assign notice = inventory_quantity | append: ' units available'
@@ -148,7 +148,7 @@
                                         assign notice = 'products.product.inventory.low_stock' | t
 
                                         if notice contains 'translation missing'
-                                          assign notice = 'Limited Quantities Left'
+                                          assign notice = 'Final Few'
                                         endif
                                       else
                                         assign hideStockInfoCart = true

@@ -43,12 +43,16 @@
       "settings": {
         "heading": "Restocked & Ready to Ship",
         "heading_left": true,
+        "heading_color": "",
+        "heading_size": 34,
+        "heading_size_mobile": 24,
         "description": "<p><em>Small batch collections means pairs sell quickly. Lucky for you, these pairs are currently back in-stock (for now). </em></p><p><strong>JUST ARRIVED + SELLING FAST</strong>↓</p>",
         "full_width": true,
         "collection": "back-in-stock-ready-to-ship-copy",
         "display_type": "carousel",
         "product_limit": 3,
         "columns_desktop": 3,
+        "columns_mobile": "2",
         "show_view_all": false,
         "mobile_swipe": true,
         "show_progress_bar": false,
@@ -59,20 +63,6 @@
     "gallery_Ciw3xK": {
       "type": "gallery",
       "blocks": {
-        "image_y8HFyG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Inkkas_Homepage_-_May_2026-back_in_stock-mobile1-3.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://products/agave-slip-on",
-            "product_list": []
-          }
-        },
         "image_geEqQ3": {
           "type": "image",
           "settings": {
@@ -103,16 +93,15 @@
         }
       },
       "block_order": [
-        "image_y8HFyG",
         "image_geEqQ3",
         "image_iYMzrf"
       ],
       "name": "Gallery",
       "settings": {
         "slider": false,
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "section_width": "full-width-row-full",
-        "mobile_swipe": true,
+        "mobile_swipe": false,
         "image_ratio": "adapt",
         "content_position": "bottom-left",
         "text_alignment": "left",
@@ -260,12 +249,16 @@
       "settings": {
         "heading": "Trending Now",
         "heading_left": true,
+        "heading_color": "",
+        "heading_size": 34,
+        "heading_size_mobile": 24,
         "description": "",
         "full_width": true,
         "collection": "best-sellers",
         "display_type": "carousel",
         "product_limit": 8,
         "columns_desktop": 4,
+        "columns_mobile": "2",
         "show_view_all": false,
         "mobile_swipe": true,
         "show_progress_bar": true,

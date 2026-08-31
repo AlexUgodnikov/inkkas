@@ -1,0 +1,1164 @@
+/* ============================================================
+   INKKAS â€” Redesign Foundation Layer  (draft / test theme)
+   Loads AFTER head-variables so it re-defines the theme's own
+   CSS variables. Remove the two <link> lines in theme.liquid
+   to fully revert. Nothing else in the theme is edited.
+   Direction: light oat canvas + green (fresh) & coral (warm)
+   accents, yellow CTAs. Fraunces / Manrope / Space Mono.
+   NOTE: fonts load from Google for preview. For production,
+   self-host the .woff2 files (privacy + speed) â€” Anton.
+   ============================================================ */
+
+/* Fraunces (headings) and Manrope (body) now load via Theme editor > Typography (Shopify CDN).
+   Only Space Mono (the accent/mono face â€” prices, labels, eyebrows) loads here, since the theme
+   has no native slot for a third font. */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+:root{
+  /* palette */
+  --ink-oat:#FAF6EE;      --ink-ivory:#FFFCF6;
+  --ink-green:#5E8A4C;    --ink-green-deep:#33502F;  --ink-green-soft:#E7EEDB;
+  --ink-coral:#DE8862;    --ink-coral-deep:#9A5738;  --ink-coral-soft:#F7E3D8;
+  --ink-yellow:#FFB715;
+  --ink-charcoal:#3A3A2F; --ink-soft:#7C7A67;        --ink-line:#E1D9C7;
+
+  /* NOTE: Global colors are now controlled from Theme editor > Colors
+     (background, text, accent, announcement bar, header, buttons, price, stars, dots, footer)
+     and the cart drawer banner from the "Cart drawer" announcement slides. They are no longer
+     hardcoded here so you can adjust them yourself. Only non-color tokens remain below. */
+  --shop-pay-button-border-radius:var(--button-border-radius, 2px);
+}
+
+/* ---------- Typography ---------- */
+/* Heading font (Fraunces) + Body font (Manrope) are applied by the theme from your
+   Typography settings (see head-variables.liquid, which now also covers product/card titles).
+   Only Space Mono accents are enforced below. */
+
+/* Accents â†’ Space Mono (prices, badges, eyebrow labels) */
+.price,.price-item,.money,[class*="price__"],[class*="__price"],
+.thb-badge,.product-card-badge,[class*="badge"],
+.section-header__subtitle,.eyebrow,.thb-eyebrow,
+.thb-product-detail .price{
+  font-family:'Space Mono',ui-monospace,monospace !important;
+}
+
+/* ---------- Small niceties ---------- */
+a{color:var(--ink-charcoal);}
+.button,button.button,.thb-button,[type="submit"].button{
+  border-radius:var(--button-border-radius, 2px);
+}
+
+/* ---------- Add to Cart â†’ brand yellow, ALL states ---------- */
+/* Reformation outline buttons fill via a :before overlay (colored --outline-button-label,
+   black in this store) that slides in on hover -> black-on-black. We neutralize that
+   overlay and force yellow bg + dark text at rest AND hover, using the full class chain
+   (.button.outline.<atc>) so we out-specify the theme's .button.outline:hover.
+   Shop Pay / Sezzle / Navidium checkout buttons are intentionally left alone. */
+.button.outline.single-add-to-cart-button,
+.button.outline.product-card--add-to-cart-button,
+.button.addt-to-cart-drawer,
+.button.js-add-to-cart,
+button[name="add"]{
+  background:var(--ink-yellow) !important;
+  border:1px solid #151515 !important;   /* was: border-color:var(--ink-yellow) */
+  color:#40320A !important;
+}
+/* kill the sliding fill overlay so nothing covers the yellow */
+.button.outline.single-add-to-cart-button:before,
+.button.outline.product-card--add-to-cart-button:before,
+.button.addt-to-cart-drawer:before,
+.button.js-add-to-cart:before,
+button[name="add"]:before{
+  background:transparent !important;
+  display:none !important;
+}
+/* hover / focus / loading -> stay amber with dark text (out-specifies theme hover) */
+.button.outline.single-add-to-cart-button:hover,
+.button.outline.single-add-to-cart-button:focus,
+.button.outline.product-card--add-to-cart-button:hover,
+.button.outline.product-card--add-to-cart-button:focus,
+.button.addt-to-cart-drawer:hover,
+.button.js-add-to-cart:hover,
+button[name="add"]:hover,
+button[name="add"]:focus{
+  background:#F0A800 !important;
+  border-color:#151515 !important;
+  color:#40320A !important;
+}
+/* force the inner label text dark in every state */
+.button.outline.single-add-to-cart-button, .button.outline.single-add-to-cart-button *,
+.button.outline.single-add-to-cart-button:hover *,
+.button.outline.product-card--add-to-cart-button, .button.outline.product-card--add-to-cart-button *,
+.button.outline.product-card--add-to-cart-button:hover *,
+.button.addt-to-cart-drawer *, .button.js-add-to-cart *,
+button[name="add"] *, button[name="add"]:hover *{
+  color:#40320A !important;
+}
+
+/* selected size chip â†’ warm ink instead of hard black (optional polish) */
+.thb-product-detail .variant-input-wrap label.active,
+.variant-input label.active,
+[data-swatch].active{
+  background:var(--ink-charcoal) !important;
+  border-color:var(--ink-charcoal) !important;
+  color:#FAF6EE !important;
+}
+
+/* ---------- Half Size? / Size Guide â†’ consistent color (match the green) ---------- */
+a.size_chart, .size_chart, .size_chart strong{
+  color:var(--ink-green) !important;
+}
+
+/* ---------- Cart "More Bestsellers to Love" upsell â†’ soft coral band ---------- */
+/* mirrors the mockup's "add to your order" section */
+cartdrawer-recommends{
+  display:block;
+  background:var(--ink-coral-soft) !important;
+  padding:16px 18px 20px !important;
+  border-top:1px solid var(--ink-line);
+}
+.cartdrawer-recommends-header,
+.cartdrawer-recommends-header *{
+  color:var(--ink-coral-deep) !important;
+  font-family:'Space Mono',ui-monospace,monospace !important;
+  letter-spacing:.04em;
+}
+/* native Shopify recommendations fallback, kept on-theme if ever shown */
+.cart-drawer--recommendations--container{
+  background:#FFFEFC !important;
+  padding:16px 18px 20px !important;
+  border-top:1px solid var(--ink-line);
+}
+.cart-drawer--recommendations--heading{
+  color:var(--ink-coral-deep) !important;
+  font-family:'Space Mono',ui-monospace,monospace !important;
+}
+
+/* ============================================================
+   PDP size selector + fit gauge â†’ mockup styling
+   (markup: .product-custom-variants / product-variant-manager)
+   ============================================================ */
+
+/* "Size: women 7" label */
+.product-variant-label-dm__label{font-weight:600;color:var(--ink-charcoal);}
+.js-product-label-dm-value{font-family:'Space Mono',ui-monospace,monospace;text-transform:capitalize;}
+
+/* Fit: True to size â†’ tidy soft-green chip */
+.product-variant-label-dm__true-to-size{
+  display:inline-flex !important;align-items:center;gap:8px;
+  background:var(--ink-green-soft) !important;color:#3D5A2F !important;
+  font-family:'Space Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.02em;
+  padding:6px 12px !important;border-radius:30px !important;
+}
+.product-variant-label-dm__true-to-size img{height:14px;width:auto;}
+
+/* WOMEN / MEN / EUR â†’ clean underline tabs */
+.tab_variants{gap:4px !important;border-bottom:1px solid var(--ink-line);margin-bottom:14px;}
+.js-custom-tab{
+  font-family:'Space Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;
+  padding:9px 16px !important;color:var(--ink-soft) !important;cursor:pointer;
+  background:transparent !important;border:none !important;border-radius:0 !important;
+  border-bottom:2px solid transparent !important;margin-bottom:-1px;transition:color .15s ease;
+}
+.js-custom-tab.active{color:var(--ink-charcoal) !important;border-bottom:2px solid var(--ink-coral) !important;}
+
+/* Size number buttons â†’ rounded pills */
+.product-form__input_dann{
+  border:none !important;padding:0 !important;margin:0 !important;
+  display:flex !important;flex-wrap:wrap;gap:10px;
+}
+label.variant-label{
+  min-width:54px;text-align:center;padding:13px 8px !important;
+  border:1px solid var(--ink-line) !important;border-radius:12px !important;
+  background:var(--ink-ivory) !important;color:var(--ink-charcoal) !important;
+  font-family:'Space Mono',ui-monospace,monospace !important;font-size:14px;line-height:1;
+  cursor:pointer;transition:border-color .15s ease,background .15s ease;
+}
+label.variant-label:hover{border-color:var(--ink-charcoal) !important;}
+/* selected size â†’ warm ink, not hard black */
+.product-form__input_dann input:checked + label.variant-label{
+  background:var(--ink-charcoal) !important;color:var(--ink-oat) !important;border-color:var(--ink-charcoal) !important;
+}
+/* unavailable sizes */
+label.variant-label.available_false,
+.product-form__input_dann input:disabled + label.variant-label{
+  opacity:.4;text-decoration:line-through;cursor:not-allowed;
+}
+
+/* ---------- PDP photos: bigger + cleaner ---------- */
+/* remove the gray placeholder box so images blend into the oat canvas */
+.product__media-list{background:transparent !important;}
+.product-single__media,.product-images__slide{background:transparent !important;}
+/* give the image column more room (info side was claiming up to 50%) */
+@media (min-width:750px){
+  body .product-grid-container{
+    grid-template-columns:1.15fr clamp(340px,40%,44%) !important;
+    gap:40px;
+  }
+}
+
+/* ---------- Cohesion sweep: cart checkout + free-shipping bar ---------- */
+/* theme checkout button -> yellow (Navidium's "Protected Checkout" is app-drawn; may need its own setting) */
+button[name="checkout"], .button.full.checkout,
+.cart-drawer-dynamic-checkout-buttons > .button:not(.shopify-payment-button__button){
+  background:var(--ink-yellow) !important;
+  border-color:var(--ink-yellow) !important;
+  color:#40320A !important;
+  border-radius:var(--button-border-radius, 2px) !important;
+  outline: 1px solid black;
+}
+button[name="checkout"] *{color:#40320A !important;}
+/* free-shipping progress bar -> green (native bar; hidden while Intelligems test is active) */
+.free-shipping--bar{background:var(--ink-green-soft) !important;}
+.free-shipping--percentage{background:var(--ink-green) !important;}
+
+/* ---------- Cart upsell "Add" buttons â€” make BOTH variants uniform ---------- */
+/* items with variants use .choose-select, simple items use .js-add-to-cart;
+   force both to yellow bg + dark text so they match */
+.cartdrawer-recommends .button,
+.cartdrawer-recommends .button.choose-select,
+.cartdrawer-recommends .js-choose-select,
+.cartdrawer-recommends .js-add-to-cart{
+  background:var(--ink-yellow) !important;
+  border-color:var(--ink-yellow) !important;
+  color:#40320A !important;
+}
+.cartdrawer-recommends .button:before{background:transparent !important;}
+.cartdrawer-recommends .button *,
+.cartdrawer-recommends .button:hover,
+.cartdrawer-recommends .button:hover *{color:#40320A !important;}
+
+/* ---------- Size selector: remove the boxed panel so pills float (mockup) ---------- */
+.product-variant-tabs-wrp{
+  background:transparent !important;
+  border:none !important;
+  border-radius:0 !important;
+  overflow:visible !important;
+}
+.product-variant-tabs-wrp .show_variants{padding:14px 0 0 !important;}
+/* tabs â†’ clean underline (out-specifies theme's boxed .danns) */
+.product-variant-tabs-wrp .tab_variants{border-bottom:1px solid var(--ink-line) !important;}
+.product-variant-tabs-wrp .tab_variants .col-auto.danns{
+  background:transparent !important;height:auto !important;border:none !important;
+  border-bottom:2px solid transparent !important;padding:9px 6px !important;line-height:1.2 !important;
+  color:var(--ink-soft) !important;font-family:'Space Mono',ui-monospace,monospace !important;
+  font-size:12px !important;letter-spacing:.05em !important;width:auto !important;
+}
+.product-variant-tabs-wrp .tab_variants .col-auto.danns.active{
+  background:transparent !important;color:var(--ink-charcoal) !important;
+  border-bottom:2px solid var(--ink-coral) !important;font-weight:700 !important;
+}
+/* size pills scoped under the wrapper so they beat the theme's high-specificity rules */
+.product-variant-tabs-wrp .product-form__input_dann input[type=radio]+label{
+  border:1px solid var(--ink-line) !important;border-radius:12px !important;
+  background:var(--ink-ivory) !important;color:var(--ink-charcoal) !important;
+  font-family:'Space Mono',ui-monospace,monospace !important;padding:12px 8px !important;min-width:54px;text-align:center;
+}
+.product-variant-tabs-wrp .product-form__input_dann input[type=radio]:checked+label,
+.product-custom-variants .product-form__input_dann input:checked+label{
+  background:var(--ink-charcoal) !important;color:var(--ink-oat) !important;border-color:var(--ink-charcoal) !important;
+}
+
+/* ============ PDP QA batch ============ */
+
+/* (4) "Half Size? / Size Guide" â€” force EVERYTHING (text, span, ruler icon) to green */
+a.size_chart, .size_chart, .size_chart *, .size_chart span, .size_chart strong{color:var(--ink-green) !important;}
+.size_chart svg, .size_chart svg path{fill:currentColor !important;}
+
+/* (1) Mobile: product gallery full-bleed (edge to edge) */
+@media (max-width:749px){
+  #Product-Slider, .product-image-container, .product__media-list{
+    width:100vw !important;max-width:100vw !important;
+    margin-left:calc(50% - 50vw) !important;margin-right:calc(50% - 50vw) !important;
+  }
+}
+
+/* (2) Color row: label small + left, swatches to the right */
+.product-form__input--color{
+  display:flex !important;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px 14px;
+}
+.product-form__input--color .form__label{font-size:13px !important;margin:0 !important;width:auto !important;}
+
+/* (3) "Fit: True to size" -> all-green bar, moved BELOW the size line */
+.product-variant-label-dm{flex-direction:column !important;align-items:flex-start !important;gap:8px;}
+.product-variant-label-dm__link{text-align:left !important;}
+.product-variant-label-dm__true-to-size{
+  display:flex !important;flex-direction:column;align-items:flex-start;gap:7px;
+  background:transparent !important;padding:0 !important;border-radius:0 !important;
+  font-family:'Space Mono',ui-monospace,monospace;font-size:12px;color:#3D5A2F;
+}
+.product-variant-label-dm__true-to-size img{display:none !important;}
+.product-variant-label-dm__true-to-size::after{
+  content:"";display:block;width:140px;height:7px;border-radius:5px;
+  background:radial-gradient(circle 5px at 50% 50%, #FBF6EE 0 4px, transparent 5px), var(--ink-green);
+}
+
+/* (5) Trust line (side-panel-links) -> subtle grey, Space Mono, like the mockup */
+.side-panel-links .tooltip-label,
+.side-panel-links--link .text-button{
+  color:var(--ink-soft) !important;
+  font-family:'Space Mono',ui-monospace,monospace !important;
+  font-size:12px !important;letter-spacing:.02em;font-weight:400 !important;
+}
+.side-panel-links--link .icon,
+.side-panel-links--link svg{color:var(--ink-soft) !important;}
+.side-panel-links--link svg path{fill:currentColor !important;}
+
+/* ============ Cart drawer QA batch ============ */
+
+/* Banner (drawer-cart-announcement): colors come from the "Cart drawer" announcement slides
+   in the theme editor now. Only the font is standardized here. */
+.drawer-accouncement .swiper-slide{
+  font-family:'Space Mono',ui-monospace,monospace !important;
+  letter-spacing:.03em;
+}
+
+/* Upsell ADD buttons -> uniform yellow + DARK text (both .js-add-to-cart and .choose-select variants) */
+.cartdrawer-recommends .button{background:var(--ink-yellow) !important;border-color:var(--ink-yellow) !important;}
+.cartdrawer-recommends .button:before{background:transparent !important;}
+.cartdrawer-recommends .button, .cartdrawer-recommends .button *,
+.cartdrawer-recommends .choose-select, .cartdrawer-recommends .choose-select *,
+.cartdrawer-recommends .js-choose-select, .cartdrawer-recommends .js-choose-select *,
+.cartdrawer-recommends .js-add-to-cart, .cartdrawer-recommends .js-add-to-cart *{
+  color:#40320A !important;
+}
+
+/* The faint variant pop-down -> dark outline so it reads against the coral band */
+.cartdrawer-recommends select, .recommends-item select{
+  border:1.5px solid var(--ink-charcoal) !important;border-radius:var(--button-border-radius, 2px) !important;
+  color:var(--ink-charcoal) !important;background:#fff !important;padding:6px 8px !important;
+}
+
+/* Checkout button -> yellow + dark text (if Navidium overrides inline, it needs the app's own setting) */
+button[name="checkout"], .button.full.checkout{
+  background:var(--ink-yellow) !important;border-color:var(--ink-yellow) !important;color:#40320A !important;
+}
+button[name="checkout"] *, .button.full.checkout *{color:#40320A !important;}
+button[name="checkout"]:before, .button.full.checkout:before{background:transparent !important;}
+
+/* Subtotal label smaller (was oversized vs the rest) */
+.subtotal-label{font-size:14px !important;font-weight:500 !important;}
+
+/* ============ Robust ATC catch-all (fixes quick-shop "ADD TO CART" staying black) ============ */
+/* match on the add-to-cart class ALONE (some contexts render without .button.outline) */
+.single-add-to-cart-button, .product-card--add-to-cart-button,
+.addt-to-cart-drawer, .js-add-to-cart, [name="add"]{
+  background:var(--ink-yellow) !important;border-color:var(--ink-yellow) !important;color:#40320A !important;
+}
+.single-add-to-cart-button--text,
+.single-add-to-cart-button *, .product-card--add-to-cart-button *,
+.addt-to-cart-drawer *, .js-add-to-cart *, [name="add"] *{color:#40320A !important;}
+.single-add-to-cart-button:before, .product-card--add-to-cart-button:before,
+.addt-to-cart-drawer:before, .js-add-to-cart:before, [name="add"]:before{
+  background:transparent !important;display:none !important;
+}
+.single-add-to-cart-button:hover, .product-card--add-to-cart-button:hover, [name="add"]:hover{
+  background:#F0A800 !important;color:#40320A !important;
+}
+
+/* (3) "As seen in" -> static (stop the marquee scroll) */
+.scrolling-text--inner{animation:none !important;transform:none !important;justify-content:center;flex-wrap:wrap;gap:20px 40px;}
+
+/* ---------- Collection filters: whiter bubbles + deeper outline (contrast on oat) ---------- */
+.active-facets__button{
+  background:#ffffff !important;
+  border:1.5px solid var(--ink-charcoal) !important;
+  border-radius:30px !important;
+}
+.active-facets__button span{border-left:1.5px solid var(--ink-charcoal) !important;}
+.active-facets__button:hover{border-color:var(--ink-coral-deep) !important;}
+/* filter dropdown / bar buttons */
+.facets__disclosure > summary,
+.facets--bar summary,
+.thb-filter .thb-filter-title,
+.mobile-facets__disclosure summary{
+  background:#ffffff !important;
+  border:1.5px solid var(--ink-charcoal) !important;
+  border-radius:30px !important;
+}
+/* filter option checkboxes: keep white fill, deeper outline */
+.facet-checkbox--presentation{border-color:var(--ink-charcoal) !important;background:#fff !important;}
+
+/* True-to-size gauge -> mockup box + light track + green dot + small/true/large labels */
+.product-variant-label-dm__true-to-size.ink-fit{
+  display:block !important;background:var(--ink-green-soft) !important;
+  border-radius:12px !important;padding:16px 18px !important;margin-top:8px;width:100%;
+}
+.product-variant-label-dm__true-to-size.ink-fit::after{content:none !important;}
+.product-variant-label-dm__link{width:100% !important;}
+.ink-fit__label{font-family:'Space Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#42632F;margin-bottom:10px;}
+.ink-fit__track{position:relative;height:6px;border-radius:4px;background:#CFE0B8;}
+.ink-fit__dot{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:14px;height:14px;border-radius:50%;background:var(--ink-green);border:2px solid #fff;}
+.ink-fit__scale{display:flex;justify-content:space-between;font-family:'Space Mono',ui-monospace,monospace;font-size:11px;color:#5C6A3C;margin-top:8px;}
+
+/* ---------- Size area re-layout: Size Guide up top (sans), fit gauge + trust below grid ---------- */
+.product-variant-label-dm{flex-direction:row !important;justify-content:space-between !important;align-items:baseline !important;}
+.product-variant-label-dm__link{width:auto !important;text-align:right !important;}
+.size_chart.ink-sizeguide, .size_chart.ink-sizeguide *{
+  font-family:'Manrope',system-ui,sans-serif !important;color:var(--ink-green) !important;font-size:14px !important;
+}
+.ink-fit-below{margin-top:16px;}
+.ink-trust{list-style:none;margin:14px 0 0;padding:0;}
+.ink-trust li{font-family:'Space Mono',ui-monospace,monospace;font-size:12px;color:#000;font-weight:700;margin-bottom:6px;}
+.ink-trust li::before{content:"\2713";color:#000;margin-right:8px;}
+/* hide the old below-grid Size Guide + fit subtitle (now moved up / replaced by the gauge) */
+.inventory_size-chart-wrp .product_size-chart{display:none !important;}
+
+/* Sticky ATC -> yellow fill + charcoal outline (was black) */
+.product-add-to-cart-sticky .single-add-to-cart-button,
+.product-add-to-cart-sticky--inner,
+.product-add-to-cart-sticky .button{
+  background:var(--ink-yellow) !important;border:1px solid #151515 !important;color:#40320A !important;
+}
+.product-add-to-cart-sticky .single-add-to-cart-button *,
+.product-add-to-cart-sticky--inner *,.product-add-to-cart-sticky .button *{color:#40320A !important;}
+.product-add-to-cart-sticky .button:before{background:transparent !important;}
+
+/* Product title smaller (was wrapping >1 line on mobile) */
+.product-title{font-size:30px !important;line-height:1.08 !important;}
+@media (max-width:749px){.product-title{font-size:22px !important;}}
+/* clean spacing for the moved stars + price */
+.okeReviews-starRating, .oke-starRating{margin:6px 0 !important;}
+.product-price-container.ink-price{margin-top:4px;}
+
+/* PDP: short description below the price (desktop only) */
+.ink-pdp-desc{font-family:'Manrope',system-ui,sans-serif;color:#141210;font-size:15px;line-height:1.5;margin:14px 0 0;}
+.ink-pdp-desc, .ink-pdp-desc p, .ink-pdp-desc span{color:#141210 !important;}
+/* desktop desc: keep intro prose only, drop the feature/spec bullet lists */
+.ink-pdp-desc ul, .ink-pdp-desc ol, .ink-pdp-desc li{display:none !important;}
+@media (max-width:749px){.ink-pdp-desc{display:none !important;}}
+
+/* Drawer upsell: small white "+add" pill with coral outline (overrides the yellow) + smaller image */
+.cartdrawer-recommends .button,
+.cartdrawer-recommends .choose-select,
+.cartdrawer-recommends .js-choose-select,
+.cartdrawer-recommends .js-add-to-cart{
+  background:#ffffff !important;border:1.5px solid var(--ink-coral) !important;color:var(--ink-coral-deep) !important;
+  border-radius:var(--button-border-radius, 2px) !important;padding:5px 12px !important;font-family:'Space Mono',ui-monospace,monospace !important;
+  font-size:11px !important;text-transform:lowercase !important;width:auto !important;min-width:0 !important;
+}
+.cartdrawer-recommends .button *, .cartdrawer-recommends .choose-select *, .cartdrawer-recommends .js-add-to-cart *{
+  color:var(--ink-coral-deep) !important;
+}
+.cartdrawer-recommends .button:before{content:"+ " !important;background:transparent !important;display:inline !important;}
+.cartdrawer-recommend-img, .cartdrawer-recommend-img img, .cartdrawer-recommends .recommends-item img{max-width:64px !important;}
+
+/* ensure the checkout note + discounts note are visible + subtle */
+.cart-policy-text{display:block !important;visibility:visible !important;font-family:'Space Mono',ui-monospace,monospace !important;font-size:11.5px !important;color:var(--ink-soft) !important;text-align:center;margin:8px 0 0 !important;letter-spacing:.01em;}
+
+/* Remove redundant PDP trust line (side-panel-links) â€” replaced by the 2 checkmark lines under the fit gauge */
+.side-panel-links{display:none !important;}
+
+/* Inventory notice: smaller + quieter, sits just above the ATC now */
+.product-inventory-notice, .product-inventory-notice--text{font-size:13px !important;font-weight:400 !important;letter-spacing:0 !important;}
+.product-inventory-notice{margin:2px 0 10px !important;}
+
+/* Sezzle installment line -> our typography + color (logo stays Sezzle-branded) */
+.sezzle-shopify-info-button, .sezzle-shopify-info-button *{
+  font-family:'Space Mono',ui-monospace,monospace !important;
+  color:var(--ink-soft) !important;
+  font-size:12px !important;letter-spacing:0 !important;
+}
+
+/* --- Strengthen: drawer upsell ADD buttons = white + coral/clay outline "+add" (final word) --- */
+.cartdrawer-recommends .button.choose-select,
+.cartdrawer-recommends .button.js-choose-select,
+.cartdrawer-recommends .button.addt-to-cart-drawer,
+.cartdrawer-recommends .button.js-add-to-cart,
+.cartdrawer-recommends button.button{
+  background:#ffffff !important;border:1.5px solid var(--ink-coral) !important;color:var(--ink-coral-deep) !important;
+  border-radius:var(--button-border-radius, 2px) !important;padding:5px 12px !important;font-family:'Space Mono',ui-monospace,monospace !important;
+  font-size:11px !important;text-transform:lowercase !important;width:auto !important;min-width:0 !important;
+}
+.cartdrawer-recommends .button.choose-select *,
+.cartdrawer-recommends .button.js-add-to-cart *,
+.cartdrawer-recommends button.button *{color:var(--ink-coral-deep) !important;}
+
+/* Cart policy note: keep 'shipping' as plain text (no link) so they can't leave the cart */
+.cart-policy-text a, .cart-policy-text a:link, .cart-policy-text a:visited{
+  pointer-events:none !important;text-decoration:none !important;color:inherit !important;cursor:default !important;
+}
+/* Both drawer policy lines identical: same font, size, weight (the link was rendering differently) */
+.cart-policy-text, .cart-policy-text *, .cart-policy-text a{
+  font-family:'Manrope',system-ui,sans-serif !important;
+  font-size:11.5px !important;
+  font-weight:400 !important;
+  line-height:1.45 !important;
+  letter-spacing:0 !important;
+}
+
+/* --- Sticky ATC popup: kill the orange bar (open state) + match PDP tabs --- */
+.product-add-to-cart-sticky--inner.sticky-open{
+  background:transparent !important;border-color:transparent !important;box-shadow:none !important;
+}
+.product-add-to-cart-sticky .tab_variants{border-bottom:1px solid var(--ink-line) !important;}
+.product-add-to-cart-sticky .tab_variants .col-auto.danns{
+  background:transparent !important;height:auto !important;border:none !important;border-bottom:2px solid transparent !important;
+  padding:9px 10px !important;line-height:1.2 !important;color:var(--ink-soft) !important;
+  font-family:'Space Mono',ui-monospace,monospace !important;font-size:12px !important;letter-spacing:.05em !important;width:auto !important;
+}
+.product-add-to-cart-sticky .tab_variants .col-auto.danns.active{
+  background:transparent !important;color:var(--ink-charcoal) !important;border-bottom:2px solid var(--ink-coral) !important;font-weight:700 !important;
+}
+/* selected size chip in sticky popup -> warm ink (match PDP) */
+.product-add-to-cart-sticky .product-form__input_dann input:checked+label{
+  background:var(--ink-charcoal) !important;color:var(--ink-oat) !important;border-color:var(--ink-charcoal) !important;
+}
+
+/* ============ PDP polish round ============ */
+
+/* (2) Accordion +/- toggle icons -> coral (was accent orange) */
+.product__accordion .custom-field--title svg,
+.product__accordion .custom-field--title svg path,
+.product__accordion summary svg, .product__accordion summary svg path{
+  color:var(--ink-coral) !important;fill:var(--ink-coral) !important;
+}
+
+/* (3) Drawer upsell ADD buttons â€” TAG selector (element is <cartdrawer-recommends>, not a class!) */
+cartdrawer-recommends .button,
+cartdrawer-recommends .choose-select,
+cartdrawer-recommends .js-choose-select,
+cartdrawer-recommends .js-add-to-cart,
+cartdrawer-recommends button.button{
+  background:#ffffff !important;border:1.5px solid var(--ink-coral) !important;color:var(--ink-coral-deep) !important;
+  border-radius:var(--button-border-radius, 2px) !important;padding:5px 12px !important;font-family:'Space Mono',ui-monospace,monospace !important;
+  font-size:11px !important;text-transform:lowercase !important;width:auto !important;min-width:0 !important;
+}
+cartdrawer-recommends .button *, cartdrawer-recommends .choose-select *, cartdrawer-recommends .js-add-to-cart *{
+  color:var(--ink-coral-deep) !important;
+}
+cartdrawer-recommends .button:before{content:"+ " !important;background:transparent !important;display:inline !important;}
+cartdrawer-recommends .cartdrawer-recommend-img, cartdrawer-recommends .recommends-item img{max-width:64px !important;}
+
+/* PDP gallery slide counter "1 / 8" -> bottom-left, Space Mono, black */
+.product-image-container{position:relative;}
+.ink-slide-counter{
+  position:absolute;left:14px;bottom:14px;z-index:4;pointer-events:none;
+  font-family:'Space Mono',ui-monospace,monospace !important;font-size:12px;color:#111111;letter-spacing:.02em;
+  width:auto !important;
+}
+
+/* ---------- Drawer cart: lighten bg + native upsell coral buttons + smaller titles ---------- */
+/* lighten drawer to match PDP */
+#Cart-Drawer, #Cart-Drawer .side-panel-inner, .cart-drawer, .cart-drawer .side-panel-inner, .cart-drawer-footer{
+  background:#FFFEFC !important;
+}
+/* native "you may also like" ADD buttons -> white + coral outline "+ add" (only inside the drawer) */
+.cart-drawer--recommendations .product-card--add-to-cart-button,
+.cart-drawer--recommendations--container .product-card--add-to-cart-button,
+.cart-drawer--recommendations .button,
+.cart-drawer--recommendations--products .button,
+.cart-drawer--recommendations--products .product-card--add-to-cart-button{
+  background:#ffffff !important;border:1.5px solid var(--ink-coral) !important;color:var(--ink-coral-deep) !important;
+  border-radius:var(--button-border-radius, 2px) !important;padding:5px 12px !important;font-family:'Space Mono',ui-monospace,monospace !important;
+  font-size:11px !important;text-transform:lowercase !important;min-width:0 !important;width:auto !important;
+}
+.cart-drawer--recommendations .product-card--add-to-cart-button *,
+.cart-drawer--recommendations .button *{color:var(--ink-coral-deep) !important;}
+.cart-drawer--recommendations .product-card--add-to-cart-button:before,
+.cart-drawer--recommendations .button:before{content:"+ " !important;background:transparent !important;display:inline !important;}
+/* Upsell cards: text column fills remaining space (fixes collapse-on-add), title clamps to 2 lines */
+.cartdrawer-recommend-text{flex:1 1 0 !important;min-width:0 !important;}
+.cartdrawer-recommend-title{
+  font-size:13px !important;line-height:1.3 !important;padding-right:0 !important;
+  display:-webkit-box !important;-webkit-line-clamp:2 !important;-webkit-box-orient:vertical !important;overflow:hidden !important;
+}
+/* Native "You may also like" titles: leave the theme's original sizing/wrapping (it was right before).
+   Only the drawer-wide Manrope rule below applies to them. */
+
+/* Cart drawer -> Manrope throughout, like the announcement bar */
+.cart-drawer, .cart-drawer *{font-family:'Manrope',system-ui,sans-serif !important;}
+/* ...except the "More Bestsellers to Love" upsell heading -> Space Mono (as before) */
+.cart-drawer .cartdrawer-recommends-title,
+.cart-drawer .cart-drawer--recommendations--heading{font-family:'Space Mono',ui-monospace,monospace !important;}
+
+/* PDP ATC: less round (soft rectangle), Manrope white text; dynamic checkout matches shape */
+.single-add-to-cart-button, [name="add"], .product-form__submit,
+.product-add-to-cart-sticky .single-add-to-cart-button{
+  border-radius:var(--button-border-radius, 2px) !important;
+}
+.single-add-to-cart-button, .single-add-to-cart-button *, .single-add-to-cart-button--text,
+[name="add"], [name="add"] *{
+  color:#ffffff !important;font-family:'Manrope',system-ui,sans-serif !important;
+}
+.shopify-payment-button__button, .shopify-payment-button__button--branded, .shopify-payment-button{
+  border-radius:var(--button-border-radius, 2px) !important;
+}
+
+/* ============ ATC + sticky fixes (round 2) ============ */
+/* Main PDP ATC: override theme's high-specificity #fd9a52 -> brand yellow, BLACK text, soft rectangle */
+.product-form__buttons .single-add-to-cart-button.button{
+  background:#FFB715 !important;border-radius:var(--button-border-radius, 2px) !important;
+}
+.product-form__buttons .single-add-to-cart-button.button,
+.product-form__buttons .single-add-to-cart-button.button *{color:#211E18 !important;}
+.product-form__buttons .single-add-to-cart-button.button:before{display:none !important;background:transparent !important;}
+.product-form__buttons .single-add-to-cart-button.button:hover{background:#F0A800 !important;}
+
+/* ATC text -> BLACK (override the earlier white) on main + sticky ATC */
+.single-add-to-cart-button, .single-add-to-cart-button *, .single-add-to-cart-button--text,
+[name="add"], [name="add"] *{color:#211E18 !important;}
+
+/* WOMEN / MEN / EUR tabs -> bigger / more proportional */
+.product-variant-tabs-wrp .tab_variants .col-auto.danns,
+.product-add-to-cart-sticky .tab_variants .col-auto.danns{
+  font-size:14px !important;padding:11px 14px !important;
+}
+
+/* Sticky popup: kill the orange bar (collapsed --inner) once the popup is open */
+.product-add-to-cart-sticky--inner.active,
+.product-add-to-cart-sticky--inner.sticky-open{
+  background:transparent !important;border-color:transparent !important;box-shadow:none !important;
+}
+
+/* ============ Drawer upsell buttons â€” DEFINITIVE coral (beats .button.js-add-to-cart 0,2,0) ============ */
+cartdrawer-recommends .button.js-add-to-cart,
+cartdrawer-recommends .button.addt-to-cart-drawer,
+cartdrawer-recommends .button.choose-select,
+cartdrawer-recommends .button.js-choose-select{
+  background:#ffffff !important;border:1.5px solid var(--ink-coral) !important;color:var(--ink-coral-deep) !important;
+  border-radius:var(--button-border-radius, 2px) !important;padding:5px 12px !important;font-family:'Space Mono',ui-monospace,monospace !important;
+  font-size:11px !important;text-transform:lowercase !important;min-width:0 !important;width:auto !important;
+}
+cartdrawer-recommends .button.js-add-to-cart,
+cartdrawer-recommends .button.js-add-to-cart *,
+cartdrawer-recommends .button.addt-to-cart-drawer *,
+cartdrawer-recommends .button.choose-select,
+cartdrawer-recommends .button.choose-select *{color:var(--ink-coral-deep) !important;}
+cartdrawer-recommends .button.js-add-to-cart:before,
+cartdrawer-recommends .button.choose-select:before{content:"+ " !important;background:transparent !important;display:inline !important;}
+/* sold-out upsell button stays muted, not coral */
+cartdrawer-recommends .button.js-add-to-cart.sold-out{
+  background:#f0efe9 !important;border-color:#d8d3c4 !important;color:#9a968c !important;
+}
+
+/* Product card badges (bestseller etc.) -> small light Space Mono (was bold uppercase sans) */
+.product-card .badge{
+  font-family:'Space Mono',ui-monospace,monospace !important;
+  font-weight:400 !important;text-transform:lowercase !important;
+  font-size:12px !important;letter-spacing:.03em !important;
+}
+
+/* Announcement bar -> green + cream + Manrope */
+/* Announcement bar colors come from Theme editor > Colors now; only the font is set here. */
+.announcement-bar, .announcement-bar *{font-family:'Manrope',ui-sans-serif,system-ui,sans-serif !important;letter-spacing:.01em;}
+
+/* ---------- PDP labels: sans + ALL CAPS, remove ruler ---------- */
+/* Half Size? Size Guide -> sans, uppercase, soft weight, no ruler icon */
+.size_chart.ink-sizeguide{
+  font-family:'Manrope',system-ui,sans-serif !important;
+  text-transform:uppercase !important;font-weight:400 !important;letter-spacing:.03em;
+}
+.size_chart.ink-sizeguide svg, .size_chart.ink-sizeguide .icon{display:none !important;}
+
+/* COLOR label -> sans, "COLOR" uppercase (selected value keeps its case) */
+.product-form__input--color .form__label{
+  font-family:'Manrope',system-ui,sans-serif !important;text-transform:uppercase !important;letter-spacing:.02em;
+}
+.product-form__input--color .form__label .form__label__value{
+  text-transform:none !important;font-family:'Manrope',system-ui,sans-serif !important;font-weight:400;
+}
+
+/* SIZE label -> sans, "SIZE" uppercase (selected value keeps its case) */
+.product-variant-label-dm__label{
+  font-family:'Manrope',system-ui,sans-serif !important;text-transform:uppercase !important;letter-spacing:.02em;
+}
+.product-variant-label-dm__label .js-product-label-dm-value{
+  text-transform:none !important;font-family:'Manrope',system-ui,sans-serif !important;
+}
+
+/* Cart "Final Few" badge -> cream pill (matches announcer), Space Mono lowercase, black */
+.cart-item-inventory .product-inventory-notice,
+.cart-item-inventory .product-inventory-notice--text{
+  background:#F5EFEB !important;
+  color:#1A1A1A !important;
+  font-family:'Space Mono', ui-monospace, monospace !important;
+  font-size:11px !important;
+  font-weight:400 !important;
+  letter-spacing:.06em !important;
+  text-transform:lowercase !important;
+  border-radius:20px !important;
+}
+
+/* ---------- PDP labels re-assert (sans + capitalize) + name weight + gallery spacing ---------- */
+/* Size label + value -> Manrope, value capitalized (Women 6) */
+.product-custom-variants .product-variant-label-dm__label,
+.product-custom-variants .product-variant-label-dm__label *,
+.product-variant-label-dm__label, .product-variant-label-dm__label *{
+  font-family:'Manrope',system-ui,sans-serif !important;
+}
+.product-variant-label-dm__label .js-product-label-dm-value{
+  text-transform:capitalize !important;font-family:'Manrope',system-ui,sans-serif !important;
+}
+/* Half Size? Size Guide -> Manrope (cover strong/span children) */
+.size_chart.ink-sizeguide, .size_chart.ink-sizeguide *,
+.size_chart.ink-sizeguide span, .size_chart.ink-sizeguide strong{
+  font-family:'Manrope',system-ui,sans-serif !important;
+}
+/* Color label + value -> Manrope */
+.product-form__input--color .form__label,
+.product-form__input--color .form__label *,
+.product-form__input--color .form__label__value{
+  font-family:'Manrope',system-ui,sans-serif !important;
+}
+/* Product name -> thicker */
+.product-title{font-weight:600 !important;}
+/* a little space above the gallery / thumbnails */
+.product-image-container{margin-top:14px !important;}
+.product-thumbnail.gallery-thumbs, .gallery-thumbs{margin-top:12px !important;}
+
+/* "As seen in" press label -> Space Mono */
+.ink-press, .ink-press *{font-family:'Space Mono',ui-monospace,monospace !important;}
+/* Journal eyebrow "stories & adventures" -> Space Mono */
+.ink-journal__eyebrow{font-family:'Space Mono',ui-monospace,monospace !important;}
+
+/* Collection card quick-add "ADD TO CART" -> yellow + dark (fix black-on-black; drawer stays coral) */
+.product-card .product-card--add-to-cart-button{
+  background:var(--ink-yellow) !important;border-color:var(--ink-yellow) !important;color:#211E18 !important;border-radius:var(--button-border-radius, 2px) !important;
+}
+.product-card .product-card--add-to-cart-button *{color:#211E18 !important;}
+.product-card .product-card--add-to-cart-button:before{display:none !important;background:transparent !important;}
+
+/* Dynamic Shop Pay button radius -> match ATC (Shopify exposes --shop-pay-button-border-radius) */
+.shopify-payment-button, shopify-payment-button, .cart-drawer-dynamic-checkout-buttons, .product-form__buttons{
+  --shop-pay-button-border-radius:var(--button-border-radius, 2px) !important;
+}
+.shopify-payment-button__button, .shopify-payment-button__button--branded{border-radius:var(--button-border-radius, 2px) !important;}
+
+/* ---------- Correction: size/color/size-guide labels use Space Mono (match the true-to-size font) ---------- */
+.size_chart.ink-sizeguide, .size_chart.ink-sizeguide *,
+.size_chart.ink-sizeguide span, .size_chart.ink-sizeguide strong{
+  font-family:'Space Mono',ui-monospace,monospace !important;
+}
+.product-form__input--color .form__label,
+.product-form__input--color .form__label *,
+.product-form__input--color .form__label__value{
+  font-family:'Space Mono',ui-monospace,monospace !important;
+}
+.product-custom-variants .product-variant-label-dm__label,
+.product-variant-label-dm__label, .product-variant-label-dm__label *,
+.product-variant-label-dm__label .js-product-label-dm-value{
+  font-family:'Space Mono',ui-monospace,monospace !important;
+}
+/* keep the size value capitalized (Women 6) */
+.product-variant-label-dm__label .js-product-label-dm-value{text-transform:capitalize !important;}
+
+/* "As seen in" press logos -> much larger */
+.ink-press__logos img{height:92px !important;}
+@media (max-width:749px){
+  .ink-press__logos{display:grid !important;grid-template-columns:1fr 1fr !important;gap:22px 16px !important;align-items:center;justify-items:center;}
+  .ink-press__logos img{height:auto !important;max-height:56px !important;max-width:100% !important;}
+}
+
+/* ===================== FINAL AUTHORITATIVE PDP LABEL PASS ===================== */
+/* COLOR and SIZE labels must be IDENTICAL: same font, size, weight, spacing, case */
+.product-form__input--color .form__label,
+.product-variant-label-dm__label{
+  font-family:'Space Mono',ui-monospace,monospace !important;
+  font-size:12px !important;
+  font-weight:700 !important;
+  letter-spacing:0 !important;
+  text-transform:uppercase !important;
+  line-height:1.35 !important;
+  margin:0 !important;
+}
+/* Their selected values (color name, "Women 6") â€” same font/size, regular weight, readable case */
+.product-form__input--color .form__label .form__label__value,
+.product-variant-label-dm__label .js-product-label-dm-value{
+  font-family:'Space Mono',ui-monospace,monospace !important;
+  font-size:12px !important;
+  font-weight:400 !important;
+  letter-spacing:0 !important;
+  text-transform:capitalize !important;
+}
+/* HALF SIZE? / SIZE GUIDE -> Space Mono but COMPACT: smaller, tight tracking, one line */
+.size_chart.ink-sizeguide,
+.size_chart.ink-sizeguide *,
+.size_chart.ink-sizeguide span,
+.size_chart.ink-sizeguide strong{
+  font-family:'Space Mono',ui-monospace,monospace !important;
+  font-size:11px !important;
+  font-weight:400 !important;
+  letter-spacing:-0.01em !important;
+  text-transform:uppercase !important;
+}
+.size_chart.ink-sizeguide{white-space:nowrap !important;}
+
+/* A little breathing room BELOW the gallery thumbnails */
+.product-thumbnail.gallery-thumbs, .gallery-thumbs{margin-bottom:18px !important;}
+
+/* Canvas color is controlled by Theme editor > Colors > Background now (set to white).
+   Header keeps its own color via the Header color settings. */
+
+/* ===== Quick-view overlay button on product cards ===== */
+/* Theme painted this near-black: rgba(var(--color-accent-rgb,21 21 21),.9) with text = var(--body-bg)
+   -> reads black-on-black. Rebrand to the yellow CTA + dark text so it matches the Add to Cart. */
+.product-card .product-card-quickview,
+.product-card .product-card-quickview--button,
+.product-card .product-card-quickview--icon{
+  background:var(--ink-yellow) !important;
+  color:#40320A !important;
+}
+.product-card .product-card-quickview span,
+.product-card .product-card-quickview *{color:#40320A !important;}
+.product-card .product-card-quickview--icon svg,
+.product-card .product-card-quickview--icon path{fill:#40320A !important;stroke:#40320A !important;}
+/* the standalone quick-view text button (small cards) -> readable dark, not black-on-black */
+.product-card-quickview.text-button,
+.product-card-quickview.text-button span{color:var(--ink-charcoal) !important;background:transparent !important;}
+
+/* ===== Accordion headings -> near-black (were too soft) ===== */
+.product__accordion summary,
+.product__accordion summary *,
+.accordion summary,
+.accordion summary .custom-field--title,
+.custom-field--title,
+.collapsible-tab-2 summary{
+  color:#141210 !important;
+  font-family:'Space Mono',ui-monospace,monospace !important;
+  font-size:12px !important;
+  letter-spacing:0 !important;
+  text-transform:uppercase !important;
+  font-weight:700 !important;
+}
+
+/* ================= ATC (#AddToCart) NUCLEAR OVERRIDE =================
+   Class-based !important was being beaten by a higher-priority background
+   (theme button setting #151515 / app). ID selector outranks any class rule. */
+#AddToCart,
+#AddToCart.button,
+#AddToCart.button.outline,
+button#AddToCart[name="add"]{
+  background:#FFB715 !important;
+  background-color:#FFB715 !important;
+  background-image:none !important;
+  border:1px solid #151515 !important;
+  border-radius:var(--button-border-radius, 2px) !important;
+  color:#211E18 !important;
+}
+#AddToCart .single-add-to-cart-button--text,
+#AddToCart span,
+#AddToCart *{color:#211E18 !important;}
+#AddToCart:before,
+#AddToCart:after{display:none !important;background:transparent !important;content:none !important;}
+#AddToCart:hover,#AddToCart:focus{background:#F0A800 !important;background-color:#F0A800 !important;}
+
+/* ================= Dynamic checkout / Shop Pay -> less round =================
+   This theme uses the classic markup (.shopify-cleanslate div[role=button]), whose
+   radius comes from --button-border-radius (40px). Force 8px on the actual pill. */
+.shopify-payment-button__button,
+.shopify-payment-button__button--branded,
+.shopify-payment-button__button--unbranded,
+.shopify-payment-button__button--branded .shopify-cleanslate div[role="button"],
+.shopify-payment-button__button:not(.shopify-payment-button__button--branded){
+  border-radius:var(--button-border-radius, 2px) !important;
+}
+
+/* ================= Preorder Me app button -> brand yellow =================
+   The app renders a black (#151515) button (.preorder-me-button / .preorpder) on
+   pre-order / low-stock products. custom.css sets it black !important; override to yellow. */
+.preorder-me-button,
+.preorder-me-button:before,
+.single-add-to-cart-button.preorpder,
+.single-add-to-cart-button.preorpder:before,
+.product-add-to-cart-sticky--content .single-add-to-cart-button.preorpder,
+.product-add-to-cart-sticky--content .single-add-to-cart-button.preorpder:before{
+  background:#FFB715 !important;
+  background-color:#FFB715 !important;
+  background-image:none !important;
+  border-color:#FFB715 !important;
+  color:#211E18 !important;
+}
+.preorder-me-button, .preorder-me-button *,
+.preorder-me-button #label,
+.single-add-to-cart-button.preorpder, .single-add-to-cart-button.preorpder *{
+  color:#211E18 !important;
+}
+/* Preorder button height: match main ATC (65px) — on the button itself, not its children */
+button.preorder-me-button{
+  min-height:65px !important;
+}
+.preorder-me-button:hover,
+.single-add-to-cart-button.preorpder:hover{background:#F0A800 !important;background-color:#F0A800 !important;}
+
+/* ===== Sticky "Select size" popup — match preorder button + prompt ===== */
+/* Button: charcoal outline (drop the yellow ::before overlay hiding it) */
+.product-add-to-cart-sticky .single-add-to-cart-button.preorpder{
+  border:1px solid #151515 !important;
+  color:#211E18 !important;
+}
+.product-add-to-cart-sticky .single-add-to-cart-button.preorpder::before{
+  background:transparent !important;
+}
+.product-add-to-cart-sticky .single-add-to-cart-button.preorpder::after{
+  color:#211E18 !important;   /* the "Pre-order" label text (was white) */
+}
+.product-add-to-cart-sticky .single-add-to-cart-button.preorpder *{
+  color:#211E18 !important;
+}
+/* Prompt: Space Mono like the main "Ships by" line (was Manrope 17px) */
+.ship-sticky-text{
+  font-family:'Manrope', system-ui, sans-serif !important;
+  font-weight:400 !important;
+  font-size:13px !important;
+  line-height:1.45 !important;
+  color:#1A1A1A !important;
+}
+
+/* ================= Drawers above the sticky header =================
+   The quick-view / cart / search drawers are .side-panel (z-index 999) but the sticky
+   header (.header-section, position:sticky) was rendering on top. Force drawers + their
+   backdrop above the header. */
+#Product-Drawer.side-panel,
+#Cart-Drawer.side-panel,
+.side-panel,
+.side-panel.active{z-index:100060 !important;}
+#wrapper .click-capture{z-index:100050 !important;}
+.header-section{z-index:45 !important;}
+
+/* Quick-view Add to Cart (belt-and-suspenders): footer.liquid styles
+   .product-drawer ... #AddToCart via settings; also enforce yellow fill + charcoal outline here at 2-ID specificity. */
+#Product-Drawer #AddToCart,
+#Product-Drawer .add_to_cart_holder #AddToCart{
+  background:#FFB715 !important;background-color:#FFB715 !important;
+  border:1px solid #151515 !important;   /* was: border-color:#FFB715 */
+  color:#211E18 !important;
+}
+#Product-Drawer #AddToCart *{color:#211E18 !important;}
+
+/* ================= Collection filter pills -> higher contrast + clear hover ================= */
+/* Active filter chips (the removable "pills") */
+.active-facets__button{
+  border:1.5px solid var(--ink-charcoal) !important;color:var(--ink-charcoal) !important;font-weight:600 !important;
+}
+.active-facets__button:hover{
+  background:var(--ink-green) !important;border-color:var(--ink-green) !important;color:#fff !important;
+}
+.active-facets__button:hover span{background:var(--ink-green) !important;border-left-color:rgba(255,255,255,.45) !important;}
+.active-facets__button:hover svg path{fill:#fff !important;}
+/* Filter option values: clearer hover + checked state (non-color swatch filters) */
+.thb-filter ul li:not(.list-color) label{
+  border-radius:6px;padding:4px 8px;transition:background .12s ease,color .12s ease;
+}
+.thb-filter ul li:not(.list-color) label:hover{
+  background:var(--ink-green) !important;color:#fff !important;
+}
+.thb-filter ul li:not(.list-color) input:checked + label{
+  color:var(--ink-green-deep) !important;font-weight:700 !important;
+}
+
+/* ================= PDP tag callouts (100% Vegan, etc.) -> one clean row under the price ================= */
+/* off the product photo */
+.product-image-container .inventory-custom-code{display:none !important;}
+/* the info-column row (label_block, right under the price): show ALL callouts, lay them in a wrapping row */
+.product-information .product-card__tag-info.show-in-gallery{display:inline-flex !important;}
+.product-information .inventory-custom-code{
+  display:flex !important;flex-wrap:wrap !important;gap:6px !important;
+  padding:2px 0 4px !important;margin:2px 0 6px !important;
+}
+.product-information .inventory-custom-code .product-card__tag-info{
+  display:inline-flex !important;align-items:center !important;
+  width:auto !important;max-width:none !important;margin:0 !important;
+  padding:5px 12px !important;font-size:11px !important;line-height:1 !important;
+  border-radius:100px !important;text-transform:uppercase !important;letter-spacing:.03em !important;
+  font-family:'Space Mono',ui-monospace,monospace !important;
+}
+
+/* ========== Mobile: give product-card titles the width the Quick View icon was eating ========== */
+/* Quick View stays (now a compact + icon); the title flexes to fill, so long names get more room. */
+.title-quick-view-wrp{gap:5px !important;}
+.title-quick-view-wrp .product-card-title{flex:1 1 auto !important;min-width:0 !important;}
+@media (max-width:1067px){
+  .title-quick-view-wrp .quick-view-title{flex:0 0 auto !important;padding-right:0 !important;}
+  .title-quick-view-wrp .quick-view-title svg{width:15px !important;height:15px !important;}
+}
+
+/* ========== PDP: soft background bands so Reviews & FAQ stand apart (robust selectors) ========== */
+/* section-spacing uses margin, so we put the color + padding on the CONTENT itself, in clearer tints. */
+body.template-product .collapsible-content{
+  background:#F7E3D8 !important;padding:34px 20px !important;border-radius:16px !important;
+}
+body.template-product .shopify-section:has(.okeReviews-widget-holder),
+body.template-product .okeReviews-widget-holder{
+  background:#E7EEDB !important;padding:30px 18px !important;border-radius:16px !important;
+}
+
+/* ========== PDP tag callouts: bigger on mobile + keep them in a horizontal row ========== */
+@media (max-width:749px){
+  .product-information .inventory-custom-code{display:flex !important;flex-wrap:wrap !important;gap:6px !important;}
+  .product-information .inventory-custom-code .product-card__tag-info{
+    display:inline-flex !important;width:auto !important;max-width:none !important;
+    font-size:12.5px !important;padding:6px 13px !important;line-height:1 !important;
+  }
+  /* product-card titles: smaller on mobile so long names fit (most on one line) */
+  .product-card-title{font-size:12.5px !important;line-height:1.35 !important;}
+}
+
+/* ========== Collection descriptions (featured collections + collection pages) -> smaller ========== */
+.collection-banner--description, .collection-banner--description *,
+.featured-collection .section-header .rte, .featured-collection .section-header .rte *,
+.section-header .rte, .section-header .rte *{
+  font-size:14px !important;line-height:1.5 !important;
+}
+
+
+/* ===== Tweaks (2026-07-10 1025 export) ===== */
+/* Product-card price -> a bit smaller (under the title) */
+.product-card-stars-price .price, .product-card-stars-price .price *, .product-card-stars-price .money{font-size:13px !important;}
+/* PDP accordion body text (Manrope) -> a little smaller */
+.product__accordion .accordion__content, .product__accordion .accordion__content *{font-size:14px !important;line-height:1.55 !important;}
+
+/* Homepage testimonials: scale the block + quote text down a touch (also: section has a "Text size" setting in the editor) */
+.testimonials.section-spacing-padding{padding-top:50px !important;padding-bottom:50px !important;}
+.testimonials .testimonials__testimonial-inner,
+.testimonials .testimonials__testimonial-inner p,
+.testimonials .testimonials__testimonial-inner .rte{font-size:19px !important;line-height:1.45 !important;}
+.testimonials .testimonials__author, .testimonials .testimonials__author *{font-size:13px !important;}
+
+/* ===== PDP thumbnail gallery — slide sizing fix =====
+   Swiper sets an inline width per thumb, but the base .swiper-slide{width:100%}
+   wins the flex-basis resolution, so thumbs rendered full-width (only ~1 visible;
+   clicks landed off-screen). Force flex-basis to match Swiper's slidesPerView. */
+.gallery-thumbs .swiper-slide{
+  flex: 0 0 calc((100% - 90px) / 10) !important;   /* ≥1068px: 10 per view, 9 gaps × 10px */
+  max-width: calc((100% - 90px) / 10) !important;
+}
+@media (max-width: 1067px){
+  .gallery-thumbs .swiper-slide{
+    flex-basis: calc((100% - 60px) / 7) !important; /* 576–1067px: 7 per view */
+    max-width:  calc((100% - 60px) / 7) !important;
+  }
+}
+@media (max-width: 575px){
+  .gallery-thumbs .swiper-slide{
+    flex-basis: calc((100% - 40px) / 5) !important; /* <576px: 5 per view */
+    max-width:  calc((100% - 40px) / 5) !important;
+  }
+}
+/* ===================================================================
+   SIZE GUIDANCE — PDP fit stack (bar + nudge + underlines)
+   =================================================================== */
+
+/* --- True-to-size bar -> slim, "true to size" as the center marker --- */
+.product-variant-label-dm__true-to-size.ink-fit{
+  padding:9px 14px !important;
+  min-height:0 !important;
+}
+.ink-fit__label{ display:none !important; }
+.ink-fit__track{ display:none !important; }
+.ink-fit__scale{
+  position:relative !important;
+  display:flex !important; align-items:center !important; justify-content:space-between !important;
+  margin:0 !important;
+}
+.ink-fit__scale::before{
+  content:""; position:absolute; left:0; right:0; top:50%;
+  height:4px; border-radius:3px; background:#C7D6B4; transform:translateY(-50%);
+}
+.ink-fit__scale > span{ position:relative; z-index:1; }
+.ink-fit__scale > span:first-child,
+.ink-fit__scale > span:last-child{
+  font-family:'Space Mono', monospace; font-size:8px; letter-spacing:.04em;
+  text-transform:uppercase; color:#5E7A46; background:#E7EEDB; padding:0 4px;
+}
+.ink-fit__scale > span:nth-child(2){
+  font-family:'Space Mono', monospace; font-size:8px; font-weight:700; letter-spacing:.05em;
+  text-transform:uppercase; color:#E7EEDB; background:#33502F;
+  padding:3px 8px; border-radius:20px; box-shadow:0 0 0 3px #E7EEDB;
+}
+
+/* --- Fit nudge line (injected under the bar) --- */
+.ink-fit-nudge{ font-size:13px; line-height:1.45; color:#3A3A2F; font-weight:400; margin:9px 1px 0; }
+.ink-fit-nudge__link{ color:inherit; text-decoration:underline; }
+
+/* --- Underline the size-guide / size-finder links --- */
+.ink-sizeguide span{ text-decoration:underline; }
+.fit-andfill-list .ink-fit-invite{ text-decoration:underline; }
+/* ===================================================================
+   SIZE AREA -> MANROPE (readability)
+   Supersedes the earlier scattered Space Mono label passes (placed last
+   so it wins). Price, trust lines, and descriptor chips stay Space Mono.
+   =================================================================== */
+/* Size label + value */
+.product-variant-label-dm__label,
+.product-variant-label-dm__label *,
+.product-variant-label-dm__label .js-product-label-dm-value,
+.js-product-label-dm-value{
+  font-family:'Manrope',system-ui,sans-serif !important;
+}
+/* Size label word — beats the .product-custom-variants override */
+.product-custom-variants .product-variant-label-dm__label,
+.product-custom-variants .product-variant-label-dm__label *{
+  font-family:'Manrope',system-ui,sans-serif !important;
+}
+/* Color label + value */
+.product-form__input--color .form__label,
+.product-form__input--color .form__label *,
+.product-form__input--color .form__label__value{
+  font-family:'Manrope',system-ui,sans-serif !important;
+}
+/* "Between Sizes? Size Guide" link */
+.size_chart.ink-sizeguide,
+.size_chart.ink-sizeguide *,
+.size_chart.ink-sizeguide span,
+.size_chart.ink-sizeguide strong{
+  font-family:'Manrope',system-ui,sans-serif !important;
+}
+/* Size number pills */
+label.variant-label,
+.product-form__input_dann label,
+.product-variant-tabs-wrp .product-form__input_dann input[type=radio]+label{
+  font-family:'Manrope',system-ui,sans-serif !important;
+}
+/* WOMEN / MEN / EUR tabs (main + sticky) */
+.js-custom-tab,
+.product-variant-tabs-wrp .tab_variants .col-auto.danns,
+.product-add-to-cart-sticky .tab_variants .col-auto.danns{
+  font-family:'Manrope',system-ui,sans-serif !important;
+}
+/* True-to-size bar: "true to size" marker + small/large ends */
+.ink-fit__scale > span:first-child,
+.ink-fit__scale > span:last-child,
+.ink-fit__scale > span:nth-child(2){
+  font-family:'Manrope',system-ui,sans-serif !important;
+}
+/* Match the SIZE label to the Color (metaobject) title — 18px / 600 / mixed case */
+.product-variant-label-dm__label,
+.product-custom-variants .product-variant-label-dm__label{
+  font-size:18px !important;
+  font-weight:600 !important;
+  text-transform:none !important;
+}
+.product-variant-label-dm__label .js-product-label-dm-value,
+.js-product-label-dm-value{
+  font-size:18px !important;
+  font-weight:600 !important;
+  text-transform:capitalize !important;
+}
+/* "Between Sizes? Size Guide" link -> charcoal to match the SIZE row it shares */
+.size_chart.ink-sizeguide,
+.size_chart.ink-sizeguide *{
+  color:var(--ink-charcoal) !important;
+}
+/* Sticky popup tabs: drop the text underline, keep the coral indicator */
+.product-add-to-cart-sticky .tab_variants .col-auto.danns,
+.product-add-to-cart-sticky .tab_variants .col-auto.danns *{
+  text-decoration:none !important;
+}
+/* Sticky popup size chips: let the flex gap handle spacing evenly */
+.product-add-to-cart-sticky .product-form__input_dann label{
+  margin:3px !important;
+}
+/* Sticky popup: extend the tab underline to match the size row width */
+.product-add-to-cart-sticky .tab_variants{
+  width:100% !important;
+}
+/* Don't let the PDP sticky ATC paint over the open mobile menu */
+body:has(.mobile-toggle-wrapper[open]) .product-add-to-cart-sticky{
+  display:none !important;
+}
+/* Mobile menu: stop the account/LOGIN footer from pinning over the menu links.
+   margin-top:auto still anchors it to the bottom; removing sticky ends the overlap. */
+.mobile-menu-drawer .thb-mobile-menu-footer{
+  position: static !important;
+}

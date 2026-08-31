@@ -509,6 +509,15 @@
     "settings": [
        {
         "type": "header",
+        "content": "Background color card"
+      },
+       {
+        "type": "color",
+        "id": "card_background",
+        "label": "Card background"
+      },
+       {
+        "type": "header",
         "content": "Reviews widget styles"
       },
        {
@@ -820,6 +829,42 @@
         "id": "final_sale_badge_color_text",
         "label": "Text color",
         "default": "#221F20"
+      },
+      {
+        "type": "text",
+        "id": "final_few_badge",
+        "label": "Final Few label (tag: final-few)",
+        "default": "Final Few"
+      },
+      {
+        "type": "color",
+        "id": "final_few_badge_color",
+        "label": "Final Few background color",
+        "default": "#DE8862"
+      },
+      {
+        "type": "color",
+        "id": "final_few_badge_color_text",
+        "label": "Text color",
+        "default": "#FFF4EE"
+      },
+      {
+        "type": "text",
+        "id": "back_in_stock_badge",
+        "label": "Back in Stock label (tag: back-in-stock)",
+        "default": "Back in Stock"
+      },
+      {
+        "type": "color",
+        "id": "back_in_stock_badge_color",
+        "label": "Back in Stock background color",
+        "default": "#5E8A4C"
+      },
+      {
+        "type": "color",
+        "id": "back_in_stock_badge_color_text",
+        "label": "Text color",
+        "default": "#F2F7EA"
       },
       {
         "type": "text",

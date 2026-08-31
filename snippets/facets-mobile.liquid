@@ -56,9 +56,10 @@
 						{%- for filter in results.filters -%}
 							{% case filter.type %}
 								{% when 'boolean' or 'list' %}
+								{%- if filter.values.size > 0 -%}
 								{%- assign label = filter.label | downcase | replace: ' ', '-' | escape -%}
 								<collapsible-row data-index="{{ forloop.index }}">
-									<details class="thb-filter js-filter" data-index="{{ forloop.index }}" open>
+									<details class="thb-filter js-filter" data-index="{{ forloop.index }}">
 										<summary class="thb-filter-title"><span></span>{{ filter.label | escape }}</summary>
 										<div class="thb-filter-content collapsible__content">
 											{%- if filter.param_name == 'filter.v.availability' -%}
@@ -320,9 +321,10 @@
 										</div>
 									</details>
 								</collapsible-row>
+								{%- endif -%}
 								{% when 'price_range' %}
 								<collapsible-row data-index="{{ forloop.index }}">
-									<details class="thb-filter js-filter" data-index="{{ forloop.index }}" open>
+									<details class="thb-filter js-filter" data-index="{{ forloop.index }}">
 										<summary class="thb-filter-title"><span></span>{{ filter.label | escape }}</summary>
 										<div class="thb-filter-content collapsible__content">
 											<div class="{{ filter.type | escape }} {{ filter.type | escape }}-{{ filter.label | downcase | escape }}">

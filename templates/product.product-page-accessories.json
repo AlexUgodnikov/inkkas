@@ -1075,9 +1075,9 @@
             "title": "Good for the Sole",
             "text": "See inspirations behind our original, one-of-a-kind designs, explore lookbooks, and more",
             "link_label": "Check it out!",
-            "link": "shopify://blogs/blog",
+            "link": "shopify://blogs/inkkas-journal",
             "use_text_button": true,
-            "block_link": "shopify://blogs/blog",
+            "block_link": "shopify://blogs/inkkas-journal",
             "product_list": []
           }
         }

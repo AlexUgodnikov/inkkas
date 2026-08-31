@@ -15,23 +15,6 @@
     {%- when 'title' -%}
       <div class="product-title-container" {{ block.shopify_attributes }}>
         <h1 class="product-title uppercase--{{ block.settings.uppercase }}">{{ product.title }}</h1>
-        <div class="product-price-container">
-          <div class="no-js-hidden" id="price-{{ section.id }}">
-            {% render 'product-price', product: product, use_variant: true, show_badges: true %}
-          </div>
-          {%- if section.settings.show_taxes_included != blank -%}
-            {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
-              <div class="product__tax caption">
-                {%- if cart.taxes_included -%}
-                  {{ 'products.product.include_taxes' | t }}
-                {%- endif -%}
-                {%- if shop.shipping_policy.body != blank -%}
-                  {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                {%- endif -%}
-              </div>
-            {%- endif -%}
-          {%- endif -%}
-        </div>
         {%- if block.settings.show_products_rating and product.metafields.reviews.rating.value != blank -%}
           <a class="star-rating-container" href="#reviews-list">
             <div class="star-rating" style="--star-rating: {{ product.metafields.reviews.rating.value.rating }};"></div>
@@ -113,7 +96,7 @@
           {% elsif product_tags contains 'slip-on-size-chart' %}
             {% for tag in product.tags %}
               {% if tag contains 'slip-on-size-chart' %}
-                <small>Slip Ons run true to size. If we don’t carry your half size, see   <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
+                <small>Slip Ons run true to size. Half size? See   <a href="javascript:;" class="size_chart" data-fancybox="dialog" data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>Size Guide ></a></small>
                 {% render 'slipon-popup-size-chart', product_id: product.id %}
               {% endif %}
             {% endfor %}
@@ -152,8 +135,7 @@
             {% render 'product-inventory-notice', product: product, section: section, block: block %}
             {% if block.settings.hide_labels == false %}
               <div class="inventory-custom-code">
-                {% render 'product-tags-label', product: product %}
-                
+                {% comment %} tag callouts consolidated into the single row under the price (label_block) {% endcomment %}
               </div>
             {% endif %}
           </div>
@@ -161,6 +143,7 @@
             
              {% assign product_tags = product.tags | join: ' ' %}
             <div class="product_size-chart">
+              {% render 'inkkas-size-finder', product: product %}
               {% if product_tags contains 'bootie-size-chart' %}
                 {% for tag in product.tags %}
                   {% if tag contains 'bootie-size-chart' %}
@@ -297,6 +280,23 @@
                     {% render 'trainer-popup-size-chart', product_id: product.id, product: product %}
                   {% endif %}
                 {% endfor %}
+
+                 {% elsif product_tags contains 'clog-size-chart' %}
+                          {% for tag in product.tags %}
+                            {% if tag contains 'clog-size-chart' %}
+                              <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                              {% render 'clog-popup-size-chart', product_id: product.id, product: product %}
+                            {% endif %}
+                          {% endfor %}
+
+                          {% elsif product_tags contains 'chelsea-size-chart' %}
+                          {% for tag in product.tags %}
+                            {% if tag contains 'chelsea-size-chart' %}
+                              <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                              {% render 'chelsea-popup-size-chart', product_id: product.id, product: product %}
+                            {% endif %}
+                          {% endfor %}
+
               {% endif %}
 
             </div>
@@ -438,7 +438,7 @@
                           {% for tag in product.tags %}
                             {% if tag contains 'bootie-size-chart' %}
                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
-                              {% include 'bootie-popup-size-chart', product_id: product.id, product: product %}
+                              {% render 'bootie-popup-size-chart', product_id: product.id, product: product %}
                             {% endif %}
                           {% endfor %}
 
@@ -553,7 +553,26 @@
                               <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
                               {% render 'trainer-popup-size-chart', product_id: product.id, product: product %}
                             {% endif %}
+                          
                           {% endfor %}
+
+
+                          {% elsif product_tags contains 'clog-size-chart' %}
+                          {% for tag in product.tags %}
+                            {% if tag contains 'clog-size-chart' %}
+                              <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                              {% render 'clog-popup-size-chart', product_id: product.id, product: product %}
+                            {% endif %}
+                          {% endfor %} 
+
+                            {% elsif product_tags contains 'chelsea-size-chart' %}
+                          {% for tag in product.tags %}
+                            {% if tag contains 'chelsea-size-chart' %}
+                              <a href="javascript:;" class="size_chart" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}<span>Size Guide</span></a>
+                              {% render 'chelsea-popup-size-chart', product_id: product.id, product: product %}
+                            {% endif %}
+                          {% endfor %}
+
                         {% endif %}
                       </div>
                       <!--<button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
@@ -585,7 +604,7 @@
           {{ product.variants | json }}
         </script>
       </variant-selects>
-      <div class="product-custom-variants">
+      <div class="product-custom-variants" id="product-variant-list">
         <div class="product-variant-label-dm">
           <div class="product-variant-label-dm__label">
             Size: <span class="js-product-label-dm-value"></span>
@@ -625,13 +644,15 @@
               {% assign styleNameVariants = 'Runs' %}
             {% elsif product_tags_listVariants contains 'trainer-size-chart' %}
               {% assign styleNameVariants = 'Trainers' %}
+             {% elsif product_tags_listVariants contains 'clog-size-chart' %}
+              {% assign styleNameVariants = 'Inkkas Clog' %}
+              {% elsif product_tags_listVariants contains 'chelsea-size-chart' %}
+              {% assign styleNameVariants = 'Inkkas Chelsea Boot' %}
             {% endif %}
-            {% comment %} <div class="product-variant-label-dm__fit">{{styleNameVariants}} Fit</div> {% endcomment %}
-            <div class="product-variant-label-dm__true-to-size">
-              Fit: True to size
-              <img src="https://cdn.shopify.com/s/files/1/0162/1490/files/size-ruler.png?v=1769602105" alt="">
 
-            </div>
+
+            {% comment %} <div class="product-variant-label-dm__fit">{{styleNameVariants}} Fit</div> {% endcomment %}
+            <a href="javascript:;" class="size_chart ink-sizeguide" data-fancybox data-src="#size-chart{{product.id}}" data-type="inline" data-no-instant>{% render 'svg-icons-inline', icon: 'ruler' %}Between Sizes? <span>Size Guide</span></a>
           </div>
         {% endif %}
         </div>
@@ -883,6 +904,18 @@
           </div>
         </div>
           </product-variant-manager>
+          <div class="ink-fit-below">
+            <div class="product-variant-label-dm__true-to-size ink-fit">
+              <div class="ink-fit__label">Fit &middot; True to size</div>
+              <div class="ink-fit__track"><span class="ink-fit__dot"></span></div>
+              <div class="ink-fit__scale"><span>small</span><span>true to size</span><span>large</span></div>
+            </div>
+            <ul class="ink-trust">
+              <li>free U.S. shipping $120+</li>
+              <li>free U.S. returns &amp; exchanges</li>
+              <li>plants a tree</li>
+            </ul>
+          </div>
 
       <!--script>
           document.addEventListener('DOMContentLoaded', function() {

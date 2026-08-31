@@ -1,3 +1,12 @@
+{%- style -%}
+  /* Inkkas mobile mega menu: under SHOES, show each category expanded inline with sketches */
+  .mobile-mega-group{padding:2px 0 8px}
+  .mobile-mega-group__heading{display:block;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:13px;padding:12px 0 4px}
+  .mobile-mega-group__list{list-style:none;margin:0;padding:0}
+  .mobile-mega-group__list > li{margin:0}
+  .mobile-mega-group__list a{display:flex;align-items:center;gap:10px;padding:7px 0 7px 10px}
+  .mobile-mega-group__list img{width:82px !important;height:auto !important;object-fit:contain;flex:0 0 auto}
+{%- endstyle -%}
 <nav id="mobile-menu" class="mobile-menu-drawer" role="dialog" tabindex="-1">
   <div class="mobile-menu-drawer--inner">
     {%- if header_settings.menu -%}
@@ -27,22 +36,21 @@
               assign badge_position = block.settings.badge_position | plus: 0
               if badge_position == parent_index
                 assign has_menu_badge = true
-
                 assign menu_badge_index = forloop.index0
               endif
             endfor
 
-             assign link_in_icons = false
-        assign link_title_lower = link.title | downcase | replace: '&amp;', '&'
-        if items_icons != blank
-          assign icons_parents = items_icons | split: ','
-          for icon_parent in icons_parents
-            assign stripped_parent = icon_parent | strip | downcase | replace: '&amp;', '&'
-            if link_title_lower == stripped_parent
-              assign link_in_icons = true
+            assign link_in_icons = false
+            assign link_title_lower = link.title | downcase | replace: '&amp;', '&'
+            if items_icons != blank
+              assign icons_parents = items_icons | split: ','
+              for icon_parent in icons_parents
+                assign stripped_parent = icon_parent | strip | downcase | replace: '&amp;', '&'
+                if link_title_lower == stripped_parent
+                  assign link_in_icons = true
+                endif
+              endfor
             endif
-          endfor
-        endif
           -%}
           <li>
             {%- if has_sub_menu == true or has_mega_menu == true -%}
@@ -68,40 +76,48 @@
                       endif
                     -%}
                     <li>
-                      {%- if has_sub_menu -%}
-                     
+                      {%- if has_mega_menu and has_sub_menu -%}
+                        {%- comment -%} Mobile mega menu: category heading + its shoe types shown inline with sketches (no extra tap) {%- endcomment -%}
+                        <div class="mobile-mega-group">
+                          <a href="{{ l.url }}" class="mobile-mega-group__heading">{{ l.title }}</a>
+                          <ul class="mobile-mega-group__list">
+                            {%- for sub_link in l.links -%}
+                              {%- assign mm_handle = sub_link.url | split: '/collections/' | last | split: '?' | first -%}
+                              {%- assign mm_col = collections[mm_handle] -%}
+                              <li>
+                                <a href="{{ sub_link.url }}" title="{{ sub_link.title | escape }}" role="menuitem">
+                                  {%- if mm_col.metafields.custom.menu_image != blank -%}
+                                    <img src="{{ mm_col.metafields.custom.menu_image | image_url: height: 140 }}" alt="{{ sub_link.title }}" loading="lazy">
+                                  {%- endif -%}
+                                  <span>{{ sub_link.title }}</span>
+                                </a>
+                              </li>
+                            {%- endfor -%}
+                          </ul>
+                        </div>
+                      {%- elsif has_sub_menu -%}
                         <details class="link-container">
                           <summary class="{% if link.title == 'WOMENS' or link.title == 'MENS' %}summary-women{% endif %}">
-                          
-
                             {%- if link.title == 'WOMENS' -%}
-                                {%- assign collection_handle = l.url | replace: '/collections/', '' -%}
-                                {%- assign collection_obj = collections[collection_handle] -%}
-                                <span>{{ l.title -}}</span>
-                                <span>{%- render 'svg-icons' with 'thb-mobile-menu-forward' -%}</span>
-                                {%- if collection_obj.metafields.custom.menu_image != blank -%}
-                                  <img
-                                    src="{{ collection_obj.metafields.custom.menu_image | image_url }}"
-                                    alt="{{ l.title }}"
-                                  >
-                                {%- endif -%}
-                              {%- elsif link.title == 'MENS' -%}
-                                {%- assign collection_handle = l.url | replace: '/collections/', '' | replace: '/mlanding', '' -%}
-                                {%- assign collection_obj = collections[collection_handle] -%}
-                                <span>{{ l.title -}}</span>
-                                <span>{%- render 'svg-icons' with 'thb-mobile-menu-forward' -%}</span>
-                                {%- if collection_obj.metafields.custom.menu_image != blank -%}
-                                  <img
-                                    src="{{ collection_obj.metafields.custom.menu_image | image_url }}"
-                                    alt="{{ l.title }}"
-                                  >
-                                {%- endif -%}
-                              {%- else -%}
-                                {{ l.title -}}
-                                <span>{%- render 'svg-icons' with 'thb-mobile-menu-forward' -%}</span>
+                              {%- assign collection_handle = l.url | replace: '/collections/', '' -%}
+                              {%- assign collection_obj = collections[collection_handle] -%}
+                              <span>{{ l.title -}}</span>
+                              <span>{%- render 'svg-icons' with 'thb-mobile-menu-forward' -%}</span>
+                              {%- if collection_obj.metafields.custom.menu_image != blank -%}
+                                <img src="{{ collection_obj.metafields.custom.menu_image | image_url: width: 200 }}" alt="{{ l.title }}" width="{{ collection_obj.metafields.custom.menu_image.value.width | default: 200 }}" height="{{ collection_obj.metafields.custom.menu_image.value.height | default: 200 }}" loading="lazy">
+                              {%- endif -%}
+                            {%- elsif link.title == 'MENS' -%}
+                              {%- assign collection_handle = l.url | replace: '/collections/', '' | replace: '/mlanding', '' -%}
+                              {%- assign collection_obj = collections[collection_handle] -%}
+                              <span>{{ l.title -}}</span>
+                              <span>{%- render 'svg-icons' with 'thb-mobile-menu-forward' -%}</span>
+                              {%- if collection_obj.metafields.custom.menu_image != blank -%}
+                                <img src="{{ collection_obj.metafields.custom.menu_image | image_url: width: 200 }}" alt="{{ l.title }}" width="{{ collection_obj.metafields.custom.menu_image.value.width | default: 200 }}" height="{{ collection_obj.metafields.custom.menu_image.value.height | default: 200 }}" loading="lazy">
+                              {%- endif -%}
+                            {%- else -%}
+                              {{ l.title -}}
+                              <span>{%- render 'svg-icons' with 'thb-mobile-menu-forward' -%}</span>
                             {%- endif -%}
-                          
-                            
                           </summary>
                           <ul class="sub-menu" tabindex="-1">
                             <li class="parent-link-back">
@@ -126,62 +142,43 @@
                           </ul>
                         </details>
                       {%- else -%}
-                       {%- if items_icons != blank -%}
- 
-                    {%- if link_in_icons -%}
-                    
-                      {%- assign collection_handle = l.url | replace: '/collections/', '' -%}
-                      {%- assign collection_obj = collections[collection_handle] -%}
-                    <a href="{{ l.url }}" title="{{ l.title | escape }}" class=" 
-                      {%- if collection_obj.metafields.custom.menu_image == blank -%} no-image{% endif %}
-                    
-                        mobile-link-caps
-                      ">
-                            <span>{{ l.title }}</span>
-                            {%- if collection_obj.metafields.custom.menu_image != blank -%}
-                              <img
-                                src="{{ collection_obj.metafields.custom.menu_image | image_url }}"
-                                alt="{{ l.title }}"
-                              >
-                            {%- endif -%}
-                          </a>
-                    {%- else -%}
-                      <a href="{{ l.url }}">{{- l.title -}}</a>
-                      {%- if has_sub_menu -%}{%- render 'svg-icons' with 'thb-dropdown-right' -%}{%- endif -%}
-                    {%- endif -%}
-                  {%- else -%}
-                        {%- if link.title == 'WOMENS' -%}
-                          {%- assign collection_handle = l.url | replace: '/collections/', '' -%}
-                          {%- assign collection_obj = collections[collection_handle] -%}
-                          <a href="{{ l.url }}" title="{{ l.title | escape }}" class="mobile-link-caps">
-                            <span>{{ l.title }}</span>
-                            {%- if collection_obj.metafields.custom.menu_image != blank -%}
-                              <img
-                                src="{{ collection_obj.metafields.custom.menu_image | image_url }}"
-                                alt="{{ l.title }}"
-                              >
-                            {%- endif -%}
-                          </a>
-                        {%- elsif link.title == 'MENS' -%}
-                          {%- assign collection_handle = l.url
-                            | replace: '/collections/', ''
-                            | replace: '/mlanding', ''
-                          -%}
-                          {%- assign collection_obj = collections[collection_handle] -%}
-                          <a href="{{ l.url }}" title="{{ l.title | escape }}" class="mobile-link-caps">
-                            <span>{{ l.title }}</span>
-                            {%- if collection_obj.metafields.custom.menu_image != blank -%}
-                              <img
-                                src="{{ collection_obj.metafields.custom.menu_image | image_url }}"
-                                alt="{{ l.title }}"
-                              >
-                            {%- endif -%}
-                          </a>
+                        {%- if items_icons != blank -%}
+                          {%- if link_in_icons -%}
+                            {%- assign collection_handle = l.url | replace: '/collections/', '' -%}
+                            {%- assign collection_obj = collections[collection_handle] -%}
+                            <a href="{{ l.url }}" title="{{ l.title | escape }}" class="{%- if collection_obj.metafields.custom.menu_image == blank -%} no-image{% endif %} mobile-link-caps">
+                              <span>{{ l.title }}</span>
+                              {%- if collection_obj.metafields.custom.menu_image != blank -%}
+                                <img src="{{ collection_obj.metafields.custom.menu_image | image_url: width: 200 }}" alt="{{ l.title }}" width="{{ collection_obj.metafields.custom.menu_image.value.width | default: 200 }}" height="{{ collection_obj.metafields.custom.menu_image.value.height | default: 200 }}" loading="lazy">
+                              {%- endif -%}
+                            </a>
+                          {%- else -%}
+                            <a href="{{ l.url }}">{{- l.title -}}</a>
+                          {%- endif -%}
                         {%- else -%}
-                          <a href="{{ l.url }}" title="{{ l.title | escape }}">{{ l.title }}</a>
+                          {%- if link.title == 'WOMENS' -%}
+                            {%- assign collection_handle = l.url | replace: '/collections/', '' -%}
+                            {%- assign collection_obj = collections[collection_handle] -%}
+                            <a href="{{ l.url }}" title="{{ l.title | escape }}" class="mobile-link-caps">
+                              <span>{{ l.title }}</span>
+                              {%- if collection_obj.metafields.custom.menu_image != blank -%}
+                                <img src="{{ collection_obj.metafields.custom.menu_image | image_url: width: 200 }}" alt="{{ l.title }}" width="{{ collection_obj.metafields.custom.menu_image.value.width | default: 200 }}" height="{{ collection_obj.metafields.custom.menu_image.value.height | default: 200 }}" loading="lazy">
+                              {%- endif -%}
+                            </a>
+                          {%- elsif link.title == 'MENS' -%}
+                            {%- assign collection_handle = l.url | replace: '/collections/', '' | replace: '/mlanding', '' -%}
+                            {%- assign collection_obj = collections[collection_handle] -%}
+                            <a href="{{ l.url }}" title="{{ l.title | escape }}" class="mobile-link-caps">
+                              <span>{{ l.title }}</span>
+                              {%- if collection_obj.metafields.custom.menu_image != blank -%}
+                                <img src="{{ collection_obj.metafields.custom.menu_image | image_url: width: 200 }}" alt="{{ l.title }}" width="{{ collection_obj.metafields.custom.menu_image.value.width | default: 200 }}" height="{{ collection_obj.metafields.custom.menu_image.value.height | default: 200 }}" loading="lazy">
+                              {%- endif -%}
+                            </a>
+                          {%- else -%}
+                            <a href="{{ l.url }}" title="{{ l.title | escape }}">{{ l.title }}</a>
+                          {%- endif -%}
                         {%- endif -%}
                       {%- endif -%}
-                       {%- endif -%}
                     </li>
                   {%- endfor -%}
 
@@ -249,13 +246,13 @@
         {%- if customer -%}
           {%- assign profile_link = routes.account_url -%}
           {%- capture profile_text -%}
-				    {{ 'sections.header.my_account' | t }}
-				  {%- endcapture -%}
+            {{ 'sections.header.my_account' | t }}
+          {%- endcapture -%}
         {%- else -%}
           {%- assign profile_link = routes.account_login_url -%}
           {%- capture profile_text -%}
-				    {{ 'sections.header.login' | t }}
-				  {%- endcapture -%}
+            {{ 'sections.header.login' | t }}
+          {%- endcapture -%}
         {%- endif -%}
         <a class="thb-mobile-account-link" href="{{ profile_link | escape }}" title="{{ profile_text | escape }}">
           {%- render 'svg-icons' with 'myaccount' %}
@@ -290,5 +287,4 @@
       });
     })
 });
-
 </script>

@@ -11,94 +11,10 @@
   "type": "header",
   "name": "Footer group",
   "sections": {
-    "scrolling_text_BxiVDL": {
-      "type": "scrolling-text",
-      "blocks": {
-        "text_QVHqpQ": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Free U.S. Shipping Over $150",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_cKQnFJ": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "✦",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_zpCUaW": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Free Returns & Exchanges",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_6JtfdK": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "✦",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_h7gYdx": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "✨ Happiness Guarantee: Try Them On Risk-Free",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_kifLkL": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "✦",
-            "link": "",
-            "outline_text": false
-          }
-        }
-      },
-      "block_order": [
-        "text_QVHqpQ",
-        "text_cKQnFJ",
-        "text_zpCUaW",
-        "text_6JtfdK",
-        "text_h7gYdx",
-        "text_kifLkL"
-      ],
-      "disabled": true,
-      "name": "Scrolling text",
-      "settings": {
-        "height": "height-auto",
-        "full_width": true,
-        "direction": "left",
-        "speed": "20s",
-        "text_size": 18,
-        "text_uppercase": false,
-        "image_size": "large",
-        "color_bg": "#f5f3ef",
-        "color_text": "#151515",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "173998895283371412": {
+    "17871514368ebe01e6": {
       "type": "apps",
       "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_Ax3bth": {
+        "klaviyo_email_marketing_sms_form_embed_block_7a63Gw": {
           "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
             "formId": "<div class=\"klaviyo-form-WhpyCV\"></div>"
@@ -106,25 +22,13 @@
         }
       },
       "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_Ax3bth"
+        "klaviyo_email_marketing_sms_form_embed_block_7a63Gw"
       ],
       "settings": {}
     },
     "footer": {
       "type": "footer",
       "blocks": {
-        "text_zNhLR4": {
-          "type": "text",
-          "settings": {
-            "column_size": "large",
-            "title": "",
-            "text": "<p>For over a decade, Inkkas has been creating artful, handcrafted footwear rooted in nature and brought to life by artists. Loved by travelers, creatives, and curious souls around the world, our one-of-a-kind shoe collections include bold sneakers and breezy slip-ons, versatile boots and comfy sandals. Every design begins as hand-drawn art, is ethically made in small batches, and is tree-planting powered—combining comfort, craft, and conscience in every step.</p>",
-            "text_size": "small",
-            "button_text": "",
-            "button_link": "",
-            "show_social_links": true
-          }
-        },
         "menu_8fj8kU": {
           "type": "menu",
           "settings": {
@@ -167,29 +71,40 @@
             "button_link": "",
             "show_social_links": false
           }
+        },
+        "text_zNhLR4": {
+          "type": "text",
+          "settings": {
+            "column_size": "large",
+            "title": "",
+            "text": "<p><em>For over a decade, Inkkas has been creating artful, handcrafted footwear rooted in nature and brought to life by artists. Loved by travelers, creatives, and curious souls around the world, our one-of-a-kind shoe collections include bold sneakers and versatile slip-ons, distinctive boots and comfy sandals. Every design begins as hand-drawn art, is ethically made in small batches, and is tree-planting powered—combining comfort, craft, and conscience in every step.</em></p>",
+            "text_size": "small",
+            "button_text": "",
+            "button_link": "",
+            "show_social_links": false
+          }
         }
       },
       "block_order": [
-        "text_zNhLR4",
         "menu_8fj8kU",
         "401e3886-6cb7-4742-8fda-45a0d97a26a3",
         "00a364e5-af4e-4073-871b-4d533bd4da06",
         "social_f3XQrA",
-        "text_cLrayB"
+        "text_cLrayB",
+        "text_zNhLR4"
       ],
       "settings": {
         "full_width": true,
         "copyright_text": "All rights reserved.",
         "show_language_switcher": false,
         "show_currency_switcher": false,
-        "show_payment_icons": false,
+        "show_payment_icons": true,
         "enable_follow_on_shop": false
       }
     }
   },
   "order": [
-    "scrolling_text_BxiVDL",
-    "173998895283371412",
+    "17871514368ebe01e6",
     "footer"
   ]
 }

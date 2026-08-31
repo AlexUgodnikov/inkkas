@@ -1,0 +1,74 @@
+{%- liquid
+  assign eyebrow = section.settings.eyebrow
+  assign heading = section.settings.heading
+  assign subheading = section.settings.subheading
+-%}
+<div class="ink-journal">
+  {%- if eyebrow != blank -%}<p class="ink-journal__eyebrow">{{ eyebrow }}</p>{%- endif -%}
+  {%- if heading != blank -%}<h2 class="ink-journal__title">{{ heading }}</h2>{%- endif -%}
+  {%- if subheading != blank -%}<p class="ink-journal__sub">{{ subheading }}</p>{%- endif -%}
+  <div class="ink-journal__grid">
+    {%- for block in section.blocks -%}
+      <a class="ink-jcard" href="{{ block.settings.link | default: '#' }}" {{ block.shopify_attributes }}>
+        <div class="ink-jcard__img"{% if block.settings.image != blank %} data-bg="{{ block.settings.image | image_url: width: 800 }}"{% endif %}></div>
+        {%- if block.settings.tag != blank -%}<span class="ink-jcard__tag">{{ block.settings.tag }}</span>{%- endif -%}
+        {%- if block.settings.heading != blank -%}<h3 class="ink-jcard__h">{{ block.settings.heading }}</h3>{%- endif -%}
+      </a>
+    {%- endfor -%}
+  </div>
+</div>
+<style>
+.ink-journal{padding:64px 40px;}
+.ink-journal__eyebrow{font-family:'Space Mono',ui-monospace,monospace;font-size:13px;letter-spacing:.04em;color:#7C7A67;text-align:left;margin:0 0 6px;}
+.ink-journal__title{font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:32px;color:#211E18;text-align:left;margin:0 0 4px;}
+.ink-journal__sub{font-family:'Manrope',system-ui,sans-serif;color:#7C7A67;font-size:15px;text-align:left;margin:0 0 30px;}
+.ink-journal__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+.ink-jcard{display:block;text-decoration:none;color:inherit;}
+.ink-jcard__img{aspect-ratio:4/3;height:auto;border-radius:12px;background:#FBF8F1 center/cover no-repeat;margin-bottom:12px;}
+@media(min-width:750px){.ink-jcard__img{min-height:300px;}}
+.ink-jcard__tag{font-family:'Space Mono',ui-monospace,monospace;font-size:11px;color:#9A5738;letter-spacing:.08em;}
+.ink-jcard__h{font-family:'Fraunces',Georgia,serif;font-weight:500;font-size:19px;color:#211E18;margin:4px 0 0;}
+@media(max-width:749px){.ink-journal{padding:44px 20px;}.ink-journal__grid{grid-template-columns:1fr;gap:20px}}
+</style>
+ 
+<script>
+(function(){
+  var imgs=document.querySelectorAll('.ink-jcard__img[data-bg]');
+  if(!('IntersectionObserver' in window)){imgs.forEach(function(el){el.style.backgroundImage="url('"+el.dataset.bg+"')";});return;}
+  var io=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){var el=e.target;el.style.backgroundImage="url('"+el.dataset.bg+"')";io.unobserve(el);}});},{rootMargin:'400px 0px'});
+  imgs.forEach(function(el){io.observe(el);});
+})();
+</script>
+ 
+{% schema %}
+{
+  "name": "Journal tiles",
+  "tag": "section",
+  "class": "ink-journal-section",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "stories & adventures" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "From the Journal" },
+    { "type": "text", "id": "subheading", "label": "Subheading", "default": "Where to next?" }
+  ],
+  "blocks": [
+    {
+      "type": "tile",
+      "name": "Tile",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Image" },
+        { "type": "url", "id": "link", "label": "Link" },
+        { "type": "text", "id": "tag", "label": "Tag (eyebrow)", "default": "the craft" },
+        { "type": "text", "id": "heading", "label": "Heading", "default": "Tile heading" }
+      ]
+    }
+  ],
+  "max_blocks": 6,
+  "presets": [
+    {
+      "name": "Journal tiles",
+      "blocks": [ { "type": "tile" }, { "type": "tile" }, { "type": "tile" } ]
+    }
+  ]
+}
+{% endschema %}
+ 

@@ -9,24 +9,167 @@
  */
 {
   "sections": {
-    "gallery_dJpr7W": {
+    "slideshow_HWrzkh": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_AA9jWk": {
+          "type": "slide",
+          "name": "Anything but Ordinary Video",
+          "settings": {
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": true,
+            "video": "",
+            "video_hosted": "shopify://files/videos/inkkas-hero-mobile.mp4",
+            "subheading": "",
+            "heading": "anything but ordinary",
+            "heading_color": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "bottom-center",
+            "text_alignment": "center",
+            "content_size": "large",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "shop",
+            "button_1_link": "shopify://collections/best-sellers",
+            "button_1_outline": true,
+            "button_1_bg": "",
+            "button_1_text_color": "#f5efeb",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false,
+            "button_2_bg": "",
+            "button_2_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_AA9jWk"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {.slideshow__slide-video-bg > video {object-position: center 60%; }}"
+      ],
+      "name": "Bussi Video",
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_P3HkxR": {
       "type": "gallery",
       "blocks": {
-        "image_kawMVQ": {
+        "image_VJVHYG": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/GIF-LUZON_BUCKLE_SANDAL-POOL.webp",
+            "image": "shopify://shop_images/BANNER_-_2026_BTS_BOGO-flat-left.webp",
             "subheading": "",
-            "title": "Handcrafted Sandals",
-            "text": "FROM BEACH DAYS TO CITY WAYS→",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify://collections/sandals",
+            "block_link": "shopify://collections/bogo-sale",
             "product_list": []
           }
         },
-        "image_UpzzzY": {
+        "image_RLNLM6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_-_2026_BTS_BOGO-flat-right_result.webp",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/bogo-sale",
+            "product_list": []
+          }
+        },
+        "image_kFQWpb": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BANNER_-_2026_BTS_BOGO-beltbag-left.webp",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/bogo-sale",
+            "product_list": []
+          }
+        },
+        "image_rfHYLD": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BANNER_-_2026_BTS_BOGO-belt_bag-right_result.webp",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/bogo-sale",
+            "product_list": []
+          }
+        },
+        "image_FbyUWV": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BANNER_-_2026_BTS_BOGO-hishers-left.webp",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/best-sellers",
+            "product_list": []
+          }
+        },
+        "image_7EchDT": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BANNER_-_2026_BTS_BOGO-hishers-right_result.webp",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/best-sellers",
+            "product_list": []
+          }
+        },
+        "image_mUE4iY": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/RANA-TREKK-BOOT-SS261024-MODEL-EPI_9961_c4dc8baa-8858-4a63-8580-99ddd33cdb7d.jpg",
+            "subheading": "",
+            "title": "Adventure All Day",
+            "text": "",
+            "link_label": "Shop Boots →",
+            "link": "shopify://collections/trekk-boots",
+            "use_text_button": true,
+            "block_link": "shopify://collections/trekk-boots",
+            "product_list": []
+          }
+        },
+        "image_qyTGAg": {
           "type": "image",
           "disabled": true,
           "settings": {
@@ -41,28 +184,14 @@
             "product_list": []
           }
         },
-        "image_d9rBAN": {
+        "image_zmnYHW": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/RANA-TREKK-BOOT-SS261024-FLAT-DSC_4721.jpg",
-            "subheading": "",
-            "title": "Adventure Boots",
-            "text": "DUSK TILL DAWN→",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/trekk-boots",
-            "product_list": []
-          }
-        },
-        "image_QcdQxk": {
-          "type": "image",
-          "settings": {
             "image": "shopify://shop_images/SILVAN-TENNIS-SS260203-AGAVE-TENNIS-SS260202-JOYA-JOGGER-SS260410-FLAT-HORIZONTAL-GROUP-IMG_0424_71e05776-0ea6-453d-8cbe-dbddef067d7c.jpg",
             "subheading": "",
-            "title": "The Happiest Sneakers",
-            "text": "FIND YOUR JOY →",
+            "title": "Happy Sneakers",
+            "text": "MAKE HAPPY FEET →",
             "link_label": "",
             "link": "",
             "use_text_button": false,
@@ -70,37 +199,22 @@
             "product_list": []
           }
         },
-        "image_gRfqgf": {
+        "image_wnyinM": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/InkkasHomepage-May2026-mobile_3_slides-canva.webp",
+            "image": "shopify://shop_images/Luzon_Buckle_Sandal_-_Size_Test.jpg",
             "subheading": "",
-            "title": "",
-            "text": "",
+            "title": "Handcrafted Sandals",
+            "text": "FROM BEACH DAYS TO CITY WAYS→",
             "link_label": "",
             "link": "",
             "use_text_button": false,
-            "block_link": "shopify://collections/womens-collection-all-shoes",
+            "block_link": "shopify://collections/sandals",
             "product_list": []
           }
         },
-        "image_nJgd6H": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_33.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/womens-collection-all-shoes",
-            "product_list": []
-          }
-        },
-        "image_P3dyTX": {
+        "image_JaRiKL": {
           "type": "image",
           "disabled": true,
           "settings": {
@@ -115,37 +229,7 @@
             "product_list": []
           }
         },
-        "image_KwBFgd": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_23.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/womens-collection-all-shoes",
-            "product_list": []
-          }
-        },
-        "image_mQDJ6L": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Inkkas_Mobile_Size_Homepage_-_May_2026_1.gif",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/mens-shoes",
-            "product_list": []
-          }
-        },
-        "image_z69wQ3": {
+        "image_WRMJdy": {
           "type": "image",
           "disabled": true,
           "settings": {
@@ -160,7 +244,7 @@
             "product_list": []
           }
         },
-        "image_emmzx8": {
+        "image_4FfkF3": {
           "type": "image",
           "disabled": true,
           "settings": {
@@ -177,377 +261,21 @@
         }
       },
       "block_order": [
-        "image_kawMVQ",
-        "image_UpzzzY",
-        "image_d9rBAN",
-        "image_QcdQxk",
-        "image_gRfqgf",
-        "image_nJgd6H",
-        "image_P3dyTX",
-        "image_KwBFgd",
-        "image_mQDJ6L",
-        "image_z69wQ3",
-        "image_emmzx8"
+        "image_VJVHYG",
+        "image_RLNLM6",
+        "image_kFQWpb",
+        "image_rfHYLD",
+        "image_FbyUWV",
+        "image_7EchDT",
+        "image_mUE4iY",
+        "image_qyTGAg",
+        "image_zmnYHW",
+        "image_wnyinM",
+        "image_JaRiKL",
+        "image_WRMJdy",
+        "image_4FfkF3"
       ],
-      "name": "Gallery",
-      "settings": {
-        "slider": false,
-        "columns_desktop": 2,
-        "section_width": "full-width-row-full",
-        "mobile_swipe": false,
-        "image_ratio": "portrait",
-        "content_position": "bottom-left",
-        "text_alignment": "left",
-        "column_spacing": "small",
-        "heading_size": "h3",
-        "overlay_color": "#000000",
-        "overlay_opacity": 10,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "spacer_nhn7fD": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 15,
-        "spacer_desktop": 30,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "featured_collection_zwp4pM": {
-      "type": "featured-collection",
-      "name": "Featured collection",
-      "settings": {
-        "heading": "Bestsellers",
-        "heading_left": false,
-        "heading_color": "#FFB715",
-        "heading_size": 50,
-        "heading_size_mobile": 40,
-        "description": "",
-        "full_width": true,
-        "collection": "best-sellers",
-        "display_type": "carousel",
-        "product_limit": 12,
-        "columns_desktop": 4,
-        "columns_mobile": "1.5",
-        "show_view_all": false,
-        "mobile_swipe": true,
-        "show_progress_bar": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
-    "featured_collection_d6J7aT": {
-      "type": "featured-collection",
-      "name": "Featured collection",
-      "settings": {
-        "heading": "New Arrivals",
-        "heading_left": false,
-        "heading_color": "#FFB715",
-        "heading_size": 40,
-        "heading_size_mobile": 40,
-        "description": "",
-        "full_width": true,
-        "collection": "new-arrivals",
-        "display_type": "carousel",
-        "product_limit": 12,
-        "columns_desktop": 4,
-        "columns_mobile": "1.5",
-        "show_view_all": false,
-        "mobile_swipe": true,
-        "show_progress_bar": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
-    "spacer_GdTKb7": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 20,
-        "spacer_desktop": 40,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "single_image_TPQApM": {
-      "type": "single-image",
-      "name": "Single image",
-      "settings": {
-        "image": "shopify://shop_images/Homepage_Tagline_with_Icons_-_6.26.26.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "rich_text_ba8NeN": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_wzxUdV": {
-          "type": "subheading",
-          "settings": {
-            "text": "as seen in"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_wzxUdV"
-      ],
-      "settings": {
-        "section_width": "grid",
-        "text_width": "grid",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#151515",
-        "color_links": "#151515",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "scrolling_text_CXQtRH": {
-      "type": "scrolling-text",
-      "blocks": {
-        "text_TUqR43": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoELLE.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_AjXrd4": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logo5update.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_PhCpDF": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoGLAMOUR_43a9bbff-3be5-46d8-aeff-f4e990da8681.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_abCPWg": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoPEOPLE_ca9d198d-a31f-49b8-a157-724d0d969a17.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_MpD46i": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoWAPOST.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_6gw9k6": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/logoNORDSTROM.png",
-            "text": "",
-            "link": "",
-            "outline_text": false
-          }
-        }
-      },
-      "block_order": [
-        "text_TUqR43",
-        "text_AjXrd4",
-        "text_PhCpDF",
-        "text_abCPWg",
-        "text_MpD46i",
-        "text_6gw9k6"
-      ],
-      "custom_css": [],
-      "settings": {
-        "height": "height-auto",
-        "full_width": true,
-        "direction": "left",
-        "speed": "20s",
-        "text_size": 16,
-        "text_uppercase": true,
-        "image_size": "small",
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "spacer_HemHeh": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 20,
-        "spacer_desktop": 40,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "gallery_UP44r6": {
-      "type": "gallery",
-      "blocks": {
-        "image_VjNTXk": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Inkkas_Homepage_-_May_2026-summer_dreams-mobile.webp",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/new-arrivals",
-            "product_list": []
-          }
-        },
-        "image_tjkq6C": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_35.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/best-sellers",
-            "product_list": []
-          }
-        },
-        "image_GceA3t": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_33.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/womens-collection-all-shoes",
-            "product_list": []
-          }
-        },
-        "image_8F3gtt": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_28.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/mens-shoes",
-            "product_list": []
-          }
-        },
-        "image_DtnGgT": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_24.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/mens-shoes",
-            "product_list": []
-          }
-        },
-        "image_RViynC": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_6446abd3-5d78-495d-b81d-ad94bfd073b1.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://products/rana-trekk-boot",
-            "product_list": []
-          }
-        },
-        "image_8tbDWh": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/InkkasHomepage-May2026-secondarybanner-mobile.webp",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/new-arrivals",
-            "product_list": []
-          }
-        },
-        "image_RpiPwg": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Mobile_Banner_2_7ada0e73-e2c6-46cb-aada-37f3adb84d24.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://products/rana-trekk-boot",
-            "product_list": []
-          }
-        },
-        "image_VFqR67": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Inkkas_Mobile_Size_Homepage_-_May_2026_1.gif",
-            "subheading": "",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/mens-shoes",
-            "product_list": []
-          }
-        }
-      },
-      "block_order": [
-        "image_VjNTXk",
-        "image_tjkq6C",
-        "image_GceA3t",
-        "image_8F3gtt",
-        "image_DtnGgT",
-        "image_RViynC",
-        "image_8tbDWh",
-        "image_RpiPwg",
-        "image_VFqR67"
-      ],
+      "disabled": true,
       "name": "Gallery",
       "settings": {
         "slider": false,
@@ -555,14 +283,429 @@
         "section_width": "full-width-row-full",
         "mobile_swipe": true,
         "image_ratio": "adapt",
-        "content_position": "bottom-center",
-        "text_alignment": "center",
+        "content_position": "middle-left",
+        "text_alignment": "left",
         "column_spacing": "none",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
+      }
+    },
+    "slideshow_WVBhNT": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_makQiw": {
+          "type": "slide",
+          "name": "Monterey Tennis",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/MONTEREY-TENNIS-SS260204-HOLD-HORIZONTAL-6242-ezgif.com-jpg-to-webp-converter.webp",
+            "mobile_image": "shopify://shop_images/MONTEREY-TENNIS-SS260204-MODEL-ZOOM-6115-ezgif.com-jpg-to-webp-converter.webp",
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": true,
+            "video": "",
+            "subheading": "",
+            "heading": "Colorful by Nature",
+            "heading_color": "",
+            "heading_size": "h1-large",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "Shop",
+            "button_1_link": "shopify://collections/best-sellers",
+            "button_1_outline": false,
+            "button_1_bg": "#000000",
+            "button_1_text_color": "#f5efeb",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false,
+            "button_2_bg": "",
+            "button_2_text_color": ""
+          }
+        },
+        "slide_Cegd8W": {
+          "type": "slide",
+          "name": "BOGO sale",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BANNER-2026BacktoSchoolBOGOsale-desktop.webp",
+            "mobile_image": "shopify://shop_images/BANNER_-_2026_Back_to_School_BOGO_sale-mobile_be85061e-3d27-4d7a-9563-b549ec22b439.webp",
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": false,
+            "video": "",
+            "subheading": "",
+            "heading": "",
+            "heading_color": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_1_bg": "",
+            "button_1_text_color": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false,
+            "button_2_bg": "",
+            "button_2_text_color": ""
+          }
+        },
+        "slide_BYD99J": {
+          "type": "slide",
+          "name": "BOGO sale",
+          "settings": {
+            "image": "shopify://shop_images/BANNER-2026BacktoSchoolBOGOsale-ezgif.com-gif-to-webp-converter.webp",
+            "mobile_image": "shopify://shop_images/BANNER-2026BacktoSchoolBOGOsale-mobile_cbd603a7-d766-4766-8e7b-d53191d915e1.webp",
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": false,
+            "video": "",
+            "subheading": "",
+            "heading": "",
+            "heading_color": "",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_1_bg": "",
+            "button_1_text_color": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false,
+            "button_2_bg": "",
+            "button_2_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_makQiw",
+        "slide_Cegd8W",
+        "slide_BYD99J"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "name": "Slideshow",
+      "settings": {
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
+        "full_width": true,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "custom_liquid_YdVCKM": {
+      "type": "custom-liquid",
+      "name": "Custom liquid: Trust Strip",
+      "settings": {
+        "custom_liquid": "<section class=\"ink-trustbar\">\n  <div class=\"ink-trustbar__item\">\n    <svg viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\">\n      <path d=\"M4 15 H28 V33 H4 Z\"/>\n      <path d=\"M28 21 H37 L43 27 V33 H28 Z\"/>\n      <circle cx=\"14\" cy=\"35\" r=\"3.2\"/>\n      <circle cx=\"35\" cy=\"35\" r=\"3.2\"/>\n    </svg>\n    <span>Free U.S. Shipping $120+</span>\n  </div>\n  <div class=\"ink-trustbar__item\">\n    <svg viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\">\n      <path d=\"M16 17 H30 A9 9 0 1 1 21 26\"/>\n      <path d=\"M16 17 L22 11\"/>\n      <path d=\"M16 17 L22 23\"/>\n    </svg>\n    <span>Free U.S. Returns</span>\n  </div>\n  <div class=\"ink-trustbar__item\">\n    <svg viewBox=\"0 0 48 48\" fill=\"currentColor\" stroke=\"none\" aria-hidden=\"true\">\n      <path d=\"M24 5 L29.6 17.4 L43 19 L33 28.2 L35.6 41.4 L24 34.8 L12.4 41.4 L15 28.2 L5 19 L18.4 17.4 Z\"/>\n    </svg>\n    <span>10,000+ 5-Star Reviews</span>\n  </div>\n</section>\n<style>\n.ink-trustbar{display:flex;justify-content:center;align-items:center;gap:clamp(24px,6vw,72px);flex-wrap:wrap;background:#ffffff;border-top:1px solid #EADFD3;border-bottom:1px solid #EADFD3;padding:16px 20px;}\n.ink-trustbar__item{display:inline-flex;align-items:center;gap:10px;}\n.ink-trustbar__item svg{width:24px;height:24px;flex:none;color:#9A5738;}\n.ink-trustbar__item span{font-family:'Space Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#3A3A2F;}\n@media(max-width:600px){.ink-trustbar{gap:16px 22px;}.ink-trustbar__item span{font-size:11px;letter-spacing:.03em;}}\n</style>"
+      }
+    },
+    "featured_collection_zwp4pM": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "name": "Featured collection: Bestsellers",
+      "settings": {
+        "heading": "Bestsellers",
+        "heading_left": false,
+        "heading_color": "#151515",
+        "heading_size": 40,
+        "heading_size_mobile": 25,
+        "description": "<p>The styles our customers keep coming back for.</p>",
+        "full_width": true,
+        "collection": "best-sellers",
+        "display_type": "carousel",
+        "product_limit": 12,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_LmMtMY": {
+      "type": "gallery",
+      "blocks": {
+        "image_jLTRdM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CHANTERELLE-VEGAN-TREKK-BOOT-AW241010-HOLD--IMG_9208_e314d5b5-96ad-4ea6-9ec0-b53c762bdd4e-ezgif.com-jpg-to-webp-converter.webp",
+            "subheading": "",
+            "title": "Boots",
+            "text": "",
+            "link_label": "SHOP",
+            "link": "shopify://collections/all-boots",
+            "use_text_button": true,
+            "block_link": "shopify://collections/all-boots",
+            "product_list": []
+          }
+        },
+        "image_tGmTPi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HENDRIX_JOGGER_EPI_1885.jpg",
+            "subheading": "",
+            "title": "Sneakers",
+            "text": "",
+            "link_label": "SHOP",
+            "link": "shopify://collections/all-sneakers",
+            "use_text_button": true,
+            "block_link": "shopify://collections/all-sneakers",
+            "product_list": []
+          }
+        },
+        "image_L6Q7D6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DesertBuckleSandal-Flat-Heart-kimberlyreynoldsphotography-IMG_7832-converter.webp",
+            "subheading": "",
+            "title": "Sandals",
+            "text": "",
+            "link_label": "SHOP",
+            "link": "shopify://collections/sandals",
+            "use_text_button": true,
+            "block_link": "shopify://collections/sandals",
+            "product_list": []
+          }
+        },
+        "image_ACn7jM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MOHAVE-SLIPON-SS230301-HOLD-4Q2A3983_678cacc9-d4f6-4766-9b62-13e5965d280a.jpg",
+            "subheading": "",
+            "title": "Slip Ons",
+            "text": "",
+            "link_label": "SHOP",
+            "link": "shopify://collections/slip-ons",
+            "use_text_button": true,
+            "block_link": "shopify://collections/slip-ons",
+            "product_list": []
+          }
+        },
+        "image_d9xjHc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MontereyBeltBag.webp",
+            "subheading": "",
+            "title": "Bags & more",
+            "text": "",
+            "link_label": "SHOP",
+            "link": "shopify://collections/accessories-2",
+            "use_text_button": true,
+            "block_link": "shopify://collections/accessories-2",
+            "product_list": []
+          }
+        },
+        "image_rbX3aW": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/LUZON-TENNIS-AW250213-MODEL-ZOOM-EPI_0136.jpg",
+            "subheading": "",
+            "title": "Sneakers",
+            "text": "",
+            "link_label": "SHOP",
+            "link": "shopify://collections/all-sneakers",
+            "use_text_button": true,
+            "block_link": "shopify://collections/low-top",
+            "product_list": []
+          }
+        },
+        "image_NKFG9i": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BROWN-LEATHER-CAMPING-BOOT-140402-HOLD-_1.jpg",
+            "subheading": "",
+            "title": "CAMPING BOOTS",
+            "text": "",
+            "link_label": "SHOP NOW",
+            "link": "shopify://collections/camping-boots",
+            "use_text_button": true,
+            "block_link": "shopify://collections/camping-boots",
+            "product_list": []
+          }
+        },
+        "image_KCAph3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/CYPRUS-WESTERNBOOT-SS231124-MODELZOOM-4Q2A0330.jpg",
+            "subheading": "",
+            "title": "Western Boots",
+            "text": "",
+            "link_label": "SHOP NOW",
+            "link": "shopify://collections/western-boots",
+            "use_text_button": true,
+            "block_link": "shopify://collections/western-boots",
+            "product_list": []
+          }
+        },
+        "image_XKeeUz": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SARAS-BOOTIE-AW250805-MODELZOOM-RTSS3604.jpg",
+            "subheading": "",
+            "title": "BOOTIES",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify://collections/booties",
+            "product_list": []
+          }
+        }
+      },
+      "block_order": [
+        "image_jLTRdM",
+        "image_tGmTPi",
+        "image_L6Q7D6",
+        "image_ACn7jM",
+        "image_d9xjHc",
+        "image_rbX3aW",
+        "image_NKFG9i",
+        "image_KCAph3",
+        "image_XKeeUz"
+      ],
+      "name": "Shop Tiles: By Silhouette",
+      "settings": {
+        "slider": true,
+        "columns_desktop": 3,
+        "section_width": "full-width-row",
+        "mobile_swipe": true,
+        "image_ratio": "portrait",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "column_spacing": "small",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 9,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_yyTfpD": {
+      "type": "featured-collection",
+      "name": "Featured collection: Sale",
+      "settings": {
+        "heading": "End of Summer Markdowns Up to 50% Off",
+        "heading_left": false,
+        "heading_color": "#151515",
+        "heading_size": 30,
+        "heading_size_mobile": 20,
+        "description": "",
+        "full_width": true,
+        "collection": "clearance",
+        "display_type": "carousel",
+        "product_limit": 8,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "featured_collection_FeEgtg": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection: New",
+      "settings": {
+        "heading": "New Arrivals",
+        "heading_left": false,
+        "heading_color": "#151515",
+        "heading_size": 40,
+        "heading_size_mobile": 30,
+        "description": "",
+        "full_width": true,
+        "collection": "new-arrivals",
+        "display_type": "carousel",
+        "product_limit": 12,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "press_custom": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom liquid: As Seen In",
+      "settings": {
+        "custom_liquid": "<div class=\"ink-press\">\n  <p class=\"ink-press__label\">as seen in</p>\n  <div class=\"ink-press__logos\">\n    <img src=\"https://inkkas.com/cdn/shop/files/logoELLE.png\" alt=\"ELLE\">\n    <img src=\"https://inkkas.com/cdn/shop/files/logoPEOPLE_ca9d198d-a31f-49b8-a157-724d0d969a17.png\" alt=\"People\">\n    <img src=\"https://inkkas.com/cdn/shop/files/logoGLAMOUR_43a9bbff-3be5-46d8-aeff-f4e990da8681.png\" alt=\"Glamour\">\n    <img src=\"https://inkkas.com/cdn/shop/files/logoWAPOST.png\" alt=\"Washington Post\">\n  </div>\n</div>\n<style>\n.ink-press{text-align:center;background:#;margin-top:28px;padding:22px 20px 26px}\n.ink-press__label{font-family:'Space Mono',ui-monospace,monospace;font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:#9A5738;margin:0 0 16px}\n.ink-press__logos{display:flex;justify-content:center;align-items:center;gap:clamp(24px,5vw,48px);flex-wrap:wrap}\n.ink-press__logos img{height:22px;width:auto;filter:grayscale(1);opacity:.55}\n@media(max-width:749px){\n  .ink-press{padding:18px 16px 20px}\n  .ink-press__logos{gap:22px 28px}\n  .ink-press__logos img{height:16px}\n}\n</style>"
+      }
+    },
+    "custom_liquid_4xM4cK": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid: Belief Line",
+      "settings": {
+        "custom_liquid": "<section class=\"ink-belief\">\n  <div class=\"ink-belief__inner\">\n    <p class=\"ink-belief__text\">\n      We make bold footwear worth celebrating &mdash; <em>hand-inked</em> art &amp; <em>handcrafted</em> comfort combine for your <em>happiest</em> adventures.<img class=\"ink-belief__suninline\" src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/inkkas-belief-sun.png?v=1786676824\" alt=\"\" aria-hidden=\"true\">\n    </p>\n    <a class=\"ink-belief__link\" href=\"/collections/best-sellers\">See for yourself <span aria-hidden=\"true\">&rarr;</span></a>\n  </div>\n  <img class=\"ink-belief__sun\" src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/inkkas-belief-sun.png?v=1786676824\" alt=\"\" aria-hidden=\"true\">\n</section>\n<style>\n  .ink-belief{\n    position: relative;\n    padding: clamp(28px, 5vw, 56px) 20px;\n    text-align: center;\n    background: #f5efeb;\n    overflow: hidden;\n  }\n  .ink-belief__inner{ max-width: 720px; margin: 0 auto; }\n  .ink-belief__text{\n    font-family: 'Fraunces', Georgia, serif;\n    font-weight: 500;\n    font-size: clamp(18px, 2.2vw, 26px);\n    line-height: 1.3;\n    letter-spacing: .01em;\n    color: #1A1A1A;\n    margin: 0 0 clamp(14px, 2vw, 20px);\n  }\n  .ink-belief__text em{ font-style: italic; color: #C15F3C; }\n  .ink-belief__link{\n    display: inline-block;\n    font-family: 'Space Mono', ui-monospace, monospace;\n    font-size: 13px; font-weight: 700; letter-spacing: .14em;\n    text-transform: uppercase; color: #1A1A1A; text-decoration: none;\n    border-bottom: 1.5px solid currentColor; padding-bottom: 3px;\n    transition: opacity .2s ease;\n  }\n  .ink-belief__link:hover{ opacity: .65; }\n  .ink-belief__sun{\n    position: absolute;\n    top: 50%;\n    right: clamp(18px, 5vw, 70px);\n    transform: translateY(-50%);\n    width: clamp(50px, 7vw, 82px);\n    height: auto;\n    pointer-events: none;\n  }\n  .ink-belief__suninline{ display: none; }\n  @media (max-width: 900px){\n    .ink-belief__sun{ display: none; }\n    .ink-belief__suninline{\n      display: inline-block;\n      width: 24px; height: 24px;\n      vertical-align: -5px;\n      margin-left: 6px;\n    }\n  }\n  @media (max-width: 480px){\n    .ink-belief__link{ font-size: 12px; letter-spacing: .12em; }\n  }\n</style>"
+      }
+    },
+    "1783692902e2877959": {
+      "type": "apps",
+      "blocks": {
+        "vizup_videos_videos_block_TwDBg8": {
+          "type": "shopify://apps/vizup-videos/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
+          "name": "Vizup: Slider Carousel Videos",
+          "settings": {
+            "videoc_widget_id": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "vizup_videos_videos_block_TwDBg8"
+      ],
+      "name": "App: Vizup",
+      "settings": {}
+    },
+    "spacer_nhA7Ak": {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "custom_liquid_N6AxFC": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom liquid: Color Me Happy",
+      "settings": {
+        "custom_liquid": "<div style=\"text-align:center; padding:5px 0 5px;\">\n  <svg width=\"0\" height=\"0\" style=\"position:absolute\" aria-hidden=\"true\"><defs><filter id=\"ink-happy-sun\" x=\"-25%\" y=\"-25%\" width=\"150%\" height=\"150%\"><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.035\" numOctaves=\"2\" seed=\"4\" result=\"n\"/><feDisplacementMap in=\"SourceGraphic\" in2=\"n\" scale=\"2\" xChannelSelector=\"R\" yChannelSelector=\"G\"/></filter></defs></svg>\n  <p style=\"font-family:'Fraunces',Georgia,serif; font-size:24px; font-weight:600; letter-spacing:.01em; color:#1A1A1A; margin:0 0 4px;\">Color me <span style=\"color:#FFB715; display:inline-block; transform:skewX(-10deg);\">happy</span>.<svg viewBox=\"0 0 48 48\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"#FFB715\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" style=\"vertical-align:-5px; margin-left:7px;\" filter=\"url(#ink-happy-sun)\" aria-hidden=\"true\"><circle cx=\"24\" cy=\"24\" r=\"7\"/><line x1=\"24\" y1=\"13\" x2=\"24\" y2=\"7\"/><line x1=\"24\" y1=\"35\" x2=\"24\" y2=\"41\"/><line x1=\"13\" y1=\"24\" x2=\"7\" y2=\"24\"/><line x1=\"35\" y1=\"24\" x2=\"41\" y2=\"24\"/><line x1=\"16.2\" y1=\"16.2\" x2=\"12.3\" y2=\"12.3\"/><line x1=\"31.8\" y1=\"16.2\" x2=\"35.7\" y2=\"12.3\"/><line x1=\"16.2\" y1=\"31.8\" x2=\"12.3\" y2=\"35.7\"/><line x1=\"31.8\" y1=\"31.8\" x2=\"35.7\" y2=\"35.7\"/></svg></p>\n  <p style=\"font-family:'Fraunces',Georgia,serif; font-size:18px; font-weight:500; letter-spacing:.01em; color:#C15F3C; margin:0;\">10,000+ 5-star reviews say it all</p>\n</div>"
       }
     },
     "testimonials_zhUtgi": {
@@ -607,17 +750,87 @@
         "quote_CyaMfC",
         "quote_FmHYhn"
       ],
+      "custom_css": [
+        ".section-testimonials {--color-star: #c15f3c;}",
+        ".section-testimonials .testimonials__testimonial .star-rating {font-size: 1.4rem; margin-bottom: 1rem;}",
+        ".section-testimonials .testimonials__testimonial p {font-family: \"Fraunces\", serif; font-weight: 500; line-height: 1.35; color: #1a1a1a;}",
+        ".section-testimonials .testimonials__author {font-family: \"Manrope\", sans-serif; font-weight: 500; font-size: 0.9rem; letter-spacing: 0.02em; margin-top: 1.1rem; color: #1a1a1a; opacity: 0.7;}"
+      ],
       "name": "Testimonials",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "text_size": "small",
         "pagination": "dots",
         "autoplay": true,
         "autoplay_length": 5,
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#000000",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "quiz_custom": {
+      "type": "custom-liquid",
+      "name": "Custom liquid: quiz",
+      "settings": {
+        "custom_liquid": "<div class=\"ink-quiz\">\n  <div class=\"ink-quiz__text\">\n    <p class=\"ink-quiz__eyebrow\">find your solemate</p>\n    <h2 class=\"ink-quiz__title\">Not sure where to start?</h2>\n    <p class=\"ink-quiz__sub\">Answer 5 quick questions and we'll find your perfect pair.</p>\n  </div>\n  <a href=\"/pages/quiz\" class=\"ink-quiz__btn\">Take the quiz &rarr;</a>\n</div>\n<style>\n.ink-quiz{display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap;background:#ffec8e;padding:48px 56px}\n.ink-quiz__eyebrow{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C15F3C;margin:0 0 8px}\n.ink-quiz__title{font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:34px;line-height:1.05;color:#1A1A1A;margin:0 0 6px}\n.ink-quiz__sub{font-family:'Manrope',system-ui,sans-serif;color:#4A443B;font-size:15px;margin:0}\n.ink-quiz__btn{flex:0 0 auto;background:#1A1A1A;color:#ffffff;text-decoration:none;font-family:'Manrope',system-ui,sans-serif;font-weight:700;padding:15px 30px;border-radius:40px;font-size:14px;white-space:nowrap}\n@media(max-width:749px){.ink-quiz{flex-direction:column;align-items:flex-start;text-align:left;padding:36px 24px;gap:18px}.ink-quiz__title{font-size:27px}}\n</style>"
+      }
+    },
+    "custom_liquid_FDaiXD": {
+      "type": "custom-liquid",
+      "name": "Custom liquid: hand-inked",
+      "settings": {
+        "custom_liquid": "<div class=\"ink-craft\">\n  <svg width=\"0\" height=\"0\" style=\"position:absolute\" aria-hidden=\"true\"><defs>\n    <filter id=\"ink-sketch\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">\n      <feTurbulence type=\"fractalNoise\" baseFrequency=\"0.03\" numOctaves=\"2\" seed=\"7\" result=\"n\"/>\n      <feDisplacementMap in=\"SourceGraphic\" in2=\"n\" scale=\"2.2\" xChannelSelector=\"R\" yChannelSelector=\"G\"/>\n    </filter>\n  </defs></svg>\n  <div class=\"ink-craft__text\">\n    <p class=\"ink-craft__eyebrow\">since 2012</p>\n    <h2 class=\"ink-craft__title\">Step into your next <em>adventure.</em> </h2>\n    <p class=\"ink-craft__body\">Hand-drawn by independent artists and inspired by the beauty around us, every pair is ethically handcrafted in small batches—better for people and the planet.</p>\n    <div class=\"ink-craft__chips\">\n      <span>\n        <svg viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" filter=\"url(#ink-sketch)\"><circle cx=\"24\" cy=\"24\" r=\"7\"/><line x1=\"24\" y1=\"13\" x2=\"24\" y2=\"7\"/><line x1=\"24\" y1=\"35\" x2=\"24\" y2=\"41\"/><line x1=\"13\" y1=\"24\" x2=\"7\" y2=\"24\"/><line x1=\"35\" y1=\"24\" x2=\"41\" y2=\"24\"/><line x1=\"16.2\" y1=\"16.2\" x2=\"12.3\" y2=\"12.3\"/><line x1=\"31.8\" y1=\"16.2\" x2=\"35.7\" y2=\"12.3\"/><line x1=\"16.2\" y1=\"31.8\" x2=\"12.3\" y2=\"35.7\"/><line x1=\"31.8\" y1=\"31.8\" x2=\"35.7\" y2=\"35.7\"/></svg>\n        colorful by nature\n      </span>\n      <span>\n        <svg viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" filter=\"url(#ink-sketch)\"><line x1=\"13\" y1=\"35\" x2=\"32\" y2=\"16\"/><circle cx=\"33.5\" cy=\"14.5\" r=\"2.2\"/><path d=\"M33.5 14.5 C 41 18, 39 27, 30 26 C 24 25.5, 24 33, 30 35\"/></svg>\n        ethically crafted\n      </span>\n      <span>\n        <svg viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" filter=\"url(#ink-sketch)\"><path d=\"M14 42 H34\"/><path d=\"M24 42 V21\"/><path d=\"M24 30 C 18 31, 13 27, 13 20 C 20 20, 24 24, 24 30 Z\"/><path d=\"M24 26 C 30 27, 35 23, 35 16 C 28 16, 24 20, 24 26 Z\"/></svg>\n        500k+ trees planted\n      </span>\n    </div>\n    <a href=\"/pages/about\" class=\"ink-craft__link\">Our Story &rarr;</a>\n  </div>\n  <div class=\"ink-craft__imgwrap\">\n    <img class=\"ink-craft__img\" src=\"https://inkkas.com/cdn/shop/files/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg?v=1764879294\" alt=\"Artist sketching an original Inkkas design\" loading=\"lazy\">\n  </div>\n</div>\n<style>\n.ink-craft{display:grid;grid-template-columns:1.05fr 1fr;align-items:center;background:#f5efeb;overflow:hidden}\n.ink-craft__text{padding:60px 56px}\n.ink-craft__eyebrow{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#C15F3C;margin:0 0 12px}\n.ink-craft__title{font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:38px;line-height:1.05;color:#1A1A1A;margin:0 0 16px}\n.ink-craft__title em{font-style:italic;color:#C15F3C}\n.ink-craft__body{font-family:'Manrope',system-ui,sans-serif;color:#4A443B;font-size:16px;max-width:440px;margin:0 0 24px;line-height:1.55}\n.ink-craft__chips{display:flex;gap:10px;flex-wrap:wrap}\n.ink-craft__chips span{display:inline-flex;align-items:center;gap:7px;font-family:'Space Mono',monospace;font-size:11px;background:#ffffff;border:1px solid #E7D6C4;color:#C15F3C;padding:7px 13px;border-radius:30px;letter-spacing:.02em}\n.ink-craft__chips svg{width:15px;height:15px;flex:none}\n.ink-craft__link{display:inline-block;margin-top:24px;font-family:'Space Mono',ui-monospace,monospace;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#1A1A1A;text-decoration:none;border-bottom:1.5px solid currentColor;padding-bottom:3px;transition:opacity .2s ease}\n.ink-craft__link:hover{opacity:.65}\n.ink-craft__imgwrap{display:flex;align-items:center;justify-content:center;background:#f5efeb;min-height:440px;max-height:560px;overflow:hidden}\n.ink-craft__img{max-width:100%;max-height:100%;width:auto;height:auto;display:block}\n@media(max-width:749px){\n  .ink-craft{grid-template-columns:1fr}\n  .ink-craft__imgwrap{order:-1;min-height:260px;max-height:420px}\n  .ink-craft__text{padding:40px 24px}\n  .ink-craft__title{font-size:30px}\n}\n</style>"
+      }
+    },
+    "journal_tiles": {
+      "type": "ink-journal",
+      "blocks": {
+        "tile_1": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/making_of_the_joggers-ezgif.com-optiwebp.webp",
+            "link": "shopify://pages/about",
+            "tag": "the craft",
+            "heading": "How a pair of Inkkas is made"
+          }
+        },
+        "tile_2": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/Tree-square-update.jpg",
+            "link": "shopify://pages/our-impact",
+            "tag": "our impact",
+            "heading": "Half a million trees, one pair at a time"
+          }
+        },
+        "tile_3": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/HENDRIX-JOGGER-SS210412-HOLD-5W1A0059.jpg",
+            "link": "shopify://blogs/inkkas-journal",
+            "tag": "the journal",
+            "heading": "Shoes that start conversations"
+          }
+        }
+      },
+      "block_order": [
+        "tile_1",
+        "tile_2",
+        "tile_3"
+      ],
+      "settings": {
+        "eyebrow": "stories & adventures",
+        "heading": "From the Journal",
+        "subheading": "Where to next?"
+      }
+    },
+    "craft_custom": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom liquid: hand-inked",
+      "settings": {
+        "custom_liquid": "<div class=\"ink-craft\">\n  <div class=\"ink-craft__text\">\n    <p class=\"ink-craft__eyebrow\">since 2012</p>\n    <h2 class=\"ink-craft__title\">Hand-<em>inked</em> by artists.<br>Made to move <em>you.</em></h2>\n    <p class=\"ink-craft__body\">Every design starts as original art, inked by independent artists and inspired by nature around the world. Ethically handcrafted in small batches, better for people and the planet.</p>\n    <div class=\"ink-craft__chips\"><span>hand-inked art</span><span>small-batch craft</span><span>500k+ trees planted</span></div>\n  </div>\n  <div class=\"ink-craft__img\"></div>\n</div>\n<style>\n.ink-craft{display:grid;grid-template-columns:1.05fr 1fr;align-items:center;background:#F7E3D8;overflow:hidden}\n.ink-craft__text{padding:60px 56px}\n.ink-craft__eyebrow{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#9A5738;margin:0 0 12px}\n.ink-craft__title{font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:38px;line-height:1.05;color:#3A3A2F;margin:0 0 16px}\n.ink-craft__title em{font-style:italic;color:#C0517A}\n.ink-craft__body{color:#7C5748;font-size:16px;max-width:440px;margin:0 0 24px;line-height:1.55}\n.ink-craft__chips{display:flex;gap:10px;flex-wrap:wrap}\n.ink-craft__chips span{font-family:'Space Mono',monospace;font-size:11px;background:#FBEEE6;border:1px solid #E6C3B1;color:#9A5738;padding:7px 13px;border-radius:30px;letter-spacing:.02em}\n.ink-craft__img{min-height:440px;height:100%;background:center/cover no-repeat url('https://inkkas.com/cdn/shop/files/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg?v=1764879294')}\n@media(max-width:749px){.ink-craft{grid-template-columns:1fr}.ink-craft__img{min-height:280px;order:-1}.ink-craft__text{padding:40px 24px}.ink-craft__title{font-size:30px}}\n</style>"
       }
     },
     "rich_text_mdRPdC": {
@@ -626,7 +839,7 @@
         "text_JzdRjm": {
           "type": "text",
           "settings": {
-            "text": "<h2><strong>Shop by Style</strong></h2>",
+            "text": "<h2><strong>Handcrafted Styles</strong></h2>",
             "custom_liquid": "",
             "size": "text-size-large"
           }
@@ -635,6 +848,7 @@
       "block_order": [
         "text_JzdRjm"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "section_width": "full-width-row",
@@ -642,514 +856,41 @@
         "text_position": "center",
         "text_alignment": "center",
         "color_bg": "rgba(0,0,0,0)",
-        "color_text": "#FFB715",
-        "color_links": "#151515",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "gallery_LmMtMY": {
-      "type": "gallery",
-      "blocks": {
-        "image_rbX3aW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/LUZON-TENNIS-AW250213-MODEL-ZOOM-EPI_0136.jpg",
-            "subheading": "",
-            "title": "TENNIS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/low-top",
-            "product_list": []
-          }
-        },
-        "image_tGmTPi": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ScreenShot2021-12-16at4.29.39PM.png",
-            "subheading": "",
-            "title": "JOGGERS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/joggers",
-            "product_list": []
-          }
-        },
-        "image_L6Q7D6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/DesertBuckleSandal-Flat-Heart-kimberlyreynoldsphotography-IMG_7832-converter.webp",
-            "subheading": "",
-            "title": "SANDALS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/sandals",
-            "product_list": []
-          }
-        },
-        "image_ACn7jM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/MOHAVE-SLIPON-SS230301-HOLD-4Q2A3983_678cacc9-d4f6-4766-9b62-13e5965d280a.jpg",
-            "subheading": "",
-            "title": "SLIP ONS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/slip-ons",
-            "product_list": []
-          }
-        },
-        "image_d9xjHc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BUSSI-TRAINER-AW250609-MODELZOOM-RTSS1035.jpg",
-            "subheading": "",
-            "title": "RUNNERS & TRAINERS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/runners",
-            "product_list": []
-          }
-        },
-        "image_jLTRdM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WANYAMA-TREKKBOOT-AW251018-HOLD-RTSS1921-EDIT.jpg",
-            "subheading": "",
-            "title": "TREKK BOOTS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/trekk-boots",
-            "product_list": []
-          }
-        },
-        "image_NKFG9i": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BROWN-LEATHER-CAMPING-BOOT-140402-HOLD-_1.jpg",
-            "subheading": "",
-            "title": "CAMPING BOOTS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/camping-boots",
-            "product_list": []
-          }
-        },
-        "image_KCAph3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/CYPRUS-WESTERNBOOT-SS231124-MODELZOOM-4Q2A0330.jpg",
-            "subheading": "",
-            "title": "WESTERN BOOTS",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/western-boots",
-            "product_list": []
-          }
-        },
-        "image_XKeeUz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/SARAS-BOOTIE-AW250805-MODELZOOM-RTSS3604.jpg",
-            "subheading": "",
-            "title": "BOOTIES",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "shopify://collections/booties",
-            "product_list": []
-          }
-        }
-      },
-      "block_order": [
-        "image_rbX3aW",
-        "image_tGmTPi",
-        "image_L6Q7D6",
-        "image_ACn7jM",
-        "image_d9xjHc",
-        "image_jLTRdM",
-        "image_NKFG9i",
-        "image_KCAph3",
-        "image_XKeeUz"
-      ],
-      "name": "Gallery",
-      "settings": {
-        "slider": true,
-        "columns_desktop": 4,
-        "section_width": "full-width-row",
-        "mobile_swipe": true,
-        "image_ratio": "portrait",
-        "content_position": "middle-center",
-        "text_alignment": "center",
-        "column_spacing": "medium",
-        "heading_size": "h3",
-        "overlay_color": "#000000",
-        "overlay_opacity": 9,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
-    "spacer_bF66Ng": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 35,
-        "spacer_desktop": 0,
-        "border_separator": true,
-        "border_separator_full": false
-      }
-    },
-    "1759887391a1859dfc": {
-      "type": "apps",
-      "blocks": {
-        "vizup_shoppable_video_carousel_videos_block_xdkXJx": {
-          "type": "shopify://apps/vizup-videos/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
-          "settings": {
-            "videoc_widget_id": "",
-            "custom_css": ""
-          }
-        }
-      },
-      "block_order": [
-        "vizup_shoppable_video_carousel_videos_block_xdkXJx"
-      ],
-      "settings": {}
-    },
-    "spacer_WmWKiM": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 50,
-        "spacer_desktop": 50,
-        "border_separator": false,
-        "border_separator_full": false
-      }
-    },
-    "image_with_text_MrXTBh": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_emtnri": {
-          "type": "heading",
-          "settings": {
-            "text": "Find Your Match",
-            "heading_size": "h3"
-          }
-        },
-        "text_DAh89t": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Answer 5 quick questions and we'll find the best pair for you.</p>",
-            "description_size": "medium"
-          }
-        },
-        "subheading_XfUUVw": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "FIND YOUR SOLEMATE"
-          }
-        },
-        "button_dr8qga": {
-          "type": "button",
-          "settings": {
-            "button_text": "TAKE THE QUIZ →",
-            "button_link": "shopify://pages/quiz"
-          }
-        }
-      },
-      "block_order": [
-        "heading_emtnri",
-        "text_DAh89t",
-        "subheading_XfUUVw",
-        "button_dr8qga"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "image": "shopify://shop_images/QUIZ_COVER_-_Homepage_3.jpg",
-        "use_video": false,
-        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "video_autoplay": true,
-        "video_controls": false,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "section_width": "full-width-row-full",
-        "layout": "image_first",
-        "content_position": "text-center",
-        "color_bg": "#ffec8e",
-        "color_text": "#050505",
-        "color_border": "#e2e2e2",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "rich_text_t6kx3j": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_weGm9t": {
-          "type": "heading",
-          "settings": {
-            "text": "What You're Saying (Right Now)",
-            "size": "h3"
-          }
-        },
-        "subheading_d7ByrG": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "10,000+ Reviews Rated 'Excellent' 4.8 out of 5"
-          }
-        },
-        "text_nebbqX": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>10,000+</strong> Reviews Rated <strong>'Excellent' 4.8 </strong>out of <strong>5 </strong></p>",
-            "custom_liquid": "",
-            "size": "text-size-small"
-          }
-        }
-      },
-      "block_order": [
-        "heading_weGm9t",
-        "subheading_d7ByrG",
-        "text_nebbqX"
-      ],
-      "settings": {
-        "section_width": "full-width-row-full",
-        "text_width": "xlarge",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
+        "color_text": "#ffb715",
         "color_links": "#151515",
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
-    "1759579239f64a0794": {
-      "type": "apps",
-      "blocks": {
-        "okendo_reviews_badge_btPWid": {
-          "type": "shopify://apps/okendo/blocks/reviews-badge/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "disabled": true,
-          "settings": {
-            "horizontal_alignment": "center"
-          }
-        },
-        "okendo_reviews_carousel_wzLcNf": {
-          "type": "shopify://apps/okendo/blocks/reviews-carousel/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "show_heading": false,
-            "heading": "",
-            "badge_link": "",
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "okendo_reviews_badge_btPWid",
-        "okendo_reviews_carousel_wzLcNf"
-      ],
-      "settings": {}
-    },
-    "spacer_HRnN6a": {
-      "type": "spacer",
-      "name": "Spacer",
-      "settings": {
-        "spacer_mobile": 50,
-        "spacer_desktop": 100,
-        "border_separator": true,
-        "border_separator_full": false
-      }
-    },
-    "single_image_Dqxpzi": {
-      "type": "single-image",
-      "name": "Single image",
-      "settings": {
-        "image": "shopify://shop_images/Why_Inkkas_Homepage_Icons_-_06.26.26.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "multicolumn_TW977r": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_XnYGQ9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/making_of_the_joggers-ezgif.com-optiwebp.webp",
-            "image_full_width": true,
-            "retina": true,
-            "title": "Ethically Handcrafted",
-            "text": "<p>More than just a pair of shoes, we build experiences—for your feet and your soul. With artful designs and premium materials that are cushioned, lightweight, and mold to your movement, our shoes are made to move with you wherever the day takes you.</p>",
-            "link_label": "Check Out The Blog",
-            "link": "shopify://blogs/blog"
-          }
-        },
-        "column_mwd9nj": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/BLAKE-SLIP-ON-KL302333-MODELZOOM-ART-IMG_7673.jpg",
-            "image_full_width": true,
-            "retina": true,
-            "title": "Good for the Sole",
-            "text": "<p>Since 2012, we’ve been designing shoes that don’t follow the crowd—because neither do you. Every design starts with original art <em><strong>inked</strong></em> by independent artists, inspired by nature around the world, crafted with bold colors and details you won’t find anywhere else. </p>",
-            "link_label": "About Inkkas",
-            "link": "shopify://pages/about"
-          }
-        },
-        "column_f6TFFJ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Tree-square-update.jpg",
-            "image_full_width": true,
-            "retina": true,
-            "title": "Every Purchase Plants a Tree",
-            "text": "<p>We plant one tree for every purchase with trees.org, amounting to more than <strong>half a million trees </strong>planted as of 2026. To reduce waste, we make collections in small batches using time-honored techniques that are better for people & the planet.</p>",
-            "link_label": "Learn More",
-            "link": "shopify://pages/about"
-          }
-        }
-      },
-      "block_order": [
-        "column_XnYGQ9",
-        "column_mwd9nj",
-        "column_f6TFFJ"
-      ],
-      "name": "Multicolumn",
-      "settings": {
-        "heading": "",
-        "heading_left": false,
-        "description": "<h3><strong>Handcrafted. Hand-inked. 500K+ trees planted.</strong></h3>",
-        "full_width": false,
-        "display_type": "grid",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "text_alignment": "left",
-        "heading_size": "h5",
-        "mobile_swipe": true,
-        "show_progress_bar": false,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
-    "featured_collection_list_MbNpKJ": {
-      "type": "featured-collection-list",
-      "blocks": {
-        "collection_4tFFED": {
-          "type": "collection",
-          "settings": {
-            "collection": "nature-lovers",
-            "image": "shopify://shop_images/Andes-ARTWORK-ezgif.com-converter_151341b9-4acd-44ea-b949-a3fef57a9e70.webp"
-          }
-        },
-        "collection_b99K3x": {
-          "type": "collection",
-          "settings": {
-            "collection": "art-lovers",
-            "image": "shopify://shop_images/Cyprus-ARTWORK-ezgif.com-optijpeg.jpg"
-          }
-        },
-        "collection_FaMxfT": {
-          "type": "collection",
-          "settings": {
-            "collection": "travel-inspired"
-          }
-        },
-        "collection_GiznUn": {
-          "type": "collection",
-          "settings": {
-            "collection": "floral-designs",
-            "image": "shopify://shop_images/Luzon-ARTWORK-ezgif.com-optijpeg.jpg"
-          }
-        },
-        "collection_NF3TC7": {
-          "type": "collection",
-          "settings": {
-            "collection": "stellar",
-            "image": "shopify://shop_images/Loomi-ARTWORK-ezgif.com-optijpeg.jpg"
-          }
-        },
-        "collection_rGrfmg": {
-          "type": "collection",
-          "settings": {
-            "collection": "ocean-adventures",
-            "image": "shopify://shop_images/Apex-ARTWORK-ezgif.com-optijpeg.jpg"
-          }
-        },
-        "collection_yj7MG3": {
-          "type": "collection",
-          "settings": {
-            "collection": "animal-lovers"
-          }
-        }
-      },
-      "block_order": [
-        "collection_4tFFED",
-        "collection_b99K3x",
-        "collection_FaMxfT",
-        "collection_GiznUn",
-        "collection_NF3TC7",
-        "collection_rGrfmg",
-        "collection_yj7MG3"
-      ],
+    "custom_liquid_MKXP96": {
+      "type": "custom-liquid",
       "disabled": true,
-      "name": "Featured collection list",
+      "name": "Custom liquid: Artful, Travel-Inspired Footwear",
       "settings": {
-        "desktop_height": "desktop-height-550",
-        "mobile_height": "mobile-height-450",
-        "full_width": true,
-        "content_position": "middle-center",
-        "heading_size": "h2",
-        "color_text": "#ffffff",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "custom_liquid": "<section class=\"ink-values\">\n  <div class=\"ink-values__inner\">\n    <h2 class=\"ink-values__title\">Artful, Travel-Inspired Footwear</h2>\n    <p class=\"ink-values__subtitle\">For Everyday Adventures</p>\n    <div class=\"ink-values__badges\">\n      <img class=\"ink-values__badge\" src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/3_1.png?v=1779992083\" alt=\"Inked by artists — original artistry\" width=\"190\" height=\"190\" loading=\"lazy\">\n      <img class=\"ink-values__badge\" src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/1_1.png?v=1779992083\" alt=\"Over 10,000 5-star reviews\" width=\"190\" height=\"190\" loading=\"lazy\">\n      <img class=\"ink-values__badge\" src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/5_1.png?v=1779992083\" alt=\"Global design — authentic textiles\" width=\"190\" height=\"190\" loading=\"lazy\">\n    </div>\n  </div>\n</section>\n<style>\n  .ink-values {\n    background: #f5efeb;\n    padding: 48px 20px;\n    text-align: center;\n  }\n  .ink-values__inner {\n    max-width: 820px;\n    margin: 0 auto;\n  }\n  .ink-values__title {\n    font-family: 'Fraunces', Georgia, serif;\n    font-weight: 600;\n    font-size: clamp(20px, 3vw, 36px);\n    line-height: 1.1;\n    color: #1a1a1a;\n    margin: 0;\n  }\n  .ink-values__subtitle {\n    font-family: 'Fraunces', Georgia, serif;\n    font-style: italic;\n    font-weight: 400;\n    font-size: clamp(18px, 2.6vw, 30px);\n    color: #1a1a1a;\n    margin: 4px 0 32px;\n  }\n  .ink-values__badges {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: clamp(12px, 3vw, 40px);\n    flex-wrap: wrap;\n  }\n  .ink-values__badge {\n    width: clamp(88px, 13vw, 132px);\n    height: auto;\n  }\n</style>"
       }
     }
   },
   "order": [
-    "gallery_dJpr7W",
-    "spacer_nhn7fD",
+    "slideshow_HWrzkh",
+    "gallery_P3HkxR",
+    "slideshow_WVBhNT",
+    "custom_liquid_YdVCKM",
     "featured_collection_zwp4pM",
-    "featured_collection_d6J7aT",
-    "spacer_GdTKb7",
-    "single_image_TPQApM",
-    "rich_text_ba8NeN",
-    "scrolling_text_CXQtRH",
-    "spacer_HemHeh",
-    "gallery_UP44r6",
-    "testimonials_zhUtgi",
-    "rich_text_mdRPdC",
     "gallery_LmMtMY",
-    "spacer_bF66Ng",
-    "1759887391a1859dfc",
-    "spacer_WmWKiM",
-    "image_with_text_MrXTBh",
-    "rich_text_t6kx3j",
-    "1759579239f64a0794",
-    "spacer_HRnN6a",
-    "single_image_Dqxpzi",
-    "multicolumn_TW977r",
-    "featured_collection_list_MbNpKJ"
+    "featured_collection_yyTfpD",
+    "featured_collection_FeEgtg",
+    "press_custom",
+    "custom_liquid_4xM4cK",
+    "1783692902e2877959",
+    "spacer_nhA7Ak",
+    "custom_liquid_N6AxFC",
+    "testimonials_zhUtgi",
+    "quiz_custom",
+    "custom_liquid_FDaiXD",
+    "journal_tiles",
+    "craft_custom",
+    "rich_text_mdRPdC",
+    "custom_liquid_MKXP96"
   ]
 }

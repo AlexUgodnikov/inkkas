@@ -1,3 +1,30 @@
+{%- style -%}
+  /* Inkkas mega-menu: wrap columns + reserve min width so long labels never collide */
+  .thb-full-menu .mega-menu-columns{
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+    column-gap: 20px;
+    row-gap: 30px;
+    padding: 40px;
+  }
+  /* Inkkas mega-menu: silhouette sketch sits right next to its shoe name */
+  .thb-full-menu .mega-menu-columns > li > ul li a{
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start !important;
+    gap: 12px;
+    padding: 3px 0;
+  }
+  .thb-full-menu .mega-menu-columns > li > ul li a img{
+    width: 112px !important;
+    height: auto !important;
+    object-fit: contain;
+    flex: 0 0 auto;
+  }
+  /* Inkkas mega-menu: coral hover color instead of the full-width underline */
+  .thb-full-menu .mega-menu-columns a::after{ display: none !important; }
+  .thb-full-menu .mega-menu-columns a:hover{ color: #DE8862 !important; }
+{%- endstyle -%}
 <full-menu class="full-menu">
   <ul class="thb-full-menu" role="menubar">
     {%- for link in menu.links -%}
@@ -119,14 +146,22 @@
           <div class="sub-menu mega-menu-container" tabindex="-1">
             {%- if has_sub_menu -%}
               <ul class="mega-menu-columns" tabindex="-1">
+                {%- comment -%} One column per child; order & grouping are fully driven by the menu. Sub-items list beneath with sketches. {%- endcomment -%}
                 {%- for l in link.links -%}
                   <li class="{% if l.active %} active{% endif %}" role="none">
                     <a href="{{ l.url }}" class="mega-menu-columns__heading" role="menuitem">{{ l.title }}</a>
                     {%- if l.links.size > 0 -%}
                       <ul role="menu">
                         {%- for sub_link in l.links -%}
+                          {%- assign mm_handle = sub_link.url | split: '/collections/' | last | split: '?' | first -%}
+                          {%- assign mm_col = collections[mm_handle] -%}
                           <li class="{% if sub_link.active %} active{% endif %}" role="none">
-                            <a href="{{ sub_link.url }}" role="menuitem">{{ sub_link.title }}</a>
+                            <a href="{{ sub_link.url }}" role="menuitem">
+                              {%- if mm_col.metafields.custom.menu_image != blank -%}
+                                <img src="{{ mm_col.metafields.custom.menu_image | image_url: height: 160 }}" alt="{{ sub_link.title }}" loading="lazy">
+                              {%- endif -%}
+                              {{ sub_link.title }}
+                            </a>
                           </li>
                         {%- endfor -%}
                       </ul>
@@ -175,4 +210,3 @@
     {%- endfor -%}
   </ul>
 </full-menu>
-

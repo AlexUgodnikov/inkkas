@@ -145,7 +145,7 @@
 							</collapsible-row>
 							{% when 'price_range' %}
 							<collapsible-row data-index="{{ forloop.index }}">
-								<details class="thb-filter js-filter" data-index="{{ forloop.index }}" open>
+								<details class="thb-filter js-filter" data-index="{{ forloop.index }}">
 									<summary class="thb-filter-title"><span></span>{{ filter.label | escape }}</summary>
 									<div class="thb-filter-content collapsible__content">
 										<div class="{{ filter.type | escape }} {{ filter.type | escape }}-{{ filter.label | downcase | escape }}">

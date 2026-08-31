@@ -1,0 +1,19 @@
+<div class="js-sizechart-lightbox" id="size-chart{{ product.id }}" style="display: none">
+  <div class="size-chart-wrap hi">
+    {% assign product_tags = product.tags | join: ' ' %}
+    {% if product_tags contains 'clog-size-chart' %}
+      {% for tag in product.tags %}
+        {% if tag contains 'clog-size-chart' %}
+          {% assign clog-size-chart = tag | handle | remove: 'meta-size-chart-' %}
+          <h5 class="center hi">{{ pages[clog-size-chart].title }}</h5>
+          <div class="feature_divider"></div>
+          {{ pages[clog-size-chart].content | replace: "<a", "<span class='fancybox-custom-link'" | replace: "</a", "</span" }}
+        {% endif %}
+      {% endfor %}
+    {% elsif settings.clog-size-chart != blank %}
+      <h5 class="center">{{ pages[settings.clog-size-chart].title }}</h5>
+      <div class="feature_divider"></div>
+      {{ pages[settings.clog-size-chart].content | replace: "<a", "<span class='fancybox-custom-link'" | replace: "</a", "</span" }}
+    {% endif %}
+  </div>
+</div>

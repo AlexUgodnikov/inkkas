@@ -7,7 +7,14 @@
 	else
 		assign fetchpriority = 'auto'
 	endif
+
+	if priority == 'high' or prioretyRate == 'high'
+		assign img_loading = 'eager'
+	else
+		assign img_loading = 'lazy'
+	endif
 -%}
+
 {%- capture srcset -%}
   {%- for size in image_sizes -%}
     {%- liquid
@@ -51,11 +58,11 @@
 <img class="{{ class | escape }}"
      width="{{ w }}"
      height="{{ h }}"
-     loading="lazy"
+     loading="{{ img_loading }}"
      sizes="auto"
      srcset="{{ srcset | slice: 0, l | strip_newlines -}}"
      src="{{ image.src | img_url: image_sizes[0], crop: 'center' }}"
      alt="{{ image.alt | escape }}"
      {% if focal_point -%}style="object-position: {{ focal_point }};"{% endif %}
-     fetchpriority="{{ fetchpriority }}"
+     {% if prioretyRate != blank %}fetchpriority="{{ prioretyRate }}"{% else %}fetchpriority="{{ fetchpriority }}"{%  endif %}
 >

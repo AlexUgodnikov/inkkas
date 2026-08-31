@@ -6,9 +6,28 @@
 -%}
 <div class="side-panel cart-drawer" id="Cart-Drawer" tabindex="-1">
 	<div class="side-panel-inner">
+<style>
+			.cart-drawer .side-panel-header {
+				position: relative;
+				background-image: url('https://cdn.shopify.com/s/files/1/0162/1490/files/Luzon-ARTWORK-ezgif.com-optijpeg.jpg?v=1764876963');
+				background-size: cover;
+				background-position: center;
+			}
+			.cart-drawer .side-panel-header::after {
+				content: '';
+				position: absolute;
+				inset: 0;
+				background: rgba(255, 255, 255, 0.80);
+				pointer-events: none;
+			}
+			.cart-drawer .side-panel-header > * {
+				position: relative;
+				z-index: 1;
+			}
+		</style>	
 		<div class="side-panel-header">
 			<div>
-				<h4 class="body-font">{{ 'general.cart_drawer.title' | t }}</h4>
+				<h4 class="body-font">My Cart</h4>
 				<side-panel-close class="side-panel-close">{%- render 'svg-icons' with 'close' -%}</side-panel-close>
 			</div>
 		</div>
@@ -17,29 +36,64 @@
 			{%- if cart != empty -%}
 				<div class="product-cart-item--container">
 
-					{%- comment -%} Intelligems free shipping threshold test — progress bar rendered by Intelligems JS {%- endcomment -%}
-					<ig-progress-bar></ig-progress-bar>
-
-					{%- comment -%}
-						Native free shipping bar commented out for the Intelligems shipping-threshold test
-						to avoid showing two competing progress bars. Restore the block below to revert.
-						{%- endcomment -%}
-
-					{%- if free_shipping and settings.free_shipping_minimum != blank -%}
-						<aside class="free-shipping" data-cart-total="{{ total }}" data-minimum="{{ free_shipping_minimum }}">
-							<div class="free-shipping--text">
-								{%- if total < free_shipping_minimum -%}
-									{%- assign remaining_amount = total | minus: free_shipping_minimum | abs | money_without_trailing_zeros -%}
-									{{ 'general.cart_drawer.free_shipping.spend_more_for_free_shipping_html' | t: amount: remaining_amount }}
-								{%- else -%}
-									{{ 'general.cart_drawer.free_shipping.free_shipping_applied_at_checkout' | t }}
-								{%- endif -%}
-							</div>
-							<div class="free-shipping--bar">
-								<div class="free-shipping--percentage"></div>
-							</div>
-						</aside>
-					{%- endif -%}
+					{%- comment -%} Tiered cart progress: free shipping → free $25 gift card {%- endcomment -%}
+					<style>
+					  .ink-tier-bar{padding:14px 18px 12px;font-family:'Manrope',system-ui,sans-serif;}
+					  .ink-tier-bar__msg{margin:0 0 14px;text-align:center;font-size:13px;line-height:1.45;color:#3A3A2F;}
+					  .ink-tier-bar__msg strong{font-weight:700;color:#33502F;}
+					  .ink-tier-bar__amounts{position:relative;height:15px;margin-bottom:5px;}
+					  .ink-tier-bar__amounts .amt{position:absolute;bottom:0;transform:translateX(-50%);font-size:11px;font-weight:700;color:#9A9789;}
+					  .ink-tier-bar__amounts .amt--end{left:100%;transform:translateX(-100%);}
+					  .ink-tier-bar__amounts .amt.is-hit{color:#5E8A4C;}
+					  .ink-tier-bar__track{position:relative;height:6px;border-radius:6px;background:#E7E1D6;}
+					  .ink-tier-bar__fill{position:absolute;inset:0 auto 0 0;height:100%;border-radius:6px;background:#5E8A4C;transition:width .35s ease;}
+					  .ink-tier-bar__dot{position:absolute;top:50%;width:13px;height:13px;border-radius:50%;background:#fff;border:2px solid #C7BFB0;transform:translate(-50%,-50%);transition:all .25s ease;}
+					  .ink-tier-bar__dot.is-hit{background:#5E8A4C;border-color:#5E8A4C;}
+					  .ink-tier-bar__ticks{position:relative;height:12px;margin-top:7px;}
+					  .ink-tier-bar__ticks .tick{position:absolute;top:0;transform:translateX(-50%);white-space:nowrap;font-size:9px;letter-spacing:.05em;text-transform:uppercase;color:#9A9789;}
+					  .ink-tier-bar__ticks .tick--end{left:100%;transform:translateX(-100%);}
+					  .ink-tier-bar__ticks .tick.is-hit{color:#5E8A4C;font-weight:700;}
+					</style>
+					{%- liquid
+					  assign ship = free_shipping_minimum
+					  assign gift = 15000
+					  assign p = cart.items_subtotal_price
+					  if p >= gift
+					    assign pct = 100
+					  elsif p >= ship
+					    assign span = gift | minus: ship
+					    assign over = p | minus: ship
+					    assign pct = over | times: 50.00 | divided_by: span | plus: 50
+					  else
+					    assign pct = p | times: 50.00 | divided_by: ship
+					  endif
+					-%}
+					<div class="ink-tier-bar">
+					  <p class="ink-tier-bar__msg">
+					    {%- if p >= gift -%}
+					      You’ve unlocked <strong>free shipping</strong> + a <strong>free $25 gift card</strong>!
+					    {%- elsif p >= ship -%}
+					      {%- assign to_gift = gift | minus: p | money_without_trailing_zeros -%}
+					      Free shipping unlocked — you’re <strong>{{ to_gift }}</strong> from a <strong>free $25 gift card</strong>!
+					    {%- else -%}
+					      {%- assign to_ship = ship | minus: p | money_without_trailing_zeros -%}
+					      You’re <strong>{{ to_ship }}</strong> from <strong>free shipping</strong>.
+					    {%- endif -%}
+					  </p>
+					  <div class="ink-tier-bar__amounts">
+					    <span class="amt{% if p >= ship %} is-hit{% endif %}" style="left:50%;">{{ ship | money_without_trailing_zeros }}</span>
+					    <span class="amt amt--end{% if p >= gift %} is-hit{% endif %}">{{ gift | money_without_trailing_zeros }}</span>
+					  </div>
+					  <div class="ink-tier-bar__track">
+					    <div class="ink-tier-bar__fill" style="width:{{ pct }}%;"></div>
+					    <span class="ink-tier-bar__dot{% if p >= ship %} is-hit{% endif %}" style="left:50%;"></span>
+					    <span class="ink-tier-bar__dot ink-tier-bar__dot--end{% if p >= gift %} is-hit{% endif %}" style="left:100%;"></span>
+					  </div>
+					  <div class="ink-tier-bar__ticks">
+					    <span class="tick{% if p >= ship %} is-hit{% endif %}" style="left:50%;">Free shipping</span>
+					    <span class="tick tick--end{% if p >= gift %} is-hit{% endif %}">Free $25 gift card</span>
+					  </div>
+					</div>
 					
 
 						{% assign cartItemsId = '' %}
@@ -70,7 +124,7 @@
 							
 							<span class="price">
 								{%- if item.original_line_price != item.final_line_price -%}
-								 <del><span class="amount">{{ item.original_line_price | money }}</span></del>
+								 <del><span class="amount">{% if item.variant.compare_at_price and item.variant.compare_at_price > item.original_price %}{{ item.variant.compare_at_price | times: item.quantity | money }}{% else %}{{ item.original_line_price | money }}{% endif %}</span></del>
 								 <ins><span class="amount">{{ item.final_line_price | money }}</span></ins>
 								{%- else -%}
 								 <ins><span class="amount">{{ item.original_line_price | money }}</span></ins>
@@ -185,13 +239,13 @@
 										
 											if show_inventory_count
 												if inventory_quantity <= threshold
-												assign notice = 'Limited Quantities Left'
+												assign notice = 'Final Few'
 											
 												if notice contains 'translation missing'
-													assign notice = 'Limited Quantities Left'
+													assign notice = 'Final Few'
 												endif
 												else
-												assign notice = 'Limited Quantities Left'
+												assign notice = 'Final Few'
 												
 												if notice contains 'translation missing'
 													assign notice = inventory_quantity | append: ' units available'
@@ -202,7 +256,7 @@
 												assign notice = 'products.product.inventory.low_stock' | t
 												
 												if notice contains 'translation missing'
-													assign notice = 'Limited Quantities Left'
+													assign notice = 'Final Few'
 												endif
 												else
 													assign hideStockInfoCart = true
@@ -263,7 +317,7 @@
 	
 											<span class="price">
 												<ins><span class="amount amount-sale">{{ item.final_line_price | money }}</span></ins>
-												<del><span class="amount">{{ item.original_line_price | money }}</span></del>
+												<del><span class="amount">{% if item.variant.compare_at_price and item.variant.compare_at_price > item.original_price %}{{ item.variant.compare_at_price | times: item.quantity | money }}{% else %}{{ item.original_line_price | money }}{% endif %}</span></del>
 												</span>
 
 										{% else %}
@@ -349,7 +403,12 @@
 							{% if settings.recommends_title != blank %}
 								<div class="cartdrawer-recommends-header">
 			
-									<div class="cartdrawer-recommends-title h6">{{settings.recommends_title}}</div>
+									{%- if free_shipping and settings.free_shipping_minimum != blank and total < free_shipping_minimum -%}
+  {%- assign fs_remaining = total | minus: free_shipping_minimum | abs | money_without_trailing_zeros -%}
+  <div class="cartdrawer-recommends-title h6">Add {{ fs_remaining }} more for FREE shipping</div>
+{%- else -%}
+  <div class="cartdrawer-recommends-title h6">{{ settings.recommends_title }}</div>
+{%- endif -%}
 								
 								</div>
 							{% endif %}
@@ -558,6 +617,7 @@
 								{{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
 							{%- endif -%}
 						</p>
+						<p class="cart-policy-text ink-cart-note">Discounts &amp; rewards can be applied at checkout</p>
 
 					</div>
 				</div>
@@ -697,7 +757,7 @@ class CustomShopPayButton extends HTMLElement {
           background: #5a31f4;
           color: #ffffff;
           border: none;
-          border-radius: 4px;
+          border-radius: 0px;
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
           font-size: 16px;
           font-weight: 600;

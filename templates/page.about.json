@@ -9,6 +9,14 @@
  */
 {
   "sections": {
+    "custom_liquid_TLiWyN": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "Custom liquid",
+      "settings": {
+        "custom_liquid": "<style>\n@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400&family=Manrope:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');\n.oc-root{position:relative}.oc-root>header,.oc-root>section{width:100vw;margin-left:calc(50% - 50vw)}\n.oc-root{--ink-oat:#FAF6EE; --ink-ivory:#FFFCF6;\n    --ink-green:#5E8A4C; --ink-green-deep:#33502F; --ink-green-soft:#E7EEDB;\n    --ink-coral:#DE8862; --ink-coral-deep:#9A5738; --ink-coral-soft:#F7E3D8;\n    --ink-yellow:#FFB715;\n    --ink-charcoal:#3A3A2F; --ink-soft:#575349; --ink-line:#E1D9C7;\n    --btn-radius:4px;}.oc-root *{box-sizing:border-box;margin:0;padding:0}.oc-root{font-family:'Manrope',system-ui,sans-serif;color:var(--ink-charcoal);background:var(--ink-ivory);line-height:1.6;-webkit-font-smoothing:antialiased}.oc-root h1,.oc-root h2,.oc-root h3{font-family:'Fraunces',Georgia,serif;font-weight:500;letter-spacing:-.01em;line-height:1.08}.oc-root .eyebrow{font-family:'Space Mono',monospace;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-coral-deep)}.oc-root .wrap{max-width:1180px;margin:0 auto;padding:0 24px}.oc-root .btn{display:inline-block;background:var(--ink-yellow);color:#40320A;font-family:'Manrope';font-weight:700;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;padding:14px 30px;border-radius:var(--btn-radius);text-decoration:none;transition:transform .15s ease,filter .15s ease}.oc-root .btn:hover{filter:brightness(1.04);transform:translateY(-1px)}.oc-root .btn--ghost{background:transparent;border:1.5px solid var(--ink-charcoal);color:var(--ink-charcoal)}.oc-root .ph{position:relative;background:linear-gradient(135deg,var(--ink-green-soft),var(--ink-coral-soft));border-radius:6px;overflow:hidden;display:flex;align-items:center;justify-content:center}.oc-root .ph::after{content:attr(data-label);position:absolute;font-family:'Space Mono',monospace;font-size:.7rem;letter-spacing:.08em;color:rgba(58,58,47,.55);text-align:center;padding:0 16px;text-transform:uppercase}.oc-root .ph img,.oc-root .ph video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;border-radius:inherit}.oc-root .mockbar{background:var(--ink-charcoal);color:var(--ink-oat);font-family:'Space Mono',monospace;font-size:.68rem;letter-spacing:.1em;text-align:center;padding:7px;text-transform:uppercase}.oc-root .pagenav{background:var(--ink-ivory);border-bottom:1px solid var(--ink-line);text-align:center;padding:12px}.oc-root .pagenav a{font-family:'Space Mono',monospace;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;color:var(--ink-soft);margin:0 14px}.oc-root .pagenav a.on{color:var(--ink-charcoal);border-bottom:2px solid var(--ink-coral)}.oc-root .hero{background:var(--ink-oat)}.oc-root .hero__grid{display:grid;grid-template-columns:1.05fr .95fr;min-height:74vh}.oc-root .hero__text{display:flex;flex-direction:column;justify-content:center;padding:64px 56px;background:url('https://cdn.shopify.com/s/files/1/0162/1490/files/Joya-White-ARTWORK.jpg?v=1773686358') center/cover}.oc-root .hero__panel{background:rgba(255,255,255,.94);padding:40px 38px;border-radius:10px;box-shadow:0 14px 38px rgba(0,0,0,.12)}.oc-root .hero__text .eyebrow{margin-bottom:22px}.oc-root .hero h1{font-size:clamp(2.6rem,4.6vw,4.1rem);margin-bottom:22px}.oc-root .hero h1 em{font-style:italic;color:#4f7953}.oc-root .hero__sub{font-size:1.12rem;color:var(--ink-soft);max-width:42ch;margin-bottom:34px}.oc-root .hero__cta{display:flex;gap:14px;flex-wrap:wrap}.oc-root .hero__media .ph{min-height:100%;border-radius:0}.oc-root section{padding:92px 0}.oc-root .sec-head{text-align:center;max-width:640px;margin:0 auto 56px}.oc-root .sec-head .eyebrow{display:block;margin-bottom:14px}.oc-root .sec-head h2{font-size:clamp(2rem,3.4vw,2.9rem)}.oc-root .sec-head p{color:var(--ink-soft);margin-top:14px;font-size:1.05rem}.oc-root .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;align-items:start}.oc-root .step__img{aspect-ratio:4/5;margin-bottom:22px}.oc-root .step__n{font-family:'Space Mono',monospace;font-size:.72rem;letter-spacing:.14em;color:var(--ink-coral-deep);display:block;margin-bottom:8px}.oc-root .step h3{font-size:1.4rem;margin-bottom:10px}.oc-root .step p{color:var(--ink-soft);font-size:.98rem}.oc-root .makers{background:#ffec8e}.oc-root .makers__grid{max-width:720px;margin:0 auto;text-align:center}.oc-root .makers h2{font-size:clamp(1.9rem,3vw,2.6rem);margin-bottom:20px}.oc-root .makers p{color:var(--ink-charcoal);font-size:1.08rem;margin-bottom:18px;max-width:54ch;margin-left:auto;margin-right:auto}.oc-root .makers .meta{font-family:'Space Mono',monospace;font-size:.74rem;letter-spacing:.06em;color:var(--ink-soft);text-transform:uppercase}.oc-root .teaser{background:var(--ink-green-deep);color:var(--ink-oat)}.oc-root .teaser .wrap{display:flex;align-items:center;justify-content:space-between;gap:28px;padding-top:46px;padding-bottom:46px;flex-wrap:wrap}.oc-root .teaser .eyebrow{color:#DCC38A;display:block;margin-bottom:8px}.oc-root .teaser h3{font-size:clamp(1.5rem,2.6vw,2.1rem);color:#fff;max-width:22ch}.oc-root .teaser .btn--ghost{border-color:var(--ink-oat);color:var(--ink-oat)}.oc-root .journal{background:var(--ink-ivory)}.oc-root .jgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.oc-root .jcard__img{aspect-ratio:3/2;margin-bottom:16px}.oc-root .jcard .eyebrow{margin-bottom:8px;display:block}.oc-root .jcard h3{font-size:1.2rem;margin-bottom:8px}.oc-root .jcard p{color:var(--ink-soft);font-size:.93rem}.oc-root .shop{background:var(--ink-coral-soft)}.oc-root .shop__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}.oc-root .shopcard{position:relative;aspect-ratio:4/5;border-radius:6px;overflow:hidden;display:flex;align-items:flex-end;padding:24px}.oc-root .shopcard .ph{position:absolute;inset:0;border-radius:0}.oc-root .shopcard span{position:relative;z-index:2;font-family:'Fraunces',serif;font-size:1.5rem;color:#fff;text-shadow:0 1px 12px rgba(0,0,0,.4)}.oc-root .shopcard a{position:absolute;inset:0;z-index:3}.oc-root .colorband{background:#ffec8e;text-align:center;padding:clamp(56px,10vw,104px) 24px}.oc-root .colorband h2{font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:clamp(40px,8.5vw,92px);color:#000;line-height:1;letter-spacing:-.01em;margin:0}.oc-root .colorband em{font-style:italic;color:#4f7953}.oc-root .trust{background:var(--ink-oat);text-align:center;padding:60px 0}.oc-root .trust__badges{display:flex;justify-content:center;align-items:center;gap:clamp(16px,5vw,64px);flex-wrap:wrap}.oc-root .trust__badges img{width:clamp(92px,12vw,132px);height:auto}.oc-root footer{background:var(--ink-charcoal);color:var(--ink-oat);text-align:center;padding:40px 24px;font-family:'Space Mono',monospace;font-size:.72rem;letter-spacing:.08em}@media(max-width:860px){.oc-root .hero__grid,.oc-root .makers__grid{grid-template-columns:1fr}.oc-root .hero__media{min-height:52vh}.oc-root .hero__text{padding:56px 28px}.oc-root .steps,.oc-root .jgrid,.oc-root .shop__grid{grid-template-columns:1fr}.oc-root .steps{gap:44px}.oc-root section{padding:64px 0}}\n</style>\n<div class=\"oc-root\">\n<header class=\"hero\">\n  <div class=\"hero__grid\">\n    <div class=\"hero__text\">\n      <div class=\"hero__panel\">\n      <span class=\"eyebrow\">Inked by artists · Made for adventure</span>\n      <h1>Colorful by <em>nature</em>.</h1>\n      <p class=\"hero__sub\">Original artwork, drawn by hand, then built into a shoe you can actually live in — designed for your everyday adventures.</p>\n      <div class=\"hero__cta\">\n        <a class=\"btn\" href=\"/collections/best-sellers\">Shop the collection</a>\n        <a class=\"btn btn--ghost\" href=\"#craft\">See how they're made</a>\n      </div>\n      </div>\n    </div>\n    <div class=\"hero__media\"><div class=\"ph\" data-label=\"Hero video\"><video autoplay muted loop playsinline poster=\"https://inkkas.com/cdn/shop/files/preview_images/1f82743de7da4ed0afa07d87cf3b1291.thumbnail.0000000000_690x.jpg?v=1752690492\" src=\"https://cdn.shopify.com/videos/c/o/v/e3421e5d71dc4665895056cb68aa71c2.mp4\"></video></div></div>\n  </div>\n</header>\n\n<section class=\"craft\" id=\"craft\">\n  <div class=\"wrap\">\n    <div class=\"sec-head\">\n      <span class=\"eyebrow\">The Inkkas Journey</span>\n      <h2>From Sketch to Step</h2>\n      <p>Three stages take a pair from a blank page to your feet.</p>\n    </div>\n    <div class=\"steps\">\n      <div class=\"step\">\n        <div class=\"ph step__img\" data-label=\"art\"><video autoplay muted loop playsinline src=\"https://cdn.shopify.com/videos/c/o/v/eca3a749b58b43e4b714ce704c03b73f.webm\"></video></div>\n        <span class=\"step__n\">Step 01</span><h3>It All Starts with Art</h3>\n        <p>Every pair of Inkkas begins as a hand-inked work of art, created to spark joy, connection, and inspiration. Each design is inspired by the natural world — its colors, textures, and rhythms: florals, landscapes, animals, and the organic patterns that draw us in.</p>\n      </div>\n      <div class=\"step\">\n        <div class=\"ph step__img\" data-label=\"making\"><img src=\"https://inkkas.com/cdn/shop/files/making_of_the_joggers-ezgif.com-optiwebp.webp?v=1764878270\" alt=\"Making the shoe by hand\"></div>\n        <span class=\"step__n\">Step 02</span><h3>Beauty Meets Function</h3>\n        <p>Each sketch is transformed into a handcrafted shoe where artistry meets engineering. Using high-quality, responsible materials and time-honored techniques, we build comfort into every detail — cushioned insoles, supportive soles, and a fit that feels made just for you.</p>\n      </div>\n      <div class=\"step\">\n        <div class=\"ph step__img\" data-label=\"worn\"><img src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/NAIA-SLIP-ON-SS260308-MODEL-EPI_5610-ezgif.com-jpg-to-webp-converter.webp?v=1774363094\" alt=\"Model wearing Inkkas Naia slip-ons\"></div>\n        <span class=\"step__n\">Step 03</span><h3>Made to be Loved</h3>\n        <p>Step into a pair and expect that unmistakable confidence that comes from walking in something one-of-a-kind — shoes that feel good for the soul (and the sole), good for the planet, and made to spark smiles along the way.</p>\n      </div>\n    </div>\n  </div>\n</section>\n\n<section class=\"makers\">\n  <div class=\"wrap\">\n    <div class=\"makers__grid\">\n      <div>\n        <span class=\"eyebrow\">The hands behind them</span>\n        <h2>Handcrafting since 2012.</h2>\n        <p>Our shoes are 100% handmade in Latin America with our longtime partners &amp; ethical shoemakers. We use authentic textiles sourced globally and our distinctive designs are inspired by nature around the world.</p>\n        <div class=\"meta\">Small-batch · Fair supply chain · Independent</div>\n      </div>\n    </div>\n  </div>\n</section>\n\n\n<section class=\"teaser\">\n  <div class=\"wrap\">\n    <div>\n      <span class=\"eyebrow\">Walking the Talk</span>\n      <h3>Every pair also plants a tree. 500,000+ and counting.</h3>\n    </div>\n    <a class=\"btn btn--ghost\" href=\"/pages/our-impact\">See Our Impact →</a>\n  </div>\n</section>\n\n<section class=\"journal\">\n  <div class=\"wrap\">\n    <div class=\"sec-head\"><span class=\"eyebrow\">Go Deeper</span><h2>The Inkkas Journal</h2></div>\n    <div class=\"jgrid\">\n      <div class=\"jcard\"><div class=\"ph jcard__img\" data-label=\"journal\"><img src=\"https://inkkas.com/cdn/shop/articles/Janine-_Artist_Feature-cover_922625da-847e-49de-ae14-a313db750fc3_320x320_crop_center.jpg?v=1784157411\" alt=\"Artist feature\"></div><span class=\"eyebrow\">Artist Spotlight</span><h3>Meet the artists behind the ink</h3><p>The people and places that shape each design.</p></div>\n      <div class=\"jcard\"><div class=\"ph jcard__img\" data-label=\"journal\"><img src=\"https://inkkas.com/cdn/shop/articles/Wednesday_Walk_Issue_5_Content-Cover_329abed1-153d-43f3-bc5f-3627efc43804_320x320_crop_center.jpg?v=1786507801\" alt=\"Wednesday Walk\"></div><span class=\"eyebrow\">Field Notes</span><h3>Where the season is taking us</h3><p>Travel-inspired stories and styling.</p></div>\n      <div class=\"jcard\"><div class=\"ph jcard__img\" data-label=\"journal\"><img src=\"https://inkkas.com/cdn/shop/articles/Wednesday_Walk_Issue_4_MAY_COVER-compress_e9f2d019-86a0-4c9f-be82-2a0aff30ade7_320x320_crop_center.jpg?v=1784157392\" alt=\"Wednesday Walk May\"></div><span class=\"eyebrow\">Process</span><h3>Inside the workshop</h3><p>How a drawing becomes a shoe.</p></div>\n    </div>\n    <div style=\"text-align:center;margin-top:44px\"><a class=\"btn btn--ghost\" href=\"/blogs/inkkas-journal\">View all posts</a></div>\n  </div>\n</section>\n\n\n<section class=\"trust\">\n  <div class=\"wrap\">\n    <div class=\"trust__badges\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/3_1.png?v=1779992083\" alt=\"Inked by artists — original artistry\" width=\"190\" height=\"190\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/1_1.png?v=1779992083\" alt=\"Over 10,000 5-star reviews\" width=\"190\" height=\"190\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/5_1.png?v=1779992083\" alt=\"Global design — authentic textiles\" width=\"190\" height=\"190\" loading=\"lazy\">\n    </div>\n  </div>\n</section>\n\n<section class=\"shop\">\n  <div class=\"wrap\">\n    <div class=\"sec-head\"><span class=\"eyebrow\">Now the fun part</span><h2>Shop the art</h2></div>\n    <div class=\"shop__grid\">\n      <div class=\"shopcard\"><div class=\"ph\"><img src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/GIF-JOYA_VEGAN_TREKK_BOOT-WALK.webp?v=1783627766\" alt=\"Women's\"></div><span>Women's</span><a href=\"/collections/womens-collection-all-shoes\" aria-label=\"Shop Women's\"></a></div>\n      <div class=\"shopcard\"><div class=\"ph\"><img src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/NAIA-BUCKLESANDAL-SS261217-JOYA-VEGAN-TREKKBOOT-SS261022-SILVAN-TREKKBOOT-SS261023-NAIA-SLIPON-SS260308-JOYA-VEGAN-TENNIS-SS260201-MODEL-DOG-GROUP-IMG_1481.jpg?v=1774363027\" alt=\"New\"></div><span>New Arrivals</span><a href=\"/collections/new-arrivals\" aria-label=\"Shop New Arrivals\"></a></div>\n      <div class=\"shopcard\"><div class=\"ph\"><img src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/ScreenShot2024-04-08at2.13.04PM.png?v=1759884243\" alt=\"Bestsellers\"></div><span>Bestsellers</span><a href=\"/collections/best-sellers\" aria-label=\"Shop Bestsellers\"></a></div>\n    </div>\n  </div>\n</section>\n</div>"
+      }
+    },
     "image_with_text_8r7xar": {
       "type": "image-with-text",
       "blocks": {
@@ -38,6 +46,7 @@
         "subheading_wUGJ7p",
         "text_YxUDrp"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "use_video": true,
@@ -64,7 +73,7 @@
           "type": "button",
           "settings": {
             "link_label": "EXPLORE THE BLOG",
-            "link": "shopify://blogs/blog",
+            "link": "shopify://blogs/inkkas-journal",
             "button_outline": false
           }
         }
@@ -72,6 +81,7 @@
       "block_order": [
         "button_G8Aczt"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "section_width": "grid",
@@ -83,88 +93,6 @@
         "color_links": "#151515",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
-      }
-    },
-    "scrolling_text_3jYpcV": {
-      "type": "scrolling-text",
-      "blocks": {
-        "text_iiJGwb": {
-          "type": "text",
-          "settings": {
-            "text": "Designed to make your feet & your heart happy",
-            "link": "",
-            "outline_text": true
-          }
-        },
-        "text_BLjf6T": {
-          "type": "text",
-          "settings": {
-            "text": "Designed to make your feet & your heart happy",
-            "link": "",
-            "outline_text": true
-          }
-        }
-      },
-      "block_order": [
-        "text_iiJGwb",
-        "text_BLjf6T"
-      ],
-      "name": "Scrolling text",
-      "settings": {
-        "height": "height-auto",
-        "full_width": true,
-        "direction": "left",
-        "speed": "20s",
-        "text_size": 40,
-        "text_uppercase": false,
-        "image_size": "large",
-        "color_bg": "#c3d4b6",
-        "color_text": "#151515",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "scrolling_text_XQmKrT": {
-      "type": "scrolling-text",
-      "blocks": {
-        "text_CQe7M9": {
-          "type": "text",
-          "settings": {
-            "text": "Shoes that feel good for the sole",
-            "link": "",
-            "outline_text": false
-          }
-        },
-        "text_xtkrxC": {
-          "type": "text",
-          "settings": {
-            "text": "Shoes that feel good for the sole",
-            "link": "",
-            "outline_text": false
-          }
-        }
-      },
-      "block_order": [
-        "text_CQe7M9",
-        "text_xtkrxC"
-      ],
-      "name": "Scrolling text",
-      "settings": {
-        "height": "height-auto",
-        "full_width": true,
-        "direction": "right",
-        "speed": "20s",
-        "text_size": 40,
-        "text_uppercase": false,
-        "image_size": "large",
-        "color_bg": "#f5f3ef",
-        "color_text": "#151515",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
       }
     },
     "multicolumn_deWBge": {
@@ -212,6 +140,7 @@
         "column_qLhgRr",
         "column_aK6FzF"
       ],
+      "disabled": true,
       "name": "Multicolumn",
       "settings": {
         "heading": "From Sketch to Step: The Inkkas Journey",
@@ -274,6 +203,7 @@
         "text_aPJiCC",
         "image_HwfPeP"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Planting-trees.jpg",
         "use_video": false,
@@ -324,6 +254,7 @@
     },
     "16623735222f31e80e": {
       "type": "spacer",
+      "disabled": true,
       "settings": {
         "spacer_mobile": 5,
         "spacer_desktop": 10,
@@ -471,12 +402,13 @@
     },
     "featured_blog_X8TVad": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "The Inkkas Journal",
         "heading_left": false,
         "description": "",
         "full_width": true,
-        "blog": "blog",
+        "blog": "inkkas-journal",
         "post_limit": 3,
         "columns_desktop": 3,
         "mobile_swipe": true,
@@ -539,6 +471,7 @@
         "0d86c2a6-f30c-40b5-9391-99b5bb12959b",
         "image_QLzdny"
       ],
+      "disabled": true,
       "settings": {
         "slider": false,
         "columns_desktop": 3,
@@ -557,6 +490,7 @@
     },
     "16623736356fb1e92f": {
       "type": "spacer",
+      "disabled": true,
       "settings": {
         "spacer_mobile": 20,
         "spacer_desktop": 50,
@@ -566,10 +500,9 @@
     }
   },
   "order": [
+    "custom_liquid_TLiWyN",
     "image_with_text_8r7xar",
     "rich_text_GnLaUf",
-    "scrolling_text_3jYpcV",
-    "scrolling_text_XQmKrT",
     "multicolumn_deWBge",
     "image_with_text_i7wJkM",
     "16618593470c5f63bd",

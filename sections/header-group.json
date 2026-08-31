@@ -11,62 +11,71 @@
   "type": "header",
   "name": "Header group",
   "sections": {
-    "1783430632572e766a": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_Ctedep": {
-          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
-          "name": "Klaviyo: 20% Off Inkkas20 (Non Klaviyo Profilestors Only)",
-          "settings": {
-            "formId": "<div class=\"klaviyo-form-XFjebd\"></div>"
-          }
-        },
-        "klaviyo_email_marketing_sms_form_embed_block_a9PVmg": {
-          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
-          "name": "Klaviyo: Free Shipping (Klaviyo Profiles Only))",
-          "settings": {
-            "formId": "<div class=\"klaviyo-form-Y2sfXt\"></div>"
-          }
-        }
-      },
-      "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_Ctedep",
-        "klaviyo_email_marketing_sms_form_embed_block_a9PVmg"
-      ],
-      "settings": {}
-    },
     "17537418499196266c": {
       "type": "apps",
       "blocks": {
         "essential_announcer_app_block_RJCMgH": {
           "type": "shopify://apps/essential-announcer/blocks/app-block/93b5429f-c8d6-4c33-ae14-250fd84f361b",
-          "disabled": true,
           "settings": {
-            "id": "e62726de-e1d3-443f-9328-be036c4ce9fb"
+            "id": "747385b5-4d2c-4c34-8f79-150cbc15c1f4"
           }
         },
         "essential_countdown_timer_app_block_cX6m8L": {
           "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
-            "id": "cmn1pt4m600107ljjeglct0da"
+            "id": "cmnfg67lq0068pkgl13bu9h5y"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_8Bjzyh": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "disabled": true,
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-XFjebd\"></div>"
           }
         }
       },
       "block_order": [
         "essential_announcer_app_block_RJCMgH",
-        "essential_countdown_timer_app_block_cX6m8L"
+        "essential_countdown_timer_app_block_cX6m8L",
+        "klaviyo_email_marketing_sms_form_embed_block_8Bjzyh"
       ],
       "settings": {}
     },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "text_BG6aWD": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "End of Summer Sale: See Discount in Cart. Shop →",
+            "link": "shopify://collections/best-sellers"
+          }
+        },
         "text_CmerAE": {
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "FREE U.S. Shipping on Orders $120+",
-            "link": "shopify://pages/shipping"
+            "text": "FREE U.S. shipping for orders $120+. FREE gift card with orders $150+.",
+            "link": "shopify://collections/best-sellers"
+          }
+        },
+        "text_NhGJ3n": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "Shop the Shoes with 10,000+ ★★★★★ Reviews",
+            "link": "shopify://collections/best-sellers"
+          }
+        },
+        "text_UjATph": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "Join INKPASS® → Unlock FREE U.S. Shipping (No Minimum) & Rewards",
+            "link": "shopify://pages/inkkas-rewards"
           }
         },
         "text_xhDUtd": {
@@ -77,20 +86,14 @@
             "text": "FREE U.S. Returns & Exchanges",
             "link": "shopify://pages/return-policy"
           }
-        },
-        "text_UjATph": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "Join INKPASS® → Unlock FREE U.S. Shipping (No Minimum) & Rewards",
-            "link": "shopify://pages/inkkas-rewards"
-          }
         }
       },
       "block_order": [
+        "text_BG6aWD",
         "text_CmerAE",
-        "text_xhDUtd",
-        "text_UjATph"
+        "text_NhGJ3n",
+        "text_UjATph",
+        "text_xhDUtd"
       ],
       "disabled": true,
       "settings": {
@@ -100,34 +103,52 @@
         "direction": "left",
         "speed": "20s",
         "autoplay": true,
-        "autoplay_length": 5
+        "autoplay_length": 7
       }
     },
     "header": {
       "type": "header",
       "blocks": {
-        "megamenu_38fdpe": {
+        "megamenu_NQLXdN": {
           "type": "megamenu",
-          "disabled": true,
           "settings": {
             "position": "1",
             "promo_1_heading": "",
             "promo_1_link_label": "",
             "promo_1_link": "",
-            "promo_2_heading": "",
-            "promo_2_link_label": "",
+            "promo_2_heading": "Promotion heading",
+            "promo_2_link_label": "Shop",
             "promo_2_link": "",
-            "promo_3_heading": "",
-            "promo_3_link_label": "",
+            "promo_3_heading": "Promotion heading",
+            "promo_3_link_label": "Shop",
             "promo_3_link": "",
-            "promo_4_heading": "",
-            "promo_4_link_label": "",
+            "promo_4_heading": "Promotion heading",
+            "promo_4_link_label": "Shop",
+            "promo_4_link": ""
+          }
+        },
+        "megamenu_WBBwCa": {
+          "type": "megamenu",
+          "settings": {
+            "position": "2",
+            "promo_1_heading": "Promotion heading",
+            "promo_1_link_label": "Shop",
+            "promo_1_link": "",
+            "promo_2_heading": "Promotion heading",
+            "promo_2_link_label": "Shop",
+            "promo_2_link": "",
+            "promo_3_heading": "Promotion heading",
+            "promo_3_link_label": "Shop",
+            "promo_3_link": "",
+            "promo_4_heading": "Promotion heading",
+            "promo_4_link_label": "Shop",
             "promo_4_link": ""
           }
         }
       },
       "block_order": [
-        "megamenu_38fdpe"
+        "megamenu_NQLXdN",
+        "megamenu_WBBwCa"
       ],
       "settings": {
         "sticky_header": true,
@@ -137,8 +158,9 @@
         "logo_height_range_mobile": 30,
         "style": "style1",
         "header_shadow": "header--shadow-small",
-        "menu": "primary-menu-inkkas-reformation-05-28-26-test",
+        "menu": "primary-menu-inkkas-reformation-08-12-26",
         "transparent_header": false,
+        "logo_light": "shopify://shop_images/inkkas-logo-white.png",
         "show_language_switcher": false,
         "show_currency_switcher": false,
         "mobile_secondary_menu": "secondary-menu",
@@ -149,7 +171,6 @@
     }
   },
   "order": [
-    "1783430632572e766a",
     "17537418499196266c",
     "announcement-bar",
     "header"

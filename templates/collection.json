@@ -116,12 +116,16 @@
       "settings": {
         "heading": "Trending Now",
         "heading_left": true,
+        "heading_color": "",
+        "heading_size": 34,
+        "heading_size_mobile": 24,
         "description": "",
         "full_width": true,
         "collection": "best-sellers",
         "display_type": "carousel",
         "product_limit": 8,
         "columns_desktop": 4,
+        "columns_mobile": "2",
         "show_view_all": false,
         "mobile_swipe": true,
         "show_progress_bar": true,
@@ -166,7 +170,7 @@
             "image": "shopify://shop_images/BROWN-LEATHER-CAMPING-BOOTS-UGC-SUBURBANWORMS-converter.webp",
             "subheading": "",
             "title": "",
-            "text": "@SUBURBANWORMS",
+            "text": "@suburbanworms",
             "link_label": "shop",
             "link": "shopify://products/brown-leather-camping-boot",
             "use_text_button": false,
@@ -174,15 +178,85 @@
             "product_list": []
           }
         },
-        "image_zgckrn": {
+        "image_X6MFta": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChanterelleVeganTrekkBoot-Hike-UGC-SilverFallsStateParkOregon-cockeyed.cailou-converter.webp",
+            "image": "shopify://shop_images/Monterey_Vegan_Trekk_Boot-UGC-Banff_National_Park-_camillereicherter-2_result.webp",
             "subheading": "",
             "title": "",
-            "text": "@cockeyed.cailou",
+            "text": "@camillereicherter",
+            "link_label": "SHOP",
+            "link": "shopify://products/monterey-vegan-trekk-boot",
+            "use_text_button": false,
+            "block_link": "shopify://products/monterey-vegan-trekk-boot",
+            "product_list": []
+          }
+        },
+        "image_VwNyKJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Brisbane_Trekk_Boot-Group-Twin-Hike-_rylesformiles__result.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@rylesformiles",
             "link_label": "shop",
-            "link": "shopify://products/chanterelle-vegan-trekk-boot",
+            "link": "shopify://products/brisbane-black-trekk-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_Kn3pAp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Joya_Jogger-UGC-_Nurtureandtouch_result.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@nurtureandtouch",
+            "link_label": "shop",
+            "link": "shopify://products/joya-jogger",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_ECTYr9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Monterey_Trekk_Boot-UGC-Hike-_icook.he.eats-2_result_31bbeaf1-b60d-4ec9-92f4-95867180b832.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@icook.he.eats",
+            "link_label": "SHOP",
+            "link": "shopify://products/monterey-vegan-trekk-boot",
+            "use_text_button": false,
+            "block_link": "shopify://products/monterey-vegan-trekk-boot",
+            "product_list": []
+          }
+        },
+        "image_yh9Wna": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desert_Buckle_Sandal-INFLUENCER-_jessicayekin-1.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "@jessicayekin",
+            "link_label": "SHOP",
+            "link": "shopify://products/desert-buckle-sandal",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_YVjWaf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Badass_Slip_On-UGC-_Greenbird321_result.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@greenbird321",
+            "link_label": "shop",
+            "link": "shopify://products/badass-black-slip-on",
             "use_text_button": false,
             "block_link": "",
             "product_list": []
@@ -225,6 +299,20 @@
             "text": "@youngjefejones",
             "link_label": "shop",
             "link": "shopify://products/cyprus-trekk-boot",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": []
+          }
+        },
+        "image_zgckrn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChanterelleVeganTrekkBoot-Hike-UGC-SilverFallsStateParkOregon-cockeyed.cailou-converter.webp",
+            "subheading": "",
+            "title": "",
+            "text": "@cockeyed.cailou",
+            "link_label": "shop",
+            "link": "shopify://products/chanterelle-vegan-trekk-boot",
             "use_text_button": false,
             "block_link": "",
             "product_list": []
@@ -393,20 +481,6 @@
             "text": "@seashelladdict",
             "link_label": "shop",
             "link": "shopify://products/alpine-trekk-boot",
-            "use_text_button": false,
-            "block_link": "",
-            "product_list": []
-          }
-        },
-        "image_yh9Wna": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Desert_Buckle_Sandal-INFLUENCER-_jessicayekin-1.jpg",
-            "subheading": "",
-            "title": "",
-            "text": "@jessicayekin",
-            "link_label": "SHOP",
-            "link": "shopify://products/desert-buckle-sandal",
             "use_text_button": false,
             "block_link": "",
             "product_list": []
@@ -916,20 +990,6 @@
             "product_list": []
           }
         },
-        "image_X6MFta": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Monterey_Vegan_Trekk_Boot-UGC-yoga-hike-_sarahdoesyoga_1e312012-ca20-4d05-ba96-d7726b33f7c8.png",
-            "subheading": "",
-            "title": "",
-            "text": "@sarahdoesyoga",
-            "link_label": "SHOP",
-            "link": "shopify://products/monterey-vegan-trekk-boot",
-            "use_text_button": false,
-            "block_link": "shopify://products/zocalo-camping-boot",
-            "product_list": []
-          }
-        },
         "image_g4ET6B": {
           "type": "image",
           "settings": {
@@ -1017,10 +1077,16 @@
       },
       "block_order": [
         "image_9Pb3py",
-        "image_zgckrn",
+        "image_X6MFta",
+        "image_VwNyKJ",
+        "image_Kn3pAp",
+        "image_ECTYr9",
+        "image_yh9Wna",
+        "image_YVjWaf",
         "image_V6EDGY",
         "image_QVAFKG",
         "image_Ryc8JD",
+        "image_zgckrn",
         "image_gT3fAq",
         "image_7iX4tx",
         "image_rcgDjX",
@@ -1033,7 +1099,6 @@
         "image_Dtp9Mf",
         "image_zBitXJ",
         "image_REkWYr",
-        "image_yh9Wna",
         "image_fBVMjd",
         "image_VW7zdC",
         "image_K4cRy3",
@@ -1070,7 +1135,6 @@
         "image_Xj9Bak",
         "image_xkFLWC",
         "image_E3L6QW",
-        "image_X6MFta",
         "image_g4ET6B",
         "image_kamp3Y",
         "image_jm8jCm",
@@ -1096,6 +1160,7 @@
     },
     "single_image_UyqeDj": {
       "type": "single-image",
+      "disabled": true,
       "name": "Single image",
       "settings": {
         "image": "shopify://shop_images/Tagline_3_Logos_for_Homepage_2.png",
@@ -1104,13 +1169,20 @@
         "disable_bottom_spacing": true
       }
     },
+    "custom_liquid_UDH8gw": {
+      "type": "custom-liquid",
+      "name": "Custom liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"ink-values\">\n  <div class=\"ink-values__inner\">\n    <h2 class=\"ink-values__title\">Artful, Travel-Inspired Footwear</h2>\n    <p class=\"ink-values__subtitle\">For Everyday Adventures</p>\n    <div class=\"ink-values__badges\">\n      <img class=\"ink-values__badge\" src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/3_1.png?v=1779992083\" alt=\"Inked by artists — original artistry\" width=\"190\" height=\"190\" loading=\"lazy\">\n      <img class=\"ink-values__badge\" src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/1_1.png?v=1779992083\" alt=\"Over 10,000 5-star reviews\" width=\"190\" height=\"190\" loading=\"lazy\">\n      <img class=\"ink-values__badge\" src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/5_1.png?v=1779992083\" alt=\"Global design — authentic textiles\" width=\"190\" height=\"190\" loading=\"lazy\">\n    </div>\n  </div>\n</section>\n<style>\n  .ink-values {\n    background: #fbf7ef;\n    padding: 48px 20px;\n    text-align: center;\n  }\n  .ink-values__inner {\n    max-width: 820px;\n    margin: 0 auto;\n  }\n  .ink-values__title {\n    font-family: 'Fraunces', Georgia, serif;\n    font-weight: 600;\n    font-size: clamp(20px, 3vw, 36px);\n    line-height: 1.1;\n    color: #1a1a1a;\n    margin: 0;\n  }\n  .ink-values__subtitle {\n    font-family: 'Fraunces', Georgia, serif;\n    font-style: italic;\n    font-weight: 400;\n    font-size: clamp(18px, 2.6vw, 30px);\n    color: #1a1a1a;\n    margin: 4px 0 32px;\n  }\n  .ink-values__badges {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: clamp(12px, 3vw, 40px);\n    flex-wrap: wrap;\n  }\n  .ink-values__badge {\n    width: clamp(88px, 13vw, 132px);\n    height: auto;\n  }\n</style>"
+      }
+    },
     "single_image_ANj6yz": {
       "type": "single-image",
       "name": "Single image",
       "settings": {
         "image": "shopify://shop_images/DesertPolaroid15.jpg",
         "full_width": true,
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     }
@@ -1124,6 +1196,7 @@
     "rich_text_RDgGpX",
     "gallery_TgKtDX",
     "single_image_UyqeDj",
+    "custom_liquid_UDH8gw",
     "single_image_ANj6yz"
   ]
 }

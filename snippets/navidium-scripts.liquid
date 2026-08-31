@@ -80,6 +80,27 @@ document.addEventListener('rebuy:smartcart.show', (event) => {
 });
 </script>
 
+<script>
+    (function () {
+  let lastState = false;
+
+  setInterval(() => {
+    const el = document.querySelector('.cart-drawer');
+    const isActive = el && el.classList.contains('active');
+
+    if (isActive && !lastState) {
+      console.log('Cart opened');
+
+      setTimeout(() => {
+        console.log('Running nvd_init after delay');
+        nvd_init();
+      }, 700); // adjust 500–1000 if needed
+    }
+
+    lastState = isActive;
+  }, 300);
+})();
+</script>
 
 <style>
 	div#nvd-standard-widget-container {
@@ -236,3 +257,101 @@ window.addEventListener('nvd_cart_changed', (e) => {
   }
 })
 </script>
+
+
+<style>
+  .nvd-add-loader {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 4px solid #fff;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nvd-add-loader::after {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border-bottom: 4px solid #ff3d00;
+  border-left: 4px solid transparent;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+</style>
+ <script>
+(function () {
+
+  let checkoutLock = false;
+
+  function handleClick(e) {
+
+    const withProtection = e.target.closest('#nvd-with-checkout-btn');
+    const withoutProtection = e.target.closest('#nvd-without-checkout-btn');
+
+    if (!withProtection && !withoutProtection) return;
+
+    e.preventDefault();
+    e.stopImmediatePropagation();
+
+    if (checkoutLock) return;
+    checkoutLock = true;
+
+    const button = withProtection || withoutProtection;
+
+    // save original content
+    button.dataset.originalText = button.innerHTML;
+
+    // replace with loader
+    button.innerHTML = `<span class='nvd-add-loader'></span>`;
+    button.style.pointerEvents = 'none';
+
+    console.log('[Navidium] Checkout intercepted');
+
+    // WITH PROTECTION
+    if (withProtection) {
+      if (localStorage.getItem('nvdVariant')) {
+        nvdAddProtectionController();
+      } else {
+        window.location.href = '/checkout';
+      }
+      return;
+    }
+
+    // WITHOUT PROTECTION
+    const modal = document.querySelector('#nvd-reminder-modal');
+
+    if (modal?.innerHTML?.length > 0) {
+      nvdReminderPopupOpen();
+
+      // restore button if modal shown
+      checkoutLock = false;
+      button.style.pointerEvents = '';
+      button.innerHTML = button.dataset.originalText;
+    } else {
+      window.location.href = '/checkout';
+    }
+
+  }
+
+  window.addEventListener('click', handleClick, true);
+
+})();
+ </script>

@@ -84,6 +84,9 @@
 
   {% render 'social-meta-tags' %}
   {% render 'head-variables' %}
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="{{ 'inkkas-redesign.css' | asset_url }}">
 
 	<script>
 		window.theme = window.theme || {};
@@ -178,6 +181,11 @@
       } {% endcomment %}
       
     {%  endif %}
+     {% if settings.card_background != blank %}
+    .product-card .product-featured-image-link{
+      background-color: {{settings.card_background}};
+    }
+  {% endif %}
   </style>
 </head>
 
@@ -351,6 +359,9 @@
 
 
 
-
+<script src="{{ 'inkkas-size-finder.js' | asset_url }}" defer></script>
+<!-- Widget : Gift Card with $150 Purchase -->
+<div data-rebuy-id="286706"></div>
+<!-- End Widget : Gift Card with $150 Purchase -->
 </body>
 </html>

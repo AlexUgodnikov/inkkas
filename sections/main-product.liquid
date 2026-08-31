@@ -247,7 +247,25 @@
 												</div>
 											{% when 'video' %}
 												<div class="product-single__media product-single__media-native-video" data-media-id="{{ media.id }}" style="--aspect-ratio: {{ media.aspect_ratio }}" id="Media-Thumbnails-{{ section.id }}-{{ media.id }}">
-													{{ media | video_tag: controls: true, loading: "lazy", autoplay: section.settings.video_autoplay, loop: section.settings.enable_video_looping, image_size: '960x' }}
+													{% comment %} {{ media | video_tag: controls: true, loading: "lazy", autoplay: section.settings.video_autoplay, loop: section.settings.enable_video_looping, image_size: '960x' }} {% endcomment %}
+                           	<video
+														class="product-single__media-video"
+														controls
+														playsinline
+														loading="lazy"
+														preload="none"
+														{%- if media.preview_image %}
+														width="{{ media.preview_image.width }}"
+														height="{{ media.preview_image.height }}"
+														poster="{{ media.preview_image | image_url: width: 960 }}"
+														{%- endif %}
+														{%- if section.settings.video_autoplay %} autoplay muted{% endif %}
+														{%- if section.settings.enable_video_looping %} loop{% endif %}
+													>
+														{%- for source in media.sources -%}
+															<source src="{{ source.url }}" type="{{ source.mime_type }}">
+														{%- endfor -%}
+													</video>
 												</div>
 											{% when 'model' %}
 												<product-model class="product-single__media product-single__media-model" style="padding-top: 100%" data-media-id="{{ media.id }}" id="Media-Thumbnails-{{ section.id }}-{{ media.id }}">
@@ -751,6 +769,23 @@ console.log('track')
 				} </script>
 <script src="https://widget.sezzle.com/v1/javascript/price-widget/initial?uuid=12a34bc5-6de7-890f-g123-4hi5678jk901"></script>
 <script src="https://widget.sezzle.com/v1/javascript/price-widget?uuid=6b1667fc-dcbe-487a-8722-6887d5ae418c"></script>
+
+<script>
+(function () {
+  // Raise the thumbnail Swiper's drag threshold so small mouse/finger drift
+  // during a click isn't misread as a swipe (which cancels the click).
+  function fixThumbClicks() {
+    var t = document.querySelector('.gallery-thumbs');
+    if (t && t.swiper) { t.swiper.params.threshold = 10; return true; }
+    return false;
+  }
+  if (!fixThumbClicks()) {
+    var n = 0, iv = setInterval(function () {
+      if (fixThumbClicks() || ++n > 40) clearInterval(iv);
+    }, 150);
+  }
+})();
+</script>
 
 {% schema %}
 {
