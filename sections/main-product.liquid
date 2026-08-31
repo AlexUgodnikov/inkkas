@@ -579,8 +579,8 @@
 
   <script src="{{ 'product-model.js' | asset_url }}" defer></script>
 {%- endif -%}
-  {%- assign ai_jdgm_html = product.metafields.okendo  -%}
-<h1>11 {{ai_jdgm_html }}</h1>
+  {%- assign ai_jdgm_html = product.metafields.okendo | json  -%}
+<p>11 {{ai_jdgm_html }}</p>
 <script type="application/ld+json">
   {
     "@context": "https://schema.org/",
