@@ -32,7 +32,7 @@
 	</div>
 </div>
 
-{%- if template.suffix  == 'faq-3' -%}
+{%- if template.suffix  == 'faq-3' or template == 'product' -%}
 	<!-- FAQ structured data (JSON-LD) for search engines and AI assistants -->
 {%- capture faq_entities -%}
   {%- assign faq_sep = '' -%}
