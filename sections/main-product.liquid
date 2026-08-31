@@ -579,8 +579,51 @@
 
   <script src="{{ 'product-model.js' | asset_url }}" defer></script>
 {%- endif -%}
-  {%- assign ai_jdgm_html = product.metafields.okendo | json  -%}
-<p>11 {{ai_jdgm_html }}</p>
+
+{%- capture ai_oke_aggregate -%}
+  {%- assign ai_oke_summary = product.metafields.okendo.ProductListingSnippet | append: '' -%}
+  {%- if product.metafields.okendo.summaryData.reviewCount > 0 -%}
+    {"@type":"AggregateRating","ratingValue":{{ product.metafields.okendo.summaryData.reviewAverageValue | json }},"bestRating":5,"ratingCount":{{ product.metafields.okendo.summaryData.reviewCount | json }}}
+  {%- elsif product.metafields.okendo.ReviewCount > 0 -%}
+    {"@type":"AggregateRating","ratingValue":{{ product.metafields.okendo.ReviewAverageValue | json }},"bestRating":5,"ratingCount":{{ product.metafields.okendo.ReviewCount | json }}}
+  {%- elsif ai_oke_summary contains 'Rated ' and ai_oke_summary contains 'Based on ' -%}
+    {%- assign ai_oke_rating = ai_oke_summary | split: 'Rated ' | last | split: ' out of 5' | first | plus: 0 -%}
+    {%- assign ai_oke_count = ai_oke_summary | split: 'Based on ' | last | split: ' review' | first | plus: 0 -%}
+    {%- if ai_oke_rating > 0 and ai_oke_count > 0 -%}
+      {"@type":"AggregateRating","ratingValue":{{ ai_oke_rating | json }},"bestRating":5,"ratingCount":{{ ai_oke_count | json }}}
+    {%- endif -%}
+  {%- endif -%}
+{%- endcapture -%}
+{%- assign ai_oke_aggregate = ai_oke_aggregate | strip -%}
+
+{%- capture ai_reviews -%}
+  {%- assign ai_oke_html = product.metafields.okendo.ProductReviewsWidgetSnippet | append: '' -%}
+  {%- assign ai_oke_parts = ai_oke_html | split: 'class="okeReviews-review js-okeReviews-review" data-oke-reviews-review-id="' -%}
+  {%- assign ai_rev_count = 0 -%}
+  {%- assign ai_rev_sep = '' -%}
+  {%- for ai_rev in ai_oke_parts offset: 1 -%}
+    {%- if ai_rev_count >= 7 -%}
+      {%- break -%}
+    {%- endif -%}
+    {%- assign ai_rev_parts = ai_rev | split: 'data-oke-reviews-reviewer-name="' -%}
+    {%- assign ai_rev_author = ai_rev_parts[1] | split: '"' | first | strip -%}
+    {%- assign ai_rev_parts = ai_rev | split: 'okeReviews-review-starRating">' -%}
+    {%- assign ai_rev_score_part = ai_rev_parts[1] | split: 'Rated ' -%}
+    {%- assign ai_rev_score = ai_rev_score_part[1] | split: ' out of 5' | first | plus: 0 -%}
+    {%- assign ai_rev_parts = ai_rev | split: 'data-oke-reviews-date="' -%}
+    {%- assign ai_rev_date = ai_rev_parts[1] | split: '"' | first | date: '%Y-%m-%d' -%}
+    {%- assign ai_rev_parts = ai_rev | split: 'okeReviews-review-main-heading">' -%}
+    {%- assign ai_rev_title = ai_rev_parts[1] | split: '</h2>' | first | strip_html | strip -%}
+    {%- assign ai_rev_parts = ai_rev | split: 'okeReviews-review-main-content-body">' -%}
+    {%- assign ai_rev_body = ai_rev_parts[1] | split: '</div>' | first | strip_html | strip_newlines | strip -%}
+    {%- if ai_rev_author != blank and ai_rev_body != blank and ai_rev_score > 0 -%}
+      {%- assign ai_rev_count = ai_rev_count | plus: 1 -%}
+      {{- ai_rev_sep -}}{"@type":"Review",{% if ai_rev_title != blank %}"name":{{ ai_rev_title | json }},{% endif %}"author":{"@type":"Person","name":{{ ai_rev_author | json }}},{% if ai_rev_date != blank %}"datePublished":{{ ai_rev_date | json }},{% endif %}"reviewBody":{{ ai_rev_body | json }},"reviewRating":{"@type":"Rating","ratingValue":{{ ai_rev_score }},"bestRating":5,"worstRating":1}}
+      {%- assign ai_rev_sep = ',' -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
 <script type="application/ld+json">
   {
     "@context": "https://schema.org/",
@@ -609,20 +652,11 @@
     {%- if product.tags != blank %}
       "keywords": {{ product.tags | join: ', ' | json }},
     {%- endif %}
-    {%- if product.metafields.okendo.summaryData.reviewCount > 0 %}
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": {{ product.metafields.okendo.summaryData.reviewAverageValue | json }},
-        "bestRating": 5,
-        "ratingCount": {{ product.metafields.okendo.summaryData.reviewCount | json }}
-      },
-    {%- elsif product.metafields.okendo.ReviewCount > 0 %}
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": {{ product.metafields.okendo.ReviewAverageValue | json }},
-        "bestRating": 5,
-        "ratingCount": {{ product.metafields.okendo.ReviewCount | json }}
-      },
+    {%- if ai_oke_aggregate != blank %}
+      "aggregateRating": {{ ai_oke_aggregate }},
+    {%- endif %}
+    {%- if ai_reviews != blank %}
+      "review": [{{ ai_reviews }}],
     {%- endif %}
     "offers": [
       {%- for variant in product.variants -%}
