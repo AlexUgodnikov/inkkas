@@ -38,7 +38,7 @@
   {%- assign faq_sep = '' -%}
   {%- for block in section.blocks -%}
     {%- if  block.settings.heading != blank and block.settings.content != blank -%}
-      {{- faq_sep -}}{"@type":"Question","name":{{ block.settings.title | strip_html | strip | json }},"acceptedAnswer":{"@type":"Answer","text":{{ block.settings.text | strip_html | strip_newlines | strip | json }}}}
+      {{- faq_sep -}}{"@type":"Question","name":{{ block.settings.heading | strip_html | strip | json }},"acceptedAnswer":{"@type":"Answer","text":{{ block.settings.content | strip_html | strip_newlines | strip | json }}}}
       {%- assign faq_sep = ',' -%}
     {%- endif -%}
   {%- endfor -%}
