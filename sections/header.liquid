@@ -38,30 +38,25 @@
 	{%- endstyle -%}
 </header>
 
-{%- capture ai_same_as_links -%}
-  {%- assign ai_same_as_sep = '' -%}
-  {%- if settings.social_twitter_link != blank -%}{{ ai_same_as_sep }}{{ settings.social_twitter_link | json }}{%- assign ai_same_as_sep = ',' -%}{%- endif -%}
-  {%- if settings.social_facebook_link != blank -%}{{ ai_same_as_sep }}{{ settings.social_facebook_link | json }}{%- assign ai_same_as_sep = ',' -%}{%- endif -%}
-  {%- if settings.social_pinterest_link != blank -%}{{ ai_same_as_sep }}{{ settings.social_pinterest_link | json }}{%- assign ai_same_as_sep = ',' -%}{%- endif -%}
-  {%- if settings.social_instagram_link != blank -%}{{ ai_same_as_sep }}{{ settings.social_instagram_link | json }}{%- assign ai_same_as_sep = ',' -%}{%- endif -%}
-  {%- if settings.social_tiktok_link != blank -%}{{ ai_same_as_sep }}{{ settings.social_tiktok_link | json }}{%- assign ai_same_as_sep = ',' -%}{%- endif -%}
-  {%- if settings.social_youtube_link != blank -%}{{ ai_same_as_sep }}{{ settings.social_youtube_link | json }}{%- assign ai_same_as_sep = ',' -%}{%- endif -%}
-  {%- if settings.social_vimeo_link != blank -%}{{ ai_same_as_sep }}{{ settings.social_vimeo_link | json }}{%- assign ai_same_as_sep = ',' -%}{%- endif -%}
-  {%- if settings.social_linkedin_link != blank -%}{{ ai_same_as_sep }}{{ settings.social_linkedin_link | json }}{%- assign ai_same_as_sep = ',' -%}{%- endif -%}
-  {%- if settings.social_wechat_link != blank -%}{{ ai_same_as_sep }}{{ settings.social_wechat_link | json }}{%- assign ai_same_as_sep = ',' -%}{%- endif -%}
-{%- endcapture -%}
 <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Organization",
-    "@id": {{ shop.url | append: '/#organization' | json }},
     "name": {{ shop.name | json }},
     {% if section.settings.logo %}
       "logo": {{ section.settings.logo | image_url: width: section.settings.logo.width | prepend: "https:" | json }},
     {% endif %}
-    {%- if ai_same_as_links != blank %}
-      "sameAs": [{{ ai_same_as_links }}],
-    {%- endif %}
+    "sameAs": [
+      {{ settings.social_twitter_link | json }},
+      {{ settings.social_facebook_link | json }},
+      {{ settings.social_pinterest_link | json }},
+      {{ settings.social_instagram_link | json }},
+      {{ settings.social_tiktok_link | json }},
+      {{ settings.social_youtube_link | json }},
+      {{ settings.social_vimeo_link | json }},
+      {{ settings.social_linkedin_link | json }},
+      {{ settings.social_wechat_link | json }}
+    ],
     "url": {{ shop.url | append: page.url | json }}
   }
 </script>
