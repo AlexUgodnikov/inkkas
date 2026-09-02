@@ -712,8 +712,25 @@
   }
 </script>
 
-
-
+{%- capture ai_breadcrumb_items -%}
+  {%- assign ai_bc_pos = 1 -%}
+  {"@type":"ListItem","position":{{ ai_bc_pos }},"name":{{ 'sections.breadcrumbs.home' | t | json }},"item":{{ request.origin | json }}}
+  {%- if collection.url -%}
+    {%- assign ai_bc_pos = ai_bc_pos | plus: 1 -%}
+    ,{"@type":"ListItem","position":{{ ai_bc_pos }},"name":{{ 'sections.breadcrumbs.shop' | t | json }},"item":{{ request.origin | append: routes.all_products_collection_url | json }}}
+    {%- assign ai_bc_pos = ai_bc_pos | plus: 1 -%}
+    ,{"@type":"ListItem","position":{{ ai_bc_pos }},"name":{{ collection.title | json }},"item":{{ request.origin | append: collection.url | json }}}
+  {%- endif -%}
+  {%- assign ai_bc_pos = ai_bc_pos | plus: 1 -%}
+  ,{"@type":"ListItem","position":{{ ai_bc_pos }},"name":{{ product.title | json }},"item":{{ request.origin | append: product.url | json }}}
+{%- endcapture -%}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{{ ai_breadcrumb_items }}]
+  }
+</script>
 
  <script type="text/javascript">
     var _learnq = _learnq || [];
