@@ -596,19 +596,28 @@
 {%- endcapture -%}
 {%- assign ai_oke_aggregate = ai_oke_aggregate | strip -%}
 
-{%- capture ai_shipping_returns -%}
-  {%- for block in section.blocks -%}
-    {%- if block.type == 'collapsible_tab' or block.type == 'collapsible_tab_2' -%}
-      {%- assign ai_sr_heading = block.settings.heading | default: block.settings.page.title -%}
-      {%- assign ai_sr_heading_lc = ai_sr_heading | downcase -%}
-      {%- if ai_sr_heading_lc contains 'shipping' -%}
-        {%- assign ai_sr_body = block.settings.content | append: block.settings.page.content | append: block.settings.custom_liquid -%}
-        {{- ai_sr_body | strip_html | strip_newlines | strip -}}
+{%- assign ai_shipping_returns = '' -%}
+{%- assign ai_comfort_fit = '' -%}
+{%- assign ai_care_instructions = '' -%}
+{%- for block in section.blocks -%}
+  {%- if block.type == 'collapsible_tab' or block.type == 'collapsible_tab_2' -%}
+    {%- assign ai_tab_heading = block.settings.heading | default: block.settings.page.title -%}
+    {%- assign ai_tab_heading_lc = ai_tab_heading | downcase -%}
+    {%- if ai_tab_heading_lc contains 'shipping' or ai_tab_heading_lc contains 'comfort' or ai_tab_heading_lc contains 'fit' or ai_tab_heading_lc contains 'care' -%}
+      {%- capture ai_tab_body -%}{{ block.settings.content }}{{ block.settings.page.content }}{{ block.settings.custom_liquid }}{%- endcapture -%}
+      {%- assign ai_tab_body = ai_tab_body | strip_html | strip_newlines | strip -%}
+      {%- if ai_tab_body != blank -%}
+        {%- if ai_tab_heading_lc contains 'shipping' -%}
+          {%- assign ai_shipping_returns = ai_tab_body -%}
+        {%- elsif ai_tab_heading_lc contains 'comfort' or ai_tab_heading_lc contains 'fit' -%}
+          {%- assign ai_comfort_fit = ai_tab_body -%}
+        {%- elsif ai_tab_heading_lc contains 'care' -%}
+          {%- assign ai_care_instructions = ai_tab_body -%}
+        {%- endif -%}
       {%- endif -%}
     {%- endif -%}
-  {%- endfor -%}
-{%- endcapture -%}
-{%- assign ai_shipping_returns = ai_shipping_returns | strip -%}
+  {%- endif -%}
+{%- endfor -%}
 
 {%- capture ai_reviews -%}
   {%- assign ai_oke_html = product.metafields.okendo.ProductReviewsWidgetSnippet | append: '' -%}
@@ -710,26 +719,6 @@
         }{% unless forloop.last %},{% endunless %}
       {%- endfor -%}
     ]
-  }
-</script>
-
-{%- capture ai_breadcrumb_items -%}
-  {%- assign ai_bc_pos = 1 -%}
-  {"@type":"ListItem","position":{{ ai_bc_pos }},"name":{{ 'sections.breadcrumbs.home' | t | json }},"item":{{ request.origin | json }}}
-  {%- if collection.url -%}
-    {%- assign ai_bc_pos = ai_bc_pos | plus: 1 -%}
-    ,{"@type":"ListItem","position":{{ ai_bc_pos }},"name":{{ 'sections.breadcrumbs.shop' | t | json }},"item":{{ request.origin | append: routes.all_products_collection_url | json }}}
-    {%- assign ai_bc_pos = ai_bc_pos | plus: 1 -%}
-    ,{"@type":"ListItem","position":{{ ai_bc_pos }},"name":{{ collection.title | json }},"item":{{ request.origin | append: collection.url | json }}}
-  {%- endif -%}
-  {%- assign ai_bc_pos = ai_bc_pos | plus: 1 -%}
-  ,{"@type":"ListItem","position":{{ ai_bc_pos }},"name":{{ product.title | json }},"item":{{ request.origin | append: product.url | json }}}
-{%- endcapture -%}
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org/",
-    "@type": "BreadcrumbList",
-    "itemListElement": [{{ ai_breadcrumb_items }}]
   }
 </script>
 
