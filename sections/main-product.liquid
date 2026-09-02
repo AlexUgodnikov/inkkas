@@ -596,6 +596,20 @@
 {%- endcapture -%}
 {%- assign ai_oke_aggregate = ai_oke_aggregate | strip -%}
 
+{%- capture ai_shipping_returns -%}
+  {%- for block in section.blocks -%}
+    {%- if block.type == 'collapsible_tab' or block.type == 'collapsible_tab_2' -%}
+      {%- assign ai_sr_heading = block.settings.heading | default: block.settings.page.title -%}
+      {%- assign ai_sr_heading_lc = ai_sr_heading | downcase -%}
+      {%- if ai_sr_heading_lc contains 'shipping' -%}
+        {%- assign ai_sr_body = block.settings.content | append: block.settings.page.content | append: block.settings.custom_liquid -%}
+        {{- ai_sr_body | strip_html | strip_newlines | strip -}}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- assign ai_shipping_returns = ai_shipping_returns | strip -%}
+
 {%- capture ai_reviews -%}
   {%- assign ai_oke_html = product.metafields.okendo.ProductReviewsWidgetSnippet | append: '' -%}
   {%- assign ai_oke_parts = ai_oke_html | split: 'class="okeReviews-review js-okeReviews-review" data-oke-reviews-review-id="' -%}
@@ -651,6 +665,15 @@
     {%- endif %}
     {%- if product.tags != blank %}
       "keywords": {{ product.tags | join: ', ' | json }},
+    {%- endif %}
+    {%- if ai_shipping_returns != blank %}
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Shipping & Returns",
+          "value": {{ ai_shipping_returns | json }}
+        }
+      ],
     {%- endif %}
     {%- if ai_oke_aggregate != blank %}
       "aggregateRating": {{ ai_oke_aggregate }},
