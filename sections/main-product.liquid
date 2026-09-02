@@ -647,7 +647,7 @@
   {%- endfor -%}
 {%- endcapture -%}
 
-<script type="application/ld+json">
+{% comment %} <script type="application/ld+json">
   {
     "@context": "https://schema.org/",
     "@type": "Product",
@@ -675,14 +675,24 @@
     {%- if product.tags != blank %}
       "keywords": {{ product.tags | join: ', ' | json }},
     {%- endif %}
-    {%- if ai_shipping_returns != blank %}
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Shipping & Returns",
-          "value": {{ ai_shipping_returns | json }}
-        }
-      ],
+    {%- capture ai_additional_properties -%}
+      {%- assign ai_ap_sep = '' -%}
+      {%- if ai_shipping_returns != blank -%}
+        {{ ai_ap_sep }}{"@type":"PropertyValue","name":"Shipping & Returns","value":{{ ai_shipping_returns | json }}}
+        {%- assign ai_ap_sep = ',' -%}
+      {%- endif -%}
+      {%- if ai_comfort_fit != blank -%}
+        {{ ai_ap_sep }}{"@type":"PropertyValue","name":"Comfort & Fit","value":{{ ai_comfort_fit | json }}}
+        {%- assign ai_ap_sep = ',' -%}
+      {%- endif -%}
+      {%- if ai_care_instructions != blank -%}
+        {{ ai_ap_sep }}{"@type":"PropertyValue","name":"Care Instructions","value":{{ ai_care_instructions | json }}}
+        {%- assign ai_ap_sep = ',' -%}
+      {%- endif -%}
+    {%- endcapture -%}
+    {%- assign ai_additional_properties = ai_additional_properties | strip -%}
+    {%- if ai_additional_properties != blank %}
+      "additionalProperty": [{{ ai_additional_properties }}],
     {%- endif %}
     {%- if ai_oke_aggregate != blank %}
       "aggregateRating": {{ ai_oke_aggregate }},
@@ -720,7 +730,7 @@
       {%- endfor -%}
     ]
   }
-</script>
+</script> {% endcomment %}
 
  <script type="text/javascript">
     var _learnq = _learnq || [];
