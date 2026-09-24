@@ -9,6 +9,7 @@ if (!customElements.get('recipient-form')) {
       this.emailInput = this.querySelector(`#Recipient-email-${ this.dataset.sectionId }`);
       this.nameInput = this.querySelector(`#Recipient-name-${ this.dataset.sectionId }`);
       this.messageInput = this.querySelector(`#Recipient-message-${ this.dataset.sectionId }`);
+      this.sendOnInput = this.querySelector(`#Recipient-send_on-${ this.dataset.sectionId }`);
       this.errorMessageWrapper = this.querySelector('.product-form__recipient-error-message-wrapper');
       this.errorMessageList = this.errorMessageWrapper?.querySelector('ul');
       this.errorMessage = this.errorMessageWrapper?.querySelector('.error-message');
@@ -50,6 +51,7 @@ if (!customElements.get('recipient-form')) {
       this.emailInput.value = '';
       this.nameInput.value = '';
       this.messageInput.value = '';
+      if (this.sendOnInput) this.sendOnInput.value = '';
     }
 
     displayErrorMessage(title, body) {
@@ -106,7 +108,7 @@ if (!customElements.get('recipient-form')) {
         if (textField) textField.innerText = '';
       });
 
-      [this.emailInput, this.messageInput, this.nameInput].forEach(inputElement => {
+      [this.emailInput, this.messageInput, this.nameInput, this.sendOnInput].filter(Boolean).forEach(inputElement => {
         inputElement.setAttribute('aria-invalid', false);
         inputElement.removeAttribute('aria-describedby');
       });

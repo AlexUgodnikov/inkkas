@@ -1,0 +1,876 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": true,
+        "show_subcollections": false,
+        "make_heading_uppercase": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "promotion_83TLMp": {
+          "type": "promotion",
+          "name": "Position 1",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 2,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/COPPER-TENNIS-AW260202-SWING-PORTRAIT-1200.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Copper",
+            "link": "shopify://products/copper-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_VdeAdT": {
+          "type": "promotion",
+          "name": "Position 1",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 2,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/COPPER-TENNIS-AW260202-SWING-PORTRAIT-1200.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Copper",
+            "link": "shopify://products/copper-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_bKUdbA": {
+          "type": "promotion",
+          "name": "Position 3",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 3,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/FLORENCE-TENNIS-AW260204-MODEL-05430_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Florence",
+            "link": "shopify://products/florence-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_k6n9yD": {
+          "type": "promotion",
+          "name": "Position 3",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 3,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/FLORENCE-TENNIS-AW260204-MODEL-05430_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Florence",
+            "link": "shopify://products/florence-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_rP683p": {
+          "type": "promotion",
+          "name": "Position 4",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 4,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MACHLI-VEGAN-JOGGER-AW260412-COPPER-VEGAN-TREKKBOOT-AW261014-MODEL-GROUP-7657_1__result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Copper",
+            "link": "shopify://products/copper-vegan-trekk-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_XkyPTk": {
+          "type": "promotion",
+          "name": "Position 4",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 4,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MACHLI-VEGAN-JOGGER-AW260412-COPPER-VEGAN-TREKK_BOOT-AW261014-GROUP-MODEL-7715.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Copper",
+            "link": "shopify://products/copper-vegan-trekk-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_cAhbL6": {
+          "type": "promotion",
+          "name": "Position 5",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 5,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/FLORENCE-TREKKBOOT-AW261013-MODELZOOM-KRP-IMGL8716_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Florence",
+            "link": "shopify://products/florence-trekk-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_7mctqF": {
+          "type": "promotion",
+          "name": "Position 5",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 5,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/FLORENCE-TREKKBOOT-AW261013-MODELZOOM-KRP-IMGL8716_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Florence",
+            "link": "shopify://products/florence-trekk-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_PYgWYh": {
+          "type": "promotion",
+          "name": "Position 6",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 6,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/EDDY-JOGGER-AW260411-HOLD-06170_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Eddy",
+            "link": "shopify://products/eddy-jogger",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_xt7BT6": {
+          "type": "promotion",
+          "name": "Position 6",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 6,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/EDDY-JOGGER-AW260411-HOLD-06170_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Eddy",
+            "link": "shopify://products/eddy-jogger",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_4akbeg": {
+          "type": "promotion",
+          "name": "Position 7",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 7,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MIU-JOGGER-AW260410-DOORWAY-PORTRAIT-1200.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Miu",
+            "link": "shopify://products/miu-jogger",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_87mQdg": {
+          "type": "promotion",
+          "name": "Position 7",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 7,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MIU-JOGGER-AW260410-DOORWAY-PORTRAIT-1200.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Miu",
+            "link": "shopify://products/miu-jogger",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_hX8MGG": {
+          "type": "promotion",
+          "name": "Position 8",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 8,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/SARAS-VEGAN-CHELSEABOOT-AW261316-MODEL-KRP-IMGL8169_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Saras",
+            "link": "shopify://products/saras-vegan-chelsea-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_7PTGz8": {
+          "type": "promotion",
+          "name": "Position 8",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 8,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/SARAS-VEGAN-CHELSEABOOT-AW261316-MODEL-KRP-IMGL8169_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Saras",
+            "link": "shopify://products/saras-vegan-chelsea-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_8kW4PP": {
+          "type": "promotion",
+          "name": "Position 9",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 9,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/CHANTERELLE-VEGAN-CHELSEABOOT-AW261317-MODEL-04573_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Chanterelle",
+            "link": "shopify://products/chanterelle-vegan-chelsea-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_9cKh7y": {
+          "type": "promotion",
+          "name": "Position 9",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 9,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/CHANTERELLE-VEGAN-CHELSEABOOT-AW261317-MODEL-04573_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Chanterelle",
+            "link": "shopify://products/chanterelle-vegan-chelsea-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_GhafGz": {
+          "type": "promotion",
+          "name": "Position 10",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 10,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/COPPER-SLIPON-AW260305-FLAT-6568_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Copper",
+            "link": "shopify://products/copper-vegan-slip-on",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_k7KDEm": {
+          "type": "promotion",
+          "name": "Position 10",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 10,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/COPPER-SLIPON-AW260305-FLAT-6568_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Copper",
+            "link": "shopify://products/copper-vegan-slip-on",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_yVCkmp": {
+          "type": "promotion",
+          "name": "Position 11",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 11,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/FLORENCE-SLIPON-AW260306-MODEL-KRP-IMGL7956_result_e2d971ad-0aee-43b6-9bc0-47b7589a0e89.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Florence",
+            "link": "shopify://products/florence-vegan-slip-on",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_yHine8": {
+          "type": "promotion",
+          "name": "Position 11",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 11,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/FLORENCE-SLIPON-AW260306-MODEL-KRP-IMGL7956_result_e2d971ad-0aee-43b6-9bc0-47b7589a0e89.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Florence",
+            "link": "shopify://products/florence-vegan-slip-on",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_geqWyG": {
+          "type": "promotion",
+          "name": "Position 12",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 12,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/SARAS-CLOG-AW261420-KICK-LOOP-natural.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Saras",
+            "link": "shopify://products/saras-clog",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_9BwFzH": {
+          "type": "promotion",
+          "name": "Position 12",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 12,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/SARAS-CLOG-AW261420-KICK-LOOP-natural.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Saras",
+            "link": "shopify://products/saras-clog",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_qDFhJJ": {
+          "type": "promotion",
+          "name": "Position 13",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 13,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/FLUTTERBY-CLOG-AW261421-MODEL-KRP-IMGL7897_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Flutterby",
+            "link": "shopify://products/flutterby-clog",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_6c7hFg": {
+          "type": "promotion",
+          "name": "Position 13",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 13,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/FLUTTERBY-CLOG-AW261421-MODEL-KRP-IMGL7897_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Flutterby",
+            "link": "shopify://products/flutterby-clog",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_pXMAe3": {
+          "type": "promotion",
+          "name": "Position 14",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 14,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/FLORENCE-BOOTIE-AW260818-KISS-PORTRAIT-1000.gif",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Florence",
+            "link": "shopify://products/florence-bootie",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_PL4gXm": {
+          "type": "promotion",
+          "name": "Position 14",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 14,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/FLORENCE-BOOTIE-AW260818-KISS-PORTRAIT-1000.gif",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Florence",
+            "link": "shopify://products/florence-bootie",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_TNdm9N": {
+          "type": "promotion",
+          "name": "Position 15",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/COPPER-BOOTIE-AW260819-MODEL-07789_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Copper",
+            "link": "shopify://products/copper-bootie",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_CmtjHk": {
+          "type": "promotion",
+          "name": "Position 15",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 15,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/COPPER-BOOTIE-AW260819-MODEL-07789_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Copper",
+            "link": "shopify://products/copper-bootie",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_8maQex": {
+          "type": "promotion",
+          "name": "Position 16",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 16,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MARIPOSA-CHELSEABOOT-AW261315-MOHAVE-BELTBAG-AW231721-GROUP-MODEL-7316_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Mariposa",
+            "link": "shopify://products/mariposa-chelsea-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_fkbR6U": {
+          "type": "promotion",
+          "name": "Position 16",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 16,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MARIPOSA-CHELSEABOOT-AW261315-MOHAVE-BELTBAG-AW231721-GROUP-MODEL-7316_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Mariposa",
+            "link": "shopify://products/mariposa-chelsea-boot",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_VCfMNY": {
+          "type": "promotion",
+          "name": "Position 17",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 17,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MIU-TENNIS-AW260203-HOLD-09472_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Miu",
+            "link": "shopify://products/miu-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_NbtNgB": {
+          "type": "promotion",
+          "name": "Position 17",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 17,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MIU-TENNIS-AW260203-HOLD-09472_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Miu",
+            "link": "shopify://products/miu-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_Tf7Umx": {
+          "type": "promotion",
+          "name": "Position 18",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 18,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MACHLI-VEGAN-TENNIS-AW260201-HOLD-04779_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Machli",
+            "link": "shopify://products/machli-vegan-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_CHAKxB": {
+          "type": "promotion",
+          "name": "Position 18",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 19,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MACHLI-VEGAN-TENNIS-AW260201-HOLD-04779_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Machli",
+            "link": "shopify://products/machli-vegan-tennis",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_H83d4F": {
+          "type": "promotion",
+          "name": "Position 19",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 19,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MACHLI-TRAINER-AW260608-KICK-PORTRAIT-1200.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Machli",
+            "link": "shopify://products/machli-vegan-trainer",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_6MzcnA": {
+          "type": "promotion",
+          "name": "Position 19",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 18,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MACHLI-TRAINER-AW260608-KICK-PORTRAIT-1200.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Machli",
+            "link": "shopify://products/machli-vegan-trainer",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_QeEhGy": {
+          "type": "promotion",
+          "name": "Position 20",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 18,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MACHLI-VEGAN-JOGGER-AW260412-MODEL-KRP-IMGL8964_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Machli",
+            "link": "shopify://products/machli-vegan-jogger",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_7khkCY": {
+          "type": "promotion",
+          "name": "Position 20",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 20,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/MACHLI-VEGAN-JOGGER-AW260412-MODEL-KRP-IMGL8964_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Machli",
+            "link": "shopify://products/machli-vegan-jogger",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_tET64a": {
+          "type": "promotion",
+          "name": "Position 21",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 21,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/BAHIA-RUNNERV.3-AW260609-HOLD-KRP-IMGL8807_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Bahia",
+            "link": "shopify://products/bahia-vegan-runner-v-3",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_cTYB88": {
+          "type": "promotion",
+          "name": "Position 21",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 21,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/BAHIA-RUNNERV.3-AW260609-HOLD-KRP-IMGL8807_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Bahia",
+            "link": "shopify://products/bahia-vegan-runner-v-3",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_ixfjgQ": {
+          "type": "promotion",
+          "name": "Position 21",
+          "settings": {
+            "promotion_collection": "the-embers-collection",
+            "promotion_position": 21,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/EDDY-TRAINER-AW260607-HOLD-KRP-IMGL8112_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Eddy",
+            "link": "shopify://products/tatu-vegan-trainer",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "promotion_UEJbXq": {
+          "type": "promotion",
+          "name": "Position 21",
+          "settings": {
+            "promotion_collection": "new-arrivals",
+            "promotion_position": 21,
+            "promotion_width": "1",
+            "image": "shopify://shop_images/EDDY-TRAINER-AW260607-HOLD-KRP-IMGL8112_result.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Shop Eddy",
+            "link": "shopify://products/tatu-vegan-trainer",
+            "use_text_button": true,
+            "block_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "promotion_83TLMp",
+        "promotion_VdeAdT",
+        "promotion_bKUdbA",
+        "promotion_k6n9yD",
+        "promotion_rP683p",
+        "promotion_XkyPTk",
+        "promotion_cAhbL6",
+        "promotion_7mctqF",
+        "promotion_PYgWYh",
+        "promotion_xt7BT6",
+        "promotion_4akbeg",
+        "promotion_87mQdg",
+        "promotion_hX8MGG",
+        "promotion_7PTGz8",
+        "promotion_8kW4PP",
+        "promotion_9cKh7y",
+        "promotion_GhafGz",
+        "promotion_k7KDEm",
+        "promotion_yVCkmp",
+        "promotion_yHine8",
+        "promotion_geqWyG",
+        "promotion_9BwFzH",
+        "promotion_qDFhJJ",
+        "promotion_6c7hFg",
+        "promotion_pXMAe3",
+        "promotion_PL4gXm",
+        "promotion_TNdm9N",
+        "promotion_CmtjHk",
+        "promotion_8maQex",
+        "promotion_fkbR6U",
+        "promotion_VCfMNY",
+        "promotion_NbtNgB",
+        "promotion_Tf7Umx",
+        "promotion_CHAKxB",
+        "promotion_H83d4F",
+        "promotion_6MzcnA",
+        "promotion_QeEhGy",
+        "promotion_7khkCY",
+        "promotion_tET64a",
+        "promotion_cTYB88",
+        "promotion_ixfjgQ",
+        "promotion_UEJbXq"
+      ],
+      "settings": {
+        "full_width": true,
+        "products_per_page": 48,
+        "columns_desktop": 4,
+        "pagination_type": "infinite",
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "show_counts": false,
+        "filter_color_swatches": true,
+        "facets_desktop": "drawer"
+      }
+    },
+    "custom_liquid_QAr7wB": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"ink-values\">\n  <div class=\"ink-values__inner\">\n    <h2 class=\"ink-values__title\">Artful, Travel-Inspired Footwear</h2>\n    <p class=\"ink-values__subtitle\">For Everyday Adventures</p>\n    <div class=\"ink-values__badges\">\n      <img class=\"ink-values__badge\" src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/3_1.png?v=1779992083\" alt=\"Inked by artists — original artistry\" width=\"190\" height=\"190\" loading=\"lazy\">\n      <img class=\"ink-values__badge\" src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/1_1.png?v=1779992083\" alt=\"Over 10,000 5-star reviews\" width=\"190\" height=\"190\" loading=\"lazy\">\n      <img class=\"ink-values__badge\" src=\"https://cdn.shopify.com/s/files/1/0162/1490/files/5_1.png?v=1779992083\" alt=\"Global design — authentic textiles\" width=\"190\" height=\"190\" loading=\"lazy\">\n    </div>\n  </div>\n</section>\n<style>\n  .ink-values {\n    background: #fbf7ef;\n    padding: 48px 20px;\n    text-align: center;\n  }\n  .ink-values__inner {\n    max-width: 820px;\n    margin: 0 auto;\n  }\n  .ink-values__title {\n    font-family: 'Fraunces', Georgia, serif;\n    font-weight: 600;\n    font-size: clamp(20px, 3vw, 36px);\n    line-height: 1.1;\n    color: #1a1a1a;\n    margin: 0;\n  }\n  .ink-values__subtitle {\n    font-family: 'Fraunces', Georgia, serif;\n    font-style: italic;\n    font-weight: 400;\n    font-size: clamp(18px, 2.6vw, 30px);\n    color: #1a1a1a;\n    margin: 4px 0 32px;\n  }\n  .ink-values__badges {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: clamp(12px, 3vw, 40px);\n    flex-wrap: wrap;\n  }\n  .ink-values__badge {\n    width: clamp(88px, 13vw, 132px);\n    height: auto;\n  }\n</style>"
+      }
+    },
+    "single_image_4emjKU": {
+      "type": "single-image",
+      "disabled": true,
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/Tagline_3_Logos_for_Homepage_2.png",
+        "full_width": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_hqciKa": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "image": "shopify://shop_images/DesertPolaroid15.jpg",
+        "full_width": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "product-grid",
+    "custom_liquid_QAr7wB",
+    "single_image_4emjKU",
+    "single_image_hqciKa"
+  ]
+}

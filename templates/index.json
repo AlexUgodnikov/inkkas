@@ -15,6 +15,7 @@
         "slide_AA9jWk": {
           "type": "slide",
           "name": "Anything but Ordinary Video",
+          "disabled": true,
           "settings": {
             "slide_link": "shopify://collections/best-sellers",
             "video_background": true,
@@ -43,17 +44,86 @@
             "button_2_bg": "",
             "button_2_text_color": ""
           }
+        },
+        "slide_KbmhL3": {
+          "type": "slide",
+          "name": "Take the scenic route",
+          "disabled": true,
+          "settings": {
+            "slide_link": "shopify://collections/best-sellers",
+            "video_background": true,
+            "video": "",
+            "video_hosted": "shopify://files/videos/inkkas-hero-rana-desktop-1920x754-1.5mb.mp4",
+            "video_hosted_mobile": "shopify://files/videos/inkkas-hero-rana-mobile-1080x1468-1.5mb.mp4",
+            "subheading": "",
+            "heading": "Take the scenic route",
+            "heading_color": "",
+            "heading_size": "h2",
+            "content": "Handcrafted boots, made for the long way.",
+            "description_size": "small",
+            "content_position": "bottom-center",
+            "text_alignment": "left",
+            "content_size": "large",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "shop",
+            "button_1_link": "shopify://collections/best-sellers",
+            "button_1_outline": true,
+            "button_1_bg": "",
+            "button_1_text_color": "#f5efeb",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false,
+            "button_2_bg": "",
+            "button_2_text_color": ""
+          }
+        },
+        "slide_apEDJF": {
+          "type": "slide",
+          "name": "Embers Launch",
+          "settings": {
+            "slide_link": "shopify://collections/new-arrivals",
+            "video_background": true,
+            "video": "",
+            "video_hosted": "shopify://files/videos/embers-hero-desktop-copper-tennis-1920x1280-light-v2.mp4",
+            "video_hosted_mobile": "shopify://files/videos/embers-hero-mobile-1080x1468-light.mp4",
+            "subheading": "NEW FALL-WINTER '26",
+            "heading": "Embers Collection is Here",
+            "heading_color": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "small",
+            "content_position": "middle-center",
+            "text_alignment": "left",
+            "content_size": "large",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "transparent",
+            "button_1_text": "shop embers",
+            "button_1_link": "shopify://collections/new-arrivals",
+            "button_1_outline": false,
+            "button_1_bg": "#c4443a",
+            "button_1_text_color": "#f6eee6",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false,
+            "button_2_bg": "",
+            "button_2_text_color": ""
+          }
         }
       },
       "block_order": [
-        "slide_AA9jWk"
+        "slide_AA9jWk",
+        "slide_KbmhL3",
+        "slide_apEDJF"
       ],
       "custom_css": [
         "@media only screen and (min-width: 768px) {.slideshow__slide-video-bg > video {object-position: center 60%; }}"
       ],
-      "name": "Bussi Video",
+      "name": "Homepage Video",
       "settings": {
-        "desktop_height": "desktop-height-image",
+        "desktop_height": "desktop-height-full",
         "mobile_height": "mobile-height-image",
         "full_width": true,
         "autoplay": false,
@@ -367,6 +437,7 @@
         "slide_BYD99J": {
           "type": "slide",
           "name": "BOGO sale",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/BANNER-2026BacktoSchoolBOGOsale-ezgif.com-gif-to-webp-converter.webp",
             "mobile_image": "shopify://shop_images/BANNER-2026BacktoSchoolBOGOsale-mobile_cbd603a7-d766-4766-8e7b-d53191d915e1.webp",
@@ -429,14 +500,14 @@
       "custom_css": [],
       "name": "Featured collection: Bestsellers",
       "settings": {
-        "heading": "Bestsellers",
+        "heading": "New for Fall-Winter",
         "heading_left": false,
         "heading_color": "#151515",
         "heading_size": 40,
         "heading_size_mobile": 25,
-        "description": "<p>The styles our customers keep coming back for.</p>",
+        "description": "<p>Handcrafted for comfort, designed to light your spark. </p>",
         "full_width": true,
-        "collection": "best-sellers",
+        "collection": "new-arrivals",
         "display_type": "carousel",
         "product_limit": 12,
         "columns_desktop": 4,
@@ -610,11 +681,36 @@
         "disable_bottom_spacing": true
       }
     },
+    "featured_collection_afTENh": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "name": "Featured collection: Bestsellers",
+      "settings": {
+        "heading": "Bestsellers",
+        "heading_left": false,
+        "heading_color": "#151515",
+        "heading_size": 40,
+        "heading_size_mobile": 25,
+        "description": "<p>The styles our customers keep coming back for.</p>",
+        "full_width": true,
+        "collection": "best-sellers",
+        "display_type": "carousel",
+        "product_limit": 12,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "featured_collection_yyTfpD": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "Featured collection: Sale",
       "settings": {
-        "heading": "End of Summer Markdowns Up to 50% Off",
+        "heading": "Final Few & Up to 50% Off",
         "heading_left": false,
         "heading_color": "#151515",
         "heading_size": 30,
@@ -627,30 +723,6 @@
         "columns_desktop": 4,
         "columns_mobile": "2",
         "show_view_all": true,
-        "mobile_swipe": true,
-        "show_progress_bar": false,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "featured_collection_FeEgtg": {
-      "type": "featured-collection",
-      "disabled": true,
-      "name": "Featured collection: New",
-      "settings": {
-        "heading": "New Arrivals",
-        "heading_left": false,
-        "heading_color": "#151515",
-        "heading_size": 40,
-        "heading_size_mobile": 30,
-        "description": "",
-        "full_width": true,
-        "collection": "new-arrivals",
-        "display_type": "carousel",
-        "product_limit": 12,
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "show_view_all": false,
         "mobile_swipe": true,
         "show_progress_bar": false,
         "disable_top_spacing": false,
@@ -674,19 +746,6 @@
     },
     "1783692902e2877959": {
       "type": "apps",
-      "blocks": {
-        "vizup_videos_videos_block_TwDBg8": {
-          "type": "shopify://apps/vizup-videos/blocks/videos-block/eaecaa7b-ab6b-40ae-8ddf-50daa867f3eb",
-          "name": "Vizup: Slider Carousel Videos",
-          "settings": {
-            "videoc_widget_id": "",
-            "custom_css": ""
-          }
-        }
-      },
-      "block_order": [
-        "vizup_videos_videos_block_TwDBg8"
-      ],
       "name": "App: Vizup",
       "settings": {}
     },
@@ -878,8 +937,8 @@
     "custom_liquid_YdVCKM",
     "featured_collection_zwp4pM",
     "gallery_LmMtMY",
+    "featured_collection_afTENh",
     "featured_collection_yyTfpD",
-    "featured_collection_FeEgtg",
     "press_custom",
     "custom_liquid_4xM4cK",
     "1783692902e2877959",

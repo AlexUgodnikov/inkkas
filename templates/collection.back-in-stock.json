@@ -11,7 +11,6 @@
   "sections": {
     "main-collection-banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_collection_image": false,
         "show_collection_description": true,
@@ -29,6 +28,7 @@
     },
     "spacer_dce9gn": {
       "type": "spacer",
+      "disabled": true,
       "name": "Spacer",
       "settings": {
         "spacer_mobile": 20,
@@ -39,6 +39,7 @@
     },
     "featured_collection_GjiCFi": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "heading": "Restocked & Ready to Ship",
@@ -96,6 +97,7 @@
         "image_geEqQ3",
         "image_iYMzrf"
       ],
+      "disabled": true,
       "name": "Gallery",
       "settings": {
         "slider": false,
@@ -115,6 +117,7 @@
     },
     "spacer_DmtN9q": {
       "type": "spacer",
+      "disabled": true,
       "name": "Spacer",
       "settings": {
         "spacer_mobile": 30,
@@ -125,6 +128,7 @@
     },
     "spacer_Mh3i7A": {
       "type": "spacer",
+      "disabled": true,
       "name": "Spacer",
       "settings": {
         "spacer_mobile": 20,
@@ -148,6 +152,7 @@
       "block_order": [
         "text_8an9R9"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "section_width": "full-width-row-full",

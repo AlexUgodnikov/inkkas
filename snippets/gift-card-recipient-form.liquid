@@ -170,6 +170,49 @@
 					</div>
         </div>
       </div>
+
+      {%- assign send_on_min = 'now' | date: '%Y-%m-%d' -%}
+      {%- assign send_on_max = 'now' | date: '%s' | plus: 7776000 | date: '%Y-%m-%d' -%}
+      <div class="recipient-fields__field">
+        <div class="field">
+          <input
+            class="field__input full"
+            id="Recipient-send_on-{{ section.id }}"
+            type="date"
+            name="properties[Send on]"
+            placeholder="Delivery date"
+            value="{{ form.send_on }}"
+            min="{{ send_on_min }}"
+            max="{{ send_on_max }}"
+            {% if form.errors contains 'send_on' %}
+              aria-invalid="true"
+              aria-describedby="RecipientForm-send_on-error-{{ section.id }}"
+            {% endif %}
+          >
+          <label class="field__label" for="Recipient-send_on-{{ section.id }}">
+            Delivery date (optional)
+          </label>
+        </div>
+
+        <label class="form__label recipient-form-field-label">
+          <span>Leave blank to send right away. Can be scheduled up to 90 days ahead.</span>
+        </label>
+
+        <div
+          id="RecipientForm-send_on-error-{{ section.id }}"
+          class="form__message{% unless form.errors contains 'send_on' %} hidden{% endunless %}"
+        >
+					<div class="form-notification error">
+	          {% render 'svg-icons' with 'thb-error' %}
+	          <span class="error-message">
+	            {%- if form.errors contains 'send_on' -%}
+	              {{ form.errors.translated_fields.send_on | capitalize }}
+	              {{ form.errors.messages.send_on }}.
+	            {%- endif -%}
+	          </span>
+					</div>
+        </div>
+      </div>
     </div>
     <input
       type="hidden"
@@ -177,5 +220,17 @@
       value="if_present"
       id="Recipient-Control-{{ section.id }}"
     >
+    <input
+      type="hidden"
+      name="properties[__shopify_offset]"
+      id="Recipient-timezone-offset-{{ section.id }}"
+      value=""
+    >
+    <script>
+      (function () {
+        var offsetField = document.getElementById('Recipient-timezone-offset-{{ section.id }}');
+        if (offsetField) offsetField.value = new Date().getTimezoneOffset();
+      })();
+    </script>
   </recipient-form>
 </div>

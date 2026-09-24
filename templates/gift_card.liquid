@@ -59,11 +59,48 @@
 	      {%- if gift_card.balance != gift_card.initial_value -%}
 	        <p class="gift-card__label caption-large">{{ 'gift_cards.issued.remaining_html' | t: balance: gift_card_balance }}</p>
 	      {%- endif -%}
+
+	      {%- if gift_card.recipient.name != blank -%}
+	        <p class="gift-card__recipient">{{ gift_card.recipient.name }},</p>
+	      {%- endif -%}
+	      {%- if gift_card.message != blank -%}
+	        <p class="gift-card__message">{{ gift_card.message }}</p>
+	      {%- endif -%}
 	    </header>
 
 	    <main class="gift-card">
+	      {%- liquid
+	        comment
+	          Artwork per design. The images live in Content > Files (NOT in theme assets),
+	          so the same five files serve both this page and the gift card email.
+	          Every name listed in designs_with_artwork needs a file in Files called
+	          gift-card-<handleized-name>.jpg  (design "Popinjay" -> gift-card-popinjay.jpg).
+
+	          Cards with no Design property - the free $25 gift-with-purchase that Rebuy adds
+	          to the cart, and any card issued by hand from the admin - fall back to Ray,
+	          which is also the design used for the $25 tier.
+
+	          To add a design later: upload its image to Files, add its name to the list.
+	        endcomment
+	        assign chosen_design = gift_card.properties['Design']
+	        assign designs_with_artwork = 'joya,ray,popinjay,badass,trek' | split: ','
+	        assign design_handle = chosen_design | handleize
+	        assign design_artwork = 'gift-card-ray.jpg'
+	        for candidate in designs_with_artwork
+	          if candidate == design_handle
+	            assign design_artwork = 'gift-card-' | append: design_handle | append: '.jpg'
+	          endif
+	        endfor
+	      -%}
 	      <div class="gift-card__image-wrapper">
-	        <img src="{{ 'gift-card/card.svg' | shopify_asset_url }}" alt="" class="gift-card__image" height="{{ 570 | divided_by: 1.5 }}" width="570" loading="lazy">
+	        <img
+	          src="{{ design_artwork | file_url }}"
+	          alt="Inkkas {{ chosen_design | default: 'Ray' | escape }} gift card"
+	          class="gift-card__image"
+	          width="440"
+	          height="660"
+	          loading="eager"
+	        >
 	      </div>
 	      <div class="gift-card__qr-code" data-identifier="{{ gift_card.qr_identifier }}"></div>
 	      <div class="gift-card__information">

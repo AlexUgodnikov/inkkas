@@ -24,6 +24,8 @@
     </div>
 		{%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
 		<input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
+
+		{%- render 'gift-card-design-property', product: product, section: section -%}
 		{%- if gift_card_recipient_feature_active -%}
       {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
     {%- endif -%}
@@ -87,7 +89,7 @@
 					</a> {% endcomment %}
 				{% endunless %}
 		  </div>
-		  {%- if settings.show_dynamic_button -%}   
+		  {%- if settings.show_dynamic_button and show_dynamic_checkout -%}   
 		      {{ form | payment_button }}
 		 {%- endif -%} 
 
