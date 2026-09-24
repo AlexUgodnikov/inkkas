@@ -100,7 +100,7 @@
           "settings": {
             "show_quantity_selector": true,
             "show_dynamic_checkout": true,
-            "show_gift_card_recipient": false
+            "show_gift_card_recipient": true
           }
         },
         "essential_announcer_app_block_kRiMDb": {
@@ -112,7 +112,7 @@
         "essential_countdown_timer_app_block_L7YXF4": {
           "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
-            "id": "cmsnox2u5001rpqnyt7d4ljdq"
+            "id": ""
           }
         },
         "klaviyo_email_marketing_sms_form_embed_block_pDPnKg": {
@@ -547,6 +547,19 @@
             "custom_liquid": "<style>\n.product-6767518154849 .shipping__returns,\n.product-10422074057 .shipping__returns{\ndisplay:none;\n}\n</style>"
           }
         },
+        "gorgias_live_chat_helpdesk_spq_xzQLzP": {
+          "type": "shopify://apps/gorgias-live-chat-helpdesk/blocks/spq/a66db725-7b96-4e3f-916e-6c8e6f87aaaa",
+          "settings": {
+            "text_style": "none",
+            "icon_color": "#1e242e",
+            "font_color": "#1e242e",
+            "show_icons": true,
+            "font_size": 16,
+            "font_weight": "500",
+            "border_radius": 8,
+            "font_family": "inherit"
+          }
+        },
         "rebuy_personalization_engine_rebuy_widget_N4KbNw": {
           "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
@@ -600,6 +613,7 @@
         "advantages_icons_UpLWjm",
         "collapsible_tab_2_EG6eBL",
         "custom_liquid_Y3EYmc",
+        "gorgias_live_chat_helpdesk_spq_xzQLzP",
         "rebuy_personalization_engine_rebuy_widget_N4KbNw"
       ],
       "custom_css": [],

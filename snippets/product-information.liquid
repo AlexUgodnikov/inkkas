@@ -1209,7 +1209,7 @@
   {%- endcase -%}
   {% endfor %}
 </div>
-{%- if section.settings.enable_sticky_add_to_cart -%}
+{%- if section.settings.enable_sticky_add_to_cart and product.gift_card? != true -%}
 {% render 'product-add-to-cart-sticky', product: product, media: first_image, color_picker: color_picker, picker_type: picker_type, form: form, is_disabled: is_disabled %}
 {%- endif -%}
 

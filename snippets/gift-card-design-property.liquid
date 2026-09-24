@@ -1,0 +1,122 @@
+{% comment %}
+  Copies the shopper's chosen gift card Design into a line item property so it
+  travels through to the gift card email and the gift card page.
+
+  HOW IT READS THE DESIGN (changed 9 Sep — this matters)
+  The first version mapped the selected variant id to a design. That raced with
+  the theme: on a click, this snippet's change handler ran before the theme had
+  updated the form's variant id, so it captured the PREVIOUS variant. Pick
+  Popinjay then Badass and the order said Popinjay. Silently wrong, and wrong in
+  the one way this whole feature exists to prevent.
+
+  It now reads the checked Design radio directly — the button the shopper can see
+  — and re-reads it on submit in the capture phase, before the theme builds the
+  cart request. There is no ordering left to get wrong.
+
+  Also swaps the variant picker for gift cards. The theme's custom picker
+  (.product-custom-variants) renders every option's radios into a SINGLE group
+  named "dann", which is fine for a one-option product but breaks the moment
+  there are two — choosing a Design unchecks the Amount, no variant resolves, and
+  the button reads UNAVAILABLE. The theme's native <variant-selects> handles any
+  number of options correctly and is already on the page, just hidden by
+  custom.css. These rules only load on gift card products.
+
+  Accepts:
+  - product: {Object} product object.
+  - section: {Object} section this snippet belongs to.
+{% endcomment %}
+{%- if product.gift_card? -%}
+	<style>
+		.product-information variant-selects,
+		#Product-Drawer variant-selects {
+			display: block;
+		}
+		.product-information .product-custom-variants,
+		.side-panel-content .product-custom-variants {
+			display: none !important;
+		}
+
+		/* The theme's "selected" state only shifts a 1px border between
+		   --color-border (#3A3A2F) and --color-body (#0F0D0A) — two dark tones
+		   a hair apart, invisible on the Inkkas palette. Match how sizes read
+		   on a shoe page instead: filled black, white text. */
+		.product-information .variations .product-form__input--block input[type="radio"] + label {
+			transition: background-color 120ms ease, color 120ms ease, box-shadow 120ms ease;
+		}
+		.product-information .variations .product-form__input--block input[type="radio"]:hover + label {
+			box-shadow: 0 0 0 1px #000 inset;
+		}
+		.product-information .variations .product-form__input--block input[type="radio"]:checked + label {
+			background-color: #000;
+			color: #fff;
+			box-shadow: 0 0 0 1px #000 inset;
+		}
+	</style>
+	{%- liquid
+		assign has_design_option = false
+		assign design_index = 0
+		for option in product.options_with_values
+			if option.name == 'Design'
+				assign has_design_option = true
+				assign design_index = forloop.index0
+			endif
+		endfor
+	-%}
+	{%- if has_design_option -%}
+		<input
+			type="hidden"
+			name="properties[Design]"
+			id="GiftCardDesign-{{ section.id }}"
+			value="{{ product.selected_or_first_available_variant.options[design_index] | escape }}"
+		>
+		<script>
+			(function () {
+				var sectionId = {{ section.id | json }};
+				var hidden = document.getElementById('GiftCardDesign-' + sectionId);
+				if (!hidden) return;
+
+				var form = hidden.form || hidden.closest('form');
+
+				/* Read the Design the shopper can actually see. Scoped to this
+				   section's picker so the sticky bar's Design--sticky radios,
+				   which belong to no form, can never be picked up by mistake. */
+				function currentDesign() {
+					var picker = document.getElementById('variant-selects-' + sectionId);
+					if (!picker) return null;
+
+					var fieldsets = picker.querySelectorAll('fieldset');
+					for (var i = 0; i < fieldsets.length; i++) {
+						var fs = fieldsets[i];
+						if ((fs.getAttribute('data-handle') || '').toLowerCase() !== 'design') continue;
+
+						var checked = fs.querySelector('input[type="radio"]:checked');
+						if (checked && checked.value) return checked.value;
+
+						var select = fs.querySelector('select');
+						if (select && select.value) return select.value;
+					}
+					return null;
+				}
+
+				function sync() {
+					var design = currentDesign();
+					if (design) hidden.value = design;
+				}
+
+				/* Capture phase: runs before the theme's own submit handler builds
+				   the FormData, so the value that goes to the cart is the value on
+				   screen at the moment of the click. This is the one that counts. */
+				if (form) {
+					form.addEventListener('submit', sync, true);
+					form.addEventListener('change', sync);
+				}
+
+				/* Keep it current between clicks too, so anything inspecting the
+				   form mid-session sees the truth. */
+				document.addEventListener('product:variant-change', sync);
+				document.addEventListener('DOMContentLoaded', sync);
+				sync();
+			})();
+		</script>
+	{%- endif -%}
+{%- endif -%}
