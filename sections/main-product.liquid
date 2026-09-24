@@ -580,65 +580,157 @@
   <script src="{{ 'product-model.js' | asset_url }}" defer></script>
 {%- endif -%}
 
-{%- liquid
-  if product.selected_or_first_available_variant.featured_media
-    assign seo_media = product.selected_or_first_available_variant.featured_media
-  else
-    assign seo_media = product.featured_media
-  endif
--%}
+{%- capture ai_oke_aggregate -%}
+  {%- assign ai_oke_summary = product.metafields.okendo.ProductListingSnippet | append: '' -%}
+  {%- if product.metafields.okendo.summaryData.reviewCount > 0 -%}
+    {"@type":"AggregateRating","ratingValue":{{ product.metafields.okendo.summaryData.reviewAverageValue | json }},"bestRating":5,"ratingCount":{{ product.metafields.okendo.summaryData.reviewCount | json }}}
+  {%- elsif product.metafields.okendo.ReviewCount > 0 -%}
+    {"@type":"AggregateRating","ratingValue":{{ product.metafields.okendo.ReviewAverageValue | json }},"bestRating":5,"ratingCount":{{ product.metafields.okendo.ReviewCount | json }}}
+  {%- elsif ai_oke_summary contains 'Rated ' and ai_oke_summary contains 'Based on ' -%}
+    {%- assign ai_oke_rating = ai_oke_summary | split: 'Rated ' | last | split: ' out of 5' | first | plus: 0 -%}
+    {%- assign ai_oke_count = ai_oke_summary | split: 'Based on ' | last | split: ' review' | first | plus: 0 -%}
+    {%- if ai_oke_rating > 0 and ai_oke_count > 0 -%}
+      {"@type":"AggregateRating","ratingValue":{{ ai_oke_rating | json }},"bestRating":5,"ratingCount":{{ ai_oke_count | json }}}
+    {%- endif -%}
+  {%- endif -%}
+{%- endcapture -%}
+{%- assign ai_oke_aggregate = ai_oke_aggregate | strip -%}
 
+{%- assign ai_shipping_returns = '' -%}
+{%- assign ai_comfort_fit = '' -%}
+{%- assign ai_care_instructions = '' -%}
+{%- for block in section.blocks -%}
+  {%- if block.type == 'collapsible_tab' or block.type == 'collapsible_tab_2' -%}
+    {%- assign ai_tab_heading = block.settings.heading | default: block.settings.page.title -%}
+    {%- assign ai_tab_heading_lc = ai_tab_heading | downcase -%}
+    {%- if ai_tab_heading_lc contains 'shipping' or ai_tab_heading_lc contains 'comfort' or ai_tab_heading_lc contains 'fit' or ai_tab_heading_lc contains 'care' -%}
+      {%- capture ai_tab_body -%}{{ block.settings.content }}{{ block.settings.page.content }}{{ block.settings.custom_liquid }}{%- endcapture -%}
+      {%- assign ai_tab_body = ai_tab_body | strip_html | strip_newlines | strip -%}
+      {%- if ai_tab_body != blank -%}
+        {%- if ai_tab_heading_lc contains 'shipping' -%}
+          {%- assign ai_shipping_returns = ai_tab_body -%}
+        {%- elsif ai_tab_heading_lc contains 'comfort' or ai_tab_heading_lc contains 'fit' -%}
+          {%- assign ai_comfort_fit = ai_tab_body -%}
+        {%- elsif ai_tab_heading_lc contains 'care' -%}
+          {%- assign ai_care_instructions = ai_tab_body -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
 
+{%- capture ai_reviews -%}
+  {%- assign ai_oke_html = product.metafields.okendo.ProductReviewsWidgetSnippet | append: '' -%}
+  {%- assign ai_oke_parts = ai_oke_html | split: 'class="okeReviews-review js-okeReviews-review" data-oke-reviews-review-id="' -%}
+  {%- assign ai_rev_count = 0 -%}
+  {%- assign ai_rev_sep = '' -%}
+  {%- for ai_rev in ai_oke_parts offset: 1 -%}
+    {%- if ai_rev_count >= 7 -%}
+      {%- break -%}
+    {%- endif -%}
+    {%- assign ai_rev_parts = ai_rev | split: 'data-oke-reviews-reviewer-name="' -%}
+    {%- assign ai_rev_author = ai_rev_parts[1] | split: '"' | first | strip -%}
+    {%- assign ai_rev_parts = ai_rev | split: 'okeReviews-review-starRating">' -%}
+    {%- assign ai_rev_score_part = ai_rev_parts[1] | split: 'Rated ' -%}
+    {%- assign ai_rev_score = ai_rev_score_part[1] | split: ' out of 5' | first | plus: 0 -%}
+    {%- assign ai_rev_parts = ai_rev | split: 'data-oke-reviews-date="' -%}
+    {%- assign ai_rev_date = ai_rev_parts[1] | split: '"' | first | date: '%Y-%m-%d' -%}
+    {%- assign ai_rev_parts = ai_rev | split: 'okeReviews-review-main-heading">' -%}
+    {%- assign ai_rev_title = ai_rev_parts[1] | split: '</h2>' | first | strip_html | strip -%}
+    {%- assign ai_rev_parts = ai_rev | split: 'okeReviews-review-main-content-body">' -%}
+    {%- assign ai_rev_body = ai_rev_parts[1] | split: '</div>' | first | strip_html | strip_newlines | strip -%}
+    {%- if ai_rev_author != blank and ai_rev_body != blank and ai_rev_score > 0 -%}
+      {%- assign ai_rev_count = ai_rev_count | plus: 1 -%}
+      {{- ai_rev_sep -}}{"@type":"Review",{% if ai_rev_title != blank %}"name":{{ ai_rev_title | json }},{% endif %}"author":{"@type":"Person","name":{{ ai_rev_author | json }}},{% if ai_rev_date != blank %}"datePublished":{{ ai_rev_date | json }},{% endif %}"reviewBody":{{ ai_rev_body | json }},"reviewRating":{"@type":"Rating","ratingValue":{{ ai_rev_score }},"bestRating":5,"worstRating":1}}
+      {%- assign ai_rev_sep = ',' -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
 
-
-
-<script type="application/ld+json">
+{% comment %} <script type="application/ld+json">
   {
-    "@context": "http://schema.org/",
+    "@context": "https://schema.org/",
     "@type": "Product",
+    "@id": {{ request.origin | append: product.url | append: '#product' | json }},
     "name": {{ product.title | json }},
     "url": {{ request.origin | append: product.url | json }},
-    {% if seo_media -%}
-      "image": [
-        {{ seo_media | image_url: width: seo_media.preview_image.width | prepend: "https:" | json }}
-      ],
-    {%- endif %}
+    "mainEntityOfPage": {{ canonical_url | json }},
     "description": {{ product.description | strip_html | json }},
-    {% if product.selected_or_first_available_variant.sku != blank -%}
+    "image": [
+      {%- for image in product.images limit: 10 -%}
+        {{ image | image_url: width: 1920 | prepend: 'https:' | json }}{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ],
+    "productID": {{ product.id | append: '' | json }},
+    {%- if product.selected_or_first_available_variant.sku != blank %}
       "sku": {{ product.selected_or_first_available_variant.sku | json }},
     {%- endif %}
     "brand": {
       "@type": "Brand",
       "name": {{ product.vendor | json }}
     },
+    {%- if product.type != blank %}
+      "category": {{ product.type | json }},
+    {%- endif %}
+    {%- if product.tags != blank %}
+      "keywords": {{ product.tags | join: ', ' | json }},
+    {%- endif %}
+    {%- capture ai_additional_properties -%}
+      {%- assign ai_ap_sep = '' -%}
+      {%- if ai_shipping_returns != blank -%}
+        {{ ai_ap_sep }}{"@type":"PropertyValue","name":"Shipping & Returns","value":{{ ai_shipping_returns | json }}}
+        {%- assign ai_ap_sep = ',' -%}
+      {%- endif -%}
+      {%- if ai_comfort_fit != blank -%}
+        {{ ai_ap_sep }}{"@type":"PropertyValue","name":"Comfort & Fit","value":{{ ai_comfort_fit | json }}}
+        {%- assign ai_ap_sep = ',' -%}
+      {%- endif -%}
+      {%- if ai_care_instructions != blank -%}
+        {{ ai_ap_sep }}{"@type":"PropertyValue","name":"Care Instructions","value":{{ ai_care_instructions | json }}}
+        {%- assign ai_ap_sep = ',' -%}
+      {%- endif -%}
+    {%- endcapture -%}
+    {%- assign ai_additional_properties = ai_additional_properties | strip -%}
+    {%- if ai_additional_properties != blank %}
+      "additionalProperty": [{{ ai_additional_properties }}],
+    {%- endif %}
+    {%- if ai_oke_aggregate != blank %}
+      "aggregateRating": {{ ai_oke_aggregate }},
+    {%- endif %}
+    {%- if ai_reviews != blank %}
+      "review": [{{ ai_reviews }}],
+    {%- endif %}
     "offers": [
       {%- for variant in product.variants -%}
         {
-          "@type" : "Offer",
-          {%- if variant.sku != blank -%}
+          "@type": "Offer",
+          "name": {{ variant.title | json }},
+          {%- if variant.sku != blank %}
             "sku": {{ variant.sku | json }},
-          {%- endif -%}
-          {%- if variant.barcode.size == 12 -%}
-            "gtin12": {{ variant.barcode }},
-          {%- endif -%}
-          {%- if variant.barcode.size == 13 -%}
-            "gtin13": {{ variant.barcode }},
-          {%- endif -%}
-          {%- if variant.barcode.size == 14 -%}
-            "gtin14": {{ variant.barcode }},
-          {%- endif -%}
-          "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
-          "price" : {{ variant.price | divided_by: 100.00 | json }},
-          "priceCurrency" : {{ cart.currency.iso_code | json }},
-          "url" : {{ request.origin | append: variant.url | json }}
+          {%- endif %}
+          {%- if variant.barcode.size == 12 %}
+            "gtin12": {{ variant.barcode | json }},
+          {%- endif %}
+          {%- if variant.barcode.size == 13 %}
+            "gtin13": {{ variant.barcode | json }},
+          {%- endif %}
+          {%- if variant.barcode.size == 14 %}
+            "gtin14": {{ variant.barcode | json }},
+          {%- endif %}
+          "price": {{ variant.price | divided_by: 100.00 | json }},
+          "priceCurrency": {{ cart.currency.iso_code | json }},
+          "itemCondition": "https://schema.org/NewCondition",
+          "availability": "https://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+          "url": {{ request.origin | append: variant.url | json }},
+          "seller": {
+            "@type": "Organization",
+            "name": {{ shop.name | json }}
+          }
         }{% unless forloop.last %},{% endunless %}
       {%- endfor -%}
     ]
   }
-</script>
-
-
-
+</script> {% endcomment %}
 
  <script type="text/javascript">
     var _learnq = _learnq || [];
